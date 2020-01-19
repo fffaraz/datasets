@@ -1,0 +1,7 @@
+https://github.com/first20hours/google-10000-english
+---
+https://download.geonames.org/export/dump/
+https://download.geonames.org/export/dump/countryInfo.txt
+---
+https://github.com/jordanbonilla/Ranktank
+---
