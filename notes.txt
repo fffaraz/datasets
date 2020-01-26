@@ -7,3 +7,7 @@ https://github.com/jordanbonilla/Ranktank
 ---
 http://country.io/data/
 ---
+https://datasetsearch.research.google.com/
+---
+https://opendata.rapid7.com/
+---
