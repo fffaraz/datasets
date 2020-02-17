@@ -12,3 +12,6 @@ https://datasetsearch.research.google.com/
 https://opendata.rapid7.com/
 ---
 http://odds.cs.stonybrook.edu/
+---
+https://github.com/simabasel/cib-data
+---
