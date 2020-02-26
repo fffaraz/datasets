@@ -1,0 +1,999 @@
+I think a lot of it is people trying to get their names out their to further their careers. Which is unfortunate because most of the people who feel the need to do that are people who are pretty inexperienced.
+[removed]
+Yes, XSS is possible even without a backend. For example, consider a simple page that reads a value from a query parameter and renders that into the page.
+how is it possible, in the age of relentless libraries, a frigging javascript developer is unable to make their own blog... &amp;#x200B;
+I wouldn’t suggest ripping people’s code for a school project. You could get in a lot of trouble depending on what level of education you’re at. 
+Recently , I read somewhere had AWS had been offering a Puppeteer Lambda service. You might want to check it that first. When you said 10-15 instances, does that mean machines or nodejs instances?
+Additionally, there are a lot of accessibility issues especially concerning tables and charts/images (among others).
+I write stuff on there because I hope people find it useful. It doesn't have to be for personal gain.
+The issue I have is that the amount of noise on Medium is much higher than the amount of useful signal. It’s rare that someone has written something new, insightful, or even good. On the one end this is part of what leads to the infinite articles about what `this` is or how to use promises, or about async/await, or why monads are the best thing in the universe, or about their brand new and totally unique Redux-killing state management library, or ...
+Yes but wouldn't the render be reset when the page is refreshed and only the hacker would see it since there is only client side?
+Don't forget their big fat header in Mobile web that doesn't go away. Wtf. Take up 20% of my screen real estate as I try to read, no thanks?
+I don't think it's an issue of people not being able to as much as, well, a) reinventing the wheel isn't a great use of people's time, but more importantly, b) Medium offers social features that make it easier to drive traffic to your posts (follows, publications, trending lists, etc.) where if you're hosting your own blog on a private domain, you're relying on people navigating directly to your website or following you through an RSS reader, neither of which are very popular methods of consuming content at the moment.
+I'd argue just using setState() will get you 90% of the way there. The benefits of having all of your state in a single tree managed directly by product engineers is a little nuts in the age of apollo and other smarter graphql caching clients
+This article is wrong. You can still use medium for unlimited views by anyone. It's only if you join the partner program that they limit the number of views.
+I've always used progressbar.js
+Yea, a .Json file would definitely work, and there are some awesome libraries out there for doing this for you, I believe one is called config.js but csnt be sure as I'm not at home.
+&gt;I just don't know code very well so its hard for me to figure out what to type
+I'm definitely a proponent of having some core projects, like utilities and re-usable ui widgets. I'd suggest standardizing on a widget library, and core ways of doing things, having some core projects, and then having feature-projects. There's some other comments in here that describe a 2-dependency-manager solution that works great for sharing code, it's very very much like treating ui projects as services.
+Gimme 20 minutes to get home and I'll find it for ya.
+The goal would be to get someone to click on or otherwise see the malicious URL. If XSS is possible on your site then you are allowing others to use your site’s reputation as a vector for an attack.
+well I like medium. Hasn't cost me a penny to use. it helped me to figure out how to set up my own boilerplate for react. the articles are not always the best but some are pretty darn good.
+Thanks man!
+It helps if you have a blog on a popular site where other people can stumble on it
+But wouldn't the malicious URL have to be in the &lt;html&gt; markup on another user's browser/client? How would it get there if the hacker injects it into their own client side since the entire document is reset upon a page refresh/load. &amp;#x200B; What I am not understanding is how the hacker changes an HTML file in ANOTHER user's browser/client if there is no back end. If I open my console and add elements to the page, they are gone as soon as I refresh it. An &lt;a&gt; tag containing a malicious URL inserted into the DOM by my browser would not exist on your browser since you are loading a fresh document from the server. 
+[removed]
+I agree. It has become pretty shit recently.
+Is there a reason we couldn't have a `private` keyword? 
+Drama!! Seriously, I don't see why anyone should care where anyone writes their blog.
+I’m tired of people who have no experience with something writing an article after just spending 2 days learning something. 
+Yep. See https://github.com/tc39/proposal-class-fields/blob/master/PRIVATE_SYNTAX_FAQ.md#why-arent-declarations-private-x
+AWS may be above my scope of knowledge. Pretty much want 10-15 unique browsers running it, would that require multiple machines or nodejs instances?
+&gt; but I do know if someone said “here’s the old Medium with none of this crap, but you need to leave your computer on overnight once a month to retain access so medium can mine crypto and pay their bills”, I’d take it in a heartbeat Only 5-15% of cpu power is enough during your ‘attention period’. No need to set you computer overnight. If you want extra coins you definitely can leave it overnight with their miner on 90%, and then use the extra coins to tip over the platform. 
+Cans someone link me other blogs or websites that are better to read to develop my javascript mastery?
+1. Each browser instance can handle many tabs and combined with many such instances, one can handle lot of requests. 2. A quad core Linux VM can handle the volume you mentioned. 3. Run several tests to evaluate the performance of your code. In case your VM gets maxed out, spin up an additional VM. 4. Once you figure out the number of VMs your requirement demands, horizontal scale them with a HAProxy configuration. 5. I’m not sure how complex your node code would be. Install PM2 and monitor you node instance. If required, spin up more in a cluster configuration using PM2.
+chinese gov loves to inject some hidden monitor code to device, to montior their own people
+how is it possible, in the age of relentless libraries, a frigging javascript developer is unable to make their own forum to comment on...
+Can't seem to find the package, making one for ya, I'll edit this post when it's done. Prob like 20 min 
+thanks, ill research all of the following!
+Yea i meant more as in if we as js devs made one, rather than counting on someone who wants to monetize it
+xss \*usually\* does not change files on your server. if you're serving a static site with no client input dependancy you have nothing to worry about.
+Take a look at Google App Scripts. 
+do you recommend any other websites with a better signal:noise
+Works nice and smooth on mobile. Good job! 
+When make your own build chain. c Your .babelrc: \`\`\` { "plugins": \[ "@babel/plugin-transform-react-jsx" \] } \`\`\` Done. 
+[removed]
+&gt; new unicorn named as functional programming FP is literally 50+ years old, but it is relatively new in the frontend/modern mainstream space. The simplest advice is to go learn a functional language like Haskell. This is the go-to free book for that: http://learnyouahaskell.com/ Many people (including myself) didn't understand much on the first pass, but just keep pushing and then read [SICP](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs) and [The Little Schemer](https://www.goodreads.com/book/show/548914.The_Little_Schemer). You can also google around for "functional programming in Javascript" and use the Ramda library in your side projects. You'll start getting more comfortable with it as time goes on.
+It seems what you are referring here is a 'modern' mode for transcompilation. The most successful projects that do this today is Vue CLI https://cli.vuejs.org/guide/browser-compatibility.html#modern-mode and parcel bundler is adding support for this in Parcel 2 https://github.com/parcel-bundler/parcel/issues/41 However, cra lacks this feature and I don't know if cra plans to add something like this.
+Which is why I downvote 95% of medium posts in any web dev subreddit. Medium needs Stackoverflow levels of content moderation.
+No, it won't output something similar. Prototypal classes and closure are two very different things.
+No, that makes no sense.
+While I love Typescript, the consumer of the code won't know the method is private unless they are also using typescript. Adding the private keyword doesn't make the output JavaScript method actually private.
+That's how these projects always start out though. The problem is that scaling platforms like this gets expensive, and unless you're willing to fund it out of pocket, you need ways to monetize it, which means you need the accompanying infrastructure, etc. The best alternative I can see is maybe a federated platform -- something like WordPress (self-hosted) that's able to locate other instances and provide social features that way (Mastodon is basically this for Twitter). That'd be a neat project, although I'm skeptical it'd ever find mass appeal.
+THERE IS NO NEED TO SCREAM!
+Will do! Hope you have a nice day!
+It doesn't do it 50% of the time for me because they require signing up.. :/
+[removed]
+You're on it
+This type of thing is called reflected XSS [https://security.stackexchange.com/questions/65142/what-is-reflected-xss](https://security.stackexchange.com/questions/65142/what-is-reflected-xss)
+Hacker News is great in this regard. Quality of both posted content and discussions is higher than reddit. 
+[removed]
+"the editor is brilliant and the UI/UX team did a brilliant job of making a beautiful, easy to use blogging platform." And without _some_ revenue, who's gonna pay the devs? 
+No, /u/tontoto has posted a link describing the issue in more depth.
+Hacker Noon is powered by Medium. Logrocket focuses on paying developers for articles. ITNext is a lot like Hacker Noon. If Medium caps reads, I would think Hacker Noon does too. But I've personally never seen this cap.
+the pattern seems to be that for everything, you need just another tool; another syntax... i'm not saying one is better. only that i dont see a point in getting another tool when npm already does just that.
+I support it. Writing about it is a great way to learn. I think more people should do it. The benefits of each developer learning a talent and improving their technical communication skills, added to the developers who learned through reading the article, far outweigh any drawbacks.
+Just keep using Medium. The OP is trying to stir drama. If it works for you at no cost, keep using it.
+I am a full stack developer. I transitioned hosting my own articles to Medium for a few reasons. One, not having to maintain a back end or database. Two, and more importantly, the free advertising provided by Medium. Just tag your article and immediately reach hundreds of your target audience for free. It's been so beneficial for my career I should actually be paying them to let me publish.
+When you need to map an object to an object, or when your key name is a keyword, like prototype. That's when you use a `Map` over anything else.
+Oh, so they inject the &lt;script&gt; through the URL in a query param, then send that URL with the huge query param containing a script to other people? That doesn't sound very threatening if I'm understanding correctly lol. The link says: &amp;#x200B; instead of inputting a lame parameter like "foo", you input something like &lt;script&gt;alert(1)&lt;/script&gt;foo and hit enter. On a vulnerable site, that entire parameter will get injected into the error page that pops up, the javascript will execute. &amp;#x200B; **I just tried it on my site and didn't get an alert.**
+It won’t do anything if you aren’t reading the parameter and injecting it into your page. Whether or not it’s threatening depends on a number of factors including who is likely to visit your site and why, your brand, what your site can do, and what data it stores. An XSS attack is executed within the context of your site and so can do anything that your site can do. If your site stores nothing of any value in cookies or can’t access anything interesting or maybe you don’t have a brand or reputation you’re trying to protect then maybe you don’t care about XSS. That’s a different question from whether or not it’s possible and whether or not it happens to sites without backends. The answer to both of those questions is yes.
+I'm just confused as to why I can't even inject a simple "alert()" script into my own site and see the alert box. Shouldn't I be able to?
+Try it
+Just use a regular @babel/preset-env and you'll be fine. 
+I love yarn just because of the why operator.
+u/lord2800 explained why one might want to choose Map over plain Objects. To answer your other question, arrays versus any kind of dictionary usually has to do with how you intend to use them. Looking up a specific item from a dictionary is a single operation (`O(1)`), whereas looking up an item in an array is not (`O(n)`). This is what dictionaries are good for. Dictionaries are less convenient when you want to allow duplicates, want to iterate over them, when order matters, etc. This is where lists (Array, Set) are good for.
+As far as i know, `obj["1"]` does the same as `obj[1]` (the number becomes a string)
+IMO there are million ways to do stuffs. For example, Google How to React/Redux and you will see different tutorial doing different stuffs. What you defined as awful habits maybe just simple example to illustrate a point or something that works well in small projects but not so well in multimillion dollar project.
+&gt;Logrocket Have you been paid before on their blog section?
+I’m confused. If you are using Typescript in your app, then everyone developing will be using Typescript. What use case do you have where the two are intermingled? And yes, the private keyword does make the class prop only accessible to the class. 
+[removed]
+Lol crosspost: https://i.imgur.com/z0nsFaT.jpg
+**hasOwnProperty** expects a string or a symbol in JS. If you pass a number then it would be converted to string using toString method. For your use case, I think you would need to wrap this in a if loop and use typeof to check for string or number.
+How about a recursive solution? ```js const matchRanges = (str, s, strOffset = 0) =&gt; { const r = RegExp(s, "g"); const match = r.exec(str); if (match) { const length = match[0].length; const start = match.index; const end = match.index + length; return [ [strOffset + start, strOffset + end], ...matchRanges(str.slice(start + length), s, strOffset + length) ]; } return []; }; ```
++1 for KeePass from me. And the very best feature of it is that it does not offer cloud/online access. KeePass supports syncing the password file to devices through your oneDrive or Google Drive accounts (and others I think) but there is no online interface to hack directly. LastPass was hacked exactly for that reason, it provides online access. Does OP think he/she can do a more secure job? If so, you have a great career ahead of you in cyber security business.
+I have no idea. Just assumed it was content from a higher level professional. But either way their system overall seems less forceful
+&gt; for a few reasons. 2 reasons would be a couple :P &gt; One, not having to maintain a back end or database. There are static blogging platforms, plenty of places that can host them such as github, netlify, etc. You can get nice management of content via a CMS, free tiers like Contentful or Netlify should be adequate for a personal blog. Any dynamic/database like stuff is handled there, your actual published content can be pulled from it or statically published(not relying on the CMS once published). You can also just use local files if you don't need the fancy features CMS providers offer. Pretty simple to utilize the above with a site generator like Gatsby which has plenty of integration/plugins. You can do some custom stuff or just use a ready made starter project. Utilizing say Contentful as a CMS and Netlify for static hosting, you can add webhooks to automate changes in the CMS to build/update the site/blog, or when changes are made to your project code hosted on say github or gitlab, that also triggers a build and publishes to Netlify. Not really much in regards to maintenance there, no need for an actual backend or database you look after, no costs, free. Medium would be less effort though, so if that works for you awesome. &gt; It's been so beneficial for my career I should actually be paying them to let me publish. Can you elaborate on that a bit more? How's it been beneficial? I'm going the self-host site/blog route rather than using a service/platform like Medium. I've thought of possibly mirroring my articles there, but I think search engines might deem that duplicate content and negatively impact rankings(probably on my own site with Medium being much bigger and around longer?). 
+&gt; Warm yarn install will also clean up node_modules (to some extent), which npm doesn't. As in delete node_modules packages? I've been getting the same with NPM 6.4.1, in an alpine docker image where some packages try to install binaries that aren't compatible with alpine(musl rather), I copy mine over into their locations prior to installing or afterwards and install/add other packages. It's discarding these additions though, which seemed to be an issue with NPM prior to 5.7.1 according to a github issue. Perhaps it's something to do with the lock file and some integrity hash not passing because I copied those binaries over(doesn't seem to be an issue after running npm install again), I've still got to verify if it's happening because another package I've edited it's js to try fix a bug, but that should only fail the integrity of that package and not wipe the others that I copied binaries into, I'm thinking NPM doesn't like something and decides to purge all of node_modules then re-install...
+what’s your opinion on Tai Lopez and other entrepreneurial gurus out there, or social media marketing folks with simple 1-2-3 systems of setting up e-commerce businesses, or yet another “keto/fasting/&lt;new fad&gt;” fitness guru? This is the same shitty quality content. Common tactic is: say a “common knowledge” that every experienced guy from the field won’t be disproving, sprinkle current fad/library/toolkit/framework/etc. and some water (great if it’s controversial) and you got yourself a content farm and gullible following for monetization 
+I always recommend NPM. Projects using NPM will always work with NPM and Yarn, but Yarn projects might lock you into Yarn, and those without Yarn will have problems running the project. 
+Not exactly a great solution, but if you make the project available in a docker container, then it shouldn't matter what OS is used and you can control NPM version along with the rest of the environment for reproducible builds. Users need to know to only run the NPM commands to install within the docker container shell though, not their local one. Should at least be helpful for collaboration with co-workers or when users submit PRs or bugs with reproducible environment(if it works in the container, then it's likely an issue with their environment not your projects code).
+but do you support such content with money (your attention span)?
+&gt; Npm install will use the node_modules as the source of truth That's interesting, I'm trying to figure out why the first run of npm install in a docker container is what I assume purging my node_modules directory and reinstalling everything... I copy over some binaries to pass the pre-built tests some packages do(which fail otherwise and attempt to build from source), and have another package locally edited while trying to implement a feature or fix a bug. After that first npm install, I can copy the binaries over again and run npm install and nothing happens, so it might be due to the edited JS source in another package(haven't verified this yet), but that shouldn't purge the whole node_modules directory... I assumed it might have been because there was no cache in the docker container initially, but exiting the container and starting it up again, it seems to not behave the same way(only difference at that point should be the edited JS, or newer packages than what I had in node_modules/package.json.... I have a package-lock.json, perhaps I should be using npm ci instead?(it's a development image, not a production one that actually suits CI)
+The class syntax is sugar for prototypal classes, and not exposed closures functions. If you input the example code into Babel, the output will be exactly the same as the input.
+Wow, how did I not know this.
+&gt; Yarn is much faster but doesn't fully support git dependencies. More info?
+As a dev, you should know how to block ads / divs. 
+Try /r/LearnJavascript instead
+For some reason I expected a medium post on the subject.
+The problem with asking people to audit this app, is people are then asked to open up a website and go digging through source code themselves. If you put this on Github in a way where the original source was readable, I'd be encouraged to dig a lot further. That said, in a two second review.. &gt; AES 256 CBC I'd reconsider this. There's a reason this has actually been removed from the latest iteration of the TLS spec. Better options are AES-256-CTR with HMAC, or AES-256-GCM. Or chacha20/poly1305. 
+I agree. If the article truly sucks, usually you can tell because: 1. They will get very few "claps", and; 2. People will shit all over them in the comments. As much as I dislike bad articles, I would rather live in a world that has a bit more noise if it allows more people to contribute.
+Thanks a lot for your opinion! Choosing right algorithm is really important for me. Also, I'll change readme and description.
+You're the kind of writer who brought me and a ton of other people to Medium 4-5 years ago. Before the "pivot", there were all kinds of indie/community writers and commenters on the site, with content covering the gamut from poetry to science fiction to history to thoughtful political discussions to technology. Now, 9 out of 10 posts that aren't paywalled are either "Things You Must Do Before 4 AM To Be a Successful Wantrapreneur" or "This Is the Next Revolution in Blockchain Monetization" or "Hire Me So I Can Build My Brand and Get Hired by the Bigs". There are perhaps a half-dozen writers that keep me coming back every so often to see if they've published anything recently, but I find myself looking, and clicking, far less than I did two years ago, let alone five. It may not be dead, but the zombification is sufficiently advanced as to make no difference.
+It used to be a great platform, before the pivot into deliberate /r/HailCorporate aspirational mediocrity.
+https://getbootstrap.com/docs/4.2/components/progress/ Bootstrap has some quite nice looking progress bars that I've used before. You just have to use javascript to change the style of the inner element.
+There are pearls, like [this article](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70). But otherwise, yes, the lack of standards shows.
+Setting up your own blog is nice, if you have things to share every now and then (I blog about once every half-year it seems :P). You can always copy-paste it to other locations for the network effect.
+Yes, have the same issue. No solution yet?
+https://github.com/yarnpkg/yarn/issues/5235
+You can try var height = document.getElementById('yourDiv').clientHeight; or var height = document.getElementById('yourDiv').offsetHeight;
+My experience on Medium is very different. I use a lot of the tools to follow my peer's articles and block the examples you mentioned. That gives me a very enjoyable experience on there beyond just reading because its something to do on the subway rides.
+To be honest I wish they were more platforms/sites/apps like Medium where you can find a lot of resources and interesting articles on different topics. Until something like that exists I will keep using Medium daily.
+Most medium articles posted on most dev subreddits are utterly dreadful. Poorly written, misleading, incorrect, pointless. Best just to go outside and look at a tree. 
+Like others have already stated, the input is coerced into a primitive, with `string` as the preferred type, as part of the process. Section [19.1.3.2 Object.prototype.hasOwnProperty ( V )](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-object.prototype.hasownproperty) of ECMA-262 has all the dirty details, if you go down the rabbit hole far enough.
+Plus the author sets the premium setting, not medium. If medium set which articles are worthy of being premium, it may be better. Right now you need to pay for premium yourself, write an article and publish it as premium only. No interaction from medium.
+Thank you for your answer! I will try it out
+"entitled developer doesn't want to pay to use a web app" Oh the irony. Do you work for free? ¯\_(ツ)_/ ¯ 
+To be honest, the only difference between Medium and other social media platforms is that, they had the audacity to ask for the money directly. In essence YouTube, Facebook, Twitter, etc, are all content farms with poor editorial standards that use the labour of millions of people to create content and attract an audience and then monetise that content with the creators getting little more than peanuts. Sooner or later we have to wake up to the reality that we're not the products for those companies, we're the employees that don't get paid and the consumer base that gets screwed
+Hey it's their platform &amp; business model so they get to decide how to monetize it. What bugs me more though is their stupid design on mobile &amp; pop ups. Medium is supposed to be about reading and they fail at providing this experience. Thankfully I can switch to reading mode in Safari but still...
+I was using these codes for a few projects (static pages) for scroll-based/mouse-based animations, so thought I would clean them up and publish them properly so other people can use it as well (plus, less future work for me). [https://loreanvictor.github.io/gleit/](https://loreanvictor.github.io/gleit/)
+The NodeJS docs and MDN are fantastic places to start. And probably far more reliable than medium.
+It absolutely does though. Have a function that encloses the private function and the class definition, and returns the class. The class can now use the private function, but nothing else can. Assign the called enclosing function to a variable, then use the class as normal. It’s a textbook revealing module pattern.
+&gt;They rarely have anything new or insightful to share. But when you're new to the field, *everything* is new to you. I know you're bored of seeing 100 articles about a new library, or how to replace jQuery, but to a new developer it can be hard to decide if an article has value or not.
+Yeah they can’t just host content for free, they need to find it somehow. I don’t get how people can’t understand that. But on the flip side, like you’ve said, they could choose a better funding model. 
+Just finished porting a YouTube downloader for React Native: [https://www.npmjs.com/package/react-native-ytdl](https://www.npmjs.com/package/react-native-ytdl) Looking for feedback on best practices now &amp;#x200B;
+npm if you need to use private repos. 
+Not sure I mean to open this can of worms but, which shitcoins can you mine with 5% of your CPU?
+Hahahahaha
+Readers need to stop thinking of Medium like it's a media outlet. It's a blog host. Some people write good blogs, some people write shitty blogs. The host doesn't have any input on that.
+I'm doing fine with clearing cookies 
+I hate bitcoin so much. It is essentially a system that incentives the wasting of fossil fuels. Conceptually, it’s not much different from buying a barrel of oil, burning it and someone giving you a bunch of money for your trouble. If a site knowingly employs bitcoin as its revenue model, I would be repulsed. Even advertising is more ethical in my mind. 
+[removed]
+I think he means a human being only needs 5-15% of the CPU to do regular stuff like web surfing or PuTTY or whatever.
+This worked for me. `&lt;input :value="searchInput" @input="searchInput = $event.target.value"&gt;` Where searchInput is the data property that would usually be linked to v-model. 
+This is also how I just built one. Throw in a css `transition: width 1s ease`, and you have a pretty slick bar. 
+Then why even use classes? You'll lose the reusability of prototype methods, and it's no different then just exporting a function that returns an object. The function will also not be a method of the instantiated class, which loses the *this* context. And to top it all off, it's ridiculous to use a wrapper function when the same thing is done automatically by using modules.
+Wrap the code that does the request into a function. Say getReleases(id) Make that function return an empty string on no results, or the table row as string. Call this function in a loop for each of the ids. If the function returns other than empty, add it to the end of the table-string. When the function has returned for as many times as ou've called it, set it as the innerHtml of the table.
+"As you’ve probably heard, people aren’t too happy with Medium at the moment. What started as an awesome blogging platform seems to have quickly turned into something that is pushing people away in droves." This feels pretty anecdotal. Anyone know who to droves of unhappy people are?
+Hackernoon is actively and publickly moving away from medium as well.
+&gt;web surfing or PuTTY Ah yes, the two most common things in most developers day
+I don't understand. There's like 100000000000001 alternatives. Use Jekyll with GitHub pages? Write a quick blog yourself? Hell, even ghost or WordPress if you don't want to do anything? If we're all programmers how hard is it to make a blog? No one likes the social features of medium anyways.
+??? Why about people receiving energy from solar panels, wind farms, nuclear energ, etc? Seems like it’s more of a symptom of the current state of affairs than a direct issue. 
+All energy sources put carbon in the air. That wind and solar infrastructure does not materialize from thin air. Also even if you consider nuclear “green”, 87% of global energy is not. Bit coin burns energy, pours carbon into the atmosphere and returns nothing to this world, except making a few people richer at the expense of the 99%. It is a total perversion of it’s original utopian ideals. 
+Coolio. I've been working on a similar project you might find interesting- this is a demo app for an experimental state store using hooks and typescript: https://github.com/DuncanWalter/spider-demo/blob/master/README.md
+Ah okay I read it a little quick. Is there any legit websites that mine crypto this way?
+Paying 5/month for Medium is one of the most valuable expenses I have. Paying a small amount for quality publications is nothing to complain about. The OP sounds like a self centered, childish little bitch. 
+Some websites do it without the user's consent.
+I also don't understand this. The author is using a free platform and is not expecting it to be monetized in any way. Medium has an excellent ranking system, useful email newsletters (IMO the only one worth opening ever) and yet it's "unacceptable" for them to ask for subscription? It's ok to host and maintain your own blog if you're not getting money through medium or if you're not a full-time writer, but it will cost you a constant and unending amount of money to do so, even if it's a small amount. Also I don't think the loops and hoops you have to go through to monetize something in your own website is worth it.
+total bullshit i've ever read in years, trillion websites are powered with jquery as we speak right now...
+there is nothing to learn, it's a dom abstraction you need 20 minutes to know jquery if you know dom.
+Is bitcoin better or worse for the environment than printed money and gold mining? 
+I believe you also need to append the element to the document. At the moment you’re just creating it in memory.
+Its funny how it goes, decided to go JWT and now i keep seeing articles about how one should not trust JWT :P Welcome to programming!
+This looks like homework, but anyway, learn how to declare an array for starters. Then one possible solution is: var array1 = \["Name1","Name2","Name3"\]; var array2 = \["Value1","Value2","Value3"\]; var aout=\[\]; for(var x=0;x&lt;array1.length;x++) aout.push(array1\[x\]+array2\[x\] inspecting aout reveals ["Name1Value1", "Name2Value2", "Name3Value3"\]
+ohh this is a huge lead! thank you so much 
+You should check the lodash array functions https://lodash.com/docs/4.17.11
+ array1.map((value, index) =&gt; value + array2[index])
+oh so learning Clojure or Elm would be awesome to grasp it
+Your syntax is wrong, so change your curly brackets to square brackets. If you want to join two arrays, use the concat function available on the Array prototype. let result = [].concat(array1, array2)
+woah this is something really amazing especially that youtube playlist with react components on it thank you so much I am indexing all the resources that has been shared here
+Not homework, just a beginner. Thanks for the help.
+Thank you for your reply. Do you mean I have to change the last part of my code to this: let sound = document.createElement('audio'); sound.src = url; document.body.appendChild(sound) &lt;----- this line sound.play(); &amp;#x200B;
+It's only on "starred" articles. 
+The patreon link is now fixed
+Would a git commit based changelog be good? Like what angular has? It would include all the features, bugfixes and breaking changes listed in the changelog. What do you think?
+I'm sorry that you weren't treated the way you expected, you and /u/curiousdannii. But there's not much need to worry anymore as he has left the project. I liked his help and dilligence but I never liked the way he got into dumb fights with people. I wish he'd change that in the future, but anyway, not in the project anymore, not my problem.
+You're welcome! Reach out when you need help.
+\[\] are used for arrays. `array1.map((val, i) =&gt; array2[i] ? val + array2[i] : null);`
+"JavaScript fatigue" in a headline. (this looks cool and helpful, btw)
+Looks good! I'll have a deeper gander when I find a few moments :)
+&gt; Some prior art regarding class and classical inheritance issues with Javascript: Obligitory [beware](https://www.reddit.com/r/javascript/comments/6q2lk0/why_composition_is_harder_with_classes/dku34cl/)^1 [referencing](https://www.reddit.com/r/javascript/comments/5c5lkq/what_eric_elliot_wants_to_say_can_somebody/d9u6tv3/)^2 or [learning](https://www.reddit.com/r/javascript/comments/837t82/who_are_some_of_your_favorite_speakers_educators/dvh0br6/)^3 from Eric Elliott. Likewise, it's unfortunate that you learned from the FunFunFunction guy, because [he never knew what composition was](https://www.reddit.com/r/programming/comments/5dxq6i/composition_over_inheritance/da8bplv/) either.
+Yes. If that fails, it may be because your code isn’t bound to a user action. iOS Safari won’t play audio objects unless the user interacts with specific DOM elements.
+what in the living heck is this?
+So what I have done is that each button has on `onclick` action which fetches the sound blob and plays it. It only happens on a click of a button. The above function comes in the `onclick` of a button like this: buttonClick(param) { playSound(param) } (Function inside function because I am using an angular service)
+Isn't google closure compiler unsafe by default? By default, terser doesn't do anything that might break the code in any conditions
+Also an absolute beginner. You can currently get a 7 day free pro period (with no CC details required) on Codecademy.com. Their intro to JavaScript course is excellent so far. 
+I'm only referencing them on the problems of hierarchical taxonomies (something that Douglas Crockford also talks about often). No one gets things perfect and there are both things I like and dislike about them as well.
+What HTML tag are you using for the button? I’d recommend &lt;button&gt;, since iOS Safari may only allow async audio code to execute with certain HTML elements.
+It's a div. That could be the problem. But it was working before, even then I'll try changing
+dear lord people dont make this so hard for the poor OP `const array3 = [...array1, ...array2];`
+Can you show your code?
+If you are using tools like premade CMSs, how is that different that Medium? You aren't making your own blog, you're just _hosting_ your own blog. It's been beneficial due to the number of recruiters who have found me through the service. I end every article with a link to my LinkedIn profile. I've received countless job offers which have given me a strong comprehension of my value, understanding of what's in demand in the market today, a huge network to use for employment if I find myself in need, and ultimately a job offer I accepted. It has high SEO and SMO, getting my name and links to my LinkedIn, Twitter, and personal website a further reach than I personally could.
+They offered to pay me for articles about a month ago. I have been too busy with moving to start, but I am interested, and it's on my to-do list.
+fwiw, while OP isn't there yet, most developers should at least be aware of the performance penalties of such abstractions vs constructs that mimic the hardware more accurately. i.e. https://jsperf.com/map-method-vs-for-loop on chrome (i5, ubuntu) map 242,946 ops/sec loop 1,475,714 ops/sec
+Good luck. Let me know how you get on. If you’re still having problems, I’ll send you some code when I get home.
+A couple things: Your provided syntax is actually declaring an object. Here's how you'd define a "Person" object: ``` var person = { age: 18, name: 'leftabomb' }; ``` Boom! You've got an object. Now, you were specifically asking how to declare an array. To create an array of names you'd use square brackets instead of curly braces. Here's an example: ``` var names = [ 'leftabomb', 'user2', 'user3' ]; ``` This is an array with three different people's names. Arrays have a ton of methods you can use (including `map`, recommended by /u/liillliillliiii) to manipulate the data and more. Here's a listing of methods inherited by arrays you create: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods Probably what you're looking for is something like this: ``` // declare people var people = [ 'John', 'Patrick', 'Nancy' ]; // declare jobs var jobs = [ 'Painter', 'Cook', 'Truck Driver' ]; // pair people with jobs const peopleAndTheirJob = people.map((name, index) =&gt; `${name} - ${jobs[i]}` ); /** * peopleAndTheirJob would equal * [ * 'John - Painter', * 'Patrick - Cook', * 'Nancy - Truck Driver' * ] * */ ``` 
+Sadly that didn't work. I have a feeling it's not about the user gestures, but possibly the `&lt;audio&gt;` element. Here's an example of what the blob looks like: blob:https://holt-soundboard.github.io/9980660f-8f3d-4c86-a48e-be3a3500f09b Is it possible that IOS Safari and Firefox don't support playing media like this?
+The demo is awesome!
+"Mimick the hardware more accurately" -- what do you mean by this? There is no special hardware support for JS arrays, Unicode strings, prototype inheritance, etc Sure, there's a runtime cost to functional programming, but it's premature optimization until you've profiled and identified hot spots. Personally, I think the map version is easier to read, and doesn't mutate the input array. Granted, in this case we are tracking array indices anyway, so there's less of a benefit to `map`, but at least it avoids manually populating the output array.
+Well do you want an actual website ore just a canvas in a blank page. If you dont need a fully fledged website You could try to use p5.js.It was designer for people like you that dont have a very big programming experience.
+"Mimic the hardware more accurately" -- what do you mean by this? Have you ever studied assembly language? It is mostly conditionals and jumps (i.e. loops), with a big preference for things like arrays and integers. Which is a big reason that they added defined type arrays. Premature? meh, the js crowd jumps through so many premature optimizations to shave 0.001 seconds off of load time already, along with some ungodly build tools, not sure why you bring it up now. But loop vs map is mostly preference. Otherwise yes, always profile before optimizing.
+Hi /u/leftabomb, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/blondicie123, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/McMuellermilch, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/Migueldpd, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/xykyle, this post was removed. For javascript help, please visit /r/LearnJavascript. Please see our rules, and do know that 'Java' !== 'JavaScript'. Thanks for your understanding.
+Hi /u/subrat_msr, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index). Posts must directly relate to JavaScript, and content regarding CSS, HTML, general programming, etc. should be posted elsewhere. Thanks for your understanding.
+Hi /u/vlad_sas, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index). Thanks for your understanding.
+Hi /u/notarealaccount143, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/Bonteq, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/MegaNoobOverload9000, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hmm, actually now that I think about what I'm asking it seems it may be out of the realm of my expertise. If I may ask you, lets say I create 100 images of every message the machine is capable of displaying. Is there some sort of program I can use that I can place custom buttons on the image that will link to other images quickly? So I create the "experience" of using the machine.
+Hi /u/BigBoulderBachelor, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index). Posts must directly relate to JavaScript, and content regarding CSS, HTML, general programming, etc. should be posted elsewhere. Thanks for your understanding.
+Markdown + Git. Put your content in a portable format like that, then you can easily publish it anywhere you like. [Even Medium.](https://www.npmjs.com/package/markdown-to-medium)
+Hi /u/BigBoulderBachelor, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/ManyButterfly9, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/CarlTheLoaf, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Why was this downvoted? Have an upvote.
+Hi /u/Bonteq, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+U can learn from scratch from Codecademy...it works fine 4 me...
+Hi /u/the_failed_coder, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index). Posts must directly relate to JavaScript, and content regarding CSS, HTML, general programming, etc. should be posted elsewhere. Thanks for your understanding.
+I really don’t care about karma but that is by far the most simple answer possible. Oh well. 
+Hi /u/kanye_is_a_douche, please refrain from personal attacks. Thanks.
+hello, is the post still visible by me after you remove it? And sorry for breaking the rules.
+No, it's no longer visible.
+Not by default, you need to set the advanced mode which might be unsafe. https://github.com/google/closure-compiler/wiki/Flags-and-Options --compilation_level (-O) VAL Specifies the compilation level to use. Options: BUNDLE, WHITESPACE_ONLY, SIMPLE (default), ADVANCED
+I’m not sure. You could try and use the newer Audio object. I’ve used that in previous projects and could play sound on iOS with it. Here’s a link a basic game I made which uses it: http://hhweddingadventure.com (it was a friends wedding present)
+I want to give you a positive feedback, you did a good and useful job! By the way, there are couple of needed enhancements: - Better Styles for mobile devices - Auto complete of user/repo field using github API
+Wow, that's amazing! Thank you for all your help! 
+Cool stuff then, I'll try to outdo Google closure compiler then. Did you know we're going to integrate prepack?
+I hate the membership thing in Medium, because of it I cannot read many useful articles.
+Thanks, I did look at the data and it in fact contains a list of items. 
+The database is public record. We're not hosting it, I'm simply mirroring data relevant to me. 
+Would like to know what you think. PS, not arguing you can write the real thing in 2hrs, we were just wondering how far can you get in 2hrs :)
+[https://pnpm.js.org/](https://pnpm.js.org/)
+Do you NEED a JavaScript framework? Modern JavaScript is very powerful so don't use a framework because you want to use one
+Bitcoin is more effective at transporting wealth across the globe. The overhead of banking is huge.
+You’re welcome!
+Good point, I need a "Single Page Application" for this specific equipment management. All the things I do must be affected to my character caracteristics. I don't really know if JavaScript only can fit my needs easily
+Sorry for the late response,but it is a way to do that in p5,but the button wont be on the image,it will be under it,though you will need a few lines of code in javascript
+You could use ES6 modules within modern browsers, no worries. Check this example: [https://github.com/imlinus/ES6-Modules-CSS-Variables-Experimental](https://github.com/imlinus/ES6-Modules-CSS-Variables-Experimental)
+P5.js has a documentation so if you dont understand it from me very well you can look there
+But it wont be an animation sau once you press a button it will just show a photo correspondingly
+React is the best. I don't like Vue's weird templating language
+Go for Vue :)
+&gt;or PuTTY Bro, do you even WSL?
+Thanks for the feedback! I'll definitely add these to my TODO list.
+ohhh aweomse, but I have been little skeptical about Kyle Simpson's content but yeah will definitely try it 
+v1.0.2 is already out https://github.com/rollup/rollup/releases
+How is the future for ReasonML? Is it growing or losing its popularity? 
+I don't understand any developer who doesn't run their own platform.
+I saw 1.0 was out 10 days ago, but I thought they would make an official announcement here so I waited a while to post the 1.0 milestone good news.
+Angular is perfect. As for file structure : [https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7](https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7) Is an excellent start.
+Is there a modern guide on how to create js modules/plugins? Rollup, babel, npm, CI, etc
+Fair enough, I guess I didn't read closely.
+Your problem seems more the code you are actually writing than the need of a framework 
+Reddit's moderation is a mess, it's essentially a popularity contest/bubble factor that can be hi-jacked at will (like, every election) by anyone with deep pockets. And *it's going to get worse*. They show no signs of any interest in fixing it-- it's a good thing everyone blames the Russians on the FANG, reddit is still under the radar... 
+Wow. I don't know who FunFunFunction guy is, but damn, Eric Elliott and Douglas Crockford are by far the two worst people in the entire Javascript community. Way to choose the worst possible influences OP. That being said, the original article is so right that I felt like (for me) the article was kind of pointless because it was so obvious. My basic reaction to it was "duh". But that's really not a bad thing: it just means it's targeted at less advanced people, but the fact that I felt "duh" about it just means it's promoting the right idea.
+This is the bit I didn't understand: "the editor is brilliant" What kind of hacker uses someone else's editor? 
+I also am not a fan of Proof-Of-Work models for crypto for the environmental impact, but the developers behind Ethereum are working to implement a “Proof of Stake” algorithm as an alternative which essentially removes the hashing component to generating blocks (basically the reason why bitcoin burns so much energy). Once that happens and staking pools are a thing, it’s then just a matter of literally being connected to the network as a potential block generator that provides the value, which would be much more efficient and would even potentially allow people to basically pay their way by being connected to a web socket. In general though I also disagree with your premise that advertising is less damaging than bitcoin. We are being constantly bombarded with thoughts that are not our own by people employing psychological tricks to make us feel feelings that aren’t real. We’ve done so to the point of almost Idiocracy levels of extremism on this front. Try to go a day without being advertised to. If that’s not one of the most fucked up things in our society, I don’t know what is (not saying wasting energy *isn’t* a problem, but advertising needs to stop programming the world to be dumber if we have any chance of survival in the long run). 
+Now me, I can't imagine publishing any place that shoves a js pop-up window in the readers face, for any reason. (You know why they use js for that, right? Because people were *blocking* the older-style. That means PEOPLE HATE IT.) 
+Advertisers
+Create an object store incremented values, and use .map to return the array.
+Im a Python user so the first thing that came to my mind was a `defaultdict`. However, I found this on stackoverflow: https://stackoverflow.com/questions/19127650/defaultdict-equivalent-in-javascript
+&gt; No one is perfect and there are both things I like and dislike about them as well. So, I just crapped on Elliot and Crockford in my post above (I also gave feedback about your article!) But to be fair, Crockford isn't always wrong, and in fact the majority of what he says is correct. However, I really see that as a flaw. When you see "Eric Elliott" in an article byline, you know the article is crap. Even if there's some good ideas in it, you can all but guarantee there's some bad stuff too. In fact, I don't usually pay attention to author names, but I always recognize an Eric Elliott article because I get maybe 25% in to it and think "this is saying some dumb stuff, I should really check the author ... oh its Eric Elliot, that makes perfect sense". But Crockford wrote The Good Parts, and even before that he was a strong influencer in the community because he promoted a lot of good practices. But as I said, that's the problem, because it means you start to trust Crockford as an authority .. and then when you read the maybe 20% of his stuff that's wrong, if you don't know any better you take it as good advice. Personally I'd recommend seeking out better influencers. Read some Dan Abramov for instance.
+If it were me, I would do something like: Create an object to keep track of what chars and how many of them you’ve come across. Loop over initial array. Check if each index is in your object. If no, append the 1, and add to object with the letter as the key, and the 1 as the value. If yes, increment the stored value by 1, and append that to the letter. Update the value on the object as well.
+I would use an object as a `key: value` where `key` is the letter and `value` is the number of repetitions. Something like: ``` let keyValue = {}; ["A","B","B","C","A","B","C"].map(letter =&gt; keyValue[letter] ? letter + ++keyValue[letter] : letter + (keyValue[letter] = 1)); ```
+this should be the top comment
+Oh you’re one of those people. Alright, since you hate greenhouse gas emissions to this degree. It’s safe to say you are currently a practicing vegan? Seeing as how it contributes the most amount of greenhouse gas emission over other industries. 
+You will need a key value store to keep track of the counter for the array values. Something like: let counters = {} let array2 = array1.map(v=&gt;v+(counters[v] = counters[v] + 1 || 1)) 
+I may be wrong, but I think you're conflating their 2 services here - the free and the featured. Poor quality content is all the free content, that's always free, that isn't all always poor quality, but is always free. Just like the rest of the internet, and all blogs. It's probably best to follow the people you like, and then it's up to them if they keep their content free or not. Then there's the featured articles. I have no idea if they are passed through editors or not, but the ones I've read have seemed at least decent articles. I don't read it enough to judge if it's worth $5 a month though.
+Thanks you and no worries! I will give it a try =]
+I like the point you're making. Want horrible content, ad fed and your data sold? Facebook, twitter. Want some good content, no ads, no data sold, optional premium account: Medium, or search for other blogs. Want good editorialized content fo free, with ads, with all your data sold, and optional premium account: Sign up with whatever favorite newspaper.
+[Rollup itself has a good guide on making these](https://rollupjs.org/guide/en). Before you dive in I would look at module definitions and why they are used, like UMD (Universal Module Definition), CJS (CommonJS), and ESM (ECMAScript Modules).
+Thanks. I was hoping there would be a blog article or something as well, but so far there hasn't been any info about the release. The best thing I could find was this PR: https://github.com/rollup/rollup/pull/2293
+Reason is a fun little pet project for Facebook, I highly doubt it will get much traction.
+RemindMe! One Year "Is Reason still a niche nerd-lang?"
+i realized i should have just linked this: [Private Members in JavaScript](https://crockford.com/javascript/private.html)
+Well this saves me $5 / mo
+I will be messaging you on [**2020-01-07 18:35:22 UTC**](http://www.wolframalpha.com/input/?i=2020-01-07 18:35:22 UTC To Local Time) to remind you of [**this link.**](https://www.reddit.com/r/javascript/comments/adiagb/free_live_streamed_reasonml_bootcamp_starts/) [**CLICK THIS LINK**](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Reminder&amp;message=[https://www.reddit.com/r/javascript/comments/adiagb/free_live_streamed_reasonml_bootcamp_starts/]%0A%0ARemindMe! One Year ) to send a PM to also be reminded and to reduce spam. ^(Parent commenter can ) [^(delete this message to hide from others.)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Delete Comment&amp;message=Delete! edhrt9g) _____ |[^(FAQs)](http://np.reddit.com/r/RemindMeBot/comments/24duzp/remindmebot_info/)|[^(Custom)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Reminder&amp;message=[LINK INSIDE SQUARE BRACKETS else default to FAQs]%0A%0ANOTE: Don't forget to add the time options after the command.%0A%0ARemindMe!)|[^(Your Reminders)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=List Of Reminders&amp;message=MyReminders!)|[^(Feedback)](http://np.reddit.com/message/compose/?to=RemindMeBotWrangler&amp;subject=Feedback)|[^(Code)](https://github.com/SIlver--/remindmebot-reddit)|[^(Browser Extensions)](https://np.reddit.com/r/RemindMeBot/comments/4kldad/remindmebot_extensions/) |-|-|-|-|-|-|
+Thank you a lot! 
+Niiiiiiiiice 
+As the article mentions at the top: &gt; Due to a scheduling error, we published this story one day before the embargo lifted. This feature isn’t live yet, but Github will formally unveil it tomorrow. When that happens, we’ll update this post with a link to the official announcement. So it's going live tomorrow. This is pretty awesome though, and removes the biggest selling point of GitLab (for me at least), with its free private repos. 
+$7
+Free repos was the reason I started to use GitLab. The rate of development and features is what made me stay. Plus the FOSS self-hosted environment is sweet.
+Wait I thought that's how GitHub made money?
+Nicee :)
+Free users can only have up to 3 contributors per repo, so larger orgs will still need to pay.
+I’m not sure the ads themselves is even the most egregious aspect of ad-based monetization: it also gives sponsors influence over your work, sometimes at the expense of your audience. If you’re relying on AdSense as your primary source of revenue, Google can say at any time “we want you to stop talking about X” and you won’t really have a choice but to comply. Often these terms are vaguely defined, e.g. on YouTube, where people are being demonetized with no clear indication as to why, and often with no hope for appeal.
+It's not much, but it adds up. $5 here, $10 there...
+The bulk of their cash most likely comes from enterprise features. Also, if they can convince individual users to prefer Github over Gitlab it's more likely that these users will choose Github when getting paid features.
+It sounds so good! Nice work. You adapted it from this right? http://www.lomont.org/Software/Misc/Robotron/ How did you get the idea?
+Hi /u/pawelgrzybek, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index). Posts must directly relate to JavaScript, and content regarding CSS, HTML, general programming, etc. should be posted elsewhere. Thanks for your understanding.
+I just played with it in my console, and was pleasantly surprised. :D I'd still use i % 2 over i &amp; 1 just because of familiarity / readabilities sake, but that's a pretty sweet find.
+That makes me wonder how much they've actually made from single developers who've just wanted private repos. 
+_Fuck yeah_
+Based on their enterprise prices, probably not a lot.
+Yep, so GitLab still outshines them here. It sucks, the only thing github has going for it is the quantity of people using it / the integration with lots of communities like go/npm/etc. 
+Stupid question: Do I just put these in my folder for my bot and it should work? or would I have to change some stuff around
+Oh, it happens to everyone all the time. Nothing to worry about. I have colleagues who only answer a single question of a numbered list of questions. Missing a question somewhere between paragraphs is nothing compared to _that_
+Yes, how DARE them try to make money? Servers and developers cost nothing after all..!
+Maybe not Jekyll, it's a right pain in the neck
+Yeah I figure. I was implying that their revenue is from large corporations anyway, so I wonder why they've held off for so long giving a little bit to the small user.
+Simple: they want people to read what they write without spending a lot of time and money advertising something that’s inherently pretty difficult to monetize. Platforms like Medium make it easy to get exposure without putting a ton of extra work in.
+...which is exactly the case
+You want something like the InVision app. InVision lets you create a UX mockup with interactive buttons that just take you to a corresponding page. I've worked with many UX designers that use it.
+First of all, snapshots are useful not only for views. You can use them to check big data structures. To omit lots and lots of useless updates use shallow rendering - in this case you'll see failing snapshots only on changed components. They are useful when you check specific props (sometimes you can change code for one property and accidentally break the other one) and event handlers that are changing component's state (in this case check state manually and use snapshot to check how it affected view) General advice on snapshots - update them ONLY when you've read all failing tests and see that there is no bugs.
+I'm familiar with the types of modules already. I'm more wondering about the modern approach to set up a js library repo, tooling, testing, CI, docs, etc
+Using `reduce` function and keeping an array in accumulator: * `count` object to keep number of repeats as `{ 'A': 2, 'B': 3, ... }` and using * `result` array where fetched keys using `count` object get pushed, to be then returned at the end of the `uniquifyKeys` &amp;#8203; const uniquifyKeys = keys =&gt; keys.reduce(([count, result], key) =&gt; { const num = count[key] = (count[key] || 0) + 1; return [count, [ ...result, key + num ]]; }, [{}, []])[1]; &amp;#x200B;
+What does that mean for rollup plugins? Does it mean unmaintained plugins are now API-incompatible?
+One can condemn over-the-top waste while still participating in things that actually provide utility, yes. What sort of silly gotcha was this supposed to be? 
+Mozilla mdn. 
+No stupid questions my dude. Not when you're trying to learn lol all good. I'd need to see your bot setup to tell ya exactly how to set it up, if you can throw it on github and take out all the credential shit I can help ya there
+You could use `map`, `slice`, and `filter`: array1.map((a, i) =&gt; a + array1.slice(0, i + 1).filter(b =&gt; a === b).length)
+I thought this was a great article! As someone new to Javascript, this came at just the right time to help me understand classes, encapsulation and even closure (a noob, I say!). Super insightful OP.
+Yeah but when you're a developer it isn't extra work. You have probably already built it anyway. An article on any generic platform is inherently throwaway. Great content on an individual's site gets a bookmark and a feedly add.
+Indeed, I found it while Googling about how Williams sounds were created. There are lots of wave generation code examples around but Willliams sounds had a particular character. TBH the algorithm is still pretty opaque to me, because it's translated from assembly that used bit arithmetic to compute sound values and looping logic, as opposed to a function that computes amplitude at time.
+They spent ages updating them before 1.0, if you look here you can see which have been updated most recently starting at the top: [https://github.com/rollup](https://github.com/rollup) I think all the best and most popular are fully compatible. Many old API calls just show up as a warnings rather than don't work. 
+Theoretically you could leverage Maps ability to objects as keys and use them to decorate objects, such as DOM nodes or data objects from a db or something. I have been keen to try it out, but I have never really come across a real life use case for that. A real case I have encountered is filtering - e.g. var src = { a: 1, b: 2, c: 3, d: 4, else: 5 }; var target = new Map( Object.entries(src).filter(([key, value]) =&gt; value % 2) ); But that seems contrived and pointless
+Thank you for the kind comments :)
+&gt; Looking up a specific item from a dictionary is a single operation (O(1)), whereas looking up an item in an array is not (O(n)). This is what dictionaries are good for. To be more precise - 'looking up' as in searching, yes, O(n) is the worse case scenario for an array. But it's O(1) for accessing an item if you know it's index. Same thing for dictionary type strucure - O(1) if you know the key, O(n) if you don't. In fact in JS an Array is basically a specialised (dictionary) object, where keys just happen to be integer (and has special methods and properties like length)
+Of course you can, but it's not the best tool for the job. Use imagemagick
+Promoting a personal blog to the degree that Medium provides automatically by offering an already-established community and features like follows, publications, trending lists, etc. is definitely work.
+&gt; The development community flocked to it because it was simple, looked nice, and was frustration free when it started. Looked nice? From the beginning on, Medium posts were great of showing you one line of text and a giant fucking image. Hero images already suck. Hero images for every article? Kill me now. I was pretty much hoping for Mediumn to die since it's inception.
+That's a cool autocompletion demo and all, but creating functions on the fly and using zip+map (in JS at least) are some pretty memory intensive operations (in the context of vdom engines). Combined with lack of support for keyed lists, I'd expect performance to suffer quite a bit. 
+I use bcrypt with sha512. However, the npm package does require a c++ lib usually making you want to install visual studio (there are other ways to get it). In any case, your jwt might look similar to that document with a hash field, salt field, scheme field all nested under something like "password"
+Absolutely necessary.
+[removed]
+ &gt; I don’t inherently have anything against subscription models, I read Bloomberg and they charge quite a lot for access. The key difference between Bloomberg and Medium though, is that Bloomberg employs professional writers who earn a living writing for them. &gt; I don’t inherently have anything against subscription models, I read Bloomberg and they charge quite a lot for access. The key difference between Bloomberg and Medium though, is that Bloomberg employs professional writers who earn a living writing for them. &gt; Unlike Bloomberg, Medium relies on user-submitted content and then charges those same users for access to their content. If I were going to point fingers at a "childish little bitch", I might pick someone who downvotes anyone who dares disagree with them. &gt; Unlike Bloomberg, Medium relies on user-submitted content and then charges those same users for access to their content. 
+https://news.ycombinator.com/news for the lazy. It's great indeed. It's like a heavily moderated subreddit with the topic being "startups, tech, and culture" where you need to get enough upvotes to get up/downvote privileges and (comparatively) few use downvote as "I don't like this" button.
+I've put this in a [github repo](https://github.com/spacejack/williams-sound) if anyone finds it more convenient to hack around with.
+Looks great, only thing I didn't like was your logo, looks blurry?
+OK, thanks! I might come back with another question or two once I've had a go at writing this, if that's OK. Much appreciated, anyway.
+I just ran into an issue with this last night. I didn't realize 1.0 was so new. karma-rollup-preprocessor is one that's outdated. Found a 1.0 compatible fork at **@metahub/karma-rollup-preprocessor**
+Animal agriculture provides no utility in the modern world. Do the research before making baseless claims. 
+"You can use them to check big data structures", that's good to keep in mind, though I'd think this would also be tough to debug if the failure is large. I think one of the issues I'm having here is the component I'm testing is much to large and convoluted. It's 1000+ lines of code, plus another 300 lines in a Flux store. The test hasn't been kept up to date, there are many lines of snapshot failure. Since I'm also not intimately familiar with the code(I'm getting there painfully), it's hard to know what's a false positive (changes that were intended), and real failures.
+Excellent eye for detail and good addition. I should have phrased it better.
+I don't really think there is a use for this in our world now, because every design becomes flat and more and more 2d again. &amp;#x200B;
+[https://gist.github.com/CarlTheLoafLord/2823eea03d643e0ddab5fedc94cf5c46](https://gist.github.com/CarlTheLoafLord/2823eea03d643e0ddab5fedc94cf5c46)
+&gt; Animal agriculture provides no utility in the modern world. This is such a ridiculous statement that I won't even bother addressing it. 
+Keep hating bitcoins. But not the most egregious form of pollution then. Your hypocrisy is staggering regardless of your failure in your power of observation to realize your ignorance. 
+I think it depends on who you're applying to as well. I recently have been applying for internship programs at the major companies and node was everywhere. .NET showed up sometimes, and only Facebook wanted a PHP developer, but the vast majority was Node. I literally felt forced to learn Node because otherwise I would disqualify myself for 85%+ of Web Dev jobs at "name brand" companies.
+To be fair, when LastPass was hacked no passwords were exposed, rather it was user metadata. For the password database either is probably about the same, LastPass would need to be breached and the user's password database copied locally then bruteforced. The effort would be similar to compromising Dropbox or Google Drive, and the next step, brute forcing the password, would be the same. KeePass would be potentially more vulnerable here as the tools to bruteforce it are likely already available. LastPass does have a disadvantage that it does have an online login that could be brute forced, but realistically that is very unlikely to be fruitful unless the user is using a very simple, or re-used, password. Either way, don't roll your own. Use one of the available options, most of which are great.
+Maybe I just never got on the "everyone should blog" hype train and missed something, but why is Tumblr not very popular amongst dev blogs? Is it just the stigma? Or is it just "not cool" anymore? It honestly doesn't seem all that bad to get a personal blog running easily. 
+Good luck with using the power consumption of a small country to process like two transactions a second. 
+Web 3.0
+By the way, was the problem introduced by updating to a new iOS version? What is it now, 12?
+No readme?
+Nope the paywall pops up after reading a few articles
+Yay! Although we use Bit Bucket at our studio.
+I will take a look when I get home and edit it for you. I will edit your inventory to work with the json file as well, cause atm that would reset on bot restart as well.
+We used to use BitBucket as well mainly because it offered free private repos, but eventually moved to GitHub because of we liked it more feature-vise. For example, GitHub lets you rebase and merge with a single button click while with BitBucket we had to rebase locally, forcepush and then merge a pull request.
+Good luck with the rationalization your 5-10 minutes of taste bud pleasure, while power usage of a single country is more pressing compared to the world wide decimation of ecology, and health of nearly all in the modern world. Oh just for transparency. I don’t care about bitcoins, nor do I use them. 
+You could change the for to a forEach and pass the callback as the iterating function - I use array.from instead of spread operator with Dom elements but I’m not sure if that’s better or not.
+Cool code. I don't understand a lot of it. Can you explain what the purpose of this line is? I know it's regex, but unclear how it's used here. `const patt = /(\D+)?(\d+)(\D+)?(\d+)?(\D+)?/;`
+If you want complex keys with strict equality consider using a Map instead of an object
+The main issue is that node modules won’t be useable although you can look for some umd includes or mock up your own virtual server for node modules on the backend 
+Try a sample proof in both and work with the one you like best 
+Now all my shitty unfinished projects can be private🎊
+Sorry, not all of us live in or benefit from first world factory farming. But go off. Animal products don't just "give taste bud pleasure". They provide nutrients. People need food to survive, and they quite literally are a source of food - not the most efficient, but not literally burning up energy to do nothing at all but jerk off someone's cryptographic function. But sure, you're totally making sense here. 
+&gt; Can you explain what the purpose of this line is? Happy to. So the way this was going to be used, the client could enter a number in several different formats. It could be an integer, it could be a float, it could have a currency prefix, and it could have an order of magnitude suffix (K for thousands, M for millions, etc.). So the code is grabbing those numbers from the HTML source, and I needed to split it up into an array where numbers are grouped, and the non-numeric characters ($, ., M) are separate. I'll try to use a table to explain what the regex returns, but know that `(...)` is a matching group, `?` means optional, `\d` is a number, and `\D` is a non-number. The first row in the table is the different regex groups, and the first column is an example input: &amp;#x200B; ||`(\D+)?`|`(\d+)`|`(\D+)?`|`(\d+)?`|`(\D+)?`| |:-|:-|:-|:-|:-|:-| |`$65.3M`|$|65|.|3|M| |`437K`|~~undefined~~|437|K|~~undefined~~|~~undefined~~| |`985.7`|~~undefined~~|985|.|7|~~undefined~~| &amp;#x200B; So - hopefully - this makes it a little more clear. If you give that pattern an input of `$65.3M` it will return this array: `var result = ["$65.3M", "$", "65", ".", 3, "M"];` Later in the code I do `result.shift()` which removed the first element from that array ($65.3M) because I don't need the full match. After that I do `result = result.filter(res =&gt; res != null);` which removes the undefined values from the array for the inputs that didn't match for every regex group. &amp;#x200B; Let me know if that doesn't make sense.
+same
+Is `things.forEach((thing) =&gt; {})` faster than `for (let thing of things) {}`? I have no idea, I just prefer the for syntax for some reason. And I'm pretty sure that Babel ends up converting my `[...]` into `Array.from` or something similar when it transpiles, again I just prefer the syntax. Thank you for your feedback!
+Perhaps people will walk back some of their doomsaying about the Microsoft purchase now? Microsoft is a different company these days than it was in 2000.
+I don’t know if it’s faster but it’s more concise and saves repreatedly typing elems and a few other lines 
+Awesome stuff!
+No I mean you can give consent to offload 15% of your CPU to mine some cryptonight / yesscrypt coins. With sufficient audience that will likely provide the same profit as from advertisements.
+Gotcha. Thanks again
+Thanks very much for the detailed response. It makes a lot more sense now! How long have you been working with JS?
+Goodbye bitbucket
+No problem. I like explaining code. Helps me make sure I know it as well as I think I do. I started learning JS in early 2015, but most of that time I was just using jQuery. Only in the last 6-8 months have I put a real effort into learning Vanilla JS and ES6+ syntax.
+Sweet. Good luck with everything. :)
+Github also has one the best interfaces on the web.
+Thank you for taking a look!
+Your explanation is great, but should be a comment in the code. Regexes are the one thing that very often needs comments.
+Excellent point. Thanks! **Edit:** Added some comments to that part of the code
+This is an awesome change. I was just looking at moving. Not now. 
+Oh I see.
+I didn't think so originally, that quickly changed after I used Bitbucket
+Hope they can bring their prices down for companies. It is a high price per user compared to other competitors.
+What a time to be alive
+You don't need a framework you need to rethink you design, and maybe read up on some design patterns.
+So I guess HTML, CSS and JavaScript are pretty weird these days.
+Okay thanks
+Yes, although gitlab and gitea are also quite good.
+&gt;Sorry, not all of us live in or benefit from first world factory farming. But go off. Of course I happen to run into Eskimo's online nearly daily.
+With Microsoft they'll inevitably add more and more features, mostly useless to the point it will be like every other monstrosity out there.
+If you have more than three developers, you should use your own server anyways. I host my own gitea server for about $3.20 a month, and I can do other stuff there as well (like a CI server).
+But for teams GitHub is still more expensive per user?
+Meh, do you really want to host your company's most valuable assets on a Microsoft service? This is clearly an attempt for a lock-in, which is just the same as they did in 2000. It just has a nicer face now.
+wrong.
+Also a quick little note, querySelectorAll returns a NodeList, and as such is iterable (check if the object has a `Symbol.iterator property` to see for yourself). So you can just go const elems = document.querySelectorAll(selector); for (let elem of elems) { callback(elem); } Or even more concise if you're crazy enough: for (let elem of document.querySelectorAll(selector)) callback(elem);
+have you seen windows 10? I'm not quite holding my breath.
+I hate it.
+Ah, thank you for the response! In production, this is run through Babel because IE11 compatibility is a requirement for this client. And IE11 doesn't seem to like iterating over HTMLCollections or NodeLists, but making it an Array of elements seems to solve that problem.
+Except it's very easy to switch to GitLab from GitHub if needed.
+Yay now I’m saving $7/month! Thanks MS/GH!
+I don’t know but I like it. 
+Dude, have *you* seen Windows 10? Windows Subsystem for Linux my dawg. Satya should have just walked up on stage when they announced that, said "We put Ubuntu on Windows", dropped the mic, and walked off.
+I have used it and I don't find it that useful compared to actual linux or mac
+I get the general point you are making, but git is open source and you can push your repo to other services if you want.
+You do realize you can change the origin of a Git repository in ... maybe 10 seconds? Of course, to be realistic, you also have to consider the time to setup a new account with a competitor, maybe enter a credit card, copy/paste a URL, maybe run a \`git pull\` ... all together it could take upwards of 10 ... minutes! That's some serious lock-in right there. /s
+True, but the whole point of paying for a service is to save yourself the time of having to manage a server. I could pay for fiber to my home, buy a computer at Costco, and blam I have my own web server ... but anyone with a brain would never do that, and would pay for a host instead. &amp;#x200B; Same deal here: it's not a question of how easy it is to setup your own server, it's a question of how valuable your time is vs. how much it costs to pay someone else to free up that time so you can spend it on something else.
+Haha for real
+It seems every much-needed feature request is `wontfix`. Every time someone needed them to be better, they said *"nah, we're good"*. 
+Same
+I will assume one of two things: sarcasm, or you didn't finish the sentence: I hate it...when I have to use something else because the interface is incredible and they know to make a _tool_ rather than a _site_.
+They are on a roll, love all the minor improvements they are doing. Been a paying customer for years, but I'm glad to be able to cancel my subscription as I only had a need for private repositories for personal projects.
+Vue is easier, react has more jobs for now. Also don't use jquery anymore... also vanilla js gonna end up unmaintable spaghetti if you dont know what you are doing.
+Wolf in Sheep's clothing? 
+yes yes is nice news 
+Yay I'm not the only one! There must be one or two others!
+Thanks gitlab!
+&gt; inevitably add more and more features So...just like VSCode? Oh no. ^^^^^//^^^^^s
+Indeed. The filesystem setup is a bit strange.
+It’s not only the repo tho. Issues, prs, reviews to prs etc. are all important information
+I think Bitbucket takes the crown for that and features but I am sticking with GitHub due to community features.
+TFW you're the 4th guy in a project...
+I like what Microsoft is doing, time to yolo on calls
+They all have to be hosted somewhere. Unless you want to self-host and deal with all of the headaches there, you're always going to be "locked-in" somewhere. 
+Only for the source code, not the wiki pages and issues and whatever else you're using.
+Self-hosting isn't really that hard. I wouldn't self-host an email server due to the spam issues, but gitlab or gitea is pretty easy to do.
+Only for the source code, not the wiki pages and issues and whatever else you're using.
+Your flipCoins function should have an argument for number of flips, that is where you would set the number of flips when invoking the method.
+For software developers, the source management host is the core business. It's a very bad idea to 100% rely on another company for your core business. Microsoft could decide to close down free accounts on github tomorrow, and there's nothing you could do about it. They could make a mistake and lose all of your data (which actually happened at the hosted gitlab servers), and there's nothing you could do about it. You would simply have to dissolve your company. YouTubers know what it means to be at the mercy of a company, they feel it every day. However, they don't have a choice. Software developers have the privilege of having one.
+Thank you!! &lt;3
+You know their business model at that point was to make it look like they were helping open source, transition everyone onto their improved stack, and then make breaking changes, stranding people whose workflow now depended on MS' products, right?
+im not really sure what you mean. I'm not having a problem with the number of flips or keeping track of the results of each flip. I'm having the problem with keeping track of the longest streak of heads
+It’s not super pretty but it’s very functional. Exactly what I’d expect from a Git service, it’s code not art, especially in my case. 
+Seriously? Have you used Bitbucket?
+More features...like outstanding PR integration with VS Code? Damn, guess I can have a much better workflow.
+I'm not familiar with how to transfer issues, but I believe there's a way. The wiki is literally another repo, though, so you can transfer it easily 
+It is not for everybody
+What terminal emulator do you use for that? I tried to use [hyper](https://www.hyper.sh/) for a while, but I found that copy and paste was wonky.
+Git - a *distributed* version control system How would nobody have the repo locally on their machine? I'm 100% of the time going to bet that GitHub has a better uptime &amp; backup strategy thanks either of us do.
+Do commits to your private repos add those green blocks to your profile activity?
+i'm not sure but i noticed that if the longest streak doesn't have any "Tails" to follow it up you won't capture it in longestStreak. what's it outputting now?
+Also, it doesn't seem to compare streak to the longest streak to see if it's actually longer. 
+Yes ! 
+It's better than nothing, but very far from ideal. There's too much chaff (docs, tests, updating dependencies): https://github.com/terser-js/terser/commit/3672baaa8834459bb7de7e8d8a649604cda96401 https://github.com/terser-js/terser/commit/787c30801d937dd1ef9dac781fc8bfeff9532ea6 https://github.com/terser-js/terser/commit/e3ca27c577044b276ea17af87cd1a28bce62597c And you have to be super diligent to include clear and concise explanations (linking to an issue is not enough IMO): https://github.com/terser-js/terser/commit/b4dda6d2ccdc94ac42f6dbf459af50ac343f9454 https://github.com/terser-js/terser/commit/4b550ca6d947ae77a71baef24e10c4c528bb8e48
+It outputs a different number each time because the array is filled with random flips
+Sure, but how does that compare to the longest streak you observe in the printed array? Does it correspond to the length of the last streak of heads, or, if the array ends with "Heads", the second to last streak?
+Better be worth more than 7$ a month now
+And GitLab
+Just passing by since I'm trying to learn JS, your comment scared me a bit :)
+I will settle for good, because outstanding always turns ugly.
+I predict this good news will follow with..."You now have to sign in with Skype or Outlook to use Github"
+Is there any other kind of project?!
+Maybe stake NAV or some other crypto without proof of work instead. 
+Once. 20 years ago. Now their new improved stack *is* open source.
+GitHub is not a bare git hoster, it has a lot of other services needed for software development.
+True and yet it's still somehow a million times better than Windows without Linux.
+Umm, are you thinking of CMS like WordPress or Drupal? Contentful is headless, you can create content types such as a page, add a rich text field(which gets a rich text editor component for when you add a page content item) and a image asset link. I guess it's similar to what something like WordPress uses, you can opt out of the visual UI and just interface via API calls instead as if you had developed the backend/database? That part just seems like a waste of effort NIH syndrome if it's just managing content, there are open-source alternatives that do the same and can be self hosted. You can also use markdown files as input, along with other local files such as images instead of relying on a CMS. Any other features can be developed, there is plenty you can do without needing a backend or database to serve these sites, you can still get search / filter / categories / related articles etc. I've used Contentful with its GraphQL API to query the content and populate several different pages for a static site built with Gatsby (bunch of react components with styled-components in my case). Not exactly a blog but doesn't change the process much. The end result perhaps wouldn't be too different from medium, apart from more control and flexibility by being more hands on? Gatsby handles SEO really well too, but again is a bit more hands on then it would be with medium, at least initially(or if you used an existing starter project, then I guess it's taken care of). I've had plenty of recruiters from just having LinkedIn, so can't say that I'd see much better from using medium vs self host my own blog, unless the quality of recruiters is better(money on offer was fine in the six figures, but they're mostly focused on getting their commission rather than a good fit for you). 
+That one project you're proud of that you list on your resume that still gets ignored by recruiters and hiring managers because ain't nobody got time for that.
+Nice video! Your solution can be improved by only looping the necessary times to create the chunked array, e.g. (inputLength / Size). ```js let chunk = (input, size = 1) =&gt; { let result = [] for (let i = 0, j = 0; j &lt; Math.ceil(input.length / size); i += size, j++) { result.push(input.slice(i, i + size)) } return result; } ```
+My point is that you wouldn't simply dissolve your company, yes you may have some migration time to a new host, but most live services would be unaffected.
+OHH nice
+I agree, it isn't that hard. The issue should have come to our attention soon. I can edit the chaff off of the automated change logs and add a paragraph really exciting the release
+If you want you can send a PR ;)
+I'm terser's maintainer and I approve this message
+If they still let you access their database, yes.
+literally going through my account right now and doing that lol.
+Hi /u/Kumagor0, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index). Posts must directly relate to JavaScript, and content regarding CSS, HTML, general programming, etc. should be posted elsewhere. Thanks for your understanding.
+[https://hackernoon.com/the-bitcoin-vs-visa-electricity-consumption-fallacy-8cf194987a50](https://hackernoon.com/the-bitcoin-vs-visa-electricity-consumption-fallacy-8cf194987a50) for it's usecase it's relatively efficient.
+Hi /u/leftabomb, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/kuroljov, this post was removed. If you'd like to post a link, then please use the "Submit a new link" option. If there is additional commentary or links you wish to add, please do so in a comment. Thanks for your understanding.
+Hi /u/ZimbabweRowing, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/muhammad_ashraf1, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/twice-as-cheerful, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/Ciabattabunns, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/AntonioErdeljac, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Actually you can import those too. https://docs.gitlab.com/ee/user/project/import/github.html
+I love the animation, it looks great. I think the biggest thing holding back the readability is DOM related code. Using templates or web components would probably clean it up nicely. 
+That’s a great suggestion. Thank you!
+Why doesn't pacman eat the balls?
+I gotta say this setup makes me jealous. I look at where we are compared to this and it feels like it will take a ginormous effort to get anywhere close. 
+This doesn’t seem actuate at all. 10x? Either their APIs were beyond horrendous or it’s not true. 
+I'm a little lost on the end goal here - are you trying to create a JS tool to just autoclick the cookie? Would a bookmarklet work?
+No, see right now what I usually do when I turn on the laptop, I open chrome then go to the website and then open a text file from the desktop and copy it's code then pasting it in the console of the web browser inside a cookie clicker website. I want to simplify this by just clicking a file on desktop that will open a web browser and redirect me automatically to the website (cookie clicker) and automatically put the code in a web browser console. Now thinking about it I'm not even sure if I'm in the right subreddit so apologies in advance.
+I’ve done something somewhat similar with PhantomJS in the past, check er out
+cool
+And a trillion websites are legacy as we speak right now. There are still millions of VCR’s hanging around too, you gonna recommend someone open up a blockbuster? Stop living in the past my dude.
+Everybody’s moved on to cage-free certified organic almond &lt;script&gt;s
+It’s because you’re treating the list of hobbies as an array, when in fact they are object properties.
+A bookmarklet would be best. It's like a bookmark that sits below the address bar, but when clicked it injects JavaScript into the page rather than redirect you to a new site. 
+I know of a way that you can easily do that in javascript with a javascript bookmarklet assuming that the code that you want to paste can be slimmed down to a single line of text. Click on the bookmarklet, code gets pasted, profit!
+... Surely you don't mean like `setInterval(()=&gt;{ document.querySelector('#bigCookie').click() }, 10)`
+This actually sounds very useful, I'll check into it and thanks for pointing this out to me. 
+Check the post edit for the javascript code I'm trying to paste in a console. &amp;#x200B; I'll be sure to check on the javascript bookmarklet stuff. Thanks for your time n help bro
+Everything has tradeoffs. What kinds of reasons are you hearing? Security concerns with people being afraid of the cryptographic signature being broken or just the looseness of the standard?
+can you explain in english what your goal is exactly ?
+Hi /u/kenman. I am letting you know that [javascript](https://githut.info/) is the most popular language across GitHub so the news related to GitHub directly relate to JavaScript. In this particular case, I learned the fact that I've shared in my post randomly and if I didn't, I wish I could find it out from /r/javascript because it's an important thing to know. Thanks for your willing to keep the posts that contain useful info related to JavaScript.
+Some people says that my design is not good, they are for sure true but I also think that the lack of a framework and the use of jQuery is also a real problem. I'll give a try to Vue then!
+That's pretty impressive for typing it out on an iPad! Another thing to add - check that `obj` is not null before applying `Object.keys` unless you know for sure obj will be an object, else you'll have a bad time. The data structure the OP is using - I'd simplify it to: &gt;let arr = \[ &gt; &gt;{ &gt; &gt;name: "Barry Johnson", &gt; &gt;age: 17, &gt; &gt;fav\_color: "Green", &gt; &gt;list\_of\_hobbies: \['Music Production', 'Video Production', 'Shitposting' \] &gt; &gt;}, &gt; &gt;{ &gt; &gt;name: "Another Johnson", &gt; &gt;age: 18, &gt; &gt;fav\_color: "Blue", &gt; &gt;list\_of\_hobbies: \['Music Production', 'Video Production' \] &gt; &gt;} &gt; &gt;\]; The reason being is it seems each data item you'd have is a person and their data. Your list of hobbies can be simplified to an array of hobbies, rather than a hard map of hobbies. Using an array instead means you can add on an infinite amount of hobbies.
+Yeah on second thought, I agree... reinstating.
+The problem was pointed out by u/easyEs900s, and his diagnosis is right. A general tip on debugging things like this is to do it in pieces, working from the inside out. The precise problem would have shown up by: let hobbyList = { hobby_1: "Music Production", hobby_2: "Video Production", hobby_3: "Shitposting" //dont judge Barry } // incorrect for (let hobby in hobbyList) { console.log(hobby); } // correct let keyList = Object.keys(hobbyList); // make sure you have the keyList keyList; // now try for(let i = 0; i &lt; keyList.length; i++) { console.log(hobbyList[keyList[i]]); } The key is to make sure you can enumerate the hobby list before trying to stick it in an enclosing object, and the enclosing object in a list.
+I wanna kms now i feel so stupid. Thank you for the help!!
+I'm very very new to objects in JavaScript.. so forgive me for not understanding completely but I think I see what you're getting at. three simple questions. 1. in ES6 arent objects created the normal way via the class keyword? 2. whats the difference/when is it best to use one or the other in that case 3. are there any good courses or guides or resources in general I should learn from? cause when you mentioned Object.keys I didnt see where it was in the code and Im assuming its a built in feature and I havent even heard of stuff like that in JS yet (I'm not new to programming just JS) 
+Yet Outlook still filters GitHub emails as junk 
+Did they let you downgrade? 
+Yep, no problemo 
+That's pretty cool. Can you also let other people see them / access them? Any limits there ? 
+The windows people aren't all that different but I think the rest of Microsoft has bought in
+Itll be incredibly useful with some still to be done improvements for me, the only windows user in an all Unix Dev team. But I think the average user who needs the occasional Linux tool can get away with windows versions. That said, for developing Unix software on a Windows machine it is fking awesome.
+Githubs interface is mystifying to new users though.
+If anyone has Pro and wants to downgrade now, there's a big red "downgrade" button at the bottom of the billing page in settings.
+script&gt; =&gt; &lt;script&gt;
+Gitlab in my opinion has become very strong in the last year. There CI processes are solid. Not sure if it's free in the cloud. We use it at work 
+W10 IMO is the best Windows OS yet. They got a lot right. It’s been stable for me, looks great, runs solid, and Microsoft finally has their own look which isn’t 90’s lame and isn’t a copy of what Apple is doing. 
+The gold-standard is [babel](https://babeljs.io/). It's extremely feature-packed, well tested, and has a huge community of plugins and extensions. Use [`babel-preset-env`](https://babeljs.io/docs/en/babel-preset-env), and a compatible [`browserslist`](https://github.com/browserslist/browserslist) to target your required browsers, including IE11.
+When will IE die?
+ha! there's truth here. FWIW, If you set up git-bash on windows 10 and use hyper as your terminal, it's pretty Mac/BSD-ish. Passable for simple development. 
+Bitbucket is like a cancer. No one likes it.
+same! yay.
+Same
+Got right before the next yearly billing cycle!
+1) No, the class keyword actually creates a class object (I use that term loosely, *very loosely*). Objects can be created by var myVar = {} and properties defined like `myVar = { prop1:value, prop2:value }` or `myVar.prop1 = value; myVar.prop2 = value;` (There's also other ways, but I wont get into those..) &amp;#x200B; 2) The way you had originally was structured so that you had an object which was being used as an array. Because you can't have an object with two properties being the same, you have to do PERSON1, PERSON2, etc. The other way is enclosing the PERSON objects inside an array so it would be PEOPLE\[0\], PEOPLE\[1\], etc. &amp;#x200B; 3) I'd go with the major places like MDN to ensure you're learning the preferred methods. He was referring to Object.Keys() which I used before editing the post because I didn't realize you were using the ES6 for loop that works with objects (for(i=0;i&lt;x;i++) would not work with objects.
+Babel. It's the standard.
+90% of the time I'm using the one built in to vscode. The rest of the time I just use powershell
+If you’re using angular 6+ I would go with typescript in addition there are many polyfills which you can enable through configuration. They will make your bundle bigger but that’s the price for backward support of shitty browsers. 
+Except when the Russians are feeling friskie /s
+ testFunction() { `alert("It works!");`` } needs to be function testFunction() { `alert("It works!");`` } &amp;#x200B;
+**IS** it junk?
+3 contributers is the limit I think
+Noice
+So long as enterprise still uses windows, never.
+Gitlab is better than ever, but we used GitLab CE 9 at my previous job and were very happy with it. Resource utilization was a bit high though, but our server was really on the low side of their recommended specifications *on top of* being shared with hosting and proxying a bunch of staging sites. It's pretty damn good.
+That's what I'm stuck doing on my work laptop and... it blows. It's slow. I'm missing a bunch of stuff I use(d) on Linux and macOS machines. With Creator's WSL it's marginally better - still a bit slow on top of still feeling like a VM, but our IT hasn't come around to deploy it yet. I hate it lol
+Tutaj mierzyłem w nadanie Ci zarysu. Dalej można doszukać tutoriali w tym kierunku. Jeszcze nie miałem osobiście styczności z tym.
+If you keep using GitHub, you are still locked to a proprietary product. GitLab had free self-hosted version, which is a nice option to have.
+Yeah, but Windows Subsystem can do this disgusting thing where you install an Xserver then SSH into it so you can run graphical Linux programs in a bad way. I did that once, then just installed Linux on my work computer.
+And if you don't like this, it can be disabled.
+Do you expect object[1] to be different than object['1']?
+&gt;For software developers, the source management host is the core business. No, the core business is software development. Source control is a tool you use to accomplish that core business.
+The ‘ isn’t in the code at all, that was typos in the post 
+You’re also missing “function” before the function name, which is why it’s not defined.
+Have you, post redesign?
+But I’m already on all the Atlassian products. 
+Here's an example of it's use: const final = pipeline( x =&gt; x + 1, // # =&gt; 2 x =&gt; x * 2, // # =&gt; 4 x =&gt; x * 3, // # =&gt; 12 )(1); // final will equal 12 So basically, you input a value, `val` and each function `func` is applied to the value in order. Imagine it like a car factory. The chassis moves down the line and 1. tires are add 2. engine is added 3. body is added 4. interior is added etc. Or, with our pipeline: const car = pipeline( attachTires, addEngine, attachBody, fillInterior )(chassis); The other part of this is the odd \`const pipline = (...funcs) =&gt; (val) =&gt;...\` syntax. &amp;#x200B; Basically, you have a function that takes \`...funcs\`, a number of arguments turned into an array of functions with the spread \`...\` operator, and returns a function that takes \`val\`. This is called \`currying\`. [Here's a stack overflow post about it](https://stackoverflow.com/questions/36314/what-is-currying)
+thanks a ton!
+Those are valid points you make. In many cases the weakest point to any service is the individual's password. But, hacking a service (like LastPass) has a much higher reward than trying to target a single user. Most of the time it is not worth the trouble for a criminal to try to hack into single account (unless the person/account is somehow special like a celebrity or otherwise a person of interest). Which is why I am absolutely certain that one day LastPass will be fully breached and when it happens, everyone's passwords to every online service are exposed, not just one person.
+Oh wowww. Can’t believe I overlooked that 
+What it means: Microsoft is making YOU the product as opposed to GitHub being the product. I'm sure we'll be seeing changes to the terms of service soon. I very much prefer to be a paying customer.
+I’m not gonna say goodby to gitea
+Wasn’t everyone worrying about the apocalypse and threatening to migrate to GitLab when Microsoft bought GitHub?
+Use inferior software on principle. Found Richard Stallman.
+I have all my shit in BB. Why would i move, really? Any killer features in github over bb?
+I recently installed Gitea and it works great on my ultra cheap server but it seems like gitea is still a young project 
+Oh that's nice. Please keep me updated on all these new information. Thanks
+Looks like some code to generate a path, but some the `curveVertex` function isn’t defined in this snippet. Why are we looking at this code?
+LOL Sweet!
+Bc 😏
+It's my first video, I hope it will be useful and you can learn something new from it! Subscribe to my channel, because I am already preparing for the next lodash method and that is difference in which I've got even better results in performance difference.
+Gitea is a fork of Gogs which has been around for a few years now.
+Huh. Well you can trust me to not use and/or paste this code. Thanks.
+&gt;I have a good idea of how to set something up like what Django has in place. Django appears to default to PBKDF2, which is not a common choice. It makes sense however given the documented point that alternatives require external libraries. The next recommendations Django make are Argon2 and bcrypt. Both have pretty accessible Javascript libraries. If you visit the Argon2 source, you can find four Javascript modules suggested (disclaimer - I have contributed to this repo) depending whether you prefer ffi, native, or browser supported: https://github.com/P-H-C/phc-winner-argon2 
+GitHub has been that way for a while now...
+When Windows 7 dies
+No it hasn't. As a paying customer different legislation applies.
+I used BitBucket for this reason for my personal and projects. Will consider moving them to Github now as most of my work related projects are there. 
+before i moved on to bitbucket because github is paid, now i guess its time for me to return!
+Yeah I'll take whatever you've been smoking lol
+They better be some pretty advanced code review tools... I already have my jenkins machine humming along nice... only reason I paid is for private repos
+Just for shirts and giggles, I reversed the logic and gave myself Infinity cookies. Literally infinity, not exaggerating. I can tell you how if you're interested although I only did it as a proof of concept to see if I could alter the game data
+yeah, some of their projects aren't free from their "chains" yet, but have you seen VS, vscode, typescript? They're heading in the right direction IMO.
+So much better than Gitlab. Don't get me wrong, I love Gitlab but the UI is still inferior.
+Still sucks that GitHub is now owned by Microsoft.
+ if you're on a payed plan, you'll have a button 'downgrade to free'.
+puppeteer is a node package by google that let's you write apps to control chrome. you can automate everything from opening the browser to injecting code and even taking screenshots. its exactly what you need.
+phantom is no longer supported and hasn't been in a long time. it used an outdated version of webkit even when it was. puppeteer or selenium are better options.
+Unless you’re selling work-for-hire, the source code is the most important thing your business has.
+Having used most of the Enterprise solutions, I'd have to say Atlassian can go eat a bag of dicks.
+I use the extension Code Runner with Visual Studio Code. It's so good. In rare instances, I do use PowerShell (not the shitty ISE, which is shitty) as an alternative because the Ctrl+V/Ctrl+C is to die for. I can't think of a single tool that I can't run on my Windows dev machine that a Mac or Linux machine could do, and you have all the native Windows tools which my Mac co-workers are absolutely jealous of.
+VSCode is absolutely amazing and is built on the opensource Electron framework. Available for Windows, Mac OS and Linux.
+To add on, you can have puppeteer run as a background process on a schedule 
+Gitlab is free in the cloud AFAIK. We migrated to VSTS last year because the new manager is a Microsoft fanboy. Goodbye gitlab hello VSTS. Goodbye Dropbox hello OneDrive with it's propensity to stress test your CPU randomly.
+Ha! Now the interviewer’s cannot see how dumb i can become when desperate! 🤣🤣
+Best thing Microsoft/GitHub has ever done!!!
+Awesome!
+Yeah, but they also add ads to everything below Enterprise, and make that annoying to purchase for small businesses, and basically impossible for individuals.
+The popup does, but you can just dismiss it. The 'this is the first of the three free article allowance in the month' only occurs for posts that are signed up to some scheme or other
+Consumer protection laws are a joke to you? If you're not buying you're not a consumer.
+Thanks, this was useful
+Yes, but shh, just follow the bandwagons.
+Ow i didn't know that, are there any differences between them?
+Is that really a question any longer? Look at stats and look at what people are using: React. They're not choosing React for no reason either. At the same time React is dead simple (it's api surface is a fraction of Vues) and the concepts you learn aren't wasted because it teaches you concise javascript instead of framework tied things that will vanish once the framework is out of favour.
+Why is that, i personally dont see a problem with it :)
+Of course not. This seems like a privacy nightmare the moment the purchase went through. 
+Goodbye open source
+He doesn’t know what you’re even talking about. 
+I would rather say its more like a Lite version of it, live scratchpad is only one of many functionalities Quokka offers even with their free (community) version, I have yet not found a proper alternative to Quokka myself though. If you know any other similar things like these, please share!
+Oh yeah? What tools are those?
+I mostly use Quokka to show how code runs, which makes this a direct alternative for that use case. But I see what you mean, regarding the features such as Quick Install, Project Files Import and so on. I have yet to hear about any other competent alternatives, but if I do find any, hopefully I’ll remember this post and let you know about it 😉 If you got any, I’m interested aswell.
+Everyday at work. It's like baby's first version control. And _slow_. I hate it with the fury of a thousand suns.
+Maybe I missed something critical, but it sounds like you're saying all the right things. Whenever I'm in a situation that seems like it should work but doesn't, I stop and make sure that all my assumptions are correct, like that the WS object you're trying to use to send a message is the object that you think it is. Perhaps it's been overwritten, or was never written at all in the first place.
+You can try to put the &lt;script &gt; to the first line...
+Yes, I double checked quite a few times, and everything checks out as far as my knowledge goes. Even if I console.log the ws object inside the sendMyMessage() function, I get the same ws as when it was first created (+ a few minor changes, due to it being a reference value, most likely changes when other test connections are added to the server...)
+Self hosted? Had solid experience with it in my previous workplace, now I am on GitHub can't complain about it either. GitHub definitely faster.
+LastPass is end-to-end encrypted. To breach the password databases they have to be individually bruteforced. Or, potentially a vulnerability in tbe encryption could be found, but that would impact nearly all password managers and most everything else at the same time.
+Could be self-hosted, I'm not sure. My assumption has been that the engineering on the UI is just really bad. Work has the whole Atlassian suite and they are all slow and buggy.
+You get protected branches and code owners as well as unlimited contributors in the $7 plan now. I think it’s a good set of features for the paid product. A logical step up.
+The worst thing about Medium is their shitty UI practices/dark patterns. No I don’t want to install your shitty app, I just told you no on the previous page. 
+Forced updates and spying in windows 10 are a lot more than chains. I like JetBrains ides and ms has a long way to go to get in the ballpark of that toolset for me. I am not seeing the change from ms in action other than lots of people repeating it. 
+Finally!
+So far have read the preview and liked it
+Spying? Every big company does that, we have to live with it. Forced updates are bullshit, I agree with you on that one. By "chains" I was referring to the people that decide windows features etc. (they're in the same situation as youtube IMO) JetBrains products are good too, but they're a bit expensive for most people :)
+How can I use this in Outlook 2016 client signature? 
+Skimmed a bit, looks good! Thanks
+Thanks Flavio! 
+Those are coordinates for an [oddly-shaped dick](https://i.imgur.com/oI2rFNj.png), who would have thought? curveVertex is a [processing function apparently](https://processing.org/reference/curveVertex_.html).
+I've been developing the game on JS for two weeks already and every day after 4 hours I have a headache. Good luck. 
+Really good stuff! &amp;#x200B; I did find a few errors. How should I report them?
+This looks user friendly and easy to get started. Gonna give it a try.
+Free stuff for fellow devs. That's the spirit. 
+Looking forward to get your feedback!
+If you want to check if a value is a plain object, you can check its `constructor` property. e.g. const obj = {}; const arr = []; function myObj(){} const xObj = new myObj(); console.log(obj.constructor === Object); //true console.log(arr.constructor === Object); //false console.log(arr.constructor === Array); //true console.log(xObj.constructor === Object); //false console.log(xObj.constructor === myObj); //true 
+Just check exactly what you need. If you want to access a certain property check for that property, if you want to call a method check if that function exists. Given the dynamic nature and the many meanings behind "what is this" (ownProperty? on the prototype chain? Created as plain object by a factory function? Or by `new Constructor()` with all the awkwardness of inheritance?) trying to "solve" that question once and for all seems to me quite futile. Depending on how you use JS &amp;mdash; I for example only have functions and objects and nothing touching (new or old ES5) "classes" &amp;mdash; the question you want to answer is different. In my (more functional style) code using `instanceof` would be quite futile for example.
+This is a brilliant move. Refreshingly pro-consumer. I wonder if some quirk of human psychology will actually increase sales of GitHub Pro.
+Hi /u/betamaximus128, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index) (specifically, _Posting: Showing off a Project_). Thanks for your understanding.
+Hi /u/FetusGod, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/programmer1nabe, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/AGrg0911, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+The same folks who accidentally buy WinRar are gonna also have Pro Accounts :)
+Hi /u/HolidayInternet, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index). Posts must directly relate to JavaScript, and content regarding CSS, HTML, general programming, etc. should be posted elsewhere. Thanks for your understanding.
+Hi /u/httpsjayden, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+^^ this is what will happen... OS projects will either get nearly finished then suddenly become private or nobody will publish them anymore. 
+Thank you so much. Countless people 'copied' parts of my website, and uploaded them under their name. Worst part was, they put ads on them too :/
+Github seems that will love a lot of money because of this
+What ads are you talking about? (I haven’t seen any using the system myself, other than maybe some useless Windows apps I remove on first install. I’m sure that could be automated with some scripting...)
+I'm not sure. I think it might me something to do with fetching the audio blob from another domain …
+Thank you :) Could you let me know where the logo appears blurry?
+I Think I'm ready to settle for two dimensions. Maybe I'm a simple man. 
+Looks pretty neat, quick feedback on your gif: &gt;There is no fields Should be &gt;There are no fields [Here's an english stack exchange link discussing something very similar](https://english.stackexchange.com/questions/1931/there-are-no-comments-vs-there-is-no-comment)
+What are you using the harvested emails for?
+Thank you! We are going to correct it.
+Saving people a click: &gt; Strapi - Node.js Headless CMS for building customizable API. &gt; **API creation made simple, secure and fast.** &gt; The most advanced open-source Content Management Framework to build powerful API with no effort.
+Well, I mean in the sense of generating random salt for each password and iterating the hashing something like 100,000 times. Whether or not each of those iterations has its own unique salt, I'm not sure. The PBKDF2 and SHA256 would be the easier part to implement.
+You get "bloatware" by default, silly apps like candy crush and such other apps pre installed, at least that's what I think he means
+May be try this prompt. [https://www.w3schools.com/jsref/met\_win\_prompt.asp](https://www.w3schools.com/jsref/met_win_prompt.asp)
+Yes, it’s possible. Just use event listener. Add all input in string variable and check match with target word.
+Agreed
+I wind up on a SourceForge page a couple times a month (legacy tools; gotta "love" 'em), and they're still advertising "Migrate your GitHub projects to SourceForge" like that's a step up. People were in a use relationship with AOL until the very end, too.
+thanks bro 
+Clean code, much more interesting then “Hello World”. I think, it’s very good! 👍
+That just what they tell him to make him feel good about himself.. ;)
+There seems to be error in your code when you are saving in the file because of which the server crashes. Try to put logs and debug the issue.
+Thanks!
+In addition to the stuff the other commenter mentioned, I have for example seen ads for OneDrive and Edge. The latter was when I was actively installing or using Firefox.
+Thanks you man, started to learn JS. ebook looks good!
+Hi /u/heyoomark, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/DARK-SPIRIT, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/shriek, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+definitely still alpha..
+Hi /u/LowMousse, it appears the post was removed from /r/LearnProgramming, so there's nothing for us to see here. Removing here as well.
+Hi /u/hackfall, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/49Ivories, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/arltin, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/InputLite90, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+I'll second your opinion on JetBrains IDEs. I've tried to switch to VSCode from WebStorm several times, and I keep going back to WebStorm.
+I remember hoping and waiting for Ballmer to leave MS because I think he was a major cause of MS’s issues. It seems like I may have been right - MS has been doing so much great stuff since he left.
+omg this is so cool. Goodbye bitbucket :)
+rollup+bublé &lt;3
+ \[for Javascript\] [https://www.w3schools.com/js/](https://www.w3schools.com/js/) &amp;#x200B;
+why did you delete my post?
+Its not the easiest platform but all the CI stuff works nicely. You gotta learn it before you knock it, I still do prefer github for lots of things though.
+Now all you need is to create a private repo and write a script that shitcommits all day, every day. WALL OF DARK GREEN BLOCKS
+and no typescript support...
+I'm not really sure at this point, I haven't followed the projects for a while. Gitea started because the Gogs maintainer went quiet for a while and people wanted to merge in pull requests. But Gogs development seems to have kicked up since.
+JS is very popular languages nowadays and therefore you can find bunch of tutorials on the internet. My favorite book is You don't know JS. Generally, JS is dynamically typed language (in compare to Java) so you can do many things which are imppssible to do in Java, C# etc. JS has been greatly improved in last few years. Many new features are pretty killer.
+Stripe called they want their website back
+I'll check the puppeteer but it sounds like what I am looking for so thanks guys!
+Gonna give it a try also, looks nice. Good thing you provide a docker image.
+My employer uses the whole Atlassian suite. It's all trash.
+Yeah I've seen the code for the infinity cookies in the cookie clicker wiki and to be honest I think this would just ruin all the fun from the game, I am mainly idling with the game and most of the time I just don't see the golden cookies appearing so I just used the code from cookie clicker wiki that let me auto click the golden cookies. 
+Haha, good job mate :)
+if you know some java stick to java, if you dont like java switch to Javascript
+Thanks 
+I'm very hesitant to put in my email. Anyone got a mirror?
+Thx for the information, I’m already using gitea because gitlab used 99% of my server til now it has worked amazingly. 
+[removed]
+[https://10minutemail.com/10MinuteMail/index.html?dswid=-5256](https://10minutemail.com/10MinuteMail/index.html?dswid=-5256)
+Oh, ha, yeah your first comment did say you recently installed it!
+Yeh definitely. Did not see that. Wicked. 
+Yo give your guess list items relevant colors too
+If you want to collaborate with other developers it's easier on Github, there is a large social network established and Bitbucket/Gitlab pales in comparison.
+Sounds fair! I state that in the site, but you simply enter my newsletter, where I regularly share tutorials I make, plus an occasional premium course I create once in a while (which ensures I can create more free content in the future), and you can unsubscribe at any time. In this very specific case the book contains hooks-related content and as React evolves fast you'll get new releases of the book too, once in a while. Again, with a quick unsubscribe if you feel the need :)
+The dude is offering a free ebook in exchange for your email address. Take it, or don't, but the fact that you feel entitled to a mirror is incredible...
+Privacy nightmare? Dude, MS's current policy is to apply GDPR standards to all users regardless of their national origin or physical location. They don't make their money from advertising or data sales either. On the list of companies that I have privacy concerns about, they're close to the bottom.
+I like it. Especially because I still have many projects that use Mercurial and it supports both Git and Hg
+Pretty cool, but they thinking something dark 🤔🤔🤔🤔🤔
+Wow that's cynical, everyone knows how this works if you don't want to put your email just don't do it, he is clearly just promoting his brand and building his email list
+I like it =( Especially after the redesign. I owe a lot to Atlassian. They helped my career a lot with Bitbucket free private repositories, and I'll never spit on that particular plate.
+They should call everyone right now then
+Seems like you do a lot of the same things in any case, like spew ore. I like refactor to a switch/case statement and try to move a lot of the function calls to outside the logic, and just assign the function arguments in the case logic, to then be passed to the functions at the end.
+Even if I do refactor to a switch statement, there would still be a lot of repeating of code. I was wondering if there was a way to squeeze it into one concise block.
+Ah, gotcha. I was thinking more third party ads.
+True. I tell myself at least it’s not a consumer HP. Ha! But I believe you can create an unattended install script that can remove the crap, can’t you? Or just do it on one machine and image it to any others later. 
+Great start man!
+it's also worth mentioning that if you create an `Array` via `new Array(x)` and you want to `map()` the `Array` you have to `fill()` it with a value, preferably `null` because otherwise it skips the `undefined` values which is the default value of the unfilled elements and nothing happens
+Well, I've just remove those from start menu and I feel like thats it
+I have the book on GitHub https://github.com/flaviocopes/react-handbook if you want to submit a PR or PM me on twitter @flaviocopes :)
+There are some redundancies in the conditions, and you can prevent the duplication. If you don't mind a couple extra math calls, you can clean it up a lot more. let current_percentage = S.current_ore_hp / S.current_ore_max_hp * 100 let calc_sprite = Math.min(5, 6 - Math.ceil(current_percentage/20)) if (current_sprite !== calc_sprite) { current_sprite = calc_sprite ORE_SPRITE.src = `./app/assets/images/ore${ S.misc.current_ore_sprite }-${current_sprite}.png` spew_rock_particles() }
+It's pretty good, I used it while I was developing my web app. Had some issues deploying it though so I went an alternate route.
+&gt; play_sound( 'ore_percentage_lost' ) you do this every case except one. So make two cases for that. You 'spew_rock_particles()' every single case so remove that function from the logic and just put one at the end. The ```ORE_SPRITE.src = `./app/assets/images/ore${ S.misc.current_ore_sprite }-5.png```` part can just be done once at the end with ```ORE_SPRITE.src = `./app/assets/images/ore${ S.misc.current_ore_sprite }-{current_sprite}.png` because you do it the same way every time. The switch/case refactor will just be cleaner, not logically different.
+Awesome, this is exactly what I was looking for. Thanks!
+My immediate thought is to use a formula along the lines of this: function remapNumber(num, fromMin, fromMax, toMin, toMax) { return (((num - fromMin) * (toMax - toMin)) / (fromMax - fromMin)) + toMin; } ...to remap the current_percentage from the range 0-100 to the new range of 1-5. Then you can call it like so: let remapped = remapNumber(percentage, 0, 100, 1, 5); This should allow you to remove all of the duplicated code. I'm on mobile so I can't really write much more code than that, also note that the code is untested.
+`current_sprite = 0` is set outside of the function for new users. When the game loads a save, it'll call the function `update_ore_sprite()` and that'll then adjust the variable to the proper number.
+Interesting, this method also works. Will test this with the other solution posted above.
+I don't think its cynical at all to ask what OP needs our email address for. I have no problem giving it away if I think he is a decent fellow. I work in marketing so I am a bit skeptical when people ask for my email address. That's just me though.
+Great but now make it display correctly on mobile. :P
+Damn, I had just started liking Gitlab and feeling like I made the right choice to move my projects. Now I gotta do the math again.
+I think it's the logo in general, like seen here: https://videohubapp.com/. It looks like the V and H are surrounded by blur/shadows. 
+Looking good. Especially for your first react app! A few comment. Nothing big, but they might help you improve your react skills a little: \- Change the color of cold / hot display depending on the result. Makes for a clearer ui \- You don't need a constructor if you only declare the state. You can declare the state directly in the class (state = {...}). It's an experimental feature in Javascript right now but babel takes care of that. Not a biggie but cleans up the code a bit \- Be careful with using the list index as the key for your guessList. In your case it's fine but if the list can be modified things can go wrong. \- If you don't want to have to maintain a separate css file for each component you might want to look into styled components. Needs a little bit of a mentality shift at first but it's totally worth it imo. \- Check out destructuring which can also clean up the code. For example in your Progreess Component you could write it like this. I also removed the return statement and changed it to an implicit return. const Progress = ({ guessList, attempt }) =&gt; ( &lt;div className="progressBar"&gt; &lt;h2 className="text-center progressBar__current"&gt;Guess #{attempt}&lt;/h2&gt; &lt;ul className="progressBar__history"&gt; {guessList} &lt;/ul&gt; &lt;/div&gt; );
+Even if you don't use this solution, it's at least still a useful formula to have in your toolbelt imho. Perhaps the other solution involves less math but computers excel at math, so it shouldn't be a problem. You could always benchmark the two if you really want to know just how they compare in terms of performance. Have fun with the game dev! 
+why would you use something like this when plenty of placeholder websites don't require api keys to access them?
+Yeah I re-read what I wrote and I think it's fair to ask what it is for, am sorry if I over reacted, with that being said I think the term "harvesting emails" Is a little cynical
+Had a weird amount of fun playing. Far better than a to-do. Only recommendation is giving the previous guesses colors based on how close it was. Nice work mate
+Working in that field is pretty eye opening on what businesses do with the data they collect, isn't it?
+I've come across your Medium articles in the past and really enjoy the content thank you for this!
+Beautiful way of explaining. Good shit.
+Side note: if you do end up getting into js, MDN will be what you want to reference for specs
+ let update_ore_sprite = () =&gt; { let current_percentage = S.current_ore_hp / S.current_ore_max_hp * 100 current_sprite = 6 - Math.ceil(current_percentage / 20) ORE_SPRITE.src = `./app/assets/images/ore${ S.misc.current_ore_sprite }-${current_sprite}.png` if (current_percentage &lt;= 80) { play_sound('ore_percentage_lost') } spew_rock_particles() }
+Wow thanks for making it free
+Does this use the create react app template or show learning from scratch?
+For those that are not aware of it. As a reviewer, this was a missing piece of software in my utility belt. I'm still a big fan of webstorm for the programming part. But things like VS Live Share and now the github pull request, are so awesome. Webstorm also has something like a github pull request preview now. But it's nowhere near the functionality of VS Code. https://youtu.be/pa5xHTUXOxQ
+I don't think the candidate will become my new colleague, if I interview him, and it turns out that he doesn't understand the github interface, or even doesn't know it at all. Even a junior level developer should be aware with github. To me it's like saying: "I've never saw an IDE". I don't expect you to know all the ins and outs of `git`. Hell, I don't even expect you to know how to use git trough the CLI, as long as you have an graphical tool (tower, source tree, git kraken, for example) in which you can commit, push, rebase, and merge. But we're done when you tell me - during the interview - that you don't understand github's interface. 
+Noticed you're Ivan, any chance you're Croatian? :D
+Thanks!
+this is exactly what I was thinking.
+Good point! That fact explains why `Array.from()` is used for mapping, even though it’s uglier.
+Where?
+ updateGuess = guess =&gt; { this.setState({ guess, allGuesses: [...this.state.allGuesses, guess], attempt: this.state.attempt + 1 }, () =&gt; { this.updateFeedback(); }); } As `this.updateFeedback` calls `this.setState` you will end up rerendering due to state change twice for each guess instead of once. I suggest changing `updateFeedback` to `getFeedback(guess)` and updating the feedback to `getFeedback(guess)` in `updateGuess` instead. Speaking of renders, a lot of your components should be pure. This means that they consistently output the same thing when given the same inputs (props and state). To change the Reset component, for instance, you would alter the lines thus: import React, {memo} from 'react'; ... export default memo(Reset); That would make the component pure, but we're left with a problem in the App component. &lt;Reset resetGame = {() =&gt; this.resetGame}/&gt; The problem here is that the arrow function is recreated every time App's render is run, so the `Reset` component is given a new function every time and thus rerenders. As you've already bound `this.resetGame` to the App object by using an arrow function it its definition, you can just replace this with &lt;Reset resetGame = {this.resetGame}/&gt; You also did the reset a little strangely, so now we're passing the reset function but the Reset component is expecting a function that returns the reset function. I would just change the Reset component's onclick to `onClick={props.resetGame}` I would only define your default state in one place, rather than both in the constructor and `resetGame`. You could call `resetGame` from the constructor. 
+No problem! Let me know if you have any problems with it.
+I rather use GetCockpit
+Hi /u/pierreburgy, this post was removed. If you'd like to post a link, then please use the "Submit a new link" option. If there is additional commentary or links you wish to add, please do so in a comment. Thanks for your understanding.
+Hi /u/AlanGuitar, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/name_is_Syn, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/crazygeek99, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+What’s the point of the help flair then?
+Good guy redditor
+Thank you for this and for your other tutorials! Yours is one of very few newsletters I look forward to getting and one I actually click on the links. I love the short, easily digestible format!
+It makes me not trust anyone, especially other marketers haha
+I have read the first 25 pages and should to say - this is very good book, a lot of tricky stuff was highlighted.
+Code is art!
+I'll do it tomorrow ;-)
+Select advanced help topics are still allowed.
+Could you share them with me?
+Loving this book! Great job. 
+https://www.johanbostrom.se/blog/the-best-image-placeholder-services-on-the-web I personally use placekitten.com when I need it
+I just played it and I thought it was pretty cool. I didn't have a joystick or anything, just my MacBook trackpad.
+hmm none of these are quite what I need, thanks though. im going to stick to avatarinit for now :)
+Interesting, maybe I should ask them how Bing works in that case. Don’t be ridiculous, Windows10 alone is a telemetry nightmare. For being aspiring or already current JS devs, seems quite a few folks here are totally oblivious to the concept of privacy. Do take a stroll on by /r/privacy sometime. This current move doesn’t make a shred of sense. Why would a paid service go free, think for two seconds please. You’re becoming the product in this move. Just wait until proper TOS’s are updated soon enough. 
+One of the most important things you can do is build something. Bootcamps have you write a lot of code (correct) but one thing they tend to be light on is actually architecting an application. Find something you want to build (it doesn't need to be groundbreaking), with a technology stack that you're comfortable with, and complete it end to end - this shows a few things: - You can think through an application from front &lt;&gt; back - You can set up the required tech (e.g. some form of cloud hosting, your database, etc) - If you spend some time iterating and making the frontend look good it shows that you won't need hand-holding on that aspect - You can complete something; lots of projects get lost and abandoned, so showing you can complete something end-to-end is a good skill to show an employer Implementing some kind of new technology you didn't know prior is a good thing to do as well - it shows that you're able to quickly learn things on the fly (which is a huge part of being a developer). Being able to talk about your project and say "I completed this because of x y z and I wanted to give myself a chance to learn [whatever technology]" goes a long way in an interview. You can always do those HackerRank/CodeWars style things if you just want to stay "sharp" but realistically these don't gauge the skills you'll actually need in the job (though some people will ask these style questions in interviews, which is a rant for another time).
+Wow. Thank you so much for taking the time out to respond like this! I've been wanting to start my own project but I keep putting it off with the fear that I won't actually get anywhere..
+i gotchu boo https://flaviocopes.com/page/react-handbook/
+17 days after, GitHub's private repos are free. NOT BAD.
+Bitbucket and Gitlab aren't happy about this for sure.
+We're not all professionals around here. IMO, the whole pull request paradigm could use some pretty serious rethink, or at least how it's implemented at github's end. I just don't have the bandwidth to reconsider it though, else i'd make some suggestions. 
+Wait, what?
+Very nice, this has inspired me to start my first react project with a neat game idea like this.
+You can still be a paying customer if you want to. GitHub Pro for $7 a month gets you a bunch of features on top of he private repos you used to get for that price. 
+Hi /u/effthatNonsense, this post was removed. If you'd like to post a link, then please use the "Submit a new link" option. If there is additional commentary or links you wish to add, please do so in a comment. Thanks for your understanding.
+Hi /u/thethirdone-g, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+I'm most excited about the incremental server-side rendering. We're going to show how to make it work with react apps soon!
+Argon2, bcrypt and PBKDF2 all use a random salt. You can't call it argon2 if you don't, and the same applies for all the others. You shouldn't need to think about it, the library will generate it for you in all cases.
+NPC bugman reply. 
+How about the iterations? Whether or not that is a benefit, I'm not sure other than it is slower and that is considered "better".
+No joke, I got it on the first guess. 
+It's mostly theory to cover the major concepts rather than a single tutorial based on CRA, but I do introduce that as well, as I think it's the best way to start with React 
+Great to hear, thank you :) 
+Again, iterating the hash is built into the algorithm. If you building a loop or something to hash passwords you're trying to do yourself, something you really should leave to a library. This is where it's done in Argon2: https://github.com/P-H-C/phc-winner-argon2/blob/master/src/core.c#L281 You will not a better job yourself.
+That's the thing. I think the number open source, non professional, projects on GitHub are proof that not only professionals use it. But true. I also don't expect that the local butcher will apply for a job as software engineer at my firm. 
+Some suggestion: &amp;#x200B; \+ Why do you use index instead of README? With readme, you can save a click by clicking on a folder (instead of another click to [index.md](https://index.md)) &amp;#x200B; \+ I know that you want readers to subscribe for your mailing list (sr i'm bad at english so don't know good words) , but how about using docsify to create a live view (turn markdown to html) for this book?
+Don’t put it off. The more you do it, the better you’ll get at it. Struggling against something is the best way to learn as long as you know the resources you need to get past the obstacle (documentation, etc).
+At work I use webstorm for development, at home I use vscode for a few personal projects, I installed the keybindings from jetbrains IDEs on vs code and I don't feel any difference now, also I feel vs code is a bit faster than webstorm
+.... that would describe some devs i've worked with, though :-D 
+care to explain why? are you implying they cross check with other domains the user identifying by email?
+I love this: `[...new Array(3).keys()]` I knew there had to be something shorter than fill/map. I always miss being able to do ranges like in Haskell: `[1..20]` `['a'..'z']` 
+So.. u/kenman will you explain why it was my post was removed?
+But what is the use case for this? Why would I want to know which key failed? 
+BitBucket is great if you if you ignore the fact that they STILL DO NOT HAVE SYNTAX HIGHLIGHTING FOR DIFFS, which makes PR reviews unbarable. But hey, they've only had [an issue for it open for 5 years](https://bitbucket.org/site/master/issues/8673/add-syntax-highlighting-to-diffs).
+I can't even get the diffs to work properly themselves. It thinks I am removing and adding new code instead of modifying
+I think this would probably require a custom job
+Which of the 15 words that I used do you not understand?
+“..this post was removed”
+"Safe property access with automatic error handling" is exactly what **lodash/get** already does. Giving you a human-readable error message is out of the scope of the question and frankly doesn't really make sense as this type of functionality is *usually* meant to be used so far down in the belly of your code that the error won't contribute anything. Also, since you can only query for one specific field i.e. there's only one key you're operating on then what good will that error message do?
+Nice ! 
+`jsonwebtoken` is just the JWT implementation. `express-jwt` depends on `jsonwebtoken` and provides convenient express middleware instead of an imperative sign/verify API. So you could either use `express-jwt` and just use the provided middleware or you could use `jsonwebtoken` and write your own middleware. In these cases I like to take a look through the [issues](https://github.com/auth0/express-jwt/issues) and maybe some of the [code](https://github.com/auth0/express-jwt/blob/master/lib/index.js) to see if the library seems solid enough to be worth adding the dependency.
+This seems to be only really useful for debugging but then you always could use breakpoints because in any other case you would or should assume that the object is corrupted as it does not pass your duck-typing. To navigate an object safely you can use &amp;&amp; and ||
+Hi there! Thank you for the shoutout! Getting a feedback is one of the best parts of open source. I'm extremely lucky and glad to see that people like the ideas I'm developing. I'm equally glad when people dislike them. That motivates me to improve. &amp;#x200B; Of course, RAF has some rough edges and drawbacks, for example a well-deserved mentioned bundle size, which exceeds any form solution out there. I'm working hard to make each kilobyte count, and know there is some room for improvement. However, I'm sure that RAF will always be bigger than other libraries, simply because it takes more responsibilities, which you would implement on your own otherwise. It also tries its best to be as opinion-less as possible when doing so. &amp;#x200B; I would like to mention the documentation for **react-advanced-form** ([https://redd.gitbook.io/react-advanced-form](https://redd.gitbook.io/react-advanced-form)). It should contain all the information you need to use it, and it's always open-minded toward decision it makes, including an open statement about the bundle size. &amp;#x200B; Please, if you feel that some aspects of the library can be improved (i.e. getting started, or some recipes), let me know on GitHub. It means a lot to me. Thank you!
+yeah, it's scaled up from 162x162 to 10vh (192x192) for me.
+Am I alone being annoyed how people repeatedly mistake some of class-based OOP features for OO in general? **"It's time to stahp!"** Although the author later takes notice that his suggested approach is also OO. I guess all is not lost yet.
+Thank you!
+btdt :(
+Probably look for internships and look for data entry type jobs on freelancer, you might be able to automate some of those depends on the gig. You also could if you're good at design find local businesses and offer web design services.
+On my phone so can’t look properly but one thing I would change is the input type to number so you don’t get the full keyboard on touch screen devices.
+You should check Gitlab
+Why is it outdated? Have you tried ES2018? 
+Yeah that’s definitely where the web is headed!
+Its also just bad in general. A dev who was coding in JavaScript hired someone to take over. Originally the game start up time was 15 seconds to like 1 minute. The new dev switched the code to c# and it started up in 5 seconds average.
+must have been some shitty JS code.
+Still a bad language. Its complicated for no reason.
+They might do anything possible to gain the edge. Company x might not do it but corp y surly do. So be warned your data is basically free game
+Awesome thanks , i also bought the book last summer great content tho. 
+you think JS is complicated but C# is simple? go home, /u/celloPanthrus; you're drunk.
+It much simpler than JavaScript.
+the only thing i'll agree with you on is that writing *fast* js is definitely more complicated/nuanced than writing *faster* C#.
+Hello?
+Finished it last night. Just at work atm so I'll upload when I get home. Sorry got called into work this morning.
+looks like you're getting the hug of death right now
+Ajoke 
+?
+Adobgay 
+make money down the road. obviously. 
+Very true. A money sucker. But need to use it for my job, but also don't want to open 500+ PDFs and add signature boxes for all of them
+`new Array` should be avoided, it creates holey arrays and have perf implications
+This sub isn't for beginner topics, which yours is. If you want to learn JS, or to get past the beginner stage, then post in the aforementioned /r/LearnJavascript. If you want career advice, then perhaps try /r/CSCareerQuestions or similar.
+I don't get this. Every framework has some sort of SSR solution. The front page is all about how this is better than no SSR but I want to know why this SSR solution is better than the other ones I would be using.
+This is great. You keep putting out good content. Thanks Flavio
+Oh okay, thank you for explaining that. I’ll be sure to engage with that sub for those specific things.
+JS and C# is equally simple and better performance. It's just how your perceive it and how you implement it. A good developer will be able to write fast and reliable code no matter what language is used. It's just like English, if you're a good speaker, everyone will be able to understand what you're saying. If you're bad in English, even a kid wouldn't understand what you're saying. Don't blame the language, blame the developer
+Websites are the best option in my opinion (outside of you know, a job). They give you ever-increasing experience and proof of work, put extra monies in your money slot, and are pretty easy to sell. In a nutshell: every business needs a website. If they think otherwise, they are probably right because their business will fail and having spent money on a website would then just me insult:injury. Almost no peoples know how to internet goodly, but luckily, you do. So the concept is this; look for businesses without a website or with poor websites. Write them down. Briefly investigate the market and how you could help them. Tell them about those ways and what YOU can do for THEM. That’s the key. Businesses get calls and requests for stuff like this ALL THE TIME, but it’s other businesses or some Indian 15,000 miles away doing it. You walk in there, all local n shit, and lay out right there on the table. Show them how you can do better work for less money because you don’t have the overhead of those other businesses. Show them they are critical to your success, not just another number in wemakewebsites.com’s system. They will bite. Treat them well and with integrity. This will work good for you. You will like this; they will like this. ......Happily ever after. P.S. - make sure your website is decent when you go to them and follow (more or less) the principles enshrined on http://motherfuckingwebsite.com Good luck ~Easy
+can somebody hook up a link for DL with no email?
+About. Fucking. Time.
+I work in email marketing. That’s exactly what they do. I say they here deliberately. I hate every minute of it and am trying to get out of it now. But cross-domain is the least of your worries. Some “trusted” advertising conglomerates can access lists with credit card information on it. And not from internet purchases. From actual brick and mortar businesses too. It’s freaky
+[https://jsfiddle.net/73ofv4yz/](https://jsfiddle.net/73ofv4yz/) &amp;#x200B; Are you sure your script exists at `../scripts/script1.js`?
+You can use react exactly like you described old-school land. No one is forcing you to break everything out into its own component, or two overload your components with tons of logic. You write a simple function that takes in props and renders out jsx. ```js const SomeTemplate = ({ name, age, sex }) =&gt; ( &lt;div className='person-template'&gt; &lt;h1&gt;{name}&lt;/h1&gt; &lt;p&gt;Age: {age}, Sex: {sex}&lt;/p&gt; &lt;/div&gt; ); ``` Don't immediately hook up redux and start writing reducers. If you don't need application state (you don't always need application state), don't use it. Defer to React's built in component-level state management. Where are you getting hung up?
+Can you elaborate?
+Thank you. Will be so much useful!
+Fantastic, I'm in the process of pushing myself to learn React so this is a nice weekend treat!
+What are the chances of that?!
+JavaScript: The Definitive Guide. I read it cover to cover last summer. It was boring as shit but I learned a ton. Eloquent JavaScript has a new edition out (3rd I believe) that you can read for free online. Also a great book. 
+For simple graphics check out p5.js
+I'd use something like matter.js (which comes with a render, but you can use another one).
+On this note, never ever take an unpaid internship. That shit is for the birds. 
+Whoa! a FREE EBOOK!? Lord knows the only other place I could get that is literally every other shitty online business
+Agreed did one once and while I learned an ok amount it began to become more of a burden than anything.
+So I just get up puppeteer and made it go to the site I wanted, but it immediately recognized me as a bot. Any possible workarounds for that?
+Hey! I’ve worked on and off on a pretty complex game in JavaScript - it’s open source here https://github.com/Larkenx/Rotten-Soup. I use pixi.js for rendering the game itself and HTML for the HUD/UI 
+https://gist.github.com/Pyragon/c6a16c94138aa14533f6fad5b2cd4a57 Here you go. Take notes of some changes I've made. 1. config.js has been updated, you'll need to redownload it. Put it in the same folder as the index.js. Put config.json in the parent package for your project. (You can also change the location via options sent to it. See config.js) 2. Everything except prices have been moved over to load from this config file. This prevents reset of these items on bot restart. 3. I've changed your multiple `bot.on('message', ...` to one function that handles all commands. If you need more commands than this, I suggest giving [this](https://dragonfire535.gitbooks.io/discord-js-commando-beginners-guide/content/getting-started.html) a read to find out exactly how `discord.js-commando` is supposed to be used. 4. I was not sure how you wanted your buy/sell commands working, so atm the buy command checks the server store's stock, gets the highest price you put in `SALES_PRICES`, and if possible, buys the item from the store, and puts it into your inventory. The sell command is pretty much the same, just reversed, except the price is generated randomly from the `SALES_PRICES` numbers. Something I would suggest: do not use random prices for anything. If you walked into a store right now, you wouldn't see a price tag that said 'between X and X'. Same with people who sell to stores, unless it was a pawn shop or something, you wouldn't get a random purchase price given to you. Everything is set based on what the store is selling the item for, and what the person selling the item to the store set it to.
+I recommend checking out Storybook. It allows you to come components in different scenarios and props. With it you're able to quickly iterate and get your code right how you want it before adding to your application and dealing with reducers or what have you. https://storybook.js.org/
+If you are allowed to use something beyond Javascript you could, of course, use Unity. Unity would give you a very versatile game building experience due to the fact that it is a full featured game engine. &amp;#x200B;
+Organizations To dispute an organization name, follow these steps: Contact support@npmjs.com with the name of the organization, e.g. @foo. Support will contact the organization owner on your behalf requesting the transfer. They may at their discretion include you in this dialogue. After 4 weeks, if the owner has not responded, support will address your request. The ultimate outcome is at their discretion and judgement. Source: https://www.npmjs.com/policies/disputes
+&gt; React feels like it wants everything from the outset (except click events). It's like, the very first thing I do when I start creating a piece of UI is to hook up Redux. I don't even bother with naked HTML in these projects as there's likely to be a ton of cruft from some component or other. Never had this sentiment, and I've been doing a lot of "simple mom&amp;pops apps" in React. In most cases like that I don't even have Redux in the project.
+Ohhhh, I see. Thanks.
+Hehe, thanks!
+I loved them when I was little, and still do!
+Heh, thank you!
+Yeah, it's well designed. WebGL without the wrappers like three.js and such are awful to get going compared to it.
+Hehe! Thanks. I've had a thing for fire demos for a long time - that post brought a lot back.
+So, I'm hoping that you might decide to move away from JWT. It's not very good from a security perspective. Macaroon is a better choice.
+I took the class from the author of [this book](https://www.apress.com/us/book/9781484225820) while he was writing it; it covers all the fundamentals of game engine design and uses JavaScript plus WebGL, with a very small math library. It's only $20, and should be more than enough to get you up to, say, a Flappy Cube level of game. 
+May be you can try [https://word-maker.herokuapp.com/](https://word-maker.herokuapp.com/). Very simple word game built with plain JS, HTML and CSS
+1. [https://developer.mozilla.org/bm/docs/Web/JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)(not a book) 2)[https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) 3) [https://github.com/Airbnb/javascript](https://github.com/Airbnb/javascript)(not a book) 4) [https://www.manning.com/books/secrets-of-the-javascript-ninja](https://www.manning.com/books/secrets-of-the-javascript-ninja) 5) [http://eloquentjavascript.net/](http://eloquentjavascript.net/)
+Thank you very much! I have sent an email.
+It’s not wrong to ask here but I would contact NPM support before i’d do that.
+All local n shit 
+This is amazing, greatly formatted pdf and very comprehensive, I really appreciate it
+&gt; Macaroon Cookies in English :) 
+lmao
+I’m a UX’er goin into React and find it really hard to layout something fast to start templating thing while staying in the same lane as the development team and tech leads general info on how it’s suppose to be layered out. I use to be able to get a whole frame work done in less in a day with jQuery and JavaScript but now dealing with router, props and const... I guess for me is the learning curve. 
+I work with a backend dev who doesn't know javascript very well. I want him to be able to see what went wrong in the console without the app totally crashing from a runtime exception or ignoring the error like _.get does.
+If you want a full-featured engine check out Phaser. It's pretty easy to build a simple game and add in some more complex customization.
+The problem is...I’m not sure how to do cookies and sessions with react native, it’s a lot harder than just passing in “Bearer &lt;token&gt;” into the authorization header. 
+This may be a bit weird, but if you’re passionate about programming, like to teach others and like to write, you can do that. A couple of years ago I wrote articles for blog sites like SitePoint and Telerik. Every article is a great learning experience because you have to research the topic. You also get help writing (which is a good skill to have) and they are reviewed thoroughly. I got 200-250 USD for ~1200 word articles, but prices may vary depending on size and vendor. It probably isn’t enough to make a living but it’s a nice bonus for hobbies and stuff.
+I like how the book is $19.99 for the entire thing or $29.99 per chapter. 
+Am fam with storybook. Love it. I'd thought to incorporate it, but It's a bit too focused for this project. 
+Its more like slow than hung up. That help flair was auto-generated. I'm really looking for other people's experience. 
+Yes, but the user would be able to look at your code to see what the ‘password’ is. 
+Sorry, poor choice of words on my part. What I meant was, what feels out of place in the React workflow where you feel like it's slowing you down? I'm getting the sense from you that it feels like a lot of machinery for a simple job. Sometimes that's true! My experience has been that when I first started using react, I tried to take advantage of all the features and design patterns and it took a long time to build anything. More recently I scale the amount of 'proper' implementation with the amount of time I want to spend. 
+That's fine - It's more of the illusion of security for an unimportant personal website. Would you now how to do this in javascript?
+Unfortunately I do not have Outlook, but this manual should help 1. Copy as Select 2. In Outlook 2016/2013/2010 click, File to go to the Backstage view. 3. Go to Options. 4. Click the Mail tab and then Signatures in the Compose messages section. 5. Create a new signature by clicking the New button. 6. Paste the copied signature into the Edit signature section (Ctrl + V). 7. Click OK.
+In real life, you would/could send an ajax request (via https) to have a server verify the password. But if instead you want to do this purely in JavaScript -- just for fun -- then you could keep a hash of the password in your source, then compare the hash of if the user's entry against the reference hash of the correct password.
+Yes. Create two references to your DOM elements. One to your input and one to your button. Attach a click event listener to your button which then evaluates the value of your input equaling your hard coded password. 
+Yes. Create two references to your DOM elements. One to your input and one to your button. Attach a click event listener to your button which then evaluates the value of your input equaling your hard coded password. 
+I would go for phaser.js
+Never let it be said that academic textbook pricing is sensible, or fair.
+OIC
+Not really all that sneaky, was the first place i checked.
+That hash won't provide much more security than having the plain text password in the source code. Anyone can still edit the code in browser to their liking and bypass the checks, either by replacing the check hash with their own or completely removing the check. But, like OP said, security doesn't really matter here apparently.
+Work at the strip club like the rest of us had to, builds a lot of character, and the networking opportunities are great
+Phaser is the best game engine I used in my projects. P5.js is the best (or at least easiest) canvas library I used in my projects.
+True. The next step would be to encrypt the protected content, where the key for the encrypted content is the password. That way even if someone edits the code to bypass the hash check, they still won't have the key to the encrypted content.
+Is there a good reason to try react if I use Vue ? I tend to go with an architecture that's a server side framework with Vue for just on page events and interactivity - mostly forms. 
+Can you send links to site you blogged for and they paid? Thanks
+I think you can do the same things with both. It's a matter of personal taste, really. If you already use Vue, there's no need to use React unless you want to also know that and compare the two
+Understand what the script does, understand what you need to do, and figure out how to bridge the former with the latter. 
+A lot of writers recommend writing even if someone has written about the same topic before. Not everyone has the same writing style, opinion or approaches a problem the same way. Those differences can make all the difference to readers. Additionally, you shouldn't get others in the way to practise your passion/hobby/whatever. It's not easy to write (at least) one article every week. It can be stressful. In fact, I would discourage this if you intend doing this next to a full-time job. Maybe you can only write about the JavaScript features you think are really helpful to reduce the amount of articles you have to write. Maybe you can focus on proposals ([https://github.com/tc39/proposals](https://github.com/tc39/proposals)). Few articles are about those, you get to learn the newest features, and you won't have to write often.
+what about using `switch()`and `case:`? let a = 12; switch(true) { case a &lt;=1: console.log("a&lt;=1"); break; case a &lt;=2: console.log("a&lt;=2"); break; case a &lt;=10: console.log("a&lt;=10"); break; case a &lt;=12: console.log("a&lt;=12"); break; } 
+why does this keep getting reposted &amp;#x200B;
+Gotta get them upvotes.
+[removed]
+I feel like it's the opposite of what you describe and that's mainly the reason I like it. Putting complex ideas into shape quickly is something i would say is one of Reacts stregths because there is so little overhead and celebration. Redux on the other hand kills that spirit because it wants you to think about the structure of your app before anything else, which can be beneficial later but cripples build-as-you-go type of inspiration. Remove it from your project, it's that simple. 
+Use the loop.
+Credit card information = card number associated with someone?
+A mix of good and bad examples. Several of the examples does not do proper escaping of values. For instance the CSV ones and the HTML ones.
+Thanks for the honest feedback.
+did qa as an intern... great programming xp
+To go vanilla ja you will need a method, like tick(). Inside this method you should have smaller methods like 1 read input and hold that information like set a playerJumped to true 2 update the position and state of your entities, if there is an object in the air, move it down a little bit or if the player jump variable is true add an acceleration to up 3 read the state of your objects and draw it. To do this you can use a series of images (sprites), split that in memory and use canvas to draw on your page. Look for spritesheets to have an idea. There is lots of opportunities for improvement. You will need a list of objects to hold the state of your stuffs Post your results later!
+There shouldn't be critical performance differences. You could change `for(let i = 0; i &lt; eleDistances.length; i++){` to `for(let i = 0, iMax = eleDistances.length; i &lt; iMax; i++){` to have a small improvement, but it shouldn't be that big. The better question is: Do you want to write/copy&amp;paste 100 of the `if` cases (which you have to update everytime you add another element) or just one small, dynamic function that will loop trough all possible entries.
+Don't guess whether something is fast or slow. In addition to being wrong surprisingly often, most of the time it doesn't matter whether the code is fast or slow. What's vastly more important is readability and maintainability. For the second code example, are you sure that you'll always remember to change each and every instance when you need to modify your code? If it feels slow, find out why it's slow and find solutions. Premature optimisation is terrible.
+I've recently started building a game in Phaser but the documentation for Phaser 3 still sucks, so don't try that version if you're new to programming.
+Very cool
+HTML strings are a bad idea whatever their contents
+This kind of micro-optimisation makes a difference in assembly language where you care about millionths of a second, but in a language as high-level as JavaScript you're basically wasting your time worrying about it because any savings will get *more* than drowned out by factors completely outside your control like browser garbage collection, your OS paging to disk, preemptive multitasking by the OS, etc. Also, more generally with optimisation, it really can't be started enough but **measure first then optimise**. Micro-optimisation at any level above bare metal programming in assembly is deeply counter-intuitive, and you're almost certain to be wasting your time (or worse, actually making things *slower*) if you guess at where the CPU cycles are going rather than measuring and knowing for sure. Micro-optimisation without profiling before and after it's like doing surgery with a blindfold on.
+Wow. Thank you for checking out my app and providing such valuable feedback. I am very grateful for your time. I refactored my code according to some of your advices; 1) "Change the colour of cold / hot display depending on the result. Makes for a clearer ui": I added that functionality. Now the background colour of the number depends on the result, and changes accordingly. 2) You don't need a constructor if you only declare the state. You can declare the state directly in the class (state = {...}). ... I removed the constructor and now state is initialised directly from state = {}. Initially I wanted to do it like this, but I kept getting a type error when I tried to call this.generateRandomNumber() outside of the constructor. The problem was because I was using arrow functions, I needed to declare that function before the line in which I declare state (no hoisting), and I declared the state on top of the class. 3) Be careful with using the list index as the key for your guessList. In your case it's fine but if the list can be modified things can go wrong. I am aware of this problem. This is a simple case where the list items won't be deleted and updated so I went with the simplest solution and used array indexes as keys. 4) If you don't want to have to maintain a separate css file for each component you might want to look into styled components... I will definitely look into styled components. Thank you for pointing me in that direction. 5) Check out de structuring which can also clean up the code... I followed your advice on this, and refactored the code accordingly. Again, thanks a lot you for your help. I appreciate it. Cheers :) &amp;#x200B; &amp;#x200B;
+Good work! Happy to help out
+First of all, thanks a lot for the time you took to test out my app and check my code in such detail. I learned new stuff about React while I refactored the code according to your advices. I found that the most valuable thing in my learning process is the feedback I get from other coders like yourself. That is why I love this subreddit, people are so willing to help one another :) These are the changes I made; 1) I refactored this.updateFeedback and this.updateGuess so that the state is changed only once, to avoid needles rerendering. 2) I followed your advice on how to implement the Reset functionality, specifically on how to pass the reset game function as a reference to the child Reset component, and not as an arrow function which returns the reset... 3) I defined my default state in one place &amp;#x200B; Cheers &amp;#x200B; &amp;#x200B;
+Thanks for the advice. I added that functionality as well :)
+Thanks for checking out the app. I'm glad you liked it. I added that functionality as well, so progress tracking is much clearer now :)
+Yep :) 
+I'm glad to hear that. It is the best way to learn new technologies. Start with simple and fun examples
+I think it should work. The type attribute is set to number on that input element. I tested it out on my android phone, on chrome, and it is working. Which OS/browser were you using?
+Thank you! I am happy to receive such feedback :)
+Thanks :)
+Thanks :)
+Haha. You had 1/100 chance and you got it. Nice :D Thanks for checking out the app
+I was viewing it inside the Reddit app on iOS 12.1, i also tried it in chrome and safari and i get the full keyboard. Not that is really matter what browser as they all use the same UIWebView so should all act the same. Great work by the way, its a nice fun game.
+Console.log(array[2][1]) What are you doing? Let’s see your code.
+But also know that dealing with people is exhausting. This sums it up pretty well: [https://theoatmeal.com/comics/design\_hell](https://theoatmeal.com/comics/design_hell)
+Just please don't make another FUNCTIONAL PROGRAMMING MAP FILTER REDUCE article
+Agreed, just way too many edge cases (or even common cases) that can throw errors.
+What im doing exactly is in dutch, but basically i ask for input in a multi dimensional array and print what it refers to. i have text in the array that needs to be printed and is obviously referred to for example [2] [1] is "Peter", it needs to print Peter when this input is given.
+Don't Repeat Yourself! There are certain things that are worth watching out for when it comes to performance, but you're not going to see a difference between looping over 7 items or nightmare-if-chaining over the same 7 items. If you're having trouble with performance, it might be because you're fucking with the browser scroll at all, which isn't usually recommended. [Read the MDN recommendations on scroll event throttling](https://developer.mozilla.org/en-US/docs/Web/Events/scroll) to see what you can do about that. Your loop is likely not the problem. 
+I speak Dutch, I see no problem there :p &amp;#x200B;
+Yes, or if you're in Node, use a headless browser or a well-used, updated HTML parser. 
+Can you write here the code you've written so far?
+I’ve actually never worked with a headless browser before. I’ll have to try that out sometime.
+Is that a framework? Since you give it a uniqueID there's probably some function that exists to delete the timer by that ID
+[https://www.c-sharpcorner.com/blogs/start-stop-asp-net-timer-control-using-javascript1](https://www.c-sharpcorner.com/blogs/start-stop-asp-net-timer-control-using-javascript1)
+I do 
+Me.
+Is this a good idea? 
+Ok thanks lol.
+Thanks
+Looks nice. I browse it and it very well structure. Got a suggestion for you which I find is missing in every tutorial I have found: how to edit a pre populated form that get its data passed in via it's props. I'm still struggling with that one. You can't edit props, you can't copy in state so how do you do it. Especially if you load the data asynchronously
+They're both great.
+Just checked around the office and 78.8594713% of us use it.
+I like it. Here is the direct link to the page: [https://30secondsofcode.org/](https://30secondsofcode.org/) 
+Because the loop doesnt happen.You should have written greater than or equal to one,not less than or equal
+Maintainer here; After speaking with the core team members we do not really know who keeps reposting this all the time. That account alone just reposts link to our repo, and this is not the first time we get comments like these. Sorry for the inconvenience. 
+when the loop start "i" is equal to 6, so the validation i &lt;= 1 in the loop it dosent work
+Every. Single. Day.
+I gotcha. How about just making a TLS request to your server? That's the suggestion from [https://kev.inburke.com/kevin/things-to-use-instead-of-jwt/](https://kev.inburke.com/kevin/things-to-use-instead-of-jwt/) for your use case.
+I'm gonna go with "no", for two reasons 1. It breaks the basic expectation of how strings should behave - both in that they inherently are strings, and in that they should be synchronous. 2. This doesn't achieve anything not already handled by the Fetch API, or even legacy API's like XMLHttpRequest, and isn't more concise or easy to work with.
+Maintainer here, too. If the OP is reading this, please stop spamming links to the repo. I know you mean well, but nobody wants to see the same repository reposted weekly/monthly etc. If something big happens, we will definitely share it with the community at r/javascript like we've always done.
+Technically `&lt;` inside HTML text is not valid and you use `&amp;gt;`. However, working with HTML, especially often is better left to a well-maintained library. Some snippets are mostly there as proofs of concept, we don't expect people to use them regularly and there;s a disclaimer that some snippets might not be production ready. Just because we show people how to do it, doesn't mean they should - same as any resource on the internet (certain SO answers come to mind). On a side note, some snippets might have bugs, edge-cases, bad practices etc. PRs are always welcome and they are the backbone of the project. Feel free to help us improve it if you can. &amp;#x200B; *Disclaimer: I am a maintainer and in no way affiliated with the OP, who is regularly reposting this.*
+[removed]
+Yep
+Is this it maybe? :) [https://codepen.io/linuss/pen/pqZmwg](https://codepen.io/linuss/pen/pqZmwg)
+It was like that for me too when i started. What i learned is that you even have to practice the simple stuff you see in tutorials. I watched many of them and i thought it's easy, but i couldn't get tasks done. You have to get your hands dirty. Try to build as much as possible with what you know, and play around with everything new you learned. You will progress much faster this way.
+&gt;There shouldn't be critical performance differences. You could change &gt; &gt;for(let i = 0; i &lt; eleDistances.length; i++){ &gt; &gt; to &gt; &gt;for(let i = 0, iMax = eleDistances.length; i &lt; iMax; i++){ &gt; &gt; to have a small improvement, but it shouldn't be that big. No this is not needed. V8 engine optimizes all of that under the hood.
+Thank you! Got it.
+cool. Does that mean they use breakpoints to pause and cycle through frames in the call stack for debugging? Also, watchpoints for example?
+breakpoints and cycle through frames in the call stack? Watchpoints? cool.
+breakpoints and cycle through frames in the call stack? Watchpoints? cool.
+breakpoints and cycle through frames in the call stack? Watchpoints? cool.
+breakpoints and cycle through frames in the call stack? Watchpoints? cool.
+Yep :)
+Fair enough. arrayToCsv could be improved like this: const arrayToCSV = (arr, delimiter = ',') =&gt; arr.map(v =&gt; v.map(x =&gt; `"${x.replace('"','""')}"`).join(delimiter)).join('\n'); Main thing is that double quotes should be escaped by doubling the double quotes: "This is a test where there are ""quotes"" in the value","column2","column3" [See here for a relevant StackOverflow post](https://stackoverflow.com/questions/17808511/properly-escape-a-double-quote-in-csv)
+Not to mention that arrayToHtmlList only supports passing in an id of an existing element on the page. Terrible API design.
+That sounds nice! Do you have any sources to backup that? It's been nearly one year old, but if we take following benchmarks [from this unknown source](https://medium.com/tech-tajawal/loops-performances-in-node-js-9fbccf2d6aa6), then it looks like the "classical for with length" (for some reason the one-dimensional array is slower with a HP environment) is slightly faster than the one without.
+No, look at how calls accept any form of configuration. This is a cool demo of what tagged templates are capable of though.
+You're not gonna get upvoted around these parts unless you mention this is from Dan Abramov lol
+Awesome ! 
+wonderful. What libraries are you using? How big is the codebase?
+Hi /u/VxMGA12, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/MT1120, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+You have a problem with reading?
+I've done the same thing with VSCode, installing the keyboard shortcuts matching Webstorm's setup. I can't stand the "chord"-style Visual Studio setup.
+Hi /u/oczekkk, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index). Posts must directly relate to JavaScript, and content regarding CSS, HTML, general programming, etc. should be posted elsewhere. Thanks for your understanding.
+Hi /u/neutral24, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/paulbean, this post was removed. If you'd like to post a link, then please use the "Submit a new link" option. If there is additional commentary or links you wish to add, please do so in a comment. Thanks for your understanding.
+Hi /u/dave5subway, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/hello_I_am_bad_dev, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Hi /u/monstaber, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Nice try, google! 
+Forget arrays. When you're presented a question in the form "given X, return Y" the correct answer is a function that takes X as its parameters and returns Y. One of the most important skills as a programmer is knowing how to encapsulate all the important parts of some computation into a function block. That is not demonstrated by your answer and is imo the biggest problem with your pseudocode
+Okay, no problem, sorry
+I went with Max's course. It's great! And I feel I'm getting better at it with every section, especially since I'm coding along or/and adding and changing some features on my own before they're explained. One thing, I'm not a complete fan of the databases sections. The idea is to reimplement the entire app using a different solution (MySQL -&gt; Sequelize -&gt; MongoDB -&gt; Mongoose, in that order). The last \~5 hours (at \~1.3x speed) of content has been on databases, not including my own coding-time and I still have the Mongoose section to go through, since that's where I'm at in the course. Don't get me wrong, they're great videos to learn to work with databases, but this part of the course isn't too exciting since you're not exposed to too many new features or expanding the course project. The next sections are on sessions/cookies and authentication, so that's gonna be interesting :P Still, I couldn't recommend the course enough, you get insane amount of value for the price.
+This is kind of like asking a JavaScript subreddit if they like JavaScript or Dart better... I think you will get a biased result.
+LOL I will keep that in mind
+&gt; Ook hier zullen de effecten duidelijk zichtbaar zijn. De kracht van open repositories is dat gebruikers de mogelijkheden Suddenly, wut
+Regardless of (speaking)language, syntax doesn’t change - how are you trying to access the array? Are you getting an error? We can’t help you with the amount of details you’ve given us. We need to see the code.
+Honestly CSV conversion (to and from array and object) is not well-written at all and quite inconsistent. I'd love to merge a PR with that, if you are willing to submit one and patch up the tests for it. ;)
+Communication between iframes can _only_ occur with `window.postMessage()`. You can read up more about it by looking up the same origin policy.
+That is something we are discussing in an issue already. Feel free to pitch in and tell us what you think, it's very useful to the team and the project. Thanks for the feedback!
+if you have cross-origin requirements for the hosting page and the iframe contents, then postMessage is the right solution. I just had to research this myself and I've been a dev for 12+ years (who still uses iframes?!)... You can always check caniuse.com for statistics if your supported browsers actually support the feature. According to https://caniuse.com/#feat=x-doc-messaging IE might give you problems (*gasp*) if you need to send objects to/from, but you can always use `JSON.stringify()` and `JSON.parse()` to get around that.
+\&gt; but... it looks... dirty... The "dirty" part is iframes - they are both necessary for certain interactions (like the one you describe), but also necessitate a lot of jumping through hoops, and postMessage() is one of those hoops. postMessage itself is pretty reliable (insert typical older IE issues here), and I've not heard of particular security issues - the whole point of it is to keep iframes from being insecure. If you can avoid iframes, I recommend doing so, but often you can't, and when using iframes it's best to get familiar with postMessage ASAP. It's painful, but the pain is what is prevented, and postMessage() is about giving you a way to do the things that are prevented, in a legitimate way, so it's worth it.
+postMessage is a standard. My only problem with it is it doesn't work in Expo's version of React Native WebView on iOS. My NPM package rn-webview fixes it, but so does ejecting from Expo and using the community WebView. That is a bug with the React Native WebView project, not postMessage itself.
+Frames in the same domain can interact directly with one another without the need for postMessage.
+Obviously blessing. The state of open source software development isn't at risk just because individuals are able to hide their test/scratch repos or anything else not ready for release. Employers now actively go through interviewees' GitHub profiles. And although I don't personally think open source development should be seen as a baseline portfolio, being able to cultivate it for a certain outward appearance is important.
+Unfortunately, iFrames are used much more often than it seems. I've been working for my company for 1.5 years and we've had to add an "embedded application" inside our webapp using iFrames... Twice. Because rewriting them in react is too expensive and time-consuming. In both cases, communication and synchronization happened via bidirectional postMessage. Both the host page and the iFrame listening to 'message' events and publishing the necessary data. BTW, remember to use the origin parameter when using postMessage in order to avoid XSS (cross-site scripting). Basically, your iFrame should only trust your app's origin and viceversa.
+Yup, just restrict the origins when using postMessage and everything should be good to go
+Hi, cool project! There is a typo in the description, you wrote "MINRIGHT" instead of "MINDRIGHT".
+Fair point.
+Made this a while ago [https://github.com/bayareawebpro/laravel-micro.js](https://github.com/bayareawebpro/laravel-micro.js)
+Not only that. The concept itself is beyond stupid
+What is this cycle through frames you speak of. It almost sounds magic. Is that the same as console.log with the function name in it?
+I'm not quite sure how you would develop a complicated web application without that.
+Hi /u/Jonathananas, this post was removed. For javascript help, please visit /r/LearnJavascript. Thanks for your understanding.
+Thanks for the explanation, I was trying to find some other way to make this work (not using iframes) but due to my experience I guess I can't come up with much more as I don't have that many details of the "external apps".
+Yes. I’m a native Dutch speaker and fluent English and I had to scroll back to ensure myself I was reading an English article. 
+Due to the issues of CSS/HTML id/JS/cookie/localstorage contamination, it's often best to leave external apps as iframes, even if iframes are the devil :) 
+Security vulnerabilities make a lot of things "dirtier" than most devs would like. But they were done that way for a reason, and we have to just live with it. As for postMessage, we use it in our app at work because we allow our app to be iframed on client's pages. We've never had a problem with it, other than the development pain it causes to have to use it. We support all fairly-modern browsers.
+Tagged template strings are not "just strings", there is no expectation of this being synchronous. It's a significantly nicer API. It's like saying JSX isn't needed since you have `createElement`.
+Does anyone else find arrow functions difficult to read, especially when nested? I realize in many ways they can be more elegant, but this genuinely looks like spaghetti to me: const bifurcate = (arr, filter) =&gt; arr.reduce((acc, val, i) =&gt; (acc[filter[i] ? 0 : 1].push(val), acc), [[], []]); Written in pre-arrow format and with indenting, it takes up much more space but is, I think, a bit easier to read: const bifurcate = function(arr, filter) { return arr.reduce( function(acc, val, i) { acc[filter[i] ? 0 : 1].push(val) return acc }, [ [], [] ] ) }
+Thanks, I'll give it a go.
+Thanks Mike
+For what it's worth, I don't consider this spammy. If an author/owner repeatedly self-posts their own stuff, I consider that spammy. Or if other folks repeatedly repost something _because they're being paid_ through things like affiliate links, I consider that spammy. But this doesn't seem to be either of those cases. This seems to be a link getting reposted for the right reasons.... because people think it's good.

@@ -1,0 +1,999 @@
+Yeah i agree , starting out with some small tings in fact i did just today. Thanks
+Thanks !
+Oh a solid advice will check that out !
+agree...
+and now functions are being rewriten
+Not all homes have electricity.
+I'm curious why you went the route of using Favorite and Underdog for your classification labels. Why not something like Fighter Red Corner and Fighter Blue Corner? Was it easier gathering the data this way since it seems like a lot of work to getting historic Match Stats (summaries before fight starts and not round by round breakdown of past events) and labeling those with the outcome?
+4chan has a json API, you don't need BeautifulSoup: [https://github.com/4chan/4chan-API](https://github.com/4chan/4chan-API)
+You're trying to convert the entire project to Python 3 and leave Python 2 behind? Let's talk about some of the specific issues you ran into then. You can PM me and we can set up a time to chat on Skype, Disc, whatever.
+Hey!! I read you article a few weeks ago and that inspire me to make a similar project but with some differences. Thank you!!
+I built the same a while ago with Telegram. I use always Telegram for such kind of information messages/notifications. Reliable, easy, free.
+my_variable := get_input() This behavior is the exact opposite in Make. The ":=" operator is evaluated on inspection and the "=" is evaluated on demand.
+ahahah awesome! I was reading your comment and thought to myself "did this guy read my article or what?!" so glad you enjoyed it! I'm actually going to post another one in the next days building a small app with Tkinter so you don't have to run the flight scraper in Jupyter. And I decided to give it a try uploading videos on my YT channel along with the articles (gotta work on my radio voice though.. lol). Let's see how it goes :) Thanks for reading!
+Yeah, but in my experience it requires knowing the right people. &amp;#x200B; Try going to meetups and doing in-person networking.
+I like it. Can you paste the code here so I can run the code directly in Terminal (Linux)?
+Sure! requires Pygame for visual, and Random &amp; Time for main. &amp;#x200B; `# Importing everything we will use` &amp;#x200B; `import random` `import pygame` `import time` &amp;#x200B; `# Defining some things` &amp;#x200B; `BLACK = (0, 0, 0)` `WHITE = (255, 255, 255)` `GRAY = (127, 127, 127)` &amp;#x200B; `SCREENX = 200` `SCREENY = 200` &amp;#x200B; `size = (SCREENX, SCREENY)` `screen = pygame.display.set_mode(size)` &amp;#x200B; `x = 1` `y = 1` &amp;#x200B; `# Defines our 1s and 0s` `# Module currently not working.` &amp;#x200B; `def draw_0 (x,y):` `pygame.draw.ellipse(screen, BLACK, [x, y, 1, 1], 0)` `print('Drew 0 at ', x, ', ', y)` &amp;#x200B; `def draw_1 (x, y):` `pygame.draw.ellipse(screen, WHITE, [x, y, 1, 1], 0)` `print('Drew 1 at ', x, ', ', y)` &amp;#x200B; `# Initialises` &amp;#x200B; `pygame.init()` `pygame.display.init()` `screen.fill(GRAY)` `pygame.display.flip()` &amp;#x200B; `# Repeats until screen is full` &amp;#x200B; `while True:` &amp;#x200B; `pixelID = random.randint(0, 1)` `if pixelID == 0:` `draw_0(x, y)` `else:` `draw_1(x, y)` &amp;#x200B; `x = x+1` `if x &gt; SCREENX:` `y = y+1` `x = 1` `pygame.display.flip()` &amp;#x200B; `# Checks if screen is full and draws final bit` &amp;#x200B; `if y == SCREENY and x == SCREENX:` `break` `pixelID = random.randint(0, 1)` `if pixelID == 0:` `draw_0(SCREENX, SCREENY)` `else:` `draw_1(SCREENX, SCREENY)` &amp;#x200B; `print('Done!')` `pygame.display.flip`
+Doesn't printing all the stuff into terminal take so much more time that algorithm itself?
+Actually, it goes just as fast as the display updates.
+It might be worth using [sonarr](https://sonarr.tv/) to guide you in terms of what and how you might want to do specific things, it does everything you described and more and even though its written in mono it can help you to reason things out.
+Wouldn't the display updating be slowed down by the printing?
+&gt; Would print 100-50=50 That’s not what it would print. It would print ”input-output=50”.
+I m just beginning with this but for ur offer of help I raise my hat good sir bless yea and have a great day
+Don't blame me, I'm literally quoting the article in the above post, sans declaration
+Is there a demo or screenshot?
+Definitely gonna give this a run once I’m back on my computer, looks cool.
+Not too sure, I think the printing is just queued. However, it us capable of printing indefinitely quickly.
+I've added the support for not only MD5, but Blake2 and Sha256 too. :)
+Pseudo-random
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+Have you looked at dask? It is very robust. tbb?
+The answer to /u/BrianKernighan's question is yes, this is slowed down by printing to terminal. If you scaled this into the gigabytes, the difference would be extremely obvious.
+It depends on how far back your 2 support was. My project was originally tested fully on 2.7. So it was pretty easy because as I added new features I used a lot of the backported 3 syntax. Also, if you've got good unit tests, then it should be relatively sane. If not, well think of it as a good chance to write them. The way I did a migration to 3 was to introduce a dependency on [`six`](https://pypi.org/project/six/), then run each unit test in 3. For syntax or type errors I'd see if I could patch it with a six call. Most of the issues I ran into were xrange vs range, str vs bytes and some old ways of handling exceptions `except (e1, e2), e12_ref` vs `except (e1, e2) as e12_ref`.
+Because it’s good to know the temp? All new baby monitors have this. I just use a sensor in my daughters room that connects to my nest.
+Mainly because the data I scraped was ideal for this classification and that I wanted to make use of the betting odds. It wasn’t too much work to get historic fight stats as the website was easy to scrape and it came with betting odds too. I’m sure you could also try fighter red fighter blue kind of classification. There is not only one answer to this problem. If you could scrape round by round instead of fight by fight, perhaps you could give it a try and might find something interesting.
+Bonus: Unseeded use of random. So what's the basis for the randomization? Anybody's guess, really.
+How this generated "QR" code can be so useful?
+If you just did `pip install pygame` then you installed it to your base python environment. Pycharm usually has you create a virtual environment when you create a project, so make sure you actually understand why Python environment Pycharm is using for that particular project.
+Well, I've proven that one can be generated from a string of binary data. Not really much else though.
+toptal or upstack
+Clock speed makes all the difference.
+RemindMe! 9 months
+I will be messaging you on [**2020-04-02 00:15:54 UTC**](http://www.wolframalpha.com/input/?i=2020-04-02%2000:15:54%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://np.reddit.com/r/Python/comments/c7uqpr/how_to_make_a_smart_baby_monitor_with_python/esj5rpr/) [**CLICK THIS LINK**](https://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Reminder&amp;message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2FPython%2Fcomments%2Fc7uqpr%2Fhow_to_make_a_smart_baby_monitor_with_python%2Fesj5rpr%2F%5D%0A%0ARemindMe%21%202020-04-02%2000%3A15%3A54) to send a PM to also be reminded and to reduce spam. ^(Parent commenter can ) [^(delete this message to hide from others.)](https://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Delete%20Comment&amp;message=Delete%21%20c7uqpr) ***** |[^(Info)](https://np.reddit.com/r/RemindMeBot/comments/c5l9ie/remindmebot_info_v20/)|[^(Custom)](https://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Reminder&amp;message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=List%20Of%20Reminders&amp;message=MyReminders%21)|[^(Feedback)](https://np.reddit.com/message/compose/?to=Watchful1&amp;subject=Feedback)| |-|-|-|-|
+Would it be a problem to build a library of every change from the previous version so you can just include it, instead of having to convert the whole program?
+So, the usual Medium quality prose.
+Sounds great, I’ve worked with tkinter but the GUI seems so old for my taste. Thank you again dude, keep it up!
+Because Python is in all stages of Machine Learning, from do Data acquisition, data clean, data analysis to deploy this model in production.
+For top level statements you need it inside parens like (my_input := input())
+If you already know ML but not so much programming, the learning curve is very low for python.
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+Yes, my baby monitor does have that feature too. It shows the room temperature within a few degrees of the set temperature by AC. What use is that? It's just a gimmick in my opinion. My baby is so bundled up with swaddling and what not, he sometimes gets sweaty even when it is 72. Sometimes he is cold when the room temperature is 72. &amp;#x200B; Why do you find it useful? What practical thing do you do with that info? Now if this showed babies temperature, at least roughly, that is a different story.
+Try this https://leetcode.com. No I am in no way affiliated with leetcode.
+Find an interesting library and do something with it!
+The Twilio integration seems like the most useless part of it. Using SMTP to send an email to an SMS gateway gets the exact same behavior without the dependency.
+[numpy.random.bytes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.bytes.html)(x_many_bytes) My [static screen](https://gist.github.com/quonic/2dc717e578d00a850ea02a6410473600) I've been working on getting it to go faster. 4fps at 400x200 on by CPU. I'me sure it could go faster if I took the time to learn how to use shaders or the GPU.
+A QR code is a deterministic way of encoding a blob of information amenable to optical scanning w/ lots of error correction. [Like this, which encodes a URL to your comment](http://chart.apis.google.com/chart?cht=qr&amp;chs=300x300&amp;chl=https%3A//old.reddit.com/r/Python/comments/c815gc/i_created_a_program_that_gives_you_5000_bytes_of/esj57sh/&amp;chld=H|0). They're not random. OP posted a pseudo-random noise plotter.
+The parents should be, you know, home. So, they should notice these things.
+It's not just libraries, there's some syntax which changes. There are plenty of backports libraries but you can't change syntax, you can just write really shitty py3 code which happens to be py2-compliant.
+Temp is very important for some folks
+I really like the concetpy [hotqueue](https://github.com/richardhenry/hotqueue): a wrapper around redis queues which use the same interface as a `queue.Queue`. Really good abstraction. Unfortunately, it's a dead project with some inconsistencies and py2 nonsense in it; there's at least one fork but even that hasn't been touched for a while.
+check your formatting.
+Find something that you hate doing and automate it. Renaming files, scraping from the web, generate and update CSVs and Excel spreadsheets, send out automated emails, etc.
+But what did you base the random 0,1 upon? Hummm? Hummmmmmm? Truly random? Repeatable? HUMMMM. But seriously, it's really hard to get random. If you're using RANDOM... well... I bet there are articles about that. Pretty dots though.
+Sorry about the formatting in the first post new to posting code on reddit
+Just to give OP /u/EpicShiba1 and idea... &amp;#x200B; Run this code. for i in range(1,10000): print(i) x = 100 for i in range(1,10000): x+=1 print(x) &amp;#x200B; Printing slows code dramatically.
+You have only proven that you have zero idea how a QR code works.....
+We do use ini files, but we have a separate configuration.py and settings.py in the application The configuration.py manages loading of the ini file /etc/app/app.ini (where app can be any name) but also configuration.py provides the defaults as a triple quoted string. There is also a function that loads the ini file /etc/app/app.ini over the default settings. Then in settings.py you just import CONFIG from configuration.py and use that something like this: from .configuration import CONFIG SECRET_KEY = CONFIG['django']['secret_key'] DEBUG = CONFIG.getboolean('django', 'debug') We use ini files because there is a python built in module so it is easy to use.
+Then on top of that in setup.py we do something like this: entry_points={ 'console_scripts': [ 'appname = appname:management_command', ], } When the module is installed it then becomes bin/appname instead of manage.py and the ability to run that from anywhere is useful.
+The first line was how to make a Smart Baby, so I freaked out initially
+What do you mean by random data?
+Nice work! What exactly is the point of this exercise, though? What are the signals indicating? Very curious after watching your video.
+Ummm... os.urandom is as close to real randomness as u can get (to the best of my knowledge).
+This reminds me of my jr. college’s homework assignments (vending machines, ATMs, etc)
+Pseudo-random. It's just a bunch of random.randint(0,1) calls to determine the color of each pixel on the window.
+&gt; ATM machine *twitch twitch*
+Also check out my other submission that adds a bot that will text users for reminders and important updates [https://github.com/leobeosab/SMSDiscordBot](https://github.com/leobeosab/SMSDiscordBot)
+This is an example written by a novice for other novices. I don't have a problem with that, except that the headline promises more interesting than that (a peek at production ATM code in Python) which it certainly does not deliver. Most glaringly, `float` is for science and engineering, and `Decimal` is for finance.
+It's platform (i.e. OS &amp; hardware) dependent. The nearest you can get to "true" randomness requires a seed from a hardware source that has high entropy, and a cryptographically secure random number generator. You sometimes run into things like bitcoin wallets that actually have you wiggle the mouse around for a while to provide a source of entropy that is platform independent. For any purpose other than cryptography, `os.urandom` is usually plenty.
+How a [QR code](https://en.wikipedia.org/wiki/QR_code) actually works, for those who are curious.
+**QR code** QR code (abbreviated from Quick Response Code) is the trademark for a type of matrix barcode (or two-dimensional barcode) first designed in 1994 for the automotive industry in Japan. A barcode is a machine-readable optical label that contains information about the item to which it is attached. In practice, QR codes often contain data for a locator, identifier, or tracker that points to a website or application. A QR code uses four standardized encoding modes (numeric, alphanumeric, byte/binary, and kanji) to store data efficiently; extensions may also be used.The Quick Response system became popular outside the automotive industry due to its fast readability and greater storage capacity compared to standard UPC barcodes. *** ^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&amp;message=Excludeme&amp;subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/Python/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot) ^] ^Downvote ^to ^remove ^| ^v0.28
+The clock is the seed.
+I know you installed pillow, but the import is named `PIL` (for backwards compatibility reasons). Try import PIL
+I typically just use the os, os.urandom(num)
+Github link?
+[secrets.randbits(k)](https://docs.python.org/3/library/secrets.html#secrets.randbits)
+Wait this actually worked, why doesn't it worked to other modules though?
+Different, unrelated problems, I'd guess. Ask us on /r/learnpython. This is the wrong sub for help.
+What other modules.
+Also make sure you have the package installed. I don't know how the hell you'd do it on Mac without brew. On Linux you could run `apt install python3-pil`, `pacman -S pil`, `yum install python3-pillow`, something to that effect (not sure if those are precisely correct, but I believe they do differ by distribution. You could also use `pip3 install pillow` or `pip3 install pil`, whichever it is.
+PyAutoGUi
+Built on Windows NT Technology Built on Windows New Technology Technology
+And you're trying to import it with "import pyautogui"?
+You definitely want to remove that print statement.
+Yes
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+It's a trick called "vectorized computations": instead of compute the pixels one by one, put all of them into a 2d array and get the colors stored in the R, G, B components. then put them together to get the image.
+I don't see that actually documented anywhere in [the Python random module](https://docs.python.org/3/library/random.html). Do you? There is a specific statement as to what happens if `random.seed()` is called without a value, but no indication of how `random` functions if `seed` is never called. It's possible that some Python distributions with automatically seed `random` if it is called to generate values without having been seeded. Presuming that it works that way in *all* Python distributions is dangerous. You may view this as pedantic in a beginner-level random() function. There are several important reasons to point this out now: * As a very basic point about how randomization works (i.e., it's not just numbers pulled out of a magic, guaranteed-to-be-random hat). * As a very basic, very important comment about reading documentation before using modules. * To spread these two messages to other beginner Python developers who might otherwise view this code as a good or canonical example of randomization.
+You are installing pyautogui to your python3.6 version, but you are using your python3.7 version. Also, I already told you, post in /r/learnpython instead.
+Could it be using noise, such as /dev/random getting "noise" from device drivers - or even reading /dev/random on some types of OS? [https://en.wikipedia.org/wiki//dev/random](https://en.wikipedia.org/wiki//dev/random)
+**/dev/random** In Unix-like operating systems, /dev/random, /dev/urandom and /dev/arandom are special files that serve as pseudorandom number generators. They allow access to environmental noise collected from device drivers and other sources. /dev/random typically blocks if there is less entropy available than requested; /dev/urandom typically never blocks, even if the pseudorandom number generator seed was not fully initialized with entropy since boot. /dev/arandom blocks after boot until the seed has been securely initialized with enough entropy, and then never blocks again. *** ^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&amp;message=Excludeme&amp;subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/Python/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot) ^] ^Downvote ^to ^remove ^| ^v0.28
+Here is the python source for seed, it first tries to use the operating system random number (also seeded by time) otherwise it uses the python time. try: # Seed with enough bytes to span the 19937 bit # state space for the Mersenne Twister a = long(_hexlify(_urandom(2500)), 16) except NotImplementedError: import time a = long(time.time() * 256) # use fractional seconds
+Still not working but thanks
+Why?
+ahhh nothing like reading a "dickhead of the day" post!
+From what I can see digging through the source, it looks like it first tries to seed based on system entropy, and if that fails it falls back to using system time, howver it considers system time to be the worst-possible option.
+`$ head -c 5000 /dev/urandom` on Linux
+PuTTY has the same mouse thing for generating SSH keys. I’ve always find it unsettling because it is known that humans are awful at being random. Is it really the case that on some OS and hardware the random generation is worse than humans?
+The signals show the frequencies at which a peak was observed these peaks can then be used to suggest which part of the brain was active for a specific action to occur. This technique can be used to find which part of the brain causes a symptom from a disease! For example maybe finding what area causes a tremor in Parkinson’s disease!
+Very cool stuff!! Thanks for explaining. Wish my job was anywhere near that interesting.
+You should check out the cv2 library if you want to play around with images. You can do a lot of really cool stuff with it.
+Still just looking at signals 🤗
+Operating systems build entropy for randomness using a variety of methods that may include time but is often much more complicated. With linux the entropy pool is built with things such as "system events, mouse clicks, device drivers, and other environmental noise".
+Is this what we observe on the old "antenna" TVs, when there is no signal? I think we called it static? So that was just random data hitting the screen?
+The sms is the weak part of this project and it is what they are trting to sell. Kinda sad.
+My program is shorter ;) dd if=/dev/urandom count=120000 | display -depth 8 -size "200x200" RGB:-
+There is no "**the** Python source for seed." There is only the source for a particular distribution of Python. There are [a lot of Python distributions](https://wiki.python.org/moin/PythonDistributions), and versions within each distribution (obviously including Python 2.x and 3.x of the primary distribution). What unifies different distributions of Python? What guarantees that code that works in a particular way in one distribution of Python will, or at least *should*, work in exactly the same way in every other Python distribution? Formally, it's the defined Python specification. Less formally, it's the official documentation. You know what *isn't* included? Completely undocumented functionality... which is free to change. One of the most harmful obstacles to code longevity - including online sample code for beginners, such as this one - is breaking changes. (Case in point: There's a mountain of TensorFlow code on the internet... and *almost all of it is broken* because Google made severe, breaking changes between TensorFlow 1.x and 2.x. And ffs, the platform *debuted* in 2015.) We should all be aware of this problem and
+Sure. It could also be a dozen other things, including no seeding at all. That's the danger of coding based on undefined functionality.
+Correct.
+Did you get a chance to test this?
+Unfortunately no. Other projects took priority and I just never came back to test this one for leaky IPs. It's still on my to-do list though.
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+No worries, thanks for replying!
+r/thatscoolbutwhy
+I’m not a fan of Linux redundancy (recursive acronyms) in names either. I remember the good old days when it was Personal Home Page and not PHP: Hypertext Processor
+Try replacing your two draw functions with just one and your while True with two nested for loops.
+What about write code and run it right on the terminal ?
+You're welcome. The program still works to randomize your country. I'm just not 100% sure if your true public IP will be exposed in between server transfers. I would assume that there's a good chance your true IP COULD be exposed during that short period of time between transfers. Depending on what you're doing at the time of the transfer of course. All this program does is choose a random server, log you out of your current session, and then immediately log you in to the random server that was chosen. I'd think you would need to tell your computer to temporarily block all traffic until the transfer was complete.
+That's a really interesting question! (With apologies to those who already know this stuff...) The key thing is that the average desktop computer cannot actually generate true randomness at all without external input because it can only follow a deterministic logical program. The best you can do is to use some clever mathematics to generate numbers that satisfy some of the properties of randomness, which is usually good enough. But if you know the algorithm and the seed then you can entirely reproduce the sequence (this is actually a useful feature for doing reproducible scientific simulations). This is why it's sometimes called [pseudorandom number generation](https://en.wikipedia.org/wiki/Pseudorandom_number_generator?wprov=sfla1) . The reason the mouse wiggling trick works is that although humans are lousy at consciously generating random numbers, we're not robots so we don't have enough fine muscle control to avoid some randomness creeping into our movements, including movements of the mouse. Even if you tried to reproduce the exact same movements each time, you physically couldn't. More than that, your mouse movements are simply something that can't be predicted from the internal state of your computer. With a cryptographic random number generator, seeding it with something that a potential attacker couldn't have access to or reproduce is "good enough" to generate a secure key.
+**Pseudorandom number generator** A pseudorandom number generator (PRNG), also known as a deterministic random bit generator (DRBG), is an algorithm for generating a sequence of numbers whose properties approximate the properties of sequences of random numbers. The PRNG-generated sequence is not truly random, because it is completely determined by an initial value, called the PRNG's seed (which may include truly random values). Although sequences that are closer to truly random can be generated using hardware random number generators, pseudorandom number generators are important in practice for their speed in number generation and their reproducibility.PRNGs are central in applications such as simulations (e.g. for the Monte Carlo method), electronic games (e.g. *** ^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&amp;message=Excludeme&amp;subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/Python/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot) ^] ^Downvote ^to ^remove ^| ^v0.28
+Yes! That was indeed environmental noise.
+Sounds like you need to run twitter into an AI, that should cover it.
+I'm afraid to use `dd` unless I absolutely have to
+Got it, that makes sense. Thanks for explaining. My work is somewhat sensitive, so I'll be extra careful.
+If you haven’t already, learn about GUIs, for example Tkinter
+I think it makes sense only if you maintain a library used by hundreds of others. If your changes break things and you don't want to wake up with a hundred emails asking for support in your mailbox.
+(data|disk) destroyer
+you can use `&gt;` or `cat` with the exact same effect. It's `/dev/sd*` or `/dev/nvme*` you should be afraid of. dd is harmless
+Oh my god, my life was a lie!
+I think people automatically assume CPython as "the" Python distribution, and rightfully so since it's the first and official one. If any other dist is used then it is explicitly mentioned. I'll agree with the versioning differences though.
+It looks like you are using 2 different version of python, on the left you are running version 3.7.3 (which you probably installed by yourself), and pip3 installs modules for version 3.6 (default osx python). &amp;#x200B; I'm not sure if osx have py launcher, but you could try 'py -3.7 -m pip install module'
+It depends on what you would like to do with Python in the future. As you used selenium and requests you might have started with web scraping. The obvious next step would be to analyze the data, structure it with beautifulsoup, store it in a database, make some nice graphs using pandas, numpy, matplotlib if you haven't done yet. I myself do not use Python to make GUIs, maybe its just because I'm more into data analytics. I prefer javascript web interfaces to show my results.
+It'll take you two minutes to put it on github. If you can't afford to waste 2 minutes, don't do it. If you can, do it.
+Before you go too far into looking at point releases of the interpreter, have you ensured that both machines have the same modules in the same order on sys.path? If you’re getting this error it sounds like your code _does_ have an import cycle when deployed on the server, which is likely to be a deviation in the two environments greater than just the point release of Python itself.
+cat is hardly comparable to dd. You can't specify block size for copy and count of blocks, you can't show progress,etc. Cat only works with default environment/ulimit settings. Cat might be good for very small files, but dd is much faster if you specify appropriate block size. And it's not dangerous, if= option is input file, an of= option is an output file. To be honest, I would be more likely to fuck up stuff with cat used for copying (not viewing) then with dd.
+&gt; it considers system time to be the worst-possible option. This is for security reasons
+It's fair. Its one of those commands you read over five times to make absolute certainty that you are doing what you want, but dd'ing from /dev/urandom is fairly common and outputing to stdout is almost always safe
+urandom is often fine for crypto too, but if there's a crypto library and there is in python, better to use it. urandom in a modern Linux system is pretty damn good.
+Thanks man, I'm gonna probably gonna go to the data science direction.
+If you do so, numpy, pandas, scipy, matplotlib, later Tensorflow or PyTorch
+Easy to learn especially for non-CS background people, it already had good data manipulation modules.
+They don't take the movement as source but rather a seed.
+It almost certainly has nothing to do with the difference in python versions. The fact of the matter is if your code is encountering circular dependencies, you need to refactor it, because it's already a mess. Draw out your flow on a piece of paper to see why things are getting imported, and then restructure those modules accordingly.
+That's note a QR code.
+One way to check is to send stdout to a file, usually you'll notice the difference immediately
+I don't think your code does what it's supposed to do. Your task is return the number of elements in the list, that must be moved to sort it in decreasing order. Another example would be: input ["foo", "bar", "zee", "oof"], output 2.
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+Machine learning. Learn TensorFlow and Keras
+I guess one approach would be to use an underlying webdriver to parse the next video but I think it would become quite resource heavy.
+There is no way 52% of python developers use windows as their primary OS.
+That's great man
+Which is a part of Windows OS system family. Which is a part of Windows Operating System system family.
+And what is the 24% of other?
+if you looked it you’d have an interesting status effect on your hands
+PHP is a recursive acronym. "ATM machine" and "NT Technology" are not. These are unnecessary repetitions :)
+FreeBSD obviously
+r/Pwhython
+Ok... you win... still. Recursive acronyms bug me as much as redundancy.
+Don´t forget that many beginners are picking python as their entry language nowadays. Meaning they have a windows mashine 90%. Most businesses are still developing on windows by default and sometimes give the ability to switch to other OS. But the default is always windows. Also, you don´t really need to overcomplicate things if everything works just fine on windows. As well as if you are running a vm anyways for each project, you might as well use the better usability and experience and start your VM from windows.
+Everything would be better if more people were like you! : )
+Real chads use TempleOS
+What are those 4 channels?
+Depends on your house and climate I think. We've got flat roofs upstairs, so on a hot day the temp will skyrocket - like 10 degrees C warmer than the rest of the house. At night, it can drop like crazy. We were always keeping an eye on the temperature in the room because it can fluctuate so much. Basically no-one where I live has AC, so you can't just set and forget it.
+This is fucking awesome
+Windows with WSL is ok... (We need the definition for primary OS)
+Thats what I have been telling everyone, but no one believes me :D I will screenshot this and use this as proof in future conversations that my arguments are more valid.
+To get true random I use the mood of my wife as seed. ^^^^Just ^^^^kidding ^^^^she ^^^^is ^^^^actually ^^^^pretty ^^^^cool.
+Design problem: Create a recursive acronym that is redundant, repetitive, a backronym, insulting to PHP, and mutually recursive with another acronym with these properties.
+Theano has been dead for ~1.5 years now
+Why not? I use Windows to do the coding but Linux to run the software vscode with remote development via ssh plugin makes everything super nice
+They do similar things. You can fuck up a drive or file with the same success with `&gt;` as with dd. And if you read from something you can also use head, cat or whatever. Sure they're different, otherwise they wouldn't exist. But if I wanted to get the MBR backup for example, head works just as well.
+Yea, I was thinking the same thing
+&gt; urandom is often fine for crypto too It's fine for *any* cryptographic purpose. There are ways to get more random numbers, but with crypto you always have to draw the line somewhere. Making something secure enough to not be cracked in the lifetime of the universe is usually good enough.
+I'd argue that your primary platform is actually Linux then, but i guess that's ambiguity in the question.
+Why are the 2 24% bars different sizes?
+RIP to my nigga Terry
+52% + 18% + 22% + 24% = 116%? Am I missing something?
+https://youtu.be/CGSavKCn4o0
+Why can't both sets of circle charts (2 vs 3, primary vs secondary) actually have their start and end points line up?
+&gt; For any purpose other than cryptography, os.urandom is usually plenty. That's just not true. On any desktop or server computer os.urandom is perfectly fine to use for cryptographic purposes. It only becomes a problem when dealing with very minimal embedded Linux setups, but that's not really something a regular programmer needs to consider. The mouse wiggling thing is just to create the impression of more security and not based on any actual crypto research.
+I'd suggest getting clarification through the sources, but...
+1. You confused dictionaries and lists. 2. A better way to phrase what you said would be "Python doesn't generally use statically typed or fixed size arrays - it uses lists instead, which are growable and can store values of any type. If you need a compact fixed size array for performance reasons, you can use the `array` module in the standard library or NumPy".
+I really need to be accurate. What's the point of having developed bunch of Flask apps if at the end of the day I shoot myself in a foot on such a trivial question making myself look like I don't know what I'm doing.
+I would count Windows + Linux VM as Linux and not Windows.
+To add to what I said: don't be afraid to say you're wrong, or to say that you don't know things. It's _fine_ to not know things. Like, if you say "if someone speaks about arrays in Python what he really means are dictionaries", and then realise that what you really meant were lists, it's fine to just say "oh, sorry, when I said dictionaries, I meant lists". You can even go into a bit of detail here, to make it really clear you know what the difference is - "dictionaries are key/value stores, and aren't ordered, so it's a whole other thing". If you get asked directly about the `array` module, it's fine to say "I've never used it before, but I'll look it up". Saying those things doesn't make you look bad - quite the opposite, really.
+I went on about dictionaries and lists and data types they were asking about. Its features and best use cases but I wanted to jump of the window for saying what I said about Arrays. I wonder if they will get over it and give the job anyway. If not just moving on ... lives goes on, python goes on ....
+You are calculating difference of heights while you need to return number of elements not in their sorted place. Tip: you don't need nested cycles, you can use `zip()` to iterate both lists at the same time.
+you make sense more than the rest love it
+Yeah ... I said all the benefits of using dictionaries, lists and sets. Then we touched on Django and AWS. I said my bit and pretty confident about that. Damn you arrays haha.
+If that was just one slip-up in an interview that otherwise went well, especially if they don't expect you to have much experience, it definitely shouldn't be a deciding factor.
+Yeah ... all good. Have a good one K900\_ and thanks for your input.
+Why not?
+What would be a combination of Web Development and Machine Learning? Deploying models as web services without any sort of validation?
+Decimals I guess
+Agree with /u/wewbull, I think it's more about where you're actually deploying the code than where the code gets written.
+I'm a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit: - [/r/opensource] [ScrapydWeb now supports cancelling pending jobs](https://www.reddit.com/r/opensource/comments/c87kxd/scrapydweb_now_supports_cancelling_pending_jobs/) - [/r/scrapy] [ScrapydWeb now supports cancelling pending jobs](https://www.reddit.com/r/scrapy/comments/c87l47/scrapydweb_now_supports_cancelling_pending_jobs/) &amp;nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don't vote in the other threads.) ^\([Info](/r/TotesMessenger) ^/ ^[Contact](/message/compose?to=/r/TotesMessenger))*
+Arrays are fundamental to all languages
+this is so awful, pretty much everything in this image is bad and/or wrong. I hope nobody falls for this shit.
+Hello! I'm a bot! It looks to me like your post might be better suited for r/learnpython, a sub geared towards questions and learning more about python. That said, I am a bot and it is hard to tell. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. **[Be sure to format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)** and include which version of python and what OS you are using. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+There’s another where 52% is a fraction ahead of 24%, I think it’s just for visuals.
+I would say that besides is true randomness it haven't enough values to make it a good seed.
+Why on earth is the representation of "what Python is used for" a bunch of pairs? Some pairs are not even represented. This graphic seems to show that web development is the top use for Python, but yet it's missing from the top pair? I don't understand what source data could possibly result in this conclusion
+I've used Twilio a lot, but never with Raspberry. Cool idea👍
+No hate because the article is written well, but what is the point of sharing such basic stuff that is also poorly written (code-wise)? It only misleads novice programmers.
+That's a sick writing prompt.
+`for i in hights: hights[i]` Doesn't do what you think it does. The `for i in hights:` loop sets i to each variable in hights. `i=1 -&gt; I=1 -&gt; i=4 ....` Then `hights[i]` gets that element of the list. ' # i=4 hights[i] == 1 ` If you change one of your hights to be bigger than the length of the list you'll get an error.
+let's make a list of everything wrong with this image! - the donut chart for python 3 usage starts its filled in section at a completely arbitrary place - the fact that two donut charts exist for a yes/no question at all is stupid - "85% of total developer use python 3" is awful grammar - so is "15% are sticking on python 2" - in the "put to use mainly for" section, it only lists combinations of uses rather than single ones, a lot of which don't even make much sense. - also in said section, one 24% slider is bigger than another one. this might be forgivable if it weren't for the fact that the bigger slider is on the bottom, defying the descending order of the section overall. - another set of donut charts that could have been one donut chart. - in "most preferred framework for web development", there's literally no data. is django or flask more preferred over the other? how many people prefer each? what were the other options? they easily could have given us this data, and should have, assuming they have it. - "OS developer prefer"? did you even try with that header? - these slider-looking bar graphs are absolutely not scaled right. the windows one should be over twice as big as "other", but "other" is closer to windows than to linux, which it's only 2% away from. - speaking of that, what "other" OS is so large as a programming environment that "other" ends up beating out linux? - these percentages don't even add up to 100%. were people allowed to select multiple options on the survey? - "most preferred python framework". plurals, dammit! use them! - numpy, pandas, and matplotlib are all different libraries. why group them together? - obviously, people could select multiple technologies from a list for the "most preferred" survey. but that raises the question, preferred over what? the other technologies on the list? that doesn't make a lot of sense, looking at the list. it actually makes no sense to say something like "I prefer using numpy over flask". there's no point at which you would ever make a choice between the two. - there are two spaces between "preferred cloud". it bothers me. - "based on ranking"? what does that mean? does it mean the survey takers ranked all of these cloud platforms? or is there some other "ranking" of cloud platforms? or maybe it's just referring to the fact that - instead of actual data for the cloud platform part, we just get rankings from 1-5. why? what makes you want to show the data for the preferred technologies but not the cloud platforms? - no sources or raw data available!!!
+ [This](https://talkpython.fm/episodes/show/191/python-s-journey-at-microsoft) episode of Talk Python to Me might be interesting to anyone who is baffled by this statistic.
+I saw v3ritas1989 fight a bear in order to save this subreddit from being attacked. &amp;#x200B; &gt;*Many masters of many fields have emerged, but v3ritas1989 has mastered all disciplines. - Ghandi* &gt; &gt; &gt; &gt;*His vision has shaped our world for the better. - Oprah* &gt; &gt; &gt; &gt;*One day I will be glorious leader like v3ritas1989. - Kim Jong Un.* &gt; &gt; &gt; &gt;*I like him. Very good guy. Let me tell you about him sometimes. - Trump*
+Just draw lines around the edges.
+&gt; Python doesn't generally use statically typed or fixed size arrays It does use fixed size arrays - they're called tuples, and they're immutable.
+the info text tooltip for API Calls on the pricing page is missing. otherwise website looks very nice
+Not to Erlang/Elixir.
+RIP me who is working in an embedded Python 2 environment.
+Downvoting for claims with no sources
+See the numpy doc : https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.broadcast_to.html
+Tuples are neither (actually) fixed size, nor arrays.
+What are your thoughts on the improvements for the code? or what changes or simplification could be implemented to help others. Thanks and I welcome the feedback.
+DOS
+AI as a service.
+Wouldn’t you like use ordereddict though
+I would look into clustering algorithms. https://scikit-learn.org/stable/modules/clustering.html
+Maybe they let people choose several options, Because many dev have more than one os
+I was thinking something simple
+But before that learn Pandas. You will really do yourself a favour that way. I went opposite route and it was pain in the butt. My suggestion would be: 1. Pandas 1.1 Learn what is Dataframe and why use it 1.2 Learn What are vectorized operations, why and how to use them 1.3 Learn Data visualisation (I use Pandas for it too, but you might find yourself needing something more complex) Simple project for part 1: Import some large (few MB is usually enough to feel the difference) datasets in different formats (for example weather data picked up hourly for some month in csv and in sql, they are pretty easy to find). Try performing some simple operation for that data (for example group by day, averaging temperature, find mean, standard deviation etc). First without then with pandas. Notice differences in: Code readability, and performance 2. Sci-kit 2.1 Learn Data preprocessing: Why and how 2.2 Learn how to create simple learning algorythms using multiple methods (NN are definitelly not the only one you should have in your pocket in data science) Simple Project for part 2: Import some raw music file. Use your previous knowledge to create 'holes' In this dataset (or download sosme already holed dataset. Again There are plenty if you look for them). Use Sci-kit to input missing data using different methods 3. Keras 3.1 Learn different problems for which using Neural Networks is appropriate (clasification, insertion, prediction) 3.2 Learn to create and teach simple models 3.3 Have fun with this step because it's propably the biggest one in terms of (ammount to learn)/(possible fun) ratio Simple project for part 3: number recognition model. This is propably as basic as it gets. But this is your starting point. From now on. The sky is the limit. Advanced project for part 3: Raspbery pi robot that follows arrows drawn on a pieces of paper on his way 4. Tensor Flow I'm not quite there yet. I'm yet to experience problem that I definitelly can solve using TF that I cannot using Keras. Then again. I'm in Data Science for a year or so, I'm still a newbie in that area. Definitelly read up on feed forward neural networks though. Those seem fun. My idea for TF is: I will move to it when I find boundaries of Keras, Sci-kit and Pandas. Definitelly not there yet. Additional info: 1. STICK TO OOP If you want something to be readable by anyone or even you in a month. Go OOP. OOP is definitelly not the best paradigm, but it's the one Python assumes, and is by for the most popular on the market now. If you like Python, and potentially working in python, force yourself to OOP. If you want something different, go for different languages. (I'd recommend Ruby since it both supports FP, and OOP so you can make some fun comparisons, and it's pretty viable on the market) 2. Commit to your GIT EVERYTHING. Every little change. Every little comment you make. My rule is: If I move away from computer (even for coffe or to chat with coworkers) I commit. It looks infinitelly better when future employers will look up your git, and you will have realiable version controll. Sometimes A part of your solution that you discarded 2 weeks ago would come in handy now. It's good that it exists somewhere. 3. If you want additional challange: Scrape the data using selenium or requests. Scaped data is usually more messy than datasets ready to learning availible on the internet so you will have some more fun dealing with that, it might be good to do that after you manage with simple datasets, so that you will always know that if something went wrong. Its the DataScience part, and not the scraping part. 4. Most importantly: Keep it fun. If you find a particular subject boring. Don't be afraid to drop it for a while. Most of datascience is so deeply interconnected that it will propably come up again sooner on later, and then you might find it super interesting when it's applied to particular problem that you are facing (this happened to me and dataframes). You will find yourself learning more and quicker if you try to entertain yourself and not just achieve some arbitrary challenge.
+I do high profile tech contracts and use Windows as my development environment. I agree it can be PITA, but things got MUCH better with introduction of WSL/WSL2.
+How variable is your data? For example, a simple algorithm (as long as all of your data looks similar) would be to set a static threshold at say 25k, and keep track of every time your signal dips below that point. This gives you "regions" where you will find groups of peaks that correspond to what you are looking for. [Graphic](https://imgur.com/ygB7xYa)
+Any progress ?
+Don’t ever let anyone dull your sparkle :)
+&gt;Don’t ever let anyone dull your sparkle :) :) maybe I have a hope.
+There's one thing it's good for: to serve as a bad example about how to present statistical information.
+Agreed. God forbid people incorrectly think people prefer django over flask. The absolute devastation that would cause
+I need similar code too. You mind sharing your code? Thanks
+1) Don't use camelcase in func and variable names . annualInterestRate -&gt; annual_interest_rate 2) Don't use getters. If you want to get annual interest rate just do account.annual_interest_rate 3) Use properties def getMonthlyInterestRate(self): return self.annualInterestRate / 12 -&gt; @property def monthly_interest_rate(self): return self.annualInterestRate / 12 4) That while True loop in the end of article is huge and unreadable. Moving parts of code in it to functions should help.
+Data analysis is there in both first and sections, that's why.
+Thanks that's pretty close to what I need
+'ey man, we've all said some pretty stupid shit in interviews before (they're stressful, it happens), even the person interviewing you, but as long as you showed you have general knowledge in the language and have the intellect you need to be effective at your job you should be alright... Unless the whole interview was just a complete balls up. Keep positive!
+Then why the higher one on a lower rank?
+I know right, thought I was on r/dataisugly for a second.
+Here's a sneak peek of /r/dataisugly using the [top posts](https://np.reddit.com/r/dataisugly/top/?sort=top&amp;t=year) of the year! \#1: [Apparently it's possible to travel back in time if you are grieving](https://i.redd.it/pndaannpwi221.jpg) | [29 comments](https://np.reddit.com/r/dataisugly/comments/a3gj0h/apparently_its_possible_to_travel_back_in_time_if/) \#2: [When Venn diagram goes wrong](https://i.redd.it/yke7x1e5m8y21.jpg) | [13 comments](https://np.reddit.com/r/dataisugly/comments/boo6ld/when_venn_diagram_goes_wrong/) \#3: [some really useful info about sleep requirements](https://i.redd.it/mk07s2tmft331.png) | [40 comments](https://np.reddit.com/r/dataisugly/comments/bzk2hf/some_really_useful_info_about_sleep_requirements/) ---- ^^I'm ^^a ^^bot, ^^beep ^^boop ^^| ^^Downvote ^^to ^^remove ^^| [^^Contact ^^me](https://www.reddit.com/message/compose/?to=sneakpeekbot) ^^| [^^Info](https://np.reddit.com/r/sneakpeekbot/) ^^| [^^Opt-out](https://np.reddit.com/r/sneakpeekbot/comments/afd0dd/blacklist/)
+Can I write code in Terminal? I thought it only accepted single commands, when I type: &gt; python &gt;print ('hello world') ...And press enter, it just runs, how can I make another line?
+There are some variations, static thresholds with 25k might not work for other cases. For this problem hills would be between 2-3 always.
+What the hell is "Other" for OS?
+&gt;Very little more effort to take width, height, output filename, even colors, from the command line. (But would probably double the lines of code...) Nah, just use argparse. While a little verbose, it's exactly the use case it solves.
+Those also do not add up to 100% like you might expect.
+its called GNU/Linux not just Linux, 24% purists checked other
+I deploy to the cloud. I don't care what OS the SAAS provider is using.
+Umm a lot of government contractors use windows and so do many companies.
+Well ... I should've said that Python doesn't have built-in support for arrays like it has for lists, sets, dictionaries and tuples. But can be used after importing the array module.
+I think down the bottom, but I couldnt find the graphic on their site
+I have no idea why I made this. it was supposed to be the basis of a procedural generator, but now I realize that it has nothing to do with it.
+Yes, it's just billions of pings of interference hitting the antenna.
+Link to source: [https://evincedev.com/blog/infographic-python-development-trends-2019/](https://evincedev.com/blog/infographic-python-development-trends-2019/)
+found it [https://evincedev.com/blog/infographic-python-development-trends-2019/](https://evincedev.com/blog/infographic-python-development-trends-2019/)
+Your comment does not really explain how to use it.
+Yes maybe the sets are not mutually exclusive. But what is the other option? And why is it so high?
+Oh, yeah! I could just fill the screen with black (as Pygame does if a window is opened and nothing done with it) and just generate white pixels!
+I didn't know that os had a .random function.
+I did. it ran billions of times faster. Thanks!
+Android? Arduino? iOS? BSD?
+How is having to pay for an OS and lacking the freedom to ditch it better? Everyone should use what they want but why default an OS that is not free, not open source and doesn't even have the basic tools preinstalled for development?
+People should really stop lumping matplotlib with pandas and numpy. It gives the impression that matplotlib is as useful as the others. It's not. It's a clunky garbage library that hardly anyone actually uses.
+He's also using numba, which is a JIT compiler that optimizes the code to C-like speeds. So it's not just as how the code is written, but it's also getting compiled in between.
+Target platforms sure. But develop on Android? How?
+Or FreeBDSM, as my sec friends call it
+No se muy bien como es la cosa de econometría pero con bases fundamentales si quedamos, recién empezamos con Machine Learning y es tremendo!! La cantidad de cosas que se pueden hacer, creo que eso se cruza cualquier proyecto de cualquier área de conocimiento :)
+You're absolutely right. I had no idea how a QR worked until I read the wiki. Here's how it actually works, and how it would be made in python. First, the software would put in those squares in the top left, top right, and bottom left. It would then include the format information. Finally, the software would encrypt the rest of the data into binary, and then re-encrypt it depending on the row the data is in. Then the information would be wrapped, and the QR is complete. Correct me if I'm wrong.
+That's been a major bummer for me about BHP -- it's a good book, but by now it's outdated. Soon with the Py2 EOL, it'll be close to useless (yeah I know, there probably will be a fork, and Py 2.7 will keep working just fine, still...). A revised Py3 version is needed (3.6+ ideally). PS: This also reminds me that I need to burn my remaining Py2 and have beautiful Py3.6 emerge from the ashes.
+Qpython? Idk
+What are the 'other' OSes that run python and are (in combination) so popular??
+Thank you!
+In case anyone else runs into this issue, I've found that adding these two lines before importing any Python modules in MATLAB helps to avoid the problem: py.sys.setdlopenflags(int32(10)) py.importlib.import_module('ssl')
+First of all. Theese kind of questions don't belong here. Try at /r/learnpython or at stack overflow. But I don't want to get you discouraged by saying "Do you even google bro?" So here comes a hint: Conversion is very basic. 1. sqrt(c) just means radius of your circle I'll call it r in further explanation. 2. Understand That x means x coord on your graph and y means y coord on your graph so distance to any point can be written as r=sqrt(x+y) 3. Remember basic trigonometry? Then you know that sin(t)=y/r where t means theta (an arbitrary angle) and cos(t) = x/r. Multiply by r to get y=r\*sin(t) and x=r\*cos(t). As you can see we added additional variable: t. How to handle it? I'll let you figue that one out. Just hint that it involves numpy and linspace. Also think of values t can have. Is it really arbitrary? Or is it actually constrained by some values. 4. Homework: Modify this equation to accord for circles not begining at point (0,0) 5. second homework: Try doing it without parametrisation (it's actually way harder as you will notice). hint: think about this as two functions added on top of one another y = f(x). and -y = f(x).
+Here's a sneak peek of /r/learnpython using the [top posts](https://np.reddit.com/r/learnpython/top/?sort=top&amp;t=year) of the year! \#1: [The online course for "Automate the Boring Stuff with Python" is free to sign up this week.](https://np.reddit.com/r/learnpython/comments/bz3rxv/the_online_course_for_automate_the_boring_stuff/) \#2: [I'm super annoyed and taking it out on learnpython](https://np.reddit.com/r/learnpython/comments/byfigg/im_super_annoyed_and_taking_it_out_on_learnpython/) \#3: [My Python program was extremely well received at work!](https://np.reddit.com/r/learnpython/comments/bk1voi/my_python_program_was_extremely_well_received_at/) ---- ^^I'm ^^a ^^bot, ^^beep ^^boop ^^| ^^Downvote ^^to ^^remove ^^| [^^Contact ^^me](https://www.reddit.com/message/compose/?to=sneakpeekbot) ^^| [^^Info](https://np.reddit.com/r/sneakpeekbot/) ^^| [^^Opt-out](https://np.reddit.com/r/sneakpeekbot/comments/afd0dd/blacklist/)
+*[ laughs in neckbeard ]*
+Yes. This graphic is trash and made by some janky marketing team that doesn't have a good grasp on programming in general. Web dev plus data analysis. Da fuck is that? A website that manages some data before showing to user? Who knows. I just had to pop in and say how shit this thing is.
+So it looks like the infographic was based off 3 blogs. 2 list vague or no sources for their conclusions/data, one lists a Stack Overflow survey from 2018 ( think they are referring to this [https://insights.stackoverflow.com/survey/2018](https://insights.stackoverflow.com/survey/2018)) &amp;#x200B; Worth noting that this same survey ranks Python as the 7th most popular "programming, scripting or markup language" behind Javascript, HTML and CSS. Python is listed as the "most wanted"
+I dont know that the numbers themselves here are wrong, they are just cherry picked and presented out of context. For example Python as the "most wanted" language is straight from a [Stack Overflow survey](https://insights.stackoverflow.com/survey/2018#most-popular-technologies) but that same survey listed Python as the 7th most popular behind Javascript, HTML and CSS, so its not really clear what these things mean.
+This is a bot, jsut so you know
+One of those sources lists this (questionable) 2018 Stack Overflow survey as a source: [https://insights.stackoverflow.com/survey/2018](https://insights.stackoverflow.com/survey/2018#overview)
+RiscOS?
+Ssh from a phone to python command line? No android apps are powerful or smooth enough at this point I believe
+Sh don't tell him
+This is what I do.
+Calibre is in that first 15%. LOVE that software. Only slightly worried what will happen after Py2 is totally EOL'd
+Maybe you can post a link to the single threaded version of your code? What are you using to do multiprocessing?
+Django is %54 but Flask is most used, hmmm 🤔
+Looking at the OS graph, I think the answer is just not to read too much into the sizes of the bars. Apparently the difference between 22% and 24% is almost as big as between 24% and 52%
+Great explanation about it https://www.reddit.com/r/Python/comments/c86cb3/python_development_trends_in_2019_infographic/?utm_medium=android_app&amp;utm_source=share
+Also, `main` calls should be guarded with `if __name__ == '__main__': ...` I suggest you go through PEP8 and maybe use a linter, most modern editors and IDEs will have some sort of integration with flake8 or black.
+I threw this together over the past few days to simplify dimensional analysis. Needs an ability to show which possible non-base units a given unit can be composed with.
+That's an interesting rabbit hole to look into! I did find a difference, but I'm not sure how significant it is. Windows sys.path: ```C:\Users\Tim\PycharmProjects\[Project Name]\venv\Scripts\python37.zip C:\Python37\DLLs C:\Python37\lib C:\Python37 C:\Users\Tim\PycharmProjects\[Project Name]\venv C:\Users\Tim\PycharmProjects\[Project Name]\venv\lib\site-packages C:\Users\Tim\PycharmProjects\[Project Name]\venv\lib\site-packages\setuptools-39.1.0-py3.7.egg``` Ubuntu Path: ```/usr/lib/python37.zip /usr/lib/python3.7 /usr/lib/python3.7/lib-dynload /var/www/gnubesoft.com/env/lib/python3.7/site-packages``` So there are two major differences here. On Windows the python37.zip file in the path is from the projects Venv, but on Ubuntu the python37.zip file it is using is the global /usr/lib/ one. There is also a difference in ordering. On Windows the root global Python37 dir is referenced after the lib, but on Ubuntu it is before. Is any of that relevant?
+Started working on my own version of a raspberry pi mirror. Hoping to add touch screen support and other interactive features!
+It certainly can be. I don’t know where you’re hitting the circular import, but the fact you’re hitting it in a new environment implies that there’s some module or package in the production environment that has the same name as something you’re importing, but is either not in the isolated environment or if there appears later on sys.path and so the circular import is never attempted. Hopefully the traceback can narrow down for you precisely what name is the issue.
+Some respondents might have been able to pick multiple responses.
+Still working on my "game engine", and something inspired by Scratch. I'm quite happy with the progress so far. The source codes can be found [here](https://github.com/wilfred-kun/pynegin) and [here](https://github.com/wilfred-kun/cate). Documentation is also under way on my [github pages](https://wilfred-kun.github.io/).
+How are they not fixed size? A tuple is immutable, and its size cannot be changed. And how are they not arrays?
+I dimly remembered that it is the left over radiation left from the big bang. They have to deal with it in radio astronomy, and a lot of sensitive sensors. The sun should be blasting us like that too though.
+&gt; if everything works just fine on windows. That's a big if! I'm kidding...sort of. As a unixy kind of guy it's always felt painful setting up and using Python in Windows, but I'm sure once you get going it's fine, right?
+Your fear is unfounded, dd seems dangerous, because in various tutorials people use it for dangerous stuff (like modifying contents of disks). The reason they use it there is because `dd` gives you more control than `cat`. What decides if `dd` is dangerous is what you specify for the `of=` argument (where to write it's output) if you don't specify `of=` like I did it will send the output to stdout.
+Big O No!
+I agree with you but English is most likely this guy’s second language based on his post history. Making critiques on his grammar when it’s already pretty understandable in the first place is just nitpicking
+Arrays are a different thing from lists and even more different from dictionaries. Python does not have writable arrays, but dictionaries are not a replacement for them. Lists are. On the other hand, I don't think mixing these things up is a valid reason for rejecting the applicant. People (especially young and inexperienced) say very strange stuff during interviews, mostly because of stress.
+Yeah, drop the file in the same folder and Import test.py
+Py2web FTW!!!
+Right, no way 24% use BSD or exotic OS over MacOSX at 18%. Probably "develop for" vs. their OS. This entire chart is the opposite of r/DataIsBeautiful
+Don’t ever let anyone dull your sparkle :)
+ You are awesomeness personified :)
+Nah, the tracebacks have been completely useless. It just tells me one of my modules is not found.... oh shit... typing that just made me realize the problem. I'm not trying to import modules. I'm just trying to get at sub functions. On Windows I've been able to get away with from sub_file import sub_function but on Ubuntu I seem to need use: from MyProjectModule.sub_file import sub_function That fixes it! Wow what a mess I've made trying to fix this. Thank god I have gits to get me back to where it was before I started nesting imports all over.
+Just for the discussion Py3 &lt; Py2 for all useful purposes...
+jesus christ please no that infographic is so horrible
+The OS preference adds up to 116%, I think there are some flaws with how theyre collecting data. Putting that aside though, there are probably many more devs than you realize stuck on windows at work, and I suspect that’s why it’s so high on the “preferred”.
+There is no way Theano has more use than tensorflow and pytorch.
+It might be a "select all that apply" list, and the percentages are the amount of responders that chose each option.
+Nice catch thanks ! I will fix this :)
+The percentages don't even add up to 100% 🥴
+Me and a friend are currently doing text based RPGs u/-MrDomino-_
+Radiation comes from everything and everywhere. Even you emit some radiation. Phones, PCS, cars, dirt, bananas- all slightly radioactive.
+Because it's only the start of a long list of things that are r/mildlyinfuriating about this image.
+I feel like you could have just linked the github repo. Awesome work nonetheless.
+I'm still using 2.7 for a few scripts as I've a old iPad 1 and 2.5 is all I can find for it. Otherwise I'll have to compile 3.x from scratch myself for armv6/7...
+Makes perfect sense. I see now how the term Environmental Noice describes it. Thanks!
+I'll try
+Don't forget about blockchain
+Yes. Admittedly, most BGR is artificial, but a bit of it is natural- either solar, cosmic, or nucleo-mineral (radioactive metal).
+4 fps is silly. I'm sure one can easily get 60 fps in a browser. Motivate me somehow and I'll do it ;)
+I don't think it should take 2 pie charts to visualise the percentage of people using python 2 or 3.
+Well the problem is that it is single threaded. I can't figure out a way to make it multithreaded. Most of the work is in creating random data and iterating through (Width x Height) of pixels. 400 x 300 = 120000 pixels. So trying to loop 120000 times in a 1/60th of a second is stupid crazy fast. Multithreading would be faster, but it wouldn't be that much faster. Definitely not 60 fps faster. If I could figure out GLSL with pygame, then I could probably get it to run at 60 fps. https://stackoverflow.com/questions/4200224/random-noise-functions-for-glsl
+I have that same thought
+Python threads run only one at a time. You use them to do other things while waiting for IO (or some calls to C extension code) If you want parallel computation you need either multiprocesssing or maybe use C (or Cython etc).
+Use NumPy.
+Storing the value on self is basic OOP paradigm.
+I am, still not fast enough. sample_list = np.random.randint(0, 255 + 1, size=(WIDTH * HEIGHT, 3))
+That's not a thing you can do. Virtual environments only allow you to have different versions of packages, not different versions of the core language. If you want a different version of Python itself, you need to install a second copy of CPython.
+Why?
+You need to learn about tools that exist for the python ecosystem. Here is: [pipenv](https://realpython.com/pipenv-guide/) There is also [pyenv](https://github.com/pyenv/pyenv) and there is [virtualenv](https://virtualenv.pypa.io/en/latest/) Right now you are polluting your system level python install, which is bad practice.
+I'm working on a podcast feed cloning tool that allows me to copy and re-host podcasts privately on my own server.
+wxPython is the best GUI library for python in my opinion. Youtube-DLG was made with it
+Does nobody uses python for making mobile apps??
+This sounds like the right answer to me too. I maintain three large-ish flask applications at the moment and all of them require fully qualified imports. It has to do with the web server's entry point into the application.
+It's not necessarily a mess. Working in Flask occasionally produces these odd import exceptions because of how the framework operates. Diagramming out the imports is definitely useful -- but in Flask applications the fix is usually a lot simpler than refactoring the whole thing.
+Besides that the code really should get a Repo or gist, there is much potential for refactoring the code to become more pythonic and maintainable. You should strive for finding appropriate data structures that keep track of the actors and their properties. Then you can reduce the ``if...elif`` cascades to a minimum. Also you can get rid of all those ``global`` variables - which is *fundamental* if you want to advance. It's important to start, so good job - but now it's even more important to learn how to make this much better in almost every way. And the basic data structures will lead this way!
+Which are the other OS's? Seems to be a big portion who prefers something other than Windows or Linux or Apple's whatever
+Thanks for the feedback. I’ll try to work on this in the future, thanks!
+Makes me wonder how the question was phrased. 'What OS do you develop on?': well work forces me to use a Windows box is different than 'What OS do you prefer?': Linux
+You might want to ask in /r/learnpython. &amp;#x200B; Have you read and thought through these yet: [https://overiq.com/python-101/inheritance-and-polymorphism-in-python/](https://overiq.com/python-101/inheritance-and-polymorphism-in-python/) [https://www.digitalocean.com/community/tutorials/how-to-apply-polymorphism-to-classes-in-python-3](https://www.digitalocean.com/community/tutorials/how-to-apply-polymorphism-to-classes-in-python-3)
+Very interesting. Is there a reason that you assume parallel processing is required instead of sequential?
+Related:“passing by reference” v “passing by value”.
+"List of everything wrong with this image" would include nitpicking :)
+Kinda helped man thanks
+A common technique for non-OOP languages is to create a “context” structure that contains all the variables needed (effectively, the current state) for a group of related function calls, to pass that into each function, to tweak its contents within the function, to have a designated function in charge of creating such a structure, .... Eventually that ends up replicating an object with no bound methods.
+BSD I guess
+Unfortunately that’s going to be the case for many of the better texts on Python. There’s always hope for revision, but I would be more willing to wage bets on new books being written rather than expecting revised editions.
+Anywhere in \`sys.path\` really.
+how to aqvoid the two paths to botch my packages installations?
+You might want to look into pyenv.
+Thank you. I assume the content structure are the variables initalized in the class’s __init__ function?
+Isn't it controversial that it's good for generating large rsa keys? Also controversial in that some people assume it can't be relied on if the computer is in a specific state like a fresh install? Yeah personally I'd consider it safe all the time if you're not using it in a weird way and have your other bases covered but didn't want to admit that here because there's always someone who throws one factoid out about how it's bad in a very specific case and well yeah but whatever
+You can create a Class for the moves, and a dictionary for the stats, like "Ember": [Fire, 25, 100, ....etc] and you just unpack the list of stats of the move in the class object to say bye bye for these tons of 'if'.
+I don't even know for sure what this "abusive therapist" is, but it sounds interesting. Put it up.
+That’s a good point. I haven’t yet worked out how to use classes, but the list would certainly work, thanks
+No sources, graphs are used horribly, general inconsistencies across the entire thing. Take a look through the comments on that post and you'll see the same sentiment
+ This actually sounds pretty interesting.. Do you mind sharing the link here for some of us folks to try it out?
+No. Python doesn't really have an acceptable solution for that.
+No way that the majority of Python developers prefer Windows given that so much Python work is done on Linux. This also doesn't mesh with Stack Overflow's survey data.
+The Stack Overflow survey is beyond question.
+An intuitive, high performance HTML rendering framework [https://github.com/sayanarijit/htmldoom](https://github.com/sayanarijit/htmldoom)
+I haven't published it (yet). That's what I'm thinking about...
+Pyenv is an incredible tool to manage your different python versions, you can even add a file called \`.python-version\` (if I remember correctly) and set the Python version there, Pyenv will automatically execute your scripts with the correct version.
+It's not a pie. They don't specify what it is.
+okay I'll look into that, thanks
+i will add screenshots
+Would you guys say Django is a very good framework to learn webdev on. I know basic html/css and i want to start making websites and python is by far my strongest language. Would Django be good for my first professionalish website.
+Sorry for the poor terminology, I am still kinda confused by the different names. Well, I acutally use the module multiprocessing and I think correctly (since it works and speeds up other functions that are easy to run in parallel, like a random sampling). Below is a minimal example of my code where "func" is a more complex function that handles the resulting lists in some way. input = [1,2,3,4] output = [] for element in itertools.combinations(input,2): output.append(func(element)) return element What I need is a function to split up ALL exhaustive and disjunct combinations to a arbitrary number of threads / workers. My own solution was to create a mapping using binary numbers. For example, selecting items one and four from the abovementioned list would be the binary "1001". This works and correctly so since results are identical to the combinations function. However, it is much slower since many irrelevant numbers are produced, like "1000", since there us only one 1. In my own code, these numbers are just skipped. I guess due to this useless overhead, the function is much slower. Well, if you use 8 threads it would still be faster, but I am looking for a more elegant solution...
+Still living for PyMC3. They're moving to Tensorflow Probability for PyMC4 because they don't want to keep having to support Theano.
+People don't start learning about programming then learn how to use a PC. They buy a PC and most of them come with windows(maybe gaming, office stuff, etc), then they start learning whatever language they want.
+How about Windows and WSL?
+Python doesn't have built-in support for arrays, that's true. There's two things that I'd want to add in an interview. 1. Lists are used in a lot of situations where small arrays would be used in other languages. It's worth being able to describe the difference between lists and arrays. 2. Python does have arrays available in NumPy, which is a fairly standard library. For any data science type of position I'd want somebody to know this, as it's such a fundamental data type in that sector.
+Check out Selenium
+I agree I started this way too. But Windows being the standard and default in businesses is bad for the reasons I mentioned. Also is it that difficult to use Ubuntu? Python is preinstalled anyway and a text editor comes by default.
+It's actually super easy to set up on Windows. The installer adds everything, including pip, to your PATH.
+I made a crypto app with python django. i got much hate on reddit and people accusing of scamming etc. Be wary of this but dont let these people stop you.
+?
+I'll give it a shot when I am able to work on this project more. Thanks!!
+Came expecting this to be top comment, not disappointed.
+I develop python apps on windows, some are deployed to Linux web servers and some are used on windows. Maybe a few years ago working on windows was kind of a pain but not that there’s wheels for most of the major libraries it’s not that big of a deal. I’ve even got celery to run on windows, but even still you can run celery with redis and rabbitmq running in docker containers.
+Sure its worth publishing. You have a working product that you want to share, so share it. As for scraping stock data I use worldtradingdata.com which offers a free api for all kinds of investments. The free version is somewhat limited but for personal finance is fine. I think it gives 200 queries per day with a max of 5 stocks per query. Better than scraping in my opinion and if you get really serious you can purchase a better plan that allows you to up those queries significantly. I would definitely like to see your work for the stocks and etf stuff.
+I have a python object that controls a power supply. I add the name to the import statement and now have access to that same object and it's methods.
+I just correct some dates, you can check some examples here [https://pypi.org/project/piexif/](https://pypi.org/project/piexif/)
+Trying to do people's homework for money.
+Ping ping ping! CORRECT!
+so a high level language that can pretty much do anything cannot make a mobile application, seriously?
+You can't. If your program can access the data unattended, then so can an attacker.
+I 106% agree.
+Do you really need a new class per ip address? Do you mean a new instance of the class instead? rx_list = ["192.168.10.125", "192.168.10.126", "192.168.10.127"] class Receiver: def __init__(self, ip): self.ip = ip ... ... def parser(self): ... def poller(self): ... for ip in rx_list: rx = Receiver(ip) poll = threading.Thread(target=rx.poller, args=(x,)) poll.start()
+I do, Kivy 🙂👍
+Ah yes, this makes sense. I'm going to redo this later. Thanks.
+Windows is the only operating system that comes with built-in and supported configuration management for nearly everything. AD, GPOs and PowerShell are dead easy that's why businesses love Windows.
+You find it painful to click a ["Get" button](https://www.microsoft.com/store/productId/9NJ46SX7X90P)?
+Why generate a whole new batch of random data for each frame? Just fill up a buffer once and visualize different parts of it. You also don't need to use Python's default random number generator; it's pretty complicated in order to have some nice mathematical properties that are totally irrelevant when you're just drawing static. One idea off the top of my head is to generate new random data by xor-ing together chunks taken from random offsets in the old buffer. Using something like Numpy (assuming it supports bitwise xor) will help a lot, because bit twiddling and number crunching are precisely the things vanilla Python is terrible at.
+Thank you for the answer. At this point what is the best apporach to this?
+Isaac Newton of Computer Science? Alan Turing or Alonso Church are far more worthy of that epithet.
+The best approach to what? What are you actually trying to achieve?
+Yeah each instance maintains its own variables. That's what the \`self\` means when you do \`self.ip = ip\`.
+Just out of curiosity, it is possible to read the variables from one or more of the class instances from outside the for loop?
+1. /r/learnpython 2. Post your code.
+Can you post link to you app/the original post?
+Seriously. When Guido was at Google he started work with a team on letting Python apps run on Android but was told to stop. Python is not the fastest language. On mobile, it's even less so. For various reasons the Dalvik java VM on Android can't work with Jython (JVM implementation of Python). There are libraries like Kivy, but they're more for games that have custom interfaces than standard Android apps. Digia (which develops Qt) has been talking about the possibility of Python bindings for mobile Qt now that they've created PySide2 (Qt5 bindings for Python) but I haven't heard anything about that yet. So it's technically possible now but it's not a good or simple experience.
+Not with how it's written in my example since we throw away the instance variable name as soon as we start the thread. You'll need to store the instance somewhere; for example: append it to a list. Then you can read its variables like normal. rx_list = ["192.168.10.125", "192.168.10.126", "192.168.10.127"] rx_instance_list = [] class Receiver: def __init__(self, ip): self.ip = ip ... ... def parser(self): ... def poller(self): ... for ip in rx_list: rx = Receiver(ip) rx_instance_list.append(rx) poll = threading.Thread(target=rx.poller, args=(x,)) poll.start() ... ... print(rx_instance_list[0].ip) # "192.168.10.125" in theory You may need to be a bit careful if these variables are being modified by the threads you create.
+im at work right now but when im home. I also spent 3 years building it and putting in a ton of tlc and effort. I had a few currencies on there and got banned from a subreddit due to having bitcoin cash as one of them.
+Likewise, there is no way only 18% prefer MacOS. Most conferences I go to, everyone has a Macbook.
+Seems so obvious now. Thanks!
+I wanted true(or as close to) static on a untuned TV. As I've found out, the generation of random data isn't the slowest part. It is filling the buffer pixel by pixel. If I could find a decent example of how to use PyGame's PixelArray, then I could just stuff the array directly into the screen buffer.
+Excuse me, but I use busybox and Linux, not GNU.
+I want protect my file from unauthorized access.
+Why?
+Theano? Still?
+Just games or pretty much anything
+how many elements are actually in the input list?
+Hehe I haven't done any game, just the pong tutorial, I used in my old job, it was an frontend for an API, was really awesome! Took two weeks to finish the app, from scratch, and for android
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+I've been using mint for a few years and never HAD to do anything from the shell. You just migrate to the shell over time because it's faster etc.. &amp;#x200B; The company I did my thesis at actually ran mint as default OS on all machines which was a very pleasant surprise
+Thanks this will be valuable to me learning python given my interest in photography. Sharing is caring and I appreciate this a lot!
+https://pastebin.com/8nCxmvLn ^^ here is an example solution using concurrent.futures, which is a "higher level" module that wraps up multiprocessing. i went ahead and made a dummy function as an example. you can specify the number of workers that it uses when you instantiate ProcessPoolExecutor, but it should figure out how many cores your CPU has without any intervention on your part. notice that i have included the chunksize argument when i call the map method of the executor. instead of submitting 100 separate jobs, it will submit jobs that runs 10 iterations of the function. if your input list is very large, this will reduce the overhead of running so many different processes. you can look up the documentation for more details.
+I honestly find developing on linux is way more productive. Apart from that there's just lots of pain on windows. In my thesis I used linux and my partner windows and we developed a cross platform software and he had problems with packages all the time (openCV for example) which also mirrors my eperience. Another recent example: Julia. On windows the REPL is launched in a new command line window if openened from a command line and has limited support for unicode because it's limited by the shell (at least that's what they had written on some forum or something). On linux I open a shell, type julia and it integrates into the system beautifully.
+I've used C# and .NET as an IT Admin to automate a variety of tasks, namely for web production servers. I've most recently used Python for renaming files in bulk and to compare lists and output differences. In other words, I've learned enough of both languages to get done what I needed to get done to solve problems or become more efficient in my day-to-day IT Admin duties. &amp;#x200B; In my opinion, I would learn whichever would improve automation and everyday tasks for the job I already do. In this way, you gain an understanding of how the specific language is used and learn how to debug. From that effort, I would presume that you could then improve on those "basics" to begin developing something more out of it. &amp;#x200B; For example, I've written a program for myself with a GUI and a MSSQL backend for logging all the books I read, when I've read them, and my own personal rating for those books. I read a lot of books, more than 50 a year, and I wanted a better way to keep track of that than Goodreads, my Amazon orders, or whatnot. I wrote the program in C# because that is what I'm most comfortable with, but it could just as easily been written with Python, with the exception of learning a CMS and MySQL. Again, I would learn the language that you would use to do your job, because you'll become more proficient with it, really learn it, and branch out from there. Cheers to your future endeavors!
+How old are you?
+Why no `dict` for `print_age` ?
+Well, this is strictly for web dev projects and a possible startup idea. Nothing to do with my current work environment. Already have those tools in place.
+Someone correct me if I'm wrong but I believe those are functions specific to JavaScript and there is no obvious Python translation. Unless maybe you're using a specific module?
+Please post zoom info as you find it. 🙏🏽 I'm learning right there with you.
+Did you really to the wrong comment? I didn't say anything about using the shell in Linux
+I make an average of $200 a day on Upwork and privately doing Web scraping jobs in Python. There's a ton of small web scraping jobs everyday. Combine that with basic data manipulation and visualization skills using something like Pandas, Bokeh, Plotly etc and you'll have more gigs than you can manage. And by the way i am no expert, i have not even studied Python past the intermediate level, i just studied enough to be good at web scraping.
+I thought that's what you meant when you said Windows was the only OS with built in configuration managment? Sorry if I got that wrong
+along with all of the arbitrary information due to no sources, they miss typed matplotlib 🤔
+[removed]
+You're trying to manipulate the dom. That would still be js. You wouldnt use python for this. I mean it can sort of be done using templating and making calls from the client but again, this is a js thing
+No not at all, configuration management is basically mass fleet management of computers. Ensuring and being able to prove in front of an auditor that you are conforming to information security requirements. Being able to encrypt the hard drives of 5000 computers with one setting, ensuring some user always has access to these websites no matter what PC he logs into etc etc Windows GPOs, Ansible and MDM solutions are used for this. Linux isn't as good at it.
+lately i have started working on OOP core concepts and best practice in programming. 2 of my project are [Here](https://github.com/dhruvinsh/sales_tax) and [Here](https://github.com/dhruvinsh/mars_rover), fairly popular one. any feedback are welcome. Tried to stick to pep8, proper documentation, code coverage, unit testing, CI pipline (very basic).
+i like the way you think , have an upvote :)
+It hasn't been replaced by node.js, but by asyncio, which is what's most people should be using in new projects. There are a few third party libraries that work with the async/await syntax too, if you don't like the asyncio architecture (it's kinda convoluted and overly complex), such as curio and trio.
+Maybe. But I was thinking Knuth has The Art of Computer Programming as Newton has Principia.
+[Here is a whole article about it.](https://redditblog.com/2009/10/15/reddits-new-comment-sorting-system/)
+Drop the “.py” Should be: import test
+This really ought to be in /r/learnpython.
+So I began learning Python lately and after seeing [u/sachin\_mahesh](https://www.reddit.com/user/sachin_mahesh/)'s posts I decided I'll give it a try as well but with some changes. I added sprites and music (which is what I'm changing near the end of the video) from Zelda and also a controllable Bombchu.
+I know of quite a few who use Mac also. But usually not windows. You do have to consider that the survey may have included a lot of brand new people who consider themselves programmers.
+Have you looked at astropy.units? It seems to be a superset of what your library does.
+Sharing as in open source? I'm all for that. As I'm new-ish to this field I'd love an under the hood look of an app like that
+Is yours open source? Cause I believe that's what OP's going for
+2.7 5ever
+14, why?
+DMCA incoming. Cool though
+&gt;scan a list of files and directory for integrity check, store this informations in a file and when needed it check against this file I like using tripwire for this. It stores the hashes in a digitally signed file so the checking cron job only needs to protect it's copy of the public key. Re-freshing the hashs requires a person to enter a passphase, so it's can't be run unattended. [https://github.com/Tripwire/tripwire-open-source](https://github.com/Tripwire/tripwire-open-source) &amp;#x200B; &gt;if my system get hacked You need a way to detect hacks (IDS, tripwire, logwatcher) and have backups ready.
+I am not aware of such controversies. The problem with fresh installs has been worked around by distros by already collecting entropy during the installation process.
+Hello! I'm a bot! It looks to me like your post might be better suited for r/learnpython, a sub geared towards questions and learning more about python. That said, I am a bot and it is hard to tell. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+Next up: transpiling the python functions to javascript and injecting them in the page and do a hybrid server-rendered SPA.
+&gt;I'm trying to make this scalable &amp;#x200B; Be sure to look at async; you can support a much larger number of co-routines than threads.
+I was able to do a zoom but once I zoom in too much, the color just becomes a solid color, like pink in my case. What do you have so far?
+My understanding is that Twisted provides a whole lot more (network protocols mainly) in addition to making async code possible, where as asyncio provides async but doesn't replace the networking tools Twisted gives you. Is that not the case?
+Being very honest,Python's a really bad platform for games.
+The issue is that they didnt take the time to research before writing the article. These are all pretty simple things to catch by looking at the docs. Also it's really suspicious of you to continuously stick up for the author like this, and copy and paste the same comment three times stating you contacted the author and fixed it. Do research before writing, this is just lazy.
+Shockingly, no one here can read your mind and tell you what is wrong with your code if they can't see your code.
+Python can easily handle space invader and most 2d games
+I am basically building almost exactly this in my spare time. Although I'm not diving to django. Sticking with flask so far.
+You know that one guy in the office who has the weird vertical ergo mouse, the weird split and angled keyboard, the chair with fifty adjustments and a bead-covered lumbar cushion? Yet all the computer hardware is ten years old and covered with years of unidentifiable cruft? That's the impression I get with Twisted. Ok buddy it must work for you but it's not generalized and it sucks having to go in and try to help fix something with your setup.
+This was 2016 ... "asyncio is an apple, Twisted is a fruit salad": [https://lwn.net/Articles/692254/](https://lwn.net/Articles/692254/) &amp;#x200B; This talks about the asyncioreactor that "runs twisted on top of asyncio" talked about above, from 2018: [https://medium.com/@yashrsharma44/using-asyncio-in-twisted-5c2457e23618](https://medium.com/@yashrsharma44/using-asyncio-in-twisted-5c2457e23618)
+Most people don't go to conferences.
+Funny, me too, almost to the letter. Why are financial apps such a popular side project?
+You could do a beta testing with a limited number of people, e.g. email it to some people here on Reddit that already are interested. Worst case scenario: you disappoint a few people. Best case: you get valuable real feedback.
+It is not.. I would make it open source if it got popular. I feel like a developer would change the html/css and advertise harder than me
+Thank you. My first thought was that this is one of the worst infographics I’ve ever seen. So many data viz no-no’s. Style over function. Even the aesthetic is off in some areas. That white heading font on top of that cyan background makes for terrible contrast.
+Don't forget the bytearray https://docs.python.org/3.1/library/functions.html?#bytearray and the memory view too
+Hi there, this post has been removed as it is not directly related to the Python programming language. It might be more topical on /r/programming, /r/coding, or /r/technology. Cheers, /r/Python mods
+Hi there, this post has been removed as it is not directly related to the Python programming language. It might be more topical on /r/programming, /r/coding, or /r/technology. Cheers, /r/Python mods
+Hi there, this post has been removed as it is not directly related to the Python programming language. It might be more topical on /r/programming, /r/coding, or /r/technology. Cheers, /r/Python mods
+Okay, [this](https://gist.github.com/rjbudzynski/f4b75f53485afd92a52b80aac02815a4) works reasonably well &amp;mdash; I use matplotlib for visualization because that's what I'm familiar with. However, it doesn't *feel* like the right tool here, for instance it makes it hard (if not impossible) to map array entries directly to screen pixels (it always rescales). Still, 20 fps seems to be working more or less, if I shoot for more it starts getting jaggy.
+Dude, that is cool. Can you recommended a good python book ?
+An api that I have been using is Tiingo.com. It has served me well for the limited use that I need it for. Not advocating for it over anything else, but wanted OP to know of the option.
+Is Python crash course a beginners course?
+How long did this take you from start to finish? Awesome job!
+Perhaps if OP keeps his “Promotion” to the python side of things he can get more civilized feedback. The crypto world can be pretty savage.
+The project sounds awesome. Whatever you decide to do, I’d be interested in seeing how you accomplish several features.
+Kinda depends on your definition of an array. Is a list of only integers or floats an array? Is a numpy ndarray, which can only be one type an array? Python has arrays when you consider what an array really is. It’s just not called that.
+And there is a lot more things one could do with python like games, desktop applications, etc
+For bigger projects i tend to use `src`. Small to medium.. the old way.
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+Yes, it is.
+I wish we had a nice framework for games as LÖVE is for lua.
+I need a beginner book for Python, could you also recommend it?
+This does appear to be the case. I hadn't come across this, only \`pint\`, \`units\`, and \`python-units\`, which behave in a related, but different way.
+Use the one in the title, "Python Crash Course" by Eric Matthes. I'm about a quarter into it and it's great. Can't wait to get something like OP has going.
+2 spaces on the end of the line for a line break
+There are problems I found. First you need to target these savage users and face there critiques/ accusations. Second, forums/reddit are the only way as you cant advertise due to crypto ad blocking. It leaves hard working developers like OP to face the sting of reddit. I felt humiliated and humbled after originally releasing my work.
+Even I thought about it. But I think elm it doing it better.
+it's a bulleted list. I know how markdown works
+My money is on the BSDs being the most popular "others"
+agreed, but this isn't r/dataisbeautiful
+The point isn’t to sell a game, the point is to learn and have fun.
+I’m not quite sure yet. Maybe a platformer. Still kinda on the fence though.
+I'm trying to make a color processor primarily to easily change CSS files and secondary to do any color operation using the python interpreter itself. [It's coming together](https://github.com/mvrozanti/colp).
+Shows up as a block of text for me
+Python Crash Course mentioned above is a great book for beginners.
+what are you using? it displays fine on mobile and reddit web (redesign). if it doesn't show on a third party client that's their fault
+I second this.
+i was using a third party app but it still shows up wrong on old reddit too
+Very nice. TODO: some dying explosion lol
+Can you compile it and put in on ios and android?
+That's ok then, because If an adult had given that answer I would advise that they never reproduce
+STOP RIGHT THERE CRIMINAL SCUM
+Nice work :)
+HOW DARE YOU!!!
+PySide2 (i.e. Qt5) is one of the most versatile UI packages. It includes a canvas object. There is also support for HTML and CSS style UI definitions and support for 3D and OpenGL. This should give you a lot of flexibility. On top, it is also very portable between platforms.
+While true, it _is_ still a great platform to have fun on for beginners.
+Awesome! This is one of my favorite python books. I even teach a class based on it. Nice touch with the Zelda assets.
+Kivy would be the easiest way to do so, but OP would probably need to refactor a bit to move it to there.
+You’re not entirely wrong in that statement, especially if you’re talking 3-D. But to be fair, Pyglet lets you make OpenGL-based games, and one of the top examples that you’ll find online is a Minecraft clone. PyGame has been around forever, and there’s it and Kivy which are used for 2-D games. Furthermore, old-school Unity 3D engine (kind of?) had Python support, though it’s all C# these days.
+Thank you for your opinion. Also the site API looks cool and solid. I used to use an API and then they changed their policy and simply cut off some tickers. My app was suddenly useless so I'm kinda sceptical to APIs. You can never know when they might stop or change the limit rate. On the other hand it's much simpler to get data from an API than scrape some website with Selenium. Also needs much less hardware requirements especially RAM. I guess I will stick with scraping for now but this site could be something like "second adapter" and once scraping fails the app will use this API as fallback.
+PyQt is much more stable. PySide2 has lots of critical bugs which haven't been patched since more than an year.
+Looks good also the rate limits are sane except one "Unique Symbols per Month" which is limited to 500. Nevertheless as I said to in case of other data provider via API this might serve as good fallback. Thank you for the suggestion. Once I go public (I guess I will do that) I'm more than happy to see people write adapters for various parts of the app to make it more solid.
+You are right. The thing I was concerned most about was the "scraping part" and some "rights".
+Wanna you guys get in touch for some "knowledge exchange" or maybe coop?
+Thank you. Feel free to PM me with some questions.
+Shit my bad man. I forget to re edit it in. Anyway.here it is
+PyQt's drawback is it's licence though. Seems OP will have to make a choice :)
+neat
+NYC job dude 🤩😍
+experiment around and see what you like.... Flask and Django arethe most popular, but there are definitely many others.
+they may not have a choice. There are certain banks-that-you-probably-know that have a huge investment in Python and everyone in that banks-that-you-probably-know is using Windows and their particular redaction of Python object-oriented semantics.
+There is already AnyPyLar and Remi. And one other one that I forgot about.
+Bingo. Also the selenium slack channel isnl great for help and advice
+I think I've now seen \[the biggest decorator in Python history\]( [https://github.com/sayanarijit/htmldoom/blob/master/examples/2\_example\_n\_benchmarks-news.ycombinator.com/htmldoom\_pages/layout.py](https://github.com/sayanarijit/htmldoom/blob/master/examples/2_example_n_benchmarks-news.ycombinator.com/htmldoom_pages/layout.py) ) - wow. &amp;#x200B; * I prefer using meld3 for Pythonic HTML rendering. I like being able to create well-formed HTML with no invasive markup tags... of course moodltmh does that for you. * Have you seen [http://naga.re](http://naga.re) ? They also do HTML rendering via a fork of meld3? * And there is [http://reahl.com](http://reahl.com) \- and Remi and AnPyLar as OO rendering frameworks.
+Agreed, but the author has so missed the point that graphs are meant to visualise the underlying data that this could be in a subreddit all of its own. Even the 85% and 15% segments don't add to a full pie, and the points in the line graph are not proportional, one is in the 50s yet only slightly above the rest in the 20s making them look similar. The whole point of graphs is to visualise the data, these do not.
+Deep neural network for non biometric person re-identification.
+which dell model is that bro ?
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+Hello! I'm a bot! It looks to me like your post might be better suited for r/learnpython, a sub geared towards questions and learning more about python. That said, I am a bot and it is hard to tell. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. **[Be sure to format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)** and include which version of python and what OS you are using. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+ Awesome!
+Check the quotes (“, ‘) A lot of time copy and pasting code will bring in quotes that aren’t ...exactly... what you think they are. Copy and paste the code and specifically replace just the quote marks. Look carefully and you’ll notice they are different
+Also Panda3D
+Wow, that seems extremely cool. I will have to wrap my head around this. Thank you so much!
+Post the error?
+I really dont know once i get to if response == "yes": it takes me back to while response not in directions in a infinitle loop once i get to the point
+Very nice.
+I disagree. Cpython is a great platform for high level game structure, connectivity, systems integration etc.. also it has a great and efficient way to integrate optimised native rendering and io code. What's more you can prototype your game quickly and write optimised code as you go.
+Good luck
+This RC fixes some SSL and XML related security issues found after RC1 and few regressions in 3.7.3. Changelog 070fae6d0f bpo-37463: match_hostname requires quad-dotted IPv4 (GH-14499) dcc0eb3796 bpo-34602: Avoid failures setting macOS stack resource limit (GH-14546) 6348364ba5 Put pyexpatns.h include back. bpo-37437 (GH-14539) 329a1d8954 Minor updates to macOS installer screens for 3.7.4 f97eb883d8 [3.7] bpo-37440: Enable TLS 1.3 post-handshake auth in http.client (GH-14448) (GH-14496) 5b45fb0a44 [3.7] bpo-37428: Don't set PHA verify flag on client side (GH-14421) (GH-14493) 3e24dd52bb bpo-37437: Pass -Wno-unreachable-code when compiling expat. (GH-14470) a88652e488 bpo-37369: Fix path handling when python.exe is used as a symlink (GH-14461) 57eba3aff1 bpo-37369: Fix venv and test symlinking (GH-14456) 3c34ea97a3 bpo-37369: Fixes path for sys.executable when running from the Microsoft Store (GH-14450) cc0bf97d61 closes bpo-37437: Update vendorized expat to 2.2.7. (GH-14436) 3d9963744a Improve Windows commands in tutorial (GH-14401) 30c2ae4dcf [3.7] bpo-24214: Fixed the UTF-8 and UTF-16 incremental decoders. (GH-14304) (GH-14369) c58fc3af75 bpo-35360: Update Windows builds to use SQLite 3.28.0 (GH-14179) e90815b3b1 bpo-32627: Fix compile error when conflicting `_uuid` headers included (GH-11751) 9ad5e9edea bpo-37156: Fix libssl DLL tag in MSI sources (GH-14219)
+The scrapy.Request object actually takes a reference to the parse method as parameter, not the actual call of the method. In Python, functions/methods are objects too, meaning that you can assign them to variables/names and pass them around as you please. And then call it using the parenthesis syntax. Example def myfunc(x): return x * 2 a = myfunc b = myfunc(1) print(myfunc) print(a) print(b) print(a(1) == b) In this case, I assign the myfunc reference to a, while I assign the result of calling it with the parameter 1 to b. &amp;#x200B; In your code, scrapy's internal execution loop handles the request generation automatically (preparing the request, executing it, reading the response, parsing it) and then uses the reference of self.parse to process the resulted response object. This is the norm when dealing with frameworks: they abstract away the core common features and allows you to hook in certain functions/methods/classes etc with customized logic.
+Also there are things like [ ue4 integration](https://github.com/20tab/UnrealEnginePython/blob/master/README.md)
+While I agree with everything you said, I don't really understand what you're trying to get at? Yes, they should've researched it better, it was a bad article. But it was still spreading misinformation, a lot of people will simply check the article and not browse the comments on reddit. Should I not have contacted him and have it fixed? &gt; Also it's really suspicious of you to continuously stick up for the author like this, and copy and paste the same comment three times stating you contacted the author and fixed it. I don't believe I'm really standing up for him, I'm merely spreading the information that the article is now fixed, since most of the comments here are now redundant. It would look really weird for someone who now opens this thread and sees everyone complaining about the article when there's nothing wrong with it. So yeah do research before writing, but if your writing ends up being popular and spreading on reddit, I highly believe it's better to fix it than cry about it.
+This forum made me realise that hard work pays off. Everyone is here showing off their cool python projects, commenting &amp; arguing. There are naysayers, but naysayers are everywhere. Ignore them and move on, do your best. I used to hang around in FreeBASIC forum when I was 13-14+ years old. I get the same level of excitement from /r/Python. So I'm going to hang around. &amp;#x200B; I'll also be trying to do another release for pydoro. Maybe work on another idea I had with prompt-toolkit.
+You probably want the \`break\` statement to exit the while loop.
+This is so fundamental in python that I think /r/learnpython would be better choice of sub
+Do you know some similarly simple library for speech recognition?
+Interesting. [My take on it](https://github.com/gvx/generate-html) is based on generators and context managers: from generate_html import document, to_html @document def hello_world(h): with h.p(class_='main'): yield h.span(h.strong("Hello World!"), data_msg='greeting') print(to_html(hello_world())) #prints: &lt;!doctype html&gt;&lt;p class="main"&gt;&lt;span data-msg="greeting"&gt;&lt;strong&gt;Hello World!&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+Hi... Regarding the biggest decorator, I'd take that as a compliment :D. Regarding DSL, I did it in [https://github.com/sayanarijit/htmldoom/tree/oopstyle](https://github.com/sayanarijit/htmldoom/tree/oopstyle) a branch I froze as an example of what didn't work. Although I wanted to keep \`style()\` and a \`css()\` functions to generate the string from given dict, I decided not to for 2 reasons: 1. I want to see if it's really that important. Style attributes in an element are supposed to be minimal. They should not contain more than a few css properties. The real CSS should be in its own file. Hence, for only a couple of tags, I'd prefer using plain text than invoking a function with a dict. 2. I wanted to keep my focus on the main elements and how it keeps up with the existing popular templating libraries. The changes you suggested are nice to have and can be added if there is demand. Regarding the alternate libraries you mentioned, I agree, I didn't put much time looking into them, but I couldn't find what I was looking for. [https://github.com/Hrabal/TemPy](https://github.com/Hrabal/TemPy) is very close to what I tried to do in the abandoned OOP style branch. But I'm not sure how those perform against established template rendering engines. The OOP style worked really well for a few elements and upto a certain depth. But was really slow when I benchmarked it against real-world web pages.
+Continuing the discussion in [https://www.reddit.com/r/Python/comments/c8bs1g/htmldoom\_an\_intuitive\_high\_performance\_html/esnlao6?utm\_source=share&amp;utm\_medium=web2x](https://www.reddit.com/r/Python/comments/c8bs1g/htmldoom_an_intuitive_high_performance_html/esnlao6?utm_source=share&amp;utm_medium=web2x)
+Performance wise, C or C++ is better choice, but is harder to learn. Actually some of ML python library/framework using those languages under the hood
+Nope. But it looks like a great way to do it. Although I'm not sure how a real web page will look like with so many \`with\`s and \`yield\`s.
+Depends what you do. PyCharm Professional can debug embedded Python, such as in Autodesk's 3D Studio Max and Maya applications, which is a feature other IDEs have difficulty with.
+&gt;Remi Wow... looks great. I'll check if a binding is possible.
+Yes, I used this one: https://pypi.org/project/SpeechRecognition/ :)
+What does your `yes_no` list look like? Also, you have a spelling error in the text: sees - &gt; see. In the future, post the code on something like gist or code pile, not a picture of the code.
+[https://arstechnica.com/information-technology/2017/12/teaching-old-virtual-assistants-new-language-tricks/](https://arstechnica.com/information-technology/2017/12/teaching-old-virtual-assistants-new-language-tricks/) text generation with an emphasis on sounds instead of grammer
+Think I spend 4 or 5 days, don't have a clue about the exact number of hours though.
+Cool
+G5
+Sounds like homework. What have you tried? Post in /r/learnpython.
+i havent tried yet, because im completely new to programming i just thought it would be good to have a source code for reference as im learning
+By the way. Thanks for the great list of related libraries. I think it will be very helpful in expanding the ecosystem.
+Any other recommendations?
+That's not a good approach. Try writing it yourself, get it to work, _then_ compare it with other people's code.
+Don’t let Nintendo see this
+ok but how much do i have to learn to work on that? what do i need to know
+https://tutorial.djangogirls.org/en/
+You'll need to learn the very basics of Python for this. All you need is user input, loops, conditional statements and basic math.
+where did you learn python?
+thanks
+From books, mostly, and that was a while ago.
+There is also https://unyt.readthedocs.io
+Perhaps: https://matplotlib.org/3.1.0/gallery/specialty_plots/topographic_hillshading.html
+Here's the stuff you will need: - user input: https://docs.python.org/3/library/functions.html#input - converting string to integer: https://docs.python.org/3/library/functions.html#int - Looping to take multiple lap times: https://docs.python.org/3/tutorial/controlflow.html - storing the lap times in a list: https://docs.python.org/3/tutorial/datastructures.html - printing the result: https://docs.python.org/3/library/functions.html#print
+That's a good point, I could see the api disappearing then it's alot of work to rewrite stuff. That would suck as I created a personal finance app myself that uses it heavily. I have a bit of experience with scraping. I created a command line weather app just for learning and it seems the site changes little things from time to time that mess with it and gets annoying. I think a combination of the two would be an interesting approach.
+Corey Schafer on YT and official django docs are more than enough to get you going.
+PrettyPrinted has some good tutorials on both django, flask and more. https://www.youtube.com/channel/UC-QDfvrRIDB6F0bIO4I4HkQ
+Hm... Selenium come to mine. Its web browser automation module or i should say library. Im also new to python but really like doing stuff with Selenium.
+TODO: make link throw his boomerang instead of laser(?). Great work:)
+I've seen much worse code from a beginner, nice work! There's quite a bit of repetitive code (like the __init__) so see if you can fix that for a bit cleaner code.
+Both are fine. Python (note my bias) is the future. Just look at the TIOBE index.
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+Thank you! I'll definitely take a look through it to clean it up.
+If you know Flask and Javascript try flaskwebgui
+Nintendo will crucify OP if they did that
+Looks like a somewhat common mistake of trying to submit a link and also write a text post with it. Based on text I assume a link was supposed to be present?
+Nice!
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+PHP tbh
+Look into Selenium and you may need BeautifulSoup if you want to scrape some information. A lot of tutorials out there for those.
+1. /r/learnpython 2. Why in the world are you trying to do this?
+To anyone repliying i meant online as in sololearn or educake
+I don’t think either is more Pythonic. They’re different semantics for different situations. My judgment turns on several factors: * Is it common to (or do I expect to) use the function and the output in a sequence of operations, like sin()? Is the value likely to be used instantly, or stored for later use? * Is the output part of a related set of data that is naturally kept together? * Does the function return one value, or more than one value? (Sure, it’s possible to return a tuple or a list and then unpack it, but the syntax isn’t great.)
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+I want to do: python-compile [pyfile.py](https://pyfile.py) / python-proj-dir &amp;#x200B; Like i can with golang. Only thing i want. I wouldnt care if the python guys didnt update the software for 10 years if i got this. Don't talk to me about pyinstaller et al please.
+&gt;Why in the world are you trying to do this? thx
+Haha it's supppose to be arrows.
+If you're not the author then disregard, it's ok I believe you. You're definitely right, there's not a lot of value in complaining and there is in actually reaching out. Keep being nice and doing you!
+OP (Endtest) is spamming up tech subs, every day with multiple accounts [1,](https://www.reddit.com/user/boss_scarbos) [2,](https://www.reddit.com/user/dragnea_presedinte) [3,](https://www.reddit.com/user/llupei) [4](https://www.reddit.com/user/wernerklaus), [5](https://www.reddit.com/user/jos_cu_klaus), [6](https://www.reddit.com/user/sa_vina_werner), [7](https://www.reddit.com/user/ihavelepower) with focused self promotion spam like this that clearly breaks [reddits self promotion rules](https://www.reddit.com/wiki/selfpromotion) See for yourself. Vote and report accordingly.
+do you have a link to the course
+Trying to recreate Conway's Game of Life in Console (text only). It's going alright :)
+Nintendo: Wait....that’s illegal!
+This is my first project
+For the love of God, use a code block so we can see what’s going on. Also, explain what this code is supposed to do.
+Uh... why is this not screen recorded?
+1. /r/learnpython 2. You really shouldn't be using unstable Python versions if you're asking questions like these. Do you _need_ to be running 3.8 right now?
+1. What's the exact error message? 2. Indent each line an extra four spaces for the formatting to show up right here.
+C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe C:/Users/user/Documents/modification File "C:/Users/user/Documents/modification", line 1 from tkinter 'import' \^ SyntaxError: invalid syntax &amp;#x200B; Process finished with exit code 1. &amp;#x200B; &amp;#x200B; okay will do thanks
+Updated :)
+So what should I do?
+Use 3.7 until 3.8 is stable and Windows builds of lxml are published for it.
+Ok thank you 👍
+Tricky question. A little bit messy, but gives the code a try. Essentially, I am creating a new DataFrame object with the output you specified. import pandas as pd df = pd.DataFrame({'ColA': ['A', 'B'], 'ColB': ['a,b,c', 'a']}) s = df['ColB'].str.split(',', expand=True).stack() indx = s.index._get_level_values(0) df2 = df.iloc[indx].copy() df2['ColC'] = s.values df2.drop('ColB', axis=1,inplace=True) print(df2)
+[removed]
+Yup, that was indeed the solution! Everything fired up just fine once I reverted to an old git commit and made sure all of my imports were fully qualified. &amp;#x200B; It is \[up and running\](https://gnubesoft.com)!
+Is your server running? Is your React app fetching data from a proper port? What happens if you perform your request from Postman? Do you have HTTP Authorization? Can you show your request code in frontend?
+You can’t read from standard out.
+Probably also wanna run a reset\_index() if df2 if you are going to continue to use it.
+ chr((i+13) I don't understand the code exactly but judging by how the text looks and this bit I guess it is Rot 13 (caesar code) encryption... ...tried it in an online rot 13 decoder: Ornhgvshy vf orggre guna htyl. -&gt; Beautiful is better than ugly.
+Thanks. Unless there’s a formula to calculate this in O(1), your solution is pretty optimal. Are you seeing performance problems with this?
+Another way... &amp;#x200B; &amp;#x200B; import pandas as pd df = pd.DataFrame({'ColA': \['A', 'B'\], 'ColB': \['a,b,c', 'a'\]}) s = df.ColB.str.split(',', expand=True).stack().reset\_index(level=-1, drop=True) [s.name](https://s.name) = 'ColB' df\[\['ColA'\]\].join(s).reset\_index(drop=True)
+Could have 1-line'd \`d\` as: \`\`\` d = {chr(i+c): chr((i+13) % 26 + c) for i in range(26) for c in (65, 97)} \`\`\`
+I definitely agree with the repetitive code. I think something you should look into making is finite state machines. You could probably collapse everything into a single "tree" class with different "states" like seed, sprout, sapling, and trees that it moves through.
+Um, right... I understand what you are trying to do... But it seems to me that there is a good reason why people have chosen not to deal with types that way. Also the introductory paragraph does not make much sense. How is it different to use polymorphic C++ functions in a "recursive" way than to use them elsewhere?
+Idk... chain?
+Hello! I'm a bot! I see someone has already suggested going to r/learnpython, a sub geared towards questions and learning more about python. I highly recommend posting your question there. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+Hey: 1) That "Python Crash Course" is the Eric Matthes's? 2) Could you post that [u/sachin\_mahesh](https://www.reddit.com/user/sachin_mahesh/)'s posts? Thank you! &amp;#x200B; PS: Great job and keep on it.
+Lol me too
+Yeah, well, not when this was written originally... :)
+Did you use a library and if yes what library? PS: Great work!
+I've been filling out a Google form at the end of each day, which includes metrics such as sleep, work, coffee/alcohol/marijuana consumption, and overall happiness, in hopes of finding correlations and using them to make smarter, more data-driven decisions. &amp;#x200B; I'm looking to perform some type of analysis using Python packages once I've accumulated a fair amount of data (only a month in as of now). I've also been writing journal entries for each day so I'll make some frequency tables and see what words or phrases correlate with high or low happiness. For now, my current task is to set up a daily email script so that the hyperlink of the Google Form is sent to me every night before I sleep. &amp;#x200B; It's a small pet project and nothing crazy but it's given me a bit of insight into what makes me tick through a more analytical lense. Would something like this (minus the drug consumption) be a valid project for a portfolio if I was looking into data analyst jobs?
+Works like a charm!
+Okay, I finally wrote my first pygame code ever. A 800x600 static screen that runs at 150 fps on my laptop. I did not look at your code until mine was running, just used the pygame docs and tutorials. It turns out you don't need any multithreading here, the secret is to use pygame.surfarray.
+Should be called "Small Tool, Hundreds of Open Github Issues"
+People *have* chosen to deal with types that way, in Haskell and elsewhere. This isn't a novel approach. The introductory paragraph is just explaining that a "recursive" call of an overloaded function may not be true recursion: it might call a different overload instead of itself, in which case the language needs to do another lookup.
+Hello! I'm a bot! It looks to me like your post might be better suited for r/learnpython, a sub geared towards questions and learning more about python. That said, I am a bot and it is hard to tell. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. **[Be sure to format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)** and include which version of python and what OS you are using. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+Ah Postman, why in the world did I not think to do this to ping the server. I made the assumption it was running because it was working prior to the request but you’re absolutely right I should check that. I’ll check into the port issue, this could have some part of the issue but I was not specifically hitting a port before just the url itself. I’m on mobile at my normal job but will update with code later this afternoon. Thank you for your ideas, it’s been beating me up the last couple days and I appreciate the fresh eyes on it.
+Hey is fell good ?
+Bro does it works in the background??
+Function composition. &amp;#x200B; f(g(h(x)))
+Ive used pyautogui to browse and search websites before (i know, selenium is probably better and more effective but I'm lazy and didn't feel like learning it) You can control both mouse and keyboard. I recommend "Automate the Boring Stuff with Python" by Al Seigwart (sorry Al if I've misspelled your name).
+How would you do it if you had the following? Assuming Col Col ColB. ColC A a,b,c. d,e,f B a,b,d. d,e C a. d I have tested the code and it seems to work for the first example.
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+[ROT13](https://en.wikipedia.org/wiki/ROT13)
+**ROT13** ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher that replaces a letter with the 13th letter after it, in the alphabet. ROT13 is a special case of the Caesar cipher which was developed in ancient Rome. Because there are 26 letters (2×13) in the basic Latin alphabet, ROT13 is its own inverse; that is, to undo ROT13, the same algorithm is applied, so the same action can be used for encoding and decoding. The algorithm provides virtually no cryptographic security, and is often cited as a canonical example of weak encryption.ROT13 is used in online forums as a means of hiding spoilers, punchlines, puzzle solutions, and offensive materials from the casual glance. *** ^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&amp;message=Excludeme&amp;subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/Python/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot) ^] ^Downvote ^to ^remove ^| ^v0.28
+In Haskell, the function that does this is called `applyAll`. So maybe the pattern is an `apply` pattern?
+I like this, I'm going to try it very soon!
+Next step learn to capture a video from your computer.
+It's called: programming :)
+No, I meant in Python.
+What are the benefits of this approach over using singledispatch?
+Yes
+Really suprised to do not see flask in the web dev part ! Nice job
+Where at if you don't mind me asking, im still a noon at this.
+Thanks bro.
+I like to think of this as pipelining. I use this a bunch when massaging my data
+https://www.reddit.com/r/Python/comments/c2w6hc/alien_invasion_game_developed_using_python/?utm_medium=android_app&amp;utm_source=share you just had to click the user link and see his submited posts, longer name of the course is in his post name
+This could be really interesting and useful in some situations, coming from a Haskell entusiast.
+First: Python runs slowly, but Numpy is on par with optimized C/C++. My first experience with Numpy was in response to trying to do some light image processing in naive Python and finding its performance to be god-awful. I spent an hour learning Numpy, strung together a nice tidy set of 8-9 simple operations, and saw my code speed up by a factor of *4,000*. That is not a joke or an exaggeration. Second: Lots of machine learning doesn’t directly use either - it uses CUDA to run on a GPU, or it runs in the web on a cloud-based ML training service. Whichever language you want to use to port your model and data back and forth to those platforms is a lifestyle choice, not a performance issue.
+Fair answer, but then all this should be in the actual description of the project. It's still not clear to me the usefulness of adding a "Neutron layer" on top of Python, and I would think building from C/C++ would be a better choice (a scripting language built using another scripting language sounds inefficient, but I am totally open to experimenting. For that the fast prototyping times of Python are the best choice. Then, what's the long term goal? Would you envision a day in which you would write Neutron programs? Would they be compiled or you will have the same runtime compilation ad Python?
+Making a comment to review later after work! Great job and take my upvote.
+Thanks
+1. You can put the type parameter anywhere in the argument list, not just the first position. 2. You can define overloads for protocols (structural types) in addition to types.
+Same
+Here is a good place to start: [https://dev.to/endtest/a-practical-guide-for-finding-elements-with-selenium-4djf](https://dev.to/endtest/a-practical-guide-for-finding-elements-with-selenium-4djf)
+Why is this a video? Can't you just link a github or something?
+Ah! fun tools for Python kiddies. Nice!
+Next step learn to capture video while not slowing the game down. But seriously I tried, not very hard mind you, then I thought it'll be cool to see me controlling the Link.
+You can do this with tkinter too and with just 7 lines of code.
+Limited seats per batch.
+Right? Like what the hell are cherrypy and pyramid doing on that list lol
+You’re welcome bro.
+Hello! I'm a bot! It looks to me like your post might be better suited for r/learnpython, a sub geared towards questions and learning more about python. That said, I am a bot and it is hard to tell. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. **[Be sure to format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)** and include which version of python and what OS you are using. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+This video is just some guy bragging about how great is he for the things that he’s done and all the money he’s made doing it. It doesn’t even talk about Python much.
+Really nice project well done
+But it's waste of memory(ram's)
+It's a pipe
+You know you can save posts and comments for later viewing right? I do it with a lot of programming posts that I don’t want to view on my phone.
+Just pygame and sys to for sleep function.
+Python has a shorthand for something like this: `map` See: https://docs.python.org/3/library/functions.html#map More information about the map, filter, reduce pattern: http://web.mit.edu/6.005/www/fa15/classes/25-map-filter-reduce/
+Thanks
+What do you mean it works in interpreter? python3 is an interpreter (interprets byte code)?
+You mention that if the type is a key of your mapping, you use the instance. What about subclasses? Do you walk up the mro?
+I just did this a week ago, but in JavaScript. Suggestion for you: check out the Julia sets, also very interesting to play around with, and very easy to do if you have the Mandelbrot rendering already. Im planning on learning python just for this, I wanted to create an animation/video of some rendered zooms, etc.
+I think read() returns none or a generator object. Try putting the decode outside and calling it on the str object after type casting.
+No, but you can add the instance as a protocol instance to get that behavior (it uses `issubclass`).
+Thanks 👍🏾
+From personal experience preflight issue happen in two cases: - You have HTTP Basic Authorization; so, client sends OPTIONS request to get info about the authorization dialog. If your app server CORS headers are misconfigured, you will have preflight issue in this case. - Your server is misconfigured or not running. For example, if the server is not reachable, the default browser error (e.g when Chrome says unreachable), you will get preflight error, which to be honest didnt make sense to me when I first had this issue with Django. It didn’t occur to me to test it in Postman initially but when I did; I saw that the server wasn’t running. :)
+Proof? I'll test it out later today but I've never seen a memory issue with using tkinter apps. Threading, sure, but ram wise, it has been pretty great..
+I hate this persona of programmers. It's annoying and douchy.
+Hmm... Would that not also start matching unrelated classes with the same methods?
+Proof? I'll test it out later today but I've never seen a memory issue with using tkinter apps. Threading, sure, but ram wise, it has been pretty great..
+But think of it you use it extract some key presses in the background with some average amount of apps running and most of the tk window is shown so it also consumes memory
+Came here for this.
+Automate the Boring Stuff is great. Then I would say Python for Data Analysis if you want to scratch a data science itch or just want to learn how to work with loads of data.
+What is the third test framework icon for?
+It might, it might not. Only the function author can know.
+What is the advantage of using Twilio over smtplib and just doing email to text? You still need an internet connection for Twilio. Serious question, I have an application I wrote that sends email text alerts for waterlevels using smtplib but have had users asking about intregrating twilio. Maybe I am missing something but smtplib is like a few lines of code compared to signing up for yet another service.
+No. You can hide the window and make it a background daemon.
+Pretty neat starter project for beginners. Will test this. Thanks
+Remember: Readability counts.
+Here you go def arrange_coins(n): return int((math.sqrt(8 * n + 1) - 1) / 2)
+You can make a daemon with tkinter. Also, I'm not processing all the input instantly. I would get their input, store in memory, and every 15 minutes write to file once and send it to a server. The video was great btw, I was just offering an alternative.
+Ok cool down man/women
+I have been interested in looking into Celery but haven't had the time. Are there really many issues with it right now? Is it something that should be avoided?
+Oh, I see - you are using *only* issubclass and no further logic. In that case, it should work, though of course any Protocols used must be annotated with @runtime_checkable or they will only work if explicitly subclassed.
+/r/learnpython read the sidebar google
+No, map is different from what OP suggests. What OP suggests is something uncommon: \[f, g, h\], x --&gt; h(g(f(x))). Map does the following: f, \[x, y, z\] --&gt; \[f(x), f(y), f(z)\]
+Oh 🤦 . Thanks!
+My best guess as to a function that can detect support looks like def udplite_support(): if hasattr(socket, 'IPPROTO_UDPLITE'): return True elif hasattr(os, 'uname'): uname = os.uname() if sys.platform == 'linux' and uname.release &gt; '2.6.19': return True # some check for FreeBSD elif sys.platform in ('win32', 'win64'): return False try: socket.socket(socket.AF_INET, socket.SOCK_DGRAM, 136) return True except Exception: return False
+The link to the code in the video redirected to a site that attempted to load a malicious APK. FUCK OP!
+&gt; What should I learn first, second, third... Who knows? The best way to learn is to actually start building the stuff you want to build. Doesn't matter that you don't know (yet) how to do that. I think writing shitty code that barely works is much better than wasting time developing a complicated structure "to learn Python".
+Why is the code behind a shitty link that tries to to download some shit to your phone.
+What would really edge python 2 out is, IMHO, if CentOS and Redhat made python 3.x the default versions.
+Not sure. But that wont pass a code review session unless there are like a dozen functions.
+Yeah OP sucks. A video with a link from an URL shortener which links to his Dropbox. fuck that!
+I mean, *he is* showing a clearly malicious piece of code. It’s not surprising his morals might not be spotless...
+I think it's lettuce, but I'm not sure.
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+Yea, I *thought* I had caught the problem in that I was checking request.data (which may not have existed) and could have been loading an empty string using json.loads() which would fail and give me that error. I added some coding though to check for request.form first and then if it comes back none to do request.data.
+Thanks!
+Update: Added a Flask plugin [https://github.com/sayanarijit/flask-htmldoom](https://github.com/sayanarijit/flask-htmldoom) also with live demo and web profiling.
+That's pretty much my use case.
+r/DataIsBeautiful
+Correct! TIL about `typing.runtime_checkable`. That was only moved into `typing` since Python 3.8, though. Before 3.8, it is called `typing_extensions.runtime`.
+Thanks. I figured there was an fp name for it, just didn't know what it was! Lol
+`import` is not a string. Remove the single quotes.
+Are you using exception handling for that? My fetching logic is typically something like this: const response = await fetch(...); const data = await response.json(); if (!response.ok) throw new ApiError(data.error, response.statusCode); // whatever that gets response status code This allows me to use exception handling for both server errors and app errors. ApiError is my custom class.
+I could probably be doing better for this, but for now the front end checks if you get a good return status and then acts accordingly.
+Oh, you're right, thanks!
+Well, despite the title of this book, it really isn't a small tool, but it should be. There are tons of options. As a result, the number of use cases to support is massive. The current count of open issues is over 300. Despite trying a lot of things, spending a lot of time debugging, and poring over documentation, we could never get it working reliably, usually suffering an outage or two on a weekly basis due to a hung task that completely hangs the whole queue. If you don't need some special option that celery provides, but instead just need jobs to be executed asynchronously with awesome reliability, I would look elsewhere.
+Yeah true. I like doing it this way as it makes is easier to check the flow of application for me.
+Yea I may try to implement something similar. This is the first app I’ve ever tried to put into production so I’m definitely still learning the best way and what to check for.
+Good luck! :)
+Thanks! I appreciate the help it’s given me some things to think about!
+I’m trying to cut corners on a school assignment, I need to find 3 grammatical errors in newspapers or magazines published in the last 30 days. I’d like to use some sort of .pdf to text library to parse through the .pdfs then use a grammar library (if it exists) to find mistakes. I’m open to any pointers! I’m not sure the work on this would be any less than what it would take to actually just read some stuff so I haven’t started yet.
+/r/learnpython and read the sidebar
+Thank you for this!
+I misread. Then OP will want `reduce`, instead (same MIT link as I posted above). Functions are not special in python... from functools import reduce last = ... reduce(lambda last, func: func(last), funcs) But either way, this is really still a map filter reduce type of problem (just only employing one of the three).
+This is something different though: each iteration it uses the result of the previous function as argument for the next one. It's closest to reduce but still not the same.
+You would at least need to manually check integer/floating point division
+ [https://www.amazon.co.uk/Python-Crash-Course-Hands-Project-Based/dp/1593276036/ref=sr\_1\_1?keywords=Python+crash+course&amp;qid=1562178878&amp;s=books&amp;sr=1-1](https://www.amazon.co.uk/Python-Crash-Course-Hands-Project-Based/dp/1593276036/ref=sr_1_1?keywords=Python+crash+course&amp;qid=1562178878&amp;s=books&amp;sr=1-1)
+I'm no computer expert but it was cheap for the specs. It's Dell G5 btw had it for nearly a year now.
+Who tf codes a keylogger in python, who tf would use that and wtf is that sketchy link
+I'm working on an update to Screen Spy. It now runs silently and grabs a desktop screenshot every n seconds. It is now cross platform and I've improved the code quite a bit. My favourite bit of the code was when I discovered how to toggle a boolean with 'variable = not variable' , being a bit dumb I never knew that before I googled it haha. Actually I am having two small problems with the code, one Linux related the other is how to quit the threading. See the post for more detail and the source code. https://stevepython.wordpress.com/2019/07/03/python-screen-spy-update-v1-61
+Yea. If you want I can ping you once the app will be public so you can gain some ideas from the code or even use some libraries I'm going to publish as separated part of the project.
+[removed]
+Nice bro.
+From your first source: &gt;By far the two most popular web frameworks among Python developers are Flask and Django, which are used by 47 percent and 45 percent of respondents, respectively. However, Flask use grew 15 percentage points year over year versus four points for Django
+you bet, thanks
+So as I mentioned previously: I misread. However, I don't think that this is anything except a map-filter-reduce problem. In Python, since everything is an object including functions, this is most easily accomplished with a lambda and a reduce... as I mention here: https://old.reddit.com/r/Python/comments/c8p7pc/does_this_pattern_have_a_name/esp20so/
+"Trends" implies a change over time... I was expecting to see growth or increase in popularity.
+Broooos
+I never then go back to those posts:p
+i too think it's called chain
+Oh me neither haha. But a part of me likes to know that someday, maybe, just maybe, I’ll actually go through that.
+Currently going through this as well. Keep an eye on imports. Some modules have been renamed or no longer exist. Some IDE’s like Pycharm will point out to you incorrect imports
+Web development would be the most helpful IMO, so flask or django. Also learn a little bit about devops on any cloud platform (AWS, Azure, etc)
+Do you feel entitled whenever you speak?
+is there more stuff like this that got adapted from haskell in python
+the fucking sources are listed at the bottom of the picture. &amp;#x200B; [https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/](https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/) &amp;#x200B; looks like the infographic chose the first 3 listed.
+Yep. And that elsewhere might be something as simple as [APScheduler](https://apscheduler.readthedocs.io/en/latest/).
+I'm just learning Python, this is really cool. Thanks for the inspiration to keep going
+Ah, yes, confirmed it is. Thanks, I was not familiar with lettuce.
+Well if you want to learn web development with python there are two popular frameworks that you can learn, and by that I mean you can choose one and start. So there's django and flask, both of these frameworks are cool, personally though I prefer django. If you want to learn django I suggest you go to these two links https://docs.djangoproject.com/en/2.2/intro/ And Django Tutorials: https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p You'll get a gist of how web development in python works PS: Before you dive into web development with python I suggest you familiarise yourself with python both interms of functional programming and object oriented programming Python OOP Tutorials - Working with Classes: https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc
+The first project I've done with tensorflow was a digit recognition one. I recommend you to start from ML fundamentals though, starting from the mathematical principles and building up your understanding until you are able to simplify things with Tensorflow.
+How it's done: We proceed in 5 steps: &amp;#x200B; 1. We resize the image to contain at most a certain amount of pixels. 2. Run various image processing steps like edge enhancement and smoothing before converting the image into grey-scale (using Pillow) &amp;#x200B; 3. We then quantise the image into just having 5 to 10 greyness levels. &amp;#x200B; 4. Now we map each greyness level to a digit, et viola, we have embedded the picture into a number. &amp;#x200B; 5. It now remains to tweak some of the digits until we find a prime number that still looks like the image. &amp;#x200B; *Note: According to the prime number theorem, the density of prime numbers is asymptotically of order log(n). Hence, if we have a number with m digits, the number of primality tests that we expect to do until we hit a prime number is roughly proportional to m. Since we use the Baillie–PSW primality test, the overall expected computational complexity of our prime searching procedure is O(n\*log(n)³).* &amp;#x200B; You can find the code @ [Github](https://github.com/LeviBorodenko/primify) and experiment yourself.
+Do you have (simpler) alternatives that you can recommend?
+&gt; If you don't need some special option that celery provides, but instead just need jobs to be executed asynchronously with awesome reliability, I would look elsewhere. Interesting. Care to name a few alternatives you favor instead?
+&gt;How can we replicate type classes in Python? Why would we want to do this? Function overloading was insanity in statically typed languages - writing the same function multiple times. Then many statically typed languages gained generics to avoid having to do this, and dynamically typed languages had... well.. dynamic types, so users could just run outside, strip off their clothes, throw up their arms and dance around in circles of happiness and joy because their dynamically-typed languages made them free. Please don't drag us back to the nightmarish hell of writing the same function over and over. That's not only unpythonic, it's inhuman. :-(
+I first did image classification with tensorflow. Tensorflow offers good tutorials and then there are tons more on medium and other websites. Make sure you undestand what a cnn is (convolutional neural network) and then have fun training your own models. Maybe you want to start with a simple binary classification... Then the next step in computer would arguably be object detection with the tensorflow object detection api. Again, there are tons of example and tutorials...so it really just depends on your effort.
+rq?
+*Much* better.
+This is the best answer. When I applied for my current day-job it was listed as "Python developer", and I still don't think I know Python that well. Turns out nobody notices if you keep solving problems.
+Awesome idea first of all, and then awesome implementation.
+This is the pinnacle of python, making some other library do literally all of the work.
+Hello! I'm a bot! It looks to me like your post might be better suited for r/learnpython, a sub geared towards questions and learning more about python. That said, I am a bot and it is hard to tell. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. **[Be sure to format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)** and include which version of python and what OS you are using. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+Impressive!
+The problem is 8 being a prime number. Check your code again mate! ಠ⌣ಠ
+Java and C# has built-in language support for this through the Streams API and LINQ respectively.
+Point is, the entire string IS a prime, it’s not about individual digits being prime.
+The whole number is prime, not the digit
+re-read the title
+If I understand correctly the image is not composed of prime numbers but merely a single prime number...
+That's correct!
+Facepalm
+This is indeed expected behavior, both store a reference to the same dict. You can create another dict from the input argument or use copy I guess.
+So you basically assume something is a prime, verify, and tweak again until it is a prime?
+1. In Python, vars are passed by reference 2. A dict is mutable Given 1 and 2, you may fix this issue by creating a new dict in your `__init__` method with `dict(instance_int)` for example
+Shit, sorry, I misunderstood. (&gt;ლ)
+no worries :)
+You have to with Prime numbers, they are np.
+I used adfly to shorten the Dropbox link maybe that's why it has pop ups sometime . But I had no bad intentions behind using Dropbox to link the code.
+No worries - minus 15 karma. LMFAO ¯\_(ツ)_/¯
+50,857 LOC 6,171 functions 867 classes 349 files 318 open issues 734 contributors "small tool"
+Jesus Christ Well fucking done.
+I know ;)
+Jesus Christ. Well fucking done. &gt; We proceed Who's "we"? Or are you just speaking in a mathematical "we set x equal to 4" type-thing?
+I'm working on some moderation tools for the bot we use in our online Python community. Needed to modify a Django REST API endpoint for it and I've never worked with Django before. It's pretty cool and the documentation is amazing.
+It's the mathematical "we" :) I worked on this project on my own
+ How long does it take to render and what sort of primality test do you do?
+What's that laptop?
+719
+Or just `instance_int.copy()`
+r/ProgrammerHumor
+If you want to run your .py file just go to the folder where your file is and type `python filename.py`, where filename is you file's name. Going to the folder can be accomplished with `cd` commands. Just open a new CMD window. Look at the line where it prints your current location. If your folder is inside that location type `cd foldername` to go insode the folder, if you want to go back type `cd ..`. If you face any issues reply to this comment Good Luck!
+**How it works:** I take an image and use opencv to detects the edges. I then convert the edges into a list of points (x,y). The turtle module has a function that allows you to set the coordinates that the turtle should go to. The turtle then draws until it reaches that point and then changes directions to the next point. &amp;#x200B; I will post code on github once I've cleaned it up a bit.
+Nerdy. Like it.
+Never have I seen something so useless and so cool at the same time. Great job!
+I can show you how to do it with `os.listdir()`, I have used that and it is quite good. In case you want with it... import os files = os.listdir() extensions = ["jpg", "png", "gif"] acceptable = [] for filename in files: dotsplitted = filename.split(".") ext = dotsplitted[-1] if ext.lower() in extensions and len(dotsplitted) != 0: acceptable.append(filename)
+Rendering time heavily depends on multiple factors here: 1. Your hardware 2. whether you are using pypy etc. 3. you can just be unlucky and hit a very large prime gap But on my crappy laptop, generating a 5000 digit prime took on average about 20min. The above python logo took less than 5 :)
+On the other hand we do have quite long lists of known primes. Have you checked if you could just use those instead?
+ **How it works:** I take an image and use opencv to detects the edges. I then convert the edges into a list of points (x,y). The turtle module has a function that allows you to set the coordinates that the turtle should go to. The turtle then draws until it reaches that point and then changes directions to the next point. I will post code on github once I've cleaned it up a bit.
+Then why ROT13 the message in the first place :P
+That's cunning, i like it!
+can u make it draw a pp
+Do you ever write a class that inherits from another and overrides a function, e.g. `__str__(self)`? Then you are "writing the same function over and over". It is a function with the same name but different implementations for different types. That is ad hoc polymorphism through subclassing. Overloading is perfectly normal. It is so common that Python has a limited implementation of it in the standard library called [`functools.singledispatch`](https://docs.python.org/3/library/functools.html#functools.singledispatch).
+I see. Tpp notch idea:) loved it
+Man how do get such Gedanken?
+You aren't just going to be able carry a list with you in your pocket forever you know?
+You're not replying to the OP with your question, so odds are the answer is no. But even if OP did consider it, why make the program larger and less flexible that way? Testing a random number to see if it is likely prime (confidence &gt; 10\^100) can be done in a fraction of a second. Testing enough to find a likely prime, even in numbers thousands of digits long, can be done quickly enough not to test the user's patience.
+Absolutely amazing. Great work.
+Is that an 80 character boundary?
+The title is weird, you mean you used prime numbers to render a number art of the Python logo.
+Wait, is it standard for papers to use the royal "we"?
+Primes aren't rare enough. For a 1000-pixel image, you need a 1000-digit prime. In that range, primes roughly occur once every ln(10\^1000) = \~2303 numbers. That means a full list would very roughly have 10\^1000 / 2303 entries. To compare, the number of atoms in the universe is \~10\^80.
+EDIT: thanks for all the likes!
+In programming, unexpected mistakes can be lots of fun. Or brutally painful. Glad you caught a fun one. I'm curious why it stopped there? Did you halt execution of the program?
+&gt; viola voila* "Voila" is French for "there it is". "Viola" is French for "raped".
+It is not as much as royal "we" as it is either an actual plural or simply including the reader in the process. I see it used fairly often in all sorts of papers and text books.
+The royal "we" is simply using "we" instead of "I". In essays and exposes it basically means "me (the author), you (the reader), and anybody else who wants to try at home".
+Oh my! Thank you very much for pointing this out!
+😳
+Testing it I can't get it to work at all the way you have it, however using `glob("*[.jpg,.png,.gif]")` worked for me.
+It's standard for all of mathematics.
+It’s the new emergency services number
+Viola is also a stringed instrument between the violin and cello in size
+I'd always wondered why I write like this
+Right, and they used python to find that prime number
+I'm being very picky on grammar it seems, but its not a single prime number.
+You are right, I'm starting to think the problem im having is something else. Thank you for your suggestion anyway :-)
+...but it is? If you concatenate each line into one big number, that's a prime
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+r/SuddenlyCommunist
+Maybe I'm stupid, I don't recall concatenating prime numbers (i.e., 7||7 = 77) always guarantees a prime number. &amp;#x200B; From the OP's description, it looks like he/she just converted each grayscale pixel value (a set of value with cardinality between 5-7) to first look like the logo then swap numbers to be prime without sacrificing much of the image.
+Except, if I'm not mistaken, that's what OP is saying. It *is* a single prime number. Although, I haven't checked it to confirm.
+I think I'm starting to understand it better. Yeah, it would be nice if the OP post the number in one line and have us do a primality test.
+Right, that's the hard part. OP starts with an image, and gets a number. This is almost certainly not prime. From there, individual digits are varied until OP hits a prime. Luckily, the density of primes is large enough that this is usually possible without changing the image too much.
+Not OC, but dramatiq looks nice. A lot of people recommend rq, but I prefer rabbitmq for a durable broker.
+"Viola" is also "violet" (color and also the flower) in italian
+We*
+Im completely new to programming and I cannot make it work, every time I paste the image path where it says "Path to image", I get "No such file or directory './prime.png'
+ Jwhy *we* write like this
+No Barry, *we* are the Flash
+As other have written this is plain function composition f,g,h to f(g(h())). Python doesn't have a compose function but it's simple to imlement: def oneup(f, g, x): return f(g(x)) def compose(first, second, *rest): return partial(oneup, first, second if len(rest) == 0 else compose(second, *rest)) Which you can then use to define the composed function before passing in values: def double(x): return 2*x def half(x): return x/2 def square(x): return x**2 fc = compose(double, square, half) print(fc(42))
+When your essay needs 3 more words to reach the minimum word count.
+But you can find a large enough gap that it will be time consuming, with a well structured known list the search will be way faster.
+It's an implementation of the keylogger!
+Akshally the spelling in English is "Walla", as proven by comment sections on recipe websites.
+Honestly, pick a project that is personal to you and tackle it little bit at a time. Learn fundamentals then tackle a project but make sure it’s personal and you’ll benefit from it or else you’ll never learn.
+Oh, actually right now, I'm making neutron faster by using Cython. It is planned to make neutron compiled/transpiled and is discussed [here](https://github.com/the-neutron-foundation/neutron/issues/4). I think in the future, the goal is to make neutron into a language that can be used as both a DSL and a GPL (via being able to import syntaxes at runtime).
+I'm excited to see what you make :) Working on my zoom's right now, hard to find info on good coordinates.
+Yes, but your when you call the .read method, it's returning None. You're not using it like a pipe.
+Don't forget about the only important reason to use it: https://en.wikipedia.org/wiki/F._D._C._Willard
+Use git. Use 2to3. Test and Review the code.
+&gt; Do you ever write a class that inherits from another and &gt;overrides a function, e.g. __str__(self)? Then you are "writing &gt;the same function over and over". No; in that case you're writing a function that does something different. Imagine if there were no optional keyword arguments in Python and you had do write half a dozen versions of the same function, complete with duplicate code, to get the same effect. That's what you do in a statically typed language like Delphi that has function overloading but no optional arguments. &gt;Overloading is perfectly normal. So is cancer and car crashes. The Great Guido saved us from this with optional arguments and dynamic typing. Now it's simply not necessary. &gt; It is so common that Python has a limited implementation of it &gt;in the standard library called functools.singledispatch Functools - in other words, a functional programming zealot snuck it in. In anyone really using this? Ever? I've read the PEP and I still don't get the need for it in Python.
+Is it in the same directory as the script?
+These days elliptic curve cryptography is dominant, but 10 or 15 years ago, a great many https websites, including those where you had a secure login or transmitted your credit card information, use RSA to secure the connection. RSA requires generation of at least 2 unique prime numbers, each hundreds of digits long, for every session. Your phone and / or computer has probably done it thousands of times while you browsed the internet -- even in 2019 though less frequently than in the past -- and you maybe never noticed. Those gaps are a theoretical risk but nothing more. You can search sequentially (all sequential odd numbers) for random numbers, but you do not have to. Primes tend to occur less frequently the higher their value, true. But the odds of any given number, selected at random, being prime is about equal to 1/log n, n being the value of the number in question. So for numbers with 1000 digits, about 1 in 2302 of them will be prime. If you check 10,000 such numbers at random, you are down to a 1.3% chance of still not having found a prime. If you check 20,000 such numbers at random, you have a .016% chance of still not having found a prime. And by the time you have checked 45,000 such numbers, a task that should still be possible in a fraction of a second, you are down to odds of about 3 in a billion of still not having found a prime. Even allowing you needed a prime 10,000 digits long, roughly 1 in 23025 of them is prime, and by the time you ran checks on 107,000 randomly selected odd numbers each 10,000 digits long, there would be less than 1% of your not having found a prime one. By making the candidate number have 10 times as many zeroes, you make the tests take longer, and you need about 10 times as many such tests to find a prime. A 10,000 digit prime could indeed take a second or two to find with high probability. So in short, while there is always a theoretical possibility of searching forever without finding another prime, the reality is that modern processors can shrink that probability into "not going to happen even once in the remaining life of the universe" in less than a second for numbers the size OP's program seems to need.
+Just hit week 2 for my programming class and the instructor is using runestone academy, but didn't set up a course. I'm having a difficult time figuring out this correct change problem.
+Julias Docs and Error messages are *horrible* (and there's not that much info on it out there(looked for a book, there's nothing in depths covering 1.x)). The markdown docstrings are nice, repl help seems nicer than python, unicode in the Code is fucking awesome, unittests are whack in Julia... It's nice for maths stuff and a language with a great deal of potential but right now I'd go python for pretty much anything.
+You're overwriting the `response` variable before you loop back to test it. Use different variable names for the different responses, at least inside the `while` loop that you're testing for it in.
+Does this work well with mypy?
+Yes. Typically you have multiple authors. Even if it’s just one you stick to we. Mostly it refers to the authors as a whole, but sometimes it means you and I, the reader. ‘We see that by doing X we arrive at Y’.
+Is it possible to still use normal commandline params with this? Like if I want to invoke `add 3 3`, can I still do `./calculator add 3 3` instead of having to first get into the interactive shell?
+Yeah, I tried with 'C:/.../image.png' and only using 'image.png' while on the same folder, and it didnt work
+&gt;"Viola" is French for "raped". Someone's gotta let r/lingling40hrs know. They'd have a field day.
+average(t) = average(t-1) * (n-1) / n + new / n
+How does this compare to the built-in [`cmd`](https://docs.python.org/3/library/cmd.html) library?
+So if I shove a French person into the back of my van I can say "Voilà, viola"?
+n equaling the number of items averaged, correct? Like 10 samples
+I like to call it *academic "we"*
+Julia isn't designed to kill python. It's designed to kill MATLAB. I hope it does.
+Whether or not python is the future, I really hope ruby is history.
+Write a bunch of cross-compatible unit and integration tests to make sure it works; then start changing stuff. 2to3 will get you some of the way, but there'll probably be some stuff to fix afterwards. Fortunately, with tests, you'll know what stuff it is!
+Al sweigart has some good stuff. Besides that u should check the FAQ
+A mistake made in error handling in python led to me learning about recursion for the first time. Interesting stuff.
+Yup. What you're looking for is an "online" version of your summary statistics, where you have to react ro incoming data. Not all can be done online, but average can. Min and max are, of course, trivial.
+Possibly try by doing 'C:\\Path\\to\\image\\image.png'
+easter egg
+I'd be keen. I've sort of dived into some algorithmic trading stuff at the mo so what I've made so far is rather specific. I'm also far from an expert - my python code is messy stuff and I very much am in the world of dataframes being my primary way of dealing with things as opposed to building something that scales well.
+What do you mean by non-biometric? Behavioral metrics are still "biometric" so I can't imagine what non-biometric identification process would tie into deep neural nets.
+This is a great response. Thanks.
+My opinion is that, perhaps unfortunately, we are driven by money. We work for money. It is a motivator. So, what do we do when we want to to do something out of work? Something to do with money. Combine that with the easy availabilty of data, APIs and such a wide range of things to work on, it's a great project. In fact, I think I would reccomend anyone interested in data science / data analytics to start with financial data. There's so much out there and so, so many things you can analyse.
+719 is part of the picture too ;P
+With pandas you can easily read the Excel file and process this data into db
+Royal 'we'
+This. Here is some quick code to get you started. Make sure the dataframe datatypes match the table you are writing to in sqlite. You can set the datatypes during read\_excel using the dtypes parameter. Finally check the documentation for to\_sql() as to whether you want to use append or replace for the if\_exists. &amp;#x200B; import pandas as pd from sqlalchemy import create\_engine df = pd.read\_excel('excel\_file.xls') \# check data types of dataframe before writing print(df.dtypes) \# do you need to fill nan/nulls? df = df.fillna(0) &amp;#x200B; engine = create\_engine('sqlite:///C:\\\\sqlitedbs\\\\school.db', echo=True)) &amp;#x200B; df.to\_sql('tab', engine, if\_exists='replace', index=False)
+I've been puzzled by this comment, so I have to ask, why?
+Thanks. I think the applyAll() concept most closely models what I'm after. The important part for me is that the exact number of functions in working with won't be known until runtime. That said, that recursive compose() function is pushing all the right fp buttons! ;)
+Cool thats pretty cool i respect your work.
+Learn selenium and other scraping libraries. Web automation and data scraping jobs are easy to find, if youre looking on the right place.
+You can use a dictionary named moves and each move has another dictionary in it with its stats, would probably reduce all your if statements to one if statement.
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+[Let's Go](https://open.spotify.com/track/684nFcq9jOLIcCxovCtveu?si=5JJY-eVkTR6-rhwNMTToEQ)
+&gt; you can just be unlucky and hit a very large prime gap Jumping at random instead of adjacently should fix this.
+Via /u/adereth, here's the same thing in Wolfram Language: Grid[Partition[IntegerDigits@NextPrime@FromDigits@Flatten[(Round@ImageData@ImageResize[fingerImage, 50]) /. 0 -&gt; 8], 50], Spacings -&gt; 0]
+All I know is that my tests / examples pass mypy.
+/r/learnpython
+I seriously object to the top comment's (on quora) statement that importing libraries makes code less clean
+I think you have a negative reaction to the word "overloading" without understanding this incarnation. Can you find an example in the tutorial, library, or tests of two functions "doing the same thing"? There are none. You're bemoaning a problem that does not exist here.
+If I tried to play the viola, your ears would be raped.
+Visual Studio Code
+vim
+The editorial we? We dropped off the money as per your instruct...she kidnapped herself man!
+Are you looking for an IDE to code Python in, or are you looking to edit text inside files?
+/r/learnpython, read the sidebar, and search the sub for IDE.
+/r/outoftheloop Why is that significant?
+Okay awesome and thanks. I'll check those videos out.
+Eh. I use vscode daily and I'm definitely feeling parts where it's significantly lacking for python Dev. For a large project with a lot of star imports, the symbol finding and navigation are slow and the intelligence extension for js and python doesn't support fuzzy searching for project wide symbol searches. I'd say go with pycharm
+It's also the third person singular conjugation for rape in spanish. As well as [a lovely instrument](https://youtu.be/ZKxpRfybe1U?t=37).
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+I’d go ask in /r/learnpython
+Have you tried running it as pip3? Also I don't think you can run pip from idle (or maybe just don't want to?). From the command line you should be able to type in &gt;&gt;pip3 install whatever, if that doesn't work [this tutorial looks OK] (https://vgkits.org/blog/pip3-macos-howto/)
+Any plans for a Windows version
+The problem with Matlab is that it’s not a language. It’s deficient in many aspects; classes, error handling, strings, hashes, not to mention the community. Any language that is deficient will remain niche. We’re in the era where FORTRAN 77 is not enough. I mean it can basically do all the math that the core of Matlab does, except faster and cheaper. It’s simple because it’s basic, but for large programs, it has severe limitations. Python is a great language because it is good at those tasks that Matlab is terrible at and can do what Matlab can do with libraries like numpy and scipy. Matlab has some toolboxes that are better than what python has, but for most people the maintenance costs of Matlab aren’t worth it.
+I’d do it manually. A few grep searches will get you most of the changes. The other ones you’re going to have to find anyways.
+What right place is that?
+So the number is prime.
+Embedded systems for smoke detectors and fire alarms and a new line of intelligent alarm sensor systems ... All using python
+If you're just looking to do multiple dispatch, there's also [multipledispatch](https://pypi.org/project/multipledispatch/) on PyPI. &amp;#x200B; from multipledispatch import dispatch &amp;#x200B; real = (int, float) &amp;#x200B; @dispatch(real, real) def add(x, y): return x + y &amp;#x200B; @dispatch(object, object) def add(x, y): return "%s + %s" % (x, y) &amp;#x200B; print(add(1.2, 2)) # =&gt; 3.2 print(add(1, 'hello')) # =&gt; "1 + hello"
+yes, I have started working on a windows supported GUI
+I really want to say emacs. But seriously, eclipse with he pydev plugin works well for me. But I use eclipse for everything. I've also had good experiences with notepad++ when in a rush.
+In this context biometric is defined as any attribute of a person that cannot be easily changed (i.e gender, age, facial features). So we use attributes like clothing type and color to re-identify people.
+I used to do that with tab at jupyter notebook. Don’t know any other editors
+https://docs.python.org/3/library/functions.html#help
+https://gist.github.com/alanjcastonguay/299400ba2cff4e7b3a460c06835036c3
+Emacs
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+🤮
+ help(print) dir(print)
+It takes some effort to understand what the code is doing. To make it work, one has to capture many inputs/outputs into a container. This will make the code less readable.
+IDK, July 2019?
+/r/learnpython and read the sidebar
+That's really interesting. It seems like if you trained something to identify based on clothing you'd have to be careful about avoiding having it actually use body proportions to help identify people assuming you're trying to be deliberate about not using "biometrics."
+If you use spyder IDE, you can put a "?" after a function to get its docstring. Or you can press [Ctrl + I](https://docs.spyder-ide.org/help.html) after print and the documentation will open up in help panel.
+I am new to Python first off. I found a video tutorial on YouTube as most beginners often do. I decided to transcribe the entire tutorial into a text document so that I could improve my typing skills, as I have just learned how to type without looking at the key board as well as serve as reference material later for studying. I plan on posting the finished transcription of the tutorial by then end of next week. Python seems amazing and I am loving it so far although I am still very lost to be quite honest. I am starting to make sense of everything and get an understanding of how certian things need to be structured, but I know I have a very long way to go. Does anyone else use this method to learn Python? Feel free to share what has been most helpful for you when learning Python and conceptualizing it.
+Have you watched 3Blue1Brown’s neural network videos? If not they are quite good
+Hello! I'm a bot! It looks to me like your post might be better suited for r/learnpython, a sub geared towards questions and learning more about python. That said, I am a bot and it is hard to tell. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. **[Be sure to format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)** and include which version of python and what OS you are using. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+It depends. The way Julia and C do it: yes; the way Rust and Python do it: No.
+On average, right? You could still get unlucky even when picking random numbers.
+Based on experience, it can be anywhere. Ive found some from reddit, craigslist and facebook. Offering your services as a virtual assistant and automating your job is also something you can do.
+Adding in some other way. not sure how to make it work in python but its similar to fold some scala code def a(a: Int): Int = { a +1 } val z = Array(a _ ,a _ ,a _ ) val c = z.foldLeft(1)({(acc, f) =&gt; f(acc)}) println(c) prints 4,
+The average is the same either way. The distribution is what's different, and it becomes *extremely* unlikely that you'll keep missing your expected case. Though you can further constrain it to ±1 mod p# for some primorial and simply check a lot fewer numbers to start with.
+Hello! I'm a bot! I see someone has already suggested going to r/learnpython, a sub geared towards questions and learning more about python. I highly recommend posting your question there. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. **[Be sure to format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)** and include which version of python and what OS you are using. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+Thank you for this recommendation. That looks much simpler indeed! I will give it a try :)
+[Watch this](https://www.youtube.com/watch?v=aircAruvnKk)
+Actually, you should say "voilà, violé". Viola would be "passé simple", more or less preterit, as in "He raped". ("Il viola.") Did I mention I'm not a fun guy to hang out with?
+&gt; pd.DataFrame({'ColA': \['A', 'B'\], 'ColB': \['a,b,c', 'a'\]}) Please format your code as above so people better can understand what you mean..
+`help(function)`
+Not really. From technical stand point it's not the problem. This woud make `riposte` more similar to `click` on steroids. But you have to keep in mind that if you decide to build your own shell you probably will be working on some kind of state. e.g. $ set foo 123 $ set bar 456 $ baz // execute command "baz" but keep in mind that foo=123 and bar=456 So this might get pretty confusing very quickly. A good solution would be implementing a switch that is similar to `python -c "import foo;` [`foo.bar`](https://foo.bar)`()"` so we could leave the option of state manipulation open `./custom_shell -c "set foo 123; set bar 456; baz"`
+I agree. the standard `-c` flag would be nice. My issue with just a REPL that doesn't support passing the command as args is that any tool developed using it can only be used by a human and cannot be put into a automated script (unless you're willing to risk passing the commands via stdin).
+Argparse is nice for most cases. However, it has some issues like “not accepting options containing dashes” (https://bugs.python.org/issue9334), which can be annoying sometimes. I’ve been using Click (https://click.palletsprojects.com/en/7.x/arguments/), a very convenient alternative to the built-ins argparse and the already deprecated optparse.
+I've encountered a particularly nasty issue where using one option makes the worker enter an infinite loop when processing a task that takes more than \~3 minutes and [it's been open](https://github.com/celery/celery/issues/3430) since 2016. Initially I've tried to fix it myself, only to realize that the codebase is actually excessively vast and it's not just the celery itself, but also the layers beneath it (kombu, amqp). In the end it was much faster to replace it entirely with a simple pika worker. I would probably not bother with celery anymore these days and just stick to plain pika. Yeah, it's more code to write early on, but a lot easier to debug down the road.
+Or even reduce(lambda last, func: func(last), funcs, 'something') # assuming 'something' is the initial value
+so 12% use python for machine learning, and tensor flow + scikit-learn are the top preferred packages. TF and sk-learn must be really dominating the ML domain.
+Hello! I'm a bot! It looks to me like your post might be better suited for r/learnpython, a sub geared towards questions and learning more about python. That said, I am a bot and it is hard to tell. Please follow the subs rules and guidelines when you do post there, it'll help you get better answers faster. Show /r/learnpython the code you have tried and describe where you are stuck. **[Be sure to format your code for reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)** and include which version of python and what OS you are using. You can also ask this question in the [Python discord](https://discord.gg/3Abzge7), a large, friendly community focused around the Python programming language, open to those who wish to learn the language or improve their skills, as well as those looking to help others. *** [^(README)](https://github.com/CrakeNotSnowman/redditPythonHelper) ^(|) [^(FAQ)](https://github.com/CrakeNotSnowman/redditPythonHelper/blob/master/FAQ.md) ^(|) ^(this bot is written and managed by /u/IAmKindOfCreative) ^(This bot is currently under development and experiencing changes to improve its usefulness)
+&gt;any tool developed using it can only be used by a human and cannot be put into a automated script Very good point. I will take a look into that. If you are interested you can track progress [here](https://github.com/fwkz/riposte/issues/10).
+Start a simple project from scratch. Create an API that does x. Be specific here. For example if you like ice cream, create an API to manage ice cream flavors. First specify what endpoints it will have. And what each method does. Get it done somehow. Doesn't matter how, make it sloppy but work . Ok save that project so you have version "sloppy" to compare to and refer to. Now drf has a bunch of ways to do shit so go understand them. Don't be afraid to look at drf code too as it's fairly readable and really helps understand what is going on. Rewrite your api a bunch of times: 2. Use just functions. 3. Use classes. 4. Use viewsets. Ok make sure you understand the difference with each. what files stayed the same? So you understand what each file is doing? Go look at what effects you have by changing for example the model.py. how about serializers.py? Take hand written notes on your conclusions. Ok now go back and add a feature to your ice cream API. Maybe let people track ice cream store that carry flavors (what kind of relationship is this? ForeignKey? ManyToMany?). Ok go read about models in django proper and decide and implement. What does your db look like before and after? What tables are there? What columns? Add a record using your api. Inspect your db. You need to sit and play with things without worrying about breaking them. Save checkpoints in got and just abuse the hell out of your ice cream project until you start to internalize what all the knobs do. Look at the drf tutorial for more tweaks to make to your api. Take good notes. Update them with examples and corrections as you go. Two scoops of django is a good book for you to read too.
+\^
+Your code does only two things from the exercise (reads input and converts it to integer). The rest has nothing to do with what you were supposed to do. Instructions are very clear, so it looks like you are trying a "homework scam" on us, where you just paste some random code as yours, hoping we will fix it by posting a complete solution. I am not saying you did that (maybe you just posted the wrong code by mistake). I'm just saying how this looks like.
+Take a look at the step by step tutorial: [https://www.blog.duomly.com/how-to-create-an-intelligent-chatbot-in-python/](https://www.blog.duomly.com/how-to-create-an-intelligent-chatbot-in-python/)
+i just shit my pants. very strong mathematical implementation
+Isn't that violé(e)?
+Well, you didn't think I was driving, writing the algorithm AND talking to you, did you? Man?
+I'm not the OP :p
+Your submission has been automatically removed. Your reddit account must be older than 2 weeks before you can post. No exceptions. You can repost this when your account is old enough. This helps prevent spam. **If you need help with Python** see r/learnpython or r/learnprogramming. **WARNING** Reposting this under a different account before 2 weeks risks getting both accounts banned as well as domains in the post. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Python) if you have any questions or concerns.*
+I think that's a good idea. Since all of the classes have the same information, putting everything into one class wouldn't be very hard.
+PEAK.rules also does multiple dispatch.
+Impressive. Superb and awesome. I'm running out of words hehe.
+&gt; Some statically typed languages have ad hoc polymorphism You link to a wikipedia article that shows that Smalltalk supports ad hoc polymorphism. And Common Lisp also has "ad hoc polymorphism" (because I think ad hoc polymorphism and multiple dispatch are the same thing). While what you state is true, it is un-necessarily limiting of the types of languages offering ad hoc polymorphism. I would rewrite it as: &gt; Ad hoc polymorphism where a function can have multiple implementations depending on the types of its arguments. I've added your code to [the Python OOP wiki under multimethods](https://github.com/metaperl/python-oop/wiki/Multimethods). If you feel is not the best place, kindly RSVP.
+There are no annotations in the source code. See https://github.com/thejohnfreeman/python-typeclasses/issues/1
+yep, viola's the passé simple forme (~= preterit)
+Docopt is the way

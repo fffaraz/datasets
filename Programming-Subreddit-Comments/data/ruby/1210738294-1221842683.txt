@@ -1,0 +1,924 @@
+Sorry I wasn't being clear. I meant file uploads. 
+Did I tell you you could speak? Now go and fix my spelling mistakes.
+What's wrong with file uploads? Attachment_fu works pretty well and has a lot of options for storage. Not sure how it would do with large files (we use it for images).
+Rails is still mutex locked in Passenger, so you won't want to upload your files to s3 or convert videos to FLV right after they're uploaded (spoiler: use a background queue). But I've written rails apps with mongrel that handle 500MB video uploads with no problems. Don't believe the FUD.
+i'm using phusion passenger on a production system and it is running perfectly.
+This topic doesn't really need a whole book dedicated to it. Besides with switchpipe and phusion the problem is pretty much solved already.
+That's pretty impressive. 
+Because you disagree, or because the comment adds nothing to the discussion? Hopefully you'll explain and enlighten us as to why you think Rails support sucks on Windows is a result of Windows not being Unix. Windows hasn't seemed to have hampered every piece of software written on it, has it?
+You little ripper!!!
+it is a good book. much better than the pickaxe for explaining lambdas and procs and metaprogramming. &gt; I didn't get a chance to read each and every paragraph yet but I've skimmed pretty much everything. i am getting fed up with reviewers who don't actually read the damn book. 
+I don't know how you even write a review without reading the book. I am halfway through with the book and am finding it to be an incredibly detailed discussion of Ruby. It reminds me of the author's Javascript book in this regard. 
+I have it sitting on my desk. It's the next one on my list. This post makes me look forward to reading it even more.
+&gt; i am getting fed up with reviewers who don't actually read the damn book. I've been sent a number of Ruby books, ostensibly for me to post a review someplace, but most are either too damn long or too poorly written (or, in some cases, both) to get through. David Black's Ruby for Rails is one exception; the Flanagan/Matz book is another (though I'm still working my way through it). It's not without its flaws (some code examples are odd, and I am puzzled by the authors' need to tag certain syntactical structures as "statements" while immediately saying "though technically they are 'expressions'") but it is a good book. BTW, how does someone write a book review and not even mention the authors of the book? The blog entry is not so much a review as an "I'm going through this book and I like it so far" quickie post. 
+Crap review, but a good book.
+&gt; i am getting fed up with reviewers who don't actually read the damn book. It's not a novel. Reading 60+% of the text gives you a pretty good idea of how the book is. There isn't some plot-twisting event that is gonna occur that can change the entire quality of the book. 
+With a possible exception for why's poignant guide to ruby.
+I wouldn't call it a review either but it's well written and gives a good idea of what the book is like.
+There has been much discussion lately on the ruby-core list about the lambda syntax. This is not a done deal.
+I got most of the way through this article, and then he started talking about s-expressions. I may be wrong, as I didn't finish the article, but the impression I got at this point was basically "why introduce new syntax for ruby? Just start using s-expressions instead", but once we go down this road, ruby becomes little more than a dialect of LISP.
+Well the "problem" with infinitely-extendable syntax is that everyone extends it in infinitely different ways. There's something to be said for imposing limits on certain means of expression to minimize code disparity. I see Ruby as a midpoint between Python and Lisp, and that's no bad thing. 
+Isn't the short answer, "Always use distinct open and close braces"? Infix syntax is often quite natural, just like prefix syntax is also often quite natural. Consistency vs. naturalness is a trade-off. The whole discussion of XML and s-expressions is a red herring. Has anyone written a nice list of do's and don'ts for syntax when writing your own language? A few simple rules could probably save a lot of future growing pains.
+&gt; but once we go down this road, ruby becomes little more than a dialect of LISP. No because lisp isn't just about s-expressions. OCaml can be made to accept a lisp-like syntax by means of camlp. Nobody would call OCaml call a dialect of lisp because of that. It would solve certain problems. That's all. 
+Man I updated that ages ago. http://github.com/aanand/ruby-do-notation/tree/master It's got a brand new funk, in the form of the left-arrow "operator".
+See also: http://ick.rubyforge.org/
+No.
+Not if you prefer [Ramaze](http://ramaze.net/). :)
+All the rails and merb folks need to bury the hatchet so we can get back to ruby vs python vs java.
+**2006** Ruby guy: Hah, python guys, I can't even figure out which web framework you expect me to use. Python guys: but we have several good ones! Pick the one that suits you best. Ruby guy: Here in the Ruby world, we have *one killer app* for everybody to use. Rails! Python should just pick one and go with it if they want to be successful. **2008** Ruby guys: Hey, we have several awesome frameworks! pick the one that suits your needs!
+If they keep stripping merb and offloading different parts to plug ins they will soon have ramaze.
+DHH
+Pfft, controllers. Who needs em. Go with [Sinatra](http://www.sinatrarb.com)! 
+Controllers are optional in Ramaze if you want to write an old-school PHP-style all-in-one-file thing. (And that's often just the right thing to do.)
+No, but competition provides an impetus to improvement. And now that there's more than one framework out there, ignoring the competition is like declaring a winner without looking at the advantages and disadvantages of your other choices.
+some older code I wrote: http://zem.novylen.net/ruby/titlecase.rb
+Cool cool, I like sinatra's dead simple restfulness. There's a place for all of us I think.
+&gt; There's a place for all of us I think. Oh, very much, and I think the direction for all not-Rails Ruby Web tools is to allow much interspecies breeding and intertwingling of parts. It's opinionated software where your opinion matters.
+FYI - this is off by default now: http://github.com/rails/rails/commit/888d5059bdb71e6d034d0c09d7e3b3e235fd8507 
+the name
+Squeak has [Dan H. H. Ingalls](http://en.wikipedia.org/wiki/Dan_Ingalls) if that helps.
+"go back" implies that it was something I used before ruby. The opposite is true.
+**2007** Python guy (Guido van Rossum): Let me look at all the Python frameworks and pick the "official" winner for the Python community. (The winner was django).
++10 for Ramaze. I've written apps in Rails, Merb, Sinatra, and Ramaze, and Ramaze by far scales my code in the nicest way possible, allowing me to start with a simple single file app with seamless growth into a large, multi-app application. During that whole process I'm using simple Ruby (e.g. modules, require, include etc.), and there's not much API to learn, not much magic, etc. Ruby is such a nice language, and sometimes I feel that a lot of people who come to it through rails get the impression that all the DSL'ing and magic are necessary, when in fact plain ruby does the job just as elegantly. Ramaze feels more like a platform to me than a framework. Using it is more like using a set of libraries. This is great, because I can build very different types of applications with it without ever having to fight the framework's constraints. (I will admit that it might be a bit overwhelming for beginners to make certain design choices for code layout, etc.) Also, there are no code jocks in the Ramaze community - just a bunch of friendly, helpful people. Really the best of the Ruby spirit.
+Needed to be said. Good roundup.
+quick quiz: name one actual effect of that "decision".
+No need to apologise to Pilgrim. You did the Gruber-style break down better than he often does. Could use a tiny bit more sarcasm and profanity.
+Great work! Here's an overview: - friendlier error messages - faster rendering - dynamic filters - HTML Escaping - Whitespace Munching - Sass Mixins 
+Good post; you've summed up what attracted me to Ramaze (and Nitro, though Nitro dev has now stalled). &gt; Also, there are no code jocks in the Ramaze community - just a bunch of friendly, helpful people. Oh but there are some really talented people working on Ramaze; they just don't get smug about stuff.
+Seems really cool. Where can i read more of Haml and how to use it?
+http://en.wikipedia.org/wiki/HAML
+Django's momentum/mindshare increased somewhat compared to Pylons and Turbogears for example. Of course it would be silly to argue that this was exclusively due to Guido's recommendation. Django was picking up momentum before that, even the Rails guys had the "snakes and rubies" joint conference way before that. I'm not a language flamer. :) I just added that data point to show that both communities, coming from opposite ends have been converging towards a similar middle ground. Bottom line: It's better to have a small selection of mature frameworks than having either Just One or a pile of immature/outdated ones. Happy Hacking!
+To clarify my "code jocks" comment, I meant exactly what you stated. The Ramaze community has very smart developers, but there's no obnoxious posturing and "look at me!" bs.
+&gt; lisp isn't just about s-expressions True, but most other things thats special of lisp already exists in Ruby. 
+Also [http://haml.hamptoncatlin.com](http://haml.hamptoncatlin.com).
+in reference to #20: block comments. I think most people avoid ruby's block commenting because they're SO UGLY. In a language known for having beautiful syntax, these block comments look like disfigured statements. Thats why i've always avoided them. They really need to come up with something else. 
+I found out about a pretty sweet Ruby on Rails trick the other day. You can define methods of has_many relationships with the following: class Book &lt; ActiveRecord::Base :has_many =&gt; :reviews do def average(variable) sum(variable) / count end end then you can call @book.reviews.average(:rating) Of course Rails already gives you that[average] option, but it serves well enough for explanatory purposes. 
+Indeed. Technically, the `=begin` and `=end` syntax is supposed to be for documentation only and thus, Ruby actually has no block comment syntax.
+I don't know if it's just a matter of me using Ruby enough so that it works or what, but I've gotten used to the line of `#` denoting a large block of comments. Part of that might be TextMate, both in terms of formatting and color-coding it distinctively, but also in terms of vertical highlighting, which makes those block comments relatively easy to create. As akdas mentioned, though, it is supposed to be a documentation convention, so I feel rather odd trying to shoehorn it into other uses. Not to mention `=begin` just feels a little funny as-is.
+A lot of those are a matter of taste. I find #7 dead ugly, for instance.
+He should be using REXML, not libxml. REXML comes with Ruby now. (I say this as the author of NQXML (http://nqxml.sourceforge.net/), the first pure-Ruby XML parser.) I tried leaving a comment on the blog, but the OpenID auth failed. I don't like OpenID.
+The Ruby XML situation is quite bad. Someone should port lxml to Ruby.
+My personal argument is that comments are documentation. At least, they are for some developers. I prefer to have code that's reasonably self explanatory but document processes.
+Why would he even post this to his blog? At least make a more broad and meaningful statement about the state of Ruby, XML, Ruby+XML, open-source projects, or maybe Ruby open-source projects.
+I should have been more specific; the "block" syntax is for API documentation that is to be processed with [RDoc](http://rdoc.sourceforge.net/).
+I tried to leave a comment on the site, but the version of Typo in use is braindead and tried to call downcase on something that wasn't a string. Oops.
+Err. Have you actually benchmarked rexml's speed and memory usage? It's absolutely, mind-bogglingly horrid. I use Hpricot for my XML parsing whenever possible. It doesn't do namespaces quite right yet, but it's very fast, and very kind to to the garbage collector.
+I live in Sweden so I can't. Would really like to go though.
+i would love to but i'm broke at the moment.
+Do you have an XML parsing library I should be trying in Ruby? This is part of a long conversation, which Redditers who wander in might have missed out on.
+I already tried REXML. It is dead to me, and not just for the performance reasons regularly cited. http://enfranchisedmind.com/blog/2008/03/24/rexml-dynamic-typing-lose/
+I'll be there.
+Yep, I'll be there.
+I think Reddit user joelmichael is going. Not sure though.
+You lucky bastard. First day is today right?
+May 29th is the first day.
+I went to the first two, but I'll miss this one.
+Hpricot's never let me down
+I'm going to be hanging around outside and at the Caboose conf. I can't spare the cash this year to _actually_ attend, but I would be most interested in coding, which you can do anywhere.
+I'll be there.
+I'll be there. Woot.
+On my way there right now :)
+It's not a combination of Java and Ruby. You might be confusing it with JRuby, which is Ruby running on the JVM. Or perhaps you were thinking of Grails, which is Ruby on Rails, written in Groovy (which runs on the JVM)?
+So you're trying to say ruby already is a dialect of lisp sans parentheses?
+I'll be there
+I'll be there
+Hpricot is where it's at.
+Much love for Rails' association proxies
+What does this have to do with Ruby? 
+i'll be there.
+yes
+I'll be here - in Norway :/
+you know why i don't use smalltalk? because i hate IDEs. the day i can reasonably program with a console and vim i will happily give smalltalk a serious shot. however, as long as i have to use that shit-bag of an interface, you can just forget about it.
+GNU Smalltalk is file based I believe.
+That's not necessarily a bad thing. More != better
+Good point. C++-- might be a pretty good language.
+Tell that to Ruby's syntax and semantics.
+GNU Smalltalk is best known for exactly what you're after.
+As a former Lisp developer (yes, I got paid to write Lisp code), I love Ruby and Python! They are so powerful, readable, and usable! It is odd to see all of the bickering about languages when 15 years ago there was very little to bicker about. We had C, ASM, maybe Lisp (sloooooow), COBOL - and now there is a wealth of really amazing languages.
+I'll be there but I still need a ticket. Anyone know of any for sale? 
+Ryan Bates is awesome.
+This sounds like it would be fun to play with. I do have one question for you guys though. This, andand, multi etc all deliver all kinds of elegance to ruby but do any of you use it day to day? Is there any effort to add these kinds of constructs to the "standard lexicon" to ruby or are they doomed to be seldom used gee whiz gems. 
+Yeah that email address one is pretty slick.
+I'd imagine a few of them would get enough following to find their way into the "standard toolbox". The specific instance of this I can think of is Symbol.to_proc. That one is in almost any project that could make use of it, even if it's a re-implementation/copy paste of it (rather than a gem). 
+Awesome. I've been looking forward to this.
+Ruby is a smalltalk with Algol syntax and built-in regular expressions, not a Lisp. Everything is an object, everything is done with objects, the object model is message passing and Ruby doesn't support multiple dispatch like CLOS. Adding silly parenthesis wouldn't make Ruby a lisp and I wouldn't want those silly parenthesis either. 
+I think you miss how wide the lisp definition realy is. CLOS is hardly a central part of lisp. Its just a object system tacked on to ONE lisp dialect (common lisp). There was actually another lisp object system before, flavours, that used message passing. So thats just as much lisp as clos. Id say the central points of lisp is that everything should be a firstclass object, that everything should be mutable at runtime and that every information should be available at any time. That and macros. And Ruby only lacks the macros.
+Great, I've migrated my production server and things are working wonderfully :)
+Executive summary of MagLev please? And also is it true that I need a Mac for MagLev? If so, I'm finally taking the plunge and buying a Pro. (hint, hint, I want a pro so just tell me I need it :D)
+Why is this a superior solution than using eventmachine? 
+FYI - this is back on http://github.com/rails/rails/commit/2ce1be3ac4823ccdfbe36ff5548a562aa5106d2e
+I can't tell if this is actually released, I don't see anything on their site, or on rubyforge about it. Any pointers?
+Petrilli's a smart dude, but it seems like "Smalltalk had it 20 years ago" is the new "Lisp had it 20 years ago" :)
+useful
+Python: &gt;&gt;&gt; s = "a10 b20 c25 d40 d50" &gt;&gt;&gt; dict((x[0], int(x[1:])) for x in s.split()) {'a': 10, 'c': 25, 'b': 20, 'd': 50}
+though I'm a ruby fanboy, I must say this is by far the cleanest solution.
+and flatten(n), which people have been asking for forever
+Javascript: h = {}; s = 'a10 b20 c25 d40 d50'; do { h[s.slice(0,1)] = parseInt(s.slice(1,3)); } while(s = s.slice(4)); or alternately: s = s.split(" "); while(x = s.shift()) { h[x.slice(0,1)] = parseInt(x.slice(1)); } I'm sure there's a better way to do it though. Probably recursively calling a function on the string. Off to try that now. PHP: $s = "a10 b20 c25 d40 d50"; $h = array(); eval(preg_replace('/([a-z])([0-9]+) ?/', '$h[\'$1\'] = $2; ', $s)); Which is sick and wrong and abusive, I know. Haskell (untried, proven correct, know it's terrible, etc): helper x y z = ([x], (read y) * 10 + $ read z) tmtowtdi x:y:z:s:ns = (helper x y z) : tmtowtdi ns tmtowtdi x:y:z = helper x y z : []
+The implementation of the method end_of_quarter was made of the wrong way, it moves until the last month of the quarter and then picks last day. The problem is that it only moves the month, but as the date is starting on May 31, it’s trying to create a new instance of the Date to June 31, which does not exist. The class Time not raise an exception, but returns the wrong date: July 31.
+Second paragraph: http://rubyurl.com/t75x
+Other way around. JSON is basically almost a subset of YAML.
+&gt;I just realized that all JSON is valid YAML He got the title backwards but managed to figure it out later on :)
+JSON is still the best for sockets. Whitespace from YAML and XML verboseness (XMPP) can add 20-40% bandwidth to your sockets apps. When it comes to sockets, white space and verboseness can be bad. YAML is a great format, but when he mentions people flip over white space it is usually a bad thing in socket land.
+I use it when I have nested parenthetical arguments and when I want to show expilicit behavior or associations. 
+I always use parentheses when defining methods. I tend to use parentheses when calling methods, except in "natural language" situations such as the class methods provided by ActiveRecord. Other exceptions are task/describe/it/&amp;c methods in rake, rspec, and similar.
+I don't use them when I don't have to.
+I avoid them when using methods in statement-like forms, which is basically when the return value is meaningless. So: # puts always returns nil; it's a statement-like method def foo(x) puts x end # by extension, foo is also a statement-like method, so: def bar(x) foo x end # now let's suppose compute_something returns something useful; # that is, I'm taking advantage of an implicit return here def baz(x) compute_something(x) end The line is actually kinda blurry, though. It's not like I actually think whether a certain method should be parenthesized or not, I just let the code flow out of my mind, possibly reformatting later to keep consistency with other fragments. Oh, and I always parenthesize the formal arguments list in method declarations when it's not empty.
+&gt; I always use parentheses when defining methods. Can you explain why? What do they add for you?
+&gt; Oh, and I always parenthesize the formal arguments list in method declarations when it's not empty. Does that make it more readable? (I find that they get in the way.)
+Usually I will skip them inside ERB templates, where they don't really add readability. I'll also skip them in tests if they make the code more readable. 
+I prefer to leave them out as much as possible, unless using them (when otherwise optional) coveys additional useful information. If I think that something might be puzzling to a reader (perhaps myself in the future) I might put them in. I get the sense that much paren use is because of habits acquired from previous prolonged use of C or Java; people find missing parens "odd", and rather than acclimate themselves they add them for the sake of familiarity. 
+&gt; I avoid them when using methods in statement-like forms, which is basically when the return value is meaningless. So: Oh, interesting. That's a nice way of conveying extra info about the method call. 
+Well, to me, yes, slightly so. But I don't think this is anything objective, just a matter of taste.
+this will revolutionize the internet.
+I really want this to work as a hosting platform. The potential in this is amazing. I don't have to pay for stupid ass RightScale or shit like that anymore.
+whoever created this is brilliant:) sign me up!
+I am in this camp also. I leave them out unless I really need them. 
+The examples link doesn't go anywhere.
+For whatever it's worth, I do the same. It makes the method names easier to scan for since it separates them from the arguments.
+Interesting. I scan for methods by looking for "def ". The method name comes right after it. :) Curiously, that argument *for* parens in that case is never used for parens for things like has_many or require. Maybe that's apples and oranges, but what I'm struck by is seemingly wild inconsistency in choices and justifications.
+Because I'm not ara.t.howard. Or: Because it's the dominant style. Or: I find the argument list much easier to parse when it's enclosed in some fashion. Especially when you bring in default values. This is probably the same thing atduskgreg is saying, only phrased in the opposite manner. Or: I like matching, wrapping characters. My editor likes matching, wrapping characters. I can use % to jump from one to the other. This makes editing pleasant. Or: Meaningless aesthetics that happen to appeal to me.
+I use them as long as they don't hamper readability. For example, I won't use parens inside ERB, or for declarative methods (aka "has_many"). I do use them in method declarations--but only if the method takes arguments (I think it reads better, and it's also the dominant style), or when using chained methods. class FooBar def foo(n) bar.baz(n) end def bar Bar.new(self) end end But nothing is necessarily set in stone :) If it looks ugly, I won't use them. 
+Personally I don't think rails goes far enough. I want a built in permissions system. I want a pre-built "sign up, I forgot my password" crap. I want built in skinning system. In other words I want something halfway to zope but one that's actually usable. With rails I can get some plug ins to get me most of the way there. With Merb I can't even use something off the shelf for those. 
+That's what plugins are for.
+@malcontent keep watching. If you think we're done, you ain't seen nothing yet.
+I think the Rails CMS [Radiant](http://www.radiantcms.org) could eventually be that solution. It's not quite there yet, but it has the potential. 
+So could mephisto if they stripped it down a little.
+And a admin CRUD back-end like Django or (ugh) Zope.
+Activescaffold does that pretty nicely. 
+upmodded for the gem's name
+I always use them for defining methods - it gives the code a more rigorous feel, even if illusory. For calling, I use them on a case by case basis depending on what looks-and-feels better in context. No real rule-of-thumb, except that if a method takes multiple arguments the first of which is a literal hash, I use the parens to prevent confusion with a block.
+Well, at least it's not a [ghetto](http://www.zedshaw.com/rants/rails_is_a_ghetto.html)!
+I guess I'll be the lone dissenter. I tend to use parentheses whenever mainly to avoid syntax errors.
+I'm frustrated that the author passes the array as an argument instead of adding the method to the Array class.
+Indeed, best name ev4r and the idea is pretty cool, too
+First failure of over-engineering: Using Rails/ActiveRecord. Seriously.
+I also don't use them for "has_many" type method calls. I don't have a set-in-stone rule, but if you were to deduce one by simply looking at my code, it would be: No-parens for macros, DSL related methods, and method calls with no args (i.e. I would never do "foo.bar()" ) Parens for everything else basically (including method definitions)
+Interesting. I think the Caboose schism is actually the best thing that could happen for RailsConf, as it keeps O'Reilly's feet to the fire in keeping the costs low and talks interesting. They've been offered space for the next RailsConf, and I'm not quite sure about this idea, as it could lead to a crowded, impersonal, diluted CabooseConf. Of course, this would be the first thought of the organizers, so I imagine it'll be addressed somehow. Anyway, if they don't figure it out, it's easy enough to do an impromptu CabooseConf equivalent (TrolleyConf?). That is, after all, the new spirit of open source, thanks to git: casual forking, of libraries as well as conferences.
+Forgive this ad hominem attack: Forgiving the attack. Sorry, I couldn't help myself with the title. I suppose it's one in a series... =) Thanks for the info though. Its something I hadn't considered doing before.
+I tend to put them on the outside of a method call ala lisp when they are needed. puts (foo.gsub /h/, 'H') Just because I can.
+As presented at BarCamp Orlando 08
+For historical purposes, the "Lisp in 29 lines of Ruby" presented at BarCampOrlando08 can be found in revision 1: http://github.com/larrytheliquid/cry/commit/e166c7942699bd811496c542e4cde30f1bb9485c Note this implementation is much more crude though =p
+worse is better
+While I was writing this, I found a couple of similar tools written as research projects for java. None of them seemed to be mainstream though, ie: no ide plugins etc.
+Now this look really interesting and helpful. Implications for refactoring seem awesome.
+best thing since sliced clusters
+Pool Party is the future of hosting applications. Nuff' Said.
+wow, talk about evening the playing field! Now I don't have to worry about my site hitting the front page of reddit and exploding!
+This is great 
+The biggest disappointment I had when I heard of EC2 was that this stuff wasn't built into the service :-/ So, thumbs down for Amazon for not providing this basic piece of functionality, and kudos to the developers of this gem, which are doing the right thing, IMO. 
+I like clouds... when they are serving up my application! Pool-party looks like a great way to harness EC2 without paying up the wazoo for expensive management services from third parties (you know who you are).
+&gt; Miss Railsconf There's an idea they can use to boost attendance...
+I thought working with EC2 was cutting edge, but this just pushes the limits!
+I actually wrote an Emacs function to essentially perform the next command from my script. Besides avoiding typos, it had the bonus effect of making me look like I could type awesomely fast with one hand. I added a small random delay between keypresses to make it look realistic. It also could be kept in version control. Would be awesome to see this technique used more often.
+Ah, thanks Lazyweb. Yes, I would like to scale my apps on EC2 without writing this all myself. Thank you very much.
+This should not be a plug in. This should be a part of rails itself.
+what, no --are-we-there-yet?
+I use them out of guilt - I thought the prevailing sentiment in the Ruby community was that more parens improved readability. (Must have been due to that one "parenthesis required in future version" warning from the interpreter.) This thread is showing me otherwise. When I feel really strongly that the parens make things worse, I leave them out.
+What would that do, just return true if the pizza had been delivered? Wouldn't you know that already?
+**Fuck** Adobe Flex. There, I've said it.
+yes, but the whole point of asking 'are we there yet?' is to be told 'no' (:
+Here is a patch for you: --- dominos.rb 2008-06-06 12:15:37.000000000 -0400 +++ arewethere.rb 2008-06-06 16:14:14.000000000 -0400 @@ -162,6 +162,12 @@ Dominos.help_message end + # for zem + if ARGV.include? "--are-we-there-yet" + puts "No." + exit 3 + end + if ARGV.include? "-i" ARGV.delete "-i" $-i = "true" # why does this have to be a string? 
+i love open source :D
+You're missing the point. JSON is a subset of YAML. Therefore your statement is meaningless - you're saying JSON is better than YAML for sockets, but since JSON *is* YAML, it makes no sense. Perhaps what you mean is the JSON-compatible form of YAML is better for sockets than the JSON-incompatible forms. Also, this article is quite old.
+JSON supports more encoding types and does not require white-space. It is a subset, I don't think I didn't say it wasy. I was just backing up the point that he said people freak about white space, and this happens usually when it comes to sockets (or other large, chatty transmissions). YAML HAS TO have white space. So it is a subset, but not exactly as JSON does not need the white space. I use JSON for lots of socket stuff and that is a big reason. Also, YAML is pretty simple but it has some bloat as well. JSON is so simple you can't add much to it.
+When I first read the title, I was like, "Finally, they made a new version of their ordering system! They pass so many ridiculously bloated XML files, passing back so many useless bits of information they never even use!" ...turns out those XML files are handy!
+You're contradicting yourself. If JSON is a subset of YAML (which it is), then all valid JSON is valid YAML. This means that your assertion that JSON does not require whitespace but YAML does is simply incorrect.
+Um no, all YAML is not valid JSON. If JSON is your socket format, any old YAML won't work. Since JSON is a subset but not a complete subset. Get your [read on](http://en.wikipedia.org/wiki/JSON): &gt;Both functionally and syntactically, JSON is effectively a subset of YAML. Notably, the most widespread YAML library also parses JSON[6]. **Strictly speaking, the syntax is not quite a perfect subset, primarily because YAML lacks native handling of some extended character sets allowed in JSON (e.g. unicode like UTF-32) and requires comma separators to be followed by a space.** The most distinguishing point of comparison is that YAML offers the following syntax enrichments which have no corresponding expression in JSON.... 
+You're still speaking backwards. I think you mean not all JSON is valid YAML. I will point out, however, that this article is over *3 years old*. YAML 1.2 is fully JSON-compliant. http://hackety.org/2008/05/23/yamlOneTwo.html
+How is this different from eventmachine? Does it work on windows? 
+I AGAIN was only saying that JSON is a better format for sockets because it doesn't have some of the extra bloat that YAML does. I like both formats, for sockets I like ones that can't be added to get too bulky. You are speaking backwards I am coming from the side of why some people prefer JSON, simply because it IS a subset of YAML it is much more simplified for chatty usage such as sockets. I was coming from another angle not backwards. You were saying use YAML because it is JSON, I am saying no use JSON for chatty because it is LESS THAN YAML. I dig both. I use smaller formats for chatty. Plus that is just a draft released VERY recently, today most YAML is a previous version WITH the whitespace.
+You still have absolutely no idea what you're talking about. Maybe this will help. You're basically saying "At halftime at a middle school soccer match, bring oranges, not fruit, because oranges are better for this situation", completely ignoring that oranges *are* fruit, and thus you are contradicting yourself.
+I think you have a problem. You are saying I should use YAML because it is a container of JSON? What exactly are you saying? I was ONLY saying that I like using JSON simply because it is a subset (i.e. less chance for bloat -- whitespace until recently). What are you saying? YAML is not JSON, JSON is part of YAML. Just because a parser can parse JSON as well as YAML does not mean there isn't extra stuff in it. Apparently you want me to say you are right but you are wrong with what I was even saying. JSON is part of YAML. YAML contains JSON, but has more stuff. I like JSON for sockets is ALL I was saying because it has LESS in it, less chance for bloat. Also, previously as most YAML parsers won't be updated to the spec made recently, whitespace which isn't needed in sockets as no formatting is really needed other than data as SMALL as possible. So now reply and say I am backwards again. To top it off have you even done sockets programming? Or used JSON or YAML? Wait don't answer that, kill me if I have to reply to you again.
+Wow, that's an absolutely terrible critique. He can't even figure out what he doesn't like.
+Alright, drawkbox, I'm sick and tired of this. You are a fucking moron. And I guarantee I have done more socket and YAML programming than you. But it's not about sockets and JSON vs YAML, it's about how you are so stupid you didn't even realize that you were contradicting yourself repeatedly. And you *still* don't even understand that I wasn't claiming "you should use YAML not JSON" but rather "you idiot stop contradicting yourself".
+Damn you are an idiot. You can't even answer a question. I understand I was taking the contradicting side because that is what I was trying to get across to your thick skull. This had NOTHING to do with YAML or JSON being the same, ALL I FUCKING SAID WAS THAT JSON IS SMALLER THAN YAML and has no previous need for whitespace, thus making it better for sockets to respond to the authors claim that people freak about whitespace when it can be expensive for chatty apps. I am sure you have done lots of fucking socket and format work with YAML and JSON, sure buddy, adios troll fucker! Yeh downvote because that makes you powerful. It was a discussion, I was taking the other side in that you didn't even understand what I was trying to say. You were just trying to flex some intellectualism that you dont' have. What you are saying is this: &gt;You still have absolutely no idea what you're talking about. Maybe this will help. &gt;You're basically saying "At halftime at a middle school soccer match, bring oranges, not fruit, because oranges are better for this situation", completely ignoring that oranges are fruit, and thus you are contradicting yourself. If oranges are the best for orange fucking juice (where orange juice is simple, thin, compact socket communication) then bringing a big fucking basket of fruit would be a bad idea if oranges were specifically asked for. YAML HAS MORE capabilities, and the chance for more bloat. Thus JSON is better in this situation and I FUCKING KNOW IT IS A SUBSET. Christ man where do you get off on this shit. Good day! I hope you feel better after you downmodded everything.
+Dear god you *STILLL* don't understand even basic english! "I understand I was taking the contradicting side because that is what I was trying to get across to your thick skull" is not even *close* to what I said. Good day to you, sir, I hope you finally find your true place in a home for the mentally handicapped.
+Then I have no idea what you are saying. You were saying I was "backwards" when I was taking the alternative viewpoint. So people that have a different perspective than you are incorrect and backwards? Well I doubt you have done much socket work if you want to throw in a format that can bloat for no apparent reason other than use the bigger implementation because JSON is a leaf of YAML, may as well use the larger format if it is there. YAML is a subset of the entire character sets of the world, why not put the whole reference through the socket and reimplement it, since it is a subset. Why bring the fucking army when you need one truck. JSON is the lesser of YAML, why add more complexity if not needed for simple object sending and recieving over sockets? You had a hard on for YAML and want the bigger truck when it is not needed. So what the fuck else were you saying? Eridius was asked to bring the oranges, he brought a fruit basket listening to showtunes. WTF. 
+You still amaze me with your grasp of language and rational thought. I did not say you were backwards for taking an "alternative viewpoint", I said you were backwards because you said "YAML is JSON". I even clarified in that I said you most likely intended to say "JSON is YAML". And you continue to misread everything else I say. I never expressed a desire to "add more complexity" or any of that nonsense. My entire point is that you have continually said that we should use JSON, not YAML, and that this statement is completely meaningless because JSON is a subset of YAML, so if you don't use YAML, then you can't use JSON. Using JSON *is* using YAML. You also completely missed the point of the fruit analogy. I will not be responding again.
+Whatever misinterpretation you have about what I said please understand, because JSON is a subset of YAML, JSON has less extra formatting possibilities. YAML contains JSON, but JSON != YAML (because it has more capablities). &gt;My entire point is that you have continually said that we should use JSON, not YAML, and that this statement is completely meaningless because JSON is a subset of YAML, so if you don't use YAML, then you can't use JSON. Using JSON is using YAML. The statement is not meaningless. YAML can be written like JSON but it can also be written like this: receipt: Oz-Ware Purchase Invoice date: 2007-08-06 customer: given: Dorothy family: Gale items: - part_no: A4786 descrip: Water Bucket (Filled) price: 1.47 quantity: 4 Where whitespace and non correct JSON formatting can be included. When you are doing sockets (especially directly to actionscript or javascript) using JSON directly translates to javascript/actionscript objects, and it needs to be compct because it is networking (no need for human readability). It is the most simple, compact format of the two (yes I know JSON is a subset of YAML). There is no need to use YAML because it is greater than and contains JSON, it also has extra capabilities that are not needed and might cause problems with bloat. All I was saying... Let's end this and have a nice Saturday and agree to disagree. Here is a snippet from wiki to help clarify my point: &gt;JSON syntax is nearly[3] a subset of YAML and most JSON documents can be parsed by a YAML parser.[4] This is because JSON's semantic structure is equivalent to the optional "inline-style" of writing YAML. While extended hierarchies can be written in inline-style like JSON, this is not a recommended YAML style except when it aids clarity. YAML has additional features lacking in JSON such as extensible data types, relational anchors, strings without quotation marks, and mapping types preserving key order.
+the reflog is your friend.
+here is my version: http://pastie.org/211042 same LOC, no external source of primes needed, completes in under 1 minute on my laptop. 
+You never cease to amaze me with how you misunderstand basic english.
+You never cease to amaze me with your putdowns and never addressing the fact that YAML is much larger and more chance for bloat via compact sockets and never addressing that. The best computer science is to only use what is necessary, not add in a bunch of extra stuff because you can.
+*Please read http://blog.jayfields.com/2007/12/ruby-expectation-gem.html along with this.* This implements a great set of testing features that a lot of programmers, myself included, implement in very small and not-very-cool form all the time. Go succinct testing! RSpec isn't horribly verbose but the author is right about the redundancy within.
+I am glad people are thinking of new and better ways to test but I would like to see what eiffel like contracts would be like in ruby. 
+I have a 17" widescreen laptop. I didn't buy it yesterday or anything. I have had it for more than a year now. Your web site wastes 3/4 of my screen. Your stylesheet puts your content on such a narrow column that your code examples don't fit. As an added bonus your stylesheet does not put the hated sideway scrollbar on it. For the love of god get a better layout. Yes I know I can get rid of your silly stylesheet with firefox but that doesn't mean you should make me do it. There is nothing wrong with layouts that resize themselves to fit the screen of the user. 
+People seem to be getting confused between [ActiveRecord](http://en.wikipedia.org/wiki/ActiveRecord_\(Rails\)) and [Active Record](http://en.wikipedia.org/wiki/Active_record_pattern). It's my understanding that some articles are critisizing the latter, whilst others are defending the former.
+The best "compute science" is to actually understand what you're talking about.
+&gt;"This framework I never use in a programming language I also never use is designed in a way that I don't like, so I'm going to raise a ruckus even though I'm never going to use it and there are other frameworks that meet my design standards better" just seems like a dumb thing to write a bitchy blog post about. Just go use one of those other frameworks and shut the fuck up already. He's a witch! Burn him!
+&gt;rake notes:todo This tip alone makes the article worth reading. You can compile a todo list from code comments -- simple, yet so useful.
+Don't downmod this article just because it's a PHP guy talking about Rails. He has some good points, even if the commenters are a little misguided sometimes.
+This only works if you have a single value you want to expect. When I write rspec tests, I usually want to test a whole sequence of calls or multiple result values.
+Coming from a rails developer, I thought it was because adopting rails and using a mac was the trendy thing to do.
+41concepts... Seriously? Couldn't come up with a meaningful name so you China'd it huh?
+35items 46communications 83indications
+Anyone care to comment on this? It seems to go against logic... To think I've been purposefully switching out double quotes for single quotes when there wasn't any substitutions and now I find out I was making the code slower, not faster.
+This isn't saying double quotes are faster than single quotes, it's saying string interpolation is faster than string appending.
+Factory *Girl*? WTF?
+Double quotes aren't faster - string interpolation is faster than string concatenation. This is fairly obvious when you think about what the operations are doing 3.times {|i| "foo " &lt;&lt; i.to_s } ==&gt; Seven strings ("foo ", "1", "2", "3", "foo 1", "foo 2", "foo 3"). 3.times { |i| "foo #{i}" } ==&gt; Four strings ("foo #{i}", "foo 1", "foo 2", "foo 3"). So, that means 3 fewer object creations. Saves CPU time and memory, and means that you don't invoke the GC as soon, which is where the vast majority of performance bottlenecks end up centering around.
+Ramaze does not get enough press. It certainly should be considered by those looking for a lighter alternative to rails.
+Ah your right. I didn't look at the description close enough. Thankfully I rarely use string concatenation. String interpolation is far more common.
+The speed improvements this project is showing are pretty stunning. http://ruby.macosforge.org/post/44/
+That's pretty rad actually... I wonder if the changes can make it into the core ruby project... 
+Unpossible!
+I don't think so since its specific to Mac OS X. They wouldn't bring that stuff into core.
+The great thing is that compiler macros make these kinda things possible :) Of course they have other issues :) 
+Looks great.
+Oops. I guess I shoulda posted this to the Rails subreddit.
+Hm, actually, I use a `cdgem` function to do something similar, but instead of getting to the docs, I just cd to `gem env gemdir`/gems/$1 (And in a "cd -" friendly way, to boot) Mine is at [my dotfiles page](http://dotfiles.org/~foca/.functions). And since we're at it, I recommend [dotfiles](http://dotfiles.org) to all interested in bash geekery ^^
+I like [RailsBrain](http://www.railsbrain.com) and [RubyBrain](http://www.rubybrain.com) myself. Sounds kinda similar.
+The web site is down.
+1) 1M page views/day maps to peak use of 25-50 pages/second. This is a relatively trivial amount of traffic. If you're deploying a web application and hoping to attract the sudden attention of digg/reddit/slashdot/blogosphere, this should be the target load you are ready to handle when you open to the public. 2) Scale is not the same concept as capacity. Scale describes the shape of your capacity curve as you add resources to support greater demand. 
+Interesting collection. I always wonder though if such specialized collections/directories can compete with something like del.icio.us or similar: http://del.icio.us/search/?fr=del_icio_us&amp;type=all&amp;p=ruby%20ebook The signal/noise ratio is better of course. It seems the poster doesn't care, he wins anyway: http://del.icio.us/syam1224 
+I initially thought it was a rails plugin for generating a community. That would probably be a little too high-level.
+Python 3 will support a similar syntax: &gt;&gt;&gt; first, *blah, last = [1,2,3,4,5] &gt;&gt;&gt; first 1 &gt;&gt;&gt; blah [2, 3, 4] &gt;&gt;&gt; last 5 Unfortunately, you can't just throw the middle away like you can in Ruby: &gt;&gt;&gt; first, *, last = [1,2,3,4,5] File "&lt;stdin&gt;", line 1 first, *, last = [1,2,3,4,5] ^ SyntaxError: invalid syntax Of course, you can always just be old fashioned: `first, last = xs[0], xs[-1]`
+To me, the "old fashioned" way is to use underscore; I assume `first, *_, last = [1,2,3,4]` would work?
+I love it when some guy I've never heard of before contributes something unexpectedly to the project. Rubinius has really helped me understand the lure of working on OSS.
+Yes, although that's not any different from assigning the middle part to `blah` except by the naming convention that `_` is stuff you're going to ignore.
+&gt; except by the naming convention that _ is stuff you're going to ignore. That's a big "except"; I was just pointing out that the most equivalent python syntax, in my head, uses the underscore.
+via http://weblog.raganwald.com/2008/06/not-going-dark.html
+I've been using halcyon for a while now and it's really quite impressive. Go the Halcyon!
+Fair enough. I almost used `_` in my example, but then I thought it would be misleading to Rubyites, since a truncated list _is_ created, which you might not be sure about as a non-native.
+I guess I'm just really not a rubyist yet :)
+Wow, the odds of this passing a PCI audit with this are about 0.0%. Key management is everything for managing sensitive data and encryption, and PCI DSS directly hits this on many points. Yet this was the entire discussion on that topic: "If someone gains access to your app, you’re still screwed." 
+I really like ruby and all, but sometimes I wonder what these guys would accomplish if they were trying to cure cancer or something.
+Ruby does have an amazing community. Full of really smart, generous, funny and inventive people.
+Not really useful, I prefer the simple solution I mentioned in my comment to the post.
+What is a microformat?
+redditacct, there is a link to the microformats site included in the introduction. They probably give one of the best and most authoritative explanations
+There are a lot of tips and tricks on the web as to how to do things better/faster/cooler with Ruby/Rails. But there's not enough talk about how to make sure your site is secure with Ruby/Rails. 
+_why is working on a library for that, but it only runs on Rubinius. And the documentation is in Tengwar.
+Please use the reply link at the bottom of the comment to which you're replying; it preserves the thread better by keeping related comments together.
+Because dammit, guys need things to look at. Oh, this is about programming isnt it. 
+http://rubama.com/ Tragedy. It's far snappier.
+Running a link checker on this site might be a good idea.
+It's awesome that the team is doing more official releases, but keep in mind that you can always pull the latest code from git. It's generally pretty stable since the Rubinius team runs CI on every commit.
+This looks exactly like Python's WSGI See [python example](http://www.python.org/dev/peps/pep-0333/#error-handling)
+Wake me up when MagLev comes out :). Rubinius is nice and all but it's slow.
+Java developers have learned from ruby and came out with groovy and grails both of which are excellent. Come to think of it so has everybody else. There is a rails equivalent in every language. 
+Comparing not-available-ware with not-done-ware. Right.
+Details, please.
+Actually I have seen some pretty terrible ruby inspired java code.
+Anyone knows if it runs Rails or Merb? 
+[Details](http://www.zedshaw.com/rants/the_big_ruby_vulnerabilities.html). FreeBSD has backported the relevent patches to p111; probably a good thing going by all the noise about the problems people are having.
+It's too bad that (IMO) the changes make DM less sensible. The only thing that (again, IMO) is good is the fact that you no longer have to inherit from DM::Base (you use an include statement). Ahh, well...
+I do believe it runs merb. 
+Thanks. It's quite a shame that the Ruby team didn't release any details, and that Zed Shaw had to point them out. If the Ruby team had released some information about the problems, the patches might have been in most distributor's repositories already. (Although they might have had their reasons to keep the information from the public, we'll see once it is released.)
+Or rather, stas@FreeBSD to the rescue ;)
+Bottom line in my mind is that it's Twitter with scalability issues, not RoR. Twitter could have scaled well if their devs learned to optimize their code properly.
+I hope people use this like training wheels, and move to the real commands when they can
+or even tried at all to avoid obvious bottlenecks in the early stages. It's one thing to not worry about it, it's another to use O(n^2) algorithms.
+&gt; Rails lack of performance makes you think about scaling earlier than you would on another platform. This is a GOOD thing. Some call it pre-optimizing, I call it capacity planning. This is what I don't like about the rails community, when something is obviously a problematic issue it becomes evangelised as a feature.
+I've made numerous professional rails apps and I've yet to make one where rails was the bottleneck. It's almost always the DB. When something is this obvious it's problematic that rails bashers ignore it.
+Rails performance is not in question here, the author admits as much in the article - however claiming that a lack of perfomance is a good thing is simply idiotic. How about having both performance and 'capacity planning'? Is that honestly worse than poor performance and 'capcity planning'?
+Posted on a Wordpress blog. Irony at its finest.
+Did you read the parent poster. Rightly or wrongly he is asserting the poor performance is not due to rails. 
+That's nice. backgroundrb can be a bitch to debug, at first.
+I am using the dev version (NetBeans IDE Dev (Build 20080508163045)) and it doesn't update itself to later versions. You guys ought to look into that. 
+I have been fooling around with groovy and I like it a lot. I am glad to see it's getting some press. 
+Err, you kind of missed the point.. All the article is saying is, yes, they "scaled ruby on rails to 1 million hits a month", but by basically by using RoR to generate content, then caching and serving the static HTML/CSS.. The exact same way you would cache a web-app written in.. anything - from bash-script to PHP to Django.. The load-balancer was only mentioned because they used a load-balancer, to split the cached-content-serving over multiple servers, which is necessary when you are serving hundreds of megabytes of data a second.. 
+Is it just me or is the video utterly awful? The content (interviews) is okay, but the editing is irritating (jump cuts for no reason, inconsistent titles/graphics/style), and the sound is **awful** - the speech is all in the left channel, there's some sound effects in the background, then the music gets twice as loud, and centered in the channels, then there's another noise in the right channel...
+I just sent to team... we should upgrade, and this would help.
+It's a good language. It's not Ruby, though, so people need to stop assessing it like it is: it's got different idioms and patterns, and that's OK. That's part of the reason I did both Ruby and Groovy -- I really wanted to illustrate different ways to do the same functionality. If you want to see the post get more press, share the post with some friends and get them to vote it up on Reddit. :)
+I avoided upgrading for the longest time. Turned out to be really easy. If the 2.0 scares you, don't worry its not THAT different. Almost every worked after the upgrade.
+When I was new to Ruby, this was one of those "Man, it's that easy?" moments for me.
+This is what I don't like about rails bashers, they don't understand the difference between performance and scalability. They problematically conflate the two and evangelize it as if they are the same.
+&gt;It's a good language. It's not Ruby, though, so people need to stop assessing it like it is: it's got different idioms and patterns, and that's OK. I do miss some ruby constructs when using groovy. Mostly it comes pretty natural for a ruby programmer. &gt;If you want to see the post get more press, share the post with some friends and get them to vote it up on Reddit. :) Reddit is probably not the right forum for it. Reddit is very hostile to all things ruby and java so groovy is like antimatter to reddit. 
+I'm not conflating the two and that is precisely the issue, one doesn't preclude the other. So why the need to spin poor performance as a feature - the author's statement logically concludes that an increase in Rails performance will be a bad thing! If that isn't an illogical outcome I don't know what is. Also, it's not rails bashing to raise legitimate criticism or concerns and it doesn't make for serious or healthy discussion to simply label someone as a rails basher if they do not toe the whatever evangelical line is being spun. 
+i called you a rails basher because it doesn't appear that you are trying to have a healthy discussion. If you were you'd address the fact that the DB is almost always the bottleneck in a web application. Asking for better performance without context is meaningless. If the speed of ruby is not the bottleneck in the vast majority of apps, and we have finite resources, then why should we spend those resources on making ruby faster for little benefit to most people? Also, there are efforts to improve performance, have you looked at jruby or rubinius? Jruby is already faster than mri ruby in many instances and it has native threading!
+Downmodded because of whore attention grabbing stars.
+Hey lazyweb, I decided ~2 years ago to use flexmock instead of mocha, and now it seems like there's a ton more momentum behind mocha than flexmock. Am I missing out on awesome stuff sticking to what I know?
+top spot. Thanks.
+A+++++++ Would downmod again!!!!
+The best part is in the comments, with the link to an interview with Ward Cunningham: http://www.artima.com/intv/simplest3.html &gt; if we were stuck more than a minute, I'd stop and say, "Kent, what's the simplest thing that could possibly work?" &gt; &gt; It was a question: "Given what we're trying to do now, what is the simplest thing that could possibly work?" In other words, let's focus on the goal. The goal right now is to make this routine do this thing. Let's not worry about what somebody reading the code tomorrow is going to think. Let's not worry about whether it's efficient. Let's not even worry about whether it will work. Let's just write the simplest thing that could possibly work.
+Awesome. I wasn't aware of this lib before, but it's sweet. Nice writeup.
+Agreed. It's actually a great project, but the stars are a bit too "mid 90's AOL user"...
+Despite the stars, I upmodded it because I think people should be aware of that great project. Don't get me wrong, I hate the stars too! Reddit should simply block those characters. 
+Heh, my company took us all to Vegas for an annual conference a few years ago, and since we were all there, we had to continue operations remotely (a very large European gambling company). Our bookies were sitting on the floor of hotel lobbies with their laptops setting odds in the open. 6 months earlier the DoJ had threatened to subpoena people like me ("security experts" aka sysadmins) so I was petrified of being arrested - I skipped the official festivities and laid low in casinos and strip clubs. Couldn't have worked out better!
+boringest list ever. if I ever need to do a ruby interview I’m basing my questions on things like [Raganwald’s blog](http://weblog.raganwald.com). Starting with call-by-name =o)
+this list is pretty accurate to the types of questions you may receive on any technical interview for a programming job (not just ruby). you should be answer all of them.
+damn it, I want his happyhacking keyboard.
+Problem with this is odds are there's a very high ratio of code needing to be refactored vs people willing to refactor. Maybe create a reward system of somekind...
+This just broke my lame scale.
+I hate this shit. All you have to do is mention something nerdy and somewhat obscure to mainstream culture and people will fanboy all over it, regardless of the quality of the actual content. Tell you what, foca. You post a webcomic that's *actually funny* and happens to mention Ruby, and I'll applaud you and sing your praises. But posting a shitty web comic *because* it mentions Ruby is just lame.
+Not having seen the actual ratios, I'm not so sure. For example, the Go Teaching Ladder, which is a similar service that does reviews on go games, usually has more reviewers than games to review.
+There's no profit motive there, I'd say. Whereas with code, if you can get reviewers to kill a bottleneck, even if it's for one of your own projects, it's going to be advantageous for you.
+Coming from a few years of php too, ruby *is* consistent. Until you spend 3 years toying (and working) with ruby, and you find out that all that consistency has lots of holes here and there. And then you see stuff like Array#take (ruby 1.9) which should have been an optional argument to #first, and so on, which are *exactly* like php with all the f*cked-up method definitions. Still, I take ruby over php any day of my life =)
+Hm, I think you might be right there.
+Every time I see abstract classes and weak interfaces in Ruby I feel sad. And this is supposed to illuminate what exactly? http://www.flickr.com/photos/nutrun/2624979159/
+PDF Ahoy!
+And haskell and scheme and io.
+ocaml is very similar in spirit to ruby, though. it's a good fit for a rubyist who wants to learn a statically typed, compiled language.
+What about erlang?
+And it's less of a brain-warp than Haskell or Scheme, because you can ease into it via its imperative/oo training wheels. The biggest downside from people used to Ruby is the fact that there isn't a huge standard library and a vast array of operators. So when you start out coding raw OCaml (particularly raw, imperative-esque OCaml), it's pretty wordy.
+Just FYI, this deck of slides was intended just for the people at the Ruby.MN event, and are drastically bare without the words attached to them. You can watch my blog at enfranchisedmind.com for the audio-attached version. I'm still waiting to hear if the recording took.
+Well, if you're trying to hit all the different paradigms, Mozart/Oz is a better choice, and it has the same concurrency primitives.
+The brain warp is the _reason_ you should learn other languages.
+Very well put. I'm grateful for the time ruby-core puts into maintaining the language, but I hope they read this article and take some notes. 
+0.9 broke our tests. it's not totally backward compatible. If you start having problems with dates, you might want to rollback to 0.5.6. We started seeing dates with year -0001. Took us a while to figure it out. 
+Correction: The road to hell is paved with filesystem-backed regex-expired caching.
+Are there swarms of people blindly upmodding stuff because it has 'Ruby' in the title or something? This isn't particularly impressive or innovative and shouldn't be anywhere near the front page.
+Er, did you notice this is the ruby subreddit? That’s certainly an interesting enough topic to ruby coders to be mentioned in a ruby community.
+If anyone is really interested in IRC w/ Ruby, you should definitely check out Autumn over at github. It's quite an amazing framework for IRC bots. http://github.com/RISCfuture/autumn/tree/master Also of interest is Why's blimlimb, the traveling IRC Bot troupe! It's rather hilarious and awesome at the same time, like most things Why. http://github.com/why/blimlimb/tree/master/blimlimb.rb
+Rolling a J. 
+That was great, but when I started watching the screencast I had this feeling like something was going to go wrong, because it's the same fellow who did the very amusing OmniFocus frustration screencasts: http://www.apeth.com/omnifocus/omnifocus.html I now have this funny concept of a screencast that's a combination of the two -- it's supposed to promote something but ends up finding frustrating features and harping on them.
+Nice quick summary of editors. I'm going to have to check out Geany.
+I use emacs with ECB. Takes a little bit to get it working out of the box, but works great across OS's. Btw, I highly recommend yegge's [javascript mode](http://steve-yegge.blogspot.com/2008/03/js2-mode-new-javascript-mode-for-emacs.html) 
+Emacs is not really an editor though. It's an operating system. That's why I love it.
+I use Kate for light Ruby editing and RadRails for larger Rails projects. __BTW:__ I liked the overall dynamic site design, but I _hate_ off white on black. I guess my eyes aren't what they used to be... 
+When I'm in Windows land I use [Komodo Edit](http://www.activestate.com/Products/komodo_ide/komodo_edit.mhtml?CMP=BAC-okedi0107) (works on other platforms too, but I prefer Vim on Linux). I'm pretty sure it's OSS these days too.
+Notepad++ for me on Windows. All of the Eclipse-based IDEs are just too friggin' huge to actually run.
+&gt; (Vim) but it sure is a pain in the butt to remember all of those key combinations. So use gvim, or evim. gvim has lots of menus, evim makes it modeless. Even without those, you should't overestimate how little you need to remember to get by.
+Umm, if they aren't using VI, can they really be called people?
+You have a poor, poor grasp on what is an operating system.
+I posted on the blog, but just wanted to say I am switching from netbeans to emacs for my ruby development. Netbeans is to slow and is crashing far to often. It stalls at the most random and annoying times. I used to be on emacs for everything and I still use it for any cmd line only editing, so I don't really have much of hte learning curve.
+Emacs is great for Ruby (and Rails). I use it on Linux and OS X, but I do use TextMate on OS X as well. I could never get into RadRails. It's not bad or anything, I think I'm just partial to editors. Although I do like NetBeans so maybe the editor just has to be *good*.
+[Oh, jeez.](http://i97.photobucket.com/albums/l240/robo848/not_this_shit_again.jpg)
+People who are intimidated by vim haven't used vimtutor. After about two days you'll be plugging along. The key to proficiency is muscle memory and working out the key sequences you need to really fly.
+Even when parsing XML files with arbitrary namespaces?
+Nice understatement: "[emacs] does appear to be powerful"
+Yes I have eyes, although it was on the bottom front page with pretty much no upmods, which was my point. I read as many Ruby articles as the next developer who codes in Python and Ruby, but given the article isn't particularly impressive nor well 'modded makes me wonder what the hell it was doing on the front page. Better?
+Its odd that there are in not a Unit Test Bundle target for iPhone. But then again, this doesn't seem to test linkage against the iPhone libraries, but AppKit and Cocoa, so why not just use otest and the SenTesting framework?
+`module Constants` is very, very bad style. What are those constants? EFlags does better with the name, but still, a module *for constants* IMO is bad style. Put the constants in the same module your code lives, or in a class, but please don't add noise to the code.
+I'm not a fan of vim, but if you're going to diss it, you should talk about how horrific its extension language is; complaining about "having to remember keys" is whiny and lame.
+So deepspace9 for specifying constraints on the communication is next?
+Maybe I could take it seriously without all the random anime screenshots.
+Probably because there isn't as many things in the /r/ruby so lesser-modded things still appear on the front page..
+The e Text Editor ( http://www.e-texteditor.com/ ) is pretty much TextMate on Windows (works with the textmate bundles, has a very similar UI etc) Another good editor is Sublime Text - http://www.sublimetext.com/ - the author of it seems to have done things very sensibly, and it's one of the few text editors that has splitscreen not done as an afterthought. Even things like consistently using search-toolbars instead of popups. I think it supports TextMate bundles now too (I played around with a fairly early beta version, I really need to play with the new demo..) Most of the time I just used Programmers Notepad on Windows - it's very basic, it has syntax highlighting, ~dumb auto-indentation and not much else that Notepad didn't. I think I may play with Sublime. On Linux I almost always use vim or gvim, and on OS X I use TextMate and sometimes vim (mostly when I am in a terminal and need to quickly edit something)
+Eh? You don't have to ever write extensions for vim, but you *have* to remember keystrokes to actually use the editor.. Complaining an editor is bad (or worse than another) is like complaining a computer is bad because it's very difficult to make CPUs.. Well, that analogy is a bit of a stretch, but you can achieve most things in vim via your .vimrc
+Yeah. What's next, test context? They should just move to rspec
+Ah yes; our good old friend the turing tarpit. All languages are the same, so why care about how pleasant they are to use?
+A little overkill, no?
+Hiring ruby and rails devs is highly competitive; this is a pretty gutsy move. I hope more consultancies follow that example - we'll all get more OSS code out of it :)
+anyone who just trusts a simple rcov printout deserves what he gets... jake scruggs, one of my co-workers came up with a simple plugin to get a better idea of your code coverage called metric_fu... again, it's output should not be taken as gospel
+DON'T.
+NetBeans is worthless to me as long as it continues to consume 700mb of RAM when I try to do anything with it. Great featureset, but I'll take a fast, simple text editor over a full-blown IDE that takes a minute and a half to start up, and has noticable UI lag when trying to perform any action.
+why not?
+McCain's wife loves this gem.
+That screenshot looks Discworld MUD-inspired.
+Maybe someone should tell him about [Inform 7](http://www.inform-fiction.org/I7/Inform%207.html).
+Wow, I has an idea! Quick, let me blog about it so I can take credit when somebody more industrious than me actually releases code.
+Code or it didn't happen.
+ This is a cool feature. In my opinion, it should be a mission to remove as many silly string snippets from activerecord queries. This helps with join tables and in my opinion there is really only one area left that needs help and that is with advanced comparisons. For instance if I want to get all the items after a certain date, I am forced to resort to: Articles.all(:conditions =&gt; [ ‘published_at &gt; ?’, some_date ]) This would look much better as: Articles.all(:conditions =&gt; { :published_at.gt =&gt; some_date }) Using the DataMapper operators. 
+An option would be nice. Don't install it if you don't want it. Just like they offer LAMP.
+Because Ruby fanboys are just like Apple fanboys. So fun to troll with. I have no actual reason.
+dumb.
+You know, that's a quite obvious expectation.
+Well, not necessarily. It could be bundled in with the "LAMP" option (or web-server option, I don't recall?)
+can tech bloggers please stop littering their posts with nonsense pictures! 
+The point isn't to make a text based RPG tool. The point is to document the process of creating a DSL in Ruby. I actually thought Part 1 was ready when I posted this, so I probably should have waited. It's going to be a neat series, though.
+It's actually seven, the author just had two "1"s for some reason.
+&gt; :login =&gt; "poop" my kind of author.
+Most optimistic phrase: "First annual".
+I can actually think of reasons that you might want to call to\_param and then to\_s... But not too many. Only if someone overrode to_param badly.
+I've been using Newrelic's RPM service and dev module. The service is pay-for now, but the dev module is free, and kicks massive amounts of ass.
+Neat idea, but I was rather disappointed to see how limited a subset of regexps it supports.
+There's actually a polymorphic_url([@parent, @model]) method in Rails 2.1 now. should reduce many steps in this guide...
+I think he's wrong on "Tight Coupling Too Easy". Mocks actually provide loose coupling, since you can test your controller without actually hitting models.
+With tip 6, he shows how pointless all these micro optimizations are. Going from merge to merge! saves him 0.002 ms. For a typical ruby project, that little a difference is insignificant.
+I like this. I kind of wish people would hook these up to a middle layer though, so it wouldn't just be ruby exclusive. Python could benefit from this too, as could other languages.
+Please don't use Ferret if you value your site's stability. Index corruption is a major, major problem with it still. I had to rip it out of a production site after a couple of months due to stupid amounts of site downtime due to Ferret falling apart. Instead, check out sphinx. I'm a fan of the thinking-sphinx plugin.
+I wonder, where did [raganwald](http://www.reddit.com/user/raganwald) go? He seems to have suddenly disappeared from Reddit 4 months ago. Did he have any reasons for doing this? Edit: He posted [this](http://weblog.raganwald.com/2008/04/are-we-building-universities-or.html) in his blog. In the comments he says he still follows what is being posted, but no longer participates in the discussion (that was back in April this year).
+Another developer did something like this for a project I worked on a few years ago (not using ferret, however). It was a cool "gee whiz!" feature that wowed the business guys but it was a huge drain on the server.
+I whole-heartedly agree on sphinx. It's awesome.
+w00t, finally a conference for which I don't have to pay a thousand dollars -in travel expenses- to get to =)
+&gt; To do so, I've whipped up a gem called def_marco. Polo.
+Love it. Would have fixed a problem I had with ultrasphinx and activerecord I had a few months ago.
+This is my blog post and I almost fell over laughing when I read that. Updating the post now, thanks :)
+The really useful part of lisp macros, that I wish ruby supported, was that they're executed at compile-time, not run-time. This means they literally write code.
+I just started using it and it's awesome. My only complaint is that you can't index computed attributes, but I solve that via creating unreliable cache fields where needed.
+Save 2 keystrokes in the REPL! ;-) Anyone disagree w/ the first comment that this reduces readability? I thought we Rubyists were moving away from obscure Perl-ish Perl-isms... let's not invent our own.
+Oops... def_macro :with do |args, body| eval args.first eval body end a = 'hi' with proc { b = 3; } do puts a * b end #=&gt; NameError: undefined local variable or method `a' for main:Object [trace...] If we can get a reference to the original context inside def_macro blocks I think this can be fixed.
+I think you missed his point; the danger with mocks is tight coupling between your specs and your implementation.
+**[I've seen things you people wouldn't believe.](http://www.youtube.com/watch?v=LuBToeQeeEU )**.
+That's five kinds of awesome. I want supervision trees next!
+Kind of neat, but I wish there were just a shared libgit that all languages could use instead of having to reimplement everything.
+[A shard is a piece of broken ceramic, glass, rock (or some other hard material) and is often sharp and dangerous. Sharding is the act of creating shards. Somehow, somewhere somebody decided that what they were doing was so cool that they had to make up a new term for what people have been doing for many many years. It is partitioning... sometimes that partitioning is proper federation. You don't need a cool name to effectively accomplish what's been around for a long time. Moreso, you don't need a name that implies you broke something irreparably.](http://lethargy.org/~jesus/archives/95-Partitioning-vs.-Federation-vs.-Sharding.html)
+How fucking cool is that!
+i worked on a project once that used EY. it was kind of gay. take a look at their prices -- they've got to be out of their fucking mind. if there were ever a host that is **not fucking worth it** this is the one. like say you get 3 slices. those dick heads will charge you $379/slice (plus a 'slice setup fee', excuse me? i'm laughing so i hard i pooed a little). that's $1100+/mo for them to **resell you a normal dedicated machine** that they install VMWare or UML or whatever gay ass shit on. if you set it up yourself you'd pay normal dedicated box prices. engine yard == biggest fucking scam on earth. dang, i wish i had thought of it. the only thing EY is good for is paying yehuda katz and the rubinius dude to write code. at least the money they're fucking you out of is going to some good (althought you're still getting fucked). i'd never use their services.
+who voted me down, some engineyard fucker? makes sense, i'd vote me down if i jewed money out of people like your company. look at this webpage: http://johncompanies.com/jc_dedicated.html look me in the eye and tell me that the machine running my 3 slices for $1100+/mo is packing more shit than JC's Plan 4 dedicated box. you can't. 
+no.
+They offer other things. It's not an either/or proposition.
+i will say their IRC support is outstanding. not worth the gazillion dollar markup, but outstanding.
+When you look at it from a different perspective it makes sense. My time is worth ~$100 an hour. It takes me, on average, a day to set up a server (not really, but I don't get a lot else done that day), and about a day a month fucking with the servers (minimum) to keep them running. So long as I'm directly running less than around 4 apps on (X) servers, they're well worth it.
+I can't comment on the value of their hosting, but I hope they stick around for forever because of how much they're giving back to the ruby community.
+my experience was that they did not take care of everything end to end. you make it sound like a project would be farming out it's system administration duties to EY. maybe that is the case for very cookie-cutter rails projects, but the one i worked on, we easily killed an entire pair-week just getting setup with them. the next project i worked on we had our own dedicated machines. i missed the ease of use of EY's mysql cloud, but overall we spent quite a lot less time to get up and running. YMMV. i've done a lot of systems work and i think their service is a fucking rip off. the rates would be **generous** for consultancy, but the thing is, you have to plan for this shit with the assumption of success. this site **will** be online in two years. and then the difference is between a lot of money in man power spent up front coupled with reasonable ongoing rates for the next 23 months, versus less manpower spent up front coupled with ASTRONOMICALLY RIDICULOUS ongoing rates. it's no contest for me. EY == highway robbery. but i agree with retardo a few parents up. EY's contribution to the community is priceless...which is why i am glad there are community members willing to pay for something so egregiously priced :D :D :D
+also [model view controller song](http://www.catonmat.net/blog/musical-geek-friday-model-view-controller-song/) :)
+I like to use netbeans but it could use some help. The debugging doesn't work all that great. For example once you hit your breakpoint the "continue" button doesn't really work. It goes a little bit and stops at some random point. It never seems to go all the way through your application. Netbeans could also use some lightening up. It's quite large and slow to start. Finally a lot of the features just take too long to launch. For example code completion or the file opener. Occasionally it just sits there churning trying to locate the file you are trying to open. It's good, perhaps marginally better than aptana but still could be made a lot nicer. One easy to implement feature they could add is the "maximum N files open" feature that eclipse has. 
+At the risk of contributing to the lack of quality discussion: "Getting actual fan mail is like sex and Christmas at the same time." You are doing it wrong. Good points, good read.
+I'd like a guide to see it working on mono
+I've use NB a fair bit and find it to be pretty good; I haven't noticed any speed issues that slow me down. When it comes to debugging, while the breakpoints and variable inspect features are nice, what I really want is a full IRB session at a breakpoint (as you would get using ruby-debug from the command line). It's much faster to not only inspect variables using IRB, but you can then run commands on the data and see what's happening. It's on the feature list for NB, but not sure when the team will get to it. On the overall, kudos to the team (and it's free). 
+maybe sex and christmas have antisynergy
+With Rails, that'd be LAMR. 'Nuff said.
+What a stupid article. 
+Programming is indeed art, to the extent that all art requires a mixture of structure and creativity, but it seems only programmers can appreciate this for what it is. Moreover, all art forms rest upon a bed of technology, whether it be painting, drawing, photography, or sculpture. I often wonder, what would Picasso have done if oil paints had not been invented in time for his life, and what about those people alive today just waiting for the right technologies to unleash their imagination? The "best" art, in the traditional sense, is often described as being revolutionary and groundbreaking.. when this happens, it seems to liberate other artists to build upon their work and take it in different directions. Programming is no different in this respect. I'd love to see an institution such as the Tate Modern devote an exhibition to programming, that could introduce people to the art and allow them to appreciate both beautiful code and the beautiful results it produces. However, I don't think they'd be bold enough to do it. Or perhaps I am just an egotistical geek who thinks he deserves more respect and admiration? I guess I am an artist after all!
+What about singing or dancing?
+Performance requires technology too, for the benefit of the audience at least; microphones, amplifiers, seating, etc. Maybe I'm clutching at straws, but it doesn't really affect my main argument.
+The "minutes" method on Fixnum is a bad idea. The method converts minutes to something, but there's no way of knowing what without digging in to the documentation. It could convert minutes to seconds, hours, days, or it could just return some new class that represents the same 5 but with units somehow attached. 5.minutes\_to\_seconds or 5.min\_to\_sec would be much more clear.
+Point very well taken. I thought about that honestly, and didn't want to change it because I didn't want to lose the English phrasing in the high-level functionality. I'd say 5.minutes is sexier in this case, but 5.min\_to_sec is indeed more self-documented.
+SOAP is some serious suckage alright. Especially if you are trying to interact with some SOAP services written in .NET. 
+&gt; Here are my own highlights: &gt; [...] &gt; use &amp;&amp; instead of and Fascinating. 
+&gt;I often wonder, what would Picasso have done if oil paints had not been invented in time for his life, Have you seen his charcoal works? Pretty amazing. 
+I think this was the highlight of the MountainWest RubyConf this year. There was plenty of other great stuff, though. All the talks are available here: http://mwrc2008.confreaks.com/
+this worked great!
+How about 5.minutes.to\_seconds instead? That way the "internal" representation (the thing that minutes returns) can be seconds or minutes or anything else, and you can also implement to\_days, to\_nanoseconds, etc.
+At least for me, the Ruby subreddit is getting unusable because of all the Ruby on Rails articles. In the spirit of the ruby-talk mailing list, can we split the two topics?
+In my experience More &gt; Less in the world of subreddits and fragmentation leads to stagnancy. RoR might be a special case. I just wouldn't go asking for less activity in the subreddit, in general. 
+Definitely agree with this. Too much Rails stuff here lately.
+Of course, since ActiveSupport defines it, we're now pretty much stuck with it.
+Disagree... I like the mix
+I disagree with this. Rails is Ruby, after all, so the Rails stuff is relevant. Also, I think this subreddit is a long way from having enough content to warrant splitting up the community at this point. 
+There's really no reason to use the standard library feed tools unless for some reason you can't use gems; they are really horrible for anything other than the trivial case. Do yourself a favour and switch to rfeedparser or feed-normalizer.
+I prefer the mix, personally. Ruby programmers who don't use Rails are probably in the minority.
+I was going to ask why we need it, with Hpricot around, but wow. That's impressive.
+Indeed. It will be interesting to see if upcoming ruby environments like maglev or rubinious can come close these speeds with hpricot.
+I'm surprised Hpricot is as slow as it is. You would think with the parser written in C (with ragel) it would be relatively fast.
+The link in my post indeed points to the MountainWest RubyConf. I found that presentation from Patrick Farley particularly interesting, and I wanted to write down what *I* thought were the best parts.
+Hpricot is designed for HTML, not XML. That means that it's not case-sensitive, doesn't support namespaces, and can't be put in strict mode. This is often what you want, but sometimes you just want to be hardcore about your XML.
+As has been said, ruby.reddit is not big enough to warrant the separation IMHO.
+"Server: Mongrel 1.1.1"
+Would be cool if I could get it working. Tried setting up some benchmarks against a response from the Amazon Associate API and couldn't even run a simple XPath query. http://pastie.org/235567 (Hpricot.XML(xml_data)/:Offers) works fine.
+Nice work. I used the form helper in test project yesterday, and the forms were sexy indeed. 
+Spam
+lukeredpath - That should work. Can you post the sample data online? Or better yet to: http://rubyforge.org/tracker/?atid=1971&amp;group_id=494&amp;func=browse Thanks - charlie
+oh come on now... you've replaced one friggen line that describes what it does with something magical and behind the scenes... maybe this is just a poor example...
+Most of the time I prefer using system because I see the command's output as it happens, which is useful for things like re-indexing with sphinx from a rake task; I don't want to wait until the entire thing is done before I find out I was using the wrong config file, for example.
+Installing merb is easy. It's the hours and hours of work to make anything worthwhile in it I want to see articles about.
+Rails had a negative image wrt. scalability before Twitter even existed. All Twitter has done is reinforce this image.
+According to Matz, the first reason why there are closures in Ruby is to respect the history of Lisp! 
+The rails folks themselves say it should in a comment at the top of the file.
+I agree, this is plain stupid. Now there are method alias chains and all kinds of meta programming to replace a standard ruby idiom? Way to bloat up things for no apparent reason!
+Nice code, but ruby doesn't support optimized tail-recursion so if a filter is given that returns false 99.99% of the time, you're going to hit a stack recursion limit. And it will also take a freaking long time, since calling lambdas is much more expensive than calling real functions. I haven't tested, but I really hope Ruby 1.9 makes this sort of thing more feasible.
+Maybe the performance is better (in the sense of having no importance) if the filter proc returns false for all successors of x.
+Rubinius is supposed to support tail-recursion, iirc. At least, a year ago Evan was wibbling about how easy it would be ;)
+The original article is can be found at [Apple Developer Center](http://developer.apple.com/tools/rubyonrails.html). It's easier to follow and a much more polished presentation. 
+I might be wrong, but don't their servers get accessed every time someone views the profile of someone that has that app installed? Because that would be way more than a max of 320 views a second.
+Zed Shaw is an annoying dweeb who needs to stfu. If he thinks that this little motormouth heavy metal image he's spun for himself actually makes him look cool, then he's living in a dreamworld.
+um this goes to nothing, what is this based on?
+I'm planning on working on this pretty soon too, I solved some problems I was having by searching through the source, and figured it would be a good idea to annotate the methods in question.
+n00bkit is great because it shows the full ruby source code. I need sometimes to override ActiveRecord methods and being able to browse through the code that quickly was great.
+Why not just include Metaid?
+Zed Shaw's talk was amazing. I'm hoping the notes will contain a clue of that. Or you could wait for infoq
+use.. fixtures :all instead of defining the fixtures individually You can put this line into test_helper.rb to DRY up your code some
+Simple and universal God monitoring setup.
+There are plenty of comments over here: http://www.reddit.com/info/6sncl/comments/ That one got voted down because it's in the 'programming' sub-reddit. I never knew that Ruby had nothing to do with programming....
+I'm not sure I would call this simple. You seem to have to write out most of the logic anyway, and it's essentially just a hash holding the phrases in different files (which you have to require yourself). So it's just a fluffed up version of what anyone doing localization would've done before this, with the illusion of being helpful. Wonderful. Don't get me wrong--I like Rails. But this doesn't seem like it actually accomplishes anything.
+I see your points, but I think there's more to what they've added to core than I've made obvious. You can read more here, if you're interested: http://www.artweb-design.de/2008/7/18/finally-ruby-on-rails-gets-internationalized and http://www.artweb-design.de/2008/7/18/the-ruby-on-rails-i18n-core-api To me, it seems that they're trying to provide a solid API for plugin developers to use when making localization solutions in the future. So, my example implementation is maybe not the best in terms of showing off the purpose of the changes - I'm just excited to start using it. 
+Hi Charlie - will throw something up on the Rubyforge tracker - my bad, should have done this when I was having the issue but was feeling particularly grumpy/inpatient that day.
+cmer - could you please email me (reddit user @reevoo.com) with the problem you were having. Thanks.
+I can't speak for flexmock but as you say, there is momentum behind mocha; we use it day in, day out at Reevoo and a lot of its improvements are driven by real issues we've faced - we certainly use it in anger, thats for sure. I believe Rails core are using Mocha too.
+I don't get it. And I thought I followed the Ruby programming scene...
+Well, looking into your second link, it appears to support pluralization and interpolation, which would be useful, although not difficult to do on your own. The methods used for populating and selecting a locale also still seem clunky. But you're right on it being added to the core helping. That's a small bit less work for the developer. A bit.
+Read anything Zed Shaw has ever written, he's pretty much the asshole to end all assholes.
+Why was zed even there?
+I think one of the ideas was the standardize the population and retrieval, so the stores could be abstracted out, too. If you imagine a plugin could add support for a memcache store, etc. 
+Only if you don't have a sense of humour and take things way too seriously. He's actually a really nice guy.
+Yeah, what the hell? I thought he was now a Python fanboi
+Its a Rails-ism. It started because you can't use ? in database field names, so the convention was to use is_ for boolean fields. Then, the Rails framework made a method of the same name with ? on the end which would return ruby boolean true/false based on the database field value.
+Probably because somebody paid him. Maybe that VP at a major investment firm job doesn't pay all that well. Oh I almost forgot. He is unemployed now isn't he?
+So he is lying? 
+No, he's just an asshole on the internet, like everyone else. His blog is sarcasm, parody, and completely over the top.
+&gt;No, he's just an asshole on the internet, like everyone else. Not like everybody else. Certainly not like Obie, Charles, Ola, Matz, _Why or anybody else in the ruby community.
+That's the sort of thing in Rails that bugged me.. Is having a question-mark on a function name really a big-enough benefit to merit dynamically changing function names, and to make people remember they need to append a question mark to the end? It wouldn't bother me quite so much, but it seems sometimes I can put ? on the end of functions and get boolean results, and other times it just gives an error because the command's author didn't decide to add it (more prevalent with the ! operator) ..but arguing this is rather like cycling uphill without a paddle or however the saying goes.
+Well I caught that that was Zed, but I don't know who that other guy is or why he has a [personal] beef with Zed.
+My head exploded. I'll come back to this after some coffee.
+retardo.not.coffee? #=&gt; true
+\# The intolerable loop of ugliness loop { d = (d &gt;&gt; 6 rescue Date.new) and def d.wilde\_fashion!; self &gt;&gt; -rand(1200) end; d.wilde\_fashion! } . Hmm, doesn't make any sense, but whatever. I like writing ruby haikus: . spring = %w{time came 'subprime'} lambda{|nced| for money in spring\ do;esnt=%{it feel shame? -the} end }
+Yoda never goes out of style.
+Is this available as a rendering engine for rails? In other words can I write my views with it?
+I would put it as (do || do_not); try.exists? == false
+Meh. If rubyforge wants to stay relevant they'll enable you to point to a github respository as a source. I've forked a few projects from rubyforge to github, for modification or for use as a "git submodule," and rubyforge requires a bunch of cruft in the project, compared to the much more elegant github. I'm not going to make my life more difficult, when this problem clearly should be handled elsewhere.
+Oh, yes, they're all saints who poop rainbow sherbet.
+def concat(*items) result = "" items.each do |item| result += item end result end Ahem. items.join
+in MySQL 5 there are these aggregate functions: 11.11.1. GROUP BY (Aggregate) Functions AVG() Return the average value of the argument BIT_AND() Return bitwise and BIT_OR() Return bitwise or BIT_XOR()(v4.1.1) Return bitwise xor COUNT(DISTINCT) Return the count of a number of different values COUNT() Return a count of the number of rows returned GROUP_CONCAT()(v4.1) Return a concatenated string MAX() Return the maximum value MIN() Return the minimum value STD() Return the population standard deviation STDDEV_POP()(v5.0.3) Return the population standard deviation STDDEV_SAMP()(v5.0.3) Return the sample standard deviation STDDEV() Return the population standard deviation SUM() Return the sum VAR_POP()(v5.0.3) Return the population standard variance VAR_SAMP()(v5.0.3) Return the sample variance VARIANCE()(v4.1) Return the population standard variance 
+What cruft does rubyforge require in a project? The gems I've released through rubyforge have no code that is rubyforge-specific.
+But you still have a try object. I'd rather go with: defined?(try) # =&gt; nil
+true, I've been thinking about it: (do or do_not); !defined(try) 
+JRuby is swell- I promise to write more about it soon.
+Few things: 1) Adding github as a gem source takes care of the dependency problem for you. It's not that rubygems automatically expects dependencies to be on the same server... it's that if you don't tell it about github, it doesn't know to look there. 2) Adding a dependency on mbleigh-mash in this case is bad form. You should really be adding a dependency on mash. (the mbleigh-mash gem can still be pulled into a ruby project with require 'mash'). 3) Personally I think github shouldn't require you to specify the name of a project if you're pulling from the project's original creator, and not a fork. Because yes, having to look up the person's github username is kind of annoying sometimes. 4) Telling a bunch of *ruby hackers* that they shouldn't change the way they do their coding seems a bit ironic to me. I'll let you think on that one.
+no.
+The only language's syntax you can wear on a t-shirt and still get chicks. And no that's not a good thing.
+Use a common rakefile for all your projects that can package and upload your gems to both rubyforge and git. We need to write the code for automated project creation and home page redirection.
+Suckage. 
+[e.g.](http://github.com/grempe/amazon-ec2/commit/5b3a2c0ac915a75ed147c52d49c9e80): * Manifest.txt * script/* * website/* * tasks/* * config/*
+ Prelude&gt; any (== "try") ["do", "do not"] False Prelude&gt; "try" `elem` ["do", "do not"] False I think I like the first way more, just because it's more readable to a non-Haskeller.
+In rails you can create your own templating engines with a bit of glue code. If you wanted variable interpolation though you'd have to decide on a syntax and then implement it. I suppose you could just wrap erb for that.
+Upmodded as funny
+If you wrap the yield in your layout with the redcloth code you should have it up and running within 5 seconds. But I haven't tested this, so you could run into problems... ;)
+Symbols would have been better... [:do, :do_not].include? :try #=&gt; false
+None of that needs to be in the gem. None of those are required by rubyforge.
+Not to mention the worst part about RubyForge: f'ing GForge... ugh. It has all of these features, but most projects use external services (like Google Groups, Lighthouse, some blog for official announcements, a completely separate site, etc). So every project has to say "Don't enter a bug here, because we never check it. Go to Lighthouse (or something I built myself) instead". Github got this right by loosely coupling these services together. 3 or 4 years ago GForge was acceptable because no one really knew how Ruby projects would be developed and there weren't enough Rubyists to make it worthwhile. But here we are in 2008. The Web is the highest profile use case for Ruby and our _de facto_ central repository is this PHP application that's poorly adapted to how people actually want to run their projects. If RubyForge is forgotten it's its own fault.
+Flash charts may look very pretty on screen, but when I try to print them to a PDF or drop them into a Keynote presentation, they're pretty much useless. I don't suppose they've got a graceful fallback solution?
+Of all the things you could pick on ruby for, syntax? Really?
+So we have Symbol#to_proc without any support code. Neat. Incidentally, I heard 1.8.7 has Symbol#to_proc built in.
+It wouldn't be a problem if Rubygems shipped with the github repo. It doesn't, and rubyforge is still the de facto gem server. 
+first time i saw this was from _why: http://redhanded.hobix.com/bits/gem_mirror_only.html
+Why?
+via: http://technically.us/code/x/dwemthy_s-arrayhhhhhlist-in-scally
+There's also a plugin: http://svn.viney.net.nz/things/rails/plugins/active_record_base_without_table/ didn't use on 2.1 yet, though
+As mentioned in [This Week in Ruby](http://antoniocangiano.com/2007/02/10/top-10-ruby-on-rails-performance-tips/), this article was copied without permission or attribution from [here](http://antoniocangiano.com/2007/02/10/top-10-ruby-on-rails-performance-tips/).
+ZOMG. Somebody actually coding rails without TextMate?!? Next thing you'll tell me that people code lisp without emacs!
+Site doesn't allow "non ajax comments". Too bad. I was wondering why the guy didn't use railsvim :Rserver and :Rlog to avoid keeping script/server in a terminal windows, and, say, autotest doom edition to be warned of new autotest errors thru dialog boxes, avoiding the need to keep the window always opened using screen real estate. The launch script with terminal tabs and automatic placement is a good idea.
+Nice, this was the "testing is overrated" talk.
+At least he admits that RTFM would have been a good idea.
+Meh - whats wrong with plain ol' Ruby objects? Why mangle ActiveRecord? People need to get out of the mindset of model == ActiveRecord because its just not true. Your model should encapsulate your domain logic and this may or may not be database-persisted entities. Stop thinking of "models" (plural) as individual classes and think of your model (singular) as a whole. I'm also baffled by the comment claiming that an "advantage" of the column macro over attr_* is that you can define types - why would I want to do this in Ruby? If it quacks etc... As for the other arguments as to why this is a good thing: "consistent application structure, because you’re using models to represent objects in your app" This sentence is backwards. Your classes form your overall [domain] model. I guess what he really means is: "consistent application structure, because you’re using *ActiveRecord* to represent objects in your app" ActiveRecord exists for one reason - to persist your entities to a database. It gives you a lot of other things "for free" like validations but you shoudn't have to subclass ActiveRecord to get this behaviour - this is more a weakness in ActiveRecord's design - the validation module should be loosely coupled and portable to plain Ruby objects. "routes available for free if you also define controllers dedicated for those models, resulting in RESTful application" If you're after Rails' RESTful routing/controller goodness for "pseudo-entities" or entities that represent a collection of other entities, the presenter pattern would probably make more sense here. I don't see why being RESTful requires ActiveRecord objects. "easier testing with unit tests" The mind boggles. Extra (unnecessary) dependencies and tight coupling makes testing easier??? "form building as easy as with normal models" Again, see the presenter pattern. The ActivePresenter library linked elsewhere on Ruby reddit looks like an elegant solution for this kind of thing.
+I thought that Rails: Up and Running is already out. I know I own one. Is this a second edition?
+Not so much a "gotcha" as a "Ruby is not Javaism"
+gst, you're amazing. Today you've beaten me to nearly everything I've tried to post.
+I think gst is a bot that automatically submits everything that shows up on a list of rss feeds.
+negative, he basically just uses reddit as [his bookmarks](http://www.reddit.com/comments/6oabz/ask_gst_where_do_you_get_all_the_wonderful_links/c04fh4g). I can hardly be angry at anyone else for submitting a lot :) Oh, and I often beat him to posting stories from blogs that he posts from. For example, I'm certain he's not feeding marginalrevolution.com into Economics, but that he also sometimes submits from it.
+It's a DSL, they've extended the core language, so in a sense it is a separate language from Ruby. Rails is Ruby but Ruby is not rails.
+here is my crawler. ---------------------------------------- require 'net/http' page = Net::HTTP.get(URI.parse(&lt;your url here&gt;)) ---------------------------------------- it doesn't matter which language you are using unless you have gigabit tube.
+Rails is a platform, and people treat it as such. That's not a problem.
+It starts to be a bit more important when you're pulling 20 files at a time with threads. 
+Can you clarify what you mean by "used as if its [sic] a programming language"?
+I agree to that, but most of the crawling purpose current stable ruby is ok. I can say this because I am currently doing that with multiple threads with rate control using mutexes(to avoid overwhelming target servers). Ruby 1.9 looks promising but most of the current gems are not compatible with it.
+It's not just a simple "for vs. against", or even "startup vs. corporate". Reg spoke on this topic at RubyFringe, and his concern was that monkeypatching in downstream libraries (gems) is unsustainable since it would pollute everything that they are included in. His solution btw, was to scope monkey patches, so they only affect certain classes or blocks of code. See an example implementation here: http://rewrite.rubyforge.org/
+Rails doesn't really extend Ruby as a language. Yes, it monkey-patches some functionality into some core classes but its a framework pure and simple. I wouldn't really call it a DSL either.
+Perhaps the original poster would care to elaborate.
+I think symbol to proc is a pretty major addition to the language. It's not a new BIF or anything, but it sure does change how you specify block arguments.
+I hate this post and this poster so much right now. 
+Just to note, the while {} loop mentioned in this article is unnecessary. Ruby has a method called simply loop which takes a block and executes it forever, as in loop { puts "This is going to execute forever" }
+Interesting survey. Looking forward to the results.
+I know that's a religious arguments, but if you use hard tabs then you allow anyone to view your code to their preference rather than yours. So if I like two spaces I can set my editor to interpret tabs as two spaces instead of five.
+Two spaces is correct in the Ruby community, though you could probably get away with using tabs since all ruby editors render tabs as two spaces. But anything else is varying sharply from convention and should be the kind of thing you can only get away with if you're _why the lucky stiff.
+Yeah, upgrading to Ruby 1.9 is not going to help at all speed-wise since crawlers are I/O bound.
+class Employee belongs_to :group has_many :managers Not a DSL?
+Pretty cool. I've been toying with the idea of rolling my own API for mint.com, maybe this will come in handy. Probably not, though. I think hpricot is where I'm gonna have to head.
+Heretic!
+Good simple rundown. Thanks.
+This article's been nicked in total from this InfoQ article: http://www.infoq.com/articles/ruby-open-classes-monkeypatching Only thing they didn't copy is the author's name.
+That's assuming it's being edited by people who know what they're doing. Sadly you often get people mixing tabs and spaces, and using tabs for alignment other than just setting the indent level, at which point changing the tabstop just doesn't work any more. People really should have tabs highlighted so it's obvious that they're being used correctly (however you think that is).
+haha. rails. ha
+Yep - mistake on my part. That's actually what I used. A while version would be: while true { puts "going on forever" } But loop {} is simpler and more appropriate for an ongoing loop. (Article edited with this.)
+Rubyfans.net is a spamblog - the linked article is actually a mailing list post by Charles Nutter, see here: http://www.ruby-forum.com/topic/160199
+Yes, yes you are. The *only one*.
+someone needs to impose themselves as the standard. proper documentation needs to be accessible from one place predictable by the fact of getting ruby or rails. i appreciate the competition as much as anyone, but as a consumer, i need definition. 
+one (potential) disadvantage to this is that it appears the object returned by `#collect`, `#sort`, etc. is a `Array` and no longer a linked list.
+Nice shirt!
+One that I get to go to with all expenses paid.
+Duh? This fails: puts foo def foo 1 end And this does not: def foo 1 end puts foo What's you're point?
+It surprised me that the example in the post didn't work, but things like this work: def h n f( g(n) ) end def f n n * 4 end def g n n / 2 end puts f( g(6) ) puts h(6) When I define h, neither f or g are defined.
+Having worked on the odeo.com podcast feed crawler, i can say go with python. I'm a Ruby guy, i code in ruby every day, am writing a book about rails, etc... But i feel like you should use the right tool for the job. And for crawlers, that's python. Seriously folks, ActiveRecord isn't thread safe. Daemons fail. The feed parsers, while getting better, are really nowhere as good as python. And there is nothing like twisted in ruby. 
+You aren't using your methods until the end. If def f n was after your puts statements they'd fail. 
+I wish somebody would either write an article or do a screencast for more advanced stuff. Stuff like how to receive XML documents with batches, how to receive JSON documents, how to do column name transformations in and out etc. 
+Be sure to read the first comment on the post to get a better idea what's going on in these benchmarks.
+See also: http://github.com/jchris/couchrest/tree/master
+In my mind things like regular expressions and SQL are DSLs - languages designed for a very specific domain. The above example isn't a specific language, its just plain old Ruby written in a declarative manner.
+I think of Symbol#to_proc as more of an increasingly common idiom (albeit one that requires some core extension to work) and I'm pretty sure it's been around since before Rails.
+True, but our alphabet is shared with other natural languages, and that doesn't make English any less of a language.
+I expect he's talking about people saying things like "I'm a Rails programmer", rather than "I'm a Ruby programmer". It's kind of a shibboleth, if you like; "Rails programmers" basically identify themselves as being so shallow that, not only do they not do anything other than web development, but that they're married to a single way of doing said development, perhaps barely even aware that other frameworks exist, never mind the fancy general purpose programming language that underpins it all. Perhaps unfair to some, but certainly not without it's elements of truth.
+I think it's unfair to make any kind of assumptions just because somebody says "I'm a Rails programmer". I prefer to simply describe myself as a programmer but "Rails programmer" would be a fairly accurate description of my day job, for the most part even though I do plenty of general-purpose Ruby programming and know various other languages. I'm also not convinced that is what the original poster meant though; if the OP is going to post such a vague, loaded question, they should at least bother to explain exactly what their issue is, which is why I downmodded it.
+He left out marriage and sex. catch(:pussy) do (raise :cock) and (throw :cum) end raise hell i do throw :pussy raise children end (of course in the lisp version you can say whatever you want) "of course in the ruby version you can say whatever you want" "but the python version is shorter!" 
+When would it be available in Canada?
+This should really be called 'How *not* to use Google for Authentication'. The correct way to do it is [here](http://code.google.com/apis/accounts/docs/AuthForWebApps.html). 
+"Perl users and 'Java refugees'" I didn't know that Java had become a tyrannical, war-torn third-world country. I guess I should read the news more often.
+Funny how those things creep up on you, eh? 
+omg, pewter pr0n!
+Nonstandard syntax is magic. For example, --with-version=&lt;version&gt; wouldn't be magic. What's really magic is if you try to create a project called \_2.0.2_.
+Can anybody list the benefits of JRuby? Being able to script a J2EE/J2SE system using Ruby? Anything else? What is the cost of using it: How big JAR file do I need to drop in or, how much memory does it consume?
+This whole project just makes me happy. Gergory Brown jokes about the mendicant thing. People say "hey that's a good idea", support him and he delivers. That rocks! Ruby community ++ :)
+It's supposedly slightly faster. The main benefit is that you get native threading without the instability of 1.9.
+* It's faster. * You can use Java as your FFI rather than C. Java is nicer to code in than C, and it's still fast. * Deployment is nice too, if you have a large Java environment, it's easy deploy a Rails .war file. 
+It makes me happy to see comments like this. :) -gregory
+MRI 1.9 (ie. YARV) is still faster, last I heard, but JRuby is catching up, and it's faster than 1.8.7. Also, you have direct access to All of Java. I'm no java guy, but as far as I can tell, you could use Ruby to write Java pretty effectively. require 'java' frame = javax.swing.JFrame.new("Window") label = javax.swing.JLabel.new("Hello") frame.getContentPane.add(label) frame.setDefaultCloseOperation(javax.swing.JFrame::EXIT_ON_CLOSE) frame.pack frame.setVisible(true) http://wiki.jruby.org/wiki/Calling_Java_from_JRuby 
+Direct translation of Java isn't the cool part though, check out the Monkeybars project to write Swing GUIs. http://monkeybars.rubyforge.org/
+Well that's it, I'm sold. Goodbye, MRI :P
+Biggest tip in this article is the use of New Relic RPM; I've just downloaded the developer version to run against one of our apps and it's clear presentation and breakdown has already alerted us to a performance issue with one of our SQL queries. I'd previous tried FiveRuns Tuneup which wasn't bad but RPM has impressed me more. I'd love to have a play with the production version.
+Oh yeah, and the main disadvantage (apart from the poorly-conceived native Java APIs) is that the startup time is quite significant. While this isn't relevant in production, it can go a long way towards killing your TDD momentum. Where it used to take less than a second to run a single test, now you have to wait five seconds. This makes it very difficult to maintain "flow" while doing test-driven development.
+i would just like to say. Ha Ha.
+Emacs is like crack. You can never quit. I've almost been won over by Textmate on a few occasions, though. If there was a Linux version, I'd be all over it like Oprah on a bundt cake.
+I do hear really good things about textmate. It seems most Ruby devs in Boulder are on textmate.
+As far as I can see, these should have no effect on 99.9% of Ruby or rails applications.
+Honestly, textmate is nice, but emacs just does so much more and is more scriptable (to me at least).
+i used textmate for a while then switched back to emacs. The learning curve on emacs sucks, bu if you're already proficient in emacs I don't see any reason to switch to textmate. 
+It's definitely obvious that Textmate is less powerful, but it makes the power it does have _extremely_ easy to use. The bundle editor is my best friend. That said, I know I really wouldn't be happy if I actually gave up emacs for textmate.
+I'm sure its great, but VoIP is a much smaller field than websites are, so no, it's not the next killer app.
+Actually it's still not out of beta. There hasn't been a stable release for a long time and you are supposed to run the trunk. Oh and there is virtually no documentation for it.
+I'm not sure I understood that, can you explain it just one more time.
+Woo I was there as well! definitely was great!
+Quite basic, might be interesting only if you haven't heard about map or reduce before.
+Where is the other promised shootout? All of a sudden there is no mention of it anymore.
+What "other promised shootout"?
+One thing to note is to be aware of law of demeter. WHen using named scope, it's wise to wrap it in a local class method
+The guy who does "this week in ruby" has been promising one for a long time. Just search the ruby reddit.
+Map is reduce, but reduce is not map.
+The lambda shorthand is pretty slick, and I'm glad Symbol#to_proc has made it into MRI. Can anyone explain the encoding thing a little better? Does ruby not care which of the three formats you use, or what?
+The problem about a killer app for a programming language is that it actually has to be a framework or library of some sort that draws crowds of otherwise uninterested programmers in, or ideally, draws crowds of uninterested people to programming. Rails filled both these roles, as a web development framework. The next 'killer app' is going to have to do the same thing. The article isn't loading, so I can't actually comment on the content :P
+&gt; But what if mapping web URLs onto controller objects is a case of object-oriented mentality taken too far? When I read this, I was thinking "obviously he hasn't tried sinatra!" My smug sense of self-satisfaction evaporated when I saw: &gt;Sinatra unifies routes and controllers. Let's try that again:
+This is a great point. I've always felt that my routes file was pretty awkward. The REST should be built into the controllers. Hopefully we see this by default in Rails 2.3 or Rails 3 (if there is no 2.3 and seems too late for 2.2).
+Flippin' Sweet.
+So how would you deal with nested routes, before, after and around filters, and such? 
+Sinatra has support for before filters, nested routes are just done (currently... stay tuned for the redux release) by defining another url. get '/resource' get '/resource/:id/subresource' And so on....
+BUT WHY?
+This book is very odd indeed. It is a brand new release (2008) and it targets rails 1.2.3. And it does a poor job at that. The source code is riddled with errors, odd non-idiomatic Ruby like CamelCase variables, tons of scaffold generated code. Some of the Packt books are pretty good. The book on JQuery and Django are quite good. I don't know what happened with this title. 
+So let's say I have client and employees. In rails I would write a controller for clients and employees and specify a nested route. This gives me /clients /empoyees /clients/:id/employees etc.. In sinatra (or ramaze) do I have to write a handler for each mapping? 
+Yes, currently, you would have to write a handler for each. Although, if they are the same logic, it's easy to do: ['/employees', '/clients/:id/employees'].each do |route| get route do .... end end
+Thanks. Being able to add multiple routes like that makes it much better. 
+looks like somebody needs captcha or something.
+I think it's not quite the hotspot it used to be.
+I will avoid the obvious joke that "most ruby code __is__ garbage". 
+Wiki vandalism/spam, quite common those times unfortunately.
+Call the [accessor](http://www.ruby-doc.org/docs/UsersGuide/rg/accessors.html) police!
+isn't that the very same example available from yahoo? Also libxml2 will be way faster.
+umm.. couldnt find a ready to use example on yahoo. thanks for the pointer about libxml2 will look into it. This is just a small part of a script im making for myself...
+Aptana's a feature-packed IDE, but it's also bloated as hell due to Eclipse, and makes actually using the IDE more painful than any pain saved from the development process.
+and the Array#join police :)
+Upmodded because the article had links to Enumerable#each\_slice and #each\_cons, which I've never used before, but seem awesome and useful.
+Ah, good catch! Even better, use [Enumerable#inject](http://www.ruby-doc.org/core-1.8.6/classes/Enumerable.html#M003160). In this case, the author could replace lines 30-35 with: data = XmlSimple.xml_in(xml_data) return data['Result'].inject(''){|a,x| a + x + ', '}
+This article is a retread of [this](http://www.ibm.com/developerworks/opensource/library/os-rubyeclipse/?S_TACT=105AGX44&amp;S_CMP=ART) much more detailed IBM DeveloperWorks Ruby on Eclipse tutorial.
+join avoids the problem of an extraneous ", " after the last element.
+Oh, so now we're IMPROVING his code? I thought we were just rewriting it. :-D.
+touche (:
+I agree with this authors take on it... letting people use the normal gem server... So at least both, if you want to publish on RubyGems http://judofyr.net/posts/dont-forget-about-rubyforge.html
+I agree. Ideally GitHub would have submitted a patch to rubygems so that if I type in: gem install somepackage it would say "there are currently 6 matching forks at gitHub, would you like to see them?" and then it would list them and I could choose which one to install. Subsequent updates would then pull from the same one. This would allow the unique culture of each project to work, while still allowing easy command line installation. The someone-package convention is, I think, fairly annoying and so far I've resisted installing those gems, not to mention the fact that gem update takes 100 times as long with GitHub added as a source. So yeah, the short answer is just use both for now.
+I found APIdock this morning via Google, not knowing it had just launched, and found it pretty useful and cool - I actually stayed around and played with the site even though it wasn't what I was looking for.....if thats not a sign the site is a winner, I dont know what is! :)
+You use a cow catcher?
+So I'm curious... are any redditors using this? What sort of things are you buildling?
+I tried to mess around with it, but it won't run on my system (Mac OS 10.4). I haven't dedicated the time to futz with it :/
+I made a couple of cheesy front ends to some command line scripts. It think it's great for that.
+crossword puzzle editor
+I subscribe to a dozen blog feeds and wander around GitHub from time to time. Not only keeps me up but improves some of my basics and concept understanding. Eventually I'll be an expert! I hope.
+It's really simple once you get a hang of it: * `instance_of?`: returns `true` if the object is an instance of the class, but not if it's an instance of a subclass, etc. * `kind_of?`: like `instance_of?`, but it *does* return `true` even if the object is an instance of the subclass. Same as `is_a?`. * `===`: a method used by the `case` expression. For `Class`, this method is the same as `is_a?` so you can do the following: case obj # test obj's type when Fixnum then treat_as_num(obj) when String then treat_as_string(obj) end
+What's wrong with syslog. It's asyncronous, doesn't lock up your code, there are dozens of applications which are designed to comb through it and send you emails, you can consolidate your logs to a central server and it's built into the operating system so you it's one less process you need to worry about. 
+I haven't used rails.vim, but I have been very impressed by MacVim. I had been using gvim up until a few weeks ago. MacVim just fits into OS X so much nicer than gvim does. The tabs are nicer (an can rearrange!), transparency is nice eye candy. Now I don't feel bad when sitting next to a guy using TextMate
+Why do people insist on using REXML? It's insanely slow. Use Hpricot (fairly fast, very easy to use) or libxml (very fast, not as easy as Hpricot) instead. http://railstips.org/2008/8/12/parsing-xml-with-ruby has some good numbers. By those numbers REXML is 4x slower than Hpricot, and 24x slower than libxml-ruby. It's beyond slow. It's a major bottleneck that shouldn't have a place in any application.
+1.9 has this! :)
+Do you have suggestions for simple Rails projects on github where reputed authors do it "the Rails way"? I'd like to follow a few projects in there, in order to improve Rails-wise.
+So I mostly follow gems. I do follow [Insoshi](http://github.com/insoshi/insoshi) and then Rails itself of course. And things like restful-authentication, will_paginate, Capistrano, attachment_fu. All tend to have good use of Ruby but I don't recall too many good Rails Projects on github. [Open Source Rails](http://opensourcerails.com/) has a lot of projects with decent source to look through. Hope that helps.
+"not to mention the fact that gem update takes 100 times as long with GitHub added as a source." I thought this was fixed?
+You can wear clothes on the train?
+http://instantrimshot.com
+It does help, thanks.
+McAnally *tehe*
+Hmm, not sure. I had it set up for a few weeks and then finally removed it b/c of the delay. I will try re-adding and see if it's fixed.
+I thought this was an excellent, informative presentation covering many aspects of setting up and running a consultancy - pricing, marketing etc. None of it really Ruby specific. Well worth 30 mins of your time ! 
+How did I miss 96 of those 101 reasons? I only saw five.
+101.times { puts "But PostgreSQL is just too haaaaaaard!\n" }
+decimal 5 = binary 101
+The list is still in beta.
+I am pretty sure rails does not take advantage of any of the async features of postgres. The pgsql guys should lend a hand and rewrite the postgres adapter and then they can crow about how cool it is. Until that time it's a theoretical advantage.
+Okay . . . now I feel dumb.
+Well I can tell you why I'd choose PostgreSQL over MySQL: PostgreSQL actually outperforms MySQL for all but the smallest databases. Oh and they certainly have a more mature implementation of Stored Procedures, Triggers and so on, not that you need these for Rails, but they still might come in handy.
+I want to cheat on ERB with something like markaby. Any suggestions? Anybody use malline? Is it any good? Is it fast?
+Link is broken...
+Being able to use multiple indexes in a query isn't really much of an advantage, unless you're forced to skimp on disk space, or unless you're building a general purpose reporting engine. Applying a single index on multiple columns is usually more efficient than applying several indexes in the same query.
+I'm a definite PostgreSQL fan. No need to convince me. I just asked a stupid question because I didn't expect the guy who wrote the original Weblog post to use binary in the title.
+It's not even true, anyway; MySQL 5 added support for [index merging](http://dev.mysql.com/doc/refman/5.0/en/index-merge-optimization.html).
+david's kind of a douche.
+Maybe, but I don't see why you'd get that impression from that interview. Seemed pretty mellow.
+I think the two general responses to this are "Duh" and "MySQL works just fine with Rails, thank you very much." Put me in the "Duh" camp. Been using Rails on Postgres for three years now and it's a beauty. I hate picking up projects that are tied to MySQL.
+I suppose you're talking about GPL? What do you mean by open source friendly webhost? You could use about any Rails host to host your app. If it's for sharing the code etc. the answer is GitHub. And may I recommend that you use MIT license instead of GPL. GPL sucks and is long and shady etc.
+Why do you need a specific host for GNU web-applications?
+I wish more conference organizers would use confreaks. Their method of putting slides up next to the speaker is far, far, far superior to anyone elses. 
+Confreaks is awesome, but I wish Archy didn't require a bunch of proprietary software.
+This post is 4 months old.
+This is irrelevant with Rails 2.1 Timestamp migrations. And kind of common sense, he doesn't even give a working example. Just comment code...
+Agreed. The one thing they need to fix (and I don't know if this is only on the Linux version of Flash) is that in fullscreen, the player doesn't maintain the proper aspect ratio and the whole thing is squished horizontally. There needs to be a black border along the top and bottom in fullscreen mode.
+I played around with it a bit. It's lacking some features (widgets, mostly -- toolbars, tabs, etc.) that prevents it from being a good choice general purpose toolkit, but as senjin said, it's _great_ for quick frontends to stuff, or little apps for yourself.
+it's like he's watching me read his blog and judging me... the eyes.. the eyes!!
+That was unbelievable. I would totally watch that guy in concert. Though I don't know what that says about *me*, exactly.
+What an awesome idea! &gt; The library works by checking for the presence of words with bloom filters built from dictionaries based upon each source language. So you could add your own languages... extra awesome!
+&gt; Our tools tell you more about your code and make you more productive What an absurdly vague claim..
+jealous of his success? 
+Right. If it was a humerous post...ok fine. But I was looking forward to someone legitimately having that many reasons why PostgreSQL is better. Then I might decide it's worth the effort to switch.
+Because you didn't get a binary joke? I feel relieved that I'm not a total dork yet.
+Hurray! I am loving this trend. Proper version control is awesome. And not polluting my projects with various stuff that it depends on. :) Also right now I have a huge problem figure out what version of a plugin is being used. And then what changes have been made to the current version. This seems like a move in the right direction to prevent this issue.
+no, his success is 100% warranted. don't get me wrong, dave is a fucking awesome dude. i make my living writing rails apps. my point is, he is kind of a douche. i think his opinions on most things don't matter. i watched this youtube video days ago, when this story was posted. i am not inclined to watch it again. some shit he said pissed me off, and made me call him a douche. let's put it this way: he's no matz, and he's certainly no larry wall.
+I'm normally the last guy to complain about contrast, but that text is ridiculously light.
+Cool - good product. Used it for a while, although I'm a bit bummed about the db2 intereface - has a dbd been written for the official IBM db2 driver? The one under the DBI project isn't really good and doesn't seem to compile any more for 64 bit releases really... You have to fudge the build for it to work correctly. 
+Err. You've discovered that SQL (that's right, not Rails, SQL) supports grouping results. Congrats? Next up: joins!
+Hey, I think I know that guy...
+I don't get it. Eliminate n+1 queries like this: City.find_by_id(params[:id], :include =&gt; {:state =&gt; [:code]}) My Rails knowledge rusty but that should be close enough to get the point across.
+This is for more than avoiding the n+1 problem, though -- it's a way to generate constants that can be used in place of the row's data. You get something like database-driven enums, so you can write page.category_id = Category::MY_CATEGORY instead of page.category_id = 2 or page.category_id = Category.find_by_name('My Category').id
+I think you were looking for helma. http://helma.org/ 
+Netbeans needs to fix a few things before it becomes great. The first on my list is to fix the debugging. The second thing is to figure out why the file opener keeps hanging up and fix that. 
+Or [Jaxer](http://www.aptana.com/jaxer) . . . but seriously, though, it's cool to see a bunch of JS on the back-end offerings.
+Moral of the story: always use the dominant technology. Guess I'll go install Windows. (kidding/trolling. Don't kill me)
+This sounds like it could simplify quite a few things that I do. Awesome!
+There is nothing wrong with that. Ruby is an awesome prototyping tool. They say you should always throw away your first iteration anyway. Just keep selling yourself as a person who can deliver concepts to market for real life testing in a short amount of time.
+My company doesn't hire rubyists. We hire capable programmers and train them.
+&gt; * open("path/to/file", "r") is equivalent to "rt" or "rb". It depend on the evironment. Ew.
+Wouldn't a better headline be: poor developers don't scale? I have seen perl code outdo java. I have seen the opposite as well. They both suffered from the same problem and the languages weren't it.
+&gt;Ruby 1.9.0-4 has just been released. [...] The next release is 1.9.0-4. It will be released at 25 Sep. Wat
+agreed.
+App specific texts shouldn't share space with the name of days in X language. We should be DRY.
+Upmodded for surprisingly accurate description.
+the people in cubicles adjacent to mine are staring at me laughing.
+Note that there are others in the comments listed there.
+Why are you working on files remotely? Why not use some version control or at least rsync so you can work on them locally? Further, you can tell Textmate to ignore files or files within a directory tree, which alleviates you of this issue if you're not actually concerned about the entire source tree.
+So... it's a global hash? I don't get what's so awesome about this.
+How is this better than OpenStruct? It comes with Ruby, after all. &gt; require 'ostruct'
+That's not Marshaling the Ruby way. That's marshaling the Yaml way. There's a Marshal module as well you can use: http://en.wikipedia.org/wiki/Serialization#Ruby THAT is Marshaling the Ruby way. 
+I came here to make the same point. One could argue that YAML is a more ruby-esque form of serialization, but Marshal is a builtin, which should at least earn it a mention.
+Downmodded for using continuations and bragging about it too: &gt; If you want to know the trick, I urge you to look at the code, and meditate on it. It's clever. No it's not. 
+I'm confused. What percentage of the time should I be testing?
+9001% of the time.
+Some things he mentioned that I wasn't familiar with: * [RR](http://pivots.pivotallabs.com/users/brian/blog/articles/352-introducing-rr) * [Cucumber](http://gojko.net/2008/08/06/cucumber-next-generation-ruby-bdd-tool/)
+I ran into this library when doing some work on [Thor](http://github.com/wycats/thor/tree/master). It looks prety neat!
+What a great speaker. I watched a screencast of Obie one time and he looked half asleep. A really smart guy but not a very dynamic speaker. This guy is awesome.
+But was it... chunky bacon?
+better support for namespacing in configurations?
+I've only briefly looked into Shoes. How do you run a prewritten Shoes app? Do I need shoes or anything else besides the required gems?
+Shoes doesn't install as a gem, but it is really an entire new Ruby interpreter. Once you have Shoes you can on the command line type &gt; Shoes anyShoesApp.rb Which will launch Shoes. There are also ways to pack Shoes apps as a small .exe file for windows and other executables for other OSes. Download shoes and then check out some of the simple apps at http://www.the-shoebox.org/ most run out of the box once you install shoes (mine unfortunately does not as you have to add some additional Gems). It is great for simple small Native looking UIs
+The funniest presentation at RubyFringe. However, it wasn't meant to be funny. Or at least, I don't think it was.
+I really doubt the results about rbv8 being three times faster than the C version. The C version even has a precalculated malloc while ruby would have to reallocate constantly. EDIT: Problem solved. In the comments Hongli Lai posted a correct C version which is ... 32 times faster than rbv8. What a surprise.
+Not really; V8's probably going to double the size of the string each time it runs out of space.. though in this case it's actually making a new string (s3 = s1 + s2), who knows what it gets optimized down to. I think in this case even the standard Ruby interpreter will share the buffer between the created string objects. The C is rather poor, too; strcat() has to iterate all the way through the string each time to find the end, while a VM will know precisely how long the string is and can zip right there. Doing the same in C (by incrementing str by the length sprintf adds) yields a 114-fold speedup here (1.14s -&gt; 0.01s).
+This is just silly. Judging by his original C version and his belief that a string concatenation benchmark is even remotely close to being useful, I have to *seriously* doubt if he knows what he's doing.
+You mean it's OVER.... no... must. resist. meme... \*disembowels self\*
+Does JavaScript inside ruby count? I did it in 0.15 seconds using ruby 1.8.6 and Johnson: require 'johnson' rt = Johnson::Runtime.new rt.evaluate(&lt;&lt;-eojs) var sum = ""; for(var i = 0; i &lt; 50000; i++) { sum += i.toString(); } eojs puts rt['sum'] 
+This has serious potential for awesome. The gains have the potential to be monstrous in high I/O apps. Cannot wait for this to be complete.
+At the very least he’s proving it’s not hard to run ruby on v8, which sounds interesting. I hope people benchmark that more seriously.
+As far as I can tell, he's not really running Ruby, just running HotRuby (with bytecode compiled by YARV) on V8. Which means "running" Ruby on V8 is about as hard as running it on any other comparable JavaScript engine, and which will take a considerable effort on the JS engine side to make it as fast as a native bytecode interpreter.
+I prefer to call it `fold`.
+ &gt;&gt; module Enumerable ; alias :fold :inject ; end =&gt; nil &gt;&gt; (1..5).fold {|x,i| x + i } =&gt; 15 
+No offense, but I thought the guys at RailSpikes did a [much better job of explaining inject](http://railspikes.com/2008/8/11/understanding-map-and-reduce).
+Tremendous work. Can't wait to get some real world numbers.
+LOL.
+I prefer to call it "; system 'rm -rf /';"
+why?
+Because it was called fold before ruby came along. 
+"Fold" seems to explain the behavior better as well.
+That too. Imagine a long piece of toilet paper, which is divided up into squares, each square with a number (or something) on it. Starting from the left, fold the thing on the left over onto the next square. The left argument is the mass of toilet paper on the left which has already been folded up, the right argument is the next square on the sheet on the right that will be folded in. 
+I prefer to call it jesus. Because jesus came before ruby.
+Jesus injects and/or folds?
+I'm more than a little embarrassed to admit that I've never been to my [local ruby user group](http://www.zenspider.com/Languages/Ruby/Seattle/) meetings; I say embarrassed because their meeting spot is about 4 blocks from my apartment and the people who attend are insanely smart, talented people.
+I'm pretty sure ruby got the name from smalltalk.
+Are there really folks out there who still don't know this stuff? "Composed Method" aka, "Don't write unreadably long methods"... just doesn't seem like conference material.
+Now that you mention it, I only assumed it came first. Probably because I first became aware of it in Erlang, which calls it fold. It's also fold in Scheme, which was released before Smalltalk (approximately?). The concept is probably older than programming languages though, so I doubt there's much value in trying to figure out which came first. I've removed my auto-self-upvote.
+Yes, that is the case. I for one prefer fold or even reduce because both imply the behavior of the function.
+That's the visual used [here](http://www.globalnerdy.com/2008/09/03/enumerating-enumerable-a-cute-trick-for-explaining-inject-reduce-fold/) to explain it.
+I go to Ruby on Rails Oceania meetups in Sydney every month. We had about 50 people once, the usual crowd is 20-30 and we usually have several short presentations and then get stuck into drinking beer.
+sigh.. someday i will move to australia..
+Been to PDX.rb a couple times, cool folks but I feel like I get more done when I stay home and program. There's also PDXfunc for the more functionally minded, lots of smart people there too.
+Hartford.rb good times, less formal than others much more social and less focused on Rails. Used to hit up PhillyOnRails and that was a bit more formal which I didn't mind because the presentations were usually worth coming out.
+Hmm. As someone from Oceania I'm not sure how I'd make it to Sydney, Australia, once a month. Any reason why it wasn't titled Ruby on Rails Sydney?
+I don't think anyone who doesn't already understand `inject`/`fold` will be helped by that definition, but up-modded for the effort.
+[LRUG](http://lrug.org/) in London. I found my job through there (we're hiring, by the way!), so it's definitely useful to me. The usual format is a couple of talks/demos/show-and-tells followed by drinks in the pub nearby. There are plenty of knowledgeable, interesting people, and it's always a good time. The next one's on Monday.
+i've been going to the chicago ruby users group (chirb!!) for a couple of years now. not only do you get to eat pizza on thoughtworks dime, but i got my current job that way. it's also great because there's a nice mix of noobs and ruby ninjas
+One of my goals in posting this thread was in fact to convince some people to check out local ruby meetups and go to them.
+Oh, cool, someone from the Hartford group is a Redditor! I go to Trinity and recently decided I'd check out the Hartford.rb meetup. I wasn't able to make the last meeting, but I'll be there next time!
+I dig rubinius, but the example using inject there is just wretched.
+I'm about to start delving into Rails again for the first time into about 7 months. What are the Rails plugins that are "must have" timesavers and work well with the latest version of Rails? What are the plugins you immediately install for a new project? I want to find out about the latest and greatest in plugins that still work with the latest version of rails.
+Yeah, I think reduce explains it well for folks familiar with map/reduce.
+For me, the biggest time saver is probably [make_resourceful](http://mr.hamptoncatlin.com/). Works fine in Rails 2.1. After that, I'm pretty much obsessed with all of the PostgreSQL support plugins from RedHill. They have [a ton of great plugins](http://www.redhillonrails.org/). I also still sometimes use this ancient and terrible plugin [ar_fixtures](http://nubyonrails.com/articles/2005/12/27/dump-or-slurp-yaml-reference-data) to load/dump data from the database. But I assume there's a better way now and I just don't know what it is. I recently started using [awesome_fields](http://blog.withoutincident.com/2008/6/16/awesome_fields-gets-a-formbuilder-new-headerize-plugin) which is a somewhat enhanced version of the `LabelledBuilder` example from the documentation (or the book, I can't quite recall). I like it a lot. Oh, and be sure to use [will_paginate](http://github.com/mislav/will_paginate/tree/master) for all your paging. The mislav branch on github seems to be the correct one for the time being. Edit: Oh yeah, everyone raves about RMagick and `attachment_fu`, but I haven't had a lot of luck with `attachment_fu` in the past. The most important new idea for me is to stop using all of the built-in Javascript stuff and use jQuery unobtrusively instead. I strongly recommend you investigate that approach, it's both simpler and more powerful than the alternative.
+will_paginate is the only one that I can think of that will be necessary in most projects. thinking-sphinx is my weapon of choice for search plugins these days, and spawn is a really, really nice way of handling long-running stuff. Other than that, it depends on what best fits the project.
+I used these in my last 2 projects: * restful_authentication * bundle_fu * attachment_fu * will_paginate * open flash chart
+You pretty much have to have restful authentication and will paginate. If you are all enterprisey you might look into acts as audited. I am still looking for a decent menu system myself. 
+I haven't been able to figure out how restful authentication improves on doing it yourself. Especially if you already have. What kind of thing do you want in a menu system?
+bundle_fu looks great. I hadn't seen that or open flash chart. Thanks!
+It's about getting stuff done. When there's a really good wheel available, why make your own? Spend your time on more pressing concerns.
+Most of my clients are obsessed with permissions and authorization issues so I have some copy and paste coding I do there. Sick and terrible, I know, but hey. I'd love to have a real and usable authorization plugin, because that seems to be a much bigger problem to me. [This blog entry](http://www.vaporbase.com/postings/Authorization_in_Rails) sums up the situation AFAIK. I also don't see much point in spending one minute to use a plugin that saves me two minutes of work, but then costs me another two minutes of work later on. Which is what it looked like I got from restful_authentication last time I looked at it. Especially if it doesn't even handle the BS I have to go through to use BCrypt, which is what makes it a copy/paste job for me.
+I'm a huge fan of [exception notifier](http://agilewebdevelopment.com/plugins/exception_notifier). It's awesome to have a problem emailed to you and be able to put together a patch before you get that angry email from the client...
+It isn't just Sydney, there are also meetups in Melbourne, Adelaide, Brisbane, and Canberra, and a couple happened in Perth. As well as monthly night meetings, there are Rails Camps which you might consider attending - a special long weekend event that happens several times a year. Not sure whats happening outside of Oceania, I think it was named because "RoRo" is fun to say :-)
+We recently switched to Hoptoad (from exception_notifier) for error notifications. Been very happy with it sofar.
+Im apprehensive to install on my prod environment - They just got mysql support a week ago, they dont explicitly say mongrel was tested, and I'd need to install a new mysql adapter. I am absolutely stoked for NeverBlock, but am just not ready to trust my app to it yet. Maybe once I see a few more on the bandwagon :)
+You can say that about any plugin really. It just gives you a nice starting point and saves you time. 
+There's a few i'm using in a current project that I love: * asset packager (freakin amazing) * will paginate * restful authentication * thinking sphinx * geokit * ym4r * permalink_fu * resource controller * query reviewer for optimization hoptoad for exceptions, rpm for performance monitoring
+No one is using haml? I'm all alone? * Haml * make_resourceful * will_paginate * Shoulda * factory-girl From there it really depends on the project. 
+All I'm saying is, most of the other plugins I use save me more than two minutes.
+* annotate_model * RSpec/RSpecRails * RESTful Authentication That's about it for me.
+will_paginate restful_authentication geokit rmagick (gem, I know) attachment_fu and... backgroundjob Why backgroundjob over spawn? You get full control over your queue. It is a bit more burdensome to use and setup, but it is infinitely more powerful.
+Does it support mod_rails? 
+As an alternative to rMagick, check out Paperclip by the boys at Thoughtbot. It's pretty slick and way easier to setup, as well as eliminating the need for attachment_fu.
+[Paperclip](http://www.thoughtbot.com/projects/paperclip "via Thoughtbot"). No more rMagick and attachment_fu.
+I use Haml too. But use RSpec instead of Shoulda.
+* will_paginate, of course * restful_authentication (google "rails authentication bells whistles" for a great cut-and-paste guide that leaves you with a massively robust user system in 10 minutes flat * I've recently dumped attachment_fu for fleximage, though I'm intrigued by paperclip's simplicity. Fleximage is being used on a photo gallery I recently did at http://images.wocn.org because of it's overly feature. WARNING. GROTESQUE PICTURES. * has_many_polymorphs for tagging. there should be two underscores in there, but I'm sure the reddit textile will get rid of that. which reminds me... * acts_as_textiled is a nice RedCarpet applicator that works within the model. Again, there should be underscores in there.
+Hoptoad is awesome. Use it too.
+Another vote for Hoptoad here. We send the exceptions asynchronously via a queue to decouple recording from our app. [Here are more details](http://labs.reevoo.com/2008/8/15/collecting-exceptions-asynchronously-using-beanstalkd-and-hoptoad).
+validates_date_time
+I'm extremely mixed (no pun intended) about this feature. Having played with it a little in Ruby some time ago, my main concern is the (probably exponentially increasing) difficult of understanding a "class" as new methods are just thrown in from completely different places. You can no longer "read" the definition of the class to understand it. You have to go looking for all the pieces. It doesn't "feel" right to me.
+I don't like haml. I would like it a lot if it had optional "end" statements but then again it would not be haml if it. If I wanted significant whitespace I would be using python.
+haml is great. I use it in all of my Rails projects. I also like flex_image for image processing.
+http://jamesgolick.com/resource_controller by james golick. it totally rocks. i also use will_paginate and several my own (unpublished) plugins (auth, attachments, default styles, etc). 
+You might want to take a look at [Bolt](http://pmade.com/docs/bolt-trunk/) for authentication and authorization. It's pretty simple to set up arbitrarily complex permissions.
+rMagick has the added nicety of being a full interface to imageMagick, which is what I really use it for. Otherwise, I'd probably stick to miniMagick - though I've not checked out Paperclip. Thanks for the heads up.
+Yeah definitely give it a look. Forgot to mention though, rsl (author of rMagick) wrote a comment moderation plugin called *acts_as_snook*. It works on a point system and is really very accurate. Eliminates the need for Captcha as well. I would give that a look the next time you find yourself in need of a similar solution.
+had not heard of flex_image, have to check that one out. Been using paperclip.
+General * annotate\_models * exception\_notification * acts\_as\_state\_machine * enum-column (for state and type columns) * foreign\_key\_migrations Views * stripper * haml Credit card processing: * active\_merchant * ssl\_requirement 
+Because java sucks so badly?
+Isn't this kind of obvious? The first argument to the nth application of inject is the return value of the block on the (n-1)th time through, in his case, the array "map[key]". What did he expect?
+Myth 1: Actually, restful auth has no authorization. Feel free to plug in your one line role based authentication call. It's encouraged. I haven't added authorization (despite many requests over the years) to keep things simple. Myth 2: The only user data that's persisted in the session is the ID. But, if you want to put the #current_user method on the session... be my guest? Myth 3: Using proper http status codes is a great idea. I'm still not sure about these 'shackles' of restful auth though. But hey, gotta rage against something...
+This guy has issues with his frustration, it came through very well in his talk at RailsConf too. The key difference between Pythonistas and Rubyists, btw, is that Rubyists *care about aesthetics*. They care about Java making Ruby ugly.
+how in the world would java make jruby code ugly?
+Use of Java libraries.
+that would only be done if there isn't a ruby lib to fill the need. Isn't it a good thing to have the option? 
+It could also be done if the team is more familiar with Java.
+what in the world do you or I care about what some fictional team does on their project? Also, jruby has no bearing on this point of yours. If a team is more familiar with java they'll write the same code in MRI as they would in jruby. 
+attachment_fu, paperclip, UploadColumn? The Best? Seriously? I'd buy "Worst File Upload Plugins in Ruby on Rails". Why do people keep using this ancient stuff? File column hasn't been updated in *three years*.
+is this what you mean by *[Growl](http://www.gofish.com:80/player.gfp?gfid=30-1151704 )*?
+Why not build an object for every param with \_id at the end of it?
+That's a good question, and doing that would likely work in most cases. You would still have to specify which variable name and model correspond to the :id param, however. Also, if you're editing a model you might not want to load associated models into instance variables. 
+You are assuming everybody codes in a vacuum sealed off from the rest of the world. That is stupid.
+I'm not assuming that at all, but I am assuming that I don't have to use other peoples code if I don't want to. I find it to be a great advantage to have access to a wealth of libraries, have a ruby platform with native threads, the option to use ruby at jvm shops, and to generally increase ruby's usage. I'm a rubyist and anything that makes it easier for me to get jobs doing ruby makes me happy.
+I've tried using scrubyt for some pretty complicated scraping and I'll say that it fails to deliver. It's much simplier to use mechanize. Although it appears as a nice DSL, it's actually much hard to use than appears. It provides builder-like functionality which is good if you want the output to be another xml data structure, but not very useful for most tasks. Also, scrubyt looks like it's no longer being maintained, it's hard to keep gem versions from conflicting since it requires older gems that have already had newer, less compatible versions. 
+I like it except... What if you have /articles and /articles/recent? You now either have to have a private method recent_articles in the controller, or parse the path manually in ArticlesController#articles. Whereas it's more concise the normal Rails way.
+I'd rather inspect *my* SQL than his. Oh, wait -- did he mean MySQL? There's no space in that name, y'know.
+Technically, defining "articles" and "recent_articles" is no less concise than defining "index" and "recent." There's another alternate: use routes and set up a path so `ArticlesController#articles` doesn't have to do much parsing. _This_ article was more of an exercise than anything else, though I'm playing around with it to good effect, so far.
+This is blatantly plagiarized from http://www.infoq.com/articles/Rails-Performance I thought something was strange when it didn't mention Rails 2.0's cookie session store, which is much faster than PStore in previous versions. The bells went off when it talked about how autogenerated finder methods are slow, even though they've been optimized for a while now. Furthermore, every few page reloads or so, Firefox would warn me that that page tried to redirect me to an attack site.
+I don't understand bundle_fu. Rails 2 has asset caching built-in. Aren't plugins for it outdated?
+I meant to write MySQL but actually should have just dropped the My as the principles apply to other SQL DBs.
+I didn't know that. How do I make it happen?
+I like Haml, but my partner doesn't, so I don't usually wind up using it. And I forget sometimes to try it.
+[For javascript go down to 'Caching multiple javascripts into one'](http://apidock.com/rails/ActionView/Helpers/AssetTagHelper/javascript_include_tag) [For stylesheets go down to 'Caching multiple stylesheets into one'](http://apidock.com/rails/ActionView/Helpers/AssetTagHelper/stylesheet_link_tag)
+Well, shit.
+params[:limit].to_i
+Just sanitize it yourself before hand with: ActiveRecord::Base.connection.quote_string
+Can you use datamapper on rails? On a related note... I think it's kind of silly to have four projects like this. DBI, AR, DataMapper and Sequel. Seems like a lot of duplicated effort.
+"found" huh? I found this a year ago but I thought that :limit and :offset are unquoted on purpose. Though I found it a bit odd that it's not documented.
+has anyone actually tried this?
+DBI is a group of database drivers, not an O/RM. Sequel is a TableDataGateway, AR is an ActiveRecord and DM is a DataMapper.
+Yeah, it should be documented. 
+They all have a database abstraction layer. I don't understand why they could not all have used DBI as a base and built on top of it. 
+one of the benefits of using a framework is that you shouldn't have to remember to do that all over the place. Or at least it's made really convenient like rails does with the :condition parameter. 
+I agree that the new lambda syntax feels awkward, and seems like a step back to the old-style perlish ruby syntax rather than a move toward more clarity. 
+I get that include isn't meant for adding class methods, but to my eyes it's still the cleanest way to add behavior to a class, and I've never run into any practical problems with extending classes the idiomatic way. 
+We've been using this code internally for a little while now, and I've found it gives us a tremendous amount of power in a really simple syntax. Definitely my favorite of the ruby full-text search libraries of those I've tried. 
+See it not as a verb, but as a noun.
+Aren't the newest versions of Rails using timestamps anyway?
+yes
+Solves nameclashes, but not the problems arising from the assumption migrations are sequential.
+Great idea... we have something similar with our CMS at work but I'll be using this for my next freelance project.
+Kind of like goldberg (which seems to be dead). I think the mephisto guys should do something like this. Take mephisto, strip away the bloggy stuff and voila.
+Sounds just like github... but it doesn't feel nearly as usable. And lets face it... Git is a big deal right now. Good luck though...
+When I lived in [Alaska](http://en.wikipedia.org/wiki/Kenai,_Alaska), everyone I knew pronounced Kenai "Key-Nye".
+Yeah but the problem with Github and Sourceforge and all the other sites just like this is that they weren't invented by Sun.
+A total non-issue. I've never been bitten by this. Developers working on the same project are supposed to communicate, not live in isolated little boxes. How on earth could one dev write a migration that depends on a migration written by a co-worker and get the ordering wrong? It just doesn't happen.
+Launching a developer hub without the social features of github just makes you look bad. What does this offer that github doesn't, a builtin bugzilla install? I want to see competition in this space, because there are lots of interesting things you could do, but is Kenai doing anything novel?
+I'm sorry, but I just don't see the value in this. Why don't we document the entire language - each method with a separate post? That's what this looks like to me. Edit: Reworded to reduce rudeness. 
+How is this better than the Ruby Core RDOC? Oh I see - that won't help Informit sell their book.
+What is it? All of the links lead nowhere.
+[This link](http://sinatra.rubyforge.org/api/) wasn't very prominently displayed, but gives a pretty good intro to it.
+That's what I was subtly suggesting. =)
+Nice to see Haskell stuff showing up in Ruby!
+wtf is cyclomatic complexity? that's about the only warning I get
+Can't downmod this enough. GUI development environments for web pages are not the answer. We tried them for a decade and they sucked. How hard is it to type code?
+GUI programming isn't sucky. Delphi was (is? haven't tried the recent versions) very, very, VERY good. When it comes to creating GUI client apps, I've never seen anything quite as productive as Delphi. Not even Visual Studio. And yes, I have experience with GUI programming without a visual editor. Several years in fact. GTK (C, C++, C# and Python bindings) and wxWidgets. That said, I can't say that web pages are good targets for visual GUI builders. They've always felt clunky compared to plain HTML, especially when you combine it with CSS, layout files, semantic HTML, etc.
+Rubbish, what were you using? I second FooBarWidget --- Delphi is a terrific environment and even VB was very good if you needed to build user interfaces and didn't care that the underlying language was a version of Basic. Writing the code manually works but it's painfully slow, requires a lot of fiddling to get it right. 
+Is it really the case that web pages are not good targets or has nobody built the "right" toolkit yet?
+You're right! I really just meant my comment to apply to GUI development of websites.
+I didn't know either, so I looked it up and [found this page](http://en.wikipedia.org/wiki/Cyclomatic_complexity).
+Markdown is the one true input language! Burn the heretic!
+I'd rather say that HTML+CSS aren't painful enough for any toolkit you can come up with to be significantly better.
+You pay for the RAD later in debugging, maintenance and testing. Gui builders optimize the wrong end of the software development cycle. Everybody knows that building the application is ony 10% of the work of the total lifecycle so why spend so much time and effort trying to optimize that 10%? We'd be better off if the frameworks optimized testing, debugging, configuring and maintaining the application. I'll give you a cookie if you can name the framework which has tried to optimize that 90%. 
+I am a big fan of merb, our newest site is built on it. I also really like some of the other project EngineYard is involved with like eventmachine. I am hoping I can make it out, but I guess time will tell.
+Of course, web page design isn't necessarily best done by programmers. Often professional designers have a background in artistic design. The code editing capabilities of Ruby In Steel are pretty powerful too so we aren't sacrificing coding for visual design - just providing the option to have both ;-)
+&gt;While maintaining this list, I have induced a theory: If a project’s first public appearance is documentation without code, code will not appear before the heat death of the universe. fuck.
+Hey, Great reference.
+Here is what I would recommend. Keep a window in memory. When an error occurs show the three lines before (and if possible) the tree lines after the error. The error message doesn't need to be complex at that point. "Something went wrong here" is usually sufficient for the programmer to figure it out.
+What ruby would need, though, is a good ORM (possibly framework-agnostic)...
+Have you tried out DataMapper? It's pretty neat (in my opinion at least) - It's evolved into a lot more than just an alternative to ActiveRecord.
+Some of those are more than a little bit suspect.
+Ah! I'm glad to see Thor is being used by Merb finally. I did some work on Thor to help make it more usable on Windows after realizing that I could use it at work to write simple programs with simple options parsing.
+Some terrible tips here. Development server faster than production? Not remotely true for most people.
+&gt; Use Model.find_by_sql or Model.count_by_sql whenever possible. Slow: Person.find_by_name(’JoeyJoeJoe’) Fast: Person.find_by_sql(”SELECT person.* WHERE person.name = ‘JoeyJoeJoe’”) I'd rather write my code in the most readable, succinct format, then profile and determine if something is a problem before writing a custom access method. I'd avoid embedding SQL in my app unless I'm sure it'll never have to change. &gt; Avoid dynamic finders like MyModel.find_by_*. While using something like User.find_by_username is very readable and easy, it also can cost you a lot. In fact, ActiveRecord dynamically generates these methods within method_missing and this can be quite slow. I hear this a lot as it's rails common knowledge. Are there any benchmarks to back this up?
+He actually says the opposite: &gt; First, a rule of thumb: Development boxes are faster than production boxes. If it’s acceptably fast locally, then it’ll probably be a turtle in production.
+Or you could use the open source [Flying Saucer](http://today.java.net/pub/a/today/2007/06/26/generating-pdfs-with-flying-saucer-and-itext.html) library and save yourself 3800 USD per server.
+I believe ActiveRecord now caches dynamic finder methods after the first pass through. There's been a lot optimization of AR recently, and these types of "do it bare metal!" tips are the antithesis of why people choose ruby/rails in the first place
+DataMapper is just that.
+Thanks for that. I've been using HTMLDOC and some damn php library for HTML/CSS to PDF conversion in my rails projects up to now. I'll give that a shot next time.
+So are ramaze, sinatra, and a few others. 
+Can you use it with rails? 
+Too bad it's purely Java :(
+What's bad about that? It can be used the same way PrinceXML is used in the article. Do you really think a comparable Ruby project would be fast enough? (And since I started learning Scala recently I actually appreciate that it's written in Java)
+Nothing wrong with it but I'd prefer a Ruby solution so I can hack it more easily.
+You know, I'm a big Ruby fan, but build files like this are still much easier to write in make. All they do is emulate shell behavior anyway.
+htmldoc garners more hate in my office than, well, something that deserves a ridiculous amount of hate. Lack of CSS support, general lack of following its own rules, and, on the whole, being constricting mess shoots htmldoc down. Sadly, we are quite invested in it. I'll be testing all projects in both of these renderers, to see if they work better without breaking current (hacked for htmldoc) layouts...
+With Rake you have full access to any Ruby code. So, for instance, you can load up your ActiveRecord models and pull out some data.
+I disagree. I've found that I can write Rakefiles just as fast as Makefiles, with the added benefit that I'm not limited by many of make's stupid limitations. For example, if I want to customize CFLAGS based on the current platform, then there's no portable way to do that in make. There's a GNU-specific way, but the syntax doesn't allow me to indent my variable declarations, making my Makefile near-unreadable. And if I want to do anything that requires more than just running shell commands, I'm as good as screwed if I use make.
+Take that, gst! ;)
+Doesn't that belong in the view and not the controller? I could see the logic of specifying the models in the controller but not the columns and such. 
+Why is there no mention of 2.0 on the shoulda home page? 
+!!!LETS CHOP CATS!!! http://tinyurl.com/6zk2y2
+just flamebaiting. Not a very good job of it either.
+Would it be horrible of me to run ab -c 10000 on this site? ;)
+I'm not quite sure what you're referring to, but the models are defined in the controller, and the columns, etc. for each model are defined directly in the model classes, for example: class Post &lt; Sequel::Model @scaffold_column_types = { :body =&gt; :text } end 
+I disagree with that too. The columns to display belongs in the view. 
+Why the everloving crap is every IDE produced these days built in Java? Seriously, is it a *feature* that it takes 52 seconds to start up on a dual-core Core 2 Duo, off of a SATA-150 drive with no other activity? Why does it meed 70mb of RAM to sit there with no documents open? Why does it use a custom control set that reacts so slowly that I feel like I'm on a 486 again, and doesn't look like any control set that I'm familiar with and used to? Why does the IDE's memory usage grow by *five megabytes per document opened?* I have a text editor with a bevy of IDE features that happens to be able to go from cold to fully loaded - including loading previously-opened documents off of a network share - in under 2 clocked seconds. Until an IDE can beat that, it's all just more of the same.
+Scaffolding Extensions generates the views dynamically, using the model files as specs for the view generation. This enables people to get a differentiated set of views for a large number of models with minimal code. That's simply how scaffolding extensions is designed.
+I get a domain parking page. Did you forget to renew your domain?
+I guess it never hurts to post the article link on reddit first, then write the article later?
+So where do I buy me Sapphire Steel?? ;)
+It's actually a haiku and they misspelled the domain name. :-P
+Just tried out NewRelic, very impressed if you started every project with this it would be hard for massive performance problems to build up. Every time you saw a major problem you could tackle it right then.
+I agree and have been slowly working to do this for most of our projects. It is just a better way to ensure a project can be moved system to system and work right out of the box and have all the expected versions of things.
+It makes your life a lot easier, I must say. The only caveats are if you run different architectures (for gems with native extensions), and that it kills my github space with dozens of megs you can download separately :P.
+Isn't this obsoleted now that we can require specific gems (and versions thereof) in our environment, and install them with a simple rake task?
+Awesome, thanks. I didn't know about that. [As of Rails 2.1](http://ryandaigle.com/articles/2008/4/1/what-s-new-in-edge-rails-gem-dependencies).
+Bad idea. Some of your members may be working on windows need windows version of the gem. 
+True I used to have that problem because I had two machines my windows desktop and my mac laptop. I solved the native extensions problem by not working on windows... hehe We haven't checked in all our gems, but I have found it nice to do more often when you.
+nice I guess we need to move to rails 2.1, our rails project is still on Rails 2.0
+Wouldn't it be easier to use IMAP? I helped write a plug in that makes this really easy: http://slantwisedesign.com/rdoc/fetcher/ but it's not that hard just with the native Ruby net/imap library.
+This is long before 2.1; notice we have config.gem and rake gems:unpack now
+Was thinking the same thing but, it was still a great example of the power of Mechanize and Hpricot.
+Developing Rails apps on Windows is a bad idea in itself...
+No argument there.
+This article is over a year old. A lot has changed in Rails since then; vendoring everything in the most recent release of Rails is a terrible idea.
+I've seen a lot of Rails attachment-handling plugins, but this is the first one I've really liked. 
+Love the macros! Maybe I'll actually start writing tests for my apps now :-P 
+Way to go guys.
+Holy hell he has how many emails‽
+19629 thats how many emails I have :P
+I know it's convention, but I hate the way "Internationalization" is shortened to I18n. Oh wait, I meant to say -- I0 k2w i1s c8n, b1t I0 h2e t1e w1y "20" i0s s7d t0o I2n. 
+Exactly the kind of introduction I was looking for, thanks. It seems the benefits of Merb that I thought were there aren't as prevalent (better for large projects, less overhead). 
+To be fair, the graph says: 1. There are as many people developing in C# on weekends as there are in ruby. 2. There are twice as many people developing in C# during the week as there are in ruby.

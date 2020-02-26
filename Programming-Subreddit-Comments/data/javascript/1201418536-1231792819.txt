@@ -1,0 +1,855 @@
+It's an ajax implementation of sleep()! //really you'd rather use setTimeOut(expression,milliseconds) 
+Funny, I've used it for a while now and never seen a problem
+How do you tell?
+my JS should fail or my CSS would not render
+What about the multiple-IE solution? Have you used that? Sorry, not trying to dig you out! I'm just really curious about this issue. :)
+As laprice already said, a setTimeout is more appropriate. If you want a sleep() however (that gobbles CPU while waiting, btw), you can just use an empty while and compare dates.
+Here is the one I use: function relative_time(time_value) { var r = '' if(time_value) { var parsed_date = Date.parse(time_value) var relative_to = (arguments.length &gt; 1) ? arguments[1] : new Date(); var delta = parseInt((relative_to.getTime() - parsed_date) / 1000); if(delta &lt; 60) r = 'this minute' else if(delta &lt; 120) r = '1 minute ago' else if(delta &lt; (46*60)) r = (Math.round(delta / 60)).toString() + ' minutes ago'; else if(delta &lt; (90*60)) r = '1 hour ago' else if(delta &lt; (24*60*60)) r = (Math.round(delta / 3600)).toString() + ' hours ago' else if(delta &lt; (48*60*60)) r = 'yesterday' else if(delta &lt; (34*24*60*60)) r = (Math.round(delta / 86400)).toString() + ' days ago' else r = (Math.round(delta / (7*86400))).toString() + ' weeks ago' } return '&lt;span title="'+ time_value+'"&gt;'+r+'&lt;/span&gt;') }
+I *like* how partial() works. Very elegant!
+I keep checking it but there is never new articles submitted, they're all submitted in programming :(
+So submit some.
+done :D
+That looks extremely useful. Very nice abstraction layer.
+Apart from the topic of the blog and the browser in question, you did a really good job on that title. Well done.
+Dupe: http://reddit.com/info/6cr62/comments/ 
+Hello all, I am an amateur programmer working on a Python script to display data about how frequently people post reddit comments. Unfortunately, I haven't been able to retrieve comments that are hidden behind the "load more comments" Javascript command. I can get behind most of them by getting the permalink of their parent comment, but the ones with no visible parent still elude me. I know zero Javascript. My brother can figure out a little bit of the syntax, but he hasn't been able to figure out how to retrieve the comments hidden behind the command. It would be really helpful if someone could do one of the following: - explain how to morechildren function works and give me an idea of how to get to the comments it loads - explain how I can write a Python function to log onto my account - come up with some other clever way of getting the comments behind "load more comments" Thanks for any assistance!
+Its pretty straightforward: if you look at the link you'll see it calls a function using that node's ID: a onclick="return morechildren(this, 't3_6ewtr', ['c03nkr2', 'c03nn2f', 'c03nn5d'], 1)" href="javascript:void()" id="more_t1_c03nkr2" load more comments this makes a post to their server, which in turn returns a JSON object which they then parse and display in a previously hidden div. Just get Firebug and look at the ajax calls in the console. Once you know what variables you have to send, you can use python to make an HTTP call to request the same data as the 'load more comments' link. 
+You can just fetch the URL with /info/&lt;article_id&gt;/comments/?all=true That'll give you all the comments.
+Hey thanks! That's great! Incidentally, it doesn't deal with the "continue this thread" links, but those are easy to decode. How'd you know about that?
+Thanks for your help. I tried to figure out Firebug, but it was difficult. Anyway, jaggedrest posted a much easier [solution](http://reddit.com/info/6ey7w/comments/c03noip). Don't worry, I'll still learn Javascript at some point. Just with a proper tutorial and the right amount of time!
+Used it before, I hate those 'see more' links. It's over in the right hand when you view a long thread.
+Alright. I think you get the same effect automatically when you go to preferences and set it to display 500 comments by default. That's why I hadn't noticed it before.
+I especially enjoyed the section on mixins. I'd link to it directly, but there isn't an appropriate anchor in the document.
+Oh Oliver Steele - is there any functional JavaScript code that you can't make awesome?
+If he read reddit he'd know; there's a thread about this every few months.
+I read reddit and didn't know it offhand, maybe because until recently I'd have skipped over js stuff.
+I tend to just assume C-style octal prefixing until I know otherwise :)
+It seems to me that either this article confuses theads with series of events (continuations) or tries to solve problem that doesn't exist. JavaScript's threads *never* run in parallel. Browser queues all events (DOM event, timer, loaded &lt;script&gt;) and executes them one-by-one. 
+&gt; For example, suppose there are three event handler functions that manipulate common data as shown in Listing 5. They handle a page-load event, a button-clicked event, and a reply-received-from-XML-request event. The page-load event handler launches some asynchronous request for data. It specifies the request-reply event handler that processes the received data and loads it into a common data structure. The button-click handler also affects the common data structure. To keep these event handlers from conflicting, they can be converted to commands and invoked via Mutex as shown in Listing 6.
+Saved my life! I *hate* having to do the final IE conformance checks on a web site I've built. But this makes debugging JS on IE fairly painless. In brief, you need to download Microsoft's Visual Web Developer Express. It's free (as in beer) and includes an excellent debugger. See the posted blog entry for details.
+&gt; So, thank you Javascript, for teaching me something I didn't know about you... and making me hate your quirks all the more. It's **not** a JavaScript *quirk*, PHP does this too, like most loosely typed popular languages. Don't blame/hate a language for your ignorance :)
+Latest news update was over a year ago. Is JSAN really alive anymore?
+The short-circuit logical and/or operators have been available in Perl since the dawn of time. It's a very common Perl idiom to see things like: do_something() || die "I'm sorry Dave, I can't do that." # Perl == PASS Unfortunately, Javascript FAILs by defining 'throw' as a statement rather than an expression. So in JS, you can't write: do_something() || throw "I'm sorry Dave, I can't do that." // JS == FAIL 
+&gt; The short-circuit logical and/or operators have been available in Perl since the dawn of time. Indeed, since Wall borrowed them from the shell languages.
+`function die(x) {throw x}`
+Sure, I didn't mean to suggest that there weren't ways around it. It's just a bit of an oversight to make throw a statement rather than an expression, IMHO. 
+Too bad the API isn't really documented yet, it could finally be a JS unittest lib worth using (JSUnit is horrible, and while JSSpec has a fairly nice API it's *slow as hell* and has several glaring omissions e.g. total inability to handle checking for thrown exceptions)
+Runs horribly slow on my system. (well, the actual ACTION runs very smoothly, but clicking buttons and placing towers is mad slow)
+It performs decently well in Firefox 3 for me, but Safari plays it like a dream.
+More info: http://lethain.com/entry/2008/may/14/three-processing-js-examples/ http://lethain.com/entry/2008/may/18/design-of-processed-tower-defense/
+Unless Google open this up a bit more it will effectively kill development of new JavaScript libraries.
+Are you sure you're not overreacting? It even mentions in the article that this is basically a convenient way to do something you could already, easily do with google code.
+well, as soon as you start allowing google to serve up your code make sure you let your users know that third party apps now have access to their data. Maybe its just me, but I don't trust google anymore.
+Is the DNS lookup of using this faster than just having the script on your own server?
+Really? Why?
+hey everyone, I'm starting out as a (horrible) web designer and need to know some Javascript. Where's the best place to learn? There's a lot of online tutorials but they aren't all clear to me.
+http://www.webteacher.com/javascript/
+http://www.howtocreate.co.uk/tutorials/javascript/important is not bad for the starting points. Then, resources like e.g. http://quirksmode.org As far as books go, Javascript: The Complete Reference is the bible so it's a no-brainer, [DOM Scripting](http://domscripting.com/book/) is a good book to get started (it's aimed at designers so you can pick it up even if you aren't much of a programmer), [PPK on Javascript](http://www.quirksmode.org/book/) is an excellent book at a more intermediate level, I'd recommend picking it up right after DOM Scripting. And then, when you're done with PPK, [Pro Javascript Techniques](http://jspro.org/) by [John Resig](http://ejohn.org/)
+That thing sucks.
+yeah, i'd seen it before. It's really low rent.
+Go on a well recognised course in your area. I think there is a lot to be said for learning from real people face-to-face.
+that's true, but courses are expensive, if there are any around here at all (australia)
+http://developer.yahoo.com/javascript/ http://developer.yahoo.com/yui/ http://developer.yahoo.com/yui/theater/ (anything by douglas crockford) http://tech.groups.yahoo.com/group/ydn-javascript/ http://developer.yahoo.com/yui/articles/gbs/ http://developer.yahoo.com/ypatterns/ http://developer.yahoo.com/performance/ http://developer.yahoo.com/yui/grids/ http://developer.yahoo.com/yui/grids/builder/ http://developer.yahoo.com/yui/articles/skinning/ Along with O'Reilly "Javascript Pocket Guide". You must learn "Javascript the language" and "DOM the nightmare". JS the language is actually kindof interesting / quirky, and not *terribly* difficult (go get and understand when to use the "delegate" function, it will save you in the future). DOM is interesting and quirky and not terribly difficult WHEN YOU'RE WORKING WITH ONLY ONE BROWSER. Other browsers except for your $favorite are teh suck. And of course when you have to learn both of them at the same time it's doubly frustrating. I know I gave you a lot of links, but they are the right ones, kindof in the right order. Learn javascript. Use YUI. Get on their JS mailing lists. Follow the design patterns, use the CSS grids / grid-builder. You will be on such an accelerated path after a month of doing all this you won't believe it. All your stuff will work right across browsers, will look good, will be accessible. Really it's amazing (at least for web developers) the support that Yahoo! is making available. --Robert
+I guess you will want to learn normal Javascript first, but if you ever get around to learning (the fantastic) jQuery, the options for learning are many: * http://jquery.com * http://learningjquery.com (author also has 2 books on jq) * http://visualjquery.com/1.1.2.html handy reference * http://www.manning.com/bibeault/ my fave jq book
+[The Rhino book](http://oreilly.com/catalog/9780596000486/) then [the Monkey book](http://oreilly.com/catalog/9780596528386/) explains everything. [jquery](http://jquery.com) makes it all easier. 
+[JavaScript Video Lectures](http://www.catonmat.net/blog/learning-javascript-programming-language-through-video-lectures/)
+[Pro Javascript Design Patterns](http://www.amazon.com/JavaScript-Design-Patterns-Recipes-Problem-Solution/dp/159059908X)
+&gt; the rest is coming later today Come on guys, it's been more than 2 days now...
+great links, allow me to add [this](http://video.search.yahoo.com/search/video?p=javascript+crockford&amp;ei=utf-8&amp;fr=sfp&amp;tnr=21&amp;vw=l) one :) 
+Read this: http://crockford.com/javascript/ and you'll be able to recognize JS tutorial that sucks (and sadly 95% of them suck repeating same mistakes since Netscape times). 
+Better to learn JavaScript first then jQuery after that.
+lol sorry guys...I tried to help :-/
+also book "JavaScript - The Good Parts"
+where's the death star?
+Yeah, for sure.
+That's a nice piece of work.
+Eh. Webkit's Developer tools sure are getting up there, though.
+I don't like that much the _authenticate way when you can achieve it in a more "super"-like way. EmployeeProfile.prototype.authenticate = function() { return UserProfile.prototype.authenticate.call(this) &amp;&amp; this.employee_id == 123; } and of course: if ( ... ) { return true; } return false shows how skilled you are... if what's in your parenthesis aren't boolean cast it with double bang: !! return !!( ... );
+It's great that this uses a regular, unordered list as its data structure. That allows it to degrade gracefully.
+&gt; jsClass - Object Oriented Javascript Er. Javascript = Object Orientated Javascript. jsClass = _Class-based_ OO Javascript 
+yeah.. the inability of people to just use the prototype based inheritance OO that comes with javascript really bugs me. it's just as if they absolutely *need* their frameworks to be bloated.
+I came in here to post the same exact thing...
+can you fix your link to your post on the ff forums for this.
+&gt; And finally (for the lazy ones) here's a sample. ..which is a WAR. I'm much lazier than that!
+Coercing Internet Explorer into running Javascript 2 sounds absolutely terrific.
+Theres bunch of changes to xmlhttp in FF3, detailed in the link below. Mabe they offer some help: http://developer.mozilla.org/en/docs/XMLHttpRequest 
+Wow, that effect is annoying!
+See also: http://www.carsonified.com/web-apps/why-objective-j-cappuccino-and-sproutcore-are-completely-changing-the-web-app-industry
+Thank you, Thank you, Thank you, Thank you.
+Gaaah. I hate modal dialogs.
+Awesome, all the fun of this old gem in a shiny new package: javascript: for(i=1; i!=0; i++){ alert("youve pressed enter "+i+" times!\nkeep goin!");}
+On "*Why might I not want to use it?*" he could add that it breaks usability guidelines and that it's generally considered a bad practice.
+ href="javascript:void(0);" please don't!
+For those wondering about why "eval" is bad and how to get around it in javascript, go see http://www.json.org/ There's a free library available that can be used to safely en/decode JSON objects in javascript: Example usage: http://www.json.org/js.html Actual code in this one: http://www.json.org/json2.js 
+If you're going to all that trouble, why not just use XML? I thought the point of JSON was that it was simple to just eval it, rather than having to parse it.
+I really don't understand why doesn't every language have its own CPAN clone. I think the importance of CPAN to Perl's widespread adoption can't be overestimated. Yes, most languages have one or more package repository and/or installation system (Javascript has JSAN, by the way); but many try to be to clever for their own good (I'm talking to you, rubygems: multiple versions installed by default?!). Also, usually those repositories don't implement CPAN straightforward categorization, which in my opinion is one of its defining features, and rapidly evolve into a mess with many half-backed packages providing more or less the same functionality but with different cool names, making it hard to find what you need. CPAN != Sourceforge.
+Its still going to be faster than parsin XML with javascript.
+link to change log http://docs.jquery.com/UI/Changelog/1.5.1
+Is it? XmlHttpRequest can return an XML document object, which I assumed is created using compiled code. It's pretty trivial to traverse. Maybe I'm wrong, but I'd imagine parsing text into JS objects is slower than using the built-in XML functionality and already-built XML document object from the XHR object. I'd be curious to see numbers on that, to be honest.
+JSAN sucks.
+Microsoft Script Debugger is still the best tool for JS debugging. People who prefer Firebug are actually CSS people pretending to be programmers.
+It doesn't really seem as though the author "gets" functional programming as distinct from a standard imperative, non-OO style.
+No. Not having Java and Flash -- the two scourges of modern programming -- on your platform is, on the other hand.
+Sweet! I can't wait to use this in 5 or 6 years.
+well, if IE8 supports it we might be able to use it in only 3 or 4 years when IE7 dies :)
+The resulting function that it generates I can still 'read' and pretty quickly figure out what it say. I wonder if you could make one that uses a lot of relatively unknown javascript features so the average developer couldn't read it.
+Yup it's sick. Got nothing to do with JS though.
+It's a little too hackish for my liking. The security implications are not worth the small amount of control you gain over caching.
+The method the author suggest is far superior to using strings. When using strings you lose the scope.
+Frontpage? Really?
+Loving this. I should do really - I wrote it. It was a suprise to see it on reddit tho' M.
+Perhaps theres a better css solution? I'd like to keep header presentation script free, if possible. If not, nice script :)
+Why drag COM into this, if you are using C#, you could just use WCF to accomplish this.
+A better way to avoid widows would be with the programming language generating the page (I'm assuming it would be dynamic, otherwise you would just put in the `&amp;nbsp;` yourself). This is a bad solution because of the assumption that the user has javascript enabled in the browser.
+I think that in the situation they are presenting, the COM example is very good and relevant. If you're not familiar with Jaxer, it's server side javascript based AJAX framework. The example is relevant for a lot more than just .NET interop capable situations. I spend a good portion of my time developing C# apps but with the bit of time I've spent playing with Jaxer I've been really impressed. It's really made me wonder why Jaxer isn't getting more attention than it is.
+see also: http://www.blueskyonmars.com/2008/07/08/what-ive-been-up-to-the-dojo-toolbox/
+I'm reading it, and it really just seems like classic ASP, which allowed you to write server side code in javascript, vbscript, any 'active script' language really. Im not as well informed about it as I could be, but I guess I just don't see why I would use this platform over asp.net, php, or RoR.
+SWFAddress has been out for a while now, and offers the same capabilities. http://www.asual.com/swfaddress/
+Jaxer is based off of the Mozilla engine and allows for full DOM access to the page on the server (no spaghetti code). As a result, you can do things like share the same validation code on both the client side and the server side. Additionally, by setting the .proxy property on a function to true, it will automatically make them available on the client side without any hoops to jump through, you just simply call the methods from the client side and it takes care of the roundtrip for you. There is a [great screencast](http://www.aptana.tv/movies/jaxer/PlayQTFlash.html?movie=Validation&amp;width=975&amp;height=750#) that really shows how easy it is to do that stuff. Having spent a little bit of time working with it myself, I've found it's great to be able to work with just one language on both the client and the server. Some additional resources: * [overview](http://www.aptana.com/jaxer) * [screencasts](http://www.aptana.tv/#Aptana_Jaxer) * [walkthroughs and samples](http://www.aptana.com/node/215)
+In the [screenshot](http://bp0.blogger.com/_31lNRXLPoQY/SHVOprADKNI/AAAAAAAAAFQ/Sc35Efw8wuI/s1600-h/search-blog-yahoo.png) he has AOL Health open in a tab with "colon" in an obviously stale search.
+I wrote this up because I was inspired by http://vandev.com/2008/4/22/jsawesome which lets you create forms with a JSON object. I wanted something a little more generic. Feedback is appreciated. Thanks.
+Honest question: When it comes to games, why is JavaScript preferable to Flash?
+ How are these "out-sourced" (pun intended :) libraries kept secure? I confess I have yet to read up on google's implementation but glancing at this article, it just looks like they are delivered to the user's browser using standard http (HTTPS "parent" pages aside). If this is the case then isn't there a severe risk of MitM attacks? Regardless of how well Google are respected and conduct themselves, a compromised DNS server will allow the serving up of maliciously affected libraries. Does anyone know of anyway of signing/verifying such remote scripts so that the "parent" page could be assured they are what they purport to be? 
+There is always a chance of a MitM attack with nearly everything on the internet. Nevertheless, Google Analytics and Maps are two JS APIs that are used on 1000s of sites without such problems. I would not call it a 'severe risk', it is already an 'acceptable risk' for a free service that saves you bandwidth.
+the 'webdock' is a cool idea
+I've used both and (at the time) much preferred PostGIS. Hooked up to a few simple scripts, it will provide the same functionality.
+That non-aliased shadow makes my face hurt. Why not use the onion skin technique? jQuery's been doing that for over a year. Also, what's with the trend of designers forgetting a left margin when the browser window is smaller than 960px? Nothing to see here.
+There have been [a](http://bc.tech.coop/blog/030920.html) [number](http://www.crockford.com/javascript/javascript.html) of [bloggers](http://www.cubiclemuses.com/cm/blog/archives/000307.html) who have made the point that JavaScript is more like Lisp than C (whose syntax it superficially resembles). And I was rereading Graham's "Being Popular" and saw &gt; Lisp is not a massively popular language because it is not the scripting language of a massively popular system... a programming language really isn't a programming language unless it's also the scripting language of something. This only seems unfair if it comes as a surprise. I think it's no more unfair than expecting a programming language to have, say, an implementation. It's just part of what a programming language is. There has been a flurry of activity in the JavaScript community over the past few years (with some [curious](http://halogen.note.amherst.edu/~jdtang/arclite/) [offshoots](http://n01senet.blogspot.com/2006/10/jam-lisp-like-macros-for-javascript.html)). Anyhow, not that this is a [new idea](http://steve-yegge.blogspot.com/2007/02/next-big-language.html), but I'm pretty sure the next big "lisp" is JavaScript. 
+Prety cool. The heart of it uses Javascript timers to do the actual concurrency but the real hack was taking arbitrary functions and translating them into continuations. Wow.
+The nice thing about JavaScript is that you can kind of use it as you please. If you wish to use loops and classes, you can (with the help of frameworks for classes) or you can use recursion and closures of you chose. While being kind of mysterious and seemingly incomplete, it's a very flexible language. It will be interesting to see how well [JavaScript2](http://developer.mozilla.org/presentations/xtech2006/javascript/) is received by the community. It seems JS2 will make the language more practical, but may take some of the fun out of writing it, like being able to change the prototype of any class/object, even native ones.
+I prefer my implementation :D It's based on Python3K's format.. **Code:** http://code.google.com/p/jquery-utils/source/browse/trunk/src/jquery.strings.js **Doc:** http://code.google.com/p/jquery-utils/wiki/StringFormat **Blog:** http://haineault.com/blog/58/
+Lisp is not a massively popular language because it has people like Paul Graham saying things like: &gt;It has sometimes been said that Lisp should use first and rest instead of car and cdr, because it would make programs easier to read. Maybe for the first couple hours. But a hacker can learn quickly enough that car means the first element of a list and cdr means the rest. Using first and rest means 50% more typing.
+That is some messy code...
+cloneNode(true) is so wrong for that purpose.
+As opposed to learning it, I mean. I have a decent knowledge of Javascript, meaning I don't need to be told what var means or do any exercises in making a ticking clock appear on the page. However, my knowledge is cobbled together from experimentation and is almost certainly full of blind spots and cargo cult mentality. I've got Google, MDC and Reddit, which are all great for patching holes, but you have to know the hole exists first. Where can I look in order to become less of a hacker and more of a guru? http://oreilly.com/catalog/9780596101992/ ^- I would go straight for Javascript: The Definitive Guide, but the reviews are not all positive and the criticisms are fairly withering. Any recommendations?
+This was on Reddit a year ago; it belongs in the recycled subreddit. http://www.reddit.com/info/11ozg/comments/
+&gt; I noticed that when I happen to read a blog post, have to search for the keyword demo and skip 3 pages in order to see it in action, just to know if it's worth reading. Well, I hope that I'm starting a new trend :D I hope so too.
+This bugged me for maybe a day when I was learning Lisp. It really isn't much of an issue, any more than JavaScript's many quirks are. All the real issues come down to what can you do with the language once you have a reasonable (not perfect) understanding of it.
+We will see in a bit that the javascript code actually looks for divs with ids in this format to determine if a menu has a submenu. And just like with the level 1 menus, 
+Otherwise known as "the simpleton" in languages such as javascript which have a single toplevel namespace. 
+I've been using dojo for a year and still stuck on 0.4, hesitant about updating because all the god-damn work, but it'll have to be done one day. Dojo is pretty fucking excellent though, it reshapes what you think is possible with javascript.
+Just me or is this Ojay basically just a less intuitive jQuery?
+My impression is that the difference is that Ojay allows chaining even of asynchronous methods, whereas jQuery only permits chaining of synchronous methods. Seems like a neat idea...
+Nice! They've implemented static analysis of JS code to infer variable types. 
+someone should really take this guy's hammer away. he's using it wrong.
+Sweet article! I was taking a break from coding a new site when I saw this, I'll definitely be implementing some of these. 
+*sigh* He's doing it all wrong.. You shouldn't deal with style rules in your javascript code. Instead you should add and remove special classes from your HTML elements. This separates the design and the javascript code. You shouldn't use onxxx="" event triggers but instead your javascript that transform a non-javascript version of your page into a better javascript-enabled page. This is called [Unobtrusive Javascript](http://www.google.com/search?q=unobtrusive+javascript) and is generally the way to go. Don't try to do this without one of the many javascript libraries out there, e.g. [jquery](http://jquery.com)
+[CSS3 Media Queries](http://www.w3.org/TR/css3-mediaqueries/) can do that in Opera, Safari and soon in Firefox. 
+Unless it's changed since I played with it a couple of weeks ago, you still have to create your projects as Java (or Ruby, I think) projects. So it's not all *that* convenient if what you are looking for is just a better JavaScript editor.
+no. GWT is not a solution, it's one more problem in your existing stack of problems.
+Rockin'!
+SSJS is the future.
+The dream of a multimedia world without plug-ins (flash or silverlight!) Now... tell me again how this SVG stuff is going to handle audio?
+for "secure cross-domain browser based data transfer... can be utilized for creating secure mashups with untrusted sources... handles the cross-browser issues and protects against the different attack vectors so you can safely utilize this protocol."
+Its for older versions of firebug. And newer versions of firebug already have this feature.
+In other words: It's really frustrating. Although, Brandon Aaron (the maintainer of this module) just said that he has a new rewrite coming that is about 1/2 as many lines and is many times faster - which is fantastic news. [More details](http://blog.brandonaaron.net/2008/07/19/offset-performance-teaser/)
+yes, it is. The link, of course, is shamelessly stolen from your very helpful [post on getBoundingClientRect](http://ejohn.org/blog/getboundingclientrect-is-awesome/).
+I have to admit, the link title pulled me in. I was thinking "it's not easy at all, what's this guy smoking?".
+Crap, that _is_ fantastic news. I love you guys.
+Disadvantage: Unnecessary memory overhead of creating two object instances instead of one. Just to facilitate the notion of "private" data.
+Good. Just getting stuff from Flickr in JS was a lot like jumping through a rapidly shrinking hoop.
+Its really sad that useful libraries like these get buried in the darkest corners of the internet.
+These are some really dramatic differences as far as the JS performance goes. But not sure about the part where he speculates "I strongly suspect WebKit performance has improved across the board"; it seems like most of the performance improvements that the Webkit team made over the last year were in fact to the JS handling (not to the DOM handling or whatever else). So while there it seems like there most likely were some performance improvements in others areas, it's unlikely that any of them were anywhere near as dramatic as the JS improvements.
+Have a look at [this](http://www.intertwingly.net/blog/2007/09/11/SVG-on-IE-via-Silverlight-Revisited) instead, which uses XSLT to convert SVG to Silverlight.
+Isn't the hardware in the new iPhone faster too? That would also make a difference.
+Silverlight requires a plugin. This uses VML which comes pre-installed in MSIE.
+Yes, but it has the distinct disadvantage that you need to transform your SVG to JS first, or (shudder) create your vectors by hand. Having said that, it ought to be possible to use XSLT to convert SVG-&gt;VML.
+I can think of a lot of reasons you'd want to programmatically create the vectors to do things like charts and maps and anything that relies more on data than an artists touch. I've got the initial stages of an in-browser illustrator like site that allows you to draw shapes and save the drawings on the server but thats a long way away. I'll have some more demos up soon that might make some of the advantages more obvious. 
+&gt; Having said that, it ought to be possible to use XSLT to convert SVG-&gt;VML Now that would be cool. I remember reading on Sam Ruby's blog that someone is trying to do this.
+It reminds me of this time I had to help my friend with a problem, he was all frustrated that he was getting "access denied" everytime he would read the file, but couldn't figure out why. Eventually we figured out that the contents of the file were "access denied" and it was reading the file just fine.
+It was sloppy to start with, but when he wrote "I concur..." and then immediately disagreed, I just couldn't take it anymore.
+Does Mootools extend Object? That would be sad, because overall it is definitely quite nice and works better for animations than jQuery (which, btw, does not mangle up JS).
+No benchmark for `map`? Firefox 2 executes a no-op `map` faster than a no-op `for` loop on my computer.
+John Hartford reference! Sweet! [I also like him.](http://www.reddit.com/comments/6fbe1/ask_reddit_whats_your_favorite_band/c03okug)
+Does anyone else find these blog posts hard to read?
+I think it's the run-on sentences. I didn't check to see if they're actually run-ons, mind you; it's just that as I was reading as fast as I can, I would frequently find myself thinking, "Jeebus, isn't this sentence over yet?" and then I would go back and check to see if I missed a period, and sure enough I hadn't, so I figured that it must be a run-on, but I think there's some technical requirement for that to be true, not just a lot of words, so not having the mental energy to figure it out, I just kept on going and assumed they were run-ons.
+I see what you did there :) But yes, this is one sentence: &gt; I responded to the jackals nipping at my heels that yeah I know but in this case with vast incessant repetition of a small collection of opcodes that recognition would not be an issue and that it was much better to diminish the low information content (cue Shannon) of long names (what exactly does make-product add to m* in a context where a leading m is used only for makers?) and learn a dozen opcodes which were mnemonically and predictably built anyway from atoms such as M and * and EO.
+Is Firebug somehow too 'heavy'? Or is it just that it works in other browsers?
+He has style. I find him amusing.
+If I understand this right, in firefox 4 we get features like type checking in our JS, as well as the ability to compile our javascript2 to bytecode and run that in the browser? Sweet, that should make script downloads and execution much faster.
+The article mentioned that the previous version only supported `console.log`. I imagine that name is an attempt to sell the lack of features as a positive thing :)
+Why make these static method attributes of `Object` rather than just declaring them as normal functions?
+Old thread, but for anyone just walking in, I have learned that the abolute best way to learn it, is to try to DO something that the widget libraries do for you. Do your own Ajax. Try building your own grid. The toolkits are nice, but its easy to miss how they work, which translates to trouble when something goes wrong. Build your own libraries, then try components others have built. Eventually you can jump into Dojo, jQuery, YUI, etc and feel quite at home. The thing about these tools is that there is no magic in them - they are *just* javascript like you are writing on your own. Go this route and you'll have a much better understanding of the whole thing.
+Mozilla has CSS solutions to handle this problem, but I do admit, doing this is a pain in the ass.
+Webkit has CSS3 columns too, but multiple columns like these usually aren't a good thing on the web (causing mix of horizontal and vertical scrolling if your screen doesn't have size expected by the designer)
+That whole page is well done, with brief, but descriptive sections, great examples of every feature, a clean look, and a neat page-scrolling trick when you click the section links in the left column.
+Very nice. But it's not free.
+Or.. you know.. You could use the more standard friendly onclick="alert('boo..'); return false;" &amp; have an actual link in the href that does the same as the JS action for those without JS...
+Isn't this pretty much Javascript 101? I don't think I've ever met anybody that was fluent in Javascript, but had never heard of or had to use void(0).
+Much better. Furthermore, void is an operator and not a function, and thus the parentheses are completely misleading and useless clutter in this case.
+Somehow, I first read this title as being about masturbation and lotion.
+I'm... not really sure what the article is about.
+Title should be "Inline" JavaScript Libraries for Increased Performance. Batch may be acceptable as a word, but it has other meanings in comp-sci, inline is more appropriate. Also something like rhino should be used also to compress your production, inlined, javascript. You can also fetch JS anytime in a pages life, so sometimes it's better to wait and load some JS until you need it.
+Why are we still fixing IE6? Anyone know what the % of users who are still on 6 instead of 7 is?
+awesome! i had been sitting on this idea for a long time, having implemented a much less robust key handling implementation in the past. This is provides exactly the interface i had been thinking of. top notch! 
+Very cool, although some of the alt commands (alt-tab, alt-esc) aren't being captured (I'm not sure if they can be, actually). 
+eh, another case of "gee, I have no clue about HTTP! instead of reading the RFC, I'll just throw together all headers I can google!" 
+It's possible to indirectly assign to object members. var obj = {}; obj["foo"+"bar"] = "baz"; alert(obj.foobar); //alerts baz The question is, how can do I do that for variables? Is it even possible?
+So you want to do something like: var "foo" + "bar" = 12; alert(foobar); // alerts 12 ?
+yup.
+eval("var foo"+"bar" + "=12;");
+global variables are also properties of the window object so: window["foo"+"bar"] = "baz!"; alert(foobar); // alerts "baz!" but this looks like something you should avoid doing.
+Don't think it's possible. Sorry mate. Variables are only assignable via their identifiers, afaik. You can hack around it via doing a 'with' and then using your injected properties as though they were top-level: obj = {}; obj["foo"+"bar"] = 'hats!'; with(obj) { alert(foobar); //alerts 'hats!' } Or you could do it fforw's way, but he's right that you ought to avoid it.
+Although eval is something people frown upon, it works and respects the scope as well.. Thanks. I'm guessing that there isn't another way?
+Just be careful what you pass into it and you'll be fine. It may be frowned upon but it is a huge advantage of a language like javascript, I use it for remote json parsing regularly, I don't know how else I would do it. I guess I could use XML or another format and write a parser in JS, but that just seems like re-inventing the wheel, only slower, and it would be subject to some of the same security problems.
+The problem lies in that people want to force a reload, while the asset is still cached, and as such shouldn't make a request. If you want it to check the server every time for cache validation, use e-tags exclusively, otherwise if your timeouts aren't expired it won't reload.
+It's still better to use eval in controlled method, it's not good to fill global scope up, eval wouldn't mess with that. If it's within a function you can probably also do. this["foo"+"bar"] = "hats!"; This would keep it within the functions scope probably, haven't tested. 
+May i pose the obligatory meta question: if it is just a variable name, why does it need to be created on the fly?
+I think you're asking the wrong question. Tell us what you want to do. There is most likely a better way to do it. I've never come across a problem that would be best solved by dynamically calculating variable names.
+fforw is right. Technically global variables are properties of the global object, which in the browser case is window. (If you're doing server-side JS, that won't be so.) This is a bad idea b/c creating global variables is usually a bad idea, but it doesn't strike me as *particularly* bad.
+eval is evil, so don't use it, and polluting the *window* namespace is quite bad actually. If you're not inside an object, or a function already, create your closure and use *this* instead of window.. (function() { this["foo"+"bar"] = "baz!"; alert(foobar); })(); *edit:* fixed typo.
+&gt; eval is evil, so don't use it That's unnecessarily vague - there should be, at least, some qualification here. Your proposed code doesn't work as you expect it to. It would assign a variable to the global object (this inside of a (function(){...})() refers back to the global object). To get something similar to what you're looking for you could do: new function(){ this["foo"+"bar"] = "baz!"; alert(this.foobar); }; But that's not, precisely, that the user was looking for. eval() would give the proper answer here - but it's very possible that the code could be written in a different way to avoid it entirely (not because it's "evil", but because it would be unnecessarily slow in this case).
+I use it for JSON parsing as well. Pretty sure a lot of people do. That's one of the huge advantages of JSON, you just have to run it through eval(), and voila, you have yourself a native JS object.
+Thanks master.
+I also want to know the answer to this, not least because I spent the morning picking through awful Javascript I wrote just a few weeks ago and wondering what I was thinking. I have a feeling you're looking at a solar powered car and wondering how to put the gasoline in.
+What javascript really needs is an include statement to load other js file from inside a js file. It would work like CSS's @import. But, no, you either have to write to the document or do some inane DOM manipulation to load a js library if it isn't already in the DOM.
+If the one-letter diff isn't enough proof, eval is explicitly documented as evil here: http://javascript.crockford.com/code.html
+&gt; I don't know how else I would do it. Use a [JSON parser](http://www.json.org/json2.js)? Eval is fine, but adds a security concern in case someone can inject things into your JSON.
+&gt; run it through eval(), and voila, you have yourself a native JS object. Or voila, a security vulnerability!
+Not if you're also the one delivering the data to be parsed, which is *very* often the case. Unless of course you hate yourself and you knowingly want to generate malicious code.
+That's nigh useless until there is actually a demo.
+it's upcoming work; I'm excited to see it released along with the new version of the 3d context it depends on.
+ function include(sFilename) { var oHead = document.getElementsByTagName('head'); var oScript = document.createElement('script'); oScript.setAttribute('type', 'text/javascript'); oScript.setAttribute('src', sFilename); if ( oHead[0] ) { oHead[0].appendChild(oScript); return true; } return false; }
+&gt; The eval function is the most misused feature of JavaScript. Avoid it. &gt; &gt; eval has aliases. Do not use the Function constructor. Do not pass strings to setTimeout or setInterval. Phew! I'm overloaded with useful information here. Thank goodness I avoided that rat trap! It's this massive pile of information that has helped JavaScript developers make well-informed decisions for many years.
+check the referer? isn't this something "insecure"?
+Canvas 3d JS Library » Explorer demo (not the demo)
+Last I checked, that didn't work in Safari. Maybe they've since fixed it. The only ubiquitous way to do it is to document.write the script tag, which you can't do after the page is loaded or it'll blank out the page. They should still make a built-in for it, IMO.
+You didn't check recently enough, then. It works fine in Safari.
+The issue you are thinking of is detecting the onload event of the script element. This has since been fixed and works as would expect it to in Safari 3.
+the new operator sucks donkey balls. I would rather have \_\_proto\_\_ as the standard. Class based inheritance is baby talk compared to true prototypal inheritance. By that I don't mean the stupid new operator I meant the freedom to mutate the inheritance at runtime with \_\_proto\_\_.
+Bah, sometimes (albeit, very rarely) well-informed decisions are overrated, and appeal to authority - underrated. In theory, it would be a good idea to have perfect information in all of the decisions we make, but practically, we would get tied up all day if we take the time to always make perfectly-informed decisions all the time.
+Very interesting. The multiple-directives is ugly like goat, but otherwise everything seems nice :)
+I'm excited as well, but the post is pretty light on details, so it seems moot until they finish the work. I'd at least have liked to see a brief technical discussion of the implementation thus far.
+Cute, reminds me of the old Ruby template engine [Amrita](http://amrita.sourceforge.jp/).
+Sadly \_\_proto\_\_ is still beyond reach. Workarounds like the Object.beget function only achieves half the power. Here's an example of what I'm talking about. This only works under webkit and gecko. var wolf = {cry: "hooowwll"}; var sheep = {cry: "baaaaaa"}; var me = { who: function() { console.log(me.cry); }, swap: function(){ if (me.__proto__ === wolf) { me.__proto__ = sheep; } else { me.__proto__ = wolf; } } }; var i = 0; for (i; i &lt; 10; i = i + 1){ me.swap(); me.who(); } BTW.. Crockford is God.
+If the user doesn't have a cookie, this whole operation is a no-go either way. Which means that before this process has even begun, we've established that the user is logged in. After that, then we check the referrer. Basically, this is a layer above normal authentication.
+or with plain DOM1: &lt;input value="example" onclick="this.value='';this.onclick=''"&gt;
+I'm just curious, really. I know a number of other languages have various certification programs (e.g. PHP Zend Certified Engineer, Microsoft has all their own programs, etc.) JavaScript is rather non-standard so I'm kind of guessing the answer is "no," but still figured I'd ask.
+I like it but here's an interesting glitch (in FF or IE, anyhow): Go to the page, then go somewhere else, then press the back button. The instruction text will now be black instead of gray. Also, there is a perceptible pause before the help text shows when you first load the page in IE.
+But what if I *want* to enter `first and last name` in that field? If I click back to it, my carefully entered text disappears! :-P
+Not quite. That only shows the default text until the first click, it doesn't change the font style, and it may interfere with other click events.
+I don't care about font style and there are no other click events for that input that I care about. But if you want to make things more complicated than needed that's fine.
+Hell, I don't even like using "default text". I'm just pointing out that the result is not the same.
+Hint: jQuery encourages to do that too, but they prefer to do it when the DOMReady event fires, so all items in the tree are already accessible. Additionally they don't have a central `addEvent()` method but use specialized methods like `click()` which bind functions to events when invoked with a function as argument and fire the event when there are no arguments. Pretty nice. This is one of the parts which are made quite well in jQuery, while Mootools has some other nice things in it.
+In the decent-sized JavaScript programs I write, all my functions and variables are elements of a single object, so it's trivial. fforw has the right answer when you're polluting the global namespace. Don't use eval--it's silly and overkill for this job.
+This is a pretty good trick that will ward off the average user, but all I had to do was view source and I got the picture
+Or turn off javascript. These sorts of tools are pretty worthless. And actually, it doesn't work with linux + ff.
+This is worthless. Watermark your images if you really must prevent unauthorized use.
+Whoah. If I've ever seen sub-zero usability, this is it: Inaccessible by keyboard, hard to use with the nipple on Thinkpads, and without having a touchpad anywhere near, I'd guess it would be difficult there as well, as it was a royal pain in the ass with a regular mouse. Whatever was wrong with asking people to actually type in the time?
+I think a time picker that uses rollers (yes, like the iPhone) would be easier.
+Usually, the mouse seems easier for me than the keyboard. Not in this case. Imagine fiddling with this thing rather than just typing into google's calendar "dentist 3:30p"
+Note: Looping an array like that could be a bad idea. I recently ran into a problem adding AjaxPro to an old application at work. As soon as I would tell AjaxPro to generate proxy methods, my page would start throwing JS errors. They were coming from a line inside this crufty rich text editor they'd gotten from somewhere. As it turns out, AjaxPro extended the built-in array methods with some helper functions. Looping an array with a for-each loop like that returns not only the data, but also the methods added to the prototype. Whoops. Just use a regular for-loop or Jquery if you want better iterator support since you never know when some external library might pull a trick like that.
+Time that could have been spent fixing PHP instead of ruining JavaScript.
+I'm actually a pretty big fan of implementing PHP's date function in JS, because JavaScript's native Date object is just so damn messy.
+Was it really necessary to write array\_pop and array\_push functions when JavaScript already has pop and push methods in the Array object? It seems like a better use of time would be to add the missing functions (such as array_product) to their corresponding native JS objects instead of creating a ton of new functions.
+EcmaScript needs these changes. I've been playing with the language in all its permutations for many many years now, and each iteration makes me say "thank god" instead of "oh no". My projects have grown in size as the language allows, and ES4 has allowed them to grow fairly large. Every day, I see strange, hideous beasts of code that are made to address the shortcomings in ES as it stands today. No one *wants* to make ugly workarounds for public and private methods, or a class system with truly horrible syntax. We make them because complex applications call for them. ES is a beautiful language, but it's difficult to scale, and that's how people are using it. I think forking the language would lead to some major problems. We're already dealing with a number of different implementations -- and I think any programmer knows that branching = not usually the best solution. I think it's also unnecessary; most browsers (as far as I know) allow you to specify the version of ES you're using, and Flash allows for this as well. I'm really glad ES is evolving with the web, growing out of a simple scripting language to a respectable, capable, programming language in its own right.
+Well that was a waste of time.
+JAVASCRIPT. Please stop using the bastard name of this language. Otherwise I agree. Leave JAVASCRIPT alone.
+Erm yes, but it could be implemented as part of the JS Date object in order to fix it (e.g. add a "format" method for formatting, a "from" static method to create a date from a string + a format, ...). As teaguesterling pointed out, this could've been a nice project if it'd been about re-implementing the *function* of the PHP stdlib with a *sane* interface (due PHP's being fucking stupid. And insane).
+I think this is really cool - I've used PHP for several years, but my JavaScript is really weak. JavaScript is a wonderful language with so many fantastic features that I'll never get around to learning, because all I need it for is to popup the confirmation dialog and modify some CSS on-the-fly. I usually end up with an ugly script full of cut+paste code, simply because I don't know enough of JavaScript to cope (although I know enough of other languages to know what I'm doing is horrible, which is even worse!) Although I hate how long it takes to download and render websites with too many javascript dependencies (spend twenty seconds trying to load digg or mashable recently, anyone?) so I would probably just pick a few of the best functions, rather than include them all in one go. (edit: Sorry for the wall of text. Feel free to tl;dr!) (edit: to the downmodders, yes, I'm (painfully) aware PHP has plenty of flaws)
+Seriously i'm trying hard to think of a worse project idea, but im struggling here. Why would you want to repeat PHPs mistakes in javascript? It has enough problems of its own!
+Why don't you learn one of the javascript frameworks. Makes things alot easier.
+Good Lord this has got to be the worst idea I’ve heard all day and I’ve only been awake for about 2 hours… Furthermore, based on a quick scan of the API, they haven’t even properly replicated PHP’s behaviour. Take a look at `reset` and `end` for example. The documentation for `reset` clearly states, “Set the internal pointer of an array to its first element.” Do JavaScript arrays even have such an “internal pointer?” I don’t think so. The purpose of `reset` isn’t just to return the first element of the array. It’s meant to be used in conjunction with `prev`, `next`, `current`, `key`, and `each`, none of which appear to be implemented in this project. (Don’t mention that this sort of internal iteration is brain-dead from the beginning.)
+array_product? please no. call it "reduce" or "fold", with the multiplication operator.
+The `new` operator runs the function in the context of an object of that type. `this` will refer to said object, not the window.
+Yea, that would make a bit more sense.
+There’s also an `array_sum` which is the reduction of the addition operator. And then there is `array_reduce` which, without decent anonymous functions and lexical scoping, is full of fail.
+PHP people will love it. JavaScript people will hate it. No surprise. If it acts a crutch for a PHP programmer to start learning JS, I have nothing against it.
+I think a lot of JavaScript programmers are afraid of what might happen to the code they have to look at once Class shows up, but ECMAScript 4 solidifies a lot of cool features that have been in FF since FF2. Array destructuring is awesome, and very much in the spirit of JS. Iterators and Generators are nice too. Let's face it. I love prototypical inheritance, too. But can it be any worse to look at code that have ECMAScript's Class in it than it is to look at current code that uses one of two dozen libraries that support some kind of traditional inheritance?
+I'd be concerned if you came across a worse idea in only 2 hours.
+The spray of bugs that come out of some pages and some widgets is amazing. You'd think the developer would have Firebug running and see them. You'd think the developer would at least TRY to validate the HTML and think about which things could cause havoc.
+&gt; Recently I have taken the time to report the JavaScript errors I encounter Recently I have taken to standing on the beach and commanding the tide to halt and not wet my robes.
+Browser bugs need to be stamped out is a more accurate title. Yeah, pushing out without testing in IE is bad, but let's quit blaming Javascript when it's clearly a browser bug at fault.
+Hear-fucking-hear. I can't even wrap my head around debugging code against *all* browsers for *all* OS's. Keep working on those frameworks, gents.
+What!? *It's not my fault for not testing, it's the browser.* I wish I could still get paid after saying things like that.
+Bugs get fixed by bug reports. The guy sets a good example. Do you vote in elections?
+Firefox bugs != MSIE bugs
+&gt; Bugs get fixed by bug reports. ORLY?
+God, I get so sick of Crockford going on about how broken Javascript is. Go and write your own damn language.
+That's mostly how I fix bugs. Remember the author of TFA is talking about reporting particular web-site bugs *not* browser bugs.
+Exactly.
+I don't know if your being ironic and I should mod you up, or stupid and mod you down. Please tag your comments appropriately.
+better yet: product() and sum() functions taking lists. abstracting over reduce().
+You have to use the term ECMAScript in this case because ECMAScript version numbers are not the same as JavaScript version numbers. ECMAScript 3 is JavaScript 1.8 and JScript 5.7 and ActionScript 2. I think JavaScript 2 will be ECMAScript 4, but I'm not 100% sure.
+You should, y'know, read the actual book.
+Looks more like a community problem than a framework problem to me.. On the other hand, why it's such a drama that there is some duplicate plugins ? Natural selection and time will tell which is the best and the others will slowly fade away as they probably wont be maintained.
+what is it with this recent flood of jquery plugins that seem to be better solved on the server side? Do the people using them just don't care? Is it just a symptom of bad server-side languages/platforms? 
+I use http://bassistance.de/jquery-plugins/jquery-plugin-autocomplete/ and it works just fine. If looking at JavaScript or picking between many bad options scares you, stay out of web development.
+Too many plugins to choose from is a good problem to have. 
+It is not a problem with jQuery itself, then.
+Concerning the first point that relevancy trumps latency, I would actually suggest that the delay could be drawing additional attention. Imagine an empty box on your screen that doesn't load until a second or two after everything else. This could help draw additional user attention and drive up the response rate.
+Here are my suggestions for improving the plugin catalogue: * Add a rating system &amp; display each plugin's number of ratings and avg score. * If a plugin is derived from another the author should be able to specify the derivative link and the system track and display it to visitors. * Next to each plugin author's name, show: average rating of their plugins plus number of plugins published. And I agree with ryan: the problem obviously does not lie with jQuery itself. There is a disturbing recent trend (or have I only noticed it recently?!) of choosing not just contentious and provocative titles for posts to cynically boost interest, but plain wrong and/or misleading ones...
+Everybody has their own requirements for Autocomplete. If you try some of those plugins you'll probably find that only one or two work the way you want. Are there really any other large groups of redundant jQuery plugins?
+But what if I do not work with vector graphics on the web? Will this decrease the effort to work with them beyond 0?
+If you look at the demos, it also has features like reflections and rotation which you could apply to non-vector images.
+The article doesn't mention any mime types? Seems like the author doesn't understand what a mime type is. **application/x-javascript** is a mime type
+Please explain what this submission is about.
+Lol on subract 8 because I'm always off by 8.
+I've never used Canvas, or any of the SVG functions, so I thought I'd try this out. **Super easy**. Here's a clock: Clock = { angleForPercent: function(percent) { return { x: Math.sin(6.28318 * percent), y: Math.cos(6.28318 * percent) } }, drawFace: function() { paper.circle(320, 240, 50).attr({fill: "#223fa3", stroke: "#223fa3", "stroke-width": 3, "fill-opacity": 0.5}); for (var i = 0; i &lt; 12; ++i) { var angle = this.angleForPercent(i / 12); var width = (i % 3 == 0) ? 3 : 1; paper.path({stroke: '#223fa3', "stroke-width": width}) .moveTo(320 + 40 * angle.x, 240 - 40 * angle.y) .lineTo(320 + 50 * angle.x, 240 - 50 * angle.y); } }, clean: function() { while (paper.canvas.firstChild) { paper.canvas.removeChild(paper.canvas.firstChild); } }, drawMinuteHand: function(minute, second) { var angle = this.angleForPercent((minute + (second / 60)) / 60); paper.path({stroke: '#223fa3', "stroke-width": 3}) .moveTo(320, 240) .lineTo(320 + 45 * angle.x, 240 - 45 * angle.y); }, drawHourHand: function(hour, minute) { var angle = this.angleForPercent(((hour % 12) + (minute / 60)) / 12); paper.path({stroke: '#223fa3', "stroke-width": 3}) .moveTo(320, 240) .lineTo(320 + 30 * angle.x, 240 - 30 * angle.y); }, drawSecondHand: function(second) { var angle = this.angleForPercent(second / 60); paper.path({stroke: '#223fa3', "stroke-width": 1}) .moveTo(320, 240) .lineTo(320 + 45 * angle.x, 240 - 45 * angle.y); }, drawClock: function() { this.clean(); this.drawFace(); var d = new Date(); this.drawMinuteHand(d.getMinutes(), d.getSeconds()); this.drawHourHand(d.getHours(), d.getMinutes()); this.drawSecondHand(d.getSeconds() + (d.getMilliseconds() / 1000)); }, clockLoop: function() { this.drawClock(); if (!Clock.stop) { setTimeout((function() { Clock.clockLoop(); }), 1000 / 30); } }, start: function() { this.stop = false; this.clockLoop(); }, stop: function() { this.stop = true; } } Clock.start(); * edit: updated for smooth second hand movement
+This is pretty slick. I've attempted to do things like this in JS before, but one thing that always stops me is the inability to have the grid stretch to the width of the page. It doesn't look like you can stretch the total width / height. Am I just missing it? And I don't mean fixed with / height - stretch to the full width / height of my window!
+it's all nice, but it does not validate. Personally I couldn't care less because I know that these kinds of standards deviation do not cause any problems and the Dojo seems to have a [decent testing concept](http://alex.dojotoolkit.org/?p=588) for it -- but this will not fly with our customers. Luckily most of them nowadays care for standards, but not in a good way. "It has to validate" is all they care for, just because the rules say so, they don't care about rationale and viability. edit: fixed link 
+SWFObject is awesome. If you've ever tried to be standards complient with embedding flash in a page (especially a flash movie player) you know what I mean. It degrades really nicely.
+I agree that it is a fantastic piece of software, but I'm left wondering why on Earth this article in particular used the *old* style of SWFObject API commands rather than the current version...
+'ProDevTip' #1 should be: use a VCS for storing your Wordpress theme files, then you won't keep losing your work... &lt;/cheapshot&gt; 
+you used jQuery's hide() and show() functions? That is un-fucking-believable
+yeah, but what's the point?
+Document**Dot**Write
+i saw that. but why?
+Crappy code. Using setTimeout after a keyup, setting innerHTML to unsanitized input... bleh.
+debugging? troubleshooting? Maybe it did something else at one time... like escape characters before document.write() or call document.close() when done. who knows.
+Its not stupid. Often times you want to abstract core functions to stick in various alerts/debugging aids without having to change all instances of the call. 
+well, then the proper way in javascript would be to add a new debugwrite function to the Document object and then have it use Apply() to call write with the arguments when appropriate. It's not wise to work in the javascript global scope like that, what if they inject adds to a site that his there own DocumentDotWrite???
+In my newbie days, I made my own versions of trace, and print statements that also took a 'level' argument, and passed it along to the real command. I would put in debug calls to my own function wherever I would often need to know something. I had a little system worked out as to what denoted my handful of levels, but this let me toggle all of them on, or off individually. It made sense at the time. I was working in environments that didn't have breakpoints, or debuggers.
+It is stupid. If this is what you're trying to do, the last thing you should do is name it "DocumentDotWrite".
+Well, im assuming this is pre-deployment development, thats all. Certainly, this usage does make the smoke alarm go off, but its no evidence of fire.
+Good point - the new version has been out for quite a while
+What would be a more convincing one liner saying FIRE. CONST ONE=1;? The fact that it's in it's own include file is wtf enough for me.
+okay i'll bite. why would you want to do this?
+reposted [from proggit](http://www.reddit.com/r/programming/comments/6w5ac/ecmascript_4_javascript_2_is_dead/); the comments there are recommended reading.
+would smell just as sweet?
+LOL, I wish. Some browsers give you much more info. than others.
+Step 1: Start using it. Tada!
+I wrote this small validation framework, and since I find it useful, I decided to open source it. Since this is my first more serious piece of Javascript code, I would like to hear advices and opinions.
+If you think people will print out your pages and then use the printout later where a barcode reader will be used. Airline tickets that you print out, do this now. 
+The image is of a Samurai, isn't it?
+My boilerplate statement, at this point: While I do feel that it is a very nice cover I completely agree that it is not a ninja (or, at least, not the traditional hollywood ninja). I provided an alternative ninja for the cover, found on the book’s web site: http://jsninja.com/ but Manning opted not to use it. I hope to change their minds.
+&gt;It's a quick-and-dirty way of accessing the original prototype property of the object's constructor function. quick-and-dirty? Oh come-on.. man up and say the truth. Stop throwing sugar at us.
+Hmm? It's quick (just a simple property access) and dirty (not in any ECMAScript specification).
+I think that's why \_\_proto\_\_ should be a standard. All of us would be a lot leaner if sugar was for flavour and not our primary diet. You know how ground breaking \_\_proto\_\_ really is. Don't you?
+With Windows Script Host, you can actually write Javascript server processes that have no UI element at all. It is an outstanding language for rapid development. Memory leak issues, however, do have to be managed for long-running server processes.
+Very cool!
+Just in case you want to internationalize your Javascript?
+[Just in case](http://code.google.com/p/jquery-ui/source/browse/#svn/trunk/ui/i18n).
+I'd say: yeah. I mean come on, when I create something and want to reuse it I start creating another JS library. So why not just use one existing that is properly tested, working, has many users and documentation. The some-kilobyte of jQuery or the even-less-k of Mootools aren't really that important considering what you get for it.
+jQuery has such a great array of plugins it's pretty ridiculous not to use it. Cut down my development time quite significantly.
+AppJet is pretty impressive but from my experiences, the [Aptana Jaxer](http://www.aptana.com/jaxer) platform is much better overall. 
+Some the proposals mentioned don't sound very "javascript" like, like the addition of classes would not make javascript a better language. I'm a bit confused how a combination of hasOwnProperty and typeof==function wouldn't do the job here.
+What about dojo (my favorite toolkit) It re-taught me everything I knew about javascript OO.
+It's the binaryajax.js file that is cool.
+Okay, I'm a retard. This is so painstakingly obvious yet it never clicked with me. In fact, I was wondering what was causing this problem at work today. Thanks for posting. I'll let myself out.
+not unobtrusive
+The author seems to suggest that the alternative to a jQuery implentation is "sticking these images all over the HTML". I love jQuery as much as the next guy, but it's a cinch to get the same effect using only CSS. I'd appreciate more a jQuery method that would apply external link images in browsers that don't support the necessary CSS rules.
+It's a sad, sad day when Dr. Dobbs decides to use lolcat grammar in its articles. 
+This makes a really big issue out of the need to account for document.all in IE.
+I tried to use the caller method once to drastically simplify some metaprogramming I was doing. If I recall correctly, it worked in only some browsers. Stay away from these unevenly supported features unless you're sure of your target environment. For instance, I'm a bit more adventurous with my JavaScript when I'm writing an AIR app, because I only have to worry about WebKit's evolution in the future, not the past, present, and future of 4 major and N minor browsers.
+The Firebug updates were coming so regularly this past week or so (which wasn't very encouraging), I didn't even realise I'm already on 1.2.0
+Yes, it seems to me like I did a few Firebug updates a day, for the last few days, but that was on 3 computers.
+Using inline events is bad practice, since it makes you mix behaviour and structure. Anyway, I really don't see the point of this code.
+I hope this hasn't been asked yet, but... What is everyone's favorite javascript toolkit? I'm looking to move some of my own code into one of the toolkits since I'm getting sick of making sure everything is 100% compatible. I like what I see from both prototype and jQuery. I'm looking for something that's lightweight rather than having too many features, especially since my own code already implements many of them.
+jquery 
+Do you have a OO Class system implemented? If you don't, then you could keep your functions and use Base2. That way I think your library would remain "compatible" with other libraries and it would have a nice object system. If you also want simple core functions then I recommend Mootools Core, they're performant and lightweight. You can also download the Class object from Mootools. Since Mootools lets you make your own build, you can have a lightweight library that does not mess with other libraries and provides performant code (IMO).
+I like Prototype because of its OOP implementation. We use it rather extensively on the project i'm working on. Dojo looks promising but haven't had much of a chance to play with it yet.
+jQuery
+I prefer jQuery and MooTools. Creating simple animations with MooTools worked better because I had to work around some oddities in jQuery fade/hide/show etc.)
+I am by no means a beginner in JavaScript. But I would like to improve my JavaScript knowledge since everything I've learnt so far is without reading any book/tutorial. I use Prototype, Scriptaculous a lot so i've learnt quite a bit from their syntax.
+[Pro JavaScript Design Patterns](http://www.amazon.com/JavaScript-Design-Patterns-Recipes-Problem-Solution/dp/159059908X)
+This. jQuery is very cool for code stuff, but if you need animations MooTools integrates them better and is usually faster.
+"JavaScript: The Definitive Guide" is the mandatory reference, you need to have it on your desk even if you don't read it that often. Pro JavaScript Techniques (Resig) and Pro JavaScript Design Patterns (Diaz, Harmes) are both very good "advanced" books, PPK on Javascript is also very good, but aimed at "average" developers (either those growing their JS skills, or desiring to refresh them and switch to a more modern coding style). I'd also suggest Javascrit: The Good Parts.
+Upload some PDFs guys!
+or just use the jquery ui tabs... it's a one-liner: $('ul').tabs()
+I'm definitely looking at the book by John Resig. Going to see if I can find some sample chapters for those two above and get a quick glance.
+A good portion of my code is object oriented. However, the majority of it is actually a set of page controls. Everything was built on top of two other libraries I made, one for AJAX, and one for animation. I'll go read up on mootools though, thanks!
+Joose is a kinda cool object system for Javascript -- modelled on Moose from the perl world. We use Dojo at $work quite extensively. I'd say it beats my experience with Prototype, but I haven't had much chance to peer at jQuery.
+Resig's forthcoming [Secrets of the JavaScript Ninja](http://www.manning.com/resig/) looks quite promising.
+It used to be MochiKit. It has nice utility functions and a kind of js REPL and nice documentation and really nice DOM manipulation. No real visual effects, which I didn't use much anyway. Since I have some doubts about its future and the momentum seems to be toward jQuery I've pretty much switched over to that though. The only other one I've used is YUI which just felt heavy to me at the time, and GWT, which I didn't get along with.
+I picked up Dojo for a project at work. It's pretty nice, it's intuitive and does a lot with a minimal amount of effort. It's default widgets and themes look great. However I kind of regret not trying out jQuery before I settled on Dojo. jQuery seems like it provides a ton of useful features that would make JavaScript development much sleeker and maybe even slightly more enjoyable. One good example is just the syntax, it's so clean. 
+This has often bugged me. I hope he adds it into jQuery.
+The only thing stopping me is the one gotcha: If jQuery is loaded dynamically (say via a dynamic script tag) then the last script on the page will be executed twice - which is hardly desirable. I don't have a good solution for this yet, but if I find one, I'll definitely lean strongly towards this.
+Don't forget that little "undeclared variables are implicitly declared global" thing either.
+But Closures are awesome!
+Someone doesn't understand closures, I guess. 
+It's probably evil, but if you assign something unknown to `type`, no browser will run it. You can -- and this is evil and goes against everything jQuery stands for -- pass an argument to the script content, telling it where it is on the page, or else expect it to return an element, which will be appended to the page. &gt; Your name is `&lt;script type="text/good-god-it-looks-like-asp"&gt;return document.createTextNode(somethingGlobal.userName);&lt;/script&gt;` and you are welcome here. I've actually done this before, under coercion. Now to decrease the evil: script tags expose `.text`. `.text` works perfectly for this, whereas I recall there being trouble with `.innerHTML`. And you can, if you like, support syntax for passing in libraries only to scripts that use them. This is possibly a very good thing.
+i just noticed Lauriat "Advanced ajax" got excellent reviews, will check out http://www.amazon.com/gp/product/0131350641/
+can someone kindly post the .xpi please. I can't be arsed to whore my id for this. and here i'm thinking that open source ™ would be you know.. open. 
+I think that "rockstar" image is pretty ridiculous. I want to get work done. Somehow the dark page design reminds me of MooTools, can't help it. But overall it is quite nice. Another mistake was the change of the logo. jQuery already has books which use the devo hat, changing this seems to be a bad idea, because the previous logo was already know as "the jQuery stacked-pie-thingie".
+Even the old design gave me a "bloat" impression that didn't do the essential code of jQuery justice. This gives me even more of a "bloat" impression. I'd love for a more minimalist design.
+Absolutely terrible. How did it get past the infallible Resig?
+The new jQuery site definitely does feel very mootools but remember [mootools has moved on](http://mootools.net/). For whatever reason, they (he) should have stuck and built on their previous design (image).
+If they this time could get the demos work in Opera.
+Agreed. Not only is the whole 'rock star' thing almost as stupid as 'ninja', they came up with a terrible graphic to go with it. It's like the Prentice Hall people putting those lightsabers on the cover of their open source series. The books, which are on average of incredible quality, deserve better.
+Awesome. I've always wanted my JavaScript library to remind me more of MySpace. ...idiots...
+Most people dont see how much work is really involved in this javascript I didnt know it I didnt see it I never saw it until I was actually in it You really gotta be in it To understand what its like But you always gotta People always gotta see your slider You always gotta put on that fade You know what Im sayin No matter what u just been through So you wanna be a javascript superstar in the vimz and live large a big house with you ma the rent charged comin up in the cyberworld don't trust nobody gotta look over your code constantly
+Was http://ui.jquery.com/ always that way? They should make the whole site look like that. Very professional looking to me, and no rockstars!
+I don't get why you guys dislike the "rock star" image and the text so much? Why are you guys taking it so seriously? It seems to be offending you guys for no apparent reason.
+haha they removed it now.
+This will break in IE8 because expressions will no longer be supported.
+Shouldn't be using alert boxes anymore. One reason being that you don't want to do anything 'blocking' on pages that have or may in the future have any Ajax. 
+Honestly, I think a more accurate description of "The Problem" in this article is that the author is new to JavaScript.
+But if you look at point #4: "Any scripts that do support JavaScript will submit the form straight away or within a couple of seconds of the page loading" I'm not saying it's totally spam proof, but so far, it has been 100% successful.
+Expressions are only used here to emulate `position: fixed`, which is implemented in Internet Explorer 7+ anyway.
+YUI 3.X how to be a "Javascript Rockstar" one step at a time.
+In short: "I tested it[1], isn't faster. Static typing rescue me!" \[1\] And I didn't read that actually [Johns introduction](http://ejohn.org/blog/tracemonkey/) which says: &gt; Right now there isn't any tracing being done into DOM methods (only across pure-JavaScript objects) - but that is something that will be rectified
+Why post this? It's just a page with a couple of links. Stoopid bot.
+dunno, maybe because this javascript engine is currently faster than all the other web browsers? All that fancy VM crap for javascript optimization in Safari still doesn't come close to competing with V8. 
+They're different things, really. This is a javascript compiler. Everything else is an interpreter. That's all the difference in the world.
+Um, well technically speaking, the javascript engines with JITs are also executing compiled code directly. So obviously there is something more than just machine code that makes v8 faster.
+I heard about Chrome yesterday and I'm already more sick of hearing about it than ron paul, hilary, and obama combined. Call back when it supports extensions.
+Well, the JIT engines are running bytecode, and this is running true (x86/arm/whatever) machine code. At least as I understand it.
+Well actually if you look into benchmark analysis (see john resig), you'll see that V8 only really outperforms on benchmarks with heavy recursion. On other normal benchmarks, V8 is only on-par with other javascript engines. So this compiled versus JIT argument shows that there is more to the picture than just "compiled code". In all cases except recursion, JIT was just as fast as "compiled code". My guess is that the JIT converts the bytecode to an exact replica of machine code that V8 generates.
+Just tested the build, the gmail site was nearly indistinguishable in speed with chrome. I have noticed one thing, when you have the status bar visible in firefox, just seeing that progress bar seems to have a placebo effect of making it look like it's loading slower.
+In re: to the 2 months/2 years zinger: &gt; It's an unfair zinger from what I've read. TraceMonkey may have been in development at Mozilla for 2 months, but significant portions of it came from Adobe and their Tamarin Tracing team. You can't dismiss the development time of the nanojit contribution just for hyperbole's sake. When I saw John Resig, who I very much respect for his work on javascript, make that statement, I realized there's a PR war going on here. &gt; &gt; [This](http://andreasgal.com/2008/08/22/tracing-the-web/) was a cool article on TraceMonkey development. - [DocSavage](http://news.ycombinator.com/item?id=294169)
+The new debugger for IE8 is mucho improved. It makes reddits DOM profile look sexy.
+While a real improvement on the crap debugger they have had until now, they could have done a little more to make it look like they didn't just completely rip off firebug and rebrand it.
+That's quite impressive in a three years too late and not a patch on Firefox/Firebug/Developer Toolbar sort of way
+For those who don't know: there's one for IE7 too. Useful thing, since IE's rendering is always different it's nice to see what it's thinking. http://www.microsoft.com/downloads/details.aspx?FamilyId=E59C3964-672D-4511-BB3E-2D5E1DB91038&amp;displaylang=en
+The UI doesn't matter. The more familiar, the better.
+A good explanation of closures in that article, without becoming too incomprehensible. Thanks.
+Nice, now if they could toss in fiddler....
+Also support for border-image, nth-child selectors, video and audio elements and HTML5 drag and drop. http://developer.mozilla.org/en/Firefox_3.1_for_developers 
+Why are people using silver light anyways?
+Wait, the linked article for HTML5 Drag 'n Drop says IE has supported it for a while. When did this happen? I must have missed that memo.
+This looks pretty cool, nice demo on that site. They should teach Javascript + jquery in schools. It is the new BASIC.
+Wow, the money quote is right at the beginning: &gt;"I think that the next 18 months we're going to see a 100 to 1,000 fold speed increase in JavaScript as Google and the guys at Mozilla are going to kick us all in the arse and make our JavaScript jittered," Microsoft senior program manager Scott Hanselman told the audience, days after Google released its Chrome browser, which features faster JavaScript technology.
+*Javascript: The Good Parts* wins, hands down. Teaches how to use the language well, and avoid the parts that cause problems. Nice short book, too.
+Because Microsoft tells them it makes them special. It might also be that .NET devs feel more at home in the tiny .NET runtime it ships with.
+What does 'jitter' mean in the context of javascript?
+I'm a .NET web dev, I find it nothing more than another attempt at edging out the market and an unnecessary proprietary thing that, if accepted, is going to make my life more difficult.
+Those "experts" and consultants seem to be a bit clueless. First they admit that they could not have imagined some of the current applications for JavaScript possible, and thereby admitting that they don't understand it very well. Then they start making incredible claims about a 100 to 1000 fold increase in speed, which is not based on anything. Then they say that JavaScript is somehow a "freaky" and strange language, probably because it isn't enterprisy like Java or C# and even suggest that you should an even higher language to generate JavaScript for you.
+Surprise? Objective-J is a partial reimplementation of Obj-C in Javascript, is it not? Javascript itself is a much better language than people give it credit for.
+How often does anyone need a timeout to expire in less than 10-15 ms? Sure it's nice to have the option but really, that's the most exciting thing about V8?
+Animations. By having animations actually be able to run faster the probability for smoother animations increases. Combine this with the "process per site" architecture (aka. less chance for a garbage collection cycle to occur) and I'm willing to lay down money that Chrome will have the smoothest JavaScript animations of any browser on the market.
+jittered? Surely they mean jitted?
+Yep
+If the Onion was writing about IT, the result would look something like this article. Bizarre, and somewhat disheartening, considering these "experts" actually work as program managers for the largest software company in the world.
+JQuery comes out looking so messy imo. but great post.
+Please leave scrollbars alone. They might not be pretty in your browser, but they always work. JS replacements *mostly* work. This one for example makes scrolling impossible on iPhone, and has problems with keyboard (totally buggy in Safari, hardly usable in Opera). (although it's still better than an average script which breaks everything else too)
+Messy, as in your ECMAScript source? I suppose that if you don't: * indent code to match selector depth, and * make good use of closures, and * use event delegation, and * organise your code into plugins, and * treat the DOM transparently (re: extension) ... then it could get messy. But you're doing those things, right? 
+Internet Explorer implemented a proprietary drag and drop API in 5.0. This was reverse engineered and implemented in Safari. Then, when the WHATWG were looking to create a drag and drop API for HTML 5, they based it on that one. 
+via: http://normankosmal.com/wordpress/?p=25 Make table rows drag and dropable using the YUI JavaScript Framework
+Cool, though it doesn't work.
+I don't know if this will go the way he is thinking. In his presentations he talks about it being a bad thing; I wonder what changed his mind?
+Actually found a few things in there that I didn't know about, like arguments.callee to refer to the current function for recursive calls.
+I think fixing IE is useless. New age browser developers have to have a compelling reason to make users switch to their platforms. Ultimately, hacks such as these don't quite help in converting the users.
+All worship the great black hole. 
+Neat hack! The coolest thing here (for me) is that Chrome can be extended via AutomationProxy. http://groups.google.com/group/chromium-dev/browse_thread/thread/4dc3d59efe23d63e : &gt; However, there are those plugins that run solely on the user interface, such as AdBlock, which recognizes javascript ad scripts in which case it can be established just as greasemetal 
+What a great name!
+you can now view your broken javascript in syntax-highlighting full color! sort of.
+The chrome one is way cuter. I think it's a bug in the other browsers.
+Let's just hope they don't introduce their own bugs / vulnerabilities into the mix. I feel very biased but IE does have a reputation to hold up.
+&gt;Using eval() is a dangerous and expensive approach. eval() parses the string as a general Jscript expression and executes it. If the string being passed to eval() has been tampered with, it could contain unexpected data or even someone else’s code – which is now injected into your web application. If your JSON comes from the same domain as the original web page, then that problem is moot: you can trust your JSON just as much as you can trust the Javascript in your web page! Now if the JSON comes from a different domain, then that's a different situation... Although, if you use XMLHttpRequest to fetch the data, then it *must* come from the same domain as the web page, as XMLHttpRequest doesn't allow anything else. BTW what's that about "eval is expensive"? In this case, `eval` is a native function, and it'll go as fast as the browser can allow.
+My buzzword-o-meter just exploded.
+What's the idea? See how crappy (and huge) this code is? This snippet here is pure nonsense: if(!correct) { return false; } else { return true; } Duh... Why not just: return correct; He's just doing too much work. And he didn't declare the "local" variables, which is quite a serious bug, a disaster waiting to happen. It just is not good code. Don't use it as is. Here is a more compact (and more correct) version: function in_array(string, array) { for (var i = 0; i &lt; array.length; i++) if(array[i] == string) return true; return false; } 
+lolol. this is great. Loving the ALLCAPS ELEMENTS why not throw them in an object? var extensions = { jpg: 1, png: 1, gif: 1 }; alert(extensions[ext] ? "omg it spins!" : "boo :(");
+`return correct;` won't work because the variable wasn't (he's changed his code since your comment) initialised until the loop had run through at least once. The function would return `undefined` or `true`, which could work but is not exactly what you'd expect. Either `return !!correct;` or `return Boolean(correct);` would work, but your solution is better. 
+That's oversimplified method that will remove DOM bindings and may break page's structure (e.g. if it matches name of an attribute and tries to highglight it). The right way to do it would be to use DOM (esp. DOM Range) API. 
+I couldn't say this better: &gt;Who the hell are you trying to convince with this bullshit? Mind you, performance and cross-browser compatibility are NOT the biggest weaknesses of Javascript. There is still one BIG issue to be solved: durability! By durability I mean extensibility, maintainability and flexibility. JavaScript is to RIA what PHP is to client-server: the toy for the lazy boy, but when you do real-world stuff with hundreds of thousands of lines of code, unit testing, professional interfaces, JavaScript is nowhere near Flex. When JavaScript will have real OOP, static typing (I know it’s not hype, but hype is not always what you really need), XML syntax for UI description, built-in databinding, then we can talk about it. * from the article.
+"XML syntax for UI description" ...what, like XHTML for instance?
+Can't improve on this: &gt; I couldn't say this better: &gt; &gt; Who the hell are you trying to convince with this bullshit? Mind you, performance and cross-browser compatibility are NOT the biggest weaknesses of Javascript. There is still one BIG issue to be solved: durability! By durability I mean extensibility, maintainability and flexibility. JavaScript is to RIA what PHP is to client-server: the toy for the lazy boy, but when you do real-world stuff with hundreds of thousands of lines of code, unit testing, professional interfaces, JavaScript is nowhere near Flex. When JavaScript will have real OOP, static typing (I know it’s not hype, but hype is not always what you really need), XML syntax for UI description, built-in databinding, then we can talk about it. &gt; * from the article. * from the comment. 
+Modded down not because I disagree with both of you (even though I do), but because that's from a comment on the article, not TFA.
+And?
+You presented it as if it was the author's view, when in fact it directly opposes it?
+I presented it as it were a reply. What people generally do on reddit in the comments section. I posted it because it's roughly what I would have said. I'm sorry you couldn't follow that.
+&gt; hundreds of thousands of lines of code Irrelevant. &gt; unit testing Irrelevant. &gt; professional interfaces Irrelevant. &gt;JavaScript is nowhere near Flex. Bullshit. &gt;JavaScript is to RIA what PHP is to client-server: the toy for the lazy boy Bullshit some more. &gt;When JavaScript will have real OOP, static typing (I know it’s not hype, but hype is not always what you really need), XML syntax for UI description, built-in databinding, then we can talk about it. And again. All of these "arguments" are based on personal preferences when not totally false. 
+umm, no, you presented it as a quote from the article. the problem is that you said it was "from the article," when it was *not* from the article. It actually would have been more clear if you omitted the "from the article," however it would have been most clear if you simply said, "this comment expresses my reaction to the article:" or even, "from the comments"... 
+[State of the art Flash periodic table](http://www.touchspin.com/chem/SWFs/pt2k61012.swf) vs. [state of the art JavaScript periodic table](http://www.ptable.com/).
+&gt; the toy for the lazy boy That guy got it all backwards. It's flash and similar stuff that are toys for people who can't bear learning for couple of days and actually doing some work (thinking and planing) instead of point-and-clicking in some windows only commercial application.
+I've made screenshots with Firefox 3 under Ubuntu amd64, with 32 bit flash plugin **properly** installed, here look for yourself: [State of the art Flash periodic table](http://img244.imageshack.us/my.php?image=httpwwwtouchspincomchemww0.jpg) vs. [state of the art JavaScript periodic table](http://img232.imageshack.us/my.php?image=dynamicperiodictablejf3.jpg).
+Well assuming you read the article I guess that was too difficult to follow. I should have typed from the comments. My sincere apologies, it must have ruined your year. Better luck in 2009.
+Flex isn't windows only. I couldn't care less about Silverlight. However, where MS wants to take it seems like a good idea (once it actually gets there, assuming it ever does).
+The JS one is much better. I already had that one bookmarked.
+Can somebody explain why does the flash version lag with respect to the JavaScript version? Is it bad coding? Or is Flash inherently slow at interactiveness?
+Your flash screenshot is blank on my Ubuntu amd64, with a nightly Firefox. 
+That's exactly the point. It isn't working. After flash is loaded couple of times it becomes blank, the only way to fix it is to restart the browser.
+Hmm, FirePHP does not look like it's limited to PHP which could be in fact, useful.
+Eh? A /screenshot/ of flash doesn't work? I thought you meant, just a picture. I was saying, 'hey you got your picture wrong'. 
+The picture is of a blank flash plugin that is not working properly, what is so hard to get?
+If you fancied trying to have a look through it and seeing how PHP sent the messages then it could be used by any web language capable of replicating the headers sent, I would imagine.
+&gt;#6. JQuery Autotab I fucking *hate* auto tab when it's done wrong (ie. most game serial inputs) when you try and go back to fix a section you filled out and it tabs you back into the next field because it's already filled. That said the jquery auto-tab does it right, however, I think still think it's a bad idea. I'd rather use the [masked input](http://plugins.jquery.com/project/maskedinput) plugin it's a better option, imo, since you don't need to mess around with a bunch of text inputs, just one.
+Yeah, it looks trivial. Currently I have no need for it, since I'm developing using a local standalone server that outputs everything I `print` to stdout, so it's nothing of big use, but still nice to know such a thing exists.
+Thickbox: *NO*. (edit: clarification: when used to display an image)
+Follow-up: http://blog.higher-order.net/2008/09/16/jeene-status/
+this content has been done and redone. this is not news or newsworthy, IMO. Also, this isn't even a very good example of jQuery, there are better ways to do the examples. Use a framework. Use good practices. Obviously.
+I've never seen a game serial input auto-tab you when you go back to a previous box. Do you hit Shift+Tab or use the mouse? I think I usually do the keyboard combo, maybe that works better.
+Honestly don't recall, personally I would prefer if they just gave a single input box that I could copy/paste into (whether it a game I bought or a pirated game, I keep my serials in a text file so I don't have to hold onto the case/manual/etc.) Again a perfect place where a masked input like the plugin I listed above would be a superior option. 
+He didn't claim Javascript is racist. I could barely tell what the video was about, but one of the images that zipped by was what appeared to be an error message in the code stating "That name is too black" or something like that. Nothing to get excited about, but it does seem racist without any further information. edit: The code is at 1:02, and it's just: &gt; if ($alias!='Bob' &amp;&amp; $alias!='George' &amp;&amp; $alias!='McWhitey') &gt; { &gt; $feedback= '"' . stripslashes($alias). '"'; &gt; $feedback=,' is way too black for a nickname. &lt;br /&gt;Please provide a whiter name.'; &gt; return $feedback; &gt; } &gt; Obviously a joke by the programmer on the company.
+Wow...uh...he was...uh...real...uh...upset. I'm glad he didn't shut down the whole Internet.
+That's awesome. Thanks for posting. 
+Anything for pie-charts?
+Yeah, single text input is by far better. Very few games do that one, sadly. 
+Seriously, every article (as far as I can see) in the javascript subreddit are submitted by [gst](http://www.reddit.com/user/gst/). I think we need to somehow at least show our appreciation for gst's work, the articles they submit are good reads!
+SSJS is the future.
+gst is a bot
+And?
+it probably takes one to be patient enough to outwait the 'You're submitting too fast' roadblocks.
+The articles are of varying quality though.
+I totally read that as Kevin Mitnick, and wondered what the hell he'd be hacking away at V8 for.
+haha I have this same article already open in another window from before I got here
+And I don't think he gives a damn about being "thanked"
+I assume this plugin adds gratuitous rockstar imagery to your page? I thought it was deprecated in favor of seekAcceptance.
+Well, it certainly is flashy.
+Thats pretty cool.
+I'm not epileptic but that thing makes me want to seize... especially the red one.
+Hmmm, this looks to be identical to http://www.reddit.com/r/programming/comments/72ajq/webkit_introducing_squirrelfish_extreme/
+I think the fact that "truly" is in scare quotes tells you everything you need to know about that article.
+No shit Sherlock.
+via: http://feeds.feedburner.com/~r/ajaxian/~3/397293653/dojo-toolkit-12-rc1-is-out
+It's always going to be a frog leap race. So Webkit will enjoy a temporary advantage in speed, another browser will one up them and they in turn will get one upped, until they all have unlimited lives.
+There is something seriously wrong with the jqDock plugin, I do NOT get smooth animation. What's wrong with the jQuery [Magnifier UI Component](http://ui.jquery.com/repository/latest/demos/functional/#ui.magnifier), anyway??
+and iPhone's Safari doesn't have visible scrollbars until you use finger gesture to scroll (and try to replicate that functionality in a script...) 
+That is awesome!
+Thanks!
+Doesn't work in Opera.
+via: http://www.rsaccon.com/2008/09/javascript-performance-optimization.html Javascript performance optimization with jeene see also: http://blog.higher-order.net/2008/09/21/jeene-update-performance-features-and-backlog/ 
+That's not what a "partial evaluator" does. Look up currying.
+Hasn't this problem been solved time and time again?
+Does the background on the box always fade to gray halfway through the flip? If the starting and ending background colors are the same that wouldn't have to happen -- or you could specify three colors: starting, middle, and end.
+In case anyone else has also disassociated with what the AJAX acronym means, here is what the title really says. **Bundled and Ordered Asynchronous Asynchronous Javascript And Xml.**
+Perhaps? I haven't seen many articles explaining how to queue/bundle ajax calls and turn it into a jQuery plugin. There's a [tutorial](http://welcome.totheinter.net/tutorials/bundled-synchronous-ajax-with-jquery/) posted, too, for interested parties. 
+That one about Date objects is hilarious. I'm pretty sure it was intended as a joke, as it's a serious flaw in Javascript. Basically, what it does is if you create a Date object with the day after the end of the month, it invisibly resets the date to the number of days after the end of the month that it represents. So, Feb 30 would be March 2nd (or 1st during leap year). It basically makes it onerous to validate inputted dates because it doesn't throw an error like you would expect.
+I saw that too and had to do a doubletake.
+This truly is a fantastic resource. I'm very impressed by Stack Overflow's user base.
+And because validating only on the client side is safe!
+it's stressed as asynchronous in the title, since I also discuss synchronous ajax, or sjax ;)
+synchronous asynchronous...eh I know our administration has championed Doublespeak lately, but could you not? I was reading this otherwise well written article and came to Synchronous AJAX and was like...wtf don't you know what the acronym means. Which obviously you do, so not sure why you are saying it that way. 
+Oh, sorry. I thought you were saying something like "it's a bot, therefore worthless" or something.
+Oh absolutely not, although gst generates quite a lot of noise (and sometimes has a hiccup or 15 and posts series of the same link) without them more than a subreddit would be pretty much dead.
+It would be great, if the code areas were editable, so that you can change the examples and run them again.
+They are, double-click the examples. More details were provided in my blog post announcing this: http://ejohn.org/blog/adv-javascript-and-processingjs/
+&gt;Feel free to browse through the presentation (I'm not sure how useful it will be without me talking about the particulars - but it may be nice). Not a whole lot :) As someone with just a barely more than a cargo cult understanding of the code presented, it was interesting but didn't really do a whole lot to explain what was going on. Are you planning to post a video of your presentation?
+Since OriginalSyn thought it wasn't that useful, I just thought I'd chime in that I posted it because it was *very* useful for me, and attacked the points of javascript that I had just kind of glossed over in the name of Doing Things. Like actually figuring out what the heck "this" means, for example.
+Unfortunately there wasn't any video recorded of the talk (which was about 3 hours long). I could record something but I'm not sure how useful it would be (since it pretty much requires interaction with the people watching - having no feedback would make the presentation kind of dull, imo). Maybe I could give the talk as a ustream livecast and have people join in.
+Awesome, glad you found it to be useful. I suspect that this talk (in its current state) is most useful for people who've used JavaScript before. When I gave this talk at the Web 2.0 Expo it was pretty obvious that there were some in the audience who had never used it before, so I had to spend some time explaining why the syntax for object literals was different from other syntax used in the language - stuff like that.
+&gt; double-click the examples Am I missing the way to leave the edit mode and run them again?
+Once you're in edit mode just hit the 'Run' button to re-run it (right now the only way to "go back" to the formatted code mode is to reload the page - of course then you lose all your changes). Eventually I'd like to have each slide persist a little revision history (so you can revert back to the original slide - and be able to reload the page without losing your changes).
+Ah, my bad, I was just looking at the intro, which has no run button: http://ejohn.org/apps/learn/#2 Makes sense, thanks.
+lies all lies.... The duck is a lie!
+That would be great.
+"Building tomorrow's Web applications today" -&gt; work today, slouch off tomorrow!
+The author asserts that jQuery is now **the** javascript library of choice. I suspect that might be so, but I would be interested in others views on who's ahead between Prototype, Dojo, jQuery or the others available, and whether more than one will thrive. Thanks (as someone who is a little nervous for having gone with Dojo!)
+I've tried a few libraries in my time, but none of them compare to jQuery in my opinion. I'm in love with it. It's a whole new approach to writing JavaScript.
+I think it also depends on your background as a programmer. Are you more of the Designer or the Coder type? I'd say that JQuery is good to get something working fast, but then I'm not sure if you can write scalable code with it, since it doesn't have a Class implementation and thus you can't write OO-code. On the other hand, I don't know how much versatile you want your code to be. Would you like a div to "fade" o you'd like it to tween opacity to 0 with a Quadratic transition that takes 1000 seconds with 40 frames per second? With Mootools the latter is easy to do, however, the JQuery approach (for good and for bad) is shorter. Notcie that you can do this to with Mootools now.
+Not just in terms of AJAX. I mean in terms of basic network protocols. For example TCP takes asynchronous packets and reassembles them into the correct order. It obviously does it very reliably and very fast, so wouldn't it be worth looking at?
+&gt; var saveFunc = [update, insert][+isNew]; that's way cool
+Man I hate lightboxes.
+I believe the general consensus is that critical mass is behind jQuery at this point. Prototype and to a lesser extent Dojo have similarly sized install bases, but, that's because they have been around longer. jQuery uptake is outpacing any other JS framework.
+Wow, I would never have imagined such a smooth rendering in JS.
+it sure looks cool but &gt; var saveFunc = isNew ? insert : update; does not create a temporary array which it then has to look up from..
+Kind of feels like a bag of sand...
+I never respected javascript till now.
+Clearly a mans lifetime work. This is v3 (now with iphone!) http://d.hatena.ne.jp/technohippy/20080918#1221764691 
+Goddammit!! Beat that lisp weenies.
+That's not a booby! [This](http://wardley.org/misc/booby/) is a booby! Well, OK, it's still rather sack-of-jelly like. But it's closer to the right size and colour. 
+Disappointing. I expected a swarm of blue tits flying in formation or the like.
+ pi.env = { ie: /MSIE/i.test(navigator.userAgent), ie6: /MSIE 6/i.test(navigator.userAgent), ie7: /MSIE 7/i.test(navigator.userAgent), ie8: /MSIE 8/i.test(navigator.userAgent), firefox: /Firefox/i.test(navigator.userAgent), opera: /Opera/i.test(navigator.userAgent), webkit: /Webkit/i.test(navigator.userAgent) }; I'd like to file a fail.
+via: http://ajaxian.com/archives/the-cross-browser-addevent-resurfaces 
+Why am I not surprised this is Japanese? ;)
+I think a real singleton would be: var a = new Foo(), b = new Foo(); a === b This is just a global variable, which happens to be a closure.
+ function Singleton() {return arguments.callee.prototype};
+*disables javascript*
+And then you have to wait for the form submission to go to the server and come back with a server-side validator's message. Much slower.
+The reason why I posed though was to show that it's not exactly "rock solid." Granted, neither is server-side validation, but at least with server-side validation everything is controlled for the most part by the developer. If I disabled javascript then their "rock solid" validation would be, more or less, useless. This would be a great method, I think, if it downgraded to a form that used server-side validation as a backup. What I meant was that this should not be relied on heavily.
+I think "rock solid" was supposed to mean "it won't break and it's not hard to set up".
+this is pretty amazing. i started working with jQuery when it came out, around the same time I started with C#.NET. I can't imagine C# without jQuery anymore, and having Intellisense is gonna make me twice as productive not having to look up every other function when writing JS!! edit: i'm reposting this to "programming" for a little more exposure...
+via: http://west-wind.com/weblog/posts/494378.aspx
+This plug-in doesn't find leaks reliably for me. I have the job of keeping IE6 memory leaks off of my start-up's JavaScript-intense website. I use "IE sIEve", which at least will reliably tell you about leaked objects, meaning that if memory consumption keeps growing on repeated reload, it will show some leaked objects, and with enough insight and trial-and-error, you can get the number of leaked objects down to 0, at which point memory consumption will stop growing. It's still a pain to actually find the leaks, but it becomes a reasonably scientific process.
+Note that I'm not aware of a tool that gives more insight than a list of leaked objects and their properties, but I'd love to have one!
+The more important question is why IE can't just do garbage detection correctly -- just like every other browser.
+Well, then micro$oft should redistribute a modified jquery with .net because of their incapable modifications of base javascript concepts.
+Nicely done :)
+Micro-benchmarks galore. Simple loop-invariant optimization would be able to completely remove the loops and result in 0 ms runtime. All the code looks like: function testDivide() { var value1=123; var value2=234; var value3; start = new Date(); for (var i=0; i&lt;=1000000; i++) { value3 = value2 / value1 } end = new Date(); divideTime = end-start; var textElem = document.createTextNode(divideTime + 'ms ') document.getElementById('divideResult').appendChild(textElem); completed(); }
+Video?
+To be fair, there's a bug in that jQuery plugin, not in ASP.NET AJAX. The plugin is trying to iterate over a JavaScript Number type as if it's an associative array.
+YUI sucks ass. Douglas Crockford should sack those monkeys in charge of YUI. If there is a part of the human brain that is responsible for Java learning, it should be lobotomized (or whatever the analogous procedure would be) at birth.
+My exact problem but then there is jQuery anyway. Doing one liners in jQuery is a breeze. Assists you in your adventure rather than let you worry about non existent name space issues &amp; syntax rituals. 
+'Kisses from...'!? I can't believe I've just been violated by a basic JS tutorial.
+I feel dirty after seeing that one...
+Why is there the general opinion that jQuery is not extensible in a class-type structure? There are several ways to extend jQuery \(beyond jQuery.extend\(\)\), most notably [Low Pro for jQuery](http://www.danwebb.net/2008/2/3/how-to-use-low-pro-for-jquery) by Dan Webb. Aaron makes it through the whole AJAX Experience, but the depth of jQuery is too much for one event -- so I [added a few jQuery notes](http://whois.doublerebel.com) that ppl may not have seen before.
+I dont think Aaron was saying that jQuery is incapable of being extensible, but that the typical approach when it comes to creating components, people do not think about, or may even know how to, write it in that pattern.
+You know, quit layering http with garbage. If you want client server apps, write a *client*. I honestly believe we have gone off the deep end with this Ajax stuff. And Im a developer. 
+it's weird. I can ping js.io but cannot connect tcp 80
+via: http://www.sitepoint.com/blogs/2008/10/07/douglas-crockford-on-web-standards-and-javascript/
+via: http://ejohn.org/blog/ars-technica-processingjs-envjs/
+Damn I thought they were planning on properly implementing DOM Specs, but no, nothing to see here, move along people.
+Intuitive!
+Better than expected.
+&gt;TODO: Find a why I can't put a god damn 2px gap on top and bottom of the buttons I feel ya, man
+Yes, it is. I now know what I will be using for a timepicker for sure.
+that script has win written all over
+Awesome. Makes me wish I had somewhere to use it.
+2008: The year JavaScript became fast. :-)
+very helpful stuff here.
+Looks promising, but it would break down with a visual overload if you needed to specify an exact minute or second, the finest resolution that's feasible I'd think would be every 5 units. (The demo is every 15.)
+Not a gotcha at all, just an inexperienced JavaScript programmer.
+I tend to agree, mostly because they are all overkill. The YUI one seems pretty quick but in general those editors seem to try to be everything to everyone and end up being too bloated.
+Just out of curiosity, but how else would you expect them to work?
+They need more tables
+bottom line: they all suck. How about a text field that simply allows html and smartly handles bad input?
+Am I the only one read that as "Javascript videos" (as compared to Flash videos)?
+I use the FCKEditor in projects all the time. It's easier to tell a client, "it works just like word", then spend the time to teach them HTML (which they can still enter manually, if they wish). Also gives them an easy way to upload files. Does anyone else here use these? And which one do you consider the "best?"
+As long as they don't copy&amp;paste from Microsoft Word to the editor … I really hate it when this happens. All my documentation to the CMS start with "DON'T COPY FROM MICROSOFT WORD!" 
+The best laid plans of Adobe and mice.
+the version that uses jquery is only 1kbs smaller than the stand-alone. I would have thought using one of the frameworks supported versions would have saved some code.
+Very sexy, though the author really needs to learn about the importance of large click targets. The close and cancel buttons are far too small, and I was consciously aware of the effort I was expending to hit them accurately.
+This always happens to me. Thanks!
+My vote goes for *jQuery* because I'm using it since John's earliest hackery and I'm completely happy with it. It made my personal js lib completely obsolete. What I especially like about it: a) There's fun guaranteed, because there's still a hack factor (in a positive sense), b) it's extensible (you can easily roll your own plugins) and c) there's a fantastic community around it.
+jQuery: extensible, unobtrusive, unintrusive, and lots of built-in functionality without any bloat. Minimalism at its best.
+jQuery: what he said
+Ok, I'll say: it depends. Normally I use jQuery, because it's small, has lots of plugins etc. But someday I wanted to make a small animation, so I decided to try Mootools. And it's quite nice for animation. I reimplemented it using jQuery, revealing quite some quirks with animations (and bugs, which I reported but never got an answer) which makes jQuery not my first choice for animations.
+jQuery. it seems to do most of the things Mootools does, but more elegantly. once you grok it it's incredibly versatile *and* extensible while even being smaller than the normal mootools distribution.
+jQuery: lean and mean, very programmatic MooTools: better and faster animations If your stuff is heavy on animations (flash-lite feeling in JS), MooTools might very well be a better choice.
+jQuery: I just can't live without it - fast - intuitive - small footprint - extensible - unobtrusive - implicit - great community (awesome and fast support via mailing list) - good documentation (could be a notch better) I don't know much about MooTools, I came from a Prototype/Scriptaculous background. Mootools looks nice, but it seems to verbose to me.
+I started with Mootools and never had a reason to switch.
+Which ticket(s) are you referring to? I can take a look at them.
+It's quite hard to quantify irregularities in animations - have you been able to do so with any of the jQuery animations? It would certainly help us to be able to improve them.
+Not really, it's just my observations (well that of my colleagues really, haven't been doing much JS lately), on animation mootools feels every-so-slightly smoother but I don't think they bothered trying to quantify (or profile) it. Sorry.
+Firebug ?
+Same here!
+This should be posted to th... oh. Nevermind.
+Actually, it really should be. :-/
+jquery is quickly becomming web 2.0 baseline functionality. First there was the ajax ability, then ajax libraries, then absolute sweetness, jquery. My theory is that internet programming will go more towards javascript and excapsulated data on the client side. It is happening already. The most exciting thing I've seen since jquery is cappucino and objectivej. That is brilliant as well, only very foreign.
+WTF, no baconBits() method ?! I'm pretty disappointed.
+I started with jquery, haven't looked at mootools much, all I know is I can't live without jq, saved me thousands of work hours.
+How about you start with the annoying "margin-bug" that's even on the main page (the quick and dirty demo)? The animation "jumps" at the end :) Same goes for the accordion (see http://ui.jquery.com/themeroller). And while I'm at it, the themes from the themeroller are *not* IE6 compatible :(. Heck, the theme gallery won't even open in IE6 :P Ps: jQuery's got my vote! (even got it in as the standard at work :))
+I assume you're talking about the built-in .hide()/.show() animations. We've been considering that for a while now - but it has far greater potential to break layout than what we currently have. That being said we hope to possibly land something here soon. In the meantime you can do: $("#test").animate({ // What we have now width: "hide", height: "hide", opacity: "hide", // What we could add paddingTop: "hide", paddingBottom: "hide", paddingLeft: "hide", paddingRight: "hide", marginTop: "hide", marginBottom: "hide", marginLeft: "hide", marginRight: "hide", borderTopWidth: "hide", borderBottomWidth: "hide", borderLeftWidth: "hide", borderRightWidth: "hide" }, "slow");
+It is the ticket I mentioned [on jQuery-dev](http://groups.google.com/group/jquery-dev/browse_thread/thread/3186159d207341bd/58190cb316556b61?lnk=gst#58190cb316556b61) but unfortunetely never got an response. If you're interested in some other issues, I can dig for the Mootools code and post the jQuery code for comparison to show why the Mootools-code was easier to write.
+I moved from Prototype to MooTools to jQuery. Prototype was too big and verbose. MooTools was good, but I ran into some bugs (AJAX callbacks and animation out of sync) and at the time the support was terrible. jQuery does exactly what I want it to do, it's not verbose, and it's about as light as they come. I have no complaints.
+We should probably move this discussion off-Reddit but do you still have the page demonstrating the bug? (It seems to 404 now.) Also, yes, I would be interested in seeing code in which jQuery is not optimal - always looking for ways to improve!
+Heck, that was the theory in the 1990s. It's just taking the browsers forever to coordinate and get there.
+**jQuery** * Overloaded methods mean faster, more efficient code * Fantastic community support -- just look at the fast replies on this Ask Reddit! * Continual open improvement of the codebase * Long, long list of plugins * Namespaced, can run alongside other frameworks and even other versions of jQuery * Doesn't modify native function prototypes (Array, String, etc.), but *does* provide tons of namespaced useful helper functions
+True true, but with more attention on the standards there will be better support with more browsers out there. It will be obvious which is the worst browser and even ie6 is pretty damn capable. (I know I've supported that Fsking browser for too many years in my development work). It does javascript and css (and dhtml) and nowadays that is pretty much all you need.
+would be a lot more useful if the event would pass an array of DOM objects that got updated. not a standards-compliant feature, so i won't have much use for it anyway. 
+There will always be separate camps, and that's a good thing. I toyed with MooTools after the whole prototype fad (props to the origins), but leaned toward jQuery mostly because of the plug-ins that were showing up, and elegant short-hand style syntax. My vote is with jQuery.
+I don't want to knock you or MooTools since I'm sure you're competent and MooTools isn't bad, just not as good as jQuery. *But*, this is the only post I see supporting MooTools for everything (not just animation), and you haven't tried jQuery. It's sort of telling. 
+I love subtext.
+Is it possible to write OO code in jQuery? I've also started with Mootools, and the lack of a class support is what have been holding me back from really switching (maybe I've just missed it).
+I've used both, and it really depends on what you need or want. Sometimes the reliance on Function.bind really annoys me in mootools. I'd rather write Contructors than fake classes. Mootools makes it hard to use closures, prototypes and constructors to your advantage. But then again the Class based system does make up for it, and the Event system is very, very nice. The parts where Mootools really shines is in the AJAX Library and in the Animation framework. The degree of control you get over animations in mootools simply isn't possible in jQuery from what I've seen. If I need precise control over animations, and want complex functionality I'll go for mootools. If I want just a few simple JS hacks, I'll go for jQuery.
+Anyone who believes that one framework can be superior to another in all ways doesn't understand the very nature of frameworks.
+MooTools. I like the way that the devs thought out the process of doing things. 
+The real difference between MooTools and jQuery comes down to a matter of philosophy. **Anyone who says that one framework is undeniably superior to all other frameworks is a biased fool who you should not trust.** MooTools believes that JavaScript is an inherently beautiful language, and tries to enhance the beauty while smoothing out its wrinkles. MooTools has a larger learning curve, but from my experience is far more manageable in larger applications than jQuery, since the whole framework encourages good OO design. The code is also organized more from a programmer's perspective. Ie, all method names are verbs. It's little things like this that make a programmer's day happy. jQuery is written from the perspective that JavaScript should be abstracted and made into something simpler (I think the Query part is like SQL?). If you hate JavaScript and have no intention of learning it in the future, ie, if you just want to take some plugins and get them to work as painlessly as possible, jQuery is right for you. Especially good for designers. One thing you have to be careful with concerning jQuery is that a *lot* of the things they say about other frameworks are clear misrepresentations of the facts. It might be accurate to say that jQuery has a cult following. Check all the facts for yourself. My personal stance is that MooTools, while not the most touted framework, will give you an advantage over other frameworks when used properly at an advanced level. To be honest, I'm a little hesitant to suggest it because it's a bit of a secret weapon of mine when competing with other web app developers.
+I started with mootools. It broke with Safari 4 beta, all of it, completely useless. They blamed it on apple. Okay fine, except that no other framework broke. I assumed they would fix it, but their being stubborn and waiting for apple to fix it, which is understandable, except that it's unacceptable to a framework that doesn't work with all modern browsers, beta or not (I have no idea what browser my user is using, and no way to even detect it if my damn framework wont work) I'm using jQuery. It never broke.
+obviously most people here cheering for jquery haven't really tried mootools or are just using jquery to show/hide some divs... mootools whole concept is imho far superior. You can debate about the namespace vs prototype approach and whatnot but when you *really* are looking to easily extend your code mootools is the way to go. I've used both, mootools and jquery very much and while i fully understand the current drama at mootools because of the stupid version politics i keep using mootools. Afaik jquery still has no decent "plugin" for DOM-Stuff except for some third-party plugins that aren't tested much and don't offer much useful features. mootool's DOM-features alone + the Class support are so fantastic to work with if you begin to understand the power it offers you. jquery does what is does nicely but is completly different because it's targeted at designers who want a quick fade. ...
+what's a Mootools? I think you spelt YUI wrong. ;)
+[Absolutely, Yes.](http://whois.doublerebel.com/continuum/pivot/entry.php?id=15) Especially with [Low Pro](http://www.danwebb.net/2008/2/3/how-to-use-low-pro-for-jquery).
+Nice.
+Firebug + console.log(), geez.
+What the hell is this supposed to offer beyond Firebug?
+As has already been said, this offers very little that Firebug doesn't, but it's theoretically useful for testing in IE... I guess.
+Making jQuery's anonymous functions non-anonymous would just lead to that names being compressed away most of the time.. a stack trace that goes "function H(), function K()" is just as bad as one without names..
+For firefox, you can't beat Firebug with this. However, for IE - this is a much better logging mechanism than Firebug Lite.
+Only fat republicans endorse it
+Check the diaganol
+Better title, please. Also, the target page explains nothing.
+So it's something like this? document.write("You see this function match_strings() ? match_strings() is so slow, it makes Digg look like Reddit. And I hear his momma is a real DOM!")
+This seems like a lot of extra complexity with small gains given that I can mock objects extremely easily in javascript.
+Feel free to go to the [page explaining it](http://jshoulda.scriptia.net/) which is linked on the page I pointed to.
+That's great, but either the title or the target page should explain what the hell I'm looking at. I'm not *complaining*, I'm letting you know why the posting isn't getting much attention.
+actually its really an easy concept.
+Should new frameworks come out of the womb fully formed?
+I wish someone who knew these things would do a good comparison to GWT. I'm a little wary of generating JS I don't necessarily understand, but on the other hand, I'm also very lazy and trust Google/Apple to know more than me about this stuff. 
+...duh.
+&gt; And with jQuery, Prototype, MooTools, Dojo and friends surfacing almost at (and some far more than) 100 KB 15kB is a far cry from 100.
+Why do they always show the beta versions of other browsers and the stable version of safari? I'd like to know how the next version of safari compares too you know?!
+And Opera.
+It is more efficient for handling of multiple requests over short periods of time.
+via: http://ajaxian.com/archives/testmonkey
+via: http://ajaxian.com/archives/peppy-css3-selector-engine
+Nice flamebait title considering the article is just whining about being unable to debug ActiveX and Javascript at the same time in Visual Studio 2008. How is that Javascript's fault? A better title would be "Visual Studio 2008 considered harmful".
+it's somewhat unsmooth on my machine, and mine is faster than a eee
+source here: http://github.com/37signals/wysihat/tree/master 
+37signals make good stuff, regardless of what folks think of the company itself. I look forward to the inevitable jQuery port.
+I'm sorry, the name is just stupid...
+Not bad, but the plugin should be able to extract the data from the table. Having to write twice the same numbers in 2 different forms is a stupid waste of time/bandwith.
+This reminds me of the cross-domain data transfer protocol I wrote using image dimensions: http://lab.brainonfire.net/IDTP/client/demo.html Ask it "Foo" and it responds "Bar". That's all it knows how to do, but what's important is that "Bar" is being transferred from the server using only image requests. The client page requests images, and the server responds with a series of images of different dimensions. The dimensions are treated as a stream of bits, which can be reassembled into data.
+in b4 "in soviet russia".
+seems to work off the strict geospatial data and not road data. It'll be much more worthwhile when that can be used. 
+Discussed here: http://squeedlyspooch.com/blog/2008/10/06/been-a-while/ 
+I found it had an error underlined in some code. It was because it didn't recognise a word which was defined in another file. Looking it up I found that it was because I hadn't declared a source folder for my javascript! This was all done in May. I just wonder what they have got up to since then!
+IntelliJ 8's JS editor is also extremely good. Would be interesting to have a comparison.
+Why use Eclipse for javascript when there's Aptana?
+See also: http://www.hawksworx.com/journal/2008/04/14/jsspec-bundle-for-textmate-helps-with-writing-tests/ JSSpec bundle for Textmate helps with writing tests and: http://blog.thinkrelevance.com/2008/7/31/fully-headless-jsspec Fully Headless JSSpec and: http://jania.pe.kr/aw/moin.cgi/JSSpec/Manual
+The project is in Java and Eclipse is already used. Why switch in that case? Choice is a good thing. 
+It generates spurious errors and (tonnes of, indeed!) warnings, while even something as simple as using an `Object` as a poor man's namespace throws it into total disarray. As an example, [this screenshot](http://www.jonathanbuchanan.plus.com/images/eclipsejs.png) shows what Eclipse 3.4.0 thinks of [this JavaScript file](http://code.google.com/p/js-forms/source/browse/trunk/time.js). Note the totally useless Outline view and an error being flagged up as a result of calling `join` on the result of `split`ting a `String`.
+Emacs has a JSlint flymake mode. Kicks ass. Aptana's JSlint validator can't be configured. 
+I agree. I developed [Socialite](http://www.reddit.com/socialite/) in Eclipse Ganymede, and the JavaScript-specific features were next to useless for this purpose. JS code written for Mozilla does have a few syntactic differences and additions, so I can understand why these would throw the parser grammar into a funk. However, even when writing "normal" JavaScript code, I got the impression the JS mode was very fragile and not quite there yet: the completion is unreliable and easily confused, the preferences had serious bugs when I tried to add completion for the Firefox-specific DOM libraries, and all of the cool code-checking features completely break down if there is a single severe parse error in your JavaScript code (so good luck editing old files). This isn't necessarily all Eclipse's fault: I figure a decade of extremely liberal, inconsistent JS engines have ensured that there are all sorts of weird, pathological cases to handle. It's also probably quite a challenge to properly do code completion for JavaScript's prototype-based objects. I just wish it was as solid as Eclipse's Java and C++ modes, or PyDev. Still, it's running under Eclipse, so you get all of the great project management features, and the non-language-specific editor features are pretty good nonetheless. Given a few more releases, it should be really killer.
+Looks a lot like Extjs data stores.
+Note that you can also wrap your complete script in a "jQuery Namespace" (which really is a closure with a local $). (function($) { this.globalFunction = function() { ... } function localFunctionA() { ... } var localFunctionB = function() { ... }; })(jQuery);
+That's a nice idea. However I don't want to depend on Gears or any other extension. Ideally it should be usable with a remote MySQL db, using AJAX queries. If installed, a client-side db extension could then be used to cache some of the data.
+I've watched most of these before, now that I've advanced some in my knowledge a lot of it is making more sense and has further augmented my understanding.
+That library is actually amazing, even if it's not that useful! Still makes sense to make any browser games in flash or java imo.
+This is Javascript controlling Flash. 
+Well, 3D *defined* in Javascript. Still an SWF doing the heavy lifting. Nonetheless, sweeeet.
+thats pretty pointless really. If you're gonna use flash then you might as well just write the whole thing in action script. No need to use javascript
+Screw.Unit for EVAAHHHHHHHHHH!!!!!!!!!!!!!!
+missleading title. The problem is in jQuery not javascript.
+Ugh, disabling right click is such a dick thing to do.
+Hi, I'm the principle developer on this project. I can certainly understand not wanting to depend on Gears for a Web app. Perhaps I should give some usage examples for it to make sense. Gears is, in general, a means for caching locally what could otherwise take significant amounts of time to retrieve/bog down a server with unnecessary requests for the same data again and again, etc. So using this w/ Gears would mainly be a cleaner way of dealing with caching locally things you might've retrieved remotely. What Jazz was really created for was for use in Adobe AIR. Using it in AIR means you can have a completely desktop-based app with fairly robust database capabilities (given that it is limited to SQLite) and not necessarily deal with the Internet at all. For this purpose it's far cleaner (IMO) than the built-in SQLStatement/SQLResult/etc. As more products using JavaScript on the desktop/browser extensions emerge, we hope to support a number of them. We're thinking of building adapters for the new Yahoo! product (BrowserPlus) and potentially Dashboard/Y! Widgets, so it may be interesting for users of those technologies as well.
+I've got to say, that I'm quite a but happier with this update. I awoke this morning to no longer have to right click on the application in order to unfreeze multi-media content, and some other annoying bugs were fixed. Hooray!
+OSFUCKINGX
+WEBKIT NIGHTLY
+I... don't... get it...
+Phew, I'm not the only one!
+The blue dots are your "Heroes" which move about autonomously. Red enemies of various sizes are generated whenever a story is dugg (info on the story/digger is displayed at the bottom of the screen). Holding ctrl causes each of your heroes to shoot continuously at your mouse cursor. Enemies destroy your heroes if they come into contact. If all your heroes die you can deploy more at a cost of 25% of your current score. Clicking on the game field creates a green target that your heroes gravitate towards. Right-clicking/shift-clicking on the field creates an anti-target that your heroes move away from. Level advances when time runs out. New obstacles and layouts are introduced as levels advance. I think it's a fun little diversion overall. Geometry wars meets lemmings is how I would describe it.
+Your mouse is being swarmed by bees or something, I think. yeah.
+&gt; I think it's a fun little diversion overall. Yes, and playable without Flash. Pretty awesome game, althought it is quite challenging.
+Whoah, somebody missed the point. The real story is that this is 100% javascript!
+Wasn't this a game on the Odessey?
+Seems pretty useless to me... took me a minute to even figure out what functionality it added.
+i wish there were a jquery.nosepickr then I wouldn't have to spend all day doing it.
+Whoah, server not capable of handling reddit? Someone post a cached copy?
+I don't know why, sometime the digg effect is crashing my slicehost, sometimes not. And it stays crashed until I reboot it, sorry I was sleeping. It's back online now.
+A little rough-looking at times, but nifty concept!
+[The Man in Blue blogpost: JS-909: A drum machine in JavaScript](http://www.themaninblue.com/writing/perspective/2008/11/17/)
+Why do I have to think about this: http://www.wetherobots.com/2008/11/07/my-life/ 
+I can't hear anything. Firebug throws an error.
+Speeds up weirdly after a while... cool, but I prefer Fruity Loops or whatever.
+Try clicking the play/pause button rapidly for a neat break-beat effect. A “share” function would also be cool.
+I suppose that no matter what optimizations your JS engine is using, it's best to write JS that uses a new variable whenever you convert some data to a new type. That should help everything from static analysis to trace-based compiling.
+You can set Firebug as disabled by default and only enable it for sites you want to test. There is no sense running a debugger on every site you visit.
+Thanks! [SoundManager 2](http://www.schillmania.com/projects/soundmanager2/) looks really cool, i might use it for a project actually.
+Not working in Firefox 3 on Ubuntu 8.06. Plays the sound on the first pass only and never again.
+Kanye miight be calling his next album "909s &amp; a Good Ass Job".
+For point 3, which recommends using livequery, I'd add that if you can instead use a outer, non-updating container element and catch events that bubble up, you can avoid the extra code.
+I didn't mean, the site doesn't work *because of* Firebug. I meant, the site just doesn't work, and if I enable Firebug I can see why. Sorry for the confustion.
+yeah.. event delegation can also be useful if you have a lot of elements with the same behaviour.
+[slightly racist outsourcing comment]
+I’ve seen similar code that means to do currying or partial binding. User-defined functions have an `apply` attribute that would be preferred, but some builtins such as `alert` don’t have `apply`. So in order to avoid `eval`, a series of conditionals performs the application. IIRC, I learned this from reading the MochiKit source code. [update: in an unscientific test, I’m not seeing an appreciable performance improvement in the “fast-track” conditional below vs. going directly to eval. Maybe this is an obsolete or misdirected optimization. Similar code does exist in MochiKit. Look for “_wrapDumbFunction” in Base.js. YMMV] Here’s my implementation (no warranty, etc.): /* wraps a builtin function in a user-defined function which has an `apply` attribute. */ function wrap_builtin( f ) { return function () { switch (arguments.length) { // fast-tracking short argument lists to avoid `eval` case 0: return f(); case 1: return f(arguments[0]); case 2: return f(arguments[0],arguments[1]); case 3: return f(arguments[0],arguments[1],arguments[2]); } return eval("(f(arguments[0],arguments[1],arguments[2],arguments[" + range(3,arguments.length).join("],arguments[") + "]))"); }; }; 
+Why all this work to avoid eval? is it really *that* slow?
+eval is slow. It's not ridiculously slow but for a wrapper function like the one above then it is compared with switch/call(args). Remember that you are looking at library code (MochiKit). Application code can call eval. You can tell if it is slow if your application slows down. ;-)
+I'm not 100% sure this will always work, but... alert.apply = function() { return Function.prototype.apply.apply(this, arguments); } or just alert.apply = Function.prototype.apply Very... meta. There are a number of ways it could be integrated into the above function.
+Eval also provides access to the javascript compiler so you better trust the source of the string you pass to it. The vast majority of cases for using eval is just poor coding. The only time I've required it is to turn a string into a json object.
+I really feel like today's Javascript WTF should be: WTF Twitter, you squash bugs by creating an even bigger one which then ruins Twitter updates, leaving a blank space due to a "missing ) " error, and causing any page with twitter updates on it taking 10 seconds+ to load. 
+`eval` also doesn't give you the benefits of closures.
+The coder could've saved themselves some embarrassment with a comment "I know this looks idiotic but here's why I did it..."
+1. Not trim 2. Only works with ASCII
+Upon closer inspection I believe this could be a drop in replacement for MochiKit's: _wrapDumbFunction: function (func) { func.apply = Function.prototype.apply; return func; },
+Why bother putting a "licensing" a 7-line code snippet. Sigh.
+That's actually pretty handy. I never used to bother checking which libraries sites used, but I might now.
+This looks neat. Are there any demonstrations besides the timepickr?
+Yes, but there are not online.. I haven't created an official release yet so you'll have to checkout the source code: svn checkout http://jquery-utils.googlecode.com/svn/trunk/ jquery-utils-read-only then open the folder *jquery-utils-read-only/demos/* in your browser. There is a demo of most of the plugins.
+Will do, thanks :)
+ $.isArray = function(o) { return o &amp;&amp; o.constructor.toString().indexOf('Array()') != -1 || false; }; 
+function NotAnArrayConstructorThatStillPassesTheTestAbove(){};
+Thanks for the hint
+Well it doesn't actually pass the test as it returns false. Your point is valid, but the function name would have to end by "Array()", like "makeArray()".
+Oh yeah, I didn't notice the parentheses.
+We actually started using this technique in jQuery core, recently, to detect functions and arrays (search for isArray: in the [latest nightly](http://code.jquery.com/nightlies/jquery-2008-11-24.js)).
+Um...arrays are objects, just like in Java. So any test should return true. If your test ever returns false, it is broken. typeOf is not broken. It should return 'Object' for all arrays.
+By array, are you referring to an object with only numerical member names? An object is literally an array (that may include named members). This is why you can use either o.member or o['member'] interchangeably. Even JavaScript's "for(m in o)" construct will enumerate named members.
+hahah, IE sucks.
+This is very similar to [Datejs](http://www.datejs.com/), but takes fewer word configurations into account. As a simple example try "next friday" in Date.fromString().
+I hope I didn't offend, I was just meaning to point out something similar that I'd seen. I haven't looked at the source of either your project or the datejs project, it was merely that I'd seen the datejs project before and thought that it had some pretty cool features. I am just a user of such projects, more competition == better for me!
+I first read "Easy Dating with Javascript". I though it was too good to be true.
+There is no such thing as «easy date parsing» with JavaScript. Sure, you can parse dates from a string, but the Date object itself is hardly interoperable between browsers. (And for fun, there are popular sites out there that output something resembling ISO 8601:2000 dates, without really being so, one example being Upcoming.org (upcoming.yahoo.com nowadays), which makes enough mess of their dates for you to have to code horrible, horrible workarounds) But I do commend efforts to allow parsing dates from strings in a fairly simple manner for most users.
+My problem with natiural language type solutions is that you have to explain to the user that they can do so. On some apps that are used regularly this might not be an issue, but for something that is only used occasionally this is more effort than it's worth. A calendar or drop down is much more obvious in it's function. You have to make sure you get the parsing working pretty well. It's annoying to have to try and "guess" what the programmer wants you to enter. I just got Datejs it to recognise `friday 7.00` as `Monday, July 28, 2008 12:00:00 AM`.
+Just because you *can* do 3d in html doesn't mean you should.
+Doom HTML here we come!
+1-fps 8-bit graphics, here we come!
+The final version is plain old DOM, not canvas. He does like to a slick canvas version of Wolfenstein though. Nevertheless it's very nice to see a straightforward tutorial on ray casting. It's cool to see the intermediate steps. The game loop is a little clunky though. That's a great way to ensure you'll get 30fps if rendering is instantaneous. function gameCycle() { move(); updateMiniMap(); setTimeout(gameCycle,1000/30); // aim for 30 FPS } 
+I could imagine the explanation for IE and its fuks ups going back to a single guy who got fired from Microsoft in early 2000 but still had access to their VSS and figured he'd mess up the code a little bit and no one would notice until it is too late.
+&gt; still had access to their VSS If they were using SourceSafe, he doesn't need to mess it up. Just wait and the DB will corrupt itself.
+Does IE do anything right? I seriously can't come up with anything. You'd think it would at least be able to handle basic ECMAScript stuff like functions and if clauses, but apparantly they don't.
+But of course you know that ECMAScript doesn't have block scope so IE (and Safari, Opera, and Chrome) are interpreting the code correctly. Firefox bug found.
+What xyzzy_b said. Function declarations in the current scope are evaluated first, no matter their exact position. So IE is doing it right.
+Yup I love Firefox and this it is doing it the way the developer intended, however, it is clearly a bug in Firefox. IE gets a bad rap, and rightly so, for doing things the way it thinks the designer/developer intended rather than performing the code they wrote, but this isn't one of them.
+In this case IE is right and Firefox (or more specifically SpiderMonkey) is wrong. According to the ECMAScript standard there's a semantic difference between FunctionDeclaration and FunctionExpression, and in the latter case the function Identifier can not be referenced from within the scope enclosing the FunctionExpression. The code was made to do what the author intended by semantically changing it into a FunctionExpression.
+doesn't seem like that, IE is reading the redefinition of the function even when not actually executes the code, that breaks conditional definitions. I don't know if, from the specs point of view, this is the desired behaviour.
+THAT'S NO BUG, THAT'S A FEATURE! but seriously, javascript named functions are block-scoped in firefox and global-scoped in IE. Mozilla has it right. Microsoft: fix it! Everyone else: get on with your lives. Unless you're a web developer.
+Who uses JavaScript anymore. That's so 1996.
+Downmodded in case you're not being sarcastic.
+I recently ran into this one myself for the first time. Took way too much digging to root out the cause, too. If I'd only waited about a week and a half, this article would have been posted on Reddit, and I'd have saved three hours trying to track down the problem. As many have said, IE is doing things right this time. It's just that "right" also happens to be a little unexpected in this case.
+Not sarcasm, just being silly. I think 1996 was the first year I did some JS. Ah Netscape and IE, how the times have changed (and stayed the same). Down voted just in case you were trying to be clever.
+Very well then, downmod reversed. Carry on, good sir.
+Ditto.
+'amachang' is famous javascripter in japan. He released javascript library that genarate zip file *ON THE FLY*. 
+I'm not sure these trick. Here is demo site and source code. * [demo](http://svn.coderepos.org/share/lang/javascript/Zip/zip.html) * [source](http://svn.coderepos.org/share/lang/javascript/Zip/)
+Write the data into a string.. or in this case a ByteArray. No magic invovled. Adding a file can be done using XMLHttpRequest. The result is dumped in a data: URI. Generating zips on the fly isn't hard, even if you are compressing; the zip format allows length and crc entries in file headers to be skiped until after the file's been written, so you can stream out a zip without needing to use a tempfile so you can seek about.
+Sorry, as much as I hate IE, this should actually be called "Firefox mystery #1376". See wearedevo and xyzzy_b's comments.
+Pretty awful UI design. Not movable, takes forever to close.
+The opening an closing animations can easily be removed if you want. Sorry, no dragging with simpleModal that I know of.
+Don't depend on it. Opera users can easily prevent JavaScript from controlling right clicks.
+Still pretty fast. Whereas Internet Explorer loses to everyone in everything.
+AKA "Putting the Java back in Javascript" What's the point to a singleton in JavaScript? Javascript already has globals. And if you only want one instance, hey... just create one instance. In fact create the object without a class or protoype at all and you're guaranteed to get a one-of-a-kind. What's the point of the command pattern in JS? JS has first class functions. There's no need to create a bullshit class to represent a function. I'd hate to have to maintain this guy's JS code.
+There is some useful information in there, but I wish it was presented in a better format, and used more readable code snippets. I would like to understand these patterns at least on a practical level, regardless if I ever get around to using them it is good to see emphasis being pushed onto the client-side of web development. Free up the server to simply handle the data storage. 
+I agree on all counts. I submitted it because some of the implementations were interesting. I liked how the singleton used the Crockford module pattern (or is it Heillman's Revealing Module pattern? more importantly, who cares?). Re: command pattern &amp; first class functions - that's spot on, and even demonstrated by the implementation of that bullshit class. And the observer pattern is one that I've seen in live code, everyone's implementation is completely different and takes an hour or two to get your head around. Thank fuck for JQuery's bind-fire mechanism. So yeah, this is overengineering with respect to Javascript, but I found it to be interesting regardless.
+Make your Geocities page look that much more awesome! Be sure to add as many brightly coloured animated GIFs as possible so as to induce seizures!
+Ahh, the '90s are back.
+It's missing one of those yellow "Under Construction" animated gifs
+JavaScript "language limitations"? As far as I can see, this article of for Java programmers who are running into problems trying to use Java tricks in JavaScript. Here's some advice for any seasoned Java programmer who wants to get into JavaScript. Ignore the word 'Java', and pretend you're learning something totally different (because you are).
+would you attribute this to a scoping problem?
+is this by design? is it because other languages follow certain semantics that the author expects of javascript?
+do you have code that would do this?
+In PHP, yes; I wrote the zip generator Newzbin uses to zip up multiple NZB's, ala: $zip = new ZipStream; $file = $zip-&gt;new_file("foo/bar.txt"); # writes directory and file header $file-&gt;write("Hello, "); # written immediately $file-&gt;write("world!"); # (unless you're on PHP4) $file-&gt;close(); # writes data descriptor $zip-&gt;close(); # writes central directory entries It uses stream wrappers, the zlib.deflate stream filter and the hash extension to write out deflated data and calculate the crc32 progressively with each write(). I should probably get around to releasing it...
+Thanks!
+&gt;It turns out that using another Microsoft language, VML, correctly implements the PNG format, or at least enough for our purposes. How many Microsoft programmers does it take to change a light bulb? None. They just change the standard to darkness. Perhaps the VML group didn't get the darkness standard memo in-time?
+The best IE6 PNG fix is Firefox.
+Indeed, the only way to win is by not playing the game.
+Why would anyone still use IE6? Why?
+Microsoft releases patches all the time. If they gave a damn they could've patched this ages ago.
+Yeah, I'd like to tell that to my client who runs a veterans hospital and have over 200 PC running IE6 that he can't upgrade due to governmental insanity. The truth is most of the time we have no choice to play the game.
+this is a great example of what the expression "thinking outside the box" really means, most of the time we get blinded by our own mental restrictions but there are situations like this when a better solution exists just by not solving the problem but finding an alternate way to reach the same goal.
+Because people are too lazy to upgrade. "Don't fix it if it ain't broken." 
+I already have some blogs, videos, and communities listed. But I'm sure I've got to be missing some good stuff. Any ideas?
+No -- function definitions have global scope and are evaluated at parse time as declarative statements (see ECMAScript spec, as well as Chrome and Opera). Function expressions (var f = function() {}) are another matter, and get evaluated at run-time, and so have scope.
+do you guys want something to read or something that you can just view the source and figure out anything you want to know. i just want to know how i ended up with a 10/6 up/down ratio
+None of those browsers are IE!
+I found [this](http://jnext.org/) using google.
+Or simply with a Flash file exposing the ActionScript socket object to JavaScript. These are all proven and commonly used methods.. I don't see how the benefits of using UPD, beside being more lightweight (no SYN/ACK) can justify a proprietary platform dependent installer. Edit: I know Flash correspond to this too, but at least it's present on most computers and is conveniently installable from a trusted source.
+Nicely done! If only IE supported the canvas. 
+If only IE supported a lot of other things too... &lt;/dream&gt;
+This, and "DD Roundies" (http://www.dillerdesign.com/experiment/DD_roundies/) are the best fixes to date for us poor bastards that have to support IE6/7/8 until it's usage drops to 10% or so. Why would anyone still use IE? It doesn't matter (if you have to code for it because of it's popularity.) It sucks that we have to resort to hacks, but that's reality. 
+No ideas yet but I've been using it for the past 3-4 days. Good work!
+I've used an inheritance pattern in JS. I didn't see any other obvious way to solve the problem. If you can, let me know: I had a [site](http://upcoming.yahoo.com) where one could vote yes/no/maybe on events to go to. There are big voting widgets available on the event pages, and smaller versions of the same widget available when viewing a list of events. The fundamental communication the widgets had with the server was identical, but they varied radically in how they would display the result. So I created an superclass, and a special "subclasser" function which cloned and then monkey-patched in the subclasses' overridden functions. It isn't pretty, but it does work. Any other ways of doing this that I missed? Perhaps I could have used composition more, and had "interface" objects versus "network communication" objects.
+JavaScript, like any other programming language, is a tool to solve a problem. The majority of developers on this planet are used to thinking in terms of objects, and so using classic OOP patterns within JavaScript makes them more productive. As an advantage, since JavaScript doesn't do classical OOP without some code on the developer's part, the developer can "add features" to the OOP model. For example, for one of the websites I maintain, I modified my stock constructor code and had objects that were created automatically added to a global array. This made it terribly easy to create more interactions between loosely coupled objects. The beautiful thing about JavaScript is that the classical OOP model doesn't preclude the use of more sophisticated techniques geared towards JavaScript, like higher-order functions. Embrace what you've got when it makes sense, use what you know when it doesn't.
+Pass your widgets different "display functions" as arguments, depending on context?
+Cute. :-)
+Blah, the author failed to provide any examples.
+Whoa! I'm on a rampage!
+Why replace standard HTML alert buttons? Perhaps people think on a weekend they can outdesign the original specifications and design of the Alert/Confirm buttons. What they may not have realized is that the W3 Alert/Confirm buttons are drawn upon the collective expertise of actual computer interface academics/professors/lifelong user interface gurus that have been studying human/computer interaction longer than you have been born. This example however, is typical of your average jQuery "coder". 
+Nice and compact. :] Gonna give it a try.
+The use of standard Alert/Confirm prompts is a crappy practice in itself. This just redesigns bad behavior. Nowadays is expected that an application can inform the user without disrupting his user experience; you can use a notification area, fading messages, or things like growl on the Mac. If you need confirmation to carry on an action (like delete) you can let the user do it without asking anything and give him an "Undo" feature. Users don't read dialogs anymore. A good read on this is the book ["Don't make me think"](http://www.amazon.com/Think-Common-Sense-Approach-Usability/dp/0789723107) by Steve Krug.
+how not usefull
+via: http://cometdaily.com/2008/12/31/universalcomet-via-the-google-app-engine/
+I liked it. Docs might be helpful, though -- try jsdoc to do it quickly
+Not that i'm opposed to caching, but in a loop of 1000, this saved 230 milliseconds. meaning if you did it once, it would be .23 milliseconds. (I don't know what's smaller than milli, sorry) Is it really worth the effort to out of your way to cache elements for performance that's not even noticeable by human? (I'm not opposed to this, it's an honest question/discussion)
+your code could easily expand later down the track, so rather than just assuming it's only one cycle, it's best to be prepared for more cycles in the future
+for it to increase productivity for an action by half a second, you'd need right at 2000 elements being changed. At which point you have 2000 of anything on the page, you're already doing it wrong. Now, I know, sometimes it's not always possible to stick to best practices, and having to change 2000 things on a page at once is inevitable, this is so rare that it hardly makes caching common practice, and more of a hack to deal with the rare challenges. The code example shown: $('.the').text(i + ' '); is not usually something that's done on a huge scale. And on that note, I can just see it. Later today I'm going to come across a table or something where 2000 entries need to be change via javascript. That's what happens, I talk about how it will never come up, then it does.
+Is this not bleeding obvious to anyone with a modicum of CS education? 
+This is for jQuery users. ;-) But seriously, it is testament to jQuery that novice programmers can use it quickly and easily.
+You can't hide all your problems behind an interface. This does not fix anything.
+"an explorer full alternative for Windows" WTF is wrong with that? I'm a Mac fanboi and even I can get behind that.
+At the end of the day, a clean explorer.exe uses 20mb or memory, that's really not much. If Firefox used that little we'd be swinging from trees. I can't see this making a huge speed impact but if it offers us movie previewing and the other small details, then it can't hurt. Straight up sex appeal is welcome. Vista was a flop. I'm happy to see people are trying to make XP bearable until we have an alternative. EDIT: Before i get flamed, I run CentOS on my htpc and server and use macs for my personal. I mean "alternative for Windows users".
+it used to be that Flash was the only way to get an interactive UI in web pages. Then ExtJS blew minds. In many ways, jQuery UI was catching up to ExtJS in terms of visual interfaces, but the big difference is jQuery is a dream to work with. The selector model is friggin awesome. I have been playing with UI 1.6RC4 and it is great. I can't wait to see some of the web application interfaces powered by jQuery UI.
+[This](http://javascript.neyric.com/wireit/test/jsBox/jsBox.html) is really neat!
+1) all functionality, no matter how complex, must be accessible with one line of code, e.g. $('.poo').bag();
+With Firefox's steady growth in market share and Google's new 'Ditch IE for Firefox or Chrome' campaign I think it's pretty safe to be in the 'I don't check for IE6 compatibility' camp.
+Dale Arden?
+downmodded for using IE. And don't use that "I'm at work" shit, because then downmodded for redditing at work
+link to the actual demo: http://concerto.engr.scu.edu/~pbergstr/ 
+Yeah, sure, thats valid. But see, you said, "I went to", imply that you were, in fact not testing but surfing in IE. Thus the downmod. And If you have ever tried debugging scripts to work with IE, you would understand the value in snobery.
+Adobe.
+Yet another great help from tarpipe!
+It's easy to create a (non-detected) infinite loop thus.
+You didn't have to type that in.
+Both.
+Stop trying to be sensible, this is reddit, the world is either black or white!
+I cannot express how dismaying it is that we have waited until now to realize that this callback technique, a.k.a. jsonp, is evil. Anyone who isn't clear, read this: http://code.google.com/p/doctype/wiki/ArticleXSS and then this: http://code.google.com/p/browsersec/wiki/Part2 for a start. Then re-read until you understand how much jsonp is a Bad Idea for anything involving user state. Loading a static script, not so bad. Loading a user's history, oops.
+yay, now you can see what your users look like! It also seems to work for private twitter feeds (I think. I tried turning my tweets private and it still worked). So I'd say that it's quite handy, especially if you're a bit evil.
+But this is like asking whether the world is black or soft. They're not mutually exclusive.
+When did I say it was supposed to makes sense, Nerd McNerdy?
+Ever since I subscribed to the web_design and javascript sub-reddits, there seems for be 3 or 4 posts a day about jQuery. Am I the only one around here that prefers mootools?
+Post some links about mootools then. Seems to be pretty normal given the size of the community contributions from each (i.e. there are tons of jQuery plugins/etc released each week)
+So are you suggesting that people stop posting about jQuery out of deference to your favorite library? That seems to be the only reasonable interpretation of your post, since you chose to post about this rather than, say, mootools.
+I don't have much time to find and post or create and post things. I think it would just be refreshing to see something other than "Look at my useless jQuery plugin..." posts.
+the jquery posts usually have 0 comments and a few votes, if any. Just seems more like spam to me.
+The first law of Reddit states that the increase of specific content on Reddit is a direct result of how popular related content on Reddit has become.
+It's evil to use this loophole, but expect that it might be closed in future browsers.
+Anyone tried using SproutCore? I know it is basically Objective C within Javascript. See any benefits other than an easy transition from Mac Programming?
+Loading modules seperately does affect page loading time negatively. Typically javascripts get packaged to one big compressed file, which will be fetched by the browser at once.
+You can't claim something is bad and then have your suggestions for improvement be based on things that aren't in the language. You are literally describing why those bad things got there. Even Crockford himself has described this.
+I can't agree with this more. This guy obviously never had to do JavaScript performance tuning.
+Well it looks as if it's only beautiful for Mac users at this point... And I wonder if there is actually a point in displaying the full CS along with the doc. I think it'd be better if you could show *some part of it* by clicking on a methods name for example. (Maybe with a [fancy animation like this one?](http://halobrite.com/blog/jquery-pageslide/))
+This blog author is rather misinformed. Fields do have a blur method, and jQuery's .blur() works just fine in Chrome and others.
+Code folding for functions longer than the documentation body would be cool. On the other hand, this encourages you to keep your functions relatively short.
+The code on the right hand is completely illegible on my Windows terminal at work.
+&gt;Everyone of these files is a single anonymous top-level function that is invoked to execute it at the bottom of the file. Icky. Why do we need this? Because what you see as a flaw is one of the biggest perks and most beautiful things about javascript. Anonymously executed functions..function invocation patterns The rest of this failblog publicly reinforces that this is a shitty blog. Sorry. 
+While I wouldn't call the result beautiful (too much white space on both sides on my widescreen monitor and the font of the source code is way too small) the idea to read source files and dynamically generate documentation via javascript certainly isn't a bad one... I guess the only problem would be generating an index of all the classes, functions,... or a search.
+Looks like horse shit in Firefox, and doesn't work at all without JavaScript enabled. Fuck that shit.
+In fairness, it's a javascript program, so it's not going to work if you have javascript turned off.
+I see he has obfuscated his post now with a nevermind link. I can't say I blame him, that is pretty sad. He lists DHTML under experience in his written-in-the-third-person "About the author" section, but has never come across the onBlur event?
+Update: That's not a carousel, it's a ticker.
+Needs much more work. It goes into Kitt mode on a blank screen -- the user has no idea when something will finish loading (if ever), while the progress bar slowly goes to 0%, then goes back up to 100% and does it all over again. Nice start, but gotta work on the design more. 
+A few useful tricks.
+How many times do people needed to be reminded that Javascript isn't C++ and isn't intended to be programmed as such.
+I thought the title said *CORBA: A Little JavaScript Library* and I lost my breakfast. Don't pull that shit on me first thing in the morning.
+Agreed, YUI is great. I have used webtoolkit's SortableTable and ScrollableTable: http://www.webtoolkit.info/dhtml.html although they don't quite meet the level of YUI's features.
+Joose looks cool. Need to try it out on my next JS project.

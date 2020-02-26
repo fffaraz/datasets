@@ -1,0 +1,457 @@
+Just me?
+I like Scratch 2.0 and 3.0.
+I suppose that's fair.
+YES. I like to make my own sprites + animations, and the new vector editor is horrible, I can barely see what I'm doing. Also on my web browser I have to scroll to the right to click the stage. (And I'm not a fan of how it puts blocks in the center when you clean up)
+I really don't find it worthwhile. Scratch 3 has all the same features and more, and there are plugins to make it look like Scratch 2 if that's your biggest gripe.
+What about the vector editor? That's the biggest flaw Scratch 3 has in my opinion.
+I use an external free art program (Krita) but from what I can tell, the vector programs in each are extremely similar except for the color selection. What differences are you seeing?
+Unfortunately I don't speak Japanese so decoding this specific project's systems is impossible for me, but it seems like he uses the standard equation for gravity and calculates the force on the player for each one, determining a net force at the end. In other words, he calculates how much gravitational pull each planet has on the player, and then adds the forces up. There are lists and variables keeping track of the location and size of each planet as well as the position and velocity of the player.
+From my quick look at the scripts, there were equations adjusting the direction and distance using trigonometry in the movement modules, are those the standard gravity equations you're referring to?
+I can't speak too directly to his project specifically, since it's decently complicated in its use of variables, but that seems to be the case. Rather than basing your work off of a project you can't read though, I'd recommend putting the pieces together from your own intuition. You definitely need to be familiar with trigonometry to build a physics engine, but as long as that's the case, this should be quite possible.
+Yeah i plan to fix that
+I dont think it works. But if you have discord I can explain in better detail.
+hold on
+did my best but i dont think its working so maybe if you have discord I can give you more detail
+can you give me the project link?
+Alright I think I fixed it. Check it out!
+I fixed it! Check it out!
+All I did was just when you switch, reload, shoot, and all other actions its senses and doesnt let it switch or reload. If there is still a combination of actions that make the animations weird, tell me.
+I like to use lines in Scratch 2, but instead of changing the curves, you change the thickness alongside in Scratch 3. For plenty of people, I can imagine that being a plus, but I prefer the simpler things of Scratch 2. The fill only fills the inside of a shape; you can't fill the edge. These are more based on preferences, but I still much prefer Scrarch 2's vector editor.
+Thanks!
+Thanks for the recommendation I added the things you wanted thanks!
+It’s been a while since I used scratch 3 but when it got out and I tried playing around with color detection, it was INFURIATING. I was making a simulation of an f1 race and the scripts were heavily dependent on color detection. So when it started straight up not detecting colors and randomly increasing or decreasing the rgb values in the detection blocks, I was a tad frustrated.
+I fixed it, check it out on my remix
+The problem is that it keeps on broadcasting "you won" forever, and the dialogue stays at the first one. You can fix this by adding a "stop this script" block after "broadcast you won" in [this script](https://i.imgur.com/uc8hHLi.png).
+Thanks! It worked.
+Nice, thanks for your help.
+This happens to me when I have a large sound file and I usually need to get a shorter version
+I still prefer to use 1.4 sometimes lmao
+Don't blame you.
+I cant find the center feature on either editor.
+I know bandicam sucks, but just got a newer recording thing!
+sorry but i had lost password to my scratch account and i had signed up with a disposable email so until i get to my house i cant show you my remixed version
+That sucks :( But EOS Uplift will be cool! Are you ready?
+Its because you put if f is More than than less than, so it repeats since fight broadcasts mon turn, then our turn, and back, and it just repeats, so just do if F is less than 0 since it is usually a higher number than zero
+Working fine for me, it might be your internet
+ow i just noticed i only have the problem with one of my games.
+Example, you want a list to display the first 5 items. Use variables instead. Everytime it's updated, set Var5 to Var 4, Var4 to Var3 and so on... until you set Var1 to the new item, You have to do Var 1 last or else it won't work. Aaaandd so far that's the only way.
+It doesn't look like the "Fight" broadcast is the problem - you have a feedback loop of the "mon tuen" and "our turn" broadcasts calling each other. There's a script that says "when I receive (mon tuen), broadcast (our turn)" in your Mon sprite, and a script that says the opposite in your System sprite.
+Totally agree. There are more of them.
+I totally agree. These types of projects get featured and block recognition for people who spend weeks on one project
+Set direction to 90. thats usually the default
+oh thanks dude
+It looks like what you put in your what imworking on was the problem. what did you put there?
+All i put in was this: "( ͡° ͜ʖ ͡°)▄┻̿═━一"
+lol idk then
+That’s not appropriate for scratch
+Lol 😂😂 Wetf lol no.
+It isn’t appropriate for scratch. What do you mean no?
+its just a stupid lenny face. plus, people found it funny
+And a gun
+yeah... and? so what? thats not why i was banned. It was removed after my account was blocked.
+Well that’s the only thing I can see.
+But even for that, Scratch would only give me a warning, and thats a fact.
+Listen ask the scratch team. I can’t know everything.
+I already did, but every time I emailed them, a bot responded. 😡
+What did it say, and what did you email them?
+I asked why I was banned, and if I could be unbanned. They said I would'nt be unbanned, and that basically all :shrug:
+I’m looking at your profile and seeing a bunch of people saying it’s because you trolled studios, which violates the scratch guidelines. I’m getting [deja vu](https://www.reddit.com/r/scratch/comments/bww67k/f_you_scratch_im_never_coming_back/?utm_source=share&amp;utm_medium=ios_app)
+Well look at my third last project that'll do the explaining
+Even if you stopped, you still did it. I already explained this to you.
+But I stopped without even getting a warning from the Scratchteam
+Again, I explained this to you already
+Well then how has [ScratchTeamOne](http://scratch.mit.edu/users/scratchteamone) not been banned? He was my scratch friend and he liked trolling studios. When I stopped it was hard for him to get used to my change and was trying to get me in to studio trolling again. There still hasn't been a sign of him getting banned.
+The scratch team can’t find every single person who breaks the rules.
+Yeah they can. There's bots. If you've ever gotten a warning for the ST, that's a bot.
+Some things can’t be detected by bots
+Alright, I'll tell you the full story. On May 8, at 11:58 AM, I was temporarily blocked for 3 days for abusing the discussion forums, and then when I was unblocked on May 11, I when on my account, checked my notifications, told people that I was blocked for 3 days but I'm back, and then that's all I did. Then I went and played video games, then a few hours later, I came back to Scratch website, and found out my account had been blocked (not temporarily this time). It said it was for "continuing to violate the community guidelines". I had no clue what I had done this time. **I HAVE NO CLUE**
+Listen, I can’t know much information, or know if you are telling the truth, but I would recommend just making a new account.
+Definitely **don't** do this, as it is ban evasion and may lead to a permanent site-wide ban.
+Sorry, didn’t really think about that one. Running out of advice...
+I see to many animations on the explore page They don't require code and would fit better on sites like YouTube. Also, there are to many unoriginal platformers.
+I agree about the platformers, but I made animations on my account.
+There should be a dislike button tbh
+agreed
+Found a bug
+if you do the classic falling through portals you can obtain enough speed to fly across the map when you put the top portal on the side and go through the wall
+Haha yeah it's far from perfect and there are a few known bugs. Which did you encounter?
+there is a big glich
+It's cool that you made animations, I just feel that they would be more fit for a diffirent sharing platform.
+Dude that's really cool!
+Omg, that looks amazing, it reminds me of side scrollers like Rtype. are you going to share it out ?
+Yup. But the ST won't add it because it is to offensive. I really dont like the decisions they make sometimes.
+Thank you so much!. Like Rtype I plan on adding new weapon upgrades by collecting pages from your spell-book. There's still a few glitches and graphics I'd like to fix then I'll share it out.
+Scratch isn't a social media network and it was never intended for that - **the prime directive is to allow kids to learn programming in a safe environment.** Sharing projects publicly and commenting on them are only implemented to further this goal, not to allow you to show off or gain followers or anything like that.
+The Scratch Team has been featuring animations since the 1.4 days of Scratch. They are a core component of the program and allow you to write a basic flow without much interactivity. Don't like them? Tough, this platform wasn't just made for you. Artists have as much of a right to enjoy working with Scratch as programmers do.
+I know that, but I think having a dislike button would give (at least me) necessary feedback on what sort of projects are wanted by the community, it would help me. I don't see a dislike button as a "social media thing" but as a way to help me grow, if you want to learn programming knowing what people want and don't want is such a useful skill. I know they will never change it, but that doesn't mean I can't give my opinion, when I give any opinion that is against the ST everyone just turns on me and seems to hate me. I also don't like how the ST NEVER reconsiders anything, when they decide something it seems to be illegal to talk about it again even if the entire situation changed of if you give new argument. What im trying to say is that the way the ST deals with feedback is just broken. And the ST almost seems offended by arguments.
+&gt; the ST NEVER reconsiders anything Really? Or is it just that the Scratch Team never reconsiders anything that you want? Because Scratch 3 wouldn't exist if that were the case, mobile inclusivity has been requested for a long time and (unlike the "downvote" suggestion) makes sense within the idea of a mostly educational platform. &gt; knowing what people want That's by definition a social thing. There's nothing wrong with that but surely you see how it's exactly what I'm talking about. Please keep in mind, I'm playing devil's advocate here - it's not necessarily my opinion that Scratch should be 100% focused on learning without the social media aspect but that's the way the ST has ruled. I'm just trying to explain the thought process.
+URL?
+I'm using the offline editor but it'll be uploaded once I've finalised it.
+Thanks. I still have a lot to work on, though, but this mechanic has been finished, and the bugs are almost ironed out completely.
+Nice idea, im making it!
+I've been using scratch for about 5 years now, but I've moved around a lot, so its hard to keep track. I make animations, and animation memes mostly. My scratch username is the same as on here, CyberrSpade. I don't use any other programming languages, I have been thinking about it though.
+I like both, but I think I like 2.0 more, because of the sound cutting, and some other stuff. As a vector artist, I kinda hate the way filling works in the 3.0 vector editor, because when you fill shapes you drew, most of the time, the color on the inside isn't even connected to the outline, so when you move the color the outline doesn't stay with it unless you group them.
+ow nice reminds me of one of those NES games
+Thank you, it's based on an old Commodore 64 game so it has that chunky blocky look.
+It shouldn't be down
+Its really cool already, before i release it, what should i name the game? Something with dungeon?
+Infinite Scratch Dungeon :-D
+I'm a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit: - [/r/scratch] [Game Developer](https://www.reddit.com/r/scratch/comments/c7qseo/game_developer/) &amp;nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don't vote in the other threads.) ^\([Info](/r/TotesMessenger) ^/ ^[Contact](/message/compose?to=/r/TotesMessenger))*
+ i only have the problem with one of my games.
+RYAN HIGA WANTS TO KNOW YOUR LOCATION
+I like 1.4 better than both
+What?
+bruh the comment section
+You got a comment?
+for an useless project
+Why so?
+Why don't you add obstacles or something so when the frying pan hits ir you fail. Or maybe 1 in 100 food plates for el gato will be poisonous and blue or something so you have to put those in the trash. Just some ideas to make a repetetive game more interesting!
+Please let me know as soon as you share it out. Scratch doesn't seem that powerful, but everyday I see programmers like you, do the impossible with the program.
+UMMMMM... its not real.
+it does exist but it does not work. check out this project. [https://scratch.mit.edu/projects/617379/editor/](https://scratch.mit.edu/projects/617379/editor/)
+Looking at the project, I think it's only in an old version of scratch (the project is from 2009)
+I will indeed, thank you for your kind words, that's really encouraging!
+Correct. Old versions of Scratch had these blocks. Interesting they don't work. Might be food for compatibility if it did.
+What the
+yes I agree HARD
+I need stretch&amp;length block
+ [https://scratch.mit.edu/projects/617379/editor/](https://scratch.mit.edu/projects/617379/editor/)
+Does it work?
+Nope.
+Too bad
+link?
+I didn't share it
+Ooh
+It's not beautiful
+unikitty's beating a small child to death with the infinity gauntlet. and that's hilarious.
+Cherry bomb that knocks all players back and drops cherrys that you can pickup and ot will heal and a shovel launchers and a black hole it sucks near buy players into it and also a diamond sword and a pokeball and a star from mario and a lucky block i think thats all oh and a scratch cat sword and maybe snowballs or a bow that you charge back a back to the future car and a deck of throwing cards. Read this i call the IDEA BUNDLE Pack For free..,,,.,,,.
+Thank you I would appreciate your feedback!
+More context pls lol
+AHHHHHHHHHHHHHHHHHHHHH!
+in scratch battle mode you use cards to try and beat the opponent, witch is a ai choosing cards randomly, exept i chose unikitty and the infinity gauntlet, and he chose a small child with a nintendo switch
+thanks, i will check that
+So you basically want someone to draw what that battle would look like
+Well, it seems unplayable at the moment since I can't get past the login part. You have some really janky scripts running to check if the "username" is correct (it will only register the last person who signed up) and all the code stops if you enter the correct username. There's definitely some work you need to do to get that working. I'll keep parsing what you've made so far to see if I can get to the actual game.
+I have to say, your code is extremely unusual. You have no conditional functions running consistently, and this seems to result in really convoluted code. You also send the broadcast "start" when the login is correct, but there's no script that uses the "start" broadcast to initiate, so the game just ends there. If you get things so that the game at least starts, I can give a better critique on your code (and game, of course!)
+this is a little *too* good for your first scratch game
+Reminder: You can't share this publicly on the Scratch website because it violates Community Guidelines (too scary for young children).
+Wow, thank you.
+*vent guy*
+i mean... dont kids nowadays play more horror games???
+*vent guy* lookin hot
+You have a point
+I guess i'll make the game more difiicult when you survive longer
+I make very original names
+I think you might want a wait until(not()) block
+Can you explain how that would help? I'm not seeing how anything useful would fit in the hexagon part. thank you.
+So I'm assuming your broadcast block is in a in if statement. If so, you would put the block I mentioned earlier after your if statement, so that it would wait until the statement is no longer true, e.g forever: If(health &lt; 10): broadcast(healthlow) wait until (not (health &lt; 10)) In this example, it will only broadcast every time your health drops below 10, as a pose to constantly broadcasting while your health is below 10.
+I see. Thank you. I'll try it out.
+...and it failed.
+oh right, the enemy can't heal, so his health is constantly below the max of 150.
+There's not much to it, maybe try adding random colors &amp; sizes!
+I agree 100%, those cheap follower-grab animators are making the site a lot less fun for me. Them and the furries.
+its kinda hard to troubleshoot this without a way to view the code. forgive me if im wrong but you have a script with a broadcast in it, once it activated you never want it to activate again if the script gets repeated. this can be solved by having a variable and a if statement like so... `if variable = 0 then` `run broadcast` `set variable to 1`
+Thanks for the recommendation. Maybe I’ll do an update in the future.
+Here's the link: [https://scratch.mit.edu/mystuff/](https://scratch.mit.edu/mystuff/)
+yes. :)
+Finally someone else! I use the Scratch 2 offline editor any chance I get! It's just so much easier, and the vector editor is MUCH BETTER.
+Most of Scratch: FNaF fan games Scratch: bad
+[mp4 link](https://preview.redd.it/nr33uw6jqf831.gif?format=mp4&amp;s=d23ebf1748a04da67c98f324dda5fc1e9ac2b129) --- This mp4 version is 79.14% smaller than the gif (737.1 KB vs 3.45 MB). --- *Beep, I'm a bot.* [FAQ](https://np.reddit.com/r/anti_gif_bot/wiki/index) | [author](https://np.reddit.com/message/compose?to=MrWasdennnoch) | [source](https://github.com/wasdennnoch/reddit-anti-gif-bot) | v1.1.2
+I have a mp4 version with sound, should I have uploaded that one?
+Character models by wackyjoke85 on Scratch
+That is a bot that does not comprehend nor understand how to reply to what you just said.
+i know, i wrote this here for other people
+I think these warnings actually should give you the ticket to share the game...
+I missed these posts my man.
+Loading a project from command is currently not a thing I think.. But you could automatically start Scratch using commands, try looking in the documentation of your distro how to start it on startup.
+I fully agree.
+Sorry for late response, but half the game corrupted when I uploaded. I finished the game though
+I know this is a late reply but this made my day. thank you
+（╹◡╹）♡ youre the best
+the code makes it so that after you attack, it broadcasts "P1TurnEnd" which causes the enemy script to be be "when i receive P1TurnEnd, wait, switch costumes, broadcast "enemy attack", and his bullet's code says when i receive enemy attack , go to the enmey's cannon, wait and then glide to the player, then activate the players turn by hurting him, hiding and then broadcasting "P1TurnBegin". the problem is the script is then repeated endlessly, but i just want it once per turn. hope this helps you solve it.
+Thanks! quick question, what else would you like in my game?
+uhm, i was gone from home for a long time and havent checked it a lot but, probably wanna have something to self defend with, maybe a knife or pistol.
+I'll see what I can do
+Honestly - and I really don't want this to sound unkind in any way, but it feels like an important point to bring up - it seems like all the effort you put into this project went into the menu, and the events, and the patch notes... but not into the game. A lot of the stuff you have in this project is really ambitious - the concept of "events" being present in a scratch project is something I haven't ever seen before and is very interesting - but the game itself seems to be extremely simple compared to where you're trying to take the project. You have mentions of what seem to be competitive tournaments for this game, but it's just a two player shooter with three possible inputs - left, right, and shoot. Don't get me wrong here - I'm impressed with the animations and menu all the way. The number of buttons is a bit cluttered, but everything has a purpose and there aren't any bugs in that regard that I can find, so everything works really well. The game is solid and the AI for the single player enemy is decently unique in its behavior (though the odds of it managing to hit the player at all are extremely low) but I don't know if this is the game you should be using for this much conceptualization and effort - everything works perfectly, but after one round, there's no reason to play it again as there is nothing to see or learn. I really have never seen a project like this, and that's why I think this feedback is important - and I respond this extensively because I want to see you succeed. You seem to have a really good grasp of what makes people socially want to start and continue playing a game, but the game has to be fun and dynamic and have depth beyond two circles shooting at each other if you want this breadth of scope. It has to be able to stand on its own. I hope this feedback is helpful to you - it might be prudent of you to collaborate with someone who is more focused on building a game with a lot of complexity and depth to it so you can head the aesthetics and user interface, since that's something you are very clearly good at. Best of luck, friend.
+Awesome to see you posting progress stuff again dude. Love seeing what you come up with.
+Thank you!
+Post a video of the startup if you manage to get this working!
+You absolutely can! Even projects which are shared can always be edited and saved - the updates are automatically applied to the public game.
+I understand what you mean, the gameplay isn’t as good as I can make it to be. I have previously made different modes while the game wasn’t anywhere near as good as it is today, and I think it’d be better if I focused more on those than the main game itself. Don’t get me wrong, the solo and 1v1 modes took me ages to create, but those other LTM’s are what I think made it have potential. Thanks very much for your feedback, I really do appreciate it!
+yeah, you can change it afterwards. many people do in fact do this and sometimes add completely new features after it's shared.
+That's really good to know, thank you.
+Thank you, that's really helpful.
+I managed to have ubuntu (I installed Ubuntu 19.04) log in automatically and open a fullscreen instance of Firefox with the url of a project. I Put these commands in two separate instructions inside gnome-session-properties (to launch ALT+F2 and write gnome-session-properties to execute) firefox -url http://scratch.mit.edu/urlToProject xdotool search --sync --onlyvisible --class "Firefox" windowactivate key F11 (had to install xdotool with the classic 'sudo apt install xdotool' I'm sure this can also be done easily with some bash scripting Hope this makes some sense
+Interesting and quite cool! Your making a scp game?
+Correct!
+I think so too, but I'll upload to gamejolt aswell just incase.
+Trends are trends, man. There's really nothing you can do to change that, and unfortunately, it's really hard to foster smaller communities on Scratch that aren't just "what's on the front page today?" This sub really feels like the best opportunity for that kind of thing - especially in terms of getting your project at least looked at. All you can do is try your best, and make cool stuff and maybe you'll even run into some people who do the same.
+what is an scp game?
+106 is too fast, make him slower
+Scp is a genre where monsters are contained in a facility and prisoners are used to test on these monsters, I imagine that you play as the prisoner in this game.
+where is the spooky smile tho
+K thanks, sorry for late reply I dont use reddit much lol
+What I do is i work on an update in the offline editor, then overwrite the shared version when im finished with the update by pressing load from this computer
+Just for clarification, it's the old one with the grayed out logo. Also, good luck!
+Scratch 3 looks hideous to me, so i still have a copy of scratch 2
+I don't think it looks THAT bad, but I like the interface of Scratch 2 better.
+Thank you, I think that's the method I'll be using as well.
+Did you make more of the game?
+They don't, the Scratch Team has been clear about this. If you upload it to the Scratch website and publicly share it the project will be deleted and your account will recieve a strike.
+There's at least 500 fnaf games on the website right now that aren't deleted.
+That's like saying "there are hundreds of people who drink alcohol underage and don't get caught, so it must be legal". It doesn't work that way. Read [the wiki entry about the topic](https://en.scratch-wiki.info/wiki/List_of_Controversial_Topics_on_Scratch#Five_Nights_at_Freddy.27s) - if a project contains jumpscares or other age-inappropriate content it gets unshared when the Scratch Team sees it. What you do to "warn" others about the project content is irrelevant.
+I know Usborne makes one. Don't know how good it is, as I haven't read it, but I recall seeing it when a friend posted on Twitter that they were giving away free PDF's of old BASIC programming books. https://usborne.com/browse-books/features/computer-and-coding-books/ You could likely code many of the projects from those BASIC books as well, seeing as how they tend to be quite simple. I found this while searching for the Usborne link. It might be decent -- https://inventwithscratch.com/book/ I also know O'Reilly has a lot of "Learn how to Program" books. You might find a good one, but you'd have to rely on others opinions of them, for I've not read them. https://ssearch.oreilly.com/?i=1;q=scratch;q1=Books;x1=t1&amp;act=fc_contenttype_Books
+Harvard has an interesting Creative Computing Curriculum Guide (http://creativecomputing.gse.harvard.edu/guide/) which is updated to 2019.
+Important distinction: Since Scratch 3 you can't replace uploaded projects anymore, so if you work in the offline editor you can only upload it once and then either keep working on the online version or upload a new version for every update. (Unless they fixed that)
+Ah, thank you for that. I'll hold off til I get it more complete then before uploading it.
+https://codeclubprojects.org/en-GB/scratch/ Code club has a number of good projects and when you're done with the scratch ones you can move on to HTML/Python/etc.
+Doing this with my son. It’s great. https://www.udemy.com/programming-for-kids/
+actually i think i might be able to use that code if i can manipulate when it turns to 0 and 1. thanks.
+Thanks for your input. Is this course just a collection of videos, or is there an interactive part that prompts the student to create something, then gives feedback on it? I've taken an online programming course before, and at the end of lectures, it would present a small challenge requiring the student to write code that would solve the problem. Then the course would evaluate the code and give feedback on it. Is there anything like that in this course? (I personally think that's the best way to learn programming.)
+This is an introduction to scratch followed by 3 tasks where you are required to make Pong, flappy bird and pac man. Each task gives you the assets needed and also the final version of each game so you can compare and review. The tutor is very thorough, and both my son and I are enjoying it. I pause and and ask him why is he putting the code where he is putting it and what result does he expect it to have. You can write questions to the tutor, which apparently he will answer, but I have not done that yet. I got it for £12.99 and for that it’s a steal.
+Just replied to your comment but mistakenly as a new comment.
+its been a m,onth
+You're not wrong dude, haha! Development is taking a lot longer than I'd expected, so I've got a few other projects I'm trying to get up so people have some stuff to play. Another part of the delay is that the Sulfurous player hasn't been updated to be compatible with Scratch 3.0, so even if it was done, it would be unplayable due to lag. I promise I've got some good stuff in the works that I'll be putting footage and demos of up soon!
+This is a pretty low-fi project for me, but I was pretty pleased with it and made it in an evening. It's a seed-based map generation tool (just objects so far) so you can generate the same map more than once!
+I don't know how a program could do this without Complex AI, but hiring a personal trainer could work. what kind of problems are you thinking of?
+I was just thinking about small, end-of-lesson problems, such as "Make a sprite move left and right by an extra 10 spaces every turn, then have it stop when it touches the edge."
+why's he so sad
+Cus he real ugly
+I don't mean to sound rude, but If you can't find anything, you could just teach them yourself.
+I think I might be best at making effects such as -camera shake -fades(I know, basic) -particles *I've used scratch for around 2 years *Animating: 6/10 *Coding: 5/10 (but good at improvising) *I'm kinda experienced *I've worked on Life on Mars? witch is a run and gun platformer *I've always worked alone
+Why have do you do this ? (Sorry for my English, I'am french 😉)
+Number?
+I had this problem before. It thinks that the inside of the box is the box so it doesn't move. Instead of when touching box (stay still block) do when touching the box colour. Hope this helps :3
+Cool, does it actively generate the world like mc or does it generate the world at once? Does it save where different sprites were at? Also, nice use of the Don’t Starve sprites!
+its ok
+That would be the ideal, actually. And I plan on being physically next to him most of the time to help him out if necessary. But coming up with lessons that are efficient, and build upon one another in a logical manner, takes time. Unfortunately I have a lot of work to do, so can't spend much time prepping lessons and answering his questions. So I'm looking for some guidance to help reduce the teaching workload for me.
+WOOOW
+I would imagine the best way to do that is to split the image into sprites, each one the size of the screen, and synchronise all of their movement to make it look like the camera is moving?
+I plan on having it do chunk and terrain generation, although this project overall is pretty far down on my list. I’ve got a very decent sized horror project called Grease in the works, so that takes priority for now. As it stands, it generates 2000 items in a ~2000x2000 pixel area, and it uses three lists: item type, item X, and item Y! I have to look into a lot of research for a more put-together project on this one, since it’s currently a 1s1s project that simply checks to see what items are on screen and draws them from top to bottom. And thanks lol, I love DS and figured they’d make nice placeholders!
+I see. I don't have any courses in mind, but you could just directly give them an objective, and leave them to trail and error until they find a method, or give them the building blocks, but then need them to adjust it for a specific use. (Example: give them an online tutorial on a platforming engine, and make a sprinting system)
+Sorry man, I can't tell what you're asking. No worries about the English, but you might have to rephrase!
+No idea what you mean mate.
+It would be downscaled for sure if you imported it. I would recommend breaking the image into screen-sized parts if you want the whole thing to scroll. I built a similar system for my top-down game engine (recent post) if you'd like to see how that was done.
+I made one, but I'm remaking it. That said, haven't worked on it for a while.
+Nice.
+I would show my improvement between 2016 and 2019, but the art's quite graphic and unsettling (or edgy if we're talking 2016). Any Scratch subreddit for more mature themes?
+Wait, i thought the flair was "project"
+If you make any blood not red the mods probably won't mind. Works for kids' cartoons.
+I actually found a way to fit images larger than 480x360 into Scratch, I'll write up a tutorial eventually but I want to be the first person to use it in a project. Ping me in a week to remind me
+can you possibly send a screenshot or something of the scripts. it seems like you could be incorrectly resting code to work again. i want to see screenshots of both of the broadcasts
+Do you want to make the Attack Animations if so a basic slash with a sword and maybe a stab
+&lt;3
+That's excellent, how are you getting the screen to scroll like that? Is the seed-based map generator tool an extension or is it a block of code? Really intrigued with it. Thanks.
+Updated with a series. [R.D.G Series](https://scratch.mit.edu/studios/21296582/projects/)
+[Send us a preview](https://www.reddit.com/r/scratch/about/moderators) and we'll tell you if it's okay to post here. As far as more mature subs, r/BeyondScratch would work but doesn't have a lot of users - maybe try a general art sub, r/VectorArt or something? :)
+Uhh… There's dismemberment and gunfire… I don't think the mods won't mind.
+There's dismemberment and gunfire (war, basically; this just so happens to be a more tame picture). I'm pretty sure that's not going on here or even on r/BeyondScratch for that matter.
+You're right, doesn't fit with rule 3. I don't know a specific art subreddit to point you to - check out the sidebars in /r/ArtPorn, /r/DigitalArt, and maybe /r/FanArt to get some perspective on more general art subreddits.
+Thanks.
+It looks great but what is it
+Its a robot
+All my stuff is unmodified scratch 3.0! Basically, it works the same way as my top-down engine I posted a week or so ago (if you want to look inside and see how that works): there’s a player x variable and a player y variable, and instead of moving the player, I move the world around him. You have to think of the stage as the area the camera sees, instead of as the entire game world. Without the project size limit, you could honestly make any game you wanted - it just takes a crazy amount of code.
+Chrome shouldn't be involved if you're using the offline editor. Did you get it from https://scratch.mit.edu/download or are you talking about something else?
+Nice!
+https://scratch.mit.edu/projects/297025169/
+Please don't use the "Project" flair unless you're linking to your project. As the automod message you should have recieved says, use the "media" flair for pictures of your project.
+Scratch won't let you share it.
+Thank you for that, that's really insightful. I've been reading and watching tutorials about it and think I've got the grasp of it, just have to implement it. Scratch seems so simple but is so powerful and trying to find ways to make more efficient coding is fascinating. Your stuff is great!
+ew
+Looks like a doge mining Simulator
+Hey Joe, it's me, Zach
+I thought this game was genuinely really creative and enjoyable. Work on your coding skills a little so things work better and you'll be well on your way to making great games man!
+Very interesting. The story doesn't give you much to do, but everything looks good and works pretty well! The only weird bit I found was if the player is falling out of the screen, it becomes jerky and lurches downwards really slowly until you use WASD. But overall, good controls and visuals!
+This might be an issue with file size, since scratch caps at 50mb. See if your audio file is oversized for some reason, or if you've been logged out of scratch somehow.
+Thank you! Glad you enjoyed it!
+Great work man. Honestly looks (and works) fantastic.
+I can't test it because I'm on phone but because of the view at the beginning it seems really good :c Can you please send me a message on profile (@Dairop) then I could remember to see your project tomorrow :) (BTW I have made one 3d platformer too 1year ago but your seems better idk why)
+Change flair to Cool Thing
+&gt;Save Why thank you have a up vote!
+Well, let's see. Your project honestly looks great as is, but if you want to simplify to fewer sprites, I can help with that. There are a few ways to give clones different behavior, but this is the one which seems to work best for me. You'll want to use a "for this sprite only" variable called "CT" (for count). Interestingly, "this sprite only" variables won't change even if the parent sprite inputs a value change, because they consider themselves separate sprites. This basically means that you can give numerical IDs to different clones, and as such, use "if CT = #" blocks to single out clones you want to behave completely differently when they start, like this: &gt;When I start as clone &gt; &gt;forever &gt; &gt;if (CT = 21) &gt; &gt;|switch to costume "head" &gt; &gt;|Point towards (player) &gt; &gt;else &gt; &gt;|Switch to costume "Bee" &gt; &gt;|point in direction (random) &gt; &gt;|repeat until touching (edge) &gt; &gt;||move 1 steps This example is fairly random, but demonstrates that if you make 21 clones, the 21st clone is going to look like a head, and point towards the player, while all the other clones will become bees and fly off in random directions. Clone IDing is an extremely useful system for making games smaller.
+thanks a lot, but I wanna put the songs in, would using different formats work??
+&gt; if you want to simplify to fewer sprites, I can help with that. Thanks. I'm not actively looking to reduce the number of sprites. Personally, I think having one sprite per alien type is the best balance of efficiency vs. complexity. I may investigate your method on my own, but for my students I try to keep things as simple as possible. &gt;I used this system in both of my recent project posts for the scrolling background. For an extremely compact example of this, you can check either of those out on my account. Thanks. I'll look into those. I like the scrolling background idea. I've used it before for some side-scrolling games, but I like how you've done it in two dimensions. I may try something like that in the future.
+Thanks pal
+No, the post contains a link to the project.
+That's awesome, it moves beautifully, is elegant to look at and is a addictive joy to play. Well done.
+Really like it and would like to see it expanded. The bitmap graphics and how the screen scrolls around are fantastic and the sense of humour is wonderful. Good work.
+I've had this problem myself, my game was coming in at 54mb until I converted the Wav files to mp3 using Audacity. Also, make sure the audio files are Mono and not Stereo as Scratch doesn't use Stereo so you can save a bit more file size. Use a lower bit rate on the mp3 from 96 to 128 kbps, but make it varaible to save even more. I converted a 26mb Wav to a 1.2mb mp3 with little quality loss and my game is around 15mb in size after all the audio files were converted.
+thanks a bunch man
+Thank you so much, I really appreciate that you enjoyed playing it. I have a sequel to the game, which can be found on my profile.
+Thanks pal
+I whould love that! Also, what is the games' main art style? I'm talkin' pixel, vector, stb... And also also, what kind of music did you think of using? Just curious. Also, thanks for lettingvme animate!😅
+I dont got any music picked out for it and also like pixel so like old legend of zelda bit
+Cool! Reminds me of dont starve, Infact i think the art is from dont starve lol
+It is! I mentioned it in my description comment.
+ nostalgia and look, don't like the newer modern look(thought i already replied that why such late reply)
+That's fair.
+Oh xD
+Nice if you need help or inspiration message me @-MasterProgrammer-. If you need ideas feel free to check out my Money Maker games and use any aspects you like.
+okay :)
+I'm a furry- but yeah tbh
+I think it looks really good so far!
+thanks :)
+r/incremental_games is a sub I'd recommend you re/cross-post this to / check out
+thanks
+So like a topdown view?
+Ya
+Nice Game! 1 Suggestion:When You Knock The Other player Off, I Think You Should Get An Extra Life. Just A Thought Though.
+Could you show me a screenshot of how a message block looks like? I can't recall there being one
+It sounds like you're talking about the ["broadcast" blocks](https://en.scratch-wiki.info/wiki/Broadcast_()_(block)). They are found in the Events panel. There are two that you need to use together to do what you want. First, use "broadcast ()" stack block to send a message. You will need to create a new message here. Name it something meaningful. For example, if the message you are sending is that the game is over, name your message "game over". Then you need to use the "when I receive ()" hat block with the **same message** as you just created. The blocks under this hat block will then execute when you broadcast the message. Note, there's actually a choice of broadcast stack blocks. "broadcast ()" and "broadcast () and wait". 1. "broadcast ()" will send the message and then continue with whatever is the next block in that script. 2. "broadcast () and wait" will send the message, but then wait for all scripts using "when I receive ()" to finish before continuing with the script. I hope that helps.
+You could do a script like this (bold means variable) &amp;#x200B; When key E pressed * If touching &lt;object&gt; * If **interacting?** = 0 * Switch costume to &lt;reaction&gt; * Set **interacting?** to 1 * else * Switch costume to &lt;normal&gt; * Set **interacting?** to 0 &amp;#x200B; It really depends on what you're going for, if you need to interact with a bunch of objects then you might want to make custom blocks for different reactions. Also your English is pretty good, don't worry about it :)
+Sounds like you need a variable *interacting* that you can turn on and off using E. The. Have the character(s) you want to react check *if interacting = 1* before they run their reaction script.
+Pick random selects a random number. For example, Pick random (1) to (10) Would give you a random number from 1 to 10.
+2
+Pick random 1-2 If 1 then copper if 2 silver etc
+Thank you
+did it work for you?
+Yeahhhhhhh
+nice
+Wait but I have another question
+go on
+It says “pick random between silver + 1 to gold + 1” which is right but where to I put it to work? I tried to put it in a custom block but you need to define the block before you can use it.
+Here's an example script (variables are in bold): Set **random** to ( Pick random between 1 and 2 ) If **random** = 1 Change **copper** by 1 If **random** = 2 Change **silver** by 1
+Ohhh, when you set it out like that it is much simpler, thanks
+Do if (pick random 1-2 = 1) change silver by 1
+Cool thanks
+If you don’t mind, I have one last question, can you add a percentage, like getting gold is a lower chance then getting sliver?
+If you don’t mind, I have one last question, can you add a percentage, like getting gold is a lower chance then getting sliver?
+If silver then if pick random 1-10 is 1-2-3-4-or5 which is 50% chance then give the item
+Wait no just to 1-2 after insted my bad
+Thank for replying I’m quite new to scratch so I have ran into a lot of problems.
+Its fine, i was just like you years ago making cookie clicker. Its been 4 years since i started scratch
+Cool
+Do you check the scratch subreddit often, because I might run into a problem in the future.
+No problem :)
+Do this: Put all of your rocks in a list. If there are 5, make it pick random 1 to 5 of The Rock List. There you go.(Much easier, especially for bigger projects)
+Thank you
+And that's just basic. Another way to program it is to pick random (1) to (length of [RockList]) That way it randomly picks any of the items in your list
+Oh cool
+Just tag me
+K I’m posting a new question now unless you know it, how to convert sliver or coal into money and better the ore the more money.
+If sell button for coal is pressed. Add 50 money and subtract 1 coal
+K thanks :)
+Sorry for asking so many questions, but do know how to sell all, so if you have 8 coal it will give you the right amount
+I’m a little unclear on what you’re trying to do. What the previous reply is saying is that you can do this: Set variable (add mineral) to (pick random 1 to 3) If (add mineral) = 1 Change (copper) by 1 If (add mineral) = 2 Change (silver) by 1 If (add mineral) = 3 Change (gold) by 1 If you put that in a custom block, it will add one of the 3 minerals randomly wherever you put it in the script.
+dont use a define block, here ill make a project for you. took me 5 min, so it's not rly good, but you will get the point [https://scratch.mit.edu/projects/320983931/](https://scratch.mit.edu/projects/320983931/)
+Cool, but how would you add a sell all button, so it would sell all the coal and give you all the money.
+Does anyone know how to add a sell all button to sell everything instead of 1?
+Make a button that sends out a broadcast called "sell all", and on each of the individual sell buttons add the "when I receive 'sell all'" start block and copy the blocks that execute when that button gets clicked over to that.
+i updated my game go here [https://scratch.mit.edu/projects/320983931/editor/](https://scratch.mit.edu/projects/320983931/editor/)
+Make a button, and it does this script when pressed: For example, RockType 1 is worth $1 per piece, RockType 2 is worth $5, and Rocktype 3 is worth $20 and so on. There are variables for how many of each, right? So do this: hide (so that players can't click on it twice) change [Money] by (((Rocks1)*(1)) + ((Rocks2)*(5)) + ((Rocks3)*20))) set [Rocks1] to (0) set [Rocks2] to (0) set [Rocks3] to (0) show. I hope this helps! You can expand it by adding more (RocksN)*(n) inside the plus sign operators. I doesn't matter which plus goes first, because it will be the same. If you have more questions, I can help you on Scratch. My account is -KenJethro43-.
+You posted it twice! Anyway, here's what I answered on the other one.
+Thanks I deleted the other post
+Man, this could really come in handy right now, but it's not working for my project ID (320302325). I looked in the web console and this is what JS is outputting: [http://prntscr.com/ofbgkb](http://prntscr.com/ofbgkb). I wonder if our unusually large project size (100MB+) is responsible for this.
+Here's how I do it, although I don't know if easier methods exist. Essentially, you first want to create a sprite with a costume that you want to replace with your image larger than 480x360. Name the costume something recognizable, like "largeimage" so you can find it later. Save your project to your computer and open the .sbX file with [7Zip](https://www.7-zip.org/download.html). Look for a file called "project.json" and open it up in a text editor. Search for your costume's name and copy the file name associated with it (under the key "md5text"). Now, rename your large image to that file name (making sure to keep the file types the same) and replace the original image in 7Zip with your new image. When 7Zip saves, your large image should be imported into the project successfully.
+The process is easy, although it can occasionally be frustrating because Scratch doesn't give you all the same freedoms in size and position that you would get with a regular costume. Still, in certain circumstances, [it's useful](https://scratch.mit.edu/projects/311797259/). If you try editing the image in Scratch, it will crop it back down to 480x360, so do all edits externally. I haven't tried accomplishing this through embedded images in vector formats, but I'm very curious what someone would be able to do with those.
+I'm a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit: - [/r/scratch] [A method I found for importing images larger than 480x360 pixels into Scratch projects](https://www.reddit.com/r/scratch/comments/cdjcrg/a_method_i_found_for_importing_images_larger_than/) &amp;nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don't vote in the other threads.) ^\([Info](/r/TotesMessenger) ^/ ^[Contact](/message/compose?to=/r/TotesMessenger))*
+I have usually done it by sizing the image down in Adobe Illustrator and then saving it as an svg. It keeps the same quality usually.
+That makes a lot of sense. I suppose the method I showed would be best suited for cases where the image may be replaced in the future and replacing the embedded images in an SVG would be difficult.
+Yay! :D I try to make tutorials on stuff but nothing seems specific or good enough to work. I do showcases though.
+Dang, that looks good.
+Thanks. It takes a year's work
+Was it all done in scratch 2.0 ? or you started in scratch 3.0 ? please do link it. Thanks
+It isnt finished yet, so its not out yet, but I am doing some small touches to finish it. I am hoping to have it out by the end of the week. Also, about a third of it was done in 2.0. The rest was done in 3.0. There are points in the game though where you can tell it was drawn in 2.0.
+what's it about?
+check out Ominati Betrayed and Ominati 2 on Scratch. This is the third installment to the series. It is MUCH longer than the others, consists of more puzzles, and has much better graphics due to 3.0.
+sorry, I don't have my computer right now. can you explain?
+OMG , I was hoping someone will start building a plug in for VR/AR in Scratch. Please show videos/links ... maybe make it work for the quest.
+I’d like to see it!
+That’s impressive. I have a feeling this will mark the start of a new era on Scratch!
+The entire storyline so far takes place 20 years before 2018. Jerry is in his class when a man crashes through the window and kidnaps his friend, Daryl. Jerry immediately tries to find Daryl throughout the school. He discovers a tunnel system under the school. Jerry soon finds Daryl in a cage. The man turns out to be Tim, the Ominati Member. Not much is known about the Ominati at this point. Jerry is able to exhaust Tim and frees Daryl. They can hear more Ominati members coming to their area. Jerry and Daryl hide in a closet. Then, Daryl suddenly pulls out a futuristic stun ray and shoots Jerry, ending the first game. The second game begins with Jerry waking up in a jail cell in a spaceship. Through puzzles, Jerry escapes the cell and explores the ship. He finds several other prisoners, Theo, Jacob, and Aria. They head to the pod bay to escape and they find another Ominati member, Jim. Jim is locked in his own cell. He explains that the Ominati isn't bad. They protect Earth and other planets from Alien Forces. He tells Jerry that an Alien leader named Daz was tracked to his school, disguised as a student named Daryl. Daryl then finds them and plans to destroy them. Jim takes all of the blows and Jerry along with his new friends escape in a pod as the ship behind them explodes into space. That is the end of Ominati 2. Everything will make more sense later on though. With future installments.
+That's nice.
+It's not actually a plug-in. And it (Unfortunately) only works for AR. If you open Scratch 3 offline editor and look in the bottom left corner, you should see a button. Click it and you should see a list of pre-built in extensions for Scratch 3. I will release a full tutorial on the subject later this week.
+Nah this feature has been in Scratch for about 5 years.
+Why were you banned ?
+For mentioning a chatting platform, or some people say MLP character
+Mistake detected!
+Thanks! I’ll reply with the link ASAP
+Wow. Ruined it for me.
+[https://scratch.mit.edu/projects/321055370](https://scratch.mit.edu/projects/321055370) Heres the link
+dope
+Awesome what's your user name?
+Can we see some gameplay?
+Looks cool, what is the game about and what are the other ominati games?
+I will probably release a trailer soon.
+You can find them by looking up Ominati Betrayed and Ominati 2.
+Ok thx, r they well known games in the scratch community?
+They were about a year ago when I got to top loved, but not many people have been playing it lately.
+Oh nice, well tommorow I will check them out, good luck
+Hey, Emrys-Dragon, just a quick heads-up: **tommorow** is actually spelled **tomorrow**. You can remember it by **one m, two rs**. Have a nice day! ^^^^The ^^^^parent ^^^^commenter ^^^^can ^^^^reply ^^^^with ^^^^'delete' ^^^^to ^^^^delete ^^^^this ^^^^comment.
+New extensions. You can easily get useful blocks for text to speech, translator, micro:bit and others. Check out [the Scratch Wiki](https://en.scratch-wiki.info/wiki/Scratch_Extension) for more information.
+Basic ideas? Tutorials. Platformer. Drawing Contest. Riddles. Show your art. Diy (tutorials, simulator, etc). 😀 hope that helps ya.
+Awesome! More graphics and its the real Fortnite. 😁
+Well im not a genius in this or something but i think this maybe will work. Make a block named "checkpoint". Every car: If touching "checkpoint" Then add 1 to "Laps" (variable). It should work.. right?
+Oh and im reading other comments. Its better to count laps on each player.
+Plus it runs on mobile
+pls plat
+Thx
+Looks like you're doing some janky math with your ceiling detection. You've got it so that if your sprite is touching (sprite 3) it sets y velocity to Y vel \* -0.1. Problem is, this will make it go from positive to negative really fast, and effectively make your Y vel equal to 0. Try making it so that it sets Y vel to -1 instead.
+Okay thank you!
+Yes, you can make shareable level codes, and maybe update your game, showing new codes. I don't know how to do that, though, sorry.
+made a beat-maker app that shared codes. standard ASCII, but used 60 or so of those chars as a unique bit-encoding, as I recall.
+Im sorry but can you explain it a bit simpler (im stupid)
+yea, I'll try to explain but am sleepy. it's sorta like the regular ASCII codes, but you make up your own. I just used a good amount of the printable characters and assigned numbers to them. was in binary, so a = 00, b = 01, c = 10, d = 11 0 meant the drumbeat was off, 1 meant it was on. so if your screen is 8x8, then you'd need a code that 64 chars long. each char indicating what item is at that position. you could perhaps compress it with RLE or somesuch, reducing duplicate entries. Pretty sure that's what I did, 'cuz there were a ton of extra 0's.
+So for a 480×360 screen in scratch you need 172800 chars long code. And a lot less longer with compressing it. Thank you!
+No, you don't do one per pixel. how big are your sprites, 16x16 ? so divide 480 / 16 = 30 and 360 by 16 is ~ 23 so 30 x 23 = 690, but a vast amount of that will be empty space. You won't have an object at each location.
+If you use more than the standard ASCII characters, then you can make the codes a lot more compressed I happen to have a list of a bunch of Unicode characters in Scratch [here](https://scratch.mit.edu/projects/276747995/) Depending on how many types of tiles you have, it could be \~9 \* more compressed than 60 characters (but probably a lot less than that)
+I used 60 common characters because it suited my needs, and was easily viewable across all browsers. Anything beyond UTF-8 may look like random ugly dominoes on browsers that lack support. https://www.youtube.com/watch?v=MijmeoH9LT4
+[Seems to imply](https://scratch.mit.edu/discuss/topic/217923/?page=1#post-2206735) that if he logs in at home it'll sort the school one out.
+Normally school computers log you out of websites when you log off the computer anyway.
+Good to know ... :)
+I find that when I log into another device, the other automatically logs out.
+Thanks for confirming this 👍 Much appreciated.
+But... It does...
+You can use Scratch 3.0 in a web browser, why should an app be needed?
+Since apps are popular, it would make Scratch more popular and known. Additionally, it would make it easier to make projects on mobile. :)
+An app does not make projects easier to make
+The Apple App store does not allow apps in which users can write code. They could do it for Android, but they already tried on iOS and it got taken down.
+I'll join
+I can't wait, this is exciting!!!!!
+Oh, ok. I think it would be better though if mobile users could program, Scratch could be one of the first languages to do so :0 Anyway good point lol
+Oh, ok. I think it would be better though if mobile users could program, Scratch could be one of the first languages to do so :0 Anyway good point lol its just an opinion
+But they can already program
+I mainly use acratch for my games but i have dealt with gamemaker studio 2 and unity. I used to make small projects but now im doing 3d engines as well as 3d games. Username is th3ch33z1t
+Yeah, it’s pretty simple. Unfortunately you’ll have to rework every single thing that changes a variable so it works with this system. The basic four operations are easy to get working but exponentiation requires a bit of extra effort. If you want an extra bit, instead of using the exponent you can have the changes happen at 10^100 instead of 10^1 . This allows reaching 10^10^310 instead of 10^10^308 , but it does make the math a bit more complicated in return. However this also allows you to ignore this stuff for certain variables, as 10^100 as the breaking point means that most variables will probably never cross it, which is not true for 10.
+Oh i did not know this thank you for the comment
+Thank you for your comment
+True thank you for commenting
+True in a few ways thank you for taking time to comment
+Thank you i did not know this thank you for commenting
+alright, i think i have a *rough* idea of what you have to do. * broadcast the visual cue for throwing the pot at the man * rest for 1 beat, give or take your hit window * broadcast the hit detection. if your animations are synced up, the pot will reach the man in exactly one beat of the music. rhythm heaven relies a lot on audio cues and staying on beat rather than reading a note chart, so it's a good idea to import the music extension just because it has a tempo variable.
+Look's like someone searched in new anyway thanks for the advice i'm confused a bit abut what you said but I appreciate you taking time to help me
+I am leaving this comment so that i can try ms (cause i have never used it) and come back to help you
+Solid game man! I would say though that it gets insanely hard on level 3 compared to 1 and 2, to the point where you can't really beat it without a golden apple.
+I would recommend including how much upgrades cost (I had to just keep clicking the buttons until I got &gt;100), but a nice functional project for an hour of work. Maybe add some stuff to unlock or an end goal, since that's really the draw of idle games.
+Okay thank you
+Well, what's the link to the project?
+oh I tried to put it in but [here](https://scratch.mit.edu/projects/310812963/)
+I think you're getting an enemy sprite and a player sprite mixed up.
+ohhh no im not keep trying sometimes it works and others it doesn't
+Great! If you give me your scratch name, i'll add you. (You could just give me a link to your profile) Also, a form of communication (like discord) would be helpful. :)
+My profile is sanica6 and you can contact me by discord
+okay good I'll add you rn
+Cool can't wait to help
+Okay I just sent it
+Your scripts are just nuts man. You've got way, way more code than you need for this project, and it's really difficult to sift through your 20-ish variables you only use once. Scanning through what you have, it looks like you don't quite understand how broadcasts and code order work. At this point, to fix it, you'd really have to remake it completely in a different way. My number one suggestion would be to think of how you can simplify this project - do you need 10 variables to figure out which card a player clicked, or would one variable with a script that deletes the other clones when a card is clicked be enough? It's clear that your project is pretty close to working with a few bugs, but it will help you a ton to have simpler (and fewer) scripts to work with when you need to fix something like this.
+[removed]
+and your right I've done coding for not a long time /:
+Youch, $130 for an Evive? This could be done for $20 with a Micro:Bit.
+Awesome logo.
+thanks!
+H O W
+Adobe Illustrator is a powerful tool
+God daaaaamn! This is great. Btw does Ominati 1&amp;2 exist?
+yea. Theyre called Ominati Betrayed and Ominati 2.
+Ok, is there a summary?
+Lol, I know the answer to this one. Copied from one of /u/kakononhp's earlier comments: The entire storyline so far takes place 20 years before 2018. Jerry is in his class when a man crashes through the window and kidnaps his friend, Daryl. Jerry immediately tries to find Daryl throughout the school. He discovers a tunnel system under the school. Jerry soon finds Daryl in a cage. The man turns out to be Tim, the Ominati Member. Not much is known about the Ominati at this point. Jerry is able to exhaust Tim and frees Daryl. They can hear more Ominati members coming to their area. Jerry and Daryl hide in a closet. Then, Daryl suddenly pulls out a futuristic stun ray and shoots Jerry, ending the first game. The second game begins with Jerry waking up in a jail cell in a spaceship. Through puzzles, Jerry escapes the cell and explores the ship. He finds several other prisoners, Theo, Jacob, and Aria. They head to the pod bay to escape and they find another Ominati member, Jim. Jim is locked in his own cell. He explains that the Ominati isn't bad. They protect Earth and other planets from Alien Forces. He tells Jerry that an Alien leader named Daz was tracked to his school, disguised as a student named Daryl. Daryl then finds them and plans to destroy them. Jim takes all of the blows and Jerry along with his new friends escape in a pod as the ship behind them explodes into space. That is the end of Ominati 2. Everything will make more sense later on though. With future installments.
+So... do you upload the full game on Scratch or just the demo? Either way, I'd be happy to play!
+Ill upload the full game.
+Yeah, I’m not so good at coding in Scratch. I just know the basics of LUA and Scratch
+thanks, it worked!
+Add some comments inside the code that says what is what. Its hard to understand why each variable is a thing.
+[happiness noise]
+When you write change population by (population - deaths) then it adds the current value of population to itself before subtracting deaths. You could either write set population to (population - deaths) or change population by (-1 * deaths)
+Thank you :)
+checkpoints would be nice, but cool game
+Depending on your grade level, something like Simon might be good. Clones of a sprite could be the buttons, a broadcast could happen when you press the wrong button, and the main gameplay would be from a loop. Also, you may need a variable and list to keep track of the length of the pattern and the pattern itself

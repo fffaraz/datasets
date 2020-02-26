@@ -1,0 +1,1000 @@
+not yet :)
+Check out this app I just built! [localhost:300](localhost:300)
+We'll see :)
+The es5 getter stuff is great!
+Bold and altruistic! I'll keep a close eye on the repository and try to contribute.
+Gimme both. I love my material theme
+https://github.com/ridhwaans/homehost this thing is a React app that streams your media collection (movies, music, podcasts, comics, books etc) https://github.com/ridhwaans/homehost/releases
+Github.com/pungiish/PWA now trying to make a notification when the site gets updated.. Do i need to host the site on a server to do that? Also, push notifications. 
+This looks cool and have been looking for crypto projects to start contributing too! I'm a dev whom is going to graduate soon besides bugs what other ways can I help?
+&gt; var a = new Array({{Answer A}},0,0); That's a syntax error. You have to put *{{Answer A}}* in quotes. (I'm not sure why you want to use that kind of string, though.)
+If your question has 4 answers, show 4 answers. If there are 5, show 5. This means you have to generate that part of the markup.
+You might be able to use WebGL shaders to do your calculations on the GPU. You will also have integer types there, so two birds one shot. Look for "GPGPU WebGL" on your favourite search service.
+I'm kind of fascinated by this idea of using Swift for things other than Apple development. But has there been much adoption in the industry? I dived into Go because I thought it was interesting, but I also felt the demand was growing where I'm from. Anyway, I'll have to look at Vapor. Looks cool.
+Probably because those are even more obscure than the one they're currently using.
+First I've heard it called obscure. It's an extremely thin layer on top of existing libraries like Express and socket.io. I get what you're saying though. Not everyone keeps up on the frameworks. 
+Any good beginner-friendly resources for starting to learn Rust?
+Thanks! It does the same thing as console.log so was wondering if they are the same thing? 
+This guy is a “senior developer” who doesn’t know the difference between a programming language and a runtime environment? Is the demand for developers really outpacing the supply by that much?
+When you declare the method, add the parameter to the method signature: `someMethod(obj) {}`. Then, when you invoke the method, pass the argument: `instanceOfDEF.someMethod(instanceOdABC)`.
+Example code: class ABC { constructor() { ... } ... } class DEF { constructor() { ... } ... someMethod() { } } var instanceOfABC = new ABC(); var instanceOfDEF = new DEF(); DEF.someMethod(); // I want to send instanceOfABC to this method in DEF. Is that possible?
+I am the author of this library. Let me know if this is a problem to post here :-)
+I would start off with the official docs. Also this book https://github.com/Mercateo/rust-for-node-developers
+make a call to Perl.
+Operator Mono seems to show up in lots of screenshots these days. Are people really paying $199 to use this (admittedly pretty) font for development, is there a way to get a free license or are they all freebooters?
+Typed Arrays of course. I've not looked into the details of the instructions used when they operate on each other though. You'll get much better performance with integer Typed Arrays than other standard Arrays.
+Go community tends push away from using exterior libs for shortcuts and rather you just code it yourself. 
+OP expressly states he wants a NPM package though? I mean, sure, at the end of the day it won't really matter, because if he's intenting to use his npm module in the browser, he's likely to use something like webpack. But it's extra stuff in the bundle that's not needed.
+well, the kool thing is that the cb can be any function at all. console.log is just an example.
+Send a GET-request to the URL, the data is in there
+Sure that's one that a lot more people will be familiar with.
+Bad technical interview questions are how candidates weed out companies they don't want to work for though.
+The point is, cast a wider net for contributors by using widely known technology.
+I was expecting a journey. Not a first attempt at a hello world app.
+AdonisJS! It’s great! 
+What on earth is that italic font for HTML attributes? Sure it distinguishes itself, but the font's readability is awful!
+Is using a setinterval for the whole time a user is on a page in order to constantly check an api for a change in a value bad practice?
+Could be true but I always thought that blurs were downscaled because increased performance, and also it won't look pixelated because of the effects nature.
+This is for updating the price on an auction every 5 seconds. Do you have any article youd recommend on web sockets?
+Yes. class DEF { constructor() { ... } ... someMethod(obj) { } } Also please don't write braces in their own lines. This is *not* common in JS. 
+But they are not particularly bad, the guy is just being picky
+Sorry for being a noob, where would it be? I get a `response` object with essentially everything including the html doc/xml doc. But the data is deep inside. Would the deals be located in a specific location? (Using R/httr)
+I mean he does write his own blog posts on MEDIUM and has a spider-man profile pic, so he must be legit.
+Not sure if this is what you mean, but here's my interpretation: https://codepen.io/dgca/pen/eMqOLb?editors=1010
+oh.. i see where your confusion lies. Do this: rename all your collections to c. then rename all your callback to cb. Does the function still work? why? Does the name of the params matter? eg: var each = function (c, cb) { for(...c.length...){ cb(c[i]) } ... } then call the function: each([1,2,3] console.log) what happens? why? is cb=console.log? is c = collection? do the variable names matter?
+*cue old school cash register sound* :D 
+The Node app starts accepting connections before the connection to Mongo is completed. This seems unhelpful.
+I've been coding javascript professional for about 6-7 years now. I would have gotten the first question wrong, based on this article. I can't remember the last time I wrote code like option a in question #1 (because it's a terrible idea), so I wouldn't know off the top of my head what `this` would refer to. I would have guessed it would have referred to the global `this` context. And I would have been correct -- at least in some contexts (if not all of them). I tested it in Node. I tested it in my chrome console. Neither errors. It assigns `first_name` to the global context, as I would have guessed. It's a bad question.
+Thank you I think this is perfect. I can tinker with this as a base for my needs. your awesome!
+Jeeze, tough crowd...
+👍 glad I could help!
+I've been interested in Go for awhile. this was a great write-up on your experience. thanks a lot!
+Looks like a [2D texture](http://harmony.ovh/tex.png) on a plane using morph targets.
+Cool! Gonna give this a try.
+Would you mind sharing why not ? IMO Go is already mature enough. I find prototyping to be still faster with Node but except that, Go already offers everything Node has and much more. 
+Express not base on middleware in the shape of the onion. And Humble-server has kinds of rules, such as controller, middleware, plugins must be in there own folder. The important thing is Humble has there own team to develop it.
+Sure, that's one that a lot of people will be familiar with.
+&gt; Programmers, especially on reddit, are terrible people that tend to hate newcomers. Not really, only new comers who declared themselves as "senior developer".
+This guy seems to hate built-in array methods. Wouldn't `indexOf` (or the newer `includes`) be the simplest and probably most efficient way to do problem 2, or am I missing something? And as others have said, problem 4 really needs `reduce`.
+&gt; Programmers, especially on reddit, are terrible people that tend to hate newcomers. TIL I'm a terrible person.
+The braces got you? I thought mixing `class` and `var` in the same file was weirder.
+I didn’t even notice the var 
+Helped me squash bluebird out of my project. Nothing amazing but useful. https://www.npmjs.com/package/async-redis
+I guess? I'm fairly sure that it was more so inspired by [CoffeeScript](http://coffeescript.org)'s fat arrow function, and CoffeeScript was partly inspired by Python, so I guess so. You're talking about the arrow function, right?
+&gt; Don't take the bus to work, just walk instead of relying on transportation to solve all your problems. There's plenty of value to not using a framework for a first few projects. But beyond that, there's plenty of upside reasons. Confidence that authorization/authentication/accounting controls are current and bugless is only one of them.
+Is Go that "batteries included" that Auth and ORM are part of the standard libs?
+I've really enjoyed my limited experience with Swift. It's a shame that I have no interest in developing macOS/iOS apps because it's really a joy to work with. If anyone cared to use it for more general-purpose stuff, I think it'd take a chunk out of C#'s market.
+I've been coding Go off an on for 2+ years and I'm much more productive in javascript/typescript...mostly because the platforms operate at different levels of abstraction. Working with a db in Go isn't as pleasant as using something like Objection or typeorm.
+Love working with Ember.js. Much more fun and much more faster than any Angular or React implementation. I think, if someone invest a few days to learn Ember, they never want to go back to those other frameworks... they would just look messy. Ember is clean, well engineered, matured and modern.
+For a very long time now, but it's still bad practice: https://stackoverflow.com/questions/3434278/do-dom-tree-elements-with-ids-become-global-variables
+&gt; Would you mind sharing why not ? From what I've seen in this thread so far, the main reason is very clearly the foundational elitism. The mentality of scoffing at external libs "write it yourself" forces the lack of a package manager where you could find an already invented wheel... for things like front end templating. Every major web-centric language has a package manager/repository . . . because developers are interested in building complete apps to serve a purpose as opposed to taking forever to build everything from scratch. Using a framework to build an app is like making a sandwich with premade cheese, ham, etc. Django, Laravel, Rails and Express/Koa make fine sandwiches.
+It was added to a very old of IE. Many sites relied on it so other browsers were forced to implement it. It's not part of the spec. You can read more [here](https://www.tjvantoll.com/2012/07/19/dom-element-references-as-global-variables/)
+Can you do morph targets in native canvas? Or is this using a WebGL library?
+[Why you really should stop using Iris](https://www.reddit.com/r/golang/comments/57w79c/why_you_really_should_stop_using_iris/)
+hello, do you have collect the dataset for javascript. at present, i also study malicious code field, but no datasets, IF you have, can you send to me ?
+Oh god, all of our lives are a lie. Humanity is not real. This is all a simulation and we have failed. Why has no one spoken up?
+They're using [three.js](https://threejs.org/) with WebGL. It does a console log when you instantiate a renderer.
+The sort answer is no, but it probably doesn't matter. The long answer comes down to - you can use Math.floor (or the bitwise or with 0 trick) to ensure you're working with whole numbers, but by design JavaScript will only ever store numbers as 64bit floating points ... However, it's entirely likely (though I have no sources to back it up) that modern JS engines (namely V8 or SpiderMonkey) will optimize to native integer operations assuming it can prove the value doesn't need to exist in a floating point context. That being said, I'd optimize everything else in your code first before trying to optimize individual calculations ... It's far more likely there's a bottleneck somewhere else, but that'll require a lot of profiling. Both chrome and Firefox have really great profiling tools these days if you haven't checked them out yet.
+Have u tried something like products.forEach((product, index) =&gt; { console.log(product); }); Products is an array here.. full article: https://thejsguy.com/2016/07/30/javascript-for-loop-vs-array-foreach.html
+It's not strictly a node.js project but since electron is powered by node.js-it would be awesome if someone ported this atom plugin to vscode: https://github.com/orionsoft/atom-graphql-autocomplete
+You can do it with map and reduce, or just map. mappedset = set.map((item, index) =&gt; { // item is now your sub-array return item.map(i =&gt; jsonset[index][i]); }); If this nesting can be arbitrarily deep, you can just use recursion, keep a list of traversed indices and test if items are arrays as your base case.
+Don't listen to the haters, Meteor is awesome. The generic "Don't Use X" comments abound on every project no matter what the technology. Without a reasoned explanation of why you shouldn't use something you can often be assured it's generic unfounded "hate" Meteor has it's pain points, as dose every technology stack, but for getting something up and running fast with a lot of great features Meteor is awesome. Lost of people say it doesn't "scale" and is only good for "MVP." Meteor is in use in production at lots of companies, at some point any software stack will no longer "scale" and will need to be optimized. For Meteor that can be sooner than later depending on how liberally you use publications, but it's not terrible, especially with GraphQL and Redis Oplog.
+because of document.querySelector, and document.querySelectorAll
+Typo in the readme: &gt; memoization
+I added a sample of the JSON data.
+That's not what I meant. Look at the [codepen](https://codepen.io/cathodion/pen/eMqNpr). Other comments answered as to why. 
+Yeah thanks. I read this one too. I was surprised it's so difficult to find out how webpack works. I thought this would have been a blog post of in the documents. 
+I had someone call it a framework once. 
+&gt; uy seems to hate built-in array methods. Wouldn't indexOf (or the newer includes) be the simplest and probably most efficient way to do problem 2, or am I missing something? And as others have said, problem 4 really needs reduce. well, "Suggest an efficient solution for implementing hasWord(word)" - meaning i would expect to check hasWord on the quickest way. indexOf \ includes performance is O(n) while my dummy implementation is O(1)
+It would take a mountain of marketing effort/outreach to get the dev community at large to see Swift as useful for anything other than making Apple apps, and Apple has no-one but themselves to blame for that.
+&gt; l interview questions are how candidates weed out companies they don't want to work for t You are right, this is an "annyoing edge case", but I would try to see how the candidate "thinks out loud".... I am not expecting him to bring the perfect solution straight away, but want to hear good reasoning. When you have a conversation about it, the solution is actually pretty clear - it's the language basics... hoisting, funcations...
+Totally. It has to be intentional on their part. I guess designing a language around a few central purposes is easier in the long run. 
+Unless the problem specifies that the array has 100 million entries this is definitely premature optimisation. And knowing to avoid premature optimisation is something all employers and interviewers should know to look for in candidates.
+&gt; hash" will frequently exceed the max length and become a property on the array rather than an ind You are actually right, the limit is 4,294,967,295. There are other solutions, but the conversation and process of thought are the key.
+I know it's not what you want to hear, but don't use Javascript for things like this. Js just doesn't have the performance you are looking for... 
+What. The. Fuck.
+&gt; Bootstrap moronic, no. but you are very right, jQuery is 2006. Bootstrap for me is something I would hate to see as a "highlight" since it's a UI library, not a full-stacker achievement. I simply want developers to emphasize the buzzwords which will make the CV reviewer WOWed - please not another WordPress :) 
+Hi stratoscope! Some of our strongest developers and managers never attended any university of college. We even have a few stars how never graduated high school. The meaning is, that these are obviously nicely highlighted, but are not the most important part.
+There's a number of methods * getElementsByTagName * getElementByClassName * getElementsByName * getElementById * querySelector * querySelectorAll
+“Memoization” is a real word :) https://en.m.wikipedia.org/wiki/Memoization But I’ll admit, every time I see it, my brain immediately thinks “TYPO!”
+Non-Mobile link: https://en.wikipedia.org/wiki/Memoization *** ^HelperBot ^v1.1 ^/r/HelperBot_ ^I ^am ^a ^bot. ^Please ^message ^/u/swim1929 ^with ^any ^feedback ^and/or ^hate. ^Counter: ^171145
+Sorry for misunderstanding, making judgement off of titles of posts is a horrible practice and I’m unfortunately guilty of it this time. I just am not used to seeing document.getElementById in the wild very much and my poor assumption was that you were talking specifically about that API and not actually have to select elements in JavaScript at all. 
+Sounds like higher-order functions to me? For example, the `map` array method takes a function: [1, 2, 3].map(x =&gt; x + 1); // [2, 3, 4] 
+They both refer to the same idea: an argument that is a function. function plusOne(num) { return num + 1; } const incrementedArr = baseArr.map(plusOne); `plusOne` is passed to the `.map` function. The argument isn't always executed immediately though: function fetchLinkAndDoSomething(url, fn) { fetch(url) .then(response =&gt; response.text()) .then(fn); } function logText(text) { console.log(text); } fetchLinkAndDoSomething(logText); Functions passed as arguments, when not executed immediately, are often called *callbacks*.
+right you are, a.blah will fail the execution, then I'll remove it together with the candidate and continue the solution. and again, you are right the var's - in many cases let are the right variable definition to use, and const for some. agree on the array, this was noted that this is an abusing solution. as you see, these are just a simple and quick solution - on every one suggested, here and during an interview, discussion and reasoning is required
+It's just plain javascript. You have a simple object with properties that have numbers as names (close to what an array is, but not quite). You then access the property with the name given by options. (obj.attrName is the same as obj['attrName'] is the same as options='attrName'; obj[options]). I think it works since ES1 but don't quote me on that.
+That's just accessing an object's value by providing a key. const optionsA = 1; const valueA = { 1: 'one', 2: 'test', }[options]; // valueA === 'one' const optionsB = 2; const valueB = { 1: 'one', 2: 'test', }[options]; // valueB === 'test'
+Oh.
+I'm not sure of a name, maybe Object Literal Lookup? It's just an object returning the value at key 'options'. So if you had options = 1 And called this object you'd get 'one', options = 2 results in 'test'. It's normally used in place of a switch statement. switch (options) { case 1: return 'one' case 2: return 'test' } would be the equivalent.
+JavaScript: The Weird Parts.
+I think scanning for buzzwords is a mistake. Recruiters like to optimise for the hot buzzwords so they'll just throw them at me. I'm not interested in particular technologies. I'm interested in why those technologies and how they solved important business problems for your previous employer. That naturally leads to what I see as the holy grail: problem solving. I'm looking for a pattern where technology is only as precious as its ability to solve the problems faced by the business. If you use bootstrap in 2018, that means nothing to me. Not even the fact "it's so last year". In fact, I'll be worried if you don't see a problem with JS fatigue. I want to see how bootstrap was the best choice at that moment. There's a probably a good explanation (e.g budget was low, we knew we could sort this part of the project in no time with bootstrap). In fact, I'll probably mark you down if I'm given a foot long of all these different stacks that have been used professionally. I know they haven't had long a lifetime at this point. It screams "shiny new techitis" and makes me wonder if the candidate hasn't had to stick with projects longer term. 
+I think I'm not understanding the problem, why do you need a loop? https://jsfiddle.net/qshqnb01/
+Woha. I never knew!
+That doesn't look to be all that related to architecture - from the curriculum, it looks to be mostly about *how Javascript works* rather than architectural design patterns. While figuring out how Javascript works is good to know, it's a different question than the one being asked here.
+This is my JS WTF of the day! JS never fails to provide me with a WTF every day. 
+The key question here is: _What are you trying to **produce**?_ You've shown your inputs but it's not clear what output you want. Besides that, how do you do the correlation from array indexes to object properties? i.e. How do you go from `[0][1]` to `"corner"`?
+collection[1][34] should map to files['corner'][34]. From your fiddle, I need to do `getLinkedFileObj` for every number entry in `collection`. Currently I wind up with nested iteration (for loops, foreach, whatever) https://jsfiddle.net/uazmtpsv/1/ Not sure how specifically correct that code is, but the concept is accurate. Is there a "better" way to do it? ---- Side bar: I see your nick around here all the time being helpful. Thanks for responding.
+Book on JavaScript design patterns from Addy Osmani has a wealth of information https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+Yes, I consider JS to be more powerful specifically because the debugging tools that a browser provides is some of the best available. My other language is C, and I also program OpenGL shaders in WebGL.
+it's not JS wtf, it's DOM wtf.
+I agree, but querying tag names and names can get you in trouble quickly.
+Generics are eventually coming in go 2. I don't really have a position there, Golang ofter other ways to do fine without them so I don't miss them. 
+&gt; I want to correlate, say, 34 (from `set[1][0]` above) to the direct entry, in the JSON file (category 2, file 34). IOW `set[1][34]` should map to `files['corner'][34]` so I can get the data there, which would be `{"id": "corner035", "src": "corner035.png"}`
+This was actually my first initial expectation. Then my expectation got blown out of the water.
+If this blows your mind, this following might turn your head upside-down - https://codepen.io/anon/pen/GxVoVR?editors=1111 You can query any DOM element, not just the whole document - https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector
+So you correlate `1` with `"corner"`, right? The problem is that is fragile and bound to fail. You should not rely on the order of property names. Anyway, how about the other question?
+&gt; Golang ofter other ways to do fine without them so I don't miss them. \&gt; Arrays, maps and slices are literally generic types \&gt; Other ways include copying and pasting code or using interfaces \&gt; doesn't miss generics thinkingface.jpg
+The JSON file is read into arrays. The block is pasted from the JSON file itself, but it exists in the app as an array. The question of production is answered above. I want to get the data at that position in the JSON data for every number in `collection`.
+Well, I cannot deny the elitism but I think it's changing with the time. - For front end templating... There is already a native package for that. (https://golang.org/pkg/html/template/) - Package management, there is dep / govendor - Framework like echo (https://echo.labstack.com/) replicate well was you can do with express/koa, there is also a few "all batteries included" frameworks like goa (https://goa.design/) So far with go, It's more about having quality packages than having a hundred left-pad. Personally, I like to write in a language where I can see the best practices, where main frameworks are well established and I don't have to run a 1GB boiler plate for an hello world. There is bunch of reasons why smarts people like TJ (express/koa creator) decided to leave Node.JS for Go. https://medium.com/@tjholowaychuk/farewell-node-js-4ba9e7f3e52b
+I like it. If you want, I can suggest a few things: `17`, With `icons`, you can make your code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) with `.map`: const icons = ['people', 'lumber', 'corn', 'iron'] .map((name) =&gt; { const img = new Image(); img.src = `assets/icons/${name}.png`; return img; }); `57`, If you have a `class`, it's better to put methods directly on the class (` startBuild(resources) { .. `) than to assign to the prototype later (`MapHex.prototype.startBuild`) - that's one of the benefits of ES6, syntax - if you're going to use it, best to use it to the fullest when appropriate. On a similar note, if you're going to use ES6 (which you should), better to use `const` everywhere, rather than `var` - `const` makes code easier to reason about, since when you see it you know the variable isn't going to be reassigned, and it doesn't get hoisted. (use `let` instead if you have to reassign the variable) `66`, `for (i = 0; i &lt; resources.length; i++) {` - don't implicitly create global variables - use an identifier like `const` first. In this case, since you're reassigning, you'd have to use `let` instead, but it would be better to avoid `for` loops entirely: const costs = this.buildingOptions[this.nextBuilding].cost; resources = resources.map((resource, i) =&gt; resource - costs[i]); Array methods are wonderful; no manual iteration, automatic abstraction, clearer code intent. You can get by without ever using `for` loops, which is a good habit to get into. `80`, you can make these blocks much DRY-er by utilizing an array like [ { type: 'water', weight: 4 }, { type: 'water', weight: 3 }, ... Same for the `139`. `switch` isn't great to use - often, object lookups are DRYer and easier. You refer to `screen.ctx` a whole lot. You might find it better to simply use a `ctx` variable, and assign `screen.ctx` to it. (again, DRY) etc These are all mostly *code readability/maintainability* issues - but while that's *important*, what's *more important* is being able to put together non-trivial systems in the first place and get them *working*, which you've done.
+This is a webpack internal thing, for it's own code quality.
+1) C# mainly. Used to do some Java, had a play around with a few. 2) Not really, especially not since .NET Core has matured. I still use JS for the front end obviously, but if someone gave me the same performance benefits written in C#, I'd move in a heartbeat. Blazor, for this reason, is looking very cool to me. 3) Maybe? Still know a lot of PHP devs but don't know many proper Ruby guys anymore, they've all moved onto other things. 4) VSCode. I do like Visual Studio for backend stuff though, especially when combined with C#.
+I knew I couldn't have been the only one, I was just the one that happened to comment. I've never even seen or heard of this in my life before.
+You initially said &gt;I want to correlate, say, 12 (from collection[0][1] above) to the direct entry in the JSON file (category 2, file 83). so it sounded like you wanted to get the matching index in the *next* category. &gt; collection[1][34] should map to files['corner'][34]. Are you trying to create a new object based on the initial `collection` or what? Can you give an *actual example* of inputs and outputs desired? Not text, but code?
+Well, depending on the specifics, you _could_ do something like... let keys = Object.keys(set); collection.map((group, groupIndex) =&gt; { return group.map(index =&gt; set[keys[groupIndex]][index]); }); ...optionally flattening it if you don't want the result to remain grouped, which _could_ look something like... let keys = Object.keys(set); collection.reduce((r, group, groupIndex) =&gt; { return r.concat(group.map(index =&gt; set[keys[groupIndex]][index])); }, []); 
+I'm pretty sure everyone had the same thought when seeing the title. I think that was deliberate by OP
+Objects lookup is certainly nicer to write and use than `switch` when possible.
+First of all, I'm an idiot. A fuckup like that confuses the whole thing. What was wrong has been fixed for posterity, I suppose... . . . as I've received seen the solution. https://jsfiddle.net/au6ms6ss/1/ Thanks for your responses and for trying.
+https://i.imgur.com/2UjePOG.png
+&gt; Humble is a middleware framework such as Koa that use async function. And Koa 's middleware is like Express. Still don't get the difference between both. &gt; Humble-server has kinds of rules, such as controller, middleware, plugins must be in there own folder. Look more like a constraint rather than functionnalities. &gt; The important thing is Humble has there own team to develop it. yeah like express / koa / etc. Once again, it's probably very interesting to make it. But from my point of vue, it's just an express like bunddled with common middleware (body-parser, templating) 
+As already said in this thread. Try WebGL and / or asm. Although I'm not positive that these will be significantly faster everywhere, Firefox (and chrome?) have some heavy optimization in place. 
+Looks good, but - use `const` rather than `let`. When you use `let`, that's a warning to whoever's reading your code "Watch out for this one, I'm going to reassign this variable later!" - but if you aren't actually doing that, use `const`.
+https://jsfiddle.net/au6ms6ss/1/, which is basically your first block Nesting `.map` methods as opposed to nesting `for` or `forEach`. It's a learning project. It's "better" in that I now see `array.map` in a real-world context, and how it works. I've also seen `Map` is a more functional object literal . . . but since nobody mentioned that at all, I'm curious of it's real utility. Even tho I fucked up the question, thank you very much for your responses. 
+It often happens that asking is harder than answering :)
+Based on this https://codepen.io/anon/pen/mxNEbm It seems you can override window or document by accidentally creating an ID so thats a good thing. Tested it in latest Chome and IE11.
+`const` vs `let` is a mental thing with me. For example. . . I told my son I can't play games like Cuphead and Dark Souls where you're expected to die as part of the game. . . I grew up in the 80s where `in-game death` = `failure` = money out of my pocket. When I die in Skyrim my brain racks up a quarter even tho I know better. `const`? &gt; WHOA WHOA WAIT A MINUTE. That's going overboard... I don't need to **dedicate** a whole variable to this one little thing. Even tho I know better. Plus, it's more typing. I'm in my 50s I don't have that kinda time. TL;DR - Learning and unlearning . . . it's a process. 
+I could never get this to work with a private git repo :/ seemed to set all the symlinks up as expected but builds would always fail.
+This is why I used the word "blockchain" over 40 times in my CV.
+&gt;I've got a feeling the data isn't loading dynamically but rather directly from the server. Which means I have to scrape the html/xml directly. Is that correct? Yes 
+I am comfortable with node and other backend frameworks. 
+This actually precedes the standard DOM API. But you (or one of your third party scripts) may easily overwrite those global variables on accident, so you shouldn't rely on them.
+&gt; There's a number of methods and you should use them. I haven't tested this, but if your element id is "navigator" you just potentially overwrote window.navigator and all the functionality it had No, if the variable exists, it won't be overwritten. That would be lunacy.
+Elixir. 
+:) Well...... What about React, Redux, Saga, Webpack 4.0, Vue, Angular 2+ - and these are just for FE. We are really looking for a solide BE and DB (big data) background as well. 
+It won't get you in trouble, it'll do precisely as it says.
+I've already got a fair amount of code written in vanilla js though. Performance isn't horrible though. I get about 15-20 fps in chrome and 30ish on Firefox on basic image convolutions and stuff as things are now which is a lot better than I expected. It's only in more computationally complex algorithms that I get significant frame drops. 
+That's great and all... but do you guys do blockchain?
+Did you check out the link OP posted?
+I can't say I disagree with you... I would however advise: when posting a piece like this, or a question on Stack Overflow, you must get everything exactly perfect. If your question is about outputting a table, but somewhere you say "i run a loop to iterate over my array, then use the data to populate the table, but the table is fucked up", guaranteed that someone will respond &gt; why are you using a loop? Use `forEach`. TL;DR Your questions, statements and intent need to be seamless, focused, and bug free. Otherwise, a polyp of discussion will lead to a discussion headed off into tumorous East Egypt... until you get one guy that comes in on the main question. "you missed the &lt;/tr&gt; on line 7"
+I remember that an implicit ID variable would override an explicit variable: &lt;input id="my_id" value="Hello"&gt; &lt;script&gt; var my_id = 123; my_id.value; // Hello &lt;/script&gt;
+Nope, we are all about data analytics :) Obviously, keywords should match your tech stack and industry. 
+I've started to learn Rust over the weekend, it's really nice, though I will use Golang primarily at work. I can't really see many cases where Rust would be picked over Go? Although, the ecosystem/environment around Rust is much better than Go -- especially dependency management(which is a huge weakpoint of Go imo.)
+To be clear, a private npm package (a folder with a package.json file) is what you need, not just a git repo. I think my example above only works if you use [Node Version Manager](https://github.com/creationix/nvm). If not using `nvm` you need an extra step with sudo: cd /path/to/local/package sudo npm link cd /path/to/project sudo npm link package 
+New features maybe? Check out our Trello board. https://trello.com/b/QDlYTHye/cryptoforsciencecom If you want to join the Trello organization, send me your email.
+Thank you! :)
+Thank you! :)
+Thank you! :) Meteor is easy, you'll get good fast. When you're read and you want to join the Trello organization, send me your email.
+I deserve the downvotes, i didn't check the link first!
+Like since forever? It's just shitty pracitce IMHO. You should encapsulate your DOM references.
+So... to fix for example this paragraph: &gt; Basically, a researcher adds his project + his contact data + how much he has already raised + where he wants to get paid: Bitcoin and ETH addresses. It should become: &gt; Basically, a researcher adds his/her project + contact data + how much has already been raised + where the payment must be made: Bitcoin and ETH addresses. ?
+Thanks for extra detail, pretty sure I was already doing that but just could never get it to work. I'll give it another go when I don't want to throw PC through the window :D
+Why would I do that? Surely that would be even less efficient. 
+`getElementByClassName` is great i use it a lot too, i'm just advising caution when using `getElementByTagName` and `getElementByName`
+Simplest explanation to understand PWAs
+Hey man you have stolen the app I'm working on currently!!! I will report you!!1!
+You can use Swift on Ubuntu, no need for Apple ecosystem.
+Usually it's the post which should have been titled less ambiguously. I too expected something about querySelector.
+https://medium.com/make-better-software/against-the-whiteboard-f1df0013954f This is a pretty interesting read
+ReasonML: It’s a nice functional programming language (based on OCaml), with the huge benefit of being integrated well into the JavaScript ecosystem.
+Simply having your blog post proofread, especially when you're out advertising it on platforms like reddit, is a must. The moaning here is about a senior developer making a rookie mistake in the core domain of his blogpost. And in that sense I consider it completely justified.
+1 ) C, C++, Go, Python, and Java (because I have to for würk) 2) Although I'm not familiar with ASP.net I don't consider JS to be more powerful. Every language/env has it's advantages and drawbacks. 3) I'd say JS gets more hype but there's still lots of work for PHP and Rails devs and they're also fun to use. 4) vim because I'm used to it. Yes I like VSCode
+LPT: if you spend the time to formulate an accurate question you often see the answer yourself. 
+I was in your spot 3 years ago, you learn fast
+That's awesome, thanks for sharing.
+this is only obfuscation and thus not really secure
+but for my usecase i need write enabled tokens for writing the calendar from the application to the offic365 calendar
+Good read. The YDKJS resource was also usefull. Good job.
+&gt; That would be lunacy. I was a PHP dev for 9 years. I learned to be surprised at nothing. 
+What's the purpose, did the book provide some context?
+You're right. My bad. I thought the use of document.getElementById function call was turning it into global variables.
+The problem isn’t that people can pick it up. The problem is most wont want to. As a newer dev, I have zero interest in learning Meteor.
+Agreed 100%. 
+This book is (sadly (*)) not a good recommendation. And it's becoming less so each day. Not only because, [as has been discussed previously](https://www.reddit.com/r/javascript/comments/2lvoyo/learning_javascript_design_patterns_by_addy/) and elsewhere, the _Design Patterns_ presented are in most cases not Design Patterns at all, but because it hasn't been updated to a more modern style and is thus getting outdated in some regards. Also, to some extent, while you may or may not disagree with the previous paragraph, presenting DP as is done in the book, does little to help in understanding about _architecture_. _Architecture_ is a _larger_ subject. ---- (*) Sadly. Yes. Because, as sad as it is, this book is one of the few resources available on the subject. It gets a lot of attention because there aren't many alternatives. _Particularly in book form._ There are some _talks_ and maybe a handful of _articles_ about _architecture_ that focus on JavaScript. But there's little in book format.
+1. Java/Groovy primarily for work. Java, Go, Python, or PHP depending on what I'm doing. 2. No. Use the right tool for the job. 3. The Ruby stack yes; it's a niche market IMO. PHP will be around for a very long time. 4. vscode.
+This is basically a cheat sheet of everything that’s wrong with interviews. The very first question is reasonable, but the constraint is not. Objects exist and are perfect to solve questions like the one asked. Why restrict their use and then suggest the best solution to this question is to... implement an object yourself, but poorly. Do your contributors regularly reinvent the wheel like this? Seems like a ridiculously poor interview question and a fundamentally flawed approach to interviewing overall.
+I believe the best way to not have to think about this problem is used hyphens in IDs, as hyphens can exist in HTML and CSS identifiers but not in JavaScript variable names. Read this post for more info: https://stackoverflow.com/questions/1696864/naming-class-and-id-html-attributes-dashes-vs-underlines
+Let me explain: i need to securely store an issued to token from microsoft to authenticate an user get their token and manipulate the calendar of an user with their token within my cli app. Is this explanation sufficient?
+if that would be the case, it would still be DOM wtf.
+Thank you so far guys. As i assumed its a not so good documentated topic
+Thanks for this feedback, this is actually one of my least favorite ones, BUT I must say, it's about learning how candidates think\behave\react in strange manners which makes us decide if we should hire.
+ok
+Any sane browser wouldn't overwrite variables already defined on `window` just because an element has the same name as its `id` attribute. That would be very bad. I tested it on Firefox; it's not possible to overwrite e.g. `window.document`, or `window.navigator`.
+Why is it shitty? Please elaborate, if you will.
+I don't mean overwrite in that direction, but in the other direction, i.e. &lt;!-- Somewhere in HTML code --&gt; &lt;div id="foo"&gt;&lt;/div&gt; // Elsewhere in source code var foo = 123; // Another place in source code (thinking it's #foo, but actually accessing an overwritten var). foo.style = bar;
+watchandcode.com
+Both great resources, you should do them both at the same time. Makes for interesting lessons. 
+Ruby is considered the best for new companies and technology developers that are just beginning. There are many reasons why it is marked as very important. The way words put together on Ruby is quite beautiful and attractive to behold. This beauty allows the technician accompany more work with a little code. Again, a running web app does not take as much time as how others are framed, and this is why the beginning tech developer loves and is familiar with the language. 
+Damn! Brainfreeze! Sorry, got it! :(
+I work in JS for 2 years and I have no idea how to make something like this.
+&gt; From my point of view I only write to help others. But this is exactly why this kind of stuff matters. I don't necessarily agree with the tone of the criticism, but if everybody other dev blog post was so casual in terms of terminology, you'd have just more people lost in translation, especially beginners. 
+I never said "never use frameworks", except when learning the language; you people get real triggered
+This is [2 decade old "DOM0" API](https://web.archive.org/web/20050214185647/http://docs.sun.com/source/816-6408-10/form.htm) that hopefully only works with a missing/html5 doctype in browsers not willing to kill it off completely.
+i dont know the struct of fieldError, but think on this: const fieldErrors = { err1: null, err2: "some err", err3: null } const keys = Object.keys(fieldErrors) // ["err1", "err2", "err3"] const justKeysWithError = keys.filter(k =&gt; fieldErrors[k]) // ["err2"] just assigning errMessages to the objet fieldErros you get the object. Doing the filter, you get the KEYS of the object with some value inside
+1. Python is my primary language. I do web backend, data science and general scripting, so it's perfect for almost everything I need. 2. Not sure 3. Not sure, although I'm sure statistics exist on this. 4. When I have to use a text editor, it's generally vim, but usually I use a proper IDE, PyCharm.
+This looks quite odd to me, because it tries to filter without an explicit check like ((null === fieldErrors[k]) ? false : true) The code `fieldErrors[k]` might return an empty string, null or undefined and those falsy values will do the filtering. In other words: if `errMessages` looks like { error1: void 0, // -&gt; === undefined error2: 'Some message' } the above code will result in ['error2'] So this code will always fill `errMessages` with an array of keys, because `.filter` [does not do mapping, but returns a new array of keys here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter). This makes the usage of the name `errMessages` questionable.
+Ah, I see now. Yes, this is possible. A library should definitely not use these, no. Private code... Meh. I dunno.
+I find myself only using querySelector and querySelectorAll. I haven't used the rest since like 2014 or 2015.
+nah you shouldn't in "private" code either. you'll end up worrying about which scope your variable came from. There's no good reason to use this when there are completely safe alternatives.
+&gt;unroll you recursion into iterative algorithms your*
+[removed]
+[removed]
+Your input should be self closing, btw. 
+Thanks! Will check this out
+The token is not an user identify token but a "connect-this-app-to-this-account-so-my-app-can-do-cool-shit", if this makes any sesne. I can't use a .env because a user needs to access the token to authenticate but the user should not be able to see or decrypt the token. I do not know how to explain this better.
+Thanks! I've given codecademy a go and completed the JS beginner course. It's where I realised that interactive courses are much more valuable, for me at least. It's just a shame the courses aren't longer. I'll check out the other one.
+Aha! that makes sense, so it only returns items from the array that have a value?
+Thanks. One more thing that I don't get is how come the result value is updating when we used count++. Shouldn't the code be like this: for (let result = 0; result &lt; exponent; result++) instead of : for (let count = 0; count &lt; exponent; count++)
+Saves on typing, and is HTML 5 standard now, so why not? "It's brittle code!" Only as much as doc.getElem.......
+&gt; 1) Which programming language you guys use outside of JS on the job or in your personal project on the side ? any Python ? C++ at home, Java + JavaScript at work. &gt; 2) Do you guys consider a JS dev. env. (with node &amp; everything) more versatile or powerful than the latest MS Stack of Asp.Net, Mvc etc ? if so why you prefer JS ? None is more powerful. These days it's more a matter of taste, both have pros and cons. &gt; 3) Is Ruby on Rails and Php on the decline compared to JS ? For new projects, JS is definitely taking over. But there are way too many projects running on everything you can imagine. &gt; 4) Which is your fav text editor and why VSCode, Sublime, Atom ? Do you guys like Visual Studio ? Visual Studio at home for C++. Altough the IDE is made with the horribly slow WPF, it's still the best IDE I've seen. At work, Eclipse for Java and VSCode for JavaScript.
+Beautifully put.
+Can you please specify those talks/articles? :)
+Self-closing is an XHTML thing. It's not needed for HTML 5.
+Same as writing: var stuff = { 1: 'one', 2: 'test' }; console.log( stuff[2] ); // outputs "test"
+&gt; If I'm mistaken something, please do correct my wrong. Your mistake is overthinking it. You're already looking for problems, and you didn't even try yet! Just start a project. Anything. All the quirks will come to the surface after some time. Unfortunately, current JS status is somewhat intimidating, with lots of frameworks, and concepts, and idiosincrasies, and so forth... but start writing, you'll get there.
+Python Lisp Both for work.
+There's something fucky about those global variables. I can't reproduce them in one of my sites, for example. In some browsers they also only work in Quirks Mode AFAIK (no DOCTYPE). I'd avoid.
+result is not updating there, it updates on the next line, as explained above 
+right filter((k) =&gt; k); would be filtering on the keys filter((k) =&gt; fieldErrors[k]); filters on the returned value accessing the key within the fieldErrors array. Any truthy value will be retained, anything else (0, null, '', etc.) will be removed. 
+Thanks a lot for your feedback. The post was more a proof of concept on using map/reduce/filter as replacements, I didn't even consider find() but I added it now as it's a much better alternative even if was not part of the original 3 ES5 functions I set to write about. Good point on the accumulator value!
+There are a few of them, but I'd have to look for them. One that I often suggest is now getting a bit _old_ (2009), but I find it still has general value in it: [Nicholas Zakas' Scalable JavaScript Application Architecture](https://www.youtube.com/watch?v=vXjVFPosQHw). [Newer version, but still 2012](https://www.youtube.com/watch?v=b5pFv9NB9fs)
+The only way I can think of is creating a proxy service that is a middleware (MW) between the cli user (U) and the microsoft account (MA). So instead of (U) -&gt; (MA) the connection will become (U) -&gt; (MW) -&gt; (MA). Authentication token will be handled on (MW) and the cli user will authenticate to the (MW) by a password/token/whitelist so that (MW) is not public. Maybe its an overkill but will it solve your problem? I still think that the microsoft account should be able to issue more than one token if you expect couple to dozen people to use the cli app. Especially if its an Oauth2 where you can authorize a specific client with specific resources. You also should have control over oauth2 token usages and permissions.
+I remember accessing form elements in IE3 this way long before getElementById was a thing. 
+Array.from(document.getElementsBy*) ?
+You should NOT rely on this. It will save you bytes, but cost you performance. It is significantly slower than simply selecting the element directly using getElementById('my_id'). The reason being is that Javascript first looks up the variable in its scope chain. Scope traversal will cost you performance. If it doesn't find this variable in its scope chain, it basically "elses" to looking on the DOM. If performance cost is not a concern for the operation then it's probably fine to use this if you really want to save bytes. Sample code: (function(){ var start = Date.now(); for (var i=0; i&lt;1e5; i++) { var e = mainWrap; } console.info('lame ', Date.now() - start); start = Date.now(); for (i=0; i&lt;1e5; i++) { var e = document.getElementById('mainWrap'); } console.info('lame ', Date.now() - start); })();
+While this works, using the implicitly defined variables in the global scope in that way in a production application is bad and hard to maintain. Better to use document.querySelector (which you can locally alias to $ if you're not using jquery)
+Works on mine 
+In IE3. You should not be doing that. If you `var theId`, that thing goes away.
+/r/lolphp 
+Remember, use "Big Data". You need to make your replies POP
+It's because they want cool people to get funded, not good engineers.
+You posted your least favourite interview techniques to encourage candidates to interview with you? Okay then....
+What does realtime even mean? CPUs don't provide any realtime OS guarantees.
+Triggered. 
+Not to be that guy, but why do you choose such an experimental path of binary trouble if you can't find this sort of thing for yourself from spec and modules and have to ask on reddit? What you have is basically a 'struct' in C (etc), so search NPM for 'struct' or 'pack binary' or whatever and see what they do. If you control the backend and can change the format consider there are standards for compact binary transmission, like protobuf or messagepack so you don't have to re-invent this.
+looks nice.
+This is actually what it says now: &gt; It is no secret that I have a passion for Node, it’s the language that got me into development, and the one I most enjoy. The comma fault makes it even more unbearable.
+Paid 10€ for a very in depth course on Udemy. It's called "The Complete JavaScript Course 2018: Build Real Projects!" and I can highly recommend it. 
+Sounds legitimate. It should solve my inital problem and should be doable by outsourcing the so to speak the authentification process to MW (express server not local but online). Anyway wouldn't this solution just shift the problem to MW? Because my app needs to prove to the MW that it is real and not some malicious app. As i understand it, microsoft issues two different types of tokens: id-tokens (identifies user) and access-tokens (identifies user against app) both are not the right type of token for my usecase.
+How so? I would still need to identify my app against one server (might be microsoft or my own). The issue remains: how do i securely store the identification/password tokens?
+Real-time computing != Real-time web. https://en.wikipedia.org/wiki/Real-time_web
+Thank you for this feedback! I’ll definitely take more looks at what you’ve mentioned, and I think that it would make things run significantly smoother. My code is honestly a pile of income red garbage at the moment, so I applaud you for even ascertaining any meaning from it in the first place. Thank you!!
+google is a good one.
+What do you mean when you say that you "can't reproduce them"? You mean that the browser doesn't declare them automatically?
+In all honesty I've only used JS for the usual web dev stuff and nothing like this before, I had no idea what kind of rabbit hole I was getting into until it was too late! My role was always the Rust-based backend server, we were hoping to get someone else to do the client but as is always the way I ended up taking on more work and ended up doing the bones of the client software too. We're all CS students and I'll take excuses to learn new skills where I can. Cheers for the advice, I'll probably end up redoing the backend like you say but I was hoping to avoid this if at all possible.
+This is my thinking as well. Any collisions are either my own fault or the fault of a bad library (which in that case should possibly be avoided).
+Like does anyone even authenticate secure?
+Can you suggest areas of reading, skills and concepts that would be helpful? I am functional with Vanilla JS, Express and MongoDB. 
+Definitely use the right tool for the right job. Rust is designed to be a systems programming language, so it will excel at building compilers, emulators, and performance-sensitive stuff. I would personally not pick Rust instead of Go for a server, but it is definitely possible. Here's a nice comparison with some other languages: https://www.reddit.com/r/rust/comments/4l44z3/why_should_i_use_rust/d3kj37m/
+Not at all man, I was just trying to explain why you're getting so much slack. Feel free to continue ignoring it however.
+lots of lol in that sub.
+Properly formatted: const power = function (base, exponent) { let result = 1; for (let count = 0; count &lt; exponent; count++) { result *= base; } return result; }; 
+You are arguing over nothing. Thats the issue for me
+I can read it just fine ?
+I know your pain.
+Protobuffers.
+Python, but I haven't used it in quite a while. 
+The problem seems to be that its a global variable that can overwrite document.whatever or window.whatever objects.
+I think the best practice sites for beginner/intermediate level coders are: - [Coderbyte](https://coderbyte.com/) - [CodingBat](http://codingbat.com/java) for Java and Python only - [codewars](https://www.codewars.com/) - [HackerRank](https://www.hackerrank.com/) Some articles that might help you out: - [10 most popular coding challenge websites](https://medium.freecodecamp.org/the-10-most-popular-coding-challenge-websites-of-2016-fb8a5672d22f) - [Learn by Doing: The 8 Best Interactive Coding Websites](https://medium.com/coderbyte/learn-by-doing-the-8-best-interactive-coding-websites-4c902915287c)
+Just FYI: You can use React and Meteor together. There is even an [official guide for doing so](https://www.meteor.com/tutorials/react/creating-an-app). Haven't tried it myself, though.
+holy shit, that is wild.
+You're not wrong but doesn't this solution seem hackish?
+Odd Bc a lot of tutorials I'm using use .getElementbyID(id). 
+&gt;The course is no longer available on the codeschool website What do you mean? Pluralsight has always owned codeschool afaik. They should all exist on codeschool still. 
+I don't really think so. It just means that elements with IDs using this technique never get registered in the global namespace. I'm not sure how this is handled in the spec or in actual browser implementations. It's not an ideal solution but to keep backwards compatibility so I don't mind it.
+So &lt;div id="with-hyphen"&gt;&lt;/div&gt; ... console.log(window['with-hyphen']) this will log `undefined` ?
+Ah I didn't think about accessing the property like that! Doing that does infact does log the element to the console. It is a little hacky then I do have to admit. Well done for thinking about it harder than I did ;) However I don't see a need to ever access properties on the window object like that, so I still think it isn't that big of a deal!
+Why not assess them on realistic problems they might actually be required to solve? In what way can a real world example without such an obscenely ludicrous constraint be used fir the same thing. I give real world programming tasks with no obnoxiously interview-only constraints, and I also assess the candidate on how they think/behave/react. Do you think arbitrarily constrained questions offer a unique advantage over real world ones?
+I recently wrote similar code (radio-transmission of JS structs), and ended up going with a serialization/deserialization system of my own devising. Have you decided on network byte ordering? From what I understand, big-endian is more universal. I PM'd you a link to my repo, feel free to check it out. Cheers, - MD
+but they do "get registered in the global namespace" just like an object can have a key "a-b-c", you just access it with `obj['a-b-c']`...
+Cheers, that link is much appreciated! We're using big-endian encoding, the rust ByteOrder crate takes care of it on the backend.
+i don't think you thought this through...
+I definitely had trouble using webpack to create libraries that were distributable as es6 modules / commonjs modules via npm. I ended up switching to rollup for those projects and everything worked just fine. This was over a year ago, however, and I didn't know much about webpack at the time. I've definitely seen libraries using webpack for bundling, it's not impossible. One thing I can definitely say, is that rollup transpiles more human\-readable JavaScript than webpack. Webpack modules seem to mostly end up as strings that will get evaluated, which is pretty hard to grok if for any reason you needed to look at your minified bundles. Rollup, while it definitely abstracts your code and adds a lot of boilerplate, is more readable.
+This reminds me of the time that I learned your browser will render a website without the doctype, html, head, and body tags. I don't know why you would do it, but it's interesting. 
+If I understand correctly, I think you should store them in the user's homedir. I have an app [gfork] in which I do exactly that. [homedir]: https://nodejs.org/api/os.html#os_os_homedir [gfork]: https://github.com/laggingreflex/gfork [configucius]: https://github.com/laggingreflex/configucius 
+No, it really hasn't.
+Haha yep agree, that indeed shouldn't be too much of an issue! I was just curious whether hyphenated IDs would really not register - as this whole rule was basically only standardized to comfort IE, it wouldn't have surprised me the least if it had some more weirdness added on top...
+Rollup doesn't create any overhead, it just combines your modules into one file (or with experimental options, into several files). I also find that Rollup is more effective at dead code removal than Webpack. Webpack introduces some runtime overhead with its' `require()` calls. This might change in the future if Webpack decides to use `import()` instead. Webpack is also significantly slower to build in my experience. Rollup takes ~60ms for a file whereas Webpack takes ~1s. Webpack has more flexibility though, but that is often not relevant for libraries.
+all the problems associated with global variables. for example, not visible lexically, easily shadowed, etc.
+You shouldn’t be “var”ing anything anymore.
+You *can* do that, but why not just use qSA instead?
+That's what polyfills are for, which any reasonably competent developer's build process should take care of automatically
+I don't think `window` is set as `OverrideBuiltins`, so these elements can't accidentally override them. But `Document` and `HTMLFormElement` are. Document: https://i.imgur.com/1qQvKmB.png HTMLFormElement: https://i.imgur.com/drykh6W.png
+It's `getElementById` - the last `d` is not capitalized. (yes, that's important) `getElementById` is perfectly fine to use anyway because it returns a single element, not a collection - its behavior is pretty much identical to `querySelector`, except it's less flexible. I still prefer to use `querySelector` when writing a selector string (eg `('#container')`, but if you have a variable with an id name in it whose element you need to select, definitely use `getElementById`. Lots of tutorials *also* use the HTMLCollection methods, unfortunately, but they shouldn't - they're a frequent source of frustration and bugs.
+Actually it's kind of true. Just not on `window`: https://i.imgur.com/1qQvKmB.png https://i.imgur.com/drykh6W.png 
+I use rollup for both applications and libraries and I'm quite happy with the results. It's lighter, less intrusive, and easier to configure than webpack and the output is a lot saner. 
+Great. I'm glad you thought it was worthwhile commenting that. 
+And as soon as the browsers adds a new builtin that has the same name your code will break.
+&gt; Well done for thinking about it harder than I did ;) Maybe he thought about it equally hard, but is smarter or more knowledgable.
+or the browser adding a new builtin
+Yes I see it, I am putting labels ans start working on them. Thank you for your support :)
+Or its successor FlatBuffers: https://github.com/google/flatbuffers. It is very good and efficient while being supported by Google itself. However your task sounds quite simple. You may create your own serializator if you don't want a new dependency which is capable of much more than you need.
+jQuery 4 lyfe!
+Ah makes sense. Still trying to understand what's best practice so I don't build bad habits. 
+I don't know if that was meant to be an insult but it sure sounded like one. What was the point of you saying that?
+Perl does math.
+&gt; You should encapsulate your DOM references. You mean by using document.getElementByWhatever?
+Ah, "a Tale of Two Todo Apps", ie, this is not a journey. 
+jQuery 4 lyfe!
+Same here. 
+Learn just plain JavaScript to start. Avoid doing anything with libraries or frameworks until you more or less understand why you are using the other libraries if that makes sense. Other than that have fun with it. There's a lot of nifty things you can do with JavaScript on both the client and server end of things.
+I'm currently using Rollup for the library I'm writing for a personal project, and it is really simple to setup and does everything needed with no problems. 
+I would personally recommend the book JavaScript: The Good Parts There is so much happening in JS that you can't really grasp everything. Or then just start building things :)
+freecodecamp.com is a good way to start Also don't only try to make it work, but try to understand it, there's a lot of weird things in js but if you look closely everything has a reason and everything makes sense. And don't try to program in js as if it was another language, JavaScript is JavaScript with its good and bad things, but don't try to make it work as another thing because it won't work
+That's awesome! Are you thinking of doing a write up to describe your experience and project? Definitely be interested in learning more about the AI and the reasons behind your decisions. Also be cool if you simulate the upcoming world cup but that's probably too much work. (Go Egypt!)
+Looks fine to me - that's a valid use case for middleware.
+No, that should be the last step. I meant to create a module, scope, closure whatever to only allow a limited number of functions can access your DOM references. Safer, neater
+Okay, makes sense. Thanks.
+If anybody can talk to a dom node, then eventually it becomes hard to track who's signed up that node, who can modify it and so on. If you reference it your UI module for example, then it's safer to update it and handle events on it. On the other hand having a global variable means any module at any time can modify that node.
+`this.selection` is so all other functions can modify the selection from `select`. I couldn’t think of another way to allow all other functions to access the selected HTML. But I’m open to suggestions on a better way to do this! I agree with the separation of the `selectByClassName` and `selectById`. Move them out into the `components` directory? That would make sense, or put `select` into its own folder with the two functions. Which would probably make more sense. As they’re only related to the select function. 
++1 on the book recommendation. Great book to start with the right foot.
+What are you using the first one for? Like, by having the key you pretty much already have the value tho
+Webpack introduced "scope hoisting" (turned on in "production" mode by default in Webpack 4, I believe) about a year or so ago, which reduces a lot of the runtime overhead of Webpack by not putting everything in a closure. It also became relatively less config-heavy beast, with some sensible defaults that most projects. Basically is has got to the level of size and importance where it's inevitably more likely to adopt ideas from other projects than actually be replaced by them. Webpack also has a huge library of plugins, that help you with everything from offline support via service workers, to loading SVGs in React application. This likely doesn't matter to library developers of course.
+Yes, it works. It's "safe" in a sense, but not necessarily recommended as it would add asynchrony to the call stack where it otherwise wouldn't be needed. But if you have a function reference that may or may not return a promise, then you can await the result and not have to worry about any special casing for when it may or may not be a promise. I don't think anyone would appreciate calling await on every single call in an async function though. That could get messy ;)
+IIRC, Webpack's dead code removal relies entirely on UglifyJS. Or is that not the case?
+Hi /u/blazejohk, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index).
+Yeah but there's the overhead of starting and ending a perl process, and I can't rely on perl being available on the client. 
+Hi /u/krsnvijay, For javascript help, please visit /r/LearnJavascript. Thank you!
+Wow. If you just dropped a True or False on me, I most definitely would have said false. Mind blown.
+I've written a function called `clone`, it's available through the npm package `lang-mini` and called through its `.clone(obj)`. It wouldn't be the fastest JS code ever written for this (I guess), but it gets the job done when I need it.
+How does a closing slash on an input help you read it? You must be obsessive compulsive. 
+Isn't that the answer to every programming post ever? You either learn more advanced programming techniques in your current language, or move on to another language that reports to be perfect for the job. At some point you also have to decide if the language/stack has enough widespread use that you can reasonably get a job using it. If the town you desire to live in has one dev shop solely using language X, then your choices are made for you. Endlessly learning new languages isn't as fulfilling as it may seem. Unless you're a robot with infinity memory. 
+Its actually bad practice to use them. /u/CertainPerformance posted this link to StackOverflow which has some info on why https://stackoverflow.com/questions/3434278/do-dom-tree-elements-with-ids-become-global-variables
+Why turn back? JS is one of the most active languages today, thoroughly documented, rich communities, and has many and varied uses. What language(s) would you recommend over it, and why?
+There are benefits to knowing how to use each component of the stack individually. I think this is especially true for beginners. When you rely on things like Meteor, your knowledge can very quickly become outdated. Who knows what people will be using a year or two from now? Sure, you can say that about anything, but I think the components of the MERN stack have demonstrated more "staying power" than Meteor has. Plus, from a jobs perspective, Meteor is not all that popular. I think Meteor is useful and high-quality, but I also think that understanding the problems it solves can be important to beginners. I got caught in the same trap with Rails. When I started learning, there were hundreds of Rails jobs in my area, but by the time I felt like I was ready for a job, they were all gone. And guess what? I had absolutely no clue how to use any other Ruby framework because Rails had done so much for me.
+It just takes learning. You'll find things you need to learn that are specific to Django and things specific to Express (I've had experience with both). Try your best to figure out Express. All the things you listed were made for very good reasons (CORS, JWT, passport, etc). Get to know these concepts. Google around for more explanations. Figure out what you would have to do if you didn't have them. This stuff is important, and the start is always the most challenging part
+&gt; But if you have a function reference that may or may not return a promise, If this is the case, and it's 3rd-party code, then your hands are tied. But if this is a function you own, it should always return a promise. For example, if you're making an ajax request where the response might be cached from a previous call, you shouldn't return that response outright, you should return `Promise.resolve(cachedResponse)`.
+You're thinking of generators.
+Read this looking for better FP-style error handling in JS, and thought (a) it may well be a useful pattern, and (b) it offers a usefully different way of thinking about monads, and how to use &amp; implement them in JS.
+At that point why not just query selector ?
+1) Imagine you are building a specific feature. In a page that consumes that feature you notice a spelling error. You fix it so you dont forget it. Not there is a modified file that has nothing to do with the feature you are working on. You dont want to commit that because it will "pollute" the commit and make it harder to review. 2) If you don't like prettier, you can opt for ESLint. I personally hate prettier, but in some projects I use it because I don't want to have to care about the formatting.
+You could do it iteratively or recursively, but I would recommend (because numbers can be very large and you might hit memory or stack limits) doing it mathematically instead. Ask yourself, "how do I know how many even numbers there are in a range?" Like, if you just start at 1 and try it: 1) 0 evens, 1 odd 2) 1 even, 1 odd 3) 1 even, 2 odds 4) 2 evens, 2 odds 5) 2 evens, 3 odds 6) 3 evens, 3 odds Etc. You might have noticed that the count of evens is the same as how many times 2 goes into that number? If you can figure out how to divide a number into another number and discard the remainder (always get just the integer part) you have this solved!
+How would I code that?
+That's not javascript that you pasted in the description. Are you asking about Java? Anyways... Something like `while (x &gt; 1) { x = x / 10; }` will loop once for each digit.
+I would first do some googling, or check your textbook. Are you taking a class?
+Do you really need a while loop? You could use Math.log10() instead. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log10
+Yea I would avoid this pattern all together honestly, codepen offers much to learn from personal hobby projects and proof of concepts but not so much for generally improving your foundational skills as a developer. Also if I can offer some advice- JQuery is cool and definitely helps with DOM operations, but most native API's are just about on jQuery's level at this point in time. If you can reduce the extra dependency for just learning a little more native code, I think that is a great trade off that is worth learning. That's just my two cents
+Yes, it would definitely be better to just use qSA - but my point was that you shouldn't write code based on what a browser might or might not support - that's only needlessly gimping yourself. Feel free to use `Array.from` or any of the other nice new JS features, just use Babel + polyfills before posting the production code - which you're probably doing anyway.
+Thanks for all the cool info! I know I'll need to brush up on ES6, so going over the beta curriculum of fcc would be a good shout. In the same vein the new Udemy course sounds like it's worth checking out too. Cheers :)
+I guess I ask about #2, bc the way I see it, this is the way this process should go - as in a take it or leave approach. Which leads me to -&gt; maybe there's an objective better route by requiring a prettier in their code editor and then we can do it manually on a by file or line by line basis as I have done previously.
+What you are looking for is a pathfinding algorithm. A* is the specific one you probably want.
+I feel this is way beyond my current abilities so I just wrote an in-depth explanation of what I want to do in the Italian computer science subreddit asking for someone to write and sell the code to me.
+There is nothing that could block your path? Wouldn't you want the pathfinder to help users around it?
+Just more of the same usual shameless self-promotion
+This is less about destructuring and more about functions with a lot of arguments being difficult to work with.
+&gt; I'm trying to create a simple blog website with Node.js Express.js and server side rendering with .ejs but somehow I feel like bit weird and overwhelming while using so many libraries and/or functions like If it's supposed to be a simple blog, then don't worry about * `CORS` * `JWT` * `passport.js` * `cookie-session` So what if your simple blog app doesn't have auth? It's like your 3rd app and it's not going into production. 
+Yes. Nothing could block the path. Its a maze inside a sphere. You just have to work your way through it. The end has an indicator pointing to it. My question was - is there a simple way to do this with threesjs or will I have to do said math. 
+Check out *You-Dont-Know-JS*, it was definitely an eye opener for me. Very easy reading as well. https://github.com/getify/You-Dont-Know-JS
+If you are thinking you can make a 3d game of any merit without doing any math at all, you are in for a bad time.
+You could have something like: var getJson = isOffline ? getJsonFromLocalStorage : fetchJsonFromUrl; where `getJson` could represent two different APIs, one which uses promises and the other not.
+There is a peak and rapid fallof to that laziness. eg: if you require people to show you better places to ask your questions, maybe you need to reevaluate where you are on the graph of laziness.
+Man I'm just stating that its the most common codestyle, I'm not gonna argue over it.
+&gt; So what if your simple blog app doesn't have auth? It's like your 3rd app and it's not going into production. _This._ If you're green in a language and just trying to make a simple blog, use a static site generator or something _easy_. It's perfectly okay to then hack something together to add functionality and not know 100% how it all works. When you're back around to doing it again from scratch (it'll happen), you'll have more experience and better forethought for good practices, _and_ it'll be easier to learn about and use these libraries you're struggling with.
+I wasn't actually thinking prettier vs not using prettier. More using prettier pre-commit on a file by file basis vs using it as a plugin within the team of programmers separately (but obviously leveraging the same prettier config).
+Oh but I know about the other sub. Its just not well populated relative to this one so i figured it would be faster here. And in no time it has proven to not be useful so now on to threejs. Lazyness prevails. 
+This is great advice for all languages. 
+&gt; If the town you desire to live in has one dev shop solely using language X, then your choices are made for you. having seen a few competing dev shops startup due to strong coders disliking an existing dev shops stack, this doesn't make sense. but yeah, also agree "Endlessly learning new languages" is not the go just because. choose a stack that makes sense, is widely used and supported globally and has reputation for working in industry.
+Unknown SSL protocol error in connection to install.meteor.com:443
+All core Object3D objects in three.js contain a .lookAt method, is that what you need? https://threejs.org/docs/index.html#api/core/Object3D.lookAt
+I'm too lazy to work it all out but my initial intuition would be to send the object through the same matrix transforms that objects in your scene go through to get rendered. Then you can check if it's outside/inside the viewport rectangle, and whether above/below/left/right. You might also need the dot product of the camera direction vector and the vector from the camera to the object. If that dot product is negative then it's behind you, and it's definitely outside of the view and you probably need to flip some signs. You'll probably need some basic trig to work this out and at least some understanding of how to transform points in 3D space by way of matrix multiplication.
+&gt; At some point you also have to decide if the language/stack has enough widespread use that you can reasonably get a job using it. If the town you desire to live in has one dev shop solely using language X, then your choices are made for you. &gt; &gt; I was a at a conference recently where someone did a vue.js demo. He asked why people had come to his talk to open up discussion and such. Someone noted the framework they loved wasn't popular in our area so they came to see a new one. His response *Have you thought about react?* He actually answered several questions that way as a joke as in our area vue.js isn't much of a big deal ;)
+I call it...Programming by obscurity.
+I see the book from 2008, still relevant? I noticed the author's course on Pluralsight is more recent.
+I am already using it. I just need to work out how to position it. 
+I use rollup in all my projects now and if I need to handle assets outside of JavaScript like images, icons etc I simply use gulp.js and run Rollup in a stream task opposed to running everything with Rollup which results I’m a very fast compilation times. The stigma that rollup is only good for library builds is absolute nonsense nowadays and given the right plugins you can build a very efficient application using rollup and only rollup. I boycotted Webpack several months ago now and while I still love Webpack I don’t love the inflated production files it spits out. I literally saw a 250kb file go down to 160kb when I moved a build from Webpack to Rollup. I also notice a considerable speed difference. In terms of creating your own own plugins, rollup is superior here imo and let’s not forget the power of Buble (not to be confused with Babel). While every use case varies if you’re feeling adventurous I recommend you give Rollup a try but be warned you might not go back. 
+Maybe try setting the content-type to application/zip?
+This was cool but it didn’t really impress me. Just saying. 
+You can try adding the arrow to the camera object rather than the scene so it acts as a HUD type of thing locked to the camera viewport.
+It is. Learn Commands(Unix, CMD) and ES6!!! Very important!!! After that's its really easy, without it, it's hell! I speak out of experience. 
+Oh... it's an ad.
+Forgive my ignorance, but what is "ASI abuse"? Seems like lots of major packages are Standard-compliant.
+w3schools.com you can play around with a code directly. However, sometimes code is poorly written so use other sites like amazon MDN. 
+Guys, if you struggle with React, it means you struggle with terminal or Es6. React is super easy after you know these two. 
+&gt; as a plugin within the team of programmers separately So how do you know they actually used the plugin?
+This is not the only place I’m checking my judgmental friend. 
+I’m not sure I follow: `secret.js` is not in the repository, every user would have to install it locally, on their computer. It fulfills (a) and (b). But I get the impression that you want to go further than that and don’t want to keep the secret around unencrypted.
+Happy Cake Day! ^You ^can ^participate ^in ^r/HappyCakeDayClub ^until ^midnight!
+Here's a sneak peek of /r/HappyCakeDayClub using the [top posts](https://np.reddit.com/r/HappyCakeDayClub/top/?sort=top&amp;t=all) of all time! \#1: [I don't know what to post, so here's the last photo on my phone](https://i.redd.it/7ej67nok66s01.png) | [2 comments](https://np.reddit.com/r/HappyCakeDayClub/comments/8cjs0e/i_dont_know_what_to_post_so_heres_the_last_photo/) \#2: [MRW I'm an approved submitter to a sub about Cake Day with no posts](https://m.popkey.co/330132/E8b5l_s-200x150.gif) | [4 comments](https://np.reddit.com/r/HappyCakeDayClub/comments/8cin3k/mrw_im_an_approved_submitter_to_a_sub_about_cake/) \#3: [Can we meme Zuck for my Cake Day!](https://i.redd.it/ize4btxol8s01.jpg) | [1 comment](https://np.reddit.com/r/HappyCakeDayClub/comments/8cm78d/can_we_meme_zuck_for_my_cake_day/) ---- ^^I'm ^^a ^^bot, ^^beep ^^boop ^^| ^^Downvote ^^to ^^remove ^^| [^^Contact ^^me](https://www.reddit.com/message/compose/?to=sneakpeekbot) ^^| [^^Info](https://np.reddit.com/r/sneakpeekbot/) ^^| [^^Opt-out](https://np.reddit.com/r/sneakpeekbot/comments/7o7jnj/blacklist/)
+For some reason you felt the need to justify the fact that you were mistaken. This is known as "saving face". However, in this situation, there was no need to do so, and thus it was indicative of insecurity. I punished your *faux pas* by cutting off the line of retreat and addressed the perceived insecurity directly. This is in and of itself a *faux pas*, but I didn't care because this is Reddit, and my identity is not on the line.
+Thanks spacejack2114. I was intending to use lookAt for the angle but youre right maybe the normal once its looking at the object is the angle vector?
+While I think it is a good book I think for a beginner it is far too technical. It just seems it assumes you are familiar with one, or more likely two or more other languages, so you can grok why the good is good and other parts not so good. (I am just trying to learn JS but have used C, C++, Java, Python, and even OCam)l--JS: The Good Parts is the type of book all languages should have--a cold, some times opinionated, but well reasoned review. But for a beginner it is sort of like a biblical burning bush--you'd have no way of actually getting the nuanced reasoning and wherefors regarding what the good is being contrasted with.
+Right, but the article posted would rely very heavily on packages too. One just gives you an easier way of including the very same packages.
+When he goes from parallel fetching: const users = await fetch(`${apiUrl}/users`); const companies = await fetch(`${apiUrl}/companies`); const articles = await fetch(`${apiUrl}/articles`); to promise fetching: const data = await Promise.all([ fetch(`${apiUrl}/users`), fetch(`${apiUrl}/companies`), fetch(`${apiUrl}/articles`) ]); What about the result? Is that data[0], data[1] and data[2] for users, companies and articles?
+[removed]
+Not exactly sure what you're on about. Are you talking about the working draft offScreenCanvas, just caching it or something else?
+You need to project the vector pointing toward the waypoint onto the plane of the screen.
+Sure. See this SO for generating random numbers in a specified range: https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
+Try `60 + (Math.random()*120)` instead of `60000`. `Math.random()*120` will give you a random integer between 1 and 120, so adding that to 60 will give you a random number between 60 and 180.
+&gt; The point is that the http request fires immediately, but the user can supply a callback at any time. This is also a trait of Promises. You can call then before/after the Promise is resolved/rejected and it does not matter.
+you can use this to create a random number in a certain range: const r = (min, max) =&gt; Math.floor(Math.random()+(max-min+1)+min); And you can use `setTimeout` and recursion instead of `setInterval`.. (function recurse(){ setTimeout(()=&gt;{ // do whatever recurse(); }, r(60, 180)*1000); })()
+The official stance of TC39 (the group that guides the future of JS) is to kind of recommend against standard style because of "ASI hazards" - things that standard style is specifically designed to guard against and educate the user about. [Standard's semicolon specific rules are here.](https://standardjs.com/rules-en.html#semicolons) It's a valid concern for TC39 because as the syntax grows there might be more hazards to be aware of, but Standard will just get updated (like it already has when ES2015 added template literals - you shouldn't start a line with `` ` ``). But isn't it easier to _prefix_ a line with a semicolon if you absolutely have to? It's not good style and standard even recommends against it but you can. Still I have entire code bases with no semicolons.
+yep that is exactly the one downside of this method - more control but less strict standards.
+I don't think the code style makes a big difference as long as you're consistent about it, so Standard seems mostly irrelevant here. I use Standard for all my projects so feel free to check out my [GitHub](https://github.com/citycide) but a relevant one would be [tablemark-cli](https://github.com/citycide/tablemark-cli) which is a simple command line converter from JSON to Markdown tables. It's pretty small and uses `args` instead of `yargs` but maybe it'll be useful.
+YDKJS
+Webpack 2+ ships with dead code elimination via tree shaking, see e.g. http://2ality.com/2015/12/webpack-tree-shaking.html
+Thanks. How do I do that 
+ok but isnt it measured in milliseconds and not seconds? so I would want this, correct? 60000 + math.random()*120000) so the proper code to put into console in google chrome console would be window.setInterval(function(){ var x = 0; $("button:contains('Follow')").each( function(){ if($(this).text()=="Follow"){ if(x==1) return false; // Number 1 represents how many follow's per cycle $(this).trigger("click"); x++;}}) var y = $(window).scrollTop(); $("html, body").animate({ scrollTop: y+50}, 1000); console.log('loop'); }, 60000 + math.random()*120000); // Time to wait after one follow cycle in miliseconds, 60000 = 1 minute
+Loved it. Thanks.
+Wow React and Vue, you should combine that with angular. 
+An alternative viewpoint: https://feross.org/never-use-semicolons/ And some more: http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding http://inimino.org/~inimino/blog/javascript_semicolons
+Wow thanks for the motivational quote. Sure will start toggling between them I guess, because I feel more like may be later in future I have to go with Learning many languages and technologies
+https://eloquentjavascript.net/
+Yeah I think the same that's why I got irritated with so many things coming up, but I somehow I get stuck with the Logical flow of what to create/implement/code next like this following thing, It's just morning here and I watched that Async-Await talk by WesBos on FreeCodeCamp's YouTube channel, meanwhile I just got an idea on how to proceed with my blog website, would first try to post the blog in db and then view it on, I mean this was so easy but I hit dead end always for logical pathways and feel that I don't know anything so this just occurred to me, now will try to implement
+Thank you, yeah I really need more rigorous practice.
+There's literally a tldr in the article lol 
+The TLDR is use lerna. And then you go to lerna's website and there is no TLDR https://lernajs.io/
+[TFW](https://www.youtube.com/watch?v=qEEskm25UGA)
+It seems that your comment contains 1 or more links that are hard to tap for mobile users. I will extend those so they're easier for our sausage fingers to click! [Here is link number 1](https://www.youtube.com/watch?v=qEEskm25UGA) - Previous text "TFW" ---- ^Please ^PM ^/u/eganwall ^with ^issues ^or ^feedback! ^| ^[Delete](https://reddit.com/message/compose/?to=FatFingerHelperBot&amp;subject=delete&amp;message=delete%20ID_HERE) 
+xD
+broken link?
+I'd highly recommend using indentation while writing code - it'll make it much easier to read and debug when there are issues.
+It created a proxy for an object or function that exists in the other window. So, instead of sending messages to update the property of an object or call a method; you just call the object as if it were in your local space. let color = windtalk.link(window); color.red = 34; color.update(); This will change the red property in the other window and call the update method. You're right I should have done a better job at explaining it. 
+Publish your components to npm ;\)
+As for querySelector, it’s just less code. You can pass the argument of select directly to querySelector and return the result. 
+You are not as lazy as you claim, which just makes you a liar. Good job.
+ha, yep. just make a `post` call for the blog. Well whatever you do, if you start getting intimidated, try to break your todo list down into smaller and smaller pieces until it's less intimidating. Good luck!
+This course was made by Brad Traversy, who has a long history of providing the community with no-strings-attached, free content. He is a genuine dude who has given a lot to the community. I don't know why this person made a blog post about it, but please don't let this influence your opinion on the course. 
+does it matter where I indent? I just copied the code from another source and wanted to make the changes i suggested to it
+Hi Andy im from St.Gallen and have a quite big interest in JavaScript. I'm still in my Apprenticeship as an Developer but if you wanna chat, just hit me up :).
+Ah, I see. It seems Webpack still relies partially on UglifyJS for dead code removal: https://webpack.js.org/guides/tree-shaking/#minify-the-output
+It's getting confused with the context of the 'click' button on the modal relative to 'var element' on click the date. You keep 'adding' an event listener each time you click. So you get 1 the first time, then 2 the second time, 3 the third... A simple way to deal with stuff like this is to: 1)store someway of identifying with element was clicked in the div that represents the modal on the click of the day 2)then launch the modal. 3)Then when clicking the submit button on the modal 4)lookup the date that launched the modal by the information stored in step 1 5)put the entered value into it. add 3rd line below this to the html that represents the modal. &lt;div class="center-align"&gt; &lt;h4&gt;Enter event&lt;/h4&gt; DAY put result into &lt;span id='target-date'&gt;empty&lt;/span&gt; &lt;/div&gt; replace your javascript with this: function addEventToBoxes() { var days = document.querySelectorAll(".day"); days.forEach(element =&gt; { element.addEventListener("click", event =&gt; { var day = event.target.querySelectorAll(".left-align span")[0]; var cname = '.'+day.className; //console.log(cname); var modalTarget = document.getElementById('target-date'); modalTarget.innerHTML=cname; var elem = document.querySelector(".modal"); var instance = M.Modal.init(elem); var button = document.getElementById("modal-btn"); instance.open(); button.addEventListener("click", even =&gt; { even.preventDefault(); var e = document.querySelector("#hour"); var modalTarget = document.getElementById('target-date'); var day = document.querySelector(modalTarget.innerHTML); // console.log(day); day.innerHTML = e.value; // console.log(element); //element.querySelectorAll(".left-align span")[0].innerHTML = e.value; instance.destroy(); }); }); }); } addEventToBoxes(); this is pretty hacky but hopefully it will get you unstuck.
+I implemented a concept of a crazy object having an uncertain value. https://github.com/vichyssoise/uncertainty
+Haha that would be to much XD but one day maybe, who knows :) 
+im interested
+Thanks for the explanation! ♥
+Hey, just like /u/Yeater I'm from St. Gallen but work in Zurich. I've been doing web dev for the last decade (already!?) and work with React and React Native professionally for some bigger Swiss companies. Also are you aware there are quite a few meetups? There's a React Meetup (usually held at Siroop's office) here: https://www.meetup.com/de-DE/Zurich-ReactJS-Meetup/
+Browsers regularly add new builtins, the name of one of your globals could collide with them and they would take precedence. You need to keep track of all your globals so your own don't collide with themselves.
+I did a write-up about this here recently: https://medium.com/jsdownunder/rollup-vs-webpack-javascript-bundling-in-2018-b35758a2268 Also, the creator of rollup Rich Harris had a great article about it: https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c
+You put dishes in one and build muscles with the other.
+There is a mistake in there. On one set of examples, you`return` instead of resolving your promise creation. Although that might work (I don’t know) it’s weird.
+There's quite a few errors in those examples, though. const firstPromise = new Promise(function(resolve) { return "first"; }); That's not going to resolve to anything. It should say `resolve("first");`. (async function() { try { doManyThings(); } catch (err) { throw err; } })(); If `doManyThings()` throws an error, it will not be caught by that catch clause because the promise wasn't awaited. It will propagate the error up the promise chain. Also, it's a pointless to have a catch clause that simply calls `throw err;`. The whole try/catch block could be removed from this example for exactly the same result.
+Another boring article about the same topic over and over again.
+Well shit. Tutorials like this are completely nullified with shit oversights like this. Did you post your observations to the guy so that maybe he'll fix it?
+I don’t use try/catch but using a wrapper that have a catch method hooked, just like deal with Promise
+I shared a list of options, trying to make candidates see what kind of tricks they might need to tackle. 
+&gt;Promises are a very clever nice way to deal with asynchronous code. A Promise is an object which represents an asynchronous task that will eventually finish. They look like this when used: Except this looks not a single bit better than the "callback hell". 
+I can see your point but at least on a current project at work I maintain/extend a node.js data pipeline sort of thing. Lots of asynchronous tasks that happen one after the other or sometimes in parallel. When I was given the project it was exclusively callbacks and parts were 10+ indents deep, the worst was 15 indents. I've reduced these sections to 5 indents at most using promises and such. That said it's just a different type of knowledge required to keep track of everything going on. And our main driver function that calls everything else is about 150 lines of then then then then then..... To me the biggest problem is once you introduce promises somewhere deep in your application they creep upwards until you're returning promises all over the place. Maybe it's just our heavily asynchronous application but it's like throwing errors or using optional in Swift. It easily creeps outwards to the call site and beyond. Maybe someone here has some advice for this problem? 
+Do ppl actually find this hard to learn? It's two keywords.. And they can only be used together or with promises. Do we really need more "in depth guides" for this? 
+Do ppl actually find this hard to learn? It's two keywords.. And they can only be used together or with promises. Do we really need more "in depth guides" for this? 
+You don't want to check for undefined like that else you will get undefined errors. `value !== undefined` wants to be `typeof value !== "undefined"`
+10:00 am PDT happens when this comment is 8 hours and 43 minutes old. You can find the live countdown here: https://countle.com/Y1784153uS --- I'm a bot, if you want to send feedback, please comment below or send a PM.
+No, since the variables are declared in the parameter list, they just aren't assigned a value.
+A few typos that might cause confusion. It’s !== not != in the second paragraph for instance. It’s vest practice to write functions with a lowercase f. Stuff like that makes beginners like me often question their previous learning experience so please double check spelling errors, especially when you target beginners who may not spot those issues that well
+Ooh my bad i removed the ajax it wasnt necesary for the example and i will try that code you posted thanks
+You are right about the typo, corrected that. About lowercase f for functions, I’ll have to blame auto capitalisation for that, and me for overlooking that. Thank you for pointing that out.
+[Permanent](https://help.github.com/articles/getting-permanent-links-to-files/#press-y-to-permalink-to-a-file-in-a-specific-commit) GitHub links: * [getify/You-Dont-Know-JS/.../**ch3.md#promise-trust** (master → 6f51ed6)](https://github.com/getify/You-Dont-Know-JS/blob/6f51ed6746300f51bc6c930c080b8a7426b7629b/async%20%26%20performance/ch3.md#promise-trust) ---- 
+None of those addresses the concern.
+I feel like this is an issue of not trusting the modules in the project. Is that a correct assessment? Also not sure what you mean by "signed up that node".
+Browser should move this feature from the `window` object to one that is specific to elements with IDs, I guess. That would put it into a separate namespace.
+How else are these cunts gonna make a living not doing anything productive.
+I was actually completely joking. I thought JavaScript devs had a sense of humor. Apparently not.
+I sometimes blog about things that have been blogged about a million times just so I can be sure I know the topic. I don't post it on Reddit though. I also try to make sure my examples aren't horribly incorrect lul 
+Seems the sever is not authoritative 
+Muh Js!
+thanks alot it worked 
+Hey, el-calde, just a quick heads-up: **alot** is actually spelled **a lot**. You can remember it by **it is one lot, 'a lot'**. Have a nice day! ^^^^The ^^^^parent ^^^^commenter ^^^^can ^^^^reply ^^^^with ^^^^'delete' ^^^^to ^^^^delete ^^^^this ^^^^comment.
+Not op but i'm guessing something like: async function asyncFunc () { //Await something throw new Error('Error'); } asyncFunc().catch(/* catch the error here */);
+Interestingly, that's my experience with C# as well- once you start using async functions, your call stack has to be async all the way up. I guess the whole idea is to make things non-blocking, so only part of your code should ever by async.
+Or something like async function asyncWrap(fn) { let err, res = await fn().catch(e=&gt;err=e) return { err, res } } // example usage const { res: user, err } = await asyncWrap(getUser(id)) if (err) { res.send(...) return } res.send(user)
+Welcome to Medium. I’ve given up trying to slosh through the crap to find any decent articles. It’s not a platform for people to share information anymore it’s a place for people to “build their brand” albeit with no quality control. Totally incentivized in the wrong sort of ways.
+JS dev in Mexico too!! CDMX?
+Express is more comparable to Flask then Django; both are very bare bones and needs a lot of modules and middleware to make a fully fledged app. I've been looking at a Node.js equivalent for Django over the years but so far I've not really found something as featured and robust as Django. All do ultimately the same kind of thing though, so it is not as if you loose much knowledge when switching. If you need to learn webdev from scratch then Django has an advantage in their excellent documentation and batteries-included approach (so less time spend of confusion and modules).
+You can always convert a function that returns a promise to a function that takes a callback. Also, async is always contagious, so there's that.
+Hey thanks for the corrections. Fixing!
+Yeah I agree. Honest mistakes, I should've reviewed my examples before publishing.
+Five shades of racist
+Corrected, good catch
+No, it should not work on the Promise's constructor. It'd work inside a `then` callback
+I did post an example for this: ``` // Option 3: doManyThings().then((result) =&gt; { // Do the things that need to wait for our function }).catch((err) =&gt; { throw err; }); ```
+I disagree. Having worked at a company scraping banks with NodeJs I can definitely assure you that they are way better for sequential requests. That is, if you use them correctly.
+I mean your server implementation. Not related to your domain 
+Keep doing what you're doing :) Sharing what you know, learning from mistakes and improving is what programming is all about.
+Yeah or maybe I just though I could contribute with my own approach to understanding `async/await`? How is this a problem? If the content is bad then it will just die on reddit, that's why reddit works. I give you the examples bit though lol. 
+not everything has to be useful, sometimes code can just be fun :D
+The one thing I still haven’t wrapped my head around is why await often doesn’t work right inside Array.forEach. After noticing this, I simply retrained myself to always use old school for loop iteration, which feels like 2 steps forward and 1 step back. 
+Hey, I'll be linking this in my article for completeness. This is beautiful
+I apologize, I tried to find the source code. But unfortunately I developed it at my old company, and I no longer have access to that repo. I'm trying to get someone to get it for me.
+Just use the for/of iterator. 
+Well, I was referring to how using functional programming basics doesn’t seem to play nice with await. for/of isn’t really a solution to that. I didn’t test it but maybe the problem is the use of arrow functions? Does that make await stop working even though there is still an enclosing async function declaration above it? One thing I didn’t try is a second async function instead of arrow shorthand. Maybe that would work. 
+ Like `String(num).length`?
+Well, FP basics are synchronous. You would need monad combinators (like Promise in JS) for asynchronous operations over containers. Also, there's nothing "FP" about forEach. It's a method on Array. Meanwhile for/of is generalized over anything that implements `[Symbol.Iterator]`. You would have to clarify how you think the whole syntax would work if you wanted to use async in a forEach. Does it now lift the upstream call chain into a promise? What about other arbitrary methods that takes a callback? I think you'd find it doesn't really make sense. 
+What layer on top are you adding? You're removing redux, removing Express and adding meteors server which gives you access to meteor collections for mongo. Without specifics, it's hard to be swayed.
+Commander is so convoluted. I prefer Meow. 
+Stop spamming articles all over the place 
+Thanks for the response. I get what you're saying about chaining but honestly I still don't see why this works: "for (let i=0; i&lt;collection.length; i++) await queryApi(collection[i])" But this doesn't: "collection.forEach((item) =&gt; await queryApi(item))" The behavior I'd expect is it queries the API in succession for each item. Instead, I believe, it sends the requests all at once and doesn't wait for a response. I saw this behavior twice so I may be misremembering but I don't think so. I'm still unclear on why this can't "just work".
+This is a great question, I should add this to the article since it is a good example of why learning how this works behind the scenes is useful. In short: callbacks. Array.forEach uses a callback. This callback function can not be a synchronous one or you'd get a syntax error inside while using `await`. But even using `async` wont work here, because `forEach` is not awaiting your async function while iterating. This all means that your code translates to: Array.forEach(new Promise(...)); This is true for for iterators provided by other libraries like lodash too. I'd suggest using Bluebird's Promise.each. Works like a charm. In summary: // Syntax error Array.forEach(() =&gt; { await foo(); }); // Works, if you don't need to wait for foo, in which case it is // still a bad idea since exceptions get swallowed here and even // in case of an exception, forEach will keep iterating Array.forEach(async() =&gt; { await foo(); }); // Bluebirds: Promise // works, and returns promise. You should even be able to await // this I believe await Promise.each(async() =&gt; { await foo(); });
+One piece of advice: That _introduction_ about **classes**, remove it completely. It detracts from the article instead of adding to it. For one, it is completely unrelated to the subject and spending intellectual effort on it in the introduction only serves to confuse. I know it's meant to serve as an example of "understanding JS", but it's not. It's not something you simply _mention_ but something you go into some detail. Doing so, distracts the readers making them wander to other subjects while actually failing to present the real subject that you're going to present. Also, as it is worded, with this talk about "real classes", an "instance of an object", etc, the argument is either dubious or verging on _incorrect_. And this is quite problematic, because now you've just introduced a cause for discussion on something which isn't even meant to be part of the main argument of the article.
+Yeah but then you have the case of people "sharing" poor quality code that will be used by thousands of people learning to code when they search google for material. It's like new PHP developers learning from tutorials written in 2008-2014. Too many practices have changed and there is a real risk of learning unsafe practices that cost companies thousands of dollars in man hours. I believe OP has their heart in the right place, but there's a difference between a student studying with their peers and a student teaching a class to other students.
+&gt; they are way better for sequential requests There's your error. 
+It's because you're inside an inner function, not inside the async context of the outer scope anymore. If you did this: `.forEach(async (item) =&gt; await foo(item))` then you'd just be creating N promises synchronously which you wouldn't want to do because you might overload the remote query endpoint. In this case you really would just use for/of. If you want to run more than 1 request concurrently, check out an implementation of `Promise.map(..., ..., { concurrency: 4 })` like http://bluebirdjs.com/docs/api/promise.map.html. 
+Go to my article, I added a section to explain this at: "Example of why we care" near the bottom
+Added an example at the end for this, hope that clears things out a bit more.
+i really really like using promises. I don't really see the need for async await is as you said, syntactic sugar. I also see the reasoning why you put in the mention about es6 classes, to create the similarity between two major syntactic sugar items (classes / asyncawait). It could have been phrased better though, why you introduced classes in the article.
+Gdl
+What's wrong about my article?, if you have any observations they are very welcome. But why assume I'm a student. I'm not a student, I've worked in the industry for over 10 years, I'm not a native english speaker and I can definitely improve my redaction skills, but assuming I'm a bad developer is unjustified.
+This is a really great article, not just for understanding Async/ Await, but for actually getting a better understanding of Promises as well. Thanks a lot for taking the time to write and share it!
+Well-written promise-driven code is cleaner and more easily encapsulated than callback-driven code. Having written a couple major-project redesigns into Promises, readability goes *way* up if you do it right. And yes, Promises also give you a lot more control of every asynchronous strategy that isn't merely the "chain pattern". Did you know you can so easily build the "Waterfall" async pattern with promises that it looks like you didn't use it at all? If you save everything asynchronous into a promise and `.then()` it whenever needed (you can call `.then()` multiple times), it self-solves for the most efficient possible concurrency. Compare to [async.waterfall](https://caolan.github.io/async/docs.html#waterfall)
+There are _a number_ of problems with that explanation, not just one. But I didn't say that. I mentioned the expression "instance _of an_ object" because it is a confusing expression and does not help when talking about classes, objects and instances.
+But that was already true for callbacks as well. In fact it's true for almost all async abstractions.
+For what it's worth, I regularly find myself writing stuff that has already been written about. Not only does it often add a different slant, or emphasis something that other articles miss, it would be a bit shit if there was only ever one article on a given topic. Keep writing! 
+You do build a portfolio with various projects you work on (a small frogger-like game, a basic portfolio website, a site for storing recipe lists, a site for keeping track of books you've read or otherwise want to read, a bulletin board system, a fitness tracking mobile app... etc etc). It goes from beginner to somewhat advanced Javascript (particularly the React stuff). My sense is a lot of folks aren't able to get through it all but if you can - you will be very well off. I'm not a front-end engineer per se, but when I interact with front-end teams I recognize I have a ton of knowledge to pull from, I've been able to contribute to their projects without much effort. In short, if you put in the time you'll come away with a lot. 
+Hi /u/Jwest180, For javascript help, please visit /r/LearnJavascript. Thank you!
+Hi /u/Jwest180, this post was removed. Please see our rules, and do know that 'Java' !== 'JavaScript'.
+Hi /u/mehulmpt, this post was removed. Please see our [posting guidelines](http://www.reddit.com/r/javascript/wiki/index).
+Not sure what you guys think but I think that byte busting with a whiteboard for a JS interview is just about useless as an effective interviewing tool. Depending on the level you are hiring for, I am far more interested in design patterns, async patterns and pitfalls, understanding of frameworks but also why we have them and what the common implementations are. If someone is truly conversant in how these things work and more importantly knows where his/her knowledge stops or needs improvement, I don’t need them to hash out array manipulation in front of me. If I don’t believe they are where they should be with design concepts and understanding of the web, or worse, I smell BS in their answers (unwillingness to reveal their weaknesses or total ignorance of what I am actually asking while making up an answer on the fly) no amount of slick 10 line party tricks is going to induce me to bring them in. Several very talented colleagues of mine, one of whom landed at Tesla doing node JS api work, has shared his dislike of a whiteboard interview. What do you guys as developers think? 
+It's best to ask this in our Telegram group. Please join it and ask there.
+You could try the usual tricks used in games to make things smoother. Do not work with setInterval but with [requestAnimationFrame](https://www.npmjs.com/search?q=raf). Measure the time that is elapsed and multiply it with the current speed, best in discrete time steps (always step 1/60 of a second, deal with the remaining "unconsumed time")
+[It's not just syntax sygar!](https://mathiasbynens.be/notes/async-stack-traces) With a proper error handling service, you can sometimes omit try/catch (or the .catch()) from your application code. Even if you use try/catch, the ability to save an asynchronous value to a variable makes so simple code that literally anyone could understand it if you run them through the flow. And this: ``` const [x, y, z] = await Promise.all([ getX(), getY(), getZ(), ]) ``` Way too many lines without await.
+I'm getting into ProseMirror at the moment. Its document model is more advanced and flexible than Quill. The Quill author [admitted](https://news.ycombinator.com/item?id=15468402) this in some HN comments. Even today [Quill cannot produce nested lists and fakes it with CSS](https://github.com/quilljs/quill/issues/979). So far ProseMirror is very deep and flexible, but low level and tedious. [Atlassian built an utils library](https://github.com/atlassian/prosemirror-utils) to help with this. Since I'm working with Vue on my current project I haven't really spent much time at looking into Slate, but it seems very interesting and well done. I'm still evaluating ProseMirror, but I'd try Slate next if it doesn't work out for me.
+I listen to Syntax occasionally. They cover a ton of web development topics not just JavaScript. 
+They have, `document.all` (it's deprecated, weird, and slow, don't use it). They also have a bunch of others like `document.images`, `document.forms`, etc.. they're highly limited (and legacy) so `document.querySelector` still stays your best option
+Just as a heads up, Rust calls their packages [crates](https://crates.io/). Not sure that this is a constructive comment, but figured I'd mention this to avoid confusion. Otherwise, it looks cool, good job!
+This is incredible! I'm just starting out learning vanilla JS so this is inspirational to build up to
+I’ve seen this “mind control” interface in person at a conference and it’s... incredible. There’s not another word for it. Absolutely agree that it’s inspirational ♥️
+:golf clap:
+&gt; Much like most posts on Reddit that get shit on for being re-posts, And rightly so.
+To get this out of the way, as also mentioned by /u/Meefims, there really isn't an argument against destructuring here. In terms of arguments and validity, using destructuring for functions is incredibly useful. It means you don't have to memorize param order, and everything is named, making the function document itself much better. I think the main take away from this article is to use small compose-able functions, and maybe the name of the article needs to be updated. A function with 60 parameters probably sounds like multiple functions that take fewer arguments. In terms of feedback, the article kind of feels a little aimless, the main thing being the title and content don't seem to be correct for each other. I don't know if there is anyone that you can get to proof read/get feedback before you post, but I'd recommend it. I don't think it's a terrible article, just needs a little more focus.
+That's some really twisted logic.
+I think my point then would be, they should redo it. Make it fast and good and sweet and bubbly.
+&gt; But why assume I'm a student. I'm not a student, I've worked in the industry for over 10 years Which is even worse.
+No, it's not.
+10 years in the industry you say.
+requestAnimationFrame is the safest bet. Yo should in most all cases avoid usage of setInterval for any animations which would adversely affect the performance.
+But it doesn't sound easy at all
+That’s the point - it sounds hard, and it’s easier than it sounds 😅
+Oh wow, completely misread that :))
+Same they approach topics in a easy to understand way too
+Pant pant... Adopted! _handshake_
+I don't think that's the biggest upside. What irks me about callbacks is that everyone does it in a different way. In Node it's common to have ``` function fn(callbackErr, callbackOk) ``` In most client-side libs I've used, it's ``` function fn(callbackOk, callbackErr) ``` Callbacks also go after other arguments relevant to the function so you end up with functions with lots of parameters. I think the biggest value of promises is that they give everyone a standard way to follow when returning results and handling errors.
+So I've been checking out how npm packages/modules work lately, and thought I'd build one, but I found the initial setup to be quite difficult to understand. And so I started work on this boilerplate to learn this process while building a project that could help other people. I reach out you people and the community itself to help me improve this project, guide me so that we can together build something good. PRs, Issues, suggestions, discussions and basically anything at all are appreciated! 
+&gt; removing redux &gt; removing Express In the context of this course, that means removing two extremely in-demand skills in the name of banking on Meteor. Like I said, Meteor is a compelling alternative, and I'm not trying to discredit it at all. There are a ton of benefits to using Meteor. I just don't think new developers should focus on a specific framework. Even if it provides a ton of convenience, you're missing out on some crucial building blocks that can help them face real world tasks. As I'm sure you know, development doesn't only involve building new things. A large chunk of it involves working with existing codebases and you're not going to do well at that if you're used to Meteor doing so many things for you. I'm a huge proponent of learning things the "hard" way first. Ideally, I think you should build a server with the http module and learn how to serve static content without Express or any front-end frameworks before even typing "npm i" When I was learning Rails and decided it was time to learn another framework, I was totally lost. For context, I was a beginner, like many people who will be taking this course. Rails made me feel like I was pretty good, but I quickly realized that I had no idea how anything worked. I just learned how to follow certain patterns. The project structure was set up for me, my files were automatically linked to each other (didn't have to export/include anything myself), my database was "automagically" connected to my app, I didn't have to do any server configuration, I didn't have to write any build scripts, etc. **So much was done for me and I lacked a comprehensive view of everything that really went into my web app working.**
+Calm down. The biggest factor in car accidencts is inattention. Do something enough that it's 2nd nature and you wind up missing details. That `return` is not out of place in a regular anon function. It's an understandable mistake.
+[Permanent](https://help.github.com/articles/getting-permanent-links-to-files/#press-y-to-permalink-to-a-file-in-a-specific-commit) GitHub links: * [tehnokv/picojs/.../**pico.js** (master → 5ded603)](https://github.com/tehnokv/picojs/blob/5ded6033e7563e357a757b6f641e18c665d97f30/pico.js) ---- 
+I use npm for this purpose, i either install from the npm registry (private or public module) or i install from a git repository.
+Woow this is cool! Would love it more if it was written in es6+ and then transpiled to suport all browsers. But still very impressive!
+Honestly, I think Twitter is one of the best ways to stay up to date for JS news. A lot of times, people post there about a new library or announcement before it gets posted to somewhere like Reddit or HackerNews. Some people I follow: **React** * [ReactJS](https://twitter.com/reactjs) * [Jordan Walke](https://twitter.com/jordwalke) * [Dan Abramov](https://twitter.com/dan_abramov) * [Andrew Clark](https://twitter.com/acdlite) * [Sophie Alpert](https://twitter.com/sophiebits) * [Michael Jackson](https://twitter.com/mjackson) * [Ryan Florence](https://twitter.com/ryanflorence) **Vue** * [Evan You](https://twitter.com/youyuxi) * [Sarah Drasner](https://twitter.com/sarah_edo) **TypeScript** * [TypeScript](https://twitter.com/typescriptlang) * [Anders Hejlsberg](https://twitter.com/ahejlsberg) * [Daniel Rosenwasser](https://twitter.com/drosenwasser) * [Basarat](https://twitter.com/basarat) * [Mohsen Azimi](https://twitter.com/mohsen____) **Flow** * [Flowtype](https://twitter.com/flowtype) * [Caleb Meredith](https://twitter.com/calebmer) * [Gabe Levi](https://twitter.com/evilgabe) **Prettier** * [PrettierCode](https://twitter.com/PrettierCode) * [James Long](https://twitter.com/jlongster) * [suchipi](https://twitter.com/suchipi) **Zeit Stuff** * [Zeit HQ](https://twitter.com/zeithq) * [Guillermo Rauch](https://twitter.com/rauchg) * [Leo Lamprecht](https://twitter.com/notquiteleo) * [Arunoda Susiripala](https://twitter.com/arunoda) **Misc** * [Sindre Sorhus](https://twitter.com/sindresorhus) (Creator of tons of JS modules and cool projects) * [Kent C Dodds](https://twitter.com/kentcdodds) (Has really good react libraries and great tutorials about open source in general) * [John Dalton](https://twitter.com/jdalton) (Lodash | std/esm | etc) * [Nicholas Zakas](https://twitter.com/slicknet) (ESLint) * [Henry Zhu](https://twitter.com/left_pad) (Babel Maintainer) * [Kyle Mathews](https://twitter.com/kylemathews) (Gatsby) * [Max Stoiber](https://twitter.com/mxstbr) (Styled Components) * [Ives van Hoorne](https://twitter.com/CompuIves) (Code Sandbox) * [Axel Rauschmayer](https://twitter.com/rauschma) (Lots of great JS news and tips/tricks for a lot of different topics) * [Lee Byron](https://twitter.com/leeb) (GraphQL) * [Sebastian McKenzie](https://twitter.com/sebmck) (Creator of Babel) * [Wes Bos](https://twitter.com/wesbos) (Great tutorials on lots of JavaScript topics) * [Jamie Builds](https://twitter.com/jamiebuilds) (Lots of cool libraries like unstated, react-lodable, etc) This isn't my full list (missing a lot of great people), I just got kinda tired of typing. But generally, you can just go to any of these profiles and you can see a bunch of good recommendations on the right hand side of other people to follow, thats usually how I add to my list.
+Good Job, But a few things to consider, 1.Tests are very important to open source package, contributing to them will be painless without them, so you may add a testing framework and setup a one will be great. 2. Linting is very important open source projects since it force developers to follow one coding style. 3. Continues integration will help developers to find code problems early when you push to GIT or receiving PRs. 4. Code coverage is another important point it will check how many lines in your code got hit by the tests, so you can add more tests to cover your ensure everything is tested. Also you can check projects on Github to see what technologies are being used. Good Luck 👍
+Yes! These are the exact few things I've had in mind and added to the list to be done. I had forgotten about Linting though, will add that right away. About that, does the prettier automatically do the job, or is it totally different from linting. Sorry, total noob here.
+Totally. But you might sometimes have to be mindful of greedy evaluation when expensive operations are involved. Easily mitigated, result = { "1": () =&gt; expensiveOperation(), "2": () =&gt; "two" }[option](); 
+Aha, noted. I'll see how I can change this, thanks for the good feedback
+&gt; You put dishes in one and build muscles with the other Hahaha, oh god it took me way too long to understand this
+and ditch the java coding style.
+Here's one I use for intermissions during my twitch.tv programming sessions: https://github.com/jeffallen6767/matrix [Quick View Link](https://jeffallen6767.github.io/matrix/public/?message=Hi%20Reddit!\n/r/JavaScript%20rocks!) 
+This is how skin tones work in emojis: &gt; `"👍🏽".replace("🏽", "🏻")` 
+Update to everyone here 1. Thanks for the upvotes and the constructive criticism, you guys helped me improve the article quite a bit. I'll be more careful about the examples next time. 2. If you genuinely think the article is wrong/bad, please, by all means comment down below, share your point of view and back it with arguments, don't personally attack others. Seeking for knowledge in a conversation is what smart, successful people do. And if you just came here to vent off some steam because you had cement for breakfast, I recommend this very awesome subreddit: /r/Vent/ 3. Also, any observations about my english is more than welcome, It will help me write better since I'm not a native speaker, and it will help others understand the article better.
+Not exactly, the trick is to eliminate pronouns all together and remove any superfluous wording. "Crypto For Science allows researchers to add a project, contact information, previous funds raised and preferred method of collecting reimbursement (via Bitcoin or ETH)." (Rough stab)
+Very well written article. Kudos
+From a theoretical perspective on linguistics, the syntax and semantics of a language seem to reach a stable equilibrium where the most fundamental parts retain their structure overtime and only experience gradual changes. Therefore, wouldn't the amount of iterations over fundamental features (i.e. Functions with tons of callbacks &gt; Promises &gt; Async/Await) be an indication of it's problems?
+Interesting! Well, I guess the stack trace optimizations are true for non-transpiled code right? Also, not sure what the point is in snippet you posted, Promise.all resolves with an array of the resolved value of each promise passed to it. So that's simply a Destructuring Assignment on the result of a promise right? const results = await Promise.all([getX(), getY(), getZ()]); const [x, y, z] = results; 
+Awesome list of awesome people 
+I wonder if you could have solved the first example by simply assigning “gen” with let rather than const. going to check this out when I am back at the computer.
+Yup, this.
+Well, you *did* just misspell "too dumb". ;) But seriously, no. Webdev is my day job and I didn't realize that was necessary to make this work. (I haven't actually tried it, but I've read about it.) I think I've seen that info before, but never really identified it as key info.
+For posterity, don’t feel pressured to use TypeScript or Flow if you don’t want to. There is nothing wrong with writing good old fashioned free range JavaScript. As much as I love Flow, static types just get in the way sometimes and are not necessary or appropriate for every project. 
+:-) Anyway, thank you for the help!
+Native browser support for ES6 modules is still a very recent feature. The vast majority of JavaScript material assumes you're using them in the context of Node.js or something like Webpack, where you don't need to do anything special for them to work. 
+`.forEach` is just like any other method that takes a closure. It doesn't make sense to pass a promise-returning function to it. You'd use "core" functionality like `for/of` which works for anything that implements `[Symbol.iterator]` which is thus generic across all objects.
+Fight! Seriously though just change it to js.
+The way I read this, you should just change name and/or description from javascript to for eg. JS. As insane as it is, they only seem to object to use of word Javascript.
+Also [Sean Larkinn](https://twitter.com/TheLarkInn) (maintainer of Webpack).
+&gt; I am just do dumb? Nah, modules in browsers are poorly documented. There's also a limitation wrt CORS (so you can't use it with a local file via `file://` protocol), and of course, there's also the limitation that paths must be relative. IIRC, `type="nomodule"` support was also broken in Safari or some other browser.
+I would like to also hear your opinion on the other important topics, like tabs versus spaces.
+JabbaScript
+Now I just have to remember what every binding does that might come up. I really find it hard to accept that all FP concepts are good just because they can work. Most developers are average or below, so keeping cognitive noise low until the last possible moment is preferred. Great, there's a tool for sophisticated programmers who are happy to passively absorb a bunch of patterns and remember their purpose, but that's half the problem of digesting a codebase and not the dangerous half.
+Ugh, fuck oracle.
+Exactly this. async/await is Promises. Promises are secondary to the legacy constructs. Which means using bluebird wrappers for a lot of functionality, like Promise.map...etc. It's "ok" if you completely get Promises to occasionally use async/await...but it really does seem like syntactic sugar to me. And yes, a lot of asterisks and caveats.
+Love the React podcast hosted by Michael Jackson (from React training, creator of React router). Gets some top quality guests on, and discusses both React and JS in general topics - a recent one had Henry Zhu on (maintainer of Babel).
+So many things make sense now
+I really can't understand it. I'm not lawyer but the trademark right isn't that strong like copyright or patent. At least in my country(Japan). The trademark usage by non-holder to refer to exactly that thing, in this case, JavaScript, shouldn't be a trademark violation. I really can't understand US law.
+I wanted to keep the example from github intact. Presumably the example is meant to present both possibilities. 
+Thank you! I’ll look into this.
+Ignoring the threatening language, it's just not bloody true, is it? Just think how far you'd have to stretch your imagination to think of a *single* consumer who would see a JS editor and 'mistakenly believe that it emanates from, or is provided under a license from, Oracle'. Fuck the law, fuck Oracle, and fuck Apple. I think the tone made me angry.
+\&gt; As you are likely aware, Oracle owns US Trademark Registration Who would ever be aware of this? How can they even enforce it given the thousands of books, articles, and hell even PRODUCTS that have JavaScript in the name??
+Looking at the repo it looks like the only mention they have of this is the comment in the second version of your example: &lt;Else&gt;{() =&gt; // will only be evaluated if the condition fails. But I'm not sure that clearly describes the behavior since it seems to just explain how if-else works ;P. Anyway, thought I'd mention it ;).
+What about an array of arrays? let words = [ ["cat", "swedishcat"], ["dog", "swedishdog"], ["fish", "swedishfish"] ] function engToSwedish(word){ for(let i = 0; i &lt; words.length; i++){ if(word === words[i][0]){ return words[i][1] } } } Would this be less efficient?
+In this particular case, you could make a strong argument that the term has become generic when applied to programming languages that run in the browser and manipulate the DOM directly. However; Oracle has more money, more lawyers, and more patience than you. 
+&gt; array destructuring const [users, companies, articles] = await Promise.all([ fetch(`${apiUrl}/users`), fetch(`${apiUrl}/companies`), fetch(`${apiUrl}/articles`) ]); Cleaner and more readable. Thank you!
+The coding train Fun fun function
+What do you mean by "player"? Just a regular `video` tag, or something from an external website?
+Literally the reason it’s called ECMAScript now.
+ECMA script -- https://www.quora.com/Is-javascript-an-open-source open standard not open source 
+Well, it's from an external site. Multiple twitch streams in a single iframe? Here's a single video iframe: &lt;iframe src="https://player.twitch.tv/?channel=NotARealChannel" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"&gt;&lt;/iframe&gt; But if I wanted to pull multiple channels at once and only show the top live channel, how could I make that happen?
+I think we should work towards dropping "JavaScript" altogether. Legalities aside it's just a shit and inappropriate name. OP should advertise HTML, CSS and ECMAScript editing, this subreddit should be locked and refer to /r/ECMAScript, we should recognise .es\d* in tools we write. Let Oracle have its shit name.
+Here's a sneak peek of /r/ECMAScript using the [top posts](https://np.reddit.com/r/ECMAScript/top/?sort=top&amp;t=year) of the year! \#1: [ECMAScript - Object Rest/Spread Properties in ES2018 (ES9)](http://nitayneeman.com/posts/object-rest-and-spread-properties-in-ecmascript-2018/) | [0 comments](https://np.reddit.com/r/ECMAScript/comments/83g331/ecmascript_object_restspread_properties_in_es2018/) \#2: [ECMAScript - A Taste From ES2018 (ES9)](http://nitayneeman.com/posts/a-taste-from-ecmascript-2018/) | [0 comments](https://np.reddit.com/r/ECMAScript/comments/7t5xw5/ecmascript_a_taste_from_es2018_es9/) \#3: [ImageNow Consulting Services - Shamrock Solutions LLC](https://shamrocksolutionsllc.com/partner/) | [0 comments](https://np.reddit.com/r/ECMAScript/comments/75zt7q/imagenow_consulting_services_shamrock_solutions/) ---- ^^I'm ^^a ^^bot, ^^beep ^^boop ^^| ^^Downvote ^^to ^^remove ^^| [^^Contact ^^me](https://www.reddit.com/message/compose/?to=sneakpeekbot) ^^| [^^Info](https://np.reddit.com/r/sneakpeekbot/) ^^| [^^Opt-out](https://np.reddit.com/r/sneakpeekbot/comments/7o7jnj/blacklist/)
+also, F sun microsystems you guys probably know by now that facebook, google, oracle, sun etc are CIA right? via inqtel and other cia incubators bezos we'll find out has early backings of the same intel community (incl DoD, DARPA, etc). Its the same repeat offenders It's corporations in banking and energy that had infiltrated CIA (or rather CIA was always CFR backed); and their primary role is economic espionage--literally sitting at the patent office and having uk intelligence do their spying for them via serco...this is how they stole facebook scaling technologies (the bigtable and other nosql, graph databases, basically) from leader technologies If you don't know this you will soon
+It's pretty much all an illusion. America as you know it, or thought you knew it, is a big illusion of abusive corporations who tout competition while doing everytihng they can to undermine the same, using your taxes to boot!
+I think you'd have to use the [Twitch embed API](https://dev.twitch.tv/docs/embed/). If you do that, it looks like there's a `getEnded` method that would tell you if the channel is live or not, and a `setChannel` method that would let you change what is being displayed.
+Yep. IANAL but it’s basically entirely unenforceable because of how ubiquitous the term is (and how Oracle hasn’t actively gone after every case brought to their attention). The issue is it needs to be challenged, which hasn’t been - and I don’t think it will be anytime soon.
+That quoted message was directed at Apple, not at the application developer. Apple's legal department is almost certainly aware of the patent.
+ECMAscript.
+[Fun Fun Function on YouTube](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) is pretty good. He's a bit goofy, but really seems to know his stuff. He used to work for Spotify, I believe.
+Okay, thanks. I'll look into this. If solved I'll add change the flair to the post.
+Great post, thanks for the resources 
+What‘s Apples fault in this particular case?
+Scott McNealy (CEO of Sun in '99): &gt; "You have zero privacy anyway," Scott McNealy told a group of reporters and analysts Monday night at an event to launch his company's new Jini technology. &gt; "Get over it." [Sun On Privacy: 'Get Over It'](https://www.wired.com/1999/01/sun-on-privacy-get-over-it/)
+LiveScript.
+Not really to do with JavaScript, but they are just being complacent to Oracles bs. It's the law, but it's dumb.
+Hey man, it's modern JS... if it's not written in the *next* thing, then what's it all for?!
+Damn, that's awesome. Great work sir.
+Theirs was the tone.
+Ecmascript sounds cooler anyways. 
+JawaCrypt
+I propose "FuckOracleScript".
+Technically speaking, JS is just an implementation of ECMAScript. There are others.
+Call it "ES5" or "ES6".
+Apparently all our files are going to be named `.mjs` anyways, so I vote for MichaelJacksonScript.
+&gt;it's a (hard to pronounce) Eck-mah is hard to pronounce? 
+This is a TIL for me. I thought Javascript was a sort of open source type of thing. I never really gave it thought but I didn't really imagine any entity "owning" it.
+When you file an [App Store Content Dispute](https://www.apple.com/legal/internet-services/itunes/appstorenotices/#?lang=en), Apple acts as an intermediary so as to not reveal personal information to either party. I believe that the message in the original post came from a firm representing Oracle and wasn't from Apple directly (although it's possible that the e-mail formatting didn't make this clear).
+That should be an answer to your question then, no? Everyone refers to it as JavaScript but Oracle’s trademark isn’t new.
+JsonScript
+IANAL, but the best angle would be to say that Oracle didn't enforce the Javascript trademark as it was being used by the entire fucking open\-source community for years with nobody ever knowing about any enforcement action until now. We use Javascript for the Cosmos Network. We know excellent trademark lawyers and recently defended the Tendermint trademark successfully. Happy to help with introductions etc, PM me.
+Seriously. I have to use their "Site Studio" program at work. On a virtual machine, because it only runs on Windows. WTF kind of "enterprise grade" software only runs on windows?
+I suspect it is one of those things where we all know it but everyone who gets the letter or whatever is all *checks wallet* *Not me!*
+Javascript object notation Script =,=
+One firstborn for every TC39 member
+Yeah... if you were coming up with a name for an eczema treatment drug. "Ask your doctor about Ecmascrip!"
+Like GNU =&gt; GNU's Not Linux
+I disagree. I believe if only TC39, Node (and the JS Foundation), and Babel agree, everyone else will follow through.
+i'll start. LavaScript
+That the quoted text is not from Apple is pretty obvious...
+🅱️avaScript
+bavascript?? idk it doesn't seem to roll off the tongue for me
+We need a kickstarter-like approach to taking on companies like Oracle. I would happily donate to kick their arse.
+🤔 wavascript
+yo i kind of like that it's wavy baby
+It's not a patent it's a trademark, but yes, they probably know about it.
+They don't own it and they didn't create it. My guess, without researching deeply, is they registered the name much latter because people confuse Javascript and Java.
+JavaScirpt
+Daniel Suarez has some great novels which touch on this. Daemon and Freedom(tm). Both worth the read.
+ok you've inspired me with the a_ascript template. isn't coding a frustrating act? you spend hours wondering where you've gone wrong, you're usually stuck indoors, and you're probably sedentary. at times like these, don't we all wish we were frolicking in the bahamas, sipping a pina colada while catching the waves? why don't we code with the intent of coding so well that we can make the big bucks and eventually end up rich in the bahamas with little to worry about? i present to you: bahamascript
+🅱️ahamascript you say what a riot 
+not bad right?
+GNU's Not Unix
+It's late here ...
+How about emmascript. i think its cuter than eck-mah-script
+Google calls their engine V8.
+EkmaScript
+&gt; The unauthorized display of our client's intellectual property is likely to cause consumers encountering this app to mistakenly believe that it emanates from, or is provided under a license from, Oracle. Does *anyone* want consumers to believe their app comes from Oracle? Sounds like Oracle did you a favor /s
+What about cutescript? It's cuter than emmascript and will be taken seriously.
+How did you make your depth chart?
+How is that better
+It's baller as shit
+If JavaScript doesn't exists in the project to use Lisp on '90 was accepted we'd not have this problem
+🅱ottomScript
+I noticed your `src/index.js` is using both ES module (`import`, `from`) and CommonJS module syntax (`require`, `module.export`). You should stick to one per file/project. 
+Yavascript
+lmao
+why
+TotallyNotJavaScript
+Mozilla had cut a deal w/ Oracle back in the day to call in "JavaScript". Microsoft had always called its version of ECMAScript, "JScript" for this reason.
+wow that's so clever. how did u think of that
+ECMAScript is a registered trademark. http://www.ecma-international.org/memento/TC39.htm
+If for no other reason than to disassociate it from java. Java is to JavaScript what car is to carpet afterall.
+palavascript
+Where did I say it isn’t. 
+Most of it.
+Sun filed for the trademark on 1995-12-01, which was a few days *before* the first public release of the language using the name JavaScript. Before that, it had been named LiveScript.
+lol nice
+Do you guys are saying we cannot use the word "JavaScript"? That's nonsense!
+Oracle really sucks
+This is probably a better option than "fight / fuckem", as Apple still has final say over app store approval
+Maybe they're afraid of losing the trademark.
+So... which drone and where's the source code? 
+do everything evil
+I think the difference is that it's called V8 and not the V8 JavaScript engine. His app used the JavaScript trademark in the app name.
+JabbaScript
+Haha, this is Oracle we're talking about.
+Microsoft owns this one. https://en.wikipedia.org/wiki/JScript
+I call it that whenever I'm talking about tc-39 proposals. Lots of people do—ever heard of ES6, ES2017, ESNext,…?
+CoffeeScript Amidoingthisright?
+The name Jabba is a trademark of Lucas Arts Entertainment etc etc
+FailedScript
+what about kawaiiscript, baka?
+Woah. Let me list all of Apple enterprise software: 1. Commercials about derailing the hardware industry. Then let me list Microsoft: 1. Office 2. Sql 3. .Net Platform 4. Azure 5. WSL 6. C# (I include this because Swift &amp; objective C is ass in 2018 and if you disagree, try writing multiplatform and multi paradigm code in swift, if you even know what that means as an apple fan, and yes I know apple says swift is paradigmatic, but seriously, its more of selling point than a functionality. Much like C# is useless without its libs) 7. Azure Linux Kernel 8. Windows Embedded (Apple fans: embedded operating systems are custom OSes for low level machines for minimal work, something you guys can't into, but linux and Windows users often deal with enterprise work...) 9. Visual Studio (this is almost an industry standard if you work with: 10. Windows Server) 11. Microsoft Botnet 2018 (enterprise edtion comes with everything but LTSB). And the list goes on! (Also they had to fork a Linux kernel to implement botnet 2018 in their IOT devices). Linux and (real) Unix admins are often balls deeps in enterprise software for server side work, so I assume listing Enterprise software for linux (you know...) is pointless since most linux users are more educated on their system, unless they are new and still play with Ubuntu or (god forbid) Arch.
+Are you fucking serious? Oracle is literally cancer.
+Really roils off the tongue. Reminds me of a skin problem, too. 
+tittiscript ...rolls off the tongue.. and everyone likes titties
+Carpet is when you leave your dog in your vehicle while going shopping.
+Was a much better name! If it were released today it would have been BlockChainScript. 
+&gt; Windows Server There is not anything I despise working with more. It virtualizes like hot garbage.
+This kind of thing makes me nervous as someone currently interviewing with Oracle. :/
+I thought OpenScript would be good, then discovered that exists and is also owned by Oracle. 
+What's your app about anyway?
+hmmm. What about OleMuskyScript then?
+Judging by what they charge for an Oracle license, I’m going to go with 1 Trillion dollars. 
+Not until there's web API bindings for everything. What's the point if you have to break out into Javascript for every tiny little thing?
+Startup idea: gosueme. Like gofundme, but for collecting money to sue companies.
+Or ~~C3PO~~. **EDIT:** Well, f\*ck. Disney called.
+i love this name but i dont think ecma will approve &gt;:(
+&gt; In this particular case, you could make a strong argument that the term has become generic when applied to programming languages that run in the browser and manipulate the DOM directly. It's not a very strong argument, when there's just one language running in the browser, and it's JavaScript. I've never heard someone refer to VBScript as "JavaScript" while it was around.
+I am not sure what kind of answer you are expecting, it is made using html canvas.
+&gt; .NET &gt; C# Then what is .NET Core and all that jazz?
+Yeah, I know that SE sucks hardcore. I'd much rather use linux and ssh into my servers through the command line than deal with windows virtualization; but windows is more common than herpes on a prostitute and any UNIX enclosed system such as UX are becoming less relevant against their competitors like RHEL. Plus with windows adapting WSL and releasing their own linux based kernel, they are really getting aggressive on linux admins. Its like they want to re-monopolize the server clientèle. 
+The best option is to publish on Android, which has a much larger user base, better dev tools, and doesn't require spending thousands of dollars on overpriced computers...
+He works for Oracle?
+&gt; That requires a different promise-result accumulator than all, not available in the standard JS implementation. That's not true, you can just resolve failed promise. Promise.all([ new Promise((resolve, reject) =&gt; reject(true)).catch(error =&gt; ({ error })), new Promise((resolve, reject) =&gt; setTimeout(() =&gt; resolve(true), 1000)), ]).then(result =&gt; console.log(result)) 
+My lord, I'm not your teacher, but you can simply look up that .net core is a minimal command line application suite for writing small server side software to run in a virtualized microsoft enviornment. C# is a language... jesus... 
+You sound upset about something
+no, it is not open source. But here is a gist of how it is done https://gist.github.com/anandanand84/e7c49b61603b83678423369edac3fc06
+eczemascript
+Nice, but unfortunately there's [another language now](http://livescript.net/#name) that uses that name, as a "joke".
+It'd be a lot easier if it were actually spelled "Eck-mah". 3/4 of the letters in "ECMA" have multiple pronunciations, depending on context, and "ECMA" isn't a normal English context for them.
+Nah. I'm happy. But I disagree with people that respond to me with little substance or a lack of basic knowledge of their shit-post. All you posted was .Net and C sharp followed by a question I'd expect from someone that shouldn't ask unless they are a student on their first day of a CompTIA video.... Then again, this is the internet, so people are going to shit in the same hole no matter what. Keep responding though, I'm still waiting for my tasty order... 
+Yeah, I'm sure people searching the App Store for JS snippet apps are sure to type in "tc-39". "ES" probably turns up lots of relevant hits in any search feature, too. :P
+jabascript
+The best option rarely includes rewriting the thing from scratch. Android &gt; Apple for me as well, but this isn't the topic...
+JabbaTheScript?
+YavaScript
+"FOScript" has such a nice ring to it
+Well that depends, I do all my stuff with cross-platform tools so if anyone ever asks for an iOS version I can spin up a MacOS VM in a pirated version of VMWare and build it from the same codebase.
+I understand that sometimes job options are limited, and places like Oracle can be your only/best option. Ultimately, you should do what you need to do to support yourself and/or your family. That being said... if you can choose between Oracle and someplace else, I'd recommend going elsewhere. Oracle has consistently and continuously acted very badly when it comes to software, the open source community, and the law. Their few good actions (open sourcing dtrace) do not outweigh the harm they have done, and there is no evidence that they are getting better.
+A scripting language based on JSON, and inspired by its syntax? Brilliant!
+Reasons like this I avoid MySQL or using any sort of projects that are backed by lawyer happy corporations in production environments. -- Looking at you React.js.
+&gt; it's just a shit and inappropriate name It was never correct. It came about at the same time that Java did, and the marketing buzzards out there called it JavaScript, even though it had nothing to do with the Java, and it stuck.
+Seems to be because of word use. Change it to say "JS". That shouldn't be flagged for copywriter or anything and you'll get through.
+I'm based around Austin rn so there's plenty in the market. I also would rather have something further north than their new campus on the south side. I also would rather work with a smaller company, or at least a larger company with a good reputation. Atlassian would be amazing, but they aren't hiring much here rn.
+It's not very clear from your description what exactly you are hoping to return. Do you want to end up with a list of albums, so long as even one song in that album contains a certain word in its name?
+NotJavaScript
+This amusing Quora thread predicted this 5 years ago. https://www.quora.com/Could-Oracle-prevent-us-from-using-the-name-Javascript
+Why not use a setTimeout? 
+yes get a list of albums whose track list contains a track containing the search word, but exclude the albums whose track list does not contain any track with the search word
+Redux is a flavour of flux architecture, where you subscribe for changes in store, and there is only one way to update store is by dispatching an action. Now same action can be dispatched from anywehere, from an event, async calls or web socket. When ever action is dispatched you updated data in store and the changes are notified to subscriber. So weather a realtime or event based system same architecture and store will work. In redux you don't have subscribe manually. You do it using Provider component and connect methods. 
+Apple's just complying with a legal request. Oracle's the one that's taking down your app.
+ const result = music.filter(album =&gt; { return album.tracks.items.some(item =&gt; item.name.toLowerCase().includes(searchTerm.toLowerCase())); });
+It's basically a html/css/js editor app. It is called: "HTML5, CSS, JavaScript, HTML, Snippet Editor". Here is the link so you can see how it's shown in the App Store, I don't think anyone would associate this app with Oracle. https://itunes.apple.com/us/app/html5-css-javascript-html-snippet-editor/id448999049?ls=1&amp;mt=8 
+Little late for that...
+I didn't know, which completely invalidates their point.... Ducking trademarks
+I'm not saying it's a good app name, just disagreeing with the comment above mine. 
+Do you have something to share with the class?
+Haha, back in the days, we game the App Store ranking by add all the keywords to the app name 😀. since html5 and html are two very useful keywords... also notice html5 is the first one to show up?🤪
+Trademark that
+haha! ooooh... needed that laugh today. 
+How would you do that to achieve the same functionality?
+ACNEScript?
+You cant unless you run the callback asynchronously. I assume he meant something like: let running = true; setTimeout(() =&gt; running = false, 3000); while (running) { // do something }
+XSScript ?
+That's the kind of thing I'm trying to avoid.
+pronounced "**faw**script"?
+"[object Object]script"
+&gt; For instance, we sometimes have to loop some code for a given amount of time why would you block the entire thread on purpose? const loop_1 = loop(4, loop.times); const loop_2 = loop(4, loop.times); loop_1((i) =&gt; loop_2((j) =&gt; console.log(`i = ${i} j = ${j}`) ) ) since lodash already has a times function, i went with something a bit funkier. times(4, n =&gt; console.log(n));
+Actually on second thought that might not be perfect because you wouldn't be running the function directly back to back. Just recursively call your function at the end with a conditional to check the time or number of runs. If you want it to run every 200ms for 2 min you'd use setTimeout 
+I really like WebScript. Describes it perfectly.
+it's shit like this that makes me want npm to have upvotes. ==== ^^^PLEASE ^^^DON'T ^^^HURT ^^^ME.
+[Cordova](https://source.netsyms.com/Business/MobileApp).
+[logo](https://angiebelikejolie.deviantart.com/art/Emma-Stone-WIP-311872889)
+Does it even need to end with "script" anymore? It's being used on things it was never intented for when it was made.
+https://www.reddit.com/r/javascript/comments/8d0bg2/oracle_owns_javascript_so_apple_is_taking_down_my/dxjxd8y/
+McScript
+Java was going to take the Web by storm, but needed a lightweight alternative. LiveScript needed a strong start to be the competitive advantage Netscape wanted. Sun let LiveScript borrow the Java name and hype in exchange for the trademark. 
+Well I think he means you are unpleasant to talk to and that usually comes from somewhere. 
+Can you provide use cases for this looping library? Running a function a set number of times could be useful but looping a function for a set duration seems like a bad idea. As for the API, I would keep it simple and pass an object in for your arguments: loop(myFunc, { calls: 50 }); loop(myFunc, { duration: 3000 }); // keep value as ms
+Interesting. I guess I could easily make it asynchronous.
+I think in this case it was controversy which prevented it not habits. GNU is one of great many contributors to Linux kernel and some people (myself included) don't see why should it be GNU in particular who would deserve to be in the name and no one else. 
+I'm not forcing him to talk to me. And its impossible to hear my dry tone over the internet, so some strangers opinion without substance isn't really a concern. But I get it, I'm on reddit so I have to be reaaally sensitive since thick skin isn't a thing with this community... 
+Name it "Elcaro"
+What if you want to use a class inside Redux? e.g: UserManagement class that stores the users data in memory (meaning more than one user) and also helper functions. e.g: fetchById or fetchByEmail. That wouldn't be Redux friendly, no?
+FYI all: poster [linked to his entry](https://itunes.apple.com/us/app/html5-css-javascript-html-snippet-editor/id448999049?ls=1&amp;mt=8) in this thread. First uploaded revision is from 2011, and they've just now banned it? Tell you what, homey . . . email the EFF. It's been up long enough that I'm betting some timeframe has passed that would allow it to be put back up unchanged. And even if not, or they won't help you, then all it cost you is an email.
+You can use Object.assign to create a new object with the properties of another object. ``` const newObject = Object.assign({}, oldObject, { x: 5 }); ``` In the above example, if oldObject.x is 2, newObject.x will be 5
+Just call it Node, it will confuse some folks and people can finaly say that they program in node
+Hey, Karthons, just a quick heads-up: **finaly** is actually spelled **finally**. You can remember it by **two ls**. Have a nice day! ^^^^The ^^^^parent ^^^^commenter ^^^^can ^^^^reply ^^^^with ^^^^'delete' ^^^^to ^^^^delete ^^^^this ^^^^comment.
+I don't know, I'm not a big fan of monkey patching.
+Yup! Or if you want to be a daredevil, use the small backed non-SQL database engines out there. ;)
+Why not just WebScript?
+OracleScript
+Once you create object2 you can use `Object.assign(object2, {x: 5, y: 7})` . Object.assign has signature of`Object.assign(target, obj1, obj2, ...)`
+True. We could pronounce it eezma. Like the emperors new groove
+And most importantly, more motivation.
+Do you have a minute to talk about our Lord and Savior, PostgreSQL?
+That would be a great name for Typescript. 
+This sub pays Oracle big money to use that name, like Google and Mozilla.
+Problem, though: this is not a situation where things are brought in front of a court, and then the court says yay or nay. This is Oracle asking to proactively remove the app from their store; Apple doesn't have to comply, they could fight it in court if they wanted to, but they have no incentive to do it, and when they do comply, their terms of service explicitly say that they can, and that you can't do anything about it. So unlike the normal situation, where you would create and distribute a product yourself that (alledgedly) infringes on Oracle's trademark, you have no legal means of fighting this. If this were the "normal" situation, where you distribute software through channels under your own control (e.g., provide sources via a public git repo, or offer downloads from your own website), then Oracle would have to go after you, and they would actually have to make their case in front of a judge or jury, and it's quite likely that they would lose. But they don't.
+JS
+ for (const n of looper(4, looper.seconds)) { console.log(n) }
+I am fairly sure that the trademark would not hold in court. A trademark is not valid if it ends up as a common term for something that is not the trademarked product, IIRC.
+That's not entirely accurate... Or even a little accurate
+How much do you think Oracle would ask for? Double that. Then double it again. Per month. Per seat license.
+Just a script
+What's the deal with JerryScript?
+That's how I've been pronouncing it all this time...
+What about FOS
+Larry doing Steve a favor and hoping for a billion dollar verdict? Sounds like a pretty self-intereste favor...
+Fintech can be fine, really depends on the company :) Mostly anything beats Oracle thouhg (I worked a lot with them as a partner company until they screwed us by sending in their own people and stole the client; got heads up from the people we worked with at the client long after telling us the Oracle consultants are more expensive and total crap, but he). 
+HP is such a sad husk. Once a powerhouse of engineering and innovation, it got CEO'ed to death until its chief metric of productivity was maximizing cost of ink per printed page.
+It's just that people here suggest new names and it always ends with script.
+Seriously, it’s so genericized that I had no clue it was a trademark. 
+Oracle will trademark it because it contains "Oracle".
+Yeah, but not BoJacksonScript, which we can all agree has a better extension. 
+Sooo ... Java?
+TIL. I've always assumed it was just coincidence.
+That is misguid(ed|ing); it's not for virtualized Microsoft environments; there is nothing that says it has to be virtualized or run on microsoft environments/Windows. It runs fine on Mac OS X, Linux and Windows. Also small serverside software is false; we migrated all our ASP.NET Windows stuff to .NET Core on Linux and it runs 1000s of transactions per second just fine and with less resources than it did with the Framework (MS-only besides the stuff that was ported to Mono). Not sure where you get your info but jeeze it's wrong. 
+Or better JabbaScript. Wait, then Disney sues you…
+SpiderMonkey.
+script++ then typescript can be script#
+The second is the Redux way. Redux *is* your UserManager class. For more involved data where you want nice getters and setters and whatnot instead of mucking with the data directly, there's a pattern called "selectors", which is... basically what you're thinking of, but called selectors. I like the "re-ducks" structure [here](https://github.com/alexnm/re-ducks/blob/master/README.md) for more complex data stores. Though don't take it as gospel - it's a bit heavy for a lot of use cases. The original "ducks" proposal has everything in one file, this one splits every little piece into its own file, something in the middle probably works best for most data. Feel free to mix and match too, maybe you have a heavy `GameState` slice of the store where you really want to split everything up for readability, and a light `Social` slice that tracks, like, whether or not the user is logged in with Facebook, and you just do that all in `social/index.js` because that entire slice of the store is like 30 lines. I will say that I like the re-ducks structure even when it seems like too many files for that slice of state, because it has kind of a self-documenting element to it. If `operations.js` literally just re-exports `actions.js`, that tells me at a glance that there's no complex or async ops on that slice of state.
+Which just goes to show how fucked up the situation with those walled gardens called app stores really is. You are at the mercy of Apple and Google all the way.
+What's worse, their products suck as well. Apple also sucks as a company, but at least their gear is great (IMO).
+&gt; CEO'ed to death I'm stealing that idiom
+If I borrow your arm to beat someone, its still my fault. I'm sure there's a way to fight this.
+Yeah, will require a damaged party who is willing to go the distance.
+lol what are your thoughts on spidermonkey
+JefeScript (for trolling copyright owners) JuanScript (minified to death) 
+That's impressive! I'd assume that .net Core on linux is more efficient because of the kernel's data management requiring less memory on a minimal system. One of the things I love about linux is its options in resource management. Also I'm a fan of btrfs Also where did I type that linux runs this in a virtualized Microsoft environment? All I did was sarcastically list off server software made by companies while subtly taking a jab at each of them... Microsoft has made a lot of improvements in server software, and linux has reigned in the server community so nicely, that Microsoft has embraced their tools and helped with WSL to make this software integrated for those who use both environments. Working with open source tools such as bash and python for something such as a cloud service, and mitigating that transition with tools (such as .NET on Linux) to a different platform is what makes that collaboration great, to have all tools for all platforms...I get the community here is a little sensitive, but jeeze... lighten up. Its all pointless anyway. 
+For all intents and purposes, ECMAScript is JS. JavaScript is just a trademark that is slapped onto some implementations of ECMAScript because of marketing purposes, and you can hardly call it a language of its own. For example, V8's implementation is labeled JavaScript, but it's different from SpiderMonkey, which is also labeled JavaScript, and both are different from JavaScriptCore, which is also labeled JavaScript. 
+^The linked tweet was tweeted by [@wSokra](https://twitter.com/wSokra) on Apr 17, 2018 19:18:54 UTC (77 Retweets | 187 Favorites) ------------------------------------------------- 🎉 \#webpack 4.6.0 released 🎉 with many bugfixes and prefetch support. Changelog: [https://github.com/webpack/webpack/releases/tag/v4.6.0](https://github.com/webpack/webpack/releases/tag/v4.6.0) and here is a blog post with more details about the new feature: [https://medium.com/webpack/link-rel-prefetch-preload-in-webpack-51a52358f84c](https://medium.com/webpack/link-rel-prefetch-preload-in-webpack-51a52358f84c) ------------------------------------------------- ^^• Beep boop I'm a bot • Find out more about me at /r/tweettranscriberbot/ •
+📅 2018-04-17 ⏰ 19:18:54 (UTC) &gt;🎉 \#webpack 4.6.0 released 🎉 with many bugfixes and prefetch support. &gt;&amp;nbsp; &gt;Changelog: https://github.com/webpack/webpack/releases/tag/v4.6.0 &gt;&amp;nbsp; &gt;and here is a blog post with more details about the new feature: &gt;&amp;nbsp; &gt;https://medium.com/webpack/link-rel-prefetch-preload-in-webpack-51a52358f84c &gt;— Tobias Koppers ([@wSokra](https://twitter.com/wSokra)) &gt;🔁️ 77 💟 187 &amp;nbsp; ^(I'm a bot and this action was done automatically)
+&gt; That's impressive! I'd assume that .net Core on linux is more efficient I'm not so sure linux or we can take that much credit; just most of the people who wrote the system in the first place were Windows guys but, after company changes, almost everyone now is Linux and/or Mac. We know far better how to run and manage stuff on Linux. Windows 'feels' heavy to me, but that's just me maybe. &gt; Also where did I type that linux runs this in a virtualized Microsoft environment? You write: &gt; &gt; .net core is a minimal command line application suite for writing small server side software to run in a virtualized microsoft enviornment So I say; - minimal -&gt; yes - writing small server side software -&gt; no - virtualized -&gt; doesn't have to be - Microsoft invironment -&gt; no 
+A browser is a thing, and uses the internet. I vote for IoTScript
+"Programming language #312" We should just give numbers to them all. "This code was written in programming languages #201 and #422, with some legacy binary modules written in #171.
+Surely as they've done nothing to protect their trademark it's slipped into eminent domain by now. Is that the right term? I aren't teh legal. I know this is a risk if you don't aggressively protect your trademarks and this seems like they don't even care. 
+for clarity there is no type="nomodule" only &lt;script type="module"&gt; &lt;script nomodule&gt; &lt;script&gt; type="text/javascript" is implicit in the last one
+I would go with JayScript
+but then there would the need of a version pre ++. Call it simple: Script.
+Why oracle wants to be so negative, what do they gain by bringing down this app? Is it threatening there business? May be the app is earning a lot of money and oracle wants to replace it with oracle owned app:)
+lol alright well i'm trademarking 69 ;)
+Amen brother, keep spreading the word.
+Tbh "script" sounds kinda cool
+{}+[]===0Script
+We defended our trademark against Intuit successfully for "Tendermint". We know great lawyers.
+jCash
+justscript, it would still keep the short JS form :D
+I can't help but think "ECMAScript" is also a pretty shit name too! It took me ages to remember those letters in the right order :( I think it should be called something nicer like "WebScript".
+JavaZcript ?
+JavaZcript ? 
+So are they going to cease and desist this subreddit too?
+I pay Oracle $50 a month for permission to run javascript in my browser, doesn't everyone?
+Don't they still have the best DB, for like 30 years?
+Apple is removing lawful content from their app store just because Oracle told them they have to via a bullshit argument that would never hold up in court. Apple either has no understanding of trademark law or they value their relationship with oracle so much more than they value their developers that they would compromise their own service just to please them.
+Just a name, inspired from krate.in which I tried to replicate in a very basic way. Glad you found it interesting. :)
+Judging by the documentation, the price-gouging, and the benchmarks, I don't find it that good.
+JeffScript, so it can keep "JS".
+&gt; This is Oracle asking to proactively remove the app from their store I think this is just automated keyword scanning if $app.name contains $trademark =&gt; message( $app.dev, $trademark, $owner ) Which may make the case even harder to dispute, so your point still stands :) 
+Oracles actually fucking useless. It’s just a of old people making updates to their slowly dieing software. And while they’re at it they decide to really piss people off by claiming shit that doesn’t matter. Let’s make a thread on reddit of people commenting “JavaScript” 
+Originally, Brendan Eich was gonna call it Mocha. I think that's a good name.
+Hi, I hold the patent on CSS, the copyright on HTML, and the trademark on SVG. I'll PM you were to wire me money every month to use your browser.
+Unfortunately by the time it's tossed out, you've already spent a ton on legal fees and gone bankrupt.
+Oh ya because wheb I need an app to edit js snippets, I'm gonna search for "ECMAScript editor"...
+Yes. Distribute the app through other channels, see if Oracle comes after you, and when they do, fight it in court. This however is exactly why app stores are a bad idea, and another example of how big corporations are taking over government tasks (jurisdiction, in this case), and why this is a bad thing. Apple is essentially playing judge here, abusing their monopoly on the distribution of iOS apps, and their jurisdiction isn't impartial like it should be - they're not acting in the interest of fairly interpreting and applying the law, but in the interest of maximizing Apple's profit. This is essentially a violation of your right to a fair trial, and it passes because technically there is no case.
+Also - they don't - Javascript comes from Mozilla, which became Firefox eventually. Sounds like some idiot lawyer's AI needs to be reset.
+Does it mean, apps in Apple Store built with react will be taken down??
+Well, trademark disputes are fairly simple cases. Plus, we have the EFF for this kind of thing. ... You *are* donating to EFF for the greater good of everyone, right?
+MariaDB
+updated https://www.npmjs.com/package/utilsac utility for JS
+I miss Sun. They were a great company and Oracle destroyed everything they did. 
+IANAL but if you replace all occurrences of JavaScript with ECMAScript you should probably be good to go.
+Also, leaving aside the broader considerations, I've heard that Oracle is also a pretty terrible company to work for. I've heard from multiple ex-employees that the work environment is intensely political, and that the technical merits of a proposal matter much less than the political capital of the person proposing it.
+How about not having 3 layers of access between DOM elements and your code so your website doesn’t feel sluggish and bloated?
+Do people legit pronounce it that way? Honest question. 
+Wow, this should really be in its own blog post. Thanks stranger!
+Try calling it without args i.e. Length() and see what happens
+[?](https://i.gyazo.com/1eebcd931b7be4f1f00f9399567a6386.png)
+It seems that your comment contains 1 or more links that are hard to tap for mobile users. I will extend those so they're easier for our sausage fingers to click! [Here is link number 1](https://i.gyazo.com/1eebcd931b7be4f1f00f9399567a6386.png) - Previous text "?" ---- ^Please ^PM ^/u/eganwall ^with ^issues ^or ^feedback! ^| ^[Delete](https://reddit.com/message/compose/?to=FatFingerHelperBot&amp;subject=delete&amp;message=delete%20ID_HERE) 
+Noooooooooooooooo
+So Apple should pay to litigate on this guy's behalf?
+Unityscript for the game engine is another
+I'm confused - how is Oracle the bad guy here? They own the copyright for JavaScript, just like Apple owns the copyright for, let's say, Mac OS. What this says, unless I'm mistaken, is that Apple decided on their own to not approve this because they think it might be problematic. No involvement from Oracle. While I'm under no illusion that Oracle are good guys, this tells us more about Apple than it does about Oracle - Apple believes Oracle will sue, because Apple *would* sue under similar circumstances.
+["Is this answer still relevant?"](https://i.imgur.com/MvZrSCa.jpg)
+A piece of recommendation when picking your job: if you want to be successful, leave the moralization and public opinion out of the equation. Go to a place where you have good career prospects, in terms of promotions, learning, salary, and life balance, and depending on what your priorities are between these things. Don't let propaganda influence your decision - these are political/legal/etc fights between the big players and in the end just the matter of how much money a company decides to pay to maintain its public image (and this depends on who the company's customer is). Whatever your decision, base it on the what you know about the career prospects at that particular place. You can thank me in 30 years. Cheers!
+This is all way too fucked.
+Don't knock it... I work for a bank that has a pretty awesome tech environment. But I have to admit, it's unusual in the industry.
+Oh thank you very much. Now I can never see that word without thinking of her. Let's rename jQuery to Gronk while we're at it.
+Here's an idea. Pay Oracle for a license to use their trademark. You'll be probably the only authorized app in the marketplace when people search for [redacted]. Edit: Per lawyer's request.
+Perfect time for MUMPS to expand onto the web
+I actually pay Oracle for the right to run java on my server.
+No you don't. Patents only last 20 years. CSS was first released 22 years ago.
+Replace vowels with their Cyrillic counterpart. No auto-detection or infringement=so much win!
+The asininity of this is truly astounding considering http://tsdr.uspto.gov itself uses JAVASCRIPT.
+Wasn’t it called LiveScript before the Java naming deal in the 90s? Maybe we should go back to that!
+http://tsdr.uspto.gov website itself uses javascript.
+This message brought to you by the school of short term gains meets long term costs
+You might want to try AssemblyScript (https://github.com/AssemblyScript/assemblyscript) and compile down to WASM.
+&gt; The unauthorized display of our client's intellectual property is likely to cause consumers encountering this app to mistakenly believe that it emanates from, or is provided under a license from, Oracle. I think most people won't mistakenly believe this app is form Oracle, because they didn't even know that Oracle owns "Javascript" until they encounter this thread.
+...really. 
+&gt; afterall after all* It's not one word.
+How about Just Another Very Annoying Script?
+I have heard the oposite but I know differnt people and only 2 of them.
+&gt; Unfortunately ECMAScript is a terrible name. Too bad. It's what you have to use.
+Does reddit get authorization from Oracle to use "javascript" in this subreddit?
+&gt; If JavaScript doesn't exists doesn't exist* 
+Where else is it applicable?
+Well yes, it's hard**er** than an average word and most other programming language names.
+no fun allowed!
+But I'm not talking about how nice it is on the inside. I'm sure that Google has a better canteen than my current job (my current job has no canteen). While banks are maybe the odd one out in my list (b/c their core business isn't necessarily bad for the society), in practice it's rare to work for a bank and not be somehow involved in, say, trying to sell more credits, or repossess someone's home. I mean, I won't knock someone for "just" working for a bank, but on my personal ranking of evil companies a bank is below Oracle, but above a marketing company like, uh, the one my current company is making a project for. Something something ethical consumption/employment under capitalism.
+While my instinct is that there are far darker things about Oracle (or its customers?) than that they are "old people", perhaps that *is* the worst epithet to bind to them.
+Whooshed right out of left field.
+You’re probably right... let me change that to “experienced people”.
+Just replace all "JavaScript" it to "FuckYouOracleScript", I don't think they own the trademark on that one.
+I suppose they also own the oracles at delphi.
+I think that you are too quick to conclude that everything that a "good company" does is a long term gain, and that everything that a "bad company" does is a long term cost. Neither of these companies are good or bad - they are the same in that they exist to maximize profits. The public opinion is manipulated with their PR spending. Best example - Google does tax evasion in billions of dollars, but it settles for much less money, and it's forgotten - Google is still a "good" company. Another example: Microsoft used to be _the_ EvilCorp back in the day, and Bill Gates was frequently depicted as Satan in the press. Then Microsoft decided it would start spending money on its public image, and nowadays it's not considered "evil", and Bill Gates is the modern day Mother Teresa.
+I file a patent on every new year, so you're referring to the last 20 years illegally in your comment.
+His bill is also $49.99, but when he hands them $50 he becomes uncomfortable waiting for the change so he awkwardly turns around and leaves.
+FuckLarryScript
+No, it's the "don't naively listen to everything that the big brother tells you, and instead think how you can really improve the world" approach to life.
+NodeScript FTW
+Lol. Why did you use short versions for everything except JavaScript? Smh &gt;Hypertext Markup Language version Five, Cascading Style Sheet, JavaScript/ECMAScript, Hypertext Markup Language, Snipped Editor. FTFY Jokes aside, you should find a better name...
+Oh, then I misinterpreted you. I could try pointing out that not all banks are Wells Fargo, that banks provide their customers a way to manage, save, and spend their money, that mortgages and auto loans allow customers to make large purchases to enable their lives, that even oft-maligned credit cards provide customers with a convenient way to pay for things, with "rewards", with a line of credit for those who don't have access to anything else but payday loans. I could point out that there are some banks that try to be a force for good. But it probably won't convince you. There will always be some customer who didn't pay their mortgage and didn't work out a refinance plan and gets foreclosed on. There will always be some customer who doesn't pay their credit card and gets sued. And if one is setting out to not like banks, there is always sure to be some reasonable justification. Oracle, on the other hand, is just plain evil. &lt;wink&gt;
+Can we all agree to pronounce .mjs as mayonnaise? 
+Oracle is a trademark of Oracle. You’re fucked.
+Per thread.
+That would work in court, where the validity of the trademark could be challenged thusly, but it is not Apple's prerogative to decide a duly registered trademark's validity.
+Yes! I interested to create a framework base my work experience. And Humble has a kind of my solution in work, I will make some constraints such as controller must async/await function etc. If you are an engineer with one-man code, this is not suited to you. Humble has an idea that is well-regulated framwork. So I will design plugins, middlewares in Humble.
+This is both weird and scary . Why Oracle attacking *this* developer and not Ryan Dhal when he created Node ? Why Oracle doesn't take down 60% of the github repostiory labelled "JavaScript" ? Why Oracle hasn't sued npm ? At this point I think it's like people using the term "Kleenex" for tissue , while originally "JavaScript" was used as trademark of Oracle it has pretty much become a "generic trademark". Also this email could be an automated one, maybe Apple runs "anti-counterfeit" or "anti-piracy" batch and compares it to a database of trademark therefore it would be some sort of automated email send from by Oracle lawyer firm. I really believe Oracle doesn't care about this trademark, because again the term "Javascript" can be found everywhere for products that are being sold commercially or just all the open source library having the term Javascript in them...
+&gt;They own the copyright for JavaScript No, they own the *trademark* for "JavaScript". That's it. No copyrights or patents relevant to the actual language. Literally just that word. Any contributions to the actual language that Sun may have made would have been defunct years before Oracle acquired them. &gt;just like Apple owns the copyright for, let's say, Mac OS. That's entirely different. In addition to owning the trademark for "Mac OS", Apple also owns the copyright for the software known as Mac OS, because they created it. In this case there is actual intellectual property involved. Hilariously if Oracle actually sued they'd have a very real chance of losing the trademark because "JavaScript" is used as the generic name for the most widely used implementations of the ECMAScript specification. 
+I don’t think it does. 
+When dealing with object instances: If you want to _inherit_ use `Object.create()`. One instance will be able to access members of another object as its own. Assignments to that object only affect it and not the object it is inheriting from, even if calling methods that were inherited. var newInstance = Object.create(inheritedInstance); newInstance.y = 1; // does not affect inheritedInstance inheritedInstance.x = 2 // does affect newInstance If you want to _copy_ use Object.assign(). This copies the members from one object into another. Changes to either object afterwards will not have an affect on the other object. var newInstance = {}; Object.assign(newInstance, copyFromInstance); newInstance.y = 1; // does not affect copyFromInstance copyFromInstance.x = 2 // does not affect newInstance When dealing with OOP object construction: Classes will let you set up inheritance for instances as they're created with constructors used for initialization. Inheritance between classes happens through prototypes which are not necessarily "working" instances like you might be dealing with when using `Object.create`, so inherited change is less likely to occur unless you go fiddling around in the prototype definitions. Initialization in the constructor happens on a per-instance basis which means each instance gets its own copies of values assigned there. class Inherited { constructor (x) { this.x = x; // init } getX () { return x; } } class Inherits extends Inherited { constructor (x, y) { super(x); // inherited init, copies this.y = y; // init } getY () { return y; } // getX already available, inherited } let inheritedInstance = new Inherited(1); let inheritsInstance = new Inherits(1, 2); inheritsInstance.y = 3; // does not affect inheritedInstance inheritedInstance.x = 4; // does not affect inheritsInstance Inherits.prototype.getY = () =&gt; 0; // affects all Inherits instances Inherited.prototype.getX = () =&gt; 0; // affects all Inherited and Inherits instances Though you can mess with the prototypes seen above, generally you wouldn't and shouldn't.
+Ruby? More like rubella.
+Alright, I stand entirely corrected on my incorrect use of the term copyright. This is said non-sarcastically - I've learned something and I was factually incorrect. How does it change the fact that Oracle are not (yet) the bad guys in this story though? They might very well *become* the bad guys, but so far, Apple has basically said "I'm afraid they will be annoyed so I'd rather not do it". Oracle hasn't even had a chance to be annoyed.
+Change your reference to 'ECMAScript'?
+Or refer to *all* ECMAScript implementations and forks as "JavaScript". It's already used widely enough that you could make a compelling argument that it's become generic. The fact that ES, JScript, UnityScript, etc. are all colloquially referred to as "JavaScript" might be enough.
+Objects would be better, constant time lookup, while array need to be looped. A dictionary would be to prefer. badom tsch
+&gt; I think that you are too quick to conclude that everything that a "good company" does is a long term gain, and that everything that a "bad company" does is a long term cost. Neither of these companies are good or bad - they are the same in that they do whatever it takes to maximize profits. If your perspective is limited to the profit motive this take on ethics can be understood, however there is this thing called society we all live in and it is made better or worse by the actions of citizens and corporations alike. &gt;The public opinion is manipulated with their PR spending. Yes companies use marketing to manipulate consumers into believing things but when real negative consequences arise it's journalists and activists that inform the public into taking action, i.e. Starbucks right now. &gt;Google needs to be a good company, so that you remain a good denizen who loves it and keep watching its ads. This is you clearly misunderstanding how much of a monopoly Google has currently with regards to adsense and search. Google is so prolific that they don't have to work about individual or groups of consumers. &gt;Another example: Microsoft used to be the EvilCorp back in the day, and Bill Gates was frequently depicted as Satan in the press. And he was dragged in front of congress to explain how if he didn't change Microsoft's ways they would use anti-trust against the company and break it up. This caused him to invest in Apple and save the company from failure. 
+Whatever. IANAL, but I'm just going to bet that you can sue Oracle here regardless of all that, as long as you can prove damages. Again, happy to help make the right connections to see if this is a viable option. Don't be put off by comments on Reddit that say otherwise.
+Do you need a hug? I can go get my Kevlar vest.
+Call it "JS", problem solved.
+Phaser?
+That's not a generic message from Apple. It's an actual cease and desist from someone representing Oracle (referred to as "our client"). Probably received by Apple, and forwarded to OP as the reason their app was removed.
+Are you still living in 1997?
+that's way too much for a game like Agar.io? It just needs very basic stuff like "hey canvas draw me a circle of that size here and maybe a shade there" and stuff like that...
+What extra stuff is in JS? That's interesting.
+Been a JS dev for years... This is the first time I’ve heard that Oracle owns that trademark, and that there is a trademark in the first place. I have literally never needed a damn thing from Oracle to do my job. How the fuck did this happen?
+ Registration No.: 24169017 Date Registered: 2000/12/26 Owner: Sun Microsystems, Inc. Filing Date: 1995/12/01 First Use: 1996/06/00 First Use In Commerce: 1996/06/00
+Also IBM, SAS and many other from that era. I see talks from IBM people from time to time around innovation, but it always transpires they've basically built a start up inside the company without anyone noticing. Also a client of ours pass on Watson for something some of our grads built in 6 weeks which essentially does the same thing (entity recognition mostly).
+Yeah the email is just saying "look bro, you don't want people thinking you're an Oracle app right? Better switch to ecmascript."
+Agreed.
+Since when did oracle make anything on the iPhone?
+It's actually Apple being a jerk here. Noone has ever (needed to) block the word Javascript or any javascript code because Oracle owns a US-only patent on it. So, Apple doesn't (want to) understand: 1) They themselves help improve javascript through WebKit and their (albeit inferior) browser. 2) The word "Javascript" is so common, that a patent on the word itself would have to be deemed invalid. Similarly, you can't patent the word potato, either. 3) Javascript code can never be patented before it's created. Since it's a creation of a person, it cannot be owned by Oracle, and copyright belongs to the author, if he so wishes. 4) It's a US patent. There's more to the world than the US. Apple knows this. But this is their way of providing you with a bullshit reason not to want to publish the app. It's just Apple being Apple.
+Doesn’t quite roll off the tongue 
+Might be worth reaching out to EFF. 
+Oracle. The suits think that they are very successful based on the adoption of their "JAVASCRIPT" product.
+Since you said they are "declared in the parameter list" so would be a safe assumption you would be using "use strict" which prevents the use of undeclared vars. But, if they are declared in the parameter list, "use strict" shouldn't cause problems so there would be no issue. Besides, why would people write code that breaks when using strict? So, add "use strict"; and try again?
+The joys of a duopoly
+Until docs are updated I won't use Webpack 4. Linking to Medium articles in lieu of proper documentation is better than nothing, but hopefully this whole affair should encourage Webpack to have their v5 docs ready before pushing v5 live. As it is I'm not sure why they're pushing minor releases like this instead of focusing on the docs.
+Scriptoboy
+`this` refers to `window` (browser) if the function is not invocated with `new` (as a constructor). In strict mode, `this` is undefined to prevent things like that. [But the default values are still set fine when invoking it as a constructor](https://i.gyazo.com/36b16f684f01affef9d22440ce55abb0.png)
+You hate Apple so much that you’re willing to blame them for legal actions taken by Oracle? Try being rational for a minute. Set your (possibly justified) anger with Apple to the side. No matter how they’ve hurt you in the past, Apple is not at fault here.
+&gt; Exactly. It's up to the law-enforcing institutions to decide when someone needs to be dragged in front of the congress. Assuming that they're doing their jobs correctly, they should have an unbiased insight on when and how someone threatened the society or broke the law. Of course, that is not to say that the public should never intervene - it should, as a backup measure. However, if the public does intervene, it should have an unbiased understanding of the facts and legal situation, not a manipulated opinion. &gt; &gt; Putting it differently - a company that protects its trademark, is within its legal rights. If you have a problem with that, use a different trademark. They didn't monopolize the whole English dictionary. So then you're admitting someone seeking a job should be concerned with the politics and external consequences of the company they want to work for.
+Ugh actually, fuck Apple
+Clever, very clever
+IANAL is the key bit here since most of what you're proposing is nonsense, that's not how trademark disputes work. 
+Only if you name your app something like “My Cool App built with React dot JavaScript”
+Good bot
+Patently a generic trademark. Oracle have left it far too late to start enforcing this stuff, if it was me I'd send them an email with the simple content "Lets Dance!" and then counter-claim. But that's me.
+You can't use the text "Javascript" to identify your app. Remove the offending text in your description of the app and you should be fine. 
+Let’s just circle back to the 90s and go with JakartaScript. 
+"I'm so confused! I'm so confused! I downlaoded this from iTunes but it has this JavaScript on it and for some reason I know that it comes from Oracle and I will be bothering those people endlessly about it and they won't like it and it's making my head spin!"
+I think that the assumption here is that a company protecting its trademark is doing something wrong. If this is legal activity, then it is not wrong. And if protecting your trademark is somehow wrong, then you need to change your laws.
+&gt; If this is legal activity, then it is not wrong. And if protecting your trademark is somehow wrong, then you need to change your laws. no, what I'm addressing is OP's assertion that people seeking tech work should be totally apolitical and only worry about the profit motives of the corporation.
+please don't. In hungarian it means 'shit'. JS is already hated enough...
+With 1 level of indirection, seems like you can get away with anything.
+Not lately
+I would temper this advice by saying thats it's a very effective way to learn how to hollow yourself out for the benefit of corporations. Good career prospects is in no way directly related to long term happiness. Were I able to do it over, I would avoid large corporations as much as humanly possible and only work at one as a last resort. They ruined my outlook on life and people because they're usually full of the worst kind of people who value money over all the things. Including you.
+I wouldn't say that you should never be concerned - if the company is selling drugs to minors, you should think twice about it, even if it's legal. However, protecting your trademark is not the same as selling drugs to minors.
+Right, because we all know that all political action organisations get the cues from "Big Brother" and not careful research or journalists.
+I thought it was created by Mozilla founder
+The good old slutsof escape. 
+The J stands for Jay
+&gt; nothing worked. That doesn't describe the problem. _What didn't work?_ In what way? What did you manage to get working and what didn't you? Show your code, explain the part where it failed, explain how it failed.
+Right. Who needs a moral compass when you could have dollar signs?
+Oracle seems to be doing just that by issuing trademark infringement warnings. 
+&gt; However, protecting your trademark is not the same as selling drugs to minors. There is a difference however between simply protecting a trademark and being a Vexatious litigant. Abuse of the copyright system has had dire consequences for several industries and limited many people from earning a living doing creative work.
+Also FOscript lends a bit of a hint towards the language being designed functionally yet having some object oriented tricks. Functional Object Script.
+Show your code. Otherwise it's pretty hard to guess where your `NaN` originates.
+found a related hacker news thread on this topic\(4 years ago\) [https://news.ycombinator.com/item?id=8344049](https://news.ycombinator.com/item?id=8344049)
+congratulations, genius, you can read.. maybe say something original next time
+JINJS: Jinjs is not JavaScript
+You don’t think their “problem” is actually laws requiring them to appropriately respond to requests from copyright and trademark holder’s legal requests to remove infringing content? This is clearly worded as Apple’s response to receiving notice from Oracle.
+I think I was not completely clear. I am not suggesting that one should go and work at a large corporation (not at all, in fact). I am also not suggesting that you should value money over all things. I am suggesting that you should go to a *place* where you have a *better career prospect*. Here, a place is a job or position in which you perform a (usually paid) activity. By *career prospect*, I mean all the aspects - learning, enjoyment, position, life balance (but money too), depending on what your priorities are. If you pick your priorities right, I think that it will lead to long-term happiness, but just my opinion. The point in my post is that you should not heavily base your decision on hearsay. I'm not sure what you mean by "Including you".
+So are we not allowed to program in Java for commercial reasons anymore?
+Isn't it available? https://github.com/webpack/webpack.js.org/pull/1856
+We could call it EichScript, so we could keep the ES acronym, or JohnScript after John Resig, then we could even keep the .js extension, but this seems like a forced solution.
+can we shorten it maybe?
+They are updated.
+I would say I am surprised at the lack of Ignorance on the part of Apple... but I'd be lying.
+IANAL, but consider renaming the app to "Snippet Editor for HTML5, CSS, JavaScript, HTML". This is what all these alternative chat clients are doing to get around the trademark, like "... for WhatsApp", "... for Facebook", etc. But if you do, you should consult a lawyer in any case.
+Terrible name. Makes it look like you're a Chinese app company pushing knock-offs and cheap, rushed apps. It smacks of keyword gaming and isn't likely to result in many purchases since you've used very common names that aren't likely to be searched. If they are searched, your app will get lost in a flood of other apps. Devs aren't going to search for HTML, CSS or Javascript. Also, when you want to add support of play up the fact that it works for Typescript? Rename it to "HTML5, CSS JavaScript, HTML, Typescript Snippet Editor"? You would be much better off with a unique name for the app (so that it can be more easily found) along with the functional description of what it does. Like "Fred - The Web Development Snippet Editor".
+Don't. 
+^Found the Jeff!
+no, i've since learned learned that my understanding that sun invented JS was innacurate - so no, lol, apparently i wasn't making sense.. the part about [millenials &amp; george washington statues](https://www.mediaite.com/tv/cnns-angela-rye-statues-of-washington-jefferson-and-lee-all-need-to-come-down/) is true though.. i knew when i wrote this it would piss off some snowflakes though, so your reaction didn't surprise me, 88.
+If it came out today it would probably be called CloudScript or maybe IoTScript.
+DopeScript
+I'm going to reply to this from the career perspective instead of the moral perspective. Granted I'm talking specifically about the tech industry but this likely applies elsewhere. The companies in this industry that get panned as patent hoarders and legacy maintainers (IBM, Oracle) are both morally bankrupt and shit to work for for the same reasons. The lack of innovation does not make for a fulfilling work experience. Sure, you'll get a steady paycheck (until IBM lays you off instead of promoting you to replace you with a new grad). But while you're grinding at minutae, your peers at more dynamic companies will be gaining skills that put them ahead of you professionally. You will need to play catch up in your free time unless you want to be stuck in a junior role for quite a while. 
+CoffeeScript will be renamed CovfefeScript

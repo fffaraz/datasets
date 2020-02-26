@@ -1,0 +1,1000 @@
+This is a great article. I don't care how many articles on async/await are already out there (and I have read quite a few of them) this one explains things I had not read/understood before. So I sincerely appreciate the effort of the author and the sharer.
+Oracle is a bunch of lawyers trying to wring whatever money they can out of whatever software or tech they can get their hands on. Larry Ellison didn't get to be personally worth $62.4 billion by being a nice guy.
+im a fan of FuckOracleScript FOScript
+JScript (used by Internet Explorer and Windows Scripting Host)
+Anyone that’s rich didn’t get their money the right way...
+That's the best suggestion! Michael Jackson Script is a great name : )
+&gt; Atlassian I *just* saw a senior dev position job opening with them recently. May wanna check again.
+oh look. an idiot in its natural habitat
+aw.. did i hurt your feelings too?
+Saying that it doesn’t count is a bit of an over simplification, more that if they don’t actively work to prevent infringement they can effectively lose the trademark if it’s brought up in court.
+And what exactly does it have to do with the *European computer Manufacturers Association*? ECMAScript is hardly more appropriate.
+Those "experienced people" are mostly middle managers. The people at the bottom part of the org chart are 8 levels removed from the top. And all in very strict little silos, so there's way more than there needs to be. Anyone doing any actual work at Oracle is either an H1-B, just starting out, or doing the bare minimum until they hear about a different job.
+No, [they're a surveillance company now, too.](https://cloud.oracle.com/data-cloud)
+&gt; Go to a place where you have good career prospects, in terms of promotions, learning, salary, and life balance, and depending on what your priorities are between these things. So... not Oracle.
+i don't have a problem with apple.. i write code on an apple every day of my life, but let's not act like they care about copyright infringement either. the word 'javascript', and 'java' and all sorts of other trademarks are used all over the place, including apple apps, regularly, without anyone receiving any such notice.
+Ugh, I hated having to be on calls with sales guys who still thought they were the same or even related.
+Joshua Smith
+Change JavaScript to EcmaScript update application.
+E-script
+People downvoting you should unfuck themselves and read the reddiquette. Yes, mobile app store practices are shitty, but that's the nature of the beast. The dude's provided you with an answer, don't downvote him because you don't like it. They're just trying to make a buck.
+Wat
+#NANNANNANNANNANNANNANNANBATSCRIPT
+Pretty cool
+The data became less precise since all the fixes to resolve the processor vulnerabilities reduced the performance of some operations, but this does not prevent benchmarking the performance of the functions after the changes.
+😂Script
+You'd tell people it stands for "Free-Open Script" 
+Roger. Thanks for the clarification.
+What, like JustAVAS?
+I guess they couldn't just let anyone be more evil than them.
+This guy is great. It’s almost impossible to daydream or for your mind to wander when watching him. 
+pixi.js because it gives you WebGL acceleration. Drawing directly to canvas will be a bit CPU heavy on low end devices / phones.
+Name checks out.
+Just starting to learn web development for building an ecommerce site. Does using JavaScript even for website constitute infringing? 
+Call it ECMAScript
+Not really senior yet
+How about "es editor"? If we can abbreviate JavaScript to js, we can abbreviate ECMAScript to es.
+Ice
+IFAIK isn't Postgres better for most users? The mere fact that you don't have to deal with Oracle is probably a huge plus.
+pickle juice
+works great. thank you!
+If it makes you feel better their surveillance wing isn't doing so well.
+With a pointless anecdote 
+Given the repeated uses of 'our client' in the OP, either Apple just forwarded the C&amp;D or it's not actually from Apple.
+Java is to Javascript as ham is to hamburger 
+Fifteen years ago, you would be saying evil about Microsoft. And they're pretty much still the same company.
+It's a position working on their cloud platform that's about 30% sales. Why they'd make a programmer sell to people I have no idea. 
+Correct. I've had three shit jobs in another state and I won't take an offer that forces me to do drudge work with no payoff.
+&gt; ~~Mozilla~~ Netscape had cut a deal w/ ~~Oracle~~ Sun Microsystems back in the day to call in "JavaScript". FTFY. And, back in the day, Sun was as litigious as Oracle is nowadays.
+Also, I'm quite more interested in learning the logic behind back\-end developing in particular, which I have only dabbled in at this point.
+That is one of the use cases I had in mind and why I was thinking of keeping it synchronous. Although I could make the API in such a way that you could have both options.
+I understand the need to protect one's trademark and intellectual property. You have to make sure that the 'things' you have keep their value. I do get it. That being said, how much more value would be added to the Oracle brand if they publicly GAVE the Javascript trademark to the open source community? How much more value would they gain if they simply did something like requiring registration &amp; agreement to receive communications in return for (free) licensing of the Javascript name? There's so many things that they could do to increase the value of their brand and the Javascript name -- something that simply isn't accomplished by issuing takedowns &amp; threatening lawsuits. In other words, they're stupid. 
+Is there some legally binding stipulation in a contract upon your hiring? How can you be sued for bad mouthing them, assuming the surrounding story is honest?
+Oracle owns Java as well though...
+"Well if you don't want to work hard so Larry can buy another boat then you're just not a team player."
+The canvas 2D API is very slow that's why people use libraries which use WebGL for rendering.
+Point isn't about length but about what lingo is commonly used.
+I'd answer this question but I feel it may reflect negatively on Oracle even if it were truthful, and if that causes a demonstrable loss in revenue they can sue me for that.
+Non-disparagement clauses innit?
+There are things that a person has no idea how to do. Let’s put those things into column A. There are things that people have experience with, sometimes a great amount. Let’s put those into column B. Then there are things that people intuitively can do. This is column C. It is uncomfortable to move something from bucket B to bucket C. You have to force yourself to do it. As an example, many people have typed for years. But even people who have typed for years may still have typing in their B column. In order to move it to the C column, they must FORCE themselves to type without looking. Do not allow yourself to always utilize other people’s code (or documentation) as a crutch. Forcing yourself to code without it is uncomfortable, but forcing yourself to recall the answer is how you transition from B to C. Practice makes perfect. I’m not saying to avoid documentation. But if your goal is to be able to recall something then you must allow yourself the opportunity to flounder for a bit until you do recall it.
+Ok. You've got me there! +1... until next time ;)
+Unfortunately someone has already [re-used LiveScript for a compile-to-JavaScript language](http://livescript.net/).
+Everyone is sales at Oracle. Larry Ellison is a machine that only knows how to make money. [Don't anthropomorophize Larry Ellison.](https://news.ycombinator.com/item?id=5170246)
+It’s pretty fucking funny though.
+All is not lost. Maybe you can be a good Nazi.
+And all these companies making a big fuss of how they have such advanced technology! It's a mockery... i like it...
+Hi /u/Bulbasaur2015, For javascript help, please visit /r/LearnJavascript. Thank you!
+V8, SpiderMonkey and JSCore are all JavaScript engines that compile, optimise and execute JavaScript code, they aren't implementations of JavaScript / ECMA. Also, ECMAScript is not a language, it is a set of specifications that a language (JavaScript, ActionScript, etc) should adhere to and / or extend in. JavaScript definitely is a language, though.
+So? None of the other suggestions in this thread are widely used either. ECMAScript _is_ the formal name of the language. If we ever _do_ rebrand, that's almost certainly the name everyone will be using.
+Everyone is sales everywhere in capitalism.
+You ever had ham on a hamburger? I haven't myself, but it actually seems delicious.
+picklescript .ps Thats how i enjoy my coffee anyways... With pickles.
+That would fly with the old folks. "There's something on my screen that looks like those webcodes you kids are always using"
+SpaceballsTheScript
+It better not mention prop-types. It mentioned prop-types. Come on! It's like the first the thing you learn with React!
+I will lose all respect for you if you get offered and accept that job.
+_its the gat dang webcodes agin_
+https://www.reddit.com/r/Fuckthealtright/comments/8d4teq/texas_white_supremacist_ariel_michelle_gherman/ Being in Austin and speaking of Nazis, I may just try to work for this company. 
+Thank you for the response. I recently started reading Eloquent Javascript which has been a substantial help thus far. And I definitely see what you mean about conflicting and repeated items after I have sifted though a few dozen tutorials. 
+This looks great. All the tutorials I've seen for React &amp; GraphQL prior use either Apollo or Relay, which has the effect of having you slap together a bunch of client code without really explaining what it does. I'll go through it and post my thoughts after, thanks for sharing!
+You are spot on about that... I *was* saying similar things about Microsoft 15 years ago (also a bit tongue-in-cheek at that time, but with a core of truth). I'm not quite sure whether Microsoft is "pretty much the same company"... they have been embracing open source and interoperability in new ways during much of the past decade.
+Thanks for the reply, I guess my source of frustration is that just about everything else I've set my mind to I nailed it in short order. I picked up a Welder and never put it down because it came natural and never had to force myself to become proficient at something. This is untapped territory for me and my biggest challenge so far. I really feel like the struggle is that this is my first time structuring my learning since high school basically. Thank you for the well thought out response its greatly appreciated.
+I was looking for a nice solution for this today actually. Thanks!
+Yeah, I like this one, this would be my fav alternative so far I think.
+Those reviews, lol. "Bad app" "Junk app" "Nice app"
+You're looking at this all wrong. You *get* the job, then you sabotage it from the inside 
+And while you are mulling over this, Oracle is going to quietly go and trademark WebScript.
+At least IBM has embraced (and contributed to) the Open Source community way more openly than Oracle. Eclipse IDE was born from IBM's VisualAge codebase. On the other hand, Oracle bought Sun/Java/MySQL and look where they are heading now. As a Java guy, it's being a painful demise to watch. And the worse thing is, it's not even due to the technology. It's due to fucking Oracle's marketing/legal strategy. Oracle can fuck right off.
+WayneJarvisScript
+What kind of skills do you have PM me, I'm an engineer at a cool tech company in North Austin
+I believe the main issue at hand is the type of work I did before used a different mindset and logic that I'm accustomed to. I'm determined to change my rhythm to hopefully draw the curtains back on this sort of thinking a bit more.
+Promises are super confusing when getting started, but they're actually pretty intuitive if you understand callbacks. There are some interesting ways to use Promises (for instance caching http requests), but they're mostly used as a way to make async code more readable. Maybe this isn't 100% true, but I view they as an abstraction over callbacks to avoid the pyramid of doom (https://en.wikipedia.org/wiki/Pyramid_of_doom_(programming)) I think a lot of what confuses people is that people start with Promise constructors and long conceptual definitions. However, I always recommend learning Fetch (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) before digging into the concepts behind Promises; Fetch is pretty intuitive yet uses the Promise construct. Once you understand Fetch, Promises should be a breeze.
+There is also ExtendScript used for scripting Adobe products like InDesign and After Effects. It is pretty bad though because it is based on ECMAScript 3. 
+Let's say I borrow a dollar from you. I don't know when I'll be able to pay you back. Instead I will give you a box right away. There is nothing in it yet, but once I have a dollar to return to you — it will simply appear in that box. Alternatively, if I declare bankruptcy and will no longer be able to pay you, a letter from court will appear in the box, notifying you of this sad face. In the meantime. You can use the box in place of what you will eventually receive from me. For instance you can connect it in such a way that if you get the money in it, it'll get deposited into your account, or if you get a letter it will get forwarded to your accountant. That box is a promise.
+\&gt; V8, SpiderMonkey and JSCore are all JavaScript engines that compile, optimise and execute JavaScript code, they aren't implementations of JavaScript / ECMA. Wait, what? If they don't implement ECMAScript, then how do they run any JS code? You can't run an abstract concept, you need to actually implement the language in order to do that. The engines V8, SpiderMonkey and JSCore all implement a different dialect of ECMAScript, and all share the 'JavaScript' trademark. ECMAScript and the 'JavaScript' trademark are the only two things that tie those engines together. \&gt; Also, ECMAScript is not a language, it is a set of specifications that a language \(JavaScript, ActionScript, etc\) should adhere to and / or extend in. That's simply not true. You may want to give this a read: [https://www.ecma\-international.org/ecma\-262/8.0/index.html](https://www.ecma-international.org/ecma-262/8.0/index.html)
+I'm a software developer that works for a company that has a division that specializes in Oracle based solutions. I can confirm that they're total garbage to the Open Source Community and software development in general.
+I've been in plenty of interviews, but I like how you called it a javascript interview instead of an ECMAscript interview. Case in point.
+Did they change the api again? :(
+Promises weren't really part of the language in terms of its syntax before async functions, they started in libraries, and then were brought into the standard library. So there's only one syntax iteration here. 
+But if JScript is already taken, go with Jay.
+Never said it was windows specific.. 
+No, but enterprise-grade software is.
+It’s a minor release not a major release (not version 5.0.0), so no - they did not change the API again. Only new features and bugfixes :) 
+The evil.
+You should learn the difference between the words 'run' and 'create'. Please stop spamming me. Spend that time learning to comprehend what you're reading.... 
+.es &gt; .js
+So I'm guessing no one can make a TypeScript editor either
+I don't know about 'extra stuff', but you definitely have different compilers approaching problems in different ways, default sorting algorithms vary for example.
+I like this one the most :)
+I was thinking WebScript, but same idea - Javascript and Java have nothing to do with each other.
+Which is exactly what Oracle is trying to do now.
+What has a car got to do with a script. 
+That's between that specific poster and myself. Not you, I don't care about you. So stop replying and kindly find a hobby. 
+I'm not sure it's what you're looking for, but I found a tutorial on React Native that did an *amazing* job explaining what they were doing and why, and showed every step of the way. https://learn.handlebarlabs.com/p/react-native-basics-build-a-currency-converter However, since it's for React Native, I'm not sure how much you'll really get out of it. It might be too different from the other stuff you've done. If you feel like you're lost in it, I wouldn't worry about it.
+That's why I call it JabbaScript.
+Apple would appreciate developers to build apps with apple stuff. It's all about market share. Let Oracle be the evil and take advantage from it. Nice move apple.
+Dumb. 
+JavaScript
+Will Oracle take over Java, an island of Indonesia with about 139,000 km2? It IS possible.
+Neither does FuckOracleScript
+cocos2d with typescript: https://github.com/dalste/starting-typescript-and-cocos2dx
+Yes. Two things can be true at the same time: Oracle is a super shitty company AND they make a really good database. I don't think there's any way to decide which db is the "best" but it's certainly in the running. I'd say SQL Server and Postgres have better tooling but Oracle likely has the best query optimizer.
+Ill jot it down and check it out! thanks!
+move that goalpost boi - thanks for the downvotes
+Per core * Number of Thread + 15 million dollar . Per month . Does not include support obviously.
+They'll just sue them. One plebiscite later the world has gained the insular paradise of fuckoracleisland
+Don't call it anything. At the point where you are referring to it, just pause then continue speaking. It would be fun to see Oracle try to trademark a silent pause.
+No `std` lib? It's _bespoke_!
+Call it ECMAScript, and tell them to go fuck themselves.
+Could be it. It would be recursive acronym like PHP : **JS Script**
+Yes but it is more like the set of organisms that break down a fallen tree in a forest. There is some value there.
+This is a good argument
+Great, thanks for info. I just keep hearing that it's best, good do know why. Can you expand with more details? I do not work with databases directly at all.
+Don't call javascript. Just JS (like JScript, or JustSuck code). It's not your fault if someone use it to code Javascript ;)
+Ham to hamster.
+Assuming your rotate function takes degrees (not radians) and you have a variable for the svg named 'svg': function rotateObjectOverTime( object, degrees_per_second, num_seconds, cb ){ const frame_speed_ms = 30; const num_ms = num_seconds * 1000; const num_frames = Math.round( num_ms / frame_speed_ms ); const frames_per_second = 1000 / frame_speed_ms; const degrees_per_frame = degrees_per_second / frames_per_second; let angle = 0; let frame = 0; const interval_id = setInterval( () =&gt; { angle += degrees_per_frame; object.rotate( angle ); frame++; if( frame &gt;= num_frames ) { clearInterval( interval_id ); cb(); } }, frame_speed_ms ); } function controlFunc( svg, argslist ){ let args; if( argslist.length &gt; 1 ) { args = argslist.shift(); } else { args = argslist[ 0 ]; } rotateObjectOverTime( svg, args[ 0 ], args[ 1 ], controlFunc.bind( null, svg, argslist ) ); } controlFunc( svg, [ [ 2, 10 ], [ 5, 10 ], [ 10, 10 ], [ 20, 10 ], [ 50, 10 ], [ 90, 1 ] ] );
+Just call it JS or ES \(i.e. ES8\)
+Everything. Ecma International is the standards body that standardised varieties of JavaScript into a single language standard. 
+i pooped my pants
+And by extension Haxe which isn't even a scripting language but still stems from 262 (while deviating slightly ľ
+I’m sure they will try 
+there is only one way. boycott all tech products and apis that use oracle in any fashion.
+Do you guys realize some projects are better with a relational database?
+[removed]
+Unless some undead trademark pops out of TimeWarner or whoever has the Netscape remains in the basement currently. 
+[removed]
+script attirbute text/javascript a tag attribute href: javascript(....) word javascript is builtin everything web 
+62 billion? Must be some damn good lawyers...
+someone tell me it is a joke
+https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.js Add your libraries to the resources on the left of jsfiddle and it seems to be fine.
+No, but your ***face*** is.
+We just released version 0.24 of Uppy! [https://uppy.io/blog/2018/04/0.24/](https://uppy.io/blog/2018/04/0.24/) 🙌
+lol +1.. my face indeed is
+Is this a trimmed down version of hyperapp?
+yeah, but**t** the asshole is a whole part of the ass.
+But that's the thing, it doesn't validate. When I run the site locally and force validation (with console), it comes back as true even if there are only 2 digits or nothing in the text box. Thanks for the link, this was my first time using jsfiddle and I threw it together earlier today. I didn't know where to link the plug-ins at. I've been focusing on just getting the validation working, I haven't even touched the error display.
+I get a popup saying "ok" and then there's an error that nothing was entered. You said it didn't do that.
+I'm not eating that limp biscuit 
+https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js phoneUS comes from another library.
+Yes, this is an extremely trimmed down version of Hyperapp. ultradom.render is like an overly simplified (feature-less) ReacDOM.render, no component lifecycle or SSR hydration. I think it might be fun to pair with something like redux or mobx and see how far it can go. It's like preact meets Matt-Esch/virtual-dom divided by hyperapp haha.
+Get the fuck out. Please! 
+I prefer "JavaScript is to Java as hamster is to ham."
+It's actually already a think. http://jerryscript.net/
+You can look it up on the USPTO website, if you like. It HAS been challenged, multiple times, and upheld.
+More info please. What OS are you using? Browser? Brand of mouse?
+What about *Web Dev Snippet Editor*?
+i was able to right click an article in the read more section and open it in a new tab
+Sorry to confuse. I just mean that if someone types in the prompt a sentence say, or really just a multi-word phrase, would I have to manually put in all combinations with else if statements or something to achieve a proper translation. Right now all it can do is output one word.
+I think it's a perfect name given the current Java-like fragmented and confusing state of the ecosystem.
+[JajaScript](https://vignette.wikia.nocookie.net/starwars/images/d/d2/Jar_Jar_aotc.jpg/revision/latest?cb=20080303052132)
+Hi /u/ThatOnePhotog, For javascript help, please visit /r/LearnJavascript. Thank you!
+&gt; Distribute the app through other channels, see if Oracle comes after you, and when they do, fight it in court. And lose. This is pretty blatant trademark infringement.
+But javascript is the keyword already in the culture, and it's known to even people outside of tech. This feels like a concession.
+heroku might be an option here
+There’s a reason that computer science has the highest dropout rate by major. The field you are venturing into is massive and complex. These are the key ingredients into being overwhelmed and frustrated. The most important concepts to learn as a software engineer are not actually the programming languages. Languages are merely tools. Software is arguably some of the most complicated things that humans have created. Abstracting concepts and narrowing down complex problem spaces into small enough pieces that you can mentally grasp them — that’s the key to programming. And that only comes with experience. Nobody just woke up one day and understood complex software. They struggled just like you are. Piece after piece. One piece at a time makes sense. You’ll learn how to conceptualize and relate things with practice. We’ve all been there. We’ve all been frustrated. We’ve all had self doubt. Just keep doing what you are doing. You don’t just wake up one day as one. You’ll slowly evolve into a Sr Developer. 
+It's not nonsense. You just have to understand the purpose of Trademarks. Trademarks exist to protect consumers from confusion. You can't call your editor for JavaScript "JavaScript editor", any more than you'd be allowed to call your own Reddit client "Reddit App". You can't short-cut the process of building a name and reputation for your product by using someone else's trademarked name. You can use the word JavaScript in the *description* of your application (though you should denote that it's a trademarked name, since you know that it is, now). You just can't use it as the *name* of your product.
+Could be an oncontextmenu event. Also, that page source has a Unicorn in it.
+&gt; guys realize some projects are better off with a relational data Just like everyone here, I'm not going to claim I'm a expert in this topic. However, from my understanding there is always going to be a place for a RDB, but with many options to choose from these days. It's easy to look into alternatives if your data structures are getting complex. Good example would be something like a complex sales table(s). Did I need to do many join conditions to make it work w/ MySQL? Yes. Did caching help speed things up? -- Nope, it needed to be real time data, plus the queries were too large for caching. This is where something like GraphQL maybe a perfect fit in this edge case and simply change the fire hose into GraphQL to deal with, and maybe use MySQL as a archive system.
+You're right, I didn't realize Heroku had its own CLI. I'll try that, thanks
+&gt; Apple either has no understanding of trademark law I bet they do. You, on the other hand, I kind of doubt.
+Windows 7, latest Firefox (although it also hijacks middle-click in Chrome too). Mouse brand is Logitech but that shouldn't matter. Star sign is Sagittarius. 
+I can right-click in Chrome, but middle-click is still hijacked.
+I've already disabled that in Firefox via dom.event.contextmenu.enabled = false. Middle-click is hijacked in Chrome too.
+No, every trademark record is just stored all ALL CAPS. Not sure why - probably there's a 1950s era mainframe involved at some point.
+&gt; https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js &gt; &gt; phoneUS comes from another library. Just in case you didn't see my other reply.
+Seriously, you could just sort by "highest", and scroll to the bottom to see the replies who actually know anything about how Trademarks work.
+yeah oracle is a disease.
+That's not true. Those three groups might call it ES2015 but everybody still goes for ES6.
+Jonahscript
+Not the same, as everyone understands ES6 and ES2015 to be equivalent. But if these three groups decided to change the implementation name from JavaScript to LavaScript, and enforce it in their implementations for the sake of branding, all major library and OSS devs will go with it. 
+Somewhat-related. Apple changed the internal code name of the Power Mac 7100 from "Sagan" to "BHA", when Carl Sagan found out about it, and complained. "BFA" stood for "Butt Head Astronomer". https://en.wikipedia.org/wiki/Power_Macintosh_7100#Codename_lawsuit
+ESLint your code with something standard. Ensure you’ve documented your code to the point where running JSDoc against your repo produces pretty and well-defined documentation. Keep a close eye on your Git Issues page. People may file bugs, but they may just have questions! Clearly define the license under which you intend to release the software. Good luck!
+Well, if you are going to use stolen content - yes it's not legal.
+Callbacks forever ;) Good tutorial, thanks for sharing. 
+But we already have the Node.js framework Mocha.
+I think the problem with anything web is that ES has essentially moved beyond just the web. Electron, mobile, and node all have uses beyond just web apps. I personally like ES since I have grown accustomed to it, but I worry WebScript and it's kin may give the wrong impression.
+We need to get this ratified
+&gt; Then why did you say it was required to have a different promise-result accumulator. Because it is REQUIRED. You yourself wrote it too! You cannot just all() the promises - you have to change them. Which you yourself did. Try doing it with the original promises - it won't work. 
+Without getting too far into the weeds. ECMAScript, ES5, ES6 are slightly different languages commonly referred to as Javascript. It gets worse when you start thinking about all of the various implementations of the ECMAScript standards. But the legal question would be, has it become a [generic term](https://en.wikipedia.org/wiki/List_of_generic_and_genericized_trademarks) at this point. 
+https://theappstore.org/search.php?search=javascript&amp;platform=macSoftware Sounds like bullshit.
+Just checked the API, and for something that billed to be for microcontrollers, it sure is verbose. To get the size of a string "jerry_get_string_size", and yes, the word "jerry" is in every function name for the language.
+this seems to be the same approach as with the phantomjs I cited in the post. I'll probably do that in the near future, thanks.
+Fine jerk. Get help somewhere else.
+I’ll do you one better. I worked for *Mozilla* for five years. I may have heard once upon a time about the Sun trademark/licensing but it’s such a submarine claim that if I had heard, it had completely left my head. 
+I've long been a fan of Underscore over Lodash in one particular area: source code readability. You could do an entire college class just evaluating the source code of Underscore: it's that well written. Meanwhile Lodash looks like it was written in another language and then transpiled into JS (which is ironic since it was Underscore's creator who also made CoffeeScript, not Lodash's). Unfortunately appreciation for good source code is all but gone (the popularity of bundlers like Webpack are a big part of this I think), and Lodash is superior to Underscore in just about every other way. I really couldn't recommend Underscore over Lodash to anyone these days, except maybe in a "getting some weird error you don't understand inside Lodash code? temporarily replace it with Underscore" way ... and even then Lodash has so many more functions than Underscore that won't even work a lot of the time. 
+UglyScript wwwScript CallbackHellScript ===Script :)
+So I should drop lodash now, right?
+1+1=11script
+So, a SQL query tells the DB what data to get but it's up to the DB to figure out the fastest way to actually fetch it. There's a ton of variables involved in this. One table might have indexes on different columns both of which are used in the query and the db has to guess which index to use. Or, say, in some cases when joining two resultsets its faster to fully fetch each half and then join them; but if the first resultset has just three rows and the second has ten million then you definitely don't want to fetch all those ten million rows just to discard most of them, so instead you transform that join into a nested loop. Of course, the DB doesn't know ahead of time how big the resultsets are gonna be so it needs to do some crazy voodoo to predict that. This is a super hard problem that every DB needs to solve and Oracle, Postgres, and SQL Server are all very good at it but Oracle is probably the best. Oracle is particularly good at taking badly written sql (which most sql is) and finding ways to execute it efficiently anyways.
+Worked for PHP! 
+No, it would be named something that gives you 50% irrelevant hits when searching. They would call it fucking "prototype" just to maximize the "fuck you" of it all.
+more easy than you think * https://github.com/sbtn/express-puppeteer-screenshot * https://github.com/matt-mcdaniel/screen-capture-by-url
+Norwegians do.
+Subscribed. Fuck Oracle.
+Using Uppy in production. Keep up the good work 
+I'm sorry but you're wrong. I suggest you do some more research.
+I guess we just have to switch over to webassembly now. shrug();
+\(I am learning the nuances of React\) What's the problem with propTypes?
+I always take the time to make proper CI so I don't have to deal with deployments. I made an app which also works as a website using react Source hosted on gitlab Ci also by gitlab Steps: * install * lint, unit tests, integration tests, E2E tests * deployment (in parallel) * deploy to heroku * build android apk * deploy apk to plag store
+Looking at you, `go`
+Node and electron for two
+What you listed aren't slightly different languages, it's the name of one language standard, and then two versions of it. &gt; But the legal question would be, has it become a generic term at this point. No.
+Can we just drop "Script" from the current name?
+Had a resume come through the other day with a bootcamp on it. It's not something I took as a negative, but during the interview, it did seem like what I was seeing was something I'd expect coming from a bootcamp education rather than practical experience. That's not to say bootcamps are no good. I'd rather see one on the resume than nothing at all. But they can only teach so much. And this particular position demanded more than what the candidate could offer despite having attended the bootcamp.
+That what be nice. We *could* just go with Node. 
+No. Only two things matter: 1. Personality 2. Skill How you got that skill is really irrelevant. Bootcamp is ok. University is ok. Watching tutorials is ok. Reading a book is ok. Trading your soul to Lord Satan for advanced knowledge of JS patterns is also ok. Neither is better than the rest.
+Hmm... It seems like we still might not have enough information exactly. How many buttons does the mouse have (full product would be ideal), which security updates have you installed, what's your social security number, and what's your mom's dad's last name? 
+Maybe if you are applying for an intern or junior role.
+That's great to hear, and thanks! If you don't mind disclosing, please leave a note here: https://github.com/transloadit/uppy/issues/769
+Sorry, atheist here. You may wanna ask one of our religious brethren.
+he means its simple and doesn't require mentioning
+When Brenden Eich invented Javascript, he was told to make it look like Java. He said he made it like C. ECMA script is horrible. How about just calling it CScript?
+This depends 100% on the site you're scraping and the content. Take JS out of the equation. If you manually copied and pasted this stuff from the website, would it be legal? That answer is identical. 
+Ah, I think that article's written for people like me.
+Why? If its publicly available information? 
+What a shame...
+Well yeah, if they didn't then another entity could
+They got something against birds?
+Why would you? Is there a technical reason to move to underscore? You should be pragmatic when choosing the right library for your scenario.
+I am so in for this!
+It’s a porn site 
+Content being publicly available is not a license to re-publish said content.
+That's not very good code. Why use a method that returns a collection if you're only going to select the first element in the collection? Use `querySelector` instead. Relying on a repeated `while... for.. break`is a pretty confusing pattern - so much block-impurity. It would be far clearer and easier to write using array methods and an ordinary `sort` function. I'd remove all `tr`s (except the top) from the table and put them in an array. `sort()` the array as desired, and then append each element in the array to the table again. const getText = tr =&gt; tr.children[0].children[0].value.toLowerCase(); trs.sort((trA, trB) =&gt; getText(trB) - getText(trA));
+Phew easy, that's obviously 666-666-666, ask for Stan.
+It should be called something like "React Basics". The current title implies it's for people who've been writing React already.
+I hadn't seen the Lodash code in several years, but assumed that it was still just as bad. Wow, was I wrong! Thanks for getting me to go see what they've done, I'm really impressed by it.
+Since Node &lt;10 doesn't know how to deal with ES modules, you need to transpile if *any* JS being executed is in ES modules (including dependencies). This leaves you with three options: - write everything in CommonJS and only use CommonJS packages; - use whatever module system you want and transpile to CommonJS; or - use something like [esm](https://www.npmjs.com/package/esm) to use ES modules without transpiling. esm is nice for libraries because you get all the benefits of ES modules in runtimes that fully support it, but you can develop using ES modules without needing to transpile the library before packaging it. 
+If all you got is a bootcamp, no CS degree, and no experience, into the trash it goes
+Call it LiveScript or ECMAScript. If anything it'll stop non-tech people thinking Java and JavaScript are one and the same.
+WebScript makes logical sense and it's just as trim as JavaScript. I don't mind it.
+In all seriousness, doesn't that make it more or less impossible to break into the industry without a degree? Or do you count non-professional projects as "experience"?
+Agreed. You’ll have to do this anyways if your data gets too big and have to page or lazy load it
+Looks like an ad unit, so the ad would be responsible for this, not Time
+ScriptScript
+I like this
+I vote for WebmasterScript
+[removed]
+What about C+-? It's like C but better in some ways and worse in others. Or maybe C~ pronounced "C meh"? Or can we have a cool language name like the old days and call it JOL-18 or something "Java-ish Online Language 2018".
+DoWhateverYouWantButYouHaveToMaintainItScript
+why not UberScript
+Sue everyone angel
+if you're "finding" code rather than writing code why not use a tried and true library, like datatables. datatables is made for this exact purpose. 
+SScript
+UltraScript
+Can GraphQL with Apollo replace Redux state Middleware operation? I don't wanna handle Redux anymore
+Be as stateless as possible 
+Can we just call it JS?
+Cream
+&gt; This Standard defines the ECMAScript 2017 general-purpose programming language. Is this supposed to explain that ECMAScript is not a programming language? I'm not following. &gt; you can't go and write V8 code, for example. That's true, but that is because I don't know of any V8 specific language features, so let's write some SpiderMonkey code instead: let xs = [for (x of y) x*x]; This runs in FF52, but this syntax does not exist any other ES dialect.
+I'd probably pronounce C~ as "C-ish". Or maybe we could just have one of those cool single letter names: J
+If we don't call it JavaScript where are we going to find another free litmus test for people who don't know what they're talking about?
+Is there a viable non hack extract text plug-in yet?
+EcmaEcmaScriptScript
+J is already taken, unfortunately. Otherwise yeah that would be cool. J is an FP/math lang from the 90s, maybe a bit like modern day R? (I am guessing from my very limited understanding of both languages)
+LudicrousScript
+I think J is already a thing. 
+IstillWrite1990'sJavaScript
+I don't think that this is Time.com implementing this, but the ad network that owns those ads. A lot of ad's do shady things like this, and it's horrible for UX, but they don't care... They're just trying to maximize clicks to those articles.
+By any chance are you on a Lenovo laptop that has had drivers updated recently? One of the Lenovo updates completely borked the touchpad (and related left/middle/right) click buttons. The update only borks it for Windows 7, Windows 10 is fine. If this is the case you’ll note the sensitivity has gone nuts too, moving the cursor randomly when you type.
+ok.. there are lots of WTFs in this one, everyone should be able to find *something* to bitch about. specifically, if anyone has advice on how I might implement joins I'm most interested in that.. so far I think I'll end up doing something like creating a temporary table in memory and using that to select from. https://github.com/Pamblam/jSQL/blob/master/README.md
+What about Node.js though?
+ClosedScript? 
+YESSSSSS!!!!!
+I like this
+this
+Not Java... Script
+I wanna get youth involved with programming so maybe something like DopeScript. Or DankScript. Or Dope&amp;DankScript
+SteebeeWeebeeScript
+Yeah, that's what it is in the logo :)
+I'm a front-end Script developer
+It's still just too slow on Hyper-V. Our Server 2008 VMs run circles around it.
+ultradom has both SSR hydration and lifecycle events. It's right there on the page you linked.
+sadtrombone.mp3
+OmegaScript
+Udemy.com courses are my favs. But javascript is a huge field, so you'll have to do a bit of reading to figure out what you're looking for, exactly.
+Call it JS or ES I say
+It is annoying when people think Java and Javascript are the same. We should change the name to RubyScript, PythonScript, or C++Script so that people stop making this mistake.
+JorbScript?
+;)
+Maybe this sub should be shut down and redirect to /r/ecmacript then. Not joking
+The first bullet of the article is a little misleading - oracle is not suing because of any relationship with “Java” - they own the trademark to “JavaScript” Still though...what a bag of dicks. 
+I'm fine with calling it ECMAscript. If people don't know what that is, I'll be able to weed the real js developers from the crappy ones super easily. 
+KFC doesn't stand for anything anymore (officially), it's just KFC
+They're not preventing the default event and then opening the URL in the current window?
+&gt; Call it LiveScript or ECMAScript. If anything it'll stop non-tech people thinking Java and JavaScript are one and the same. The file extension is **.js**. The MIME type is **application/javascript**. We can call it anything, but when "JavaScript" / "JS" is constantly in our face, don't expect it to go away soon.
+Lets replace everything everywhere with EcmaScript! Lets start a movement! 
+esQuery, AngularES, RxES... This aint no joke! 
+/r/ECMAScript 
+Here's a sneak peek of /r/ECMAScript using the [top posts](https://np.reddit.com/r/ECMAScript/top/?sort=top&amp;t=year) of the year! \#1: [ECMAScript - Object Rest/Spread Properties in ES2018 (ES9)](http://nitayneeman.com/posts/object-rest-and-spread-properties-in-ecmascript-2018/) | [0 comments](https://np.reddit.com/r/ECMAScript/comments/83g331/ecmascript_object_restspread_properties_in_es2018/) \#2: [ECMAScript - A Taste From ES2018 (ES9)](http://nitayneeman.com/posts/a-taste-from-ecmascript-2018/) | [0 comments](https://np.reddit.com/r/ECMAScript/comments/7t5xw5/ecmascript_a_taste_from_es2018_es9/) \#3: [ImageNow Consulting Services - Shamrock Solutions LLC](https://shamrocksolutionsllc.com/partner/) | [0 comments](https://np.reddit.com/r/ECMAScript/comments/75zt7q/imagenow_consulting_services_shamrock_solutions/) ---- ^^I'm ^^a ^^bot, ^^beep ^^boop ^^| ^^Downvote ^^to ^^remove ^^| [^^Contact ^^me](https://www.reddit.com/message/compose/?to=sneakpeekbot) ^^| [^^Info](https://np.reddit.com/r/sneakpeekbot/) ^^| [^^Opt-out](https://np.reddit.com/r/sneakpeekbot/comments/7o7jnj/blacklist/)
+Yeah it's a shit article.
+I took the “complete JavaScript training” and it was awesome. It starts with ES5 and ends with ES6. You also learn by building a couple toy apps.
+j# was a microsoft thing so they might own that. dont know
+I think this is much ado about nothing. You can't sell an app on Apple's App Store with the word JavaScript in the app name. Is that so bad? Oracle owns the trademark on the word JavaScript. They have tried to give it away in the past, but it didn't happen. I doubt any recent move by Oracle is behind this. For some reason, Apple has recently decided to enforce that trademark. Most likely Apple put a new rule on apps they sell in their app store saying that an app name cannot contain a trademarked word. And somewhere the Apple App Store has a list of trademarked words and phrases. All we have to do is nicely ask the Apple App Store to take JavaScript off their list. Problem solved. Even if they don't... were you really planning to sell an app on Apple's App Store with the word JavaScript in the app title? No? Then this is not stopping you from from doing anything else.
+Not really. I don't really think a Bootcamp can teach you how to really code - that takes time and experience, it's not something you can shortcut. At best it's a primer to start learning. That doesn't mean I'd reject somebody because they went to a Bootcamp - it's likely to make no difference whatsoever. For an entry level position I'm going to focus on your personality and whether I think you're a self learner with good problem solving skills, and I'm probably going to get that mostly by sitting down and chatting with you over coffee. 
+ohh poor Angular boy
+asking the tough questions
+or DabScript
+But it's also nothing like C lol. I feel like Java is more similar to JavaScript than C is
+I disagree. But both Java and JS are widely considered to be C-style languages.
+how about AmazonScript (but it has nothing to do with Amazon).
+But AngularJS is no longer in development. Should we really apply this retroactively?
+Change the name of java. Seems to less used. 
+They're fucked
+Looks like they’ll have to discontinue it due to that naming problem. What a shame. 
+To keep the initials, and pay homage to the early internet, I propose JeevesScript.
+http://www.lmgtfy.com/?q=Javascript+promise
+compu-hyper-mega-globalnet-script
+ Check out https://www.apollographql.com/docs/react/essentials/local-state.html
+Could be changed to JScript
+let Oracle have it?
+Yah but it seems not much people need this 😂 Expanding this is simple, only need a stable api and adjust some layout.
+🅱Script
+Fair enough, but that wasn't a dig at Windows, it was a dig at Oracle. The tool I'm using looks like something from the Lotus Notes era. I'm far from a Mac fanboy. My employer just handed me one the day I started instead of offering me the choice, because I mentioned in my interview that I had used one (with a windows &amp; ubuntu installed on it, and no MacOS) at a previous job and was comfortable doing my interview "white boarding" on the one they had brought. For some reason the whole department used to run Windows machines (Thinkpads) and then the managing engineer decided everybody new would get Mac while they were quadrupling the size of the department. 
+The first code snippet seems to be mis-copied - the `instance` argument is never being used.
+Fair enough, but that wasn't a dig at Windows, it was a dig at Oracle. The tool I'm using looks like something from the Vista Era. Which granted, wasn't THAT long ago... I'm far from a Mac fanboy. My employer just handed me one the day I started instead of offering me the choice, because I mentioned in my interview that I had used one (with a windows / ubuntu dual boot, and no MacOS) at a previous job and was comfortable doing my interview "white boarding" on the one they had brought. For some reason the whole department used to run Windows machines (Thinkpads) and then the managing engineer decided everybody new would get Mac while they were quadrupling the size of the department. If we had some sort of open source / Linux stack, I'd be over-joyed, is what I'm used to.
+That's what caused the initial shift from underscore to lodash, the maintainer did not follow semver.
+The most important thing is experience. The bootcamp only people we've tried in the past all ended up having no idea how to develop anything. They had memorized the syntax of a language but had no concept of algorithms, patterns, or any debug skills. To be honest some CS folks lack that too, but they tend to be better than bootcamp only. End result is experience becomes the all important proof you can actually do the job. And businesses want someone who can do the job. They're not typically looking to be a charity and train people from the ground up. I did work for a large company in the past that always made a practice to hire one guy per year that had no experience, just so they could help someone get a start. But with smaller companies, they just can't afford to have someone on the team that is basically useless for the first couple years. What I always recommend to young folks that want to get a start is to join a co-op program while at university for real experience. Where they send you to a real company to work as an intern. Or otherwise join any well known open source project, which also looks great on a CV. But anyone with real world experience that proves they can do the job is going to go to the top of the pile.
+https://media.giphy.com/media/pDsCoECKh1Pa/giphy.gif
+I agree that this is just nonsense to care about. It is a trademarked word. Trademark law says you can’t use it in a manner that may be confusing. It’s as simple as not using it. Call it JS and everything is fine. 
+Yes, it can be aliased, however the new static lifecycle methods introduced in 16.3 have not yet made it into DIO.
+Oh they have to do that too. The paper just gets you the initial interview. Then there are 2 phone interviews. And finally they have to come in and get through the normal in person interview process, which includes a 3 man technical interview for 2 hours. Also as a couple other tips: When they take you to lunch, that's not lunch, its part of the interview. They want to see how you interact or if you'll say or do anything off color. And in many tech interviews they'll purposely try to piss you off at some point. One of them will tell you something you said was stupid or something. That's to see how you respond. If you stay calm and just admit you don't know or maybe you were wrong, you pass. If you get upset in any way, you've just failed the interview.
+https://github.com/workshopper/learnyounode
+That’s a good idea, let’s up-end the entire internet. 
+A name change won't up-end the entire internet and you know it 😒
+Oh ... :(
+&gt; it did seem like what I was seeing was something I'd expect coming from a bootcamp education rather than practical experience. can you elaborate on that at all?
+LeanScript
+/r/GateKeeping
+https://zeit.co/now is pretty simple too. Just point at a directory and go. I've been using heroku again lately and love the fact that you can upload docker images to them. That means you can test it locally and deploy the same image.
+The article seems to conflate the very different issues of trademarks and software patents also. 
+Yes. If you are making an app for Apple's App Store, and you simply must refer to JavaScript in the name of your app, use JS in the name of your app instead.
+Which they don't own btw.
+FetchScript? YOLOScript?
+Some questions I asked were answered in a textbook fashion but there was trouble with coding challenges. The understanding was there, but there were problems in the application of that knowledge - the difference of knowing and doing.
+Based on my experience (I used to work on WebKit and javascriptcore) they’ve added a mouse down handler, and are then essentially logging the link you followed (“analytics”). Changing the window location happens synchronously. They then disabled default handling and bubbling of the event so there isn’t any weird resource load insanity (eg if they mutate the link and load via a redirector they don’t want to do a double resource load) Behavior is insanely stupid and user hostile, but since when did that matter? :-/
+So it looks like you are saying to call it simply "JS" 🙂. Genius. Kinda like C, but with two letters...
+jScript it is...
+We should just call it "JS", then, which was the best idea I saw in the previous thread (since ECMAScript, JavaScript, and LiveScript *do* have some functional differences). It's not like there isn't precedent for calling a language just by a letter or two. The MIME type can just, uh, catch up eventually.
+Microsoft [had already used that one](https://en.wikipedia.org/wiki/JScript) for their own implementation of ECMAScript. It doesn't seem to be incredibly active anymore, but I imagine the 15-odd years in which it was wouldn't help.
+HyperScript! ...wait...
+But the coffee icon
+i would’ve been such an ass to them, what a waste of time! haha
+HighScript
+who doesn’t call it ES6/7 anyway when being specific? seems like a non problem, from people with too much time on their hands
+The best solution is always in the comments
+Microsoft briefly had a J#, but I vote for J♭
+Call it GoScript or RustScript. Same free litmus test.
+JS isn’t trademarked
+TrillScript
+Wow.
+Tell rebl_, not me
+k
+I mean similarity is subjective. But if you think JS should be called something similar to C because it's C-style, then do you think we should change the name of Java too?
+No we should just delete Java forever and pretend it never happened. Cover that shit up forever
+We should change Javascripts name to Promise. Should resolve the issue while orcle spends them catching all those developers trying to rip them off.
+joe-lang
+Microsoft already has an implementation of **[ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)** called JScript: &gt; JavaScript has remained the best-known implementation of ECMAScript since the standard was first published, with other well-known implementations including [JScript](https://en.wikipedia.org/wiki/JScript) and [ActionScript](https://en.wikipedia.org/wiki/ActionScript). 
+Yeah I was thinking the same thing. This looks just like hyperapp.
+ let Oracle = haveIt()
+C#Script as it shares as much in common with C# as it does Java. 
+Give it time. ECMAScript is still evolving into its true form. A write once debug everywhere typed language with support for enterprise design patterns, dependency injection, interfaces, classes and remote procedure calls. Looks at Typescript, applications frameworks and GRPC. And your fragile, multistage, house of cards development pipeline consisting on hundreds of ~~java classes~~npm modules. No this is nothing like Java and its ecosystem /s 
+That's it with javascript for me.
+Lets make the Whois service illegal for starters. 
+can you just write in the description of your app that this app is in no way, shape or form related to Oracle? Another possible solution is to change the name of the app to {{DeveloperName}}'s Html, css, javascript snippet editor That will show that your app clearly doesn't belong to Oracle. I worked on a game called Rowan's Battle of Britain. I believe they had to name it that for legal reasons because there is a film called Battle of Britain. They needed to distinguish it from the rest. You should consult a lawyer.
+But, with wasm and classes, JavaScript is now a class based language with a compiled byte code. Isn’t that just like java?
+I haven't used it since version 1.x but I believe Angular is now built on Typescript courtesy of Microsoft Corporation "your friendly open source pals" who have expertise at embracing and extending including inventing their own ~~Java~~languages totally unrelated to Java such as the totally original c# which may have inspired some of the totally original things in Typescript. I am going through a Typescript phase (not sure if sick or evolving to a higher form) and it is a bit reassuring to see a lack of IP claims on the name or language. Everyone just use typescript which is backward compatibl-ish. Get the ts compiler to emit a bundle without a language extension. Browsers shouldn't be sniffing extensions anyway. That is what content types are for. As long as you are sending an "application/javascriptARegisteredTrademarkOfOracleCorporation" content-type header you will be fine.
+I could see how, given the example in the link, suppose you went back 10 years with tweets from trump and kardashian, maybe they had a different writing style back then that would actually throw off the result. 
+can you give an example? For me this is the easiest implementation I have seen, it almost looks too easy to function properly. What would be your easier way? 
+Bitscript, hello-world.bs?
+it did seem like overnight every web host that I use switched from mysql to mariadb. at the time, i didn't understand why. Oracle seems to be ruining everything. 
+Call it JustScript so the .js doesn't need to be changed
+NodeScript
+This is not how you define a class or constructor function.
+Thanks for the encouraging words, I knew going in I didn't pick the easiest field by any means. I get frustrated but the frustration makes me more curious. Which leads me to believe I've found something I thoroughly enjoy even if it gets me upset. Not letting this one get out of my grasp.
+or use emoji!
+I'd rather have poor grammar than poor logic. &gt; doing (1) requires a different promise-result accumulator than .all &gt; did (1) using .all ...
+Whoops, should have camelCased it. Fixed.
+well, that depends on the node project, my guess is the majority of node projects are related to the web in some way. And WebScript could be used to describe ECMAscript + browser APIs.
+I did keep lifecycle events, those are too useful for so many things, but SSR recycling was removed and it's not available anymore (it could be almost completely implemented in userland by saving the first virtual node in the DOM element that will be patched). Also the ability to target specific DOM nodes, lazy components, resolveNode, custom event proxy, ..., are not available either. I could make it even simpler by dropping IE9 support. 
+Just because you can distinguish between people who know their shit and people who don't doesn't mean you are unwilling to help the people who don't know jack about shit to shovel through the pile that is javascript.
+Frontend: Angular/Vue/React (React is technically a library not framework), Backend: Express 
+The only way to fight this company is to get another database to rely on. As long as they can keep extorting money from their "customers" they will use that capital to sue everyone who uses their products or their product names. J was open source. JS was too. Will they sue Starbucks, Dunken Donuts, Maxwell House, and Folgers next for selling coffee? Will they go after Coffeescript because it is kin to the J word? This week is the first I heard of this company staking claim to JS, but I am not surprised. Between the DB world, J in android, and JS everywhere in the web this company has a huge footprint. It is a shame that their lasting mark in history will be the tech company that sued everyone. I like their db. I am committed to moving off their db. I can't associate with people who behave like this. As more leave they will squeeze their remaining "clients" harder, and sue more people. So long and thanks for all the heartburn.
+DankScript
+Claiming that an app named "HTML5, CSS, JavaScript, HTML, Snippet Editor" is likely to be mistaken as one licensed by Oracle. A similar story would be a very hard one to believe if it was any other top software/web company but Oracle. 
+Eich
+Call it JS. Simple, already in use, recognizable, and no trademark. 
+**Note** that this is behind Medium's annoy-people-in-the-hope-they'll-paywall, and so the usual Medium features like highlighting and commenting are disabled unless you're a logged-in and paid-up Medium member. If not, you get a whole 3 articles a month before the 4th gets chopped off with a snide "You like to read. We like that. Now pay us." ad. I was thinking a year ago about moving my tech blog to Medium because a lot of great writers were there. A lot of them have left with the new system, and I'm glad I never got around to it.
+EkmaScript
+Ill stop calling it javascript as soon as employers stop asking for it
++1
+Yeah, we need to rename JavaScript yo something else that's not trademarked and less confusing. However the term JS has already been in use in lots of projects like NodeJS, Vue.JS etc. and it can't be expected for all of them to change their name overnight. So the best option seems to be to change the name while keeping the initials. We can keep the "script" part, so which word do we use for the initial "J"? We can some up with something clever but it seems unnecessary and would take some time to get popularized or maybe never will be and people will keep using the term JavaScript unofficially. Therefore I propose the name **JS script**. It keeps the initial and doesn't do anything clever. Just like the acronym PHP. It's not trademarked and none of the SomethingJS projects would have to change their names.
+**Java**script. Same argument could be made, yet here we are.
+I think it should be called gasStationCoffeeScript.
+https://github.com/getify/You-Dont-Know-JS
+How about we just continue to call it what it is now: [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript)
+Let's start easy, less complicated then Angular or React... https://vuejs.org * https://nuxtjs.org 
+I wish people would stop trying to make ECMAScript into Java...
+JizzyScrizzy
+BatShitScript?
+The "S" in JS, paired with "script", is redundant. Trademarking a programming language's name won't make it dead. Fear of Oracle's ownership of MySQL signalled the birth of MariaDB. The same, if there is any cause for concern, will happen here. Do you really think Joyent, Samsung, Microsoft, Google or Mozilla would simply allow Oracle to rattle its chains and cause worldwide strife among JavaScript developers? I shit thee nay, it will never happen.
+LiveScript was JS's original name, prior to there being a trademark agreement with Sun. That LiveScript, unsurprisingly for a language that compiles to JS, is much newer.
+Nope, it's actually `Fuck-OracleS-cript`
+Those are literally your goal posts. ;P
+Dogescript
+WebScript!
+Write me a closure.
+You know those jokes with C because it sounds like "_See_" ? Like the famous " Java developers can't _see sharp_ ". Now imagine telling someone you your project is done in "_Jay Ass_". &amp;nbsp; Jokes aside, I doubt the name is changing over this, or that Oracle is even going to be successful in suing anyone. But _if_ it had to change, I'd still pick Js
+Funny to hear that in JS sub, lol.
+Ahem. https://en.m.wikipedia.org/wiki/Oracle_America,_Inc._v._Google,_Inc.
+WebScript or AsyncScript are easier to say + have semantic meaning; shit even call it JasyncScript / JasynchronousScript so we can still say JS.
+JasyncScript / JasynchronousScript so we can still say JS.
+That analogy doesn't quite hold up, as it never had anything to do with Java other than being in the same kinda-related family of C-style languages. The name Javascript was a marketing ploy. The history of the language is actually really interesting and it was never intended to be called Javascript. Regardless, many of us are, by virtue of the fact we are in the /r/javascript subreddit, engineers or programmers. We don't need a marketing ploy as a language name, we need a good name that isn't copyrighted and conveys what the language is. I personally wouldn't mind a switch to JS, where the acronym means nothing. We get to keep the extension, most tutorials will be searchable just fine, and we can all move on. But let's call a spade a spade: No real decision is being made in this thread, just a bunch of geeks talking about what we would do.
+R.I.P. in peace this idea.
+I use JS script to design ATM machines that show your PIN number on an LCD display
+Why?
+How much time did you spent building this? Seriously, this is sick.
+Let’s call it OraccleScript and laugh at Oracle when they say something about the name &gt;:)
+didn't exist 
+I spoke with my ex-girlfriend and we both realized that we didn't have feelings for each other anymore and we were both ok with it and wished each other the best. 
+As an homage to Homer J Simpson i say we call it JayScript, shortened to JS
+JabbaScript?
+AlGoreScript
+Ultradom will turn your virtual DOM into a new DOM without recycling. Even if the HTML sent by the server and the initial virtual DOM are the same, you'll end up with a dead duplicate. Ultradom would need to traverse the server-side rendered content to create a virtual DOM, then use it on the first patch to recycle elements (like Hyperapp does). 
+Break things into more discrete functions that do simpler things. Bonus points if you document what it does. This also makes your code more testable. Also read up on how to handle asynchronous code using something like promises.
+Javascript is still not class based. There are no classes in java. `class` is a protected word for some syntactic sugar that sets up a closure that kinda acts similar to what the OOP people would recognize as a class, but it is not the same thing, and really just serves as a crutch to those who don't feel like they need to learn the prototyping system for whatever reason. 
+Js doesn't need to be either Asynchronous nor web centered. I've written JS scripts as command-line programs before, and it's a rather fun way to make something like that. 
+C#Script
+I failed the litmus test, what are you talking about?
+new keyword is missing. This isn't a cobstructor
+JS is lisp in C drag. It's not *really* a C style language, it's a functional language that borrowed some C syntax. 
+it goes into LTS after 1.7
+I just meant the old bit where people think Java and JavaScript have something to do with each other. Tongue in cheek though, I'm not even really sure that's a thing any more. Just an old joke now.
+&gt; "Later, in an effort to cash in on the popularity of Java, the language is renamed JavaScript. Later still, in an effort to cash in on the popularity of skin diseases the language is renamed ECMAScript." -James Iry ECMAScript is a bad name.
+Could start by changing the logo of this subreddit. 
+ZavaScript
+Well at least it started out asynchronous and on thr web; and that's why it is what it is today. I just think ECMAScript sounds shit, and would prefer to continue saying JS.
+They can keep the logo the same, if they change the name to HotChocolate.
+Dude, if all JavaScript had to be converted to ClojureScript overnight I think the Internet would be a much better place. 
+Might be too similar to JScript (owned by Microsoft).
+This can be tricky because I absolutely hate the name "javascript" considering it is nothing like "java" but at the same time, I also hate the idea of Oracle trying to control something that shouldn't be theirs. My ideal scenario would be taking back the javascript name for the people then on our own replace it with a better name - but we could still use javascript if we need to (especially when referencing legacy work).
+Medium is getting pretty darn annoying. I'm starting to actively avoid it when I see the domain in URLs I would otherwise click on. What happened to self-publishing blogs? It's so easy with static site generators, and also extraordinarily cheap with services like AWS S3.
+How about "the script formerly known as java"? Then it will be both a litmus test for js knowledge AND age.
+Also: Write good docs for your code please.
+nerd voice why not call it jabbascript
+Hyperapp solves this by checking if the element we're about to patch was created by Hyperapp or not. If it wasn't, then it knows this is the first patch, so it recycles the DOM tree to create a virtual node the algorithm can diff to recycle actual DOM nodes. It's a bit more complicated than that, e.g., we need to be aware of whether we're recycling or not in order to fire the correct lifecycle event during the initial patch. 
+Thanks a lot !!it was really helpful
+We're just waiting for it to come around, is what we're doing.
+How do you define "good docs"? 
+I myself am partial to ScriptyScript.
+Hey, kevinvz, just a quick heads-up: **curiousity** is actually spelled **curiosity**. You can remember it by **-os- in the middle**. Have a nice day! ^^^^The ^^^^parent ^^^^commenter ^^^^can ^^^^reply ^^^^with ^^^^'delete' ^^^^to ^^^^delete ^^^^this ^^^^comment.
+They contradict theirself within the article. They claim the developer received a cease and desist letter from Oracle while the letter is clearly from Apple, notifying the developer that Oracle might take issue with the name. Also, ironically, the article showed me an job ad as a Java Developer :).
+Joins shouldn't be hard to implement, but it's going to be cumbersome. Create a method called something like `selectJoin()` and make it accept an array of objects as a parameter. Each object will consist of two tables, the two fields you're joining them on, and what kind of join it is. The thing is, you'll have to iterate over each member of the array and construct your complete SQL syntax only when it's done. It's going to be a big mess. But it is doable.
+scripty mc script face?
+Sorry, poor choice of word. I guess I just meant, write complete docs. When I am interviewing candidate and see their GitHub profiles, I look for projects with plenty of documentation.
+Hear hear
+I've been doing web dev for quite some time, and initially, no web dev really knew the language by another name than JS. This awareness in the community of JS being an implementation of ES is a relatively new thing. So it might be the change you're hoping for is already happening on its own, albeit slowly.
+Believe me, this is still a thing ! Especially among HR / Recruiters. 
+ JSuper JamochaSith
+I was not expecting that when I opened my inbox. Like holy shit. My sides. 
+Gotcha. What I wanted to know is what you consider to be "complete docs"? I've heard different opinions on this.
+Imagine thinking it's a good idea to stop using the name JavaScript everywhere just to please the Oracle overlords.
+ECMAScript is a terrible name! Maybe we need some contest to find a good name. But it would be hard due to trademark issues as we've just seen with the new name for Java EE (now Jakarta EE).
+As someone who's currently learning Front-End Dev and will be applying for jobs in the near future I'm interested to learn more about this. Any advice on what is a good test and how to write one? Also what parts need testing and why do they need it?
+GigaScript
+I agree, JS is a great name!
+Oh boy VanillaScript!
+BlockChainScript ?
+3 or 4 years ago an IT manager in my company asked which language I used for what I was demoing, he was wondering if it was "Eclipse".
+What is medium exactly? I didn't hear about them until this month and now I'm seeing them everywhere
+it's another way to do IIFE (Immediately Invoked Function Expression) usually it's enclosed between parenthesis, but it also works with other operators such as the plus or minus sign (function() { console.log('yay'); }()); ~function() { console.log('yay'); }() +function() { console.log('yay'); }() -function() { console.log('yay'); }() 
+Don’t mess with Disney. Oracle will seem like child’s play. 
+Be that as it may, JavaScript and LiveScript now refer to two distinctly different languages, so unless we're going to start calling one of them "LiveScript (no not that one)" I think it's best if LiveScript gets to stay LiveScript and JavaScript gets called something else.
+Working on [ip-num](https://github.com/ip-num/ip-num)
+Thanks bot :)
+As someone mentioned in the other thread... why not just call it "JS"? It solves the main two issues: * oracle * "it's not like java" ...and we don't even really have to rename it at all. It's basically already called that. And hey, even the filename ext is the whole name of the language in only two letters. Problem solved without even really changing anything all.
+HassleScript
+As a person that likes to use search engines efficiently, not a good name. Still better than "go" though. "JS" solves the main problems and doesn't even require renaming it.
+JS, pronounced "Jesus".
+Isn't there any places that collects money to help with paying lawyer fees for things like this? If we all chipped in we might be able to force Oracle to let go of the name JavaScript since the term is used on many other places. Just an idea, IANAL. 
+Thanks for the advice but I want to get a book in my native language since I find that i don't understand some things in English. I'd really like to understand things first. Was just asking because 2001 was quite a long time ago and I don't know how much syntax changed in that time. 
+ECMA Standards are just that, standards. When you write JavaScript, you are writing a language that follows those standards. ES6 is just a version of those standards that JavaScript (and its engine implementers) *try* to adhere to. You can write *ES6 standard JavaScript*, but you can't write ES6
+There is no big secret, I was just enjoying working on it and discovering new things. 
+If you may, how to know if its legal/illegal bcz I have seen many sites scrape all data from sites &amp; make their own site. For example, https://hackernewsbooks.com &amp; https://redditreads.com &amp; these are just few of many examples. Told you about HN &amp; Reddit bcz they are pretty big sites. That's why I want to ask how to know if I can scrape a website?
+https://www.reddit.com/r/javascript/comments/8clxia/explaining_asyncawait_creating_dummy_promises/dxl3h2x/
+No not manually copy-paste the same thing. I don't like 2 websites with same content either even if the design or CSS is different. But I don't understand there are many websites out there that are made on Scraped Content from other sites. For example, https://hackernewsbooks.com &amp; https://redditreads.com. What about them?
+They aren’t scraping content and using it as their own. They are taking links to Amazon, which isn’t illegal. They are also linking to original content threads. The best way to know if you’re free to use content is to ask the content owners, if they don’t have a defined terms of service/license. 
+It has changed quite a bit. If you want basic JavaScript knowledge it should be ok, but probably not for API usage. Check out github.com/getify/you-dont-know-js to read it for free. Maybe there's also a translation for your language
+Yeesh. I was starting to like medium until recently I hit that pay wall too. Guess I'll be moving on... 
+[Microsoft](https://en.wikipedia.org/wiki/JScript) beat you to that idea by a few decades.
+A book on any Web technology from 2001 is going to be basically useless today, if not actively harmful. The Web has changed far too much in that timeframe. Now, if this book covers _only_ core JavaScript and doesn't go into DOM manipulation or touch browsers at all, it could still be somewhat useful for getting a grasp on the language itself. You'll still have to catch up on everything that's changed in the past 17 years afterwards, though. 
+Wikipedia - Web scraping - Legal issues https://en.wikipedia.org/wiki/Web_scraping#Legal_issues
+&gt; Jay Ass I do it all the time. I only wish if other technologies I use had slightly inappropriate pronunciations. 
+Thats ScriptyMcScriptFace to you!
+Well it depends. It is difficult to give an overall assessment. Some sites do not prohibit the use of their content, for example through api. It depends on licensing, TOS, robots.txt etc.
+This happened to me last week by a HR-person of quite a big tech company. ”Oh, you know java”. I got so confused I didn’t get a word out from my mouth.
+Scripty McScriptface
+Pronounced the Mexican way!
+socialist. /s
+Like the prom?
+Update: Well it seems if I go to Medium and then click through some articles there, I DO get a message after 3 articles that stops me reading more, but if I come back to reddit and select and article on Medium posted there I get a different pop up which says something like "Hey, you've read a few articles want to sign up?" If I dismiss that one I can read on. Works for me, I only read the articles linked from here anyway. It seems to be a bit of a dumping ground when I dug around the other non-Tech areas. Original message: I get that message, but after I dismiss it I can read on. I'm not signing up though, I only end up there because of all the articles posted here. Some like this are great, others are so bad they should pay me to read them.
+I bet there will be a Webpack module for transforming new es files into js files for browser support
+Relevant quote: https://i.imgur.com/TUu5ZIB.png
+Isn’t JavaScript just one possible implementation of ECMAScript? There could be others. In other words, JavaScript !== ECMAScript.
+I'm going to replace all "javascript" in my projects and codes by ECMAScript. 
+What about semantic ui, is it good?
+JuiceScript. JayScript. JustScipt. I really like JuiceScript.
+Component lifecycle is not element-level lifecycle events. The first one is like React component lifecycle events `componentDidUpdate`, etc. The other refers to ultraDOM/Hyperapp lifecycle events. SSR is definitely not on the page. It was an honest mistake, what's striking is your comment being upvoted lol.
+Spain are going to make billions off their domain extension.
+ThanoScript
+Javascript is confusing to Java? So should Appletini be confused with Apple? 
+Please, PLEASE let it be this
+JustCallItScript, JustUseItScript. It will still be our old familiar JS and *.js. NO changes, NO harm feelings.
+Call it ioScript just because it's cool. File extensions: `file.is` Then we have TypeScript on top of it if we want to: File extensions: `file.tis` And for TypeScript + unit tests: File extensions: `file.un.tis` And then we'd need a Bloodhound Gang library somewhere.
+&gt; 60000 + math.random()*120000); // Time to wait after one follow cycle in miliseconds, 60000 = 1 minute I get &gt;VM24212:10 Uncaught ReferenceError: math is not defined at &lt;anonymous&gt;:10:12
+JohannSebastianScript
+YMCAScript Far more memorable
+Don't do this. Don't stop and ask, "Am I doing this right?" Just try it. If it fails, or it seems too hard, then stop and show people what you have and ask how to fix it. From where you sit, I could answer anything from "Go for it" to "that would never be maintainable and I'd chew you a new one for doing it at my job". But you're learning, and it's *much, much better* to just continue and make your mistakes and then learn from them. Giving up and waiting for other people to answer is contrary to your goals of learning. Don't stop. Just go.
+These comments are fucking terrible. Is this a meme sub?
+And instead of pronouncing the initialism as “Jay Ess” we could say “Hey, Ese!”
+Fuck intellectual property.
+only compatible on [Temple OS](https://www.youtube.com/watch?v=Bz3Z5wsZrn4)
+Is that iPad only? It won’t come up for me. 
+J Flat! Another strong contendor!
+Scripty McScript
+DrScripthattan
+Nope - 100% marketing bullshit.
+trumpscript : Make JavaScript Great Again! I kinda like wwwscript though?
+Why do we care what non-tech people call anything?
+HarambeScript
+&gt; slowly dieing software Completely false, many big name businesses use their software. Many will continue to use it, and many more will be built, in some way shape or form, on it. 
+Exactly as you said, people use there software, because they haven’t looked at, and there isn’t, any alternatives. I guarantee you if people had a choice now, 95% of companies would choose alternatives to Oracle.
+There are many Subreddit content that doesn't belong to the content owners. I also was shocked after hearing that for example the Heroes of the Storm has NOTHING to do with Blizzard. One moderator also told that in all these years they never had contact with Blizzard employees directly. It's everything community made.. I really was mind blown.. I always thought that the social media team would lead that subreddit, but seems like not.
+Scripty mcscriptface
+I have this proof of P=NP, but I did it on during office hours while I was employed at SAP, so I'm afraid they would sue me and can't share it. Great way to spread FUD, buddy. 
+I know what you're trying to say and you're totally right. What I was trying to get from this question is if it's efficient to solve it like this or not. I may pick up a bad habit now that will be later on hard to "counter". But sure! I'll give it a try on my own first and see how far I can go! Thank you!
+It's a way to convert a function declaration into a function expression. By putting a function declaration into the context of an expression, which can be as simple as wrapping it in parentheses or negating it with a not (`!`), it will become a function expression. Function expressions behave differently than function declarations, allowing you to, for example, as /u/tobozo pointed out, call the function as an IIFE. Using `!` is often preferred over parens because 1) it's 1 less character (and a nice thin one), and 2) because it prevents accidental calling of the previous line if there's no semicolon to end the statement. function foo () { console.log('foo') } var f = foo (function() { console.log('bar'); }()) //-&gt; bar //-&gt; foo What happens is ASI won't separate foo and the IIFE so it ends up being seen as: var f = foo(function() { console.log('bar'); }()); This can be addressed in the IIFE be preceding it with an explicit semicolon, but now we're talking another extra character(!). ;(function() { console.log('bar'); }())
+LarryScript?
+I’m not your buddy, pal.
+"The Language formally known as JavaScript" 
+Has anyone suggested Jankyscript yet?
+LiveScript OnlineScript WebScript
+I think you missed the joke. Probably because I am not funny. Promise. Resolve. Catch. 
+We should name it Asynchronous Working System Language. Or AWS for short
+mutable.io is another good option. We use it for our app. Its like Heroku but for making dealing with microservices super easy
+Theres definitely a bias of impression on bootcamp candidates. Usually their DS/Alg isn't strong. I feel they may be scrutinized more.
+Would you expect any less from CopiousAmountsofJizz?
+Larry Ellison is an evil evil man, my company signed up for netsuite before I had any real time to look into it. If I had known it used an oracel back (and was run by Larry's kids) i would have stopped them anyway I can. Stupid over priced databases.
+I think they should find out which one of Larry Ellison's ex-wives took him for the most money, and then name JS after her. AddaScript, or NancyScript, etc. 
+As with my comment on the other post the OP made, I find it silly that the community wants a new name. It would be more productive to just raise money take e-corp to court and prove to them that this trademark is indefensible. JavaScript is the name of our ecosystem, let's give it a good fight.
+But I don’t compile to JavaScriptARegisteredTrademarkOfOrcalceCorporation I compile to Dart for use by my AngularDart colleagues
+I wish I could solve my bug tickets with that approach
+Interesting, but if you're really interested in *private* Typescript supports it much more naturally.
+Hi /u/frymysallad, For javascript help, please visit /r/LearnJavascript. Thank you!
+Of course the overall cost to fight that case would likely require a small app developer to sell their soul, kidneys, liver, first born...
+Ah right. I did wonder if it was a joke at first, but couldn't figure it out.
+SaltyScript
+We just need to invent a bloated corporate language called ECMA.
+RektScript
+well i reported your comment to the mods about you reporting my comment to the mods.. so take that..
+Node.es, the Spanish version of Node!
+No offense meant, but what do you mean (explain like I'm a 5 year old)?
+Definitely important information! But I run into a problem where yarn will not automatically install peer dependencies of the top-level package when running `yarn` - which is problematic when I need those dependencies for testing, and for Flow types. When I first install a dependency with, for example, `yarn add --peer react` the package is installed, and entries are added to`yarn.lock`. But if I run yarn in a fresh checkout then I don't get the peer dependencies. Should I duplicate peer dependencies in my devDependencies list? Or is there an option I'm not aware of to ask yarn to please install peer dependencies for the package I am developing?
+ProgrammingScript - let’s just cover all the bases. 
+In my experience, the only bad programming habits to worry about are the ones that involve writing clean, readable code with proper comments. For doing things efficiency, you'll be constantly looking to improve that anyhow, and every time you learn a better technique, you'll be looking to apply it when you can. It's a probably that fixes itself if you're a good programmer, and a problem that you wouldn't worry about if you were a bad programmer.
+Copying and pasting from hacker news and Reddit is (mostly?) fair game, so scraping from them is as well. My point stands. 
+If you could provide a few examples of your code, we could identify their flaws more easily :)
+lol, +1 
+DisruptScript
+oh shit, i will stop to using JS and and Oracle product for this case. But man, JS is good language for newbie. Why Oracle wont charge E-commerce like Aliexpress and their friends ?
+I vote for Cody McCodeface.
+Love the article, but some things are left unclear to me: 1) How is "enhance" pattern implemented? I don't get it. Is it like IoC or service-locator? How would it solve the problem of deleting modules/files/components? 2) He says that base bundle shouldn't contain any UI. It makes sense, but it's a common pattern to extract common modules which are used across the application into a separate chunk(or to include it into the base bundle itself) to avoid duplication. Wouldn't it make the problem of "not letting UI into base bundle" not worth being solved?
+We just say "ES6"
+Haha well, that's what I try to get for being funny at 10 pm with my eyes half open.
+JawaScript, .js stays the same :)
+Does Oracle own “JS” or “ECMAScript” (which many but not all understand to essentially be JavaScript)? If not, can you easily swap out JavaScript for either term?
+Hah, if only it was so simple to get rid of your first born. They're very persistent little leeches. :)
+Oh, I see. Thank you!
+(Java|ECMA)Script naming discussions.. so hot right now.
+Having used all 3 I liked Oracle the least. Both SQL Server, and Postgres are bad ass. Oracle is meh, especially given it's cost. MySQL/MariaDB suck, but is fine for small projects.
+Or we could just get Oracle's trademark invalidated. Seems much easier than updating 20 years worth of documentation, blog posts, libraries, etc.
+"Squeel" and "NoSqueel" (SQL/NoSQL)
+MAGAScript
+Since most major browsers have pretty significant ECMAScript6 support and ES6 came out in 2015 I wouldn't bother with any book older than 3 years old. If you're really serious about web development I suggest you pick a JavaScript framework. Frontend frameworks have really picked up speed over the last few years and you'd be hard pressed to find any major web app that does not rely on a frontend framework.
+Stop trying to make fetch happen.
+KindBudScript
+PeePeeScript
+Well, good to know it's alive and well. I haven't heard it mixed up for a while. Must be living a blessed life.
+It doesn't get more natural than bare js engine baby!
+Just posted a link to your in our Publishing Reform forum with somewhat related goals: https://gitlab.com/publishing-reform/discussion/issues/46 Most folks there are scientists but we do need support from broader community, and everyone is welcome to participate! 
+Electron is a little more complicated than that, but even still. I've used Node for plenty of cli apps and a mobile app doesn't always need web. You can make games that don't make API calls. Similarly, Go has API calls; should that reference web in the name? Nah, that'd be silly. You don't want to limit a programming language by an application, especially since new applications can be developed and innovated upon. Besides, if Webscript was selected, I dread the thousands of articles like "Webscript can do more than just web!" or "10 ways to use webscript without using the web!!!"
+Maybe objects and functions?
+&gt; Or is there an option I'm not aware of to ask yarn to please install peer dependencies for the package I am developing? There currently isn't, but you're not the only one - someone on Twitter [pinged me](https://twitter.com/thymikee/status/986708173976428545) with the exact same topic! Duplicating your peerDependencies into your devDependencies seems like the most easy way to achieve this effect - Yarn could actually probably do it by default, since it seems quite harmless in most cases.
+Jokes on you when the CSS specs are reprinted using better printers every 10 years, which counts as remastering.
+My uncle worked for them for 30+ years, and was forced out at 57. He got laid off because Ellison had a hissy fit relating to Mark Hurd and so HPUX/itanium support was withdrawn as 'punishment.' Business dried up and he was laid off. Fuck Oracle.
+I didn't know that non-tech people mixed those up. 
+Hi /u/yelosas, For javascript help, please visit /r/LearnJavascript. Thank you!
+Rename to .js
+Instead of packages and frameworks, you'd have concertos and symphonies.
+My team has used [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) (also under webpack-contrib) without problems. Apparently not as feature rich, but it covers our needs just fine :)
+&gt; esn't belong to the content owners. I also was shocked after hearing that for example the Heroes of the Storm has N This. Their claim is utterly indefensible. Let them try and make it against an opponent of the same size. 
+The was things are going, we can just call it 'script' soon. Have you noticed how many 'coding bootcamps' or 'learn to code!' apps are actually teaching Javascript but their promotional material barely mentions that.
+MDN is usually a good resource - take a look at this page on [what was introduced in ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla), and Google terms in there if you want to learn deeper!
+Or ... instead of the near impossible task of getting everyone to change names, why don't we just start a campaign to pressure Oracle into promising never to sue anyone over the trademark? Campaigns like that have succeeded in the past.
+And how the fuck did they become a thing? Do you just start a blogging company and people magically flock to you and only you?
+That was a great explanation thanks.
+Thanks!
+Is this large application is entirely in react? No backend seperation? Maybe I missed something in the article. 
+You might have. The format is not easy to digest at all, and it's pretty ranty.
+My vote is JonnyScript. 
+Yes. Which is why Oracle will prevail in court on all counts. Just like how API copyright sounded so stupid. Then the copyright owner activists over at the Ninth *twice* overruled a judge that actually knew the facts of the case, declared that it was a thing, and that compatibility was not fair use. The tech industry built it's world on a foundation of infringement and Oracle's business model is to buy anyone with a claim to it and start collecting.
+Not a good idea to taunt a company that has more lawyers than developers.
+1) the code gen is doing the import, I believe, so every time you hit save or build or whatever your tool/IDE spits out a little MyScreen.connect.js which just does like import router; router.register(MyComponent); - that's how I understood it, anyway 2) not sure but maybe this is going back to his bit when multiple frameworks were in use? So don't load React cause some bits use Angular or whatever. That's a stretch, I honestly didn't fully understand the point of this in context either
+&gt; Is this large application is entirely in react? No, it's some closed source internal Google framework. 
+Sorry on that weird picture of mine as thumbnail. cant fix it. 🤣
+How about LexScript to really highlight that it uses lexical scope not dynamic scope. It would help because this is one of the most confusing aspects to people just starting out with the language.
+Type systems are fun, but you don't _need_ them, and they certainly aren't guaranteed to make your code any more correct.
+AngularJS is used to refer to Angular 1.x.
+I saw the enhance as being a "register" call into the router via some API the router creates. That way the router doesn't have to inherently know about any of the routes. As I understood it, keeping UI out of the base bundle was to avoid having it later becoming obsoleted by changes but remain in the app (similar to CSS rules that no longer apply) because nobody realizes they are unneeded. It seems like they could have used tools to help with that problem though. It's really important to ask these kinds of questions. Companies like Google and Facebook are dealing with scale and design problems that 95% of us don't encounter in our projects and jobs. Rules that work for them may be overkill for us. 
+If you're working in JavaScript, there's a YouTube channel called FunFunFunction that I highly recommend. He has a series on unit testing that is a great intro for both the why and the how questions. I especially like that he takes on a little alter ego occasionally that plays devil's advocate with the more naive approaches that really help you to understand why you're doing what you're doing rather than just feeding you facts. [Unit Testing Video Series](https://youtu.be/Eu35xM76kKY)
+This (classes/private methods) isn't even remotely making JS more like Java. Typescript however...
+Ironically I worked with a junior web developer who make the same mistake. He constantly keep asking questions like: how can I do this in Java? or the other thing in Java? when he really mean JavaScript.
+godscript 
+Which changes look breaking to you? AFAIK, it's all added features, which is allowed in a semver minor bump.
+Javascriptscript
+Change the name Javascript to ECMAScript... Easy peasy!
+thatsthejoke.jpg
+[thatsthejoke.jpg](http://i.imgur.com/tEjeMu8.jpg) --- ^(*Feedback welcome at /r/image_linker_bot* | )[^(Disable)](https://www.reddit.com/message/compose/?to=image_linker_bot&amp;subject=Ignore%20request&amp;message=ignore%20me)^( with "ignore me" via reply or PM) 
+[thatsthejoke.jpg](http://i.imgur.com/tEjeMu8.jpg) --- ^(*Feedback welcome at /r/image_linker_bot* | )[^(Disable)](https://www.reddit.com/message/compose/?to=image_linker_bot&amp;subject=Ignore%20request&amp;message=ignore%20me)^( with "ignore me" via reply or PM) 
+I don't follow how this is a reply to what I wrote. Their copyright claims are *unfortunately* legally sound, but their trademark claim is 100% invalid. &gt; The tech industry built it's world on a foundation of infringement I'd argue that the entire world is built on a foundation of "infringement", and the defect lies in the modern concept of copyright and patents. The tech industry is just this peculiar isolated universe that runs at an incredibly accelerated pace... &gt; Oracle's business model is to buy anyone with a claim to it and start collecting. So a patent troll. :(
+Of course it's not *needed* or *guaranteed* but there are some real benefits and now that `@types` packages have evolved so well, the barrier of entry is reasonable. The largest benefit to me is how much "safer" refactoring is. I feel a lot more confident refactoring pieces because typescript/vs code alerts me to areas I missed. That and having well-defined types greatly improves developer awareness, and the code hint/auto-suggest support is so helpful.
+Instead of adding something new to the language, what about doing something like this in a class: ``` const makePrivate = (that, { getter, setter, defaultValue }) =&gt; { let value = defaultValue; that[getter] = () =&gt; value; that[setter] = (newValue) =&gt; value = newValue; }; class SomeClass { constructor() { makePrivate(this, { getter: 'getA', setter: 'setA', defaultValue: 'foo' }); } } const example = new SomeClass(); console.log(example.a); // undefined console.log(example.getA()); // 'foo' console.log(example.setA('bar')); // 'bar' ``` Or if you really want to get complicated, you could set something with a proxy where the getters always return undefined. There is no need for an official proposal, the language already supports what you want to do, you just need to know how to do it.
+What they do though is raise the long-term productivity of a larger team, especially if the team is swapped out or reformed etc.
+What are you doing where you need a private method or a private field in your JavaScript? Most of the times this is pretty pointless.
+Node supports almost everything specified by ES2017 and more, I believe. The only thing that's really missing is ES2015 modules/`import` syntax, which (as I've been led to understand) is entirely reasonable to omit for now for technical reasons.
+yes, but try to maintain a large application where several modules are created by other developers, having a type system then is extremely valuable
+That's just not true at all, You need to be constantly looking through files as you code to make sure you know and are using the correct parameters &amp; object attributes. 
+[removed]
+What is large by your standards? We have a 50kloc app which became way less prone to common bugs when we started using TS
+[0:49](https://youtu.be/Bz3Z5wsZrn4?t=49s) "interpretation is tricky" fucking LOST IT.
+I've seen tons of jobs with Atlassian on the stack overflow jobs site within the past few weeks.
+He built the OS from scratch using his own invented language HolyC! 
+Okay, it looks like there is now a YouTube channel that will have the live content as well as the video to watch afterwards. Here is the link: https://www.youtube.com/channel/UCSmw0vCdngd-DR4IhnmGDBg
+This has to be a great new vector for delivering malware into companies. "Hey dev guy. I know you're busy, but could you look over this zip of node stuff on your local admin enabled workstation and see if we should hire them??" 
+Its about getting rid of javascript shich includes js
+npm already has shortcuts for pretty much everything, for example npm install npm i npm install --save npm i -S npm install --save-dev npm i -D
+JavaScript is dead, it is now officially called ECMAScript
+Webpack has been improving over the years to add functionality that puts it more on par with things like Gulp. But it's important to remember that at their core: Gulp is a generic task runner and Webpack is a purpose-built bundler. And Gulp has always been a task runner, so for many, it's what they've been using for years and Webpack wasn't even an option for some of the things they're doing. Bundling is really just a series of tasks so by extension you can do the same stuff in Gulp as you would in Webpack with the right pipelines and setup. Today it really just depends on how you like to work and your priorities. And many people use both together.
+jesuscriptso LOL
+member Pacman? https://www.youtube.com/watch?v=ndI9vkgw_1Y 
+&gt;https://github.com/getify/You\-Dont\-Know\-JS Indeed, best source to learn JS, front to back including advanced algorithms all in js
+Why not ES or EScript
+Ticket: closed Resolution: bug and I parted ways amicably.
+Yes, you can already do private fields/methods today with WeakMaps as demonstrated in the transpilation artifacts mentioned in this explainer. This is an alternative to the stage 3 proposal for private fields/methods [https://github.com/tc39/proposal-class-fields#private-fields](https://github.com/tc39/proposal-class-fields#private-fields) that uses a #hash sigil to denote a private slot. The motivations for this proposal stem from issues mentioned in the explainer that affect the mentioned proposal. 
+- Not trusting people to avoid relying on API implementation details. - In the face of inheritance, avoiding name collision. - Giving engines the ability to better structure object allocation and property access. [Why you might need private fields/methods](https://esdiscuss.org/topic/ecmascript-proposal-private-methods-and-fields-proposals#content-22)
+Google uses the closure compiler for typing. It's more painful than typescript, but it was the first JS compiler to add static types and true compilation to js.
+nothing c: I know what needs to be made i just dont know how to make it :L
+Thanks, that's a nice idea. It's already trying my patience, but there are a few other CSS properties I'd like to document. Maybe put it all together into a small visual CSS dictionary:)
+Why did you post on r/javascript, though?
+I'm gonna. :3
+This is one of the most insightful paper I read in a long time. I was bit confused at first by the use of react example from a google writer. And I loved the little jab at google+.
+Can you share more specifics about the "Enhance" implementation?
+I think that they would just have to show that they have taken steps over the years to fight back against infringement on the term. So you can't let it go for 10 years then suddenly go after people. Of course this just means they have an intern firing off cease and desist stuff once in a while. Maybe its because he capitalized it :) 
+Thank you 👍
+Gulp is a relict of the pre-module era. If you are using Webpack it does everything these tools could. There is not a single use-case i've come across in years that would warrant a task runner.
+Change the name of java to pythonscript, watch heads explode.
+Change the name. Call it "Web snippet editor", or "HTML, CSS, JS snippet editor"
+Why not alias like, alias install = “npm install”
+what browser/os?
+lmaowhodidthisscript
+Ever give axios a shot?
+I personally love this idea. Yes, the project shouldn't be too extreme, but I got my current coding job through an interview process like this. It was my first job in the industry, I had no CS degree and no prior experience, but I had the skillset. This kind of interview allowed me to truly show that I knew what I was talking about, and I've been at this job for years now.
+The trademark owner loses the right to take legal action against a third party if the judge concludes that the third party's use is "famous enough" that the trademark owner *must* have been aware of it, but did not take legal action regardless. The trademark owner also loses the right to take legal action if the trademark owner had previously brought the infringement to attention for the third party, but did then not take legal action within a reasonable amount of time. The trademark owner is only allowed to avoid taking legal action if they conclude that a trademark infringement is minor or inconsequential to the maintenance of the trademark. Otherwise, not taking legal action would be abandoning the trademark. So while the trademark expiry for non-use in the US is 5 years in most cases, they have to be actively defending it with legal action for almost every infringement. Not suing people when they infringe when you are made aware of the infringement causes the trademark to be abandoned.
+I did come across some across some article about that but no I haven't tried it.
+ScriptyMcScriptface
+see if you can find benchmarks. its possible its slower in firefox than in chrome.
+&gt; the __proto__ property, which is a deprecated feature of EcmaScript ...how is that deprecated?
+jquey is loading from CDN
+Medium has gone to shit the past few years, in my eyes it's only slightly better than Blogspot now. There was a time that it was better than that, but now they let anyone publish pretty much anything. I've contacted them several times about exceptionally low-effort content (read: spam), but they either never replied, or replied with "we don't see a problem". The straw that broke the camel's back though is when they started allowing blind redirects, e.g. you click on a link to `medium.com/@Foo` but you're transparently forwarded to `god-knows-where.com`.
+Thank you :)
+Sure, but a lot of the details I won't/can't go into simply because it will take too much time and/or is proprietary. But that doesn't matter, just realize these bits of context: 1. All of our build dependencies are managed by powerful tool that excels at letting us dynamically create build dependency graphs and dynamic code on the fly (aka at build time 1a. Dynamically generated code is something we do, a LOT! (read up on bazel, its the most powerful tool that nobody take about. literally ALL Google software is managed with it). 2. The closure compiler (well, an internal variant of it) provides another framework layer for JavaScript specific static analysis and dependency splitting. So let's just assume we have those 2 tools as givens; (1) a build tool that excels at managing code not currently on disk, and (2) a JS dependency Swiss army knife toolkit - which just happens to also be a powerful JS compiler and module bundler. To get to your question, enhance isn't something that operates at the JavaScript code level. It's more of a build system feature that makes the module bundling step sane when including generated sources. Without it we'd need to hard code module definitions to include these generated sources.... which is fucking painful, I know, because that's how we used to do it. Cleanups sucked. Renaming sucked. Refactoring sucked. Simply finding the name of a new dynamic target sucked. Instead the dynamic code gets to insert itself into the build graph appropriately. Frankly the enhance feature is core to how we work now.... but we worked without it for years. Also, it's not really part of the JS framework he built, although it does enable his framework to exist at scale. This was his point. That at massive code size and engineer count application scale there are new processes that need to be added to allow coders to simply continue working. For all that Google does, regardless of summone anyone's opinions of their business practices, the processes and tooling we have to allow 50000 engineers to commit daily into a single rolling monorepo so that there is no version/dependency conflicts is an engineering marvel!
+Massive.js
+Its working now. 
+Google for web pack + templating system on choice + boilerplate and add the extra things you need.
+haha did you come up with that yourself hahaha 😂😂😂😂😂😂😂
+They would probably deserve it too if they were asking random applicants to do free work. The test isn't about getting things done, it's about suitability to do the job. 
+I agree,... coding w/ someone looking over your shoulder is way more stressful &amp; removed from reality than a take home. I always sink more time than I ought to into the take home, but I am actually showing them how I do the work they will be asking me to do day to day. I’ve been bit by this strategy too though. A ‘reputable’ Blockchain startup, Shapeshift, hit me up via a 3rd party recruiter who screened me. One of the screening questions was to ask me what comp I’d accept. I passed the screener, was given a take home that was pretty heavy, but this was during the recent bitcoin rush, so I went for it. I barely slept &amp; knocked it out in a few days—sent it to the recruiter and waited to hear back. I had to reach out for feedback, and the recruiter said they went with someone else. I asked for feedback on the take home, and he reached out to them for it,... turns out they decided my comp requirements were too high &amp; never even looked at it. Fuck Shapeshift.
+Nice, but could use a link back to the menu.
+Yeah I like that more. Apparently downvotes for saying an actual relevant thing. Forgot this is Reddit whoops. 
+They tried, but caved and standardized it. Its not part of the full language, rather being part of the annex b, a section specific to web browsers existing largely for legacy compatibility.
+I do not like TypeORM. It makes writing Javascript more like writing Java, which I think is a step backwards for JS community as JS is a very different language from Java, and the type systems available in JS are much better than that of Java (Flow, Typescript). Don't want to sound like I am selling something, but I have developed and open-sourced an ORM, tabel, http://tabel.fractaltech.in, which is a datamapper ORM, and focuses on providing the smallest, and the most efficient abstraction possible to work with relational databases in node.js. I am using it at my own startup, I know of at least one other startup using, and it had around 350 downloads in the last week. Right now supporting only PostgreSQL because 1) That's what I use 2) lack of a proper "returning" clause makes it a bit cumbersome to support other databases. I understand it takes a lot of work to push an open-source project to critical mass. And no one wants yet another ORM. At the very least, I hope that tabel catches a bigger ORM author's attention, and the new ideas that are there in tabel get implemented in some other ORM, and hopefully, one that uses typescript, like TypeORM itself :/
+Here's my homework! \&gt; not\_a\_virus.exe
+You don't know JS is free, pass it through a translator and see how good, or bad it is. 
+Don't you mean Parcel?
+Nah man, Rollup is where it's at.
+Give it a couple months and I wouldn't be surprised.
+Just don't feed them? Not that hard...
+It's true that there are more job opportunities with Node.JS, hey, you can do it. It really takes time to everything and a good source of learning materials. You can try to watch https://www.turbo360.co/tutorials. Their tutorials are mostly NodeJS based. Goodluck on your learning growth!
+Ahahahahha i love the comments
+Static typing is indeed a boon. But I don't feel comfortable about depending on 3rd party type definitions to be completely up-to-date and accurate. Anyone can screw up or forget to update a type definition, and at that point, they only give a false sense of security. That said, I admire TypeScript greatly, and I wish that some form of optional-typing was built into ECMAscript itself.
+I still use browserify to bundle libraries. Rollup for my own code.
+Can't you use const for creating a function like this? const nameOfFunction = () =&gt; { console.log('abc'); };
+you could do that. you're storing the function inside a const. you could also do `function nameOfFunction(){ }`
+Oh, I understand now. Thank you!
+How does it compare to [knex](https://github.com/tgriesser/knex)?
+I'm not an expert but the previous answer you got didn't explain a whole lot so here goes. Defining functions in consts nowadays is usually done for arrow functions, you could also use var and let but why would you. Arrow functions allow for shorter lines in a lot of cases and arrow functions work a bit different regarding 'this' \(more info here: [https://developer.mozilla.org/en\-US/docs/Web/JavaScript/Reference/Functions/Arrow\_functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) \). There's actually few cases where you wouldn't want to use an arrow function so I'd recommend experimenting with them.
+Read up on hoisting. Defining functions using function or const are very nearly the same in how they are made available to the scope, but functions defined with the function keyword are hoisted to the start of the context block, allowing them to be referenced before being defined. 
+Browserify does one thing well. If it fits you needs why not use it? And yes it is still used by others and maintained. 
+I have to say there is something to be said for less components of a tech stack. It’s also easy to add and add , harder to take away once added. 
+^This is why Jack Ma scares the fck out of me. How does an ex-cabbie/teacher become the richest man in China. Apparently nobody else as thirsty in China.
+"jay squared" is pretty chill
+Is there an example of a project that uses these guidelines? Would be interesting to see some code.
+You can't break from a `forEach` like that, the only way is to throw an Exception. So when you do if(i!==arr[0]){ return false; } It has no effect, and the function continues executing till it returns `true` https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+The problem is when 5 companies ask you to do it while you have 10 interviews setup over a two week period. I ended up passing on several that were looking for an assignment and eventually accepting an offer from a company that just had me knock something out while onsite for the interview.
+java≠javascript But you knew that, and I'm just coming off as a pedantic wanker.
+knex
+This is almost exactly what I've just had to do for my interview - the company provided an endpoint to the Flickr API, and gave me a styleguide (comprised of wireframes) to adhere to, and a bunch of suggested features I could implement if I wanted to. It's a long process but the joy of coding is in solving problems, so I didn't overly mind the hours I had to sink into it. I'm waiting to hear back now... fingers crossed!!
+You could call it downright [Grinchy.](https://i.imgur.com/1fq1nd4.jpg)
+`return false` is a statement in the inner function, the only `return` statement in the outer function is `return true`. I don't know of any nice way of using `forEach` in this scenario. I would use some other array iteration function like `filter`: function isUniform(arr) { return arr.filter(function(element, index, array) { return element !== array[0]; }).length === 0; } What this code does? `arr.filter(function(element, index, array) { return element !== array[0]; })` creates an array with all the elements that are different from the first one. If there are no elements in the array (i.e. its `length` is 0), we return true, else we return false.
+Ha! Just posted [this](https://i.imgur.com/1fq1nd4.jpg) above.
+Math should be capitalized.
+FetchScript!
+You will NOT get a raise so negotiate now for your pay. It is hugely political...if you don't kiss ass you will be nothing. I left and it's the best thing I ever did. I took a small cut went to a startup and life is amazing!
+ and what would I pput at the end where it says **Time to wait after one follow cycle in miliseconds, 60000 = 1 minute? Do I leave that alone?** So the proper code to put into console in google chrome console would be `window.setInterval(function(){ var x = 0; $(“button:contains(‘Follow’)”).each( function(){ if($(this).text()==“Follow”){ if(x==1) return false; // Number 1 represents how many follow’s per cycle $(this).trigger(“click”); x++;}}) var y = $(window).scrollTop(); $(“html, body”).animate({ scrollTop: y+50}, 1000); console.log(‘loop’); }, 60000 + Math.random()*120000); // Time to wait after one follow cycle in miliseconds, 60000 = 1 minute`
+Here is the link directly to the stream: https://www.youtube.com/watch?v=Fuj75DGtwBk 
+My favorite interview to this day is one where we started a Google Hangout, they gave me a doc telling me to implement CLI Minesweeper to a spec and gave me two hours, then let me do my thing and called me back when the time was up.
+It would be more succinct to use `reduce` I think. function isUniform (arr) { return arr.reduce((index, truthy) =&gt; index || truthy, false) }
+In this case you don't need or want a `forEach` because it's the wrong array method for the job. /u/BoltKey and /u/Peechez have the right idea, but their solutions do some unnecessary work. Since your function needs to return a Boolean, not an array, it doesn't make sense to filter either. What you want is to use `every` instead. Replace this: function isUniform(arr){ arr.forEach(function(i){ if(i!==arr[0]){ return false; } }); return true; } with this: const isUniform = (arr) =&gt; arr.every(item =&gt; item === arr[0]); And you are done. Just one line of code. =)
+This post is a duplicate of https://www.reddit.com/r/learnjavascript/comments/8den8q/booking_form/ Please see my answer over there: https://www.reddit.com/r/learnjavascript/comments/8den8q/booking_form/dxnn15x/?context=2
+I’ve done some of these, none were designed to take more than a couple hours. I guess maybe there’s companies out there that give longer ones. I’m not a fan of the current state of the art in technical interviewing, but sometimes it feels like you just can’t win. Have the candidate write code during an on-site? No way that’s contrived and unrealistically high pressure. Have a candidate wrote code in their own time? No way that’s just exploiting their time. How *should* we evaluate someone’s ability?
+It’s questions like these that make me remember how hard it is to learn some of this stuff. 
+Angular 2 using Angular CLI would be silly simple
+A few things: * When you return, it returns *out of a function*. Since you are running a function on each item in the array, you're only returning out of the function running on that specific element of the array, not stopping the loop from running. * You should look into refactoring what you have by using Array.reduce() since it fits your use case of taking a list and reducing it to a single value. * I would suggest finding a mentor (or tutor you are in school). Asking questions on Reddit where you're straight getting the answer won't take you nearly as far as having people help you understand *why* these things work and how to work through the logic you're writing. 
+Oh thanks for sharing brada! They really have whole sesssions of creating full stack apps. Thank you
+Honestly probably not anytime soon. 
+I guess I just meant docs that provide a good description of the core functionality, perhaps a bit on why the library exists, coverage of the full API (or all the public methods), and include a section on development / contributions.
+Yes. In what way does that answer the question. 
+You said most of us fail miserably and that pretty much sums up why it sucks to be a junior dev right now. Knowing that the senior devs in the companies we apply to are looking at our code with contempt every time we attempt to rise to the enterprise level is not helpful,...
+I've actually cancelled my interview for tomorrow. Life is too short to take on jobs that treat people that way. Though if you're based in Austin I'd love to hear about this startup.
+I've dm'd you.
+You are declaring three different variables here. currentIndex is the only one you have assigned a value to, the result of array.length 
+This is the same as writing: var currentIndex; var temporaryValue; var randomIndex; currentIndex = array.length;
+For the enhance pattern, I immediately thought of angularjs. Components register themselves to an angular "module", not the other way around. But this isn't a hard dependency.
+thank you
+To be clear, `const` variables *can* vary, but they cannot be reassigned. Put another way, they are not immutable.
+I think without a reproducible page to test on it is impossible to say. How big of a payload? Are we talking just round trip time? Is this over HTTPS? Is it reusing existing keepalive connections? Is one sending additional cookies?
+Can this be used in the browser? Tabletop doesnt seem to work for me anymore, Google sheets changed something or other and my app had been broken since. Old sheets still work but new ones do not.
+Browserify is totally fine and really easy to use.
+It may help when looking for juniors. 
+What about the good old fashioned hire them for a probationary period technique?
+FYI all the proposed code is wrong. The correct way is to use a regular for loop so you can return false as soon as element doesn't match arr[0]. Do not use reduce, filter, foreach, etc if you want to be able to break the loop prematurely.
+Yeah it's cool, but Async/Await _is_ Promises. Tidy promises.
+fwiw, a few months ago when I was still learning the ropes I purchased a book called JavaScript Design Patterns written in 2012 and even that is out of date. While it's sort of interesting to see how things were done back then, ES6 provides a lot more utility than ES5 and is an unquestionably better experience to write in.
+The second is only valid as an object method.
+I used bookshelf with postgres for a small app, and it was pretty solid. It is built on top of knex, so the flexibility is there if you want it -- I found myself dropping into knex on a few occasions. Knex was really great, but some of the ORM features of bookshelf saved a lot of time. Depending on the project constraints, bookshelf or straight knex could be appropriate. We considered Sequelize, but felt it was too bloated and obfuscated, iirc, but YMMV.
+property is theft anyway
+You could use array.some, that way it will stop at the first true.
+They serve different purposes, but the configuration is similar https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c https://medium.com/jsdownunder/rollup-vs-webpack-javascript-bundling-in-2018-b35758a2268
+200 lines of code that downloads 245kb.
+The solutions you mention aren’t *wrong*, in that they work fine, they’re just not as efficient as they could be. A simple loop that tests each element against the first is definitely better though because it exits as soon as the first mismatch is detected (if there is one), does not use additional memory, and does not make new closures.
+dude... that was awesome!!!
+From my experience if recruiters, I suspect this was more on the recruiter than the company...
+My lecturer. Stop calling JavaScript java. For fuck sake. 
+Ah, that gets you jailed for child abuse/neglect.
+Thank you, that's very nice of you.
+Imho, if you have a solid background skip the courses and just start building stuff. 
+It took a while but I was able to [use the function constructor to eval a string.](https://imgur.com/a/K9gE74n)
+Gastby + Reactstrap (Bootstrap 4 on React). It comes with tons of plugins and tools. There are a number of starter repo that you can clone including TypeScript version which comes with type safety and intellisense.
+That's a plausible interpretation of that one comment alone, but if you read the whole thread it's pretty obvious that wasn't what they meant.
+Just something of note: most JS styleguides advice against [using more than one variable per var declaration](https://github.com/airbnb/javascript#variables--one-const)
+You could easily use first or every.
+Thanks! This code seemed to work in firefox so im guessing it would work in chrome as well. Id rather firefox anyway. regardless, its crazy that a capitalization makes such a big difference. Didnt get a chance to check the randomization to be sure thats on point, but if you say it works it should I used these scripts. the site I got the original script from said to run this script first, so I do it, not sure if its necessary or not &amp;nbsp; var jq = document.createElement('script'); jq.src = "//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"; //Loads JavaScript document.getElementsByTagName('head')[0].appendChild(jq); jQuery.noConflict() &amp;nbsp; then I run this script &amp;nbsp; window.setInterval(function(){ var x = 0; $("button:contains('Follow')").each( function(){ if($(this).text()=="Follow"){ if(x==1) return false; // Number 1 represents how many follow's per cycle $(this).trigger("click"); x++;}}) var y = $(window).scrollTop(); $("html, body").animate({ scrollTop: y+50}, 1000); console.log('loop'); }, 60000 + Math.random()*120000); // Time to wait after one follow cycle in miliseconds, 60000 = 1 minute
+Yeah, not something I usually do though I've seen it done in some instructional videos. Btw thanks for linking that guide, I was unaware of it. Going to go through it.
+You are welcome. Feel free to comment or start any discussion for any researchers feedback.
+``` Object.getOwnPropertyNames(Array.prototype) .filter(f =&gt; typeof Array.prototype[f] == 'function') .forEach(f =&gt; console.log(f)) ```
+Also, dev tools do not deal well with `__proto__` set via `JSON.parse` ([Chrome](https://i.imgur.com/w3JctMU.png), [FireFox](https://i.imgur.com/zQ0DDY9.png)).
+SharedArrayBuffer and Atomics are still coming up in routine discussion in TC39 as recently as [a month ago](https://github.com/rwaldron/tc39-notes/blob/master/es9/2018-03/mar-22.md). So that's a good sign that they remain a finished part of the standard, which is a great sign. I assume that for browser companies to implement it, though, they would have to specifically avoid triggering branch prediction in the CPU. I wish I knew if this was an easy or difficult thing. 
+Convention over configuration basically :P Though it's not technically true as configuration is required in the form of .babelrc .postcssrc etc.. Also, Webpack 4 has significantly simplified things!
+I try to branch from social media into Github profiles. I follow some JS peeps on Twitter that will link to projects on GH. Occasionally I follow a Github profile. My GH feed is now constantly full of new and exciting JS projects being starred.. definitely works for me anywho! As for marketing: having a twitter account with some follows is nice.. if you tweet and RT enough re JS you’ll get enough followers that your self promotions hold a bit of weight. Enough to get the starting process happening on your new repo. Also, make sure to eat your own dog food if you’re solving problems that you encounter in other projects - you’ll naturally build a reputable group of libraries this way.. 
+Webpack mate web fucjing pack
+Yes, you can already implement private methods/values using closures and or WeakMaps. Which would make this akin to syntax sugar for class bodies.
+To give you idea of what was wrong with your code. What you were doing is that you have tried to remove one element starting from second element in the table (which you don't have) and then accessing first element of deleted elements (splice returns removed elements as an array). What you have to do is the following: access first element of your table and perform splice on this element (which is a nested array in this case). Have fun with JS! :) 
+Probably not lol
+Any reason to use underscore anymore instead of set an alias to lodash?
+Just console.log(res.user) before rendering the page in the profile route, then you should see what you have in user. Appart from that I think your code is ok I just look at the profile route and profile view 
+Sorry req.user
+Your use of the term JavaScript is a copyright infringement and you will pursued to the fullest extent of the law. ~ Oracle legal team
+!redditsilver
+That's a fucking riot, actually. I wonder how much you can get away with... I wouldn't assume you have more than a low level DOM (it must be using a web layer of JS seeing as alert works). But I'm interested in anything else you can fuck with 😆
+*ECMAScript
+It’s beginning to sound like some people assume they are entitled for a high paying job without degree, whiteboard exercises or homework assignments. Companies have to use something to test the skills, hiring is expensive and they need to be reasonably sure.
+Thank you for the kind words :')
+Thank you :) 
+The tool allows you to visually edit a json file. It allows saving, importing, and converting to and from all kinds of formats (xml, csv, yaml, etc). It can generate a variety of schemas (SQL tables, json schema's, mongoose). After editing the file you can generate a json patch file. 
+&gt; Have the candidate write code during an on-site? No way that’s contrived and unrealistically high pressure. Have a candidate wrote code in their own time? No way that’s just exploiting their time. I had an interview this week that went the first route and I didn't mind it. No looking over my shoulder or anything, just an hour of "normal" interview stuff and then left me in a room for a few hours to work on something. Definitely high pressure, as my opinion was that actually completing it would have taken several more hours than I had. According to the dev interviewing me, it actually had been a take home assignment for his own application process. Personally, I'd have preferred to take it home, but I think this option works better. If I'd been able to spend the night with it, it would have been complete and pretty much perfect, as would the version submitted by anyone else even remotely qualified, and then you haven't really done anything to seperate people. 
+Hey, adavidmiller, just a quick heads-up: **seperate** is actually spelled **separate**. You can remember it by **-par- in the middle**. Have a nice day! ^^^^The ^^^^parent ^^^^commenter ^^^^can ^^^^reply ^^^^with ^^^^'delete' ^^^^to ^^^^delete ^^^^this ^^^^comment.
+delete
+Yeah. But by the use of "var", it looks like its from a spaghetti code without ESLint. ESLint is ubiquitous with modern ECMAScript 2015 and React/Vue/Ember/Angular projects. Not there.
+*ScriptyScript
+Thanks for sharing your open source project, but it looks like you haven't specified a license. &gt; When you make a creative work (which includes code), the work is under exclusive copyright by default. Unless you include a license that specifies otherwise, nobody else can use, copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation. Once the work has other contributors (each a copyright holder), “nobody” starts including you. [choosealicense.com](https://choosealicense.com/) is a great resource to learn about open source software licensing.
+kinda neat, i can see it has some useful features, but as far as actually editing/creating json goes, i think i'd prefer to use the text editor. if there's an option to beautify/minify json, i couldn't find it.. that would be useful. also, the data type options on the left don't provide for array or object types. all in all, pretty cool project though, looks like you put a lot of love into it.
+I see nothing but complaints in **most** of the replies so far, coming from applicants. Most of the complaints are around take home assignments and the amount of time they take up. How a couple hours adds up when applying to multiple roles. People forget about the other side. The developers currently at these companies and their limited time. The time it takes to filter candidates based on some of the below items to determine a suitable interview candidate. This time is multiplied by each potential candidate that is submitted. Hiring is super expensive and draining on a team, mostly time which costs the company money. * Interviews * Resumes and LinkedIn * GitHub * Reviewing take home assignments The reason why this is a trend is because hiring is hard. Likewise job searching is hard. Both are equally hard but in different ways. Not all methods work for everyone and the hiring process becomes an experimental process itself. Companies are exploring different ways to determine viable candidates without scaring them off. The previous trend that people complained about was live coding assignments before or during interview. Before that was the unrealistic technical interview where the technical interview questions were usually scenarios that were obnoxious. As someone who on a team looking for new members, this topic interests me. We currently ask for a take home. We have gone through a few iterations of take homes, then interview. We usually are pretty lax on the technical questions in the interview and use it more to explore their solution, their challenges with it and what they loved and hated. We then use the rest of the interview to discover team fit. **Iteration 1:** Testing back end skills with your language of choice (preferably nodejs), simple enough with a few gotchas which would direct the interview process. *Notes:* No one turned it down. Everyone would make an attempt. It didn't address any front end abilities. (Hired 2 developers) **Iteration 2:** We decided that our stack is primarily javascript and we were looking for full stack experience, so we changed the assignment to have both front end and back end, building a game. Minimum expectations, with bonus objectives for brownie points. *Notes:* Lots of applicants turned it down because it was too hard or too much time was involved. Others that completed it said they had fun doing it. It was interesting and gave them opportunity to learn while applying for jobs. (Hired 1 developer) **Iteration 3 (current):** Full stack assignment that incorporates Iteration 1 with a UI requirement. *Notes:* No turn downs currently, feedback seems as though it's just the right amount of effort required. (Hired 1 developer, so far) The three main formats for hiring are, sometimes a combination of them: * Take Home * Live Coding * Technical interview Maybe companies need to ask the candidates how they prefer to be interviewed or post it in the job posting to submit the style they prefer when they are applying for the role. This however makes the process more challenging for the team doing the hiring but maybe its a middle ground. No process works for everyone because everyone is different. Thoughts?
+General steps I tend to follow: 1. Create a project that fixes a problem that *I* have, which there is not an easily found solution already written. 2. Write a tool that fixes said problem. 3. Get it production-ready, use it in production yourself before suggesting others do so. Iron out all the bugs. 4. A nice readme is important. Make it eye-catching, with graphics. This is perhaps the most important step. 5. Fully document every aspect of it. I read somewhere that for every hour you spend writing code, you should spend an hour writing documentation. 6. Search Stackoverflow for people with similar problems to the one you were trying to solve. Offer your tool as a solution. The higher the rating on the question, the more people will ultimately see it. 7. If you're just looking for stars, /r/coolgithubprojects is a good place to post. 8. Social media, probably. I don't use Twitter or Facebook so I wouldn't know, but if you're friends with a lot of coders it couldn't hurt.
+If you are reducing a array with 1000 items (you can do with more), theres no problem use array methods. If you are getting performance issues, the for over forEach/map/filter... only one thing to concern, because loop with 1000 items is not that bad in this days... With that said, i prefer use array methods for clarity and composition in my software.
+https://twitter.com/JavaScriptDaily
+this is why i have a github page and a stackoverflow account. if anyone wants to know about my skill level you can check my answers on stackoverflow and my github projects. if an interviewer ever asked to write an entire app from scratch i'd refer them to my github/portfolio, if that wasn't good enough i'd ask how much they're paying me to do the assignment, if they're not paying, i tell them to get fucked.
+I disagree with the author. Sounds like a good way of evaluating skills and commitment to me. People who give up because of the work, time and effort involved are exactly the kind of people I'd want to weed out on my hiring process.
+ myFn1(); // "value returned" myFn2(); // Error: myFn2 is not defined function myFn1() { return "value returned"; } const myFn2 = () =&gt; "explode!!!" myFn2(); // "explode!!!"
+Nope. We need a static HTML page.
+*ScriptyMcScriptFace
+Oh, so you want to compile static HTML, not just serve it. Honestly you're making life a lot harder than it needs to be by not using the modern tools out there.
+&gt; If I'd been able to spend the night with it, it would have been complete and pretty much perfect Totally, but the whole OP is about how that's effectively just unpaid work.
+It's fine to use ®Javascript™, a registered trademark of the Oracle™ legal corporation. 
+Right, what I was saying is that I think the on-site, time limited version is more informative anyways. So while "exploiting my time" might not bother me personally, it's not a strategy I could defend if it's not actually serving its purpose. 
+Yes compile static HTML. I don’t need a 150kb js framework for a 40kb html file. 
+So use Universal or any of the other four thousand back end js frameworks to send this up. It's literally what they do.
+And i want to use modern tools. But not Angular/react/vue. That’s not a SPA.
+Totally agree, and this happened to me recently. The assignment made me more confident and I was able to show off my front end skills as a whole. I found it much better than answering questions about the nuances of JavaScript. At the end of the day, it's a learning process, you don't have to be paid for every single thing to do especially if it's advancing your career. Sometimes you got to put in the work. And the argument that "I have too many interviews going on" is weak. You are interviewing them too, so if you have the luxury of being able to choose between companies, you should choose which assignments you'd want to do.
+Thanks, I appreciate it!
+If my skill as a programmer isn't obvious in an hour or two of pair programming, there's a problem somewhere. If I'm doing technical interviews (mid-level), I'm going to ask for some quick code concerning how closures work. If that is answered, I'm going to ask a couple followups that actually test your understanding a bit to make sure I'm not getting a memorized answer. If it's a senior-level position, I'm probably going to ask something like "convert this ES6 class into ES5" just to see how well they understand prototypes plus a general discussion about programming in the large (understanding the big picture is an important senior skill). In follow-up coding interviews, I'm going to build something with them. We use React at the current company I'm working with. I'm going to spin up react-create-app and build something based on their claimed experience level. If they are beginners, a simple widget to make sure they know the basic things like render, state, or JSX. If they are intermediate, then children and lifecycles will be in the test along with whichever state management they use. If they are senior, then they can expect to do a higher-order version of the intermediate project. In all cases, they will be asked about things they aren't likely to know because discovery and teachability are important things to know about a potential team member.
+Check out [http://kamranahmed.info/driver](http://kamranahmed.info/driver). I haven't had a chance to use it, but it looks like what you need. Here's a link to the git hub http://kamranahmed.info/driver 
+Hey chill out with this. r/JavaScript is about picking new a name. Where have you been the last 10 hours 
+Thanx but NO We need simple stuff not Angular we will pay 50$/hour ..
+It's beginning to sound like companies assume they are entitled to highly qualified personnel without doing training and educating that personnel themselves. 
+Once again this process works for some people and not for others. It also depends on the position you are hiring for. Skill levels, remote/local, student etc. It's not a one size fits all. I personally prefer take home because I can spend as much or little time on something as I feel. I can be immaculate or lazy. I don't like someone watching me while I work unless I know them and chosen to pair with them.
+Out together with other old-fashioned ideas such as "apprenticeship" and "training" and "vacation" and "overtime pay."
+&gt; I’ve done some of these, none were designed to take more than a couple hours. I guess maybe there’s companies out there that give longer ones. A few years ago that was my experience as well, but I happened to look a few months ago, and several places gave me tasks that took at least a day to work through. I did a few of those, actually, but ultimately found out that this kind of time wasting was a good predictor of a bad interview experience. I've also seen how "objective" this is from the other side, in my old company: when a woman passed the exercise perfectly, the dudes just assumed her boyfriend had to do it. On the other hand, one company showed up with an assignment to do _code review_ on a provided pull request. That was far more interesting _and_ respectful of my time (IMO), unfortunately they replied a bit late and I was already signed up elsewhere. 
+This app is garbage, and Google putting its name behind it is a crying shame! if you want something fun use this http://compute-it.toxicode.fr/ 
+*ComputerTechnologyScript
+Yea, it's 2018 so let's use `for` loops. Preferably with `var`. It's not like every single browser (and Node, of course) optimizes array methods by caching the inline functions, making array methods actually faster than a garden variety unoptimized `for` loop...
+Holy es6
+This was really incredible to go through. Thanks
+Mithril.js
+You don’t need a JS framework or templates. Here is a simple solution: 1. Put your content in divs with the `data-lang=&lt;lang&gt;`. 2. Use style attributes to hide all but the default language. 3. Use JS to read the querystring and show/hide the appropriate div. An even simpler solution is to use path-based language mapping (e.g. /en/index.html and /fr/index.html). 
+&gt; when a woman passed the exercise perfectly, the dudes just assumed her boyfriend had to do it. wtf
+This also happens for UI/UX designer jobs. I had the chance to participate in 3 assignments that took me a lot of energy and time to complete. I had to design an app, present the user flow, with ideas and charts and I didn't get any of those jobs. It's like they test your design thinking, but at the same time I feel like I was giving them a lot of ideas for them to implement and it didn't feel right at all... 
+Welcome to IT. We hope you enjoy your stay.
+Hey everyone! Author here. Let me know if you have questions and I'll do my best to answer them.
+Multiple languages are not as simple as first thought, because the text width is not the same and maybe even new line happened I use vue.js to do this, pay visit the my new site (under construction) https://www.matinoshoes.com and change the language (bottom) 
+They are using a library to visualize functions. Processing.js?
+Try out not promoting your own articles here
+I haven't used this framework but I do use mutation observers to wrap DOM nodes. Having read through the code I just don't understand why they introduce complexity in certain places. The data api is just a wrapper for the native dataset. With this methodology I use many other parts of the DOM constantly so I don't really need random parts wrapped, just app-specific, missing, and verbose stuff. The action parser should be removed. I don't see the need to define a mini-language to essentially translate one event into another, e.g. 'click' means 'choose'. If 'click' means 'choose' then why not tell the button to fire a custom 'choose' event? The event can be constructed according to dataset attributes without using a mini-language. And why do I need to name the controller in this mini-language when events bubble up anyway? Can't the controller just respond to a 'choose' event bubbling up from one of its children? Whether it's a native event, a CustomEvent, a delegated event, or a method send to parent, the bubbling semantic works nicely.
+With ES6 you can use expressions and multi-line strings, you can use that for your template purposes. 
+Gulp, and Grunt are no longer needed. Webpack is all you need anymore.
+*Not Object-oriented nor Typed Script... NOTScript
+I haven't played with it myself, and to be honest i hate storing data on DOM nodes
+&gt; var currentIndex, temporaryValue, randomIndex; &gt; currentIndex = array.length; It's just the fact that one of them included the assignment that throws off the readability a bit more. 
+i like
+Assume they defined it and proceed onward.
+Talking about ProseMirror and React, I think [editor from Atlaskit](http://atlaskit.atlassian.com/packages/editor) worth a look
+An issue with the functional inheritance example, while you're making the point of the props value being private, the original props from the lambo object are still there as well. So you end up with an object with two props objects, with the same properties initially, one private and one not. Just a bit weird. However, if lamboShell is meant to be a reusable piece, then there is also an issue in that the non private version is still the same object as the one on lamboShell. So for example, skipping the setter and running `lambo.props.colour="red` is actually changing the lamboShell, meaning misuse of any lambo object would alter all future lambos created from that shell. Not a big deal if it's used properly, but if you're going to the trouble of setting up privileged methods and private data, you'd probably want to address that as well. 
+Thanks! I knew Atlassian had decided to use ProseMirror for their editor framework, but didn't know they'd released a UI for it.
+They clearly are doing this to a small indie developer because they know they can outspend them in legal bills. Apple, Google, Mozilla, Facebook all use the term JavaScript all over the place and have never been questioned. This is the worst kind of action from a big company. Pick on someone your own size (literally)!
+None of that is composition (nor HAS-A nor USES-A). Unfortunately it looks like you learned from Eric Elliott and/or MPJ, because [they got composition wrong](https://www.reddit.com/r/programming/comments/5dxq6i/composition_over_inheritance/da8bplv/) in exactly the same way. &gt; Classical inheritance typically creates an is-a relationship but in a way the mental model of has-a or uses-a is easier to grasp, which is achieved using composition. Though, you've nonetheless implemented IS-A. The way you can identify [IS-A](https://en.wikipedia.org/wiki/Is-a) -- independently if the names you call it -- is "A’s specification implies B’s specification." Or in other words, B is substitutable for an A. For example: function accelerateThenBrake(anythingThatSatisfiesVehiclesInterface) { anythingThatSatisfiesVehiclesInterface.accelerate(); anythingThatSatisfiesVehiclesInterface.brake(); } accelerateThenBrake(vehicleMixin({})); accelerateThenBrake(lambo); I can pass a lambo to a function expecting a vehicle because lambo's specification implies vehicle's specification. A vehicle is substitutable for a lambo. Real composition would look like this: const vehicle = { set (name, value) { this[name] = value; }, get (name) { return this[name]; }, accelerate () { this.speed += 2; console.log(`accelerated: ${this.speed}`); }, brake () { this.speed -= 4; console.log(`braking: ${this.speed}`); } }; const lamboShell = { colour: 'orange', speed: 0 }; const lambo = { // lambo HAS-A vehicle. More specifically, we are *not* mixing-in vehicle. // Instead we are holding (HAS-A) vehicle object. vehicle: Object.create(vehicle), // lambo HAS-A shell. More specifically, we are *not* mixing-in the shell. // Instead we are holding (HAS-A) shell object. lamboShell: Object.create(lamboShell), // Now lambo goes on to implement its own unique interface, // and it *uses* its vehicle and shell objects to implement that interface. pressGasPedal() { this.vehicle.accelerate(); } pressBrakePedal() { this.vehicle.brake(); } };
+Mission failed. We'll get 'em next time.
+I'm a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit: - [/r/learnjavascript] [I built a simple React-Redux app that fetches data from Reddit API](https://www.reddit.com/r/learnjavascript/comments/8dpqpv/i_built_a_simple_reactredux_app_that_fetches_data/) - [/r/reactjs] [I built a simple React-Redux app that fetches data from Reddit API](https://www.reddit.com/r/reactjs/comments/8dpqv7/i_built_a_simple_reactredux_app_that_fetches_data/) - [/r/webdev] [I built a simple React-Redux app that fetches data from Reddit API](https://www.reddit.com/r/webdev/comments/8dpqto/i_built_a_simple_reactredux_app_that_fetches_data/) &amp;nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don't vote in the other threads.) ^\([Info](/r/TotesMessenger) ^/ ^[Contact](/message/compose?to=/r/TotesMessenger))*
+"Please do my homework for me"
+That was fantastic, highly recommended for those that are learning a new system (your plugin, especially) can be used to create documentation that would make more sense than the hastily constructed docs that are missing gaps
+Good bot. 
+seems cool, will definitely try it out
+Quick fix. Your "Generating a cipher key" section should probably use [PBKDF2](https://nodejs.org/api/crypto.html#crypto_crypto_pbkdf2_password_salt_iterations_keylen_digest_callback). The [node documentation](https://nodejs.org/api/crypto.html#crypto_crypto_createcipher_algorithm_password_options) explicitly recommends it. &gt; The implementation of crypto.createCipher() derives keys using the OpenSSL function EVP_BytesToKey with the digest algorithm set to MD5, one iteration, and no salt. The lack of salt allows dictionary attacks as the same password always creates the same key. The low iteration count and non-cryptographically secure hash algorithm allow passwords to be tested very rapidly. &gt; In line with OpenSSL's recommendation to use PBKDF2 instead of EVP_BytesToKey it is recommended that developers derive a key and IV on their own using crypto.pbkdf2() and to use crypto.createCipheriv() to create the Cipher object.
+It says MIT in the package.json, does that not count, bot?
+Check if there is a XMLHttpRequest object in the browser. If there is, use that, if not, use Microsoft.XMLHTTP active x object (Guess which browser needs that...) Subscribe to its state change event. If it changes check if the state is 4 and the response is 200 (means OK HTTP response) and replace the content of the DOM element with id adiv with the string returned from the ajax request. respons eText should be responseText Make the ajax request with the xmlhttp object to the showtopic.php page.
+The first if constructs either one of two Ajax request objects, depending on whether the browser has the more modern version (not internet explorer, basically) Then it sets up a callback which will happen when the Ajax response comes back. If it is successful (200 status code) it puts the response text into a DOM node. Then, it actually makes the request, by giving it the address and some other options, and finally sends the request. When the request completes, the function from the second part is called.
+Oh yes okay! I tried that! Mistakingly there were routes to /profile/ that I specified in both those files under routes folder So yeah it did solve it. Thanks for helping out
+&gt; Replace &lt;img /&gt; elements with &lt;img-2&gt;&lt;/img-2&gt; What's the SEO implications of doing this? Won't Google find images and cache them on your site anymore?
+I think the (untested and only half-official) idea is that you need to distribute the actual license with the code. The license file is the legal part. The bit in package.json is just supposed to be a machine readable hint as to what to actual license is.
+If you want to keep the original array structure, you can filter out "Orange" from the inner array and assign it back to fruits like fruits[0] = fruits[0].filter(fruit =&gt; fruit !== "Orange")
+You might have a good reason to do it in this way but keep in mind [every time a user accesses your website their browser tells your web server which language they prefer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language). You should use this rather than making them go to a specific URL.
+^The linked tweet was tweeted by [@cassidoo](https://twitter.com/cassidoo) on Apr 20, 2018 19:29:10 UTC (0 Retweets | 2 Favorites) ------------------------------------------------- aww, new footer in the JavaScript Weekly newsletter 🙃 [Attached photo](https://pbs.twimg.com/media/DbP-lCoXkAEUb66.jpg:orig) | [imgur Mirror](https://i.imgur.com/aokAPbB.jpg) ------------------------------------------------- ^^• Beep boop I'm a bot • Find out more about me at /r/tweettranscriberbot/ •
+📅 2018-04-20 ⏰ 19:29:10 [(UTC)](https://www.timeanddate.com/worldclock/converter.html?iso=20180420T192910&amp;p1=1440) &gt;aww, new footer in the JavaScript Weekly newsletter 🙃 &gt;— Cassidy Williams ✅ ([@cassidoo](https://twitter.com/cassidoo)) &gt;🔁️ 0 💟 2 📷 [image](https://i.imgur.com/RsGifkb.jpg) &amp;nbsp; ^(I'm a bot and this action was done automatically)
+It's only a matter of time. I predict this will go to court sometime this year or next.
+Thank you both!
+&gt; a lot of the details I won't/can't go into simply because it will take too much time If you ever found the time, I'm sure the article would be much-appreciated. I found OPs Medium article and your follow-up post very useful, thanks.
+Thanks for reading my post. I was not expecting that to mutate the lamboShell when setting the `lambo.props.colour`. I'll update my examples to prevent mutation.
+There's nothing wrong with using class at all. If you really like OOP check out typescript too.
+Do they have jobs? Or is this what they tell you during an interview?
+It's probably due to the way the scroll event is triggered in different browsers switch scrollp { case scrollp &gt; $(this).scrollTop(): case $(this).scrollTop() === 0: $('.navbar').fadeIn(); break; default: $('.navbar').fadeOut(); break; } scrollp= $(this).scrollTop();
+I just read through it, and the linked guidelines post, seems fine. 
+I kind of scared of typescript, and really learning JS like crazy. But there is no way around typescript I guess, in the future.
+I assume this is only broken because you whipped it up as a quick example of the concept, but just fy, this doesn't work as "speed" is on lamboShell, not vehicle, so when you call `this.vehicle.accelerate()`, there is no this.speed to increment. 
+they have jobs and it's what they told me. shrug 
+I think jank and flash of unstyled content and DOM rendering jitter, and all that look cool!
+you can do JS OOP without typescript
+True. The lambo object would need an init method. const lambo = { // ... init() { this.vehicle.set("speed", this.lamboShell.speed); } // ... };
+Take small steps then. Spend a lot of time with JS and once you feel comfortable check out typescript.
+Thanks for catching that. I even referenced that part of the docs and somehow missed it. Will fix asap!
+Abstract Syntax Tree my pepes. 
+You can and should use both whenever the problem calls for it. It's not abnormal to have both OOP and FP inside of the same codebase. For instance, you may have a Square class that you can use to draw on the canvas. That's OOP. But how you interact with a Square or update a Square's position might be FP to keep it all sane.
+Fixed but WTF? Lol
+Good bot ... ?
+That's an immediately invoked function expression IIFE I'm ok mobile so here's a link about them https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+Nice work, i think you need to work a little bit on the Visual editor UI. 
+webscraper looks like a function that returns a function, which then gets called with console.log as its first argument. Equivalent to `var ws = webscraper(...); ws(console.log)`. As for the object, you can store it in a variable and pass the variable to the function instead of directly passing an object literal.
+Thanks for sharing this. I actually have a project that could utilize this for a collage feature. 
+Shame it isn't enough to have it in the json so that the license could be pulled down from a repo or added when you build or some other mechanic. :)
+&gt; As we know, there no real class in JS That's actually not the case at all. Let me share a story. A while back, I was using Python. Python has classes and inheritance, and at first I just assumed they were Java/C++ style classes. Later I found out Python classes could be monkey patched, and that already existing instances would immediately reflect the new behavior of the patch. How could that be? Turns out Python's class and inheritance mechanics match what we JavaScripters would call prototypes. Python has been around longer than even Java, and all this time its inheritance has been objects linked to other objects. And the same is also true for Ruby and Smalltalk. In turns out a lot of the behaviors that we thought were unique to JavaScript can work just as easily in those other languages. https://imgur.com/p9Kw815 And to top it off, it also turns out that JavaScript's [objects](https://github.com/Jeff-Mott-OR/javascript-cpp-rosetta-stone#objects) and [arrays](https://github.com/Jeff-Mott-OR/javascript-cpp-rosetta-stone#arrays) and [functions](https://github.com/Jeff-Mott-OR/javascript-cpp-rosetta-stone#function-objects) are also "not real" -- that is, not implemented like their Java or C++ counterpart. JavaScript's objects, for example, are hash tables. JavaScript's arrays are also hash tables. And JavaScript's functions are callable hash tables. &gt; Which is better A blend of both is best. Try not to get religious or dogmatic about either one. Use them both where they make sense.
+What's the point of using a Web Worker? Is there a measurable difference?
+The `img` is replaced on runtime by ECMAScript, so the crawler would just see the `img` without the ECMAScript running and treated as usual.
+For what? JavaScript is a trademark without owning the language or API itself. Sun trademarked the name back in the 90s when LiveScript was re\-branded JavaScript by Netscape / Mozilla in order to protect the Java trademark. This isn't like Oracle vs. Google over the APIs of the Java language. Here, Oracle owns the name and not the specification, Ecma International does. Oracle will argue that they are protecting their trademark and really it is protecting one trademark to protect the one that they want to cash in on: Java There are some interesting things happening in Java land at the moment as well, so this might be the start of it. It's shitty behavior, yes, but the community \(or ECMA\) just needs to adopt another name, preferably one with interests of the betterment of the web. It's too late to go back to Mocha, because that's a pretty simple solid name. But W3C and TC\-39 need to deprecate the term javascript from use in the browser and support a new name for the language.
+Oracle waited way too long to defend their mark. It’s in common usage now and it’s legally possible they could lose the mark if ever challenged.
+Don't even think about it.
+These are equivalent: const foo = 'hello' const a = {[foo]: 1} const foo = 'hello' const a = {} a[foo] = 1
+If `const foo` is not a string, but instead is a function, what does `const a` 's key look like?
+Thank you for advice, will check that
+The string representation of the function, but that's something you'd probably never want to do. Even in your original example, xObj and yObj aren't functions, they're the results of (return values from) calling functions.
+People who are already employed aren't going to be spending days doing unpaid homework either.
+Is this being parsed by the TypeScript Compiler by chance? Because if it is, it would compile to this. someFunction({ [xObj], [yObj] }) 
+This looks promising and exactly what I’m looking for but not for Jekyll. I’ll see about helping with those To Dos though when I can
+Nope, no TypeScript involved.
+`String(foo)`
+Ha, small world scrolling through recognised the picture. Finally someone online I've worked with haha.
+There is no reason to load the common modules early in the app lifecycle just because they are shared. You can avoid duplication by being smart about the way the dependencies are requested.
+Glad you appreciated it, thanks for the star :)
+Do all crawlers run full (or near) client-side emulation nowadays?
+Great lib! Reminds me of Ruby magic.
+Great article =) 
+do we need two of these?
+yes i agree, people do get those errors and i make errors too. I guess for me it does not warrant an entire new language (allbeit similar) and a new heavy heavy dependency in the stack unless it gave me more than type erros . I def realize this is just an opinion at this point . I will say if it gave me something that i could not do before, for instance , a way to compile to into web assembly my stance changes. 
+Would you recommend I start that or keep on with freecodecamp? I'm sorry and know I'm not part of the discussion, but I am desperate for career switch and want to change my life. Thank you for your time!
+&gt; document.getElementById("user").value = output; should be &gt; document.getElementById("user").innerHTML = output; 
+You're comparing `innerHtml` with a String. This can work if you're sure you only have text in there, but often results in bugs. You should use `innerText`. But that's not actually the issue here. You are trying to pull from an input, not a DOMNode. You need to use `.value`.
+Can’t set value on a paragraph tag. 
+Some explanation and annotated code below: // Store your object beforehand to use later let obj = { title: '.redacted | trim', author: '.redacted | trim' }; // Use object when calling webscraper and also store function that it returns const functionThatScraperReturns = webscraper('url', '.redacted', [obj]); // It looks like the function webscraper returns now accepts a function as it's first argument. It appears the returned function calls the callback with some text. Because console.log is a function, you can pass it in directly, but you can also do something like: functionThatScraperReturns((text) =&gt; { console.log(text); });
+Side note if relevant: etherium does not function and a decentralised exchange is not possible 
+`webscraper` returns a function which takes a callback. Presumably `webscraper` is a asynchronous, and passes the results to the callback. 
+It computes the expression in the brackets so you could set const obj = { [‘my’ + ‘string’]: ‘foo’ }, and then obj.mystring is ‘foo’.
+No it wouldn't. Those are arrow function definitions, not function types. And `someFunction({ [xObj], [yObj] })` isn't even valid JS.
+`ReferenceError: Tone is not defined`
+I'm not checking reddit every day... Here is my implementation in Node/Express: ``` /** * wrap asyncfunctions with an error catcher * @param {array|function} target - fn may be wrapped * @return {array|function} - task is triggered only when keyword 'async' is found */ const asyncWrapper = (target) =&gt; { const unnamedWrapper = (fn) =&gt; (req, res, next) =&gt; fn(req, res, next).catch(next); const namedWrapper = (fn) =&gt; Object.defineProperty(unnamedWrapper(fn), 'name', { value: fn.name }); const evaluator = (fn) =&gt; _U_.object.checkNativeBrand(fn, 'AsyncFunction') ? namedWrapper(fn) : fn; const type = _U_.object.checkNativeBrand(target); if (type === 'Array') return target.map(fn =&gt; evaluator(fn)); if (type.toLowerCase().includes('function')) return evaluator(target); throw new TypeError(`Argument is neither an Array nor an AsyncFunction but a ${type}.`); }; ``` It just a snippet so don't directly use it, I also have a special function from my own tool module (`object.checkNativeBrand `) that will tell me what is the type of the object. Here I also wrap the function name in the output, just make my error stacks looks nicer when I'm debugging.
+do we need two of these?
+You could avoid JS in step 3 by using [the `:target` selector](https://css-tricks.com/almanac/selectors/t/target/) which reads from the url's #hash.
+Thanks!
+Is this actually a good user experience — I can’t but help think that lazy loading of images is a great idea for developers , but shitty for end users on a decent connection. A single page or view should be able to keep loading content in the background while a person reads. Instead what annoys me about Medium and other implementations is that I still need to scroll “ regions “ into view * and then * the loading happens. There should be a reasonable expectation the full article will be viewed , and cache that beforehand.
+Thanks I figured that out.
+Good bot
+As a writer, who presumably wants others to read your writing, the most important thing is credibility. If you don't have credibility, why would anyone read anything that you've written? By inventing a "context" in which "Node" is a programming "language" (protip: "wrong" is *not* a credible context), you demonstrated a lack of credibility. What's worse is that you did so right up front, giving everyone with even a casual knowledge of the topic a reason to immediately stop reading. Now you're going to double down on that mistake and insist that it was intentional? Zero credibility. First rule of holes, my man: stop digging.
+Quick note if OP is writer - I couldn't read the page because the subscription popup blurs the page and the popup is not displayed for some reason (at least for me, I tried disabling my adblocker too)
+this special syntax is called JSX. react transpiles it to javascript. you can read more about it at the official react docs
+React itself doesn't actually allow any new syntax. You have to use an interpreter called Babel to transpile jsx code into valid Javascript. You can read more about it here: https://babeljs.io/docs/plugins/transform-react-jsx/
+Thanks :)
+I've been using [inquirer](https://github.com/SBoudrias/Inquirer.js) recently as an alternative to a task runner. I use it for dev tasks that I don't run frequently - and always forget their task name. By using inquirer, I can just run `npm run devtasks` and it will give me a list of tasks I can run. Here's a screenshot: https://i.imgur.com/MKgq2hR.png The code: const inquirer = require('inquirer') const tasks = { ...require('./createEnvFile.js'), ...require('./bumpAppVersion.js'), ...require('./packageApp.js'), } const promptOptions = { type: 'list', name: 'taskName', message: 'Choose Which Task To Run', choices: Object.keys(tasks) } inquirer.prompt([promptOptions]) .then(({ taskName }) =&gt; { console.log(`running ${ taskName }`) tasks[taskName]() }) 
+Yes or else react and angular websites would not show up on Google 
+This is a little OT, but does anyone know the reason why the `_.range` method for both underscore and lodash don't include the last number in the range in the output? http://underscorejs.org/#range https://lodash.com/docs/4.17.5#range
+Good bot
+woof woof ^^^^Adopt ^^^^me ^^^^by ^^^^replying ^^^^with ^^^^'adopt' ^^^^Only ^^^^one ^^^^adopt ^^^^per ^^^^comment.
+...and that, kids, is how you end up a garbage developer working with other garbage developers, for ever and ever. Even _after_ university, a developer with no apprenticeship is just a developer with more rope to hang themselves with. Nothing can replace workplace training, and its lack is all too obvious in the IT industry. In turn, for most jobs, workplace training is a more than adequate replacement for universities. 
+from what I read a couple of months ago it's only Google. simply because it's very expensive to crawl with js bots. so yes on Yandex, bing and other search engines it's mandatory to opt for server side rendering solutions when using this and/or frameworks like angular, react, Vue, etc
+http://jsfeeds.com/ &amp; https://echojs.com/ are two of my favs.
+Thanks for sharing your open source project, but it looks like you haven't specified a license. &gt; When you make a creative work (which includes code), the work is under exclusive copyright by default. Unless you include a license that specifies otherwise, nobody else can use, copy, distribute, or modify your work without being at risk of take-downs, shake-downs, or litigation. Once the work has other contributors (each a copyright holder), “nobody” starts including you. [choosealicense.com](https://choosealicense.com/) is a great resource to learn about open source software licensing.
+You are entitled to your opinion. 
+This is brilliant, I'll have to check this out
+How does Bable translate jsx?🤔 does it use some string manipulation like Regex to get different parts of the code and rearrange them? 
+This is know as lex parsing. They wrote a language interpreter / tokenizer. Basically wrote their own langauge inside for jsx. This is a research project for you to look into, and it's a deep rabbit hole with no end in sight.
+Welcome, but you'll find that Javscript is more of a language where you ask why something isn't working rather than how something is working.
+Here's the transform: https://github.com/babel/babel/blob/master/packages/babel-plugin-transform-react-jsx/src/index.js Basically it simply rewrites tags into functions: In var profile = &lt;div&gt; &lt;img src="avatar.png" className="profile" /&gt; &lt;h3&gt;{[user.firstName, user.lastName].join(' ')}&lt;/h3&gt; &lt;/div&gt;; Out var profile = React.createElement("div", null, React.createElement("img", { src: "avatar.png", className: "profile" }), React.createElement("h3", null, [user.firstName, user.lastName].join(" ")) );
+That sounds so fustrating. Take a look at freecodecamp.org. try some of the web development challenges there.
+Yes, on modern browsers. Here’s a CodePen: https://codepen.io/lyuanqing/pen/bMdXgY (The module uses some syntax eg. `async/await`, template literals etc. which aren’t support in IE11.)
+This makes sense, but that const in the transpiled code threw me off. I thought Babel removes all ES6 for browser compatibility.
+Facts are rarely relevant to blockchain hype.
+Why the downvote?
+&gt; HMAC, or Hash Message Authentication Code, is a means of verifying the authenticity of a message and that it’s contents haven’t been tampered with. Worth calling out here, depending on the encryption mode (what mode is used here?) AES without a MAC isn't just able to be tampered with, it's able to be broken and reveal the plaintext in many cases. I wrote a Ruby framework to automate this attack. https://rubygems.org/gems/paddingoracle
+I wouldn't blindly jump into a library without knowing why. fetch() is never a problem for me, so I'm curious what's going on.
+It’s preety easy to make a app that behaves like SPA without all the hipstery. XHR and partials from server make wonders...
+What license do I use if I want to say you can do whatever you want with it I don't care.
+Many useful
+Look at it from the perspective of the owners of the app store. Why would you not retain full control of anything that goes on in it? I don't see how that's fucked up at all
+wht an awful site
+https://choosealicense.com/licenses/unlicense/
+Why use an api that requires proxies and incurs a performance hit instead of tagged template literals or something? const i = tp`HALF AN HOUR`;
+I'm biased because I love FP (after many years of doing OOP), and I have basically started to view the use of a class as suspicious. Or even the use of `this`. Why? Because of what FP offers in the form of maintainability, reasonability, and testability that is much harder to accomplish with OOP. Usually there is an FP approach that is better. That is not to say that I don't use OOP. Classes are still excellent to create certain abstractions that I want in order to unlock more FP goodness, such as a Maybe or Either. And sometimes, OOP will be the correct answer when things such as life cycles are needed (see React's class versus pure function as an example). FP is something that takes an effort to learn and really appreciate, but it does result in less code overall. Choosing FP might be a hindrance if you're struggling to grok it, but I do think that, objectively speaking (pun intended), it's the better paradigm. JS is a perfectly suitable language for FP. 
+This seems very relevant in 2018.
+These are type annotations commonly used with [flow](https://flow.org/en/docs/types/) and [typescript](https://www.typescriptlang.org/docs/handbook/basic-types.html). With documentation, you have things like [jsdoc](http://usejsdoc.org/tags-type.html) which also supports typing like this, but using [closure](https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler#type-expressions).
+Nice! But why are you using two loaders for js and jsx files? You could use a rehex to match both of them Do you plan to make a production webpack too?
+I'm not answering your question, but I would consider using something like webpack. The problem with using less popular technology like gulp is that there isn't as much community documentation about how it works. If bugs crop up, there are less people who are likely to have run into that bug, and it's less likely to get reported to maintainers. There's nothing wrong with gulp, but I can tell you that if you did decide to use webpack, it would probably take 15 minutes of reading their docs (they have pretty good documentation). If you really need to stick with gulp, you might want to look at something like browserify, but once again, that kinda "lost" to webpack, so I don't know how well it is still maintained.
+I've actually been asked (and now ask) how to make an LRU cache as an interview question. It's a good conversation for data structures. A hashmap+DLList is the canonical way to do it. As such, I appreciate the fact that this implementation is so short. It's by the book.
+As you are getting into react, it's really important to understand what jsx is actually transpired into (React.createElement). All the quirks of jsx can be explained by that. It means any thing you could do with an object (the return of React.createElement), you can do with jsx.
+A great website, but that comparison between vanilla JavaScript and jQuery on how to fade out an element is really more of an argument in jQuery's favor...
+Web pack is at 3.2 million downloads in the last 7 days, while gulp is at 850k. Also, what you want to do is incredibly easy. React or not, you need to set up the same babel transpilation (react transpile is just a plugin for babel). I guarantee Web pack will be much easier and faster, and it's got the support of the community.
+Thanks for pointing it out. I was getting an es lint error for using jsx content inside a js file. Can you create a issue so that everything will be noted there so that it will be easy to fix. And yes by today production will be done within a day or so.
+it's also a pretty awful way to fade out an element. requestanimationframe or CSS transitions should have been used instead. Or the web animation API, if available.
+It’s cute to be smug about vanilla JS, I guess, but it’s not a viable option when you have to build an app with complex UI, state management, routing, MVC architecture, etc.

@@ -1,0 +1,949 @@
+&gt; CPython can get away with doing it for some integers because they are immutable. Want to blow someone's mind? Have them try to explain the difference between these (in CPython) : &gt;&gt;&gt; -5 is -5 &gt;&gt;&gt; -6 is -6
+I created a search engine bot. It would parse Google news pages and hacker news to get the latest headlines. Then search Bing with the headlines to earn rewards points. I got $20 in credit before I got banned. So I got rocket league.
+PySide.
+I wrote several functions to extract, assign ids, and replace text from intents. Even group them and re-separate them for better readability. The intents I'm talking about are [API.ai](https://api.ai/) intents.
+Strings are immutable
+Nah, he has just made it very clear that he doesn't care about privacy, as well as a bunch of other stuff that rubs me wrong which I won't get in to. Mostly I just don't like the guy.
+I made a thing which heavily utilizes tkinter earlier this year: https://github.com/mjsprengel/GravitySim/blob/master/GravitySim.py What I can't figure out is what's causing an error which traces back to the delete function. The program functions as intended, but upon exiting the interpreter spits out a bunch of errors. 
+Nothing profitable, but I did use python to scrape the hell out of the Autotrader website for a few weeks to find a good deal on a used car. 
+7 figures
+Thad awesome! I would love to learn more about this if you would be willing to share. 
+I would expect they would have to do the same to python at their scale. 
+Anything is possible, I'm sure you could rig up some UI testing library to do it for you but probably not in Python. Snapchat makes doing things like this difficult on purpose, if you really wanna do it just put in the time to reverse their requests and hope they don't make breaking changes often.
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is more-so dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community can get disenchanted with seeing the 'same, repetitive newbie' questions repeated on the sub, so you may not get the best responses over here. However, on /r/LearnPython the community is actively expecting questions from new members, and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. Whatever your question happens to be getting help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is more-so dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community can get disenchanted with seeing the 'same, repetitive newbie' questions repeated on the sub, so you may not get the best responses over here. However, on /r/LearnPython the community is actively expecting questions from new members, and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. Whatever your question happens to be getting help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+Whops 
+Not really. There's a good episode of Either *Talk Python to Me* or *Software Engineering Daily*, I can't remember which, where they are interviewing a guy from facebook who's whole job is being "The Python guy". The main difficulty they've come across is migrating from 2 to 3.
+Yes and 20% every year is not very believable. That is why I was asking for a chart or data on his portfolio to back up his claim. A realistic portfolio has both ups and downs. Contrast that with fake portfolios: "[Bernard Madoff claimed an average annual return of better than 11% but with very little volatility...](http://articles.latimes.com/2008/dec/13/business/fi-madoff13)". High returns with very little volatility is a red flag, and here is a guy claiming 20% every year.
+Migrating side apps projects to python3 and docker. Everything is getting pushed to docker-swarm cluster. 
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is more-so dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community can get disenchanted with seeing the 'same, repetitive newbie' questions repeated on the sub, so you may not get the best responses over here. However, on /r/LearnPython the community is actively expecting questions from new members, and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. Whatever your question happens to be getting help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+Sad!
+Software and computers were part of electrical engineering before that. Most software isn't safety critical.
+You're not going to like this, but the answer is unit tests. Preferably with TDD
+I sold the company I work for 2 programs this year. One is a data analysis tool and another a call center webapp that does some stuff for our salespeople. Might reach out to some competitors in the area and see if they could use the programs too.
+lose money, 1 digit at a time
+Have you run into any ban problems due to too many requests?
+tbh this is super easy to get around. Rotating headers and IPs Proxies with rotating IPs can be had for like ~$15 a month
+lol?
+How do you sell the company for which you work some code you wrote elsewhere? I'm assuming you're a developer... wouldn't everything you mal just be part of your job?
+No, but I only tactically hit them a couple of times a day for personal use. I try to be courteous.
+Working through "Violent Python" in preparation for taking the OSCP course and cert exam. Anything to avoid using shell scripts lol
+I'm doing it that way because It's not in the Linux repositories and I can't install it from downloading the file directly so that's the only way I found 
+Dat license though
+This was just posted recently
+ On 6 figures. Fair question. We are all risking something, time, money, all of the above.
+Excluding, but funny.
+Check the tkinter widgets, if it has what you need, go with that. The lack of a list widget has lead me to PySide before, and I wasn't disappointed. Never had to deal with licence issues though.
+To a degree. I automated some thoughts I had and backtested them. It worked better this year than last year.
+Like others here I love to hear more.
+So fucking get this. I've got this job, right? 9 to 5, a picket fence, American dream type shit, right? They pay me a salary, big fucking deal. Here's the thing, though. Every day -- I mean EVERY FUCKING DAY. For a couple hours I ain't working. I'm on the phone, answering emails, "synergizing". And get this, I don't clock out. I just sit there. People typing on their keyboards -- I'm staring at ceiling tiles, planning my vacation, reading the day's current events. But the money comes in. Doesn't matter. I sit there and absorb that shit. My company pays me for 40 hours but motherfucker if I do 20 its a rough week.
+&gt; any design or plan/procedure that requires special knowledge of mathematical, physical, and engineering sciences But not aircraft or spacecraft, where the margins are 1.4 because that's what the statistical variation in the metal actually is. If you're not using aluminum/steel, you use a different factor.
+Or vice versa. Such an uncomfortable awkward feeling. 
+I did 400% this year, bitcoin. 
+Facebook also uses C++ on the backend. They developed a compiler called HipHop for PHP that would translate PHP code into C++ and compile it. I read it was discontinued in favor of something called HipHop Virtual Machine which for the sake of brevity does the same thing. https://en.m.wikipedia.org/wiki/HipHop_Virtual_Machine
+tkinter sucks bad for anything non-trivial
+If you don't believe him, I fail to see what plotting the same number you don't believe in a chart will do...
+They also aren't running the entire user-facing product on Python, so you can't compare having to branch PHP at that scale to their Python work. They aren't doing the same job, so you can't say that they wouldn't have had to branch Python if they were trying to run millions of requests per second through it, like they are with PHP. You're comparing apples to oranges.
+Everything I do is TDD.
+No qt 5 support unfortunately. 
+It's still a little young as a project but you should checkout Toga. It has a lot of promises. http://pybee.org/project/projects/libraries/toga/
+I really like this idea and hope you are very successful in your future work.
+!smartifythat
+There are plenty of places to find historic quotes. Both Google and Yahoo have free services for retrieving this.
+Nice! And... what about Blender? BTW, why Python 2.X? Blender uses 3.X? 
+I would like to be your friend.
+I don't suppose I could get you to talk through your process in getting your bot visible? I've tried a couple of times to write reddit bots. They always get trapped in capita land and never make it out... 
+Askreddit. Bad Jokes. 2 comment karma is usually enough.
+!smartifythat
+I started a project in 2016 that I hope will make me money! I'm writing some software that analyses an engine file for a specific aircraft and stores the data in a database. Following that, they can generate reports over a specific period of time or generate graphs. Since it is for a fleet of aircraft, you can select by tail number or engine number, graph types, timeframes etc. 
+[removed]
+Hoping to finish a python project that makes $. Cryptocurrency trading bot. Hitting some walls though but would love to collab if anybody likes that python, trading and bitcoins
+Good luck and Happy New year, then :) 
+That's true, but the comment I replied to has a lot to do with it.
+This is really cool. Any on premises support in the pipeline? I could see us using this internally, but definitely a non-starter without on prem solution. Edit: Didn't read pricing close enough. Not available, but email support@pyup.io if interested.
+Creating a project for work that saves 400+ man hours is an achievement no matter how you did it! You should be very proud of what you've done :) Good luck with your next project! 
+&gt;They also aren't running the entire user-facing product on Python, so you can't compare having to branch PHP at that scale to their Python work. A good portion of Facebook's requests go through multiple load balancers and microservices before they reach one of thousands of application instances. You could definitely do the same thing with CPython. Many large web companies such as Instagram, pinterest, dropbox, reddit, eventbrite, disqus, quora, surveymonkey, venmo, youtube, and more are already doing so. &gt;They aren't doing the same job, so you can't say that they wouldn't have had to branch Python if they were trying to run millions of requests per second through it But I can say that because Python has already been forked into several much faster implementations such as Pypy and Cython. Python is more of a language spec than a language itself. CPython is the most popular and initial implementation of this language spec. Cython and Pypy are alternative implementations of a subset of the spec. &gt;You're comparing apples to oranges. Depends on if you define PHP as an "all purpose" PL or not.
+This is what I do. NodeJS front-end, with a Flask server on the backend doing the heavy lifting. It does kinda limit what I can do, but at the same time it's much easier than writing native applications in Python. 
+I wrote a few scripts trade the most active cryptocurrency on BitTrex https://github.com/metaperl/surgetrader
+GPL(PyQt, I believe is this license) requires you to release your own source code and that your code requires the same GPL license. Some of us that build commercial applications don't or can't do that. LGPL (PySide) does not. 
+PySide2 supports Qt5.6, you only have to build it yourself currently, as it is in an alpha phase, might enter official release this year (hopefully). Very easy to build it right now, though. PyQt has a stringent license. Never used Kivy personally, the first I've heard of it has been in this thread.
+What does it feel like?
+If his chart [looked like this](https://en.wikipedia.org/wiki/Exponential_function), then we would easily call bullshit. But if it had up and down months &amp; years and looked realistic then I'd believe him more.
+I've heard it argued that you only have to release source code to your clients is you use pyqt. I've never heard that your entire application needs to be gpl. Only that you have to give credit to pyqt in your application. 
+Unfortunately for me we use windows at my work and they aren't keen on me compiling. 
+The site has a great look to it. What packages did you use and how long did it take to create?
+Django's great, but I think Flask is more popular because it's lighter or easier to set up maybe.
+Presumably you mean Flask. Do you have experience by the two by any chance? I haven't tried Flask. Maybe I should.
+I'm asking why it's not more popular as a framework and CMS. When I look for job opportunities in that arena, 100:1 for Wordpress and Django then 30:1 for Drupal and Django. I'm surprised because after spending just a week studying Django, it's clearly a winner at least compared to Drupal--Wordpress serves small project needs well in my opinion.
+!smartifythat
+I mean whatever works for you doesn't necessarily work for everyone else. I use django a lot and I have done a couple of projects with other frameworks but they all feel convoluted to me as compared to django. At the same time I have put in so much effort in learning everything about the ecosystem including reading the source code that I am comfortable using it. The same could be said to people who use PHP. We all resist change until change becomes part of the norm and that applies to languages, and frameworks.
+i lock up to be a first-class life span to go back and i am i left out any one thing about it when she was jumping in in the vicinity to it we can go on the bus now and saving all that calisthenics as you can go in the we ee we get hold of eee 
+While I whole heartedly feel for individuals who are in positions that could be potentially be automated out, I think these things are an inevitability. I'm nervous this will come quicker then we can handle, I'm suspicious my mom would be someone affected and she's a good 15 years from retirement. We really need a plan now, and from what I've been reading universal basic income might be a good part of that solution.
+They are comfortable but also most of them are stuck in jobs that require them to use PHP. They hate it but they can't do anything about it but work with it. Also the django ecosystem kinda has a steep learning curve so it becomes very discouraging for someone trying to switch.
+Wow
+!smartifythat
+ dexterous are tenacious full stop 
+Even though PHP is pretty much faster now than Python, with its JIT in 7.0, Facebook still compiled it down to C++ to get every % of efficiency out of it they can, because that literally just saves them good money on their electricity bill. Transferring their main work to Python would bring up that bill by a TONNE.
+Nice project, like the context and your approach! You should definitely check out some Python standard libraries. For example the build-in configparser module of Python might be handy for your configuration.
+You're right. Sillier looking differences have made performance differences in the past. Also I made the edit there because I knew it was kind of silly xD I guess I should edit it again to be more accurate.
+In my particular case, it was the responsibility of each staff member to sign in/out on their own. So for any individual person it was only saving them maybe 5 minutes a day. But collectively over a year it was 400+ man hours a year. So it didn't take any individuals job, it just made many peoples job slightly easier.
+Tell that to people working in the food industry in 3 years. Or really, tell that to them now, as the manual labor replacement is already underway. 
+The Economist has a good article on the [pros and cons of a UBI.](http://www.economist.com/news/briefing/21699910-arguments-state-stipend-payable-all-citizens-are-being-heard-more-widely-sighing) For what it's worth, technological progress may render some jobs obsolete, but it creates more jobs than it destroys; take a look at the industrial revolution.
+The industrial evolution was also immensely disruptive to the job market at the time. That's what progress entails.
+Great work you're doing with KivEnt. 
+During the Industrial Revolution, there was room for new jobs, though. As it appears, there does not appear to be as much room for newer jobs not requiring higher education, so without higher education one does not have as good of a chance to find a "job doing banal tasks" as you put. And it's not solely low jobs that are at risk, higher-paying jobs like in the health industry have a HIGH likelihood of being replaced because their positions are capable of being automated. 
+Upgrading the system? LXC, son.
+But to be fare, with the industrial revolution there was no legitimate possibility of there being an all purpose machine that could do any job as good or better than a human. With the tech revolution AI has made that a possibility. 
+i think of r/catboys all the time
+Keep 'm coming girls, downvote!!! 
+Anaconda is overkill for this, just use the built in python with the wheels on pypi 
+If there's an all-purpose machine that can do any job better than any human, there will still be jobs for humans because of [comparative advantage.](http://www.econlib.org/library/Topics/Details/comparativeadvantage.html) If somehow all jobs in the world are taken over by AI, then that would be a different story. But then we'd be living in a post-scarcity society, and the tech revolution hasn't made that a possibility.
+[removed]
+I wrote almost the same script earlier this year but without dependencies. I have only tested it with Python 2. http://pastebin.com/zyZcnkVE It also has the added benefit of not crashing if the server is down.
+Not for long. IMO. Lets say we create the all-purpose machine for 100 trillion dollars. It's mildly better than the people that created it but it's super expensive so it doesn't have the comparative advantage to a human counter part in just about everything. But because this is by definition an all-purpose machine it can focus it's energy on creating not only more all purpose machines but probably better ones. Because I see no reason to believe that humans intelligence and ability have evolved to reach the maximum limit allowable by the laws of physics. It's rather ego-centric to think that we are the pinnacle of intelligence that's possible in our universe. In fact we could be quite far from it. So even if this all-purpose machine creates another all-purpose machine that's extremely expensive, as long as it creates a better all-purpose machine than itself, it is inevitable that the machines will be orders of magnitude better/smarter than us and it's descendants will have an "intelligence explosion" similar to the cambrian explosion . [Sam harris did a really good talk on this recently I recommend watching it.](https://www.ted.com/talks/sam_harris_can_we_build_ai_without_losing_control_over_it)
+&gt; MIT's got a great open course on Have you got a link please?
+smartifythat 
+Sweet! Some small notes: I'd use real settings(.py) rather than a text file. It looks like you're grafting a bit to take that text file apart. Maybe don't use the wildcard to import stuff because it makes code difficult to read. Explicit is better than implicit. Use CamelCase for classes. Use ALL_CAPS for constants, use lower_case for variables. This just helps readability. It seems your classes are really just "singletons" that hold useful functions. Possibly a more object oriented approach would be to think about the "objects" in your system. Some thoughts: People (with names, and other personal details) ID Cards (with serial numbers, linked to a person) Sessions (Time In, Time Out, linked to a person) You can then bundle functions with these classes to do useful stuff on those particular objects. You could write some tests for extra browny points! Anyway, looks great and it sounds like you've saved the company a lot of time.
+&gt;I think I was being too vague; that's not what i'm saying. Yeah, I know, I wasn't trying to say you were being ego-centric or anything. &gt;Or are you saying that it can create more machines to do all human jobs that exist Not only more machines, but better machines. Imagine if you had a humanoid robot that only needed to be shown something once, like brain surgery, and it would remember forever, the perfect way to do it. These human robots would eventually be way cheaper than any human. For everything. I'm of the opinion that there will always be "jobs" but that the amount and the amount of high paying jobs will shrink to a proportion a lot smaller than it is now. For every 1 job there is 100 people qualified to do it. Leaving most people screwed. Which would leave the world with extreme wealth inequality. The reason why technological progress creates more jobs is because we have never created an all purpose machine. There is nothing special about human work or economies. There is no law in physics that says *"Humans Shalt Always Worketh Hath"*. So yes historically that's happened. But if we create the all purpose machine then it's game over for most people, unless governments can change to UBI or something that doesn't damn most people to suffering.
+Is it not as simple as opening the file as with and the each line is a string in a list so you use a for loop with an if string in string? Or are you working on an optimized version of this?
+Leave it to capitalism to make it a bad thing to automate away manual human labor
+I use tkinter for really simple GUIs, but usually using the qt library is a good way...
+Honestly, a CS degree isn't really necessary. At least if you're around one of the tech hubs (Seattle, San Francisco, New York, Las Angeles, etc.). It can certainly be useful, and may come with the perk of higher _starting_ pay but having a portfolio of personal projects is really all that's required. Seriously, have personal projects that aren't completely crap? You can get hired. Especially if you're doing web dev.
+The post-RoR hotness is node.js. It's got a good community, libraries, configuration management framework, performance, and, most importantly as far as overall popularity is concerned, provides an easy vector for a frontend developer to become a full stack developer. In a comment you mention Wordpress and Drupal, which are also in the CMS category but are much more WYSIWYG than RoR/node.js/Django. The vast majority of Wordpress developers do not touch PHP, and many of them don't even touch Javascript. Plenty of people make good money wrangling the right set of Wordpress plugins into functional sites for small jobs - there are five plugins for almost everything you could imagine. There are also a lot of professional Wordpress hosting outfits, so spinning up a site requires no time in the shell either. Drupal requires a bit more glue, but is also pretty light in terms of how much middleware expertise is needed. In Python, Django is definitely the dominant web framework. Flask is growing and I suspect it will begin to take up more and more of a niche as companies move towards microservice architectures.
+&gt;I'd use real settings(.py) rather than a text file. Reason why I used a text file was so that non-programmers could change the settings if they needed to. In the easiest way possible. &gt;Maybe don't use the wildcard to import stuff because it makes code difficult to read. I'm sorry, I stupid. I don't know what you mean by that? Thank you though! Much appreciated. I need to polish my understanding of object oriented programming I think. 
+&gt; there's utterly no calculus or physics required for CS. depends on the University I guess, the ones I have looked at required Calc/Physics for CS.
+wow that's amazing, i am so inspired by your thoughtfulness and deployment, really! this is coming from a long time programmer!! good luck and let me know if you need any advice about programming as a career!
+So when I first started learning Python last month, I wanted the same thing. From what I gathered, Python isn't really about that. Most programs I have made are for back end, server side. Even the ones I've written for people, require them downloading Python first. I'd learn as much as possible with programming before getting into that. 
+Thank you! Yes I have a question. What's your opinion on self-learning/online-education in terms of employability as a programmer? From the programmers I've talked to and what I've read online, it seems like it's totally do-able and even financial wise to learn via cheap or free courses offered on platforms such as Udacity or Harvardx. And to teach yourself the skills. Although, it's a bit harder to get a job initially. I'm disadvantaged in the fact that I was forced to homeschool(highschool) with a ridiculous curriculum that isn't recognized at any university in my country and it taught ridiculous things like that evolution isn't true and that the earth is ≈6,000 years old. So the quality of my formal education is shit. However, I'd say I'm pretty advantaged in that I'm a self learning and with access to the internet I feel like I can learn a lot on my own. Such as computer animation and programming. I'm always experimenting with digital art and graphics and more recently programming. I figure that between my own projects and the occasional course online to fill in the blanks in my knowledge, I can get the same and maybe even more actually marketable skills for less time and money than going through the traditional route of a CS degree.
+Then your argument hinges on this: &gt;&gt;Are you also saying that AI can create more machines to do all human jobs that exist? &gt;Yes, eventually. It's only limit is the time it takes to create more machines. But it will certainly be able to do that at a faster pace than the human population can re-skill themselves for any possible new jobs. There are so many other limits. The resources you need to create those machines are finite. which means that the only way it would be feasible to create 50 billion robots for all the jobs in the world is if we lived in a post-scarcity society, where any resource is trivial to produce. 
+Good job :) I won't critique implementation but I will say as someone whom has been in the industry a while ... Back up these login/out files. Also probably not the most secure way to handle this as anyone can figure out the storage format and modify / add entries as needed. But seriously back these files up. Sync them in Google drive if you must.
+This is the Python equivalent of those people who use are experts at buying things with coupons. 
+Thank you very much for the help. I will try this when I get a chance. If I run into any problems hopefully you'll be willing to guide me more. 
+I am very serious about learning python and I think I already got an idea of what's going on with all the codes. I just wanted to know what I can do to make it into a finished useable program. That's why I made a simple test program to see how it would work if I was to give it to someone to use who doesn't know anything about programming. 
+I have been working as a Python developer for years and I have also been a Haskell hobbyist for a little as while, which has warped my thinking about programming in all other languages. In general, I tend to rely primarily on functions, depending on the kind of API I want to expose and whether or not a set of behaviors along with some state makes sense to encapsulate in an object. I just wanted to mention that I have gotten some pretty simple Python questions in interviews over the years and in a few cases (not all), I got a response along the lines of "I thought you were going to implement this using classes", and I began to believe that this response can sometimes expose a Java-centric mentality for writing Python. This is general, of course, and I am not shy about creating classes, but I like to use them judiciously. On the other hand, when I get this as a generic response in job interviews (to questions such as "write a program that opens a file and sorts the integers contained in it"), I think it can sometimes be a warning sign that the people interviewing me are reformed Java programmers who want their Python code to look like Java.
+&gt; from punchoutclasses import * The * is a wildcard, which means it matches all classes in the punchoutclasses module. And a settings.py file can be edited easily in any text editor and commented to be clear and easy to use. It's basically just a list of variables that you can import and check against in your code. I don't think it's really an additional burden on non-technical users vs a text file and it's FAR cleaner and easier for you. 
+Maybe intro courses in 
+I am a self-taught developer, but I do have a Bachelor's degree (in English). The thing that has been key in my career is working on open source projects and having a track record on github. In addition, it has been important to never stop learning, not only attempting to pick up knowledge I missed by not studying computer science, but also trying to stay abreast of current trends in the industry. Lastly, I have only accepted positions that offer opportunities for learning and I have looked for mentors at various points in my career. It's worked out for me. I don't think I could recommend to anyone else to follow the same education and career path, but I still love working as a developer and learning as much as I can every year. In your case, if you start incorporating your Python projects into your job over a couple of years, you build up a solid array of open source projects, and you continue learning (CS fundamentals in addition to Python programming practices), I should think you'd be able to find work as a developer.
+&gt; Reason why I used a text file was so that non-programmers could change the settings if they needed to. In the easiest way possible. In that case, consider using something like yaml. It's easy to parse data from but easy to write and read too. &gt; I'm sorry, I stupid. I don't know what you mean by that? He means this `from datetime import *` should instead be something like `from datetime import datetime`. It helps to keep your local variables clean but also makes your dependencies more clear. I've got some suggestions of my own too, let me know if you have questions: * Before changing your code, write tests. That way you find existing bugs and ensure you'll be able to test changes you make. * Instead of using `thing = open(...)` use `with open(...) as thing:`. The context manager will close the file for you. * Consider adding a setup.py file. You can declare your dependencies with this, define entrypoints (command line tools your code provides), run tests, publish to PyPi and lots more. * Always do `try: ... except Exception: ...` rather than `try: ... except: ...`. The former won't catch things exceptions SystemExit (which shouldn't be ignored) * Instead of `os.path.exists(file_path)` do `os.path.isfile(file_path)` it's more explicit and will properly handle cases where file might be a directory. * Consider reworking Punchout.py:180 (see point above). You appear to be calling os.makedirs on a file based on the name. * Take a look at the print function (for Python 2, you'll need `from __future__ import print_function`). There's a lot of places you're writing \n to a file when it could be simplified to `print("My text", file=file_)` where `file_` is something returned from an open() call. * In addition to testing consider running pep8/pylint on your code. Both might help you find latent bugs and both will also help your code conform more to the community standards. This makes it easier and faster for others to understand what you're writing but it also makes your code look more like others' which helps you because it reduces cognitive burden when reading code produced by others. * `print_spaces()` could be simplified to `print "\n" * num` - Also, shouldn't this be `print_lines()`?
+Hey if you want to get started on this I wrote a thorough blog post on setting up statically generated sites: https://hungryadmin.com/building-a-static-blog-and-deploying-it-with-saltstack.html and the repos if you just want a quick and dirty example: https://github.com/gravyboat/hungryadmin-sls (deployment code) https://github.com/gravyboat/hungryadmin (actual static site code, you don't want to copy this one) These use Pelican as the main static site generator (super easy to use/get started with), and the Salt code I have there will configure the server so it's all set up and serving through Nginx with some nice quality of life improvements. If you have some server familiarity it shouldn't take more than an hour or two to get running so you're writing your own posts just keep in mind that the certificate portion has the typical 'chicken and egg' problem of content availability. The repos are the most recent versions of the code (the salt code is the most important for configuring the server/publishing/ssl configuration and I've updated it a few times). Even if you decide not to go with this take a look at Pelican, it's based in Python and really easy to get going with, you can steal my Nginx configs too for a single site.
+Here's a random and slightly tipsy code review for you. Style note: regarding function and class names `punchout.py` seems more consistent than `punchoutclasses.py`. Check out [this answer](http://stackoverflow.com/questions/159720/what-is-the-naming-convention-in-python-for-variable-and-function-names) and / or PEP 8 for community best practices. When [working with config files](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L60) you can save yourself the trouble of implementing it yourself by using one of the many available [config parsers](https://wiki.python.org/moin/ConfigParserShootout), in this case the standard library [configparser](https://docs.python.org/2/library/configparser.html) would do the job nicely. In general when [opening files](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L70) the preferred approach is to [use a `with` statement](http://stackoverflow.com/questions/9282967/how-to-open-a-file-using-the-open-with-statement). For [flag values](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L27) I suggest defining constants (constant-ish, python doesn't really have constants) to add clarity around what the flags are for. Eg. ENABLED = 1 DISABLED = 0 self.mode = ENABLED When [initializing member variables](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L37-L38) to static values (as in they're not passed as variables to the `__init__` method) you can omit the method entirely and define them on the class directly like so. class SomeClass(object): mark = "" time_in = 0 These can later be accessed in the `self.mark` fashion. Using [arbitrary list positions](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L43) as references to specific elements of a data structure in that way is not very clear. One of the python axioms "Explicit is better than implicit" can be (sort of) summed up in spirit by the quote “Programs must be written for people to read, and only incidentally for machines to execute.” (Side note: if you have not yet encountered "explicit is better than implicit" try executing `import this`.) In this specific case a dictionary object would create a clearer picture of what you're doing than a list does. Since you're [creating this list here](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/Punchout.py#L37) you could do this instead. i = i.split() info = {'first_name': i[0], 'last_name': i[1], ...} Now the function which accepts `info` as a parameter does not need to know anything about the structure of the source data. Separating the interpreting of the source data from the manipulation of it makes for cleaner more maintainable code. For this sort of [string composition](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L46) you should use get yourself acquainted with [format strings](https://pyformat.info/). Oh and while I'm thinking about string composition you should look at using [`os.path.join`](https://pymotw.com/2/ospath/) when you're [building up a filename](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L25). This will help you avoid cross platform issues and other corner cases. A function like [this one](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L77) which is logically associated with a class but not actually necessary on every instance of that class can be organized as part of that class by using the `@staticmethod` decorator. What I mean is, if you want to hang a method on a class because it helps organize your code and that method does not need access to instance variables of instances of that class you can do it like this. class SomeClass(object): @staticmethod def related_method(foo, bar): return foo + bar Check out [this SO question](http://stackoverflow.com/questions/12179271/python-classmethod-and-staticmethod-for-beginner) for more detail. For data validation tasks [like this one](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L98) the tool you're looking for is called a [regular expression](https://en.wikipedia.org/wiki/Regular_expression). I put off learning them for AGES but in the end, even though they're not exactly the most approachable thing to work with, everyone does eventually because they're so damned useful. Also, once you've validated the data you can generate a list of integers like the one you have there using what's called a [list comprehension](http://www.secnetix.de/olli/Python/list_comprehensions.hawk). It's basically a way to create a list quickly using a loop. Eg. `return [c for c in a_string]` Datetime objects have ways of accessing their components without the need for [string manipulation](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/punchoutclasses.py#L22). You can just do: `now.year` or `now.month`. To discover what attributes are available on any random object you can use the `dir()` statement. $ python Python 3.5.2 |Anaconda custom (64-bit)| (default, Jul 2 2016, 17:53:06) [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux Type "help", "copyright", "credits" or "license" for more information. &gt;&gt;&gt; import datetime &gt;&gt;&gt; dir(datetime.datetime.now()) ['__add__', '__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__ne__', '__new__', '__radd__', '__reduce__', '__reduce_ex__', '__repr__', '__rsub__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', 'astimezone', 'combine', 'ctime', 'date', 'day', 'dst', 'fromordinal', 'fromtimestamp', 'hour', 'isocalendar', 'isoformat', 'isoweekday', 'max', 'microsecond', 'min', 'minute', 'month', 'now', 'replace', 'resolution', 'second', 'strftime', 'strptime', 'time', 'timestamp', 'timetuple', 'timetz', 'today', 'toordinal', 'tzinfo', 'tzname', 'utcfromtimestamp', 'utcnow', 'utcoffset', 'utctimetuple', 'weekday', 'year'] If you're going to use a generic exception handler [like this](https://github.com/JosiahSwaim/Punch-IN-OUT/blob/master/Punchout.py#L21) you may want to try to log errors. eg. try: something() except Exception as e: logger.error('An exception occurred: {}'.format(e.msg)) Incidentally, you should also spend some time getting to know the [logging module](http://docs.python-guide.org/en/latest/writing/logging/). Whew okay that's a lot and I haven't really looked over punchout.py yet but I'm a few more cocktails into new years eve so I'll call it quits here. Awesome work putting this together. I've been automating my jobs away for about a decade now and it has served my career well. Keep hacking away and asking questions and posting your code for people to see ( I wish I'd started doing that sooner! ) and you're gonna be great at this. PM me if you want to chat more. And of course, happy new year!
+Wow this is so great! Thanks man! I'll have to come back to this when I work on it again.
+In general the recommendation for the past few years has been to use Python 3.4+ (currently at 3.6). A couple of other things: * Don't `import *`. * Have a script entry point. * Write a `setup.py` file so that your users can install it in one command. Question: How do you get the barcode reader input? Or does the reader just output to stdin?
+I actually lost money using Python this year running my remote job site which was written in Python. [Here's](https://hungryadmin.com/starting-and-finishing-a-project.html) where I talk about launching the product and the technology associated with it. And [here's](https://hungryadmin.com/a-failed-projects-postmortem.html) where I talked about shutting it down. All in all not a bad deal for what was learned so I guess it was kind of passive knowledge income?
+Being a non-native English speaker, I need to read your comment twice to understand. I like your comment!
+Thanks for letting me know. It did surprise me that there was no barcode library etc in your code, but it makes sense now.
+Yeah, the getter/setter/deleter thing can definitely be a Java giveaway. You may know this already, but the `try/except/finally` pattern (which seems to occur quite a lot in this code), is what motivated the creation of context managers. In fact, I believe there's even a database-connection somewhere in the original motivation for the PEP that proposed them. You may try reworking some of those to use context managers and the `with` keyword and it's possible they'll become simpler and potentially even more reusable.
+Well Django isn't a CMS first of all.
+I'm really interested to learn more about the problem specifics and the hardware at your disposal, etc. Get that blog up, son! 
+You could definitely do that without any problem.
+Yes Flask is simpler, Django as they say comes with batteries included. You can't compare Django with Wordpress, With wordpress you can easily build a blog with django you will need to use an extension. Django is good if you do not need much customization, else flask is what you need. I also wrote a small script https://github.com/Leo-G/Flask-Scaffold which let's you prototype Database driven applications with Flask, SQLALchemy and Bootstrap3
+My bank allows me to access the information without signing in, so I don't have to deal with that, but that's why I have to do the actual buy and sell manually. I could of course make it sign in as well. In that case, you might simply have the code ask you for the password when you run it, it will keep it in memory but it won't be written down. It's the best you can do really. The actual sign in should be secured from the banks side. They'll require that you use https but you might need to manually check that the certificate is one you can trust.
+While that is certainly a valid point, I think that as long as the code (or at the very least the binary for a compiled script) is made publicly available it *can be* more ethical to automate the task. In a situation where said employee can't be moved and has no marketable skills that might be a different story (like the example you linked above) but even if it means making someone learn something new within the same company (and the software is made available to more than just your company!) the benefits outweigh the disadvantages IMO
+I was able to find a lot of data on stocks, but not so much on funds. What I did find didn't correspond well with the funds I had available anyway. I don't know if this has changed in recent years.
+That's pretty cool. At some point, I'd suggest reading [pep8](https://www.python.org/dev/peps/pep-0008/) from start to finish. If you want to do this professionally, you'll be collaborating with others, so having a shared style is very important. You should refactor a few months down the road and see what new stuff you've learned. You also probably want to call your program like def main(): """Linear base level logic here""" if __name__ == "__main__": main() So that in the future, if you want to import modules from your program, you can do that without executing the main method.
+A lot of them can appear as keyboards IIRC. It just reads barcodes and types into the computer.
+I suspect you're fine for scale unless it's a ridiculously large building with lots of traffic (although I did see that the max length of the list is "999999") but I'd consider calculating people's status individually when it changes instead of going back through the entire log each time you update. This would be a good project to let you cover database concepts. A separate status table could be useful.
+I saved money with a script that logs into my library every day and renews any books that are due tomorrow, then emails me my list of current loans and which ones were renewed. I was paying like £10-20 a year in fines because they don't have any reminder system built in and I would get forgetful.
+Just note that while it's generally a code smell to include things by wildcard, there are a few notable exceptions. It's common (and appropriate) to do this with the `builtins` lib in python when using the `future` lib for compatibility between Python 2.x and 3.x, for example.
+Eh, less popular compared to what? Django is a major framework and is still doing quite well actually. It was never the coolest framework developers use, but it's far from being obscure. Instagram, Disqus, Pinterest, Mozilla and Eventbrite all use Django.
+That's kind of comparing apples and oranges though -- they don't even share the same target market. Wordpress and Drupal are frameworks that aim to do CMS-type websites -- with much less coding effort. Django is a more general framework meant to build web applications. You -can- build a CMS with Django but it doesn't come out of the box (usually build your own or use something like Mezzanine or Django-CMS). A better comparison would be Laravel/Symfony/CakePHP vs Django.
+Oh, thanks for sharing it. Have you considered using a different tool for parsing the files? From reading your code, [this page](https://sccn.ucsd.edu/~arno/fam2data/publicly_available_EEG_data.html), and looking at some [sample data](http://paulbourke.net/dataformats/eeg/), if I understand it correctly, it is a binary format. The current code looks a lot like some code a researcher that worked with me was writing. This researcher was working on old radiosonde binary raw data, and he used numpy for writing the whole parser / library. Later we re-wrote it with [construct](https://construct.readthedocs.io/en/latest/), which is a binary parser. The rationale for that was that you could use a declarative way to specify the parser, which was easier to change. And while numpy provided the functionality to binary-parse files, its main usage is for n-dimensional arrays/linear algebra/etc, whereas construct is designed specifically for that. Here's the final result for parsing the radiosonde binary files: https://github.com/kinow/pccora/blob/master/pccora/pccora.py Construct changed a bit, so the code will be updated soon for compatibility with the latest release, but it would still be a bit more declarative than writing the if/for's and consuming tokens with numpy.
+Technically possible, but you'd need admin access to the target machines, and doing something like this would very likely get your admin access removed. At least in any place I've ever worked. Possibly followed by a stiff march out the door.
+Would a namedtuple not be better than a dictionary there?
+This isn't even close to true. There are multiple different methods for packaging your Python apps for distribution on most platforms. It's a really common task.
+Somewhat related, I made a python program that creates xspf playlists (so playable in VLC) from videos found in reddit subs: http://vlc.tv
+Someone already mentioned PEP8/pycodestyle with its rules on how to name things. If you want other programmers to take your work seriously then following the naming conventions helps a lot. If you're writing your Python code in a text editor, you may benefit from an IDE like PyCharm (the free community version should be good enough) because this contantly gives you hints to improve your code and assists you in changing existing code. If you imported your project into PyCharm you could get your code PEP8 compliant in no time...
+Haskell is used quite heavily by the Site Integrity team to manage the internal spam prevention system. At one point there was a huge attempt to use it to create a system that leaned on Haskell typing to prevent privacy violations via code (e.g. coder accidentally doing something that could be used to leak info that should not be available within a particular view context) but that effort never hitting the necessary performance goals. Most of the ongoing Haskell work is now specific to the SI teams in Seattle and London. It is unlikely that it will spread much further than those teams and a few specific efforts to build tools that hide the Haskell underpinnings from the tool users; Haskell will continue to be used for the things it is really good at, but it is not going to grow much outside of its niche.
+Happy New Year! I hope you don't mind, but I'm going to cite anothe [this econ PhD's comment because he's good at explaining both sides.](https://www.reddit.com/r/badeconomics/comments/3wcvfh/technological_unemployment_is_impossible/cxvkuex/) &gt;People imagine that computing power will be nonscarce in the future for most things, and so comparative advantage won't apply That user assumed that Moore's law (which is a guideline, not a law) is progressing, but [moore's law is already slowing down, though.](http://www.economist.com/technology-quarterly/2016-03-12/after-moores-law) I'm uncomfortable with assuming that given a smart-enough computer you could somehow make computing power nonscarce. I think that's where the conversation ends IMHO. Opinions about the future scarcity of computing power and the future scarcity of resources are... eh. You know what I mean? So I don't think we can change each others' minds about that. 
+See [Autor's paper](http://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.29.3.3) about how automation is ultimately a complement to labor, not just a substitute. If you don't have time, it's worth noting that people said the [same about ATMs](http://www.economist.com/blogs/democracyinamerica/2011/06/technology-and-unemployment). Also, the central point of Autor's article is this: &gt; Focusing only on what is lost misses a central economic mechanism by which automation affects the demand for labor: raising the value of the tasks that workers uniquely supply Of course, it's based on a certain set of assumptions. If these conditions are true, then maybe technology will destroy more jobs than it creates: **1)** AI will be able to do everything better than us. [I don't think that's likely.](http://idlewords.com/talks/superintelligence.htm) With comparative advantage though, there will still be [work for humans to do.](http://www.econlib.org/library/Topics/Details/comparativeadvantage.html) For comparative advantage to be irrelevant, there'd have to be enough robot computing power to render labor non-scarce, which brings in the next assumption. **2)** There will be enough computing power to do all the jobs that exist and will exist. But then I don't think that will be possible, given that [Moore's law is slowing down](http://arstechnica.com/information-technology/2016/02/moores-law-really-is-dead-this-time/) and [quantum computing isn't magic](http://www.smbc-comics.com/comic/the-talk-3). At the very most, the two assumptions are very far into the future. 
+I work for a company where we use django for all our web apps. We serve about 270 000 customers with it. So it's definately used in the industry but i have to admit, it's quite rare when looking around.
+I really hate these sorts of questions because one, you can choose a single language for an 8 year old and expect it to be viable 15 years later when he leaves college. Two if the kid is truly interested in coding, language selection should be made by him, with guidance and support from his parents. I just shake my head sometimes because so many languages of my youth are effectively gone now. The only ones that really remain are C and C++. Off those two only C++ seems yo have a future. 
+Also, some specific modules are designed to be imported that way, depending on the context. For example, it is quite common and accepted to do `from math import *` if writing numerical code. But you wouldn't do that for most modules.
+I normally do when scraping, but auto trader is actually astonishingly performant. As long as I stayed below 2 hits /s they didn't seem to care. I found that threshold by trial and error. 
+you challenge me 
+!smartifythat
+(facepalm)
+`.-.--` can either be `0102` or `01011`; I can't see a way you can ever reliably get the correct number string from an input without further constraints. Once these constraints are defined (or a different symbol used for 2) you can Google python multiple string replace. There are many ways to approach the situation. From looping over the string and using a dictionary lookup (for single character mappings), which isn't the best. To using the builtin string replace function. Depending on the size of the list to convert, and how often you will do so in the same script. Using the `re` package, and compile a regular expression of dictionary keys 'or'ed and compare again to that expression in the replace in `re`.
+[deleted] ^^^^^^^^^^^^^^^^0.0205 &gt; [What is this?](https://pastebin.com/64GuVi2F/19636)
+I would still write it now even if you don't publish it yet. It will be a lot easier now than in 6 months when it's all a bit hazier
+Actually, here is a much shorter regex based version: MAP = ['.', '-.', '--'] def translate(s): return re.sub("|".join(map(re.escape, MAP)), lambda m: str(MAP.index(m.group())), s) I'm not sure if it counts as Pythonic because it is so dense. But it is likely an awful lot faster and memory efficient than the previous solution.
+You misread the post - '-.' is '1', not '-', so '.-.--' is '012'. 
+I store a 15,000+ key dict that has image names and their dhash using pickle. I use it to prevent duplicate images. A pickle obj is much easier to work with and, despite not having tested the exact time, doesn't seem any slower than sqlite. Even if it is slower, it definitely isn't by much and it's much easier to work with. I just checked. There are 15,007 items and the pickle is 498 kb, which is acceptable for me.
+!smartifythat
+(facepalm) 
+You can rent tested bots for a percentage of your sales. When you start to gain money, you can make your own bot knowing the money you can save vs the hours you must code 
+Thanks for this. I do count it as pythonic as your provided code does seem to use the power of regex's. It is a little dense for me as i am not well versed with regex's. BTW :- by brute force i mean just traversing the string and for every position carry out these op's :- 1. if s[i] = '.' then print 0 2. if s[i] = '-' then: check if s[i+1] == '-' then print 2 else print 1 something like this Thanks for your solution
+If you are interested in trying to distribute a python package instead of an .exe there is a minimal example here: https://docs.python.org/3.5/distutils/examples.html I would try putting that together and/or adapting that example to your program then come back here with specific questions.
+Awesome, thanks for your perspective.
+There's https://pypi.python.org/pypi/pickleDB which acts as a very simple DB which might suit your needs.
+Indeed I misread the following period. /u/spookylukey has implemented what I was getting at.
+Don't you think that's an overkill? You essentially using containers to fix issue of making your app dependent on system package. Your solution then is then to package entire system in a container. And even after you do this your still will have the package mess, you will have to find/make/install manually dependencies for your app. You still will have to do regression testing when updating the system in container. You won't be able to use functionality of language's native packaging system. Ok, you could actually use pip inside container, but then that's what I initially suggested, and in that case you won't need containers. Also, running containers is one thing, productionalizing them is a lot of work, especially from the point of operations.
+Such a nice idea man! Looks very easy to maintain once is setup and the income is flowing. Kudos!
+*if trained on gigaword
+&gt; Before they simply had a binder with a pen and paper to sign in and out. I asked around and found out that we could print barcodes easily on to our ID cards. So I figured the entire process is pretty low hanging fruit for automation. So I presented my idea to my manager and then later some directors and they approved, since it was practically a free solution, aside from my time on the clock. &gt; &gt; I am just impressed he's using objects. That was a year of decent studying. 
+Basically, it's more pythonic to write "import [thing]" than "from [thing] import [*/whatever]"
+In a broad sense, when you use *any* serialization method (pickle, json, whatever), you're going to miss out on a lot a database has to offer. 1. Pickles are in-memory to all-disk. Your whole dataset needs to fit entirely in memory. 2. Pickles are probably less "safe." For example, if your app crashes or the server dies in the middle of a pickle write, it's entirely possible that you'll lose your entire data set, or at least it'll be difficult to recover. 3. No indexes, no queries, no simple updates, no aggregations, etc. SQL is nicely declarative. You'll miss out on all that. 4. No simultaneous access. You'll need to figure out your own locking mechanism to prevent race conditions, *even if the app is single user*. (It could be inadvertently executed twice) 5. Pickle files can only be read by pickle. You can't use a third party library to look into your data like you can with sqlite. 6. There isn't a good way to "upgrade" a pickle file. For example, let's say you actually pickle objects (class instances) into the datastore. When you rewrite your class with different attributes, that can get messy. Whereas with SQL, a simple "alter table" will suffice. Overall, I would discourage pickle for all but the simplest and least important kinds of data storage needs. If you're going to serialize, I would say even JSON might be a better option, because then at least you can read the file in a text editor. Other users have mentioned zodb. It's an option. Another option might be [tinydb](https://pypi.python.org/pypi/tinydb).
+Don't guess, measure. Additionally: performance is usually not the problem
+Put it on github. I'm a hiring manager and I like the resumes that have github links on them. I'll look at the code of candidates I'm considering. 
+Django is unpopular as a CMS because Django *is not a CMS*. Django, out of the box, basically has no CMS functionality at all. There are some CMS's built on Django, but they aren't nearly as flexible, or have the community support, of something like Drupal or Wordpress.
+Flask involves a lot less buy-in than Django. Although a minimal one-file Django installation *is possible*, the default is to start with a big old RoR-style directory tree. Django has gotten a lot less monolithic, but Flask started out that way. There are other things that Flask does better, IMHO. Probably the best example is the need for "custom tags" in Django. While Django requires you to have a custom `url` tag, in Flask you simply use the same function, `url_for`, that you would in your Python code. In general you end up with a lot of weird Django "gotchas" in templates that don't exist in Flask/Jinja2.
+Well, I might enjoy some unittests. ;) But more generally, for something as critical as encryption, you *really* need to have this pretty thoroughly peer reviewed by people who really know encryption.
+Maybe I'm missing something, but I'm surprised no one has mentioned `str.replace`: string.replace("--", 2).replace("-.", 1).replace(".", 0) Edit: I fixed the order like the posts below said. Thanks!
+Sqlite has done a lot of testing to show how it out preforms plain file io and published a blog post about it. In one of my work projects, I replaced thousands of dirs and sub dirs with SQLite and tar as test cases (both put preformed plain file io in our scenario of millions of small files) and it was quite interesting the results. Pickle isn't a highly optimized data structure but just like shell sort and bubble sort where won't notice a significant performance difference for a list of 10 items on a real machine, I doubt a simple pickle would be noticeable slower than something optimized for the task like SQLite.
+easiest way is to pop that bitch on the web. anyone can use it then! 
+&gt; First python project, feedback welcome &gt; No offense &gt; version 1.0 programmer 
+Shelve looks neat! An important warning on that doc page, worth highlighting for OP: do not use with untrusted input, it will execute arbitrary code. 
+gotta start somewhere right?
+Modeling the allowed moves for a knight is much easier than that: dx² + dy² = 5 means the move is valid.
+Instagram is Django/Python. It's the 15th most-trafficked site online.
+[Here's a blog post from someone with an opinion on the matter](https://eev.ee/blog/2015/10/15/dont-use-pickle-use-camel/) **EDIT:** Spoiler quote from the linked blogpost: &gt; Don’t use pickle. Don’t use pickle. Don’t use pickle. 
+As others have alluded to, the instance attributes should be accessed directly, without the use of getters and setters. Unless you need to perform some sort of data validation, in which case using a property would be appropriate. But that is not the case in this example. 
+PHP is pretty difficult to bundle and deploy, actually. Try walking a newbie through debugging a problem caused by a `php.ini` setting on a crappy shared host, or try walking them through setting up mod\_rewrite rules when .htaccess files are turned off. If all you have to deal with is one host, then it's not as bad, but if you're bundling a PHP application for your customers to deploy to arbitrary PHP servers, your support burden massively increases.
+click link / it's python 2.7 / \^W
+There's also the `shelve` module that lets you write out a `dict`-like database to a file where keys are `str`s and values can be any picklable objects.
+Some advice: * Try to avoid "import *" if you can, as soon as you start doing this you can no longer lint your code using pyflakes because pyflakes can't track unused imports as soon as you start importing * * PEP8, can't say it enough, don't use tab characters, Python uses 4 space indentation. Just do it. * Docstrings, don't put comments ABOVE your function as you are doing right now, but instead use triple quoted docstrings below your function declaration. A bonus is to write them in RestructuredText so that Sphinx can parse them and you can build nice docs from this later. * setup.py: try to import from setuptools, not distutils which is pretty old and has it's limitations. * setup.py: your setup.py is not listing dependencies you are using e.g. primesieve, these need to be listed in your setup.py and versioned. * setup.py: there is a special way to register console scripts via entry_points, implementing scripts yourself in the scripts directory is not needed. When you do it this way, if you install your project in a virtualenv the console script ends up using the Python from your virtualenv. * Python 2 style imports, I don't think this will work "form euclid import *", in Python 3 that should be .euclid (notice the dot).
+Hmm, yup I'd agree a named tuple would be at least as good as a dictionary. Is there something in particular that makes it better though?
+I used it in zope and plone for 10+ years. It is very close to just using regular object that will seem to be persistent by magic. It is far better that something home cooked anyway.
+like this: /u/opfeels /u/spez
+/u/LordTuts is slightly positive. [view results](http://ruadick.com/user/LordTuts/)
+Awesome work man! Keep it up, can't wait to see what other projects you also decide to take on. :)
+To me it seems that ujson is the implementation to be used when you need maximal speed. If you also need things like object hooks then you're better of with simplejson. As such, there isn't very much point in further development of ujson: it is good as it is.
+The {} denote a python Dictionary. Specifically, one that contains the following key-value pairs: * ord('.'):'0' * ord('-'):'1' * ord('*'):'2' ord() is a [built in](https://docs.python.org/2/library/functions.html#ord) function that translates a single character into some kind of integer representing it's position in Unicode. I'm not entirely sure how it works, but it's required for the translate function to work. The asterisks are just used as a representation for the number 2. They don't mean anything particular, and can be replaced with any character. To sum it all up: str.translate takes the string and uses a dictionary of integers representing unicode code points to replace all matching characters with the representing value in the dictionary.
+&gt; What are the asterisks? I think they are just a replacement for some characters in OP's original string. I'm not really sure why they used them here because it's changing the question to a slightly different one. &gt; What are the {}? They are a dictionary ~~comprehension~~ literal (ie just a dictionary). ~~Sorta like a list comprehension, but for dictionaries. If you aren't sure what these are then they are 100% worth reading a blog post about them.~~ (Note that order doesn't matter for dictionaries (ignoring the new python 3.6 stuff...), so you don't need to worry about the ordering fo the arguments in the curly brackets). &gt; What is `ord`? `ord` is a built-in python function: [documentation link](https://docs.python.org/3/library/functions.html#ord). It looks at the integer-value of each character. I'm personally not a fan of this type of representation of characters. I have never found a need for them for run-of-the-mill string manipulation stuff (ie not web related). **Overall, you should read this as:** "I have a string that I am going to translate. There are three rules I am going to use when translating. They are: `'.' -&gt; '0'`, `'-' -&gt; '1'`, and `'*' -&gt; '2'`. This is going to produce a new string."
+/u/opfeels /u/thegame402
+/u/ilgnome is kind of a dick. [view results](http://ruadick.com/user/ilgnome/)
+&gt; rather than iterating through a python list or dict and writing each record to sqlite cursor Just use [records](https://github.com/kennethreitz/records). It's to sqlite, what requests is to http. Same author too.
+/u/thegame402 is neutral. [view results](http://ruadick.com/user/thegame402/)
+/u/opfeels /u/opfeels
+https://repl.it/EzDC/1 Based on [this code for Huffman coding](http://grrrr.org/2011/06/30/purehuff/).
+/u/opfeels is very positive! [view results](http://ruadick.com/user/opfeels/)
+/u/opfeels /u/ImKillua
+/u/ImKillua is slightly positive. [view results](http://ruadick.com/user/ImKillua/)
+/u/opfeels /u/cisco1988 
+/u/cisco1988 is very positive! [view results](http://ruadick.com/user/cisco1988/)
+This might be better for r/learnprogramming or r/programming 
+/u/opfeels /u/1842 
+/u/relubbera is kind of a dick. [view results](http://ruadick.com/user/relubbera/)
+SimulateMe! -100-Broken-Windows-
+You are some sorta wierdo. 
+/u/Chantalouve is slightly positive. [view results](http://ruadick.com/user/Chantalouve/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46102
+/u/opfeels /u/KooPad
+If you had been courteous you wouldn't have creeped me out.
+/u/opfeels /u/eternimus 
+/u/eternimus is very positive! [view results](http://ruadick.com/user/eternimus/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46106
+/u/opfeels /u/stinyg 
+Django and Drupal are in similar territory when compared. Drupal is basically a framework with tons of somewhat unnecessary built-in CMS functionality by default. Django is light on that which is great. That's the reason I compare the two.
+/u/opfeels /u/treefroog 
+/u/treefroog is very positive! [view results](http://ruadick.com/user/treefroog/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46110
+/u/kevin_the_tank is slightly positive. [view results](http://ruadick.com/user/kevin_the_tank/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46124
+/u/opfeels /u/Kaos9001
+/u/Kaos9001 is kind of a dick. [view results](http://ruadick.com/user/Kaos9001/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46125
+One of the benefits of Python is being able to write clean beautiful code thanks to its syntax. The style was created to create uniform looking code. I like that there's a standard. Once you get used to it, it's annoying seeing code that breaks it and I would complain about it in a code review too. I let PyCharm auto format my code as well, so I don't have to worry about it.
+/u/AngryGardenSalad is very positive! [view results](http://ruadick.com/user/AngryGardenSalad/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46135
+/u/opfeels /u/Mr-cfsh
+/u/pendragon36 is very positive! [view results](http://ruadick.com/user/pendragon36/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46146
+/u/almondmilk is slightly positive. [view results](http://ruadick.com/user/almondmilk/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46147
+/u/terpaderp is very positive! [view results](http://ruadick.com/user/terpaderp/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46148
+/u/opfeels /u/Hmolds
+/u/opfeels /u/daGrevis
+/u/opfeels /u/trappar
+&gt; \#&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46102 forgot the `()`
+Human capital will always be necessary. Our brains and dexterity are still leagues ahead of any computer. As I said earlier, plenty of jobs were automated during the industrial revolution, there is no need to be afraid of progress. Niches are constantly created to populate the marketplace. You can start the fear-mongering when we reach technological singularity, until then, it's the same old cycle that constantly repeats itself. Just because you can't think of a job doesn't mean it won't exist in the future.
+/u/akcom is slightly positive. [view results](http://ruadick.com/user/akcom/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46156
+Is it self aware? /u/opfeels /u/opfeels
+/u/opfeels /u/aquaquartz This is an awesome bot, op. Keep up the good work :D Edit: holy crap, my top positive comment looks *really* bad taken out of context.
+I always upvote standard library solutions. But in this case, I'd never even heard of shelve! So that upvote arrow is now dented into my screen.
+/u/opfeels /u/darkhelmet
+/u/darkhelmet is slightly positive. [view results](http://ruadick.com/user/darkhelmet/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46160
+/u/opfeels /u/TheHeavyRocksteady
+/u/TheHeavyRocksteady is slightly positive. [view results](http://ruadick.com/user/TheHeavyRocksteady/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46161
+/u/opfeels /u/ablueoyster
+just cool
+/u/opfeels /u/alfredr
+/u/alfredr is slightly positive. [view results](http://ruadick.com/user/alfredr/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46164
+/u/dmgctrl is slightly positive. [view results](http://ruadick.com/user/dmgctrl/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46165
+/u/opfeels is very positive! [view results](http://ruadick.com/user/opfeels/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46165
+Sure, but you can't compare it to a CMS
+/u/opfeels /u/heyGuysIamStupid
+/u/-pyzen-
+/u/opfeels /u/strangea
+Nice! I took a path opposite yours; I started with python and now I'm learning blender to pursue vfx as a career. Have a look at [machine learning.](http://scikit-learn.org/stable/) Along with other packages like Numpy and Pandas, it's used widely in science and AI. Also, if you're looking for a good editor I recommend [atom.](https://atom.io/) It's as open source as it gets and totally hackable, and if you want good python integration you should install packages like the python [linter](https://atom.io/packages/linter-python), [autocomplete](https://atom.io/packages/autocomplete-python), and a [terminal.](https://atom.io/packages/platformio-ide-terminal) Have fun!
+/u/Naturious is very positive! [view results](http://ruadick.com/user/Naturious/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46177
+[MBTA Alexa skill](https://github.com/clintonb/alexa-mbta-skill)
+&gt;/u/opfeels [+1] /u/opfeels I like this. Looking through the recent posts it seems mostly neutral, besides saying the word positive often the sentiment doesn't feel like it fits in the "very positive" category. Though there are responses from the creator in the last 100 replies, the majority is from the bot. r/Python people seem overwhelmingly positive so far, and most results seem to sway that way. Perhaps people are actually nice to each other on the internet.
+/u/opfeels /u/DrudgeBreitbart 
+Does pycharm provide better error messages? Or does it just have some nice static analysis tools built in?
+I wish the Python doc's were better. I can't imagine sending a beginner to the docs to figure out an error. Google maybe. But even then one of the hardest things for beginners is knowing what do I Google?
+It doesn't provide better messages in the interpreter console, but it will try to highlight errors in the editor and provide quick fixes.
+/u/opfeels /u/Saafine
+/u/Saafine is very positive! [view results](http://ruadick.com/user/Saafine/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46193
+/u/opfeels /u/fooachoo
+You could have been civilized about it.
+/u/opfeels /u/boxidea 
+/u/boxidea is slightly positive. [view results](http://ruadick.com/user/boxidea/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46195
+/u/opfeels /u/wolf2600
+ZING!
+Hmmm..... Most Positive Sentences Score Sentence 0.8316 Not sure whether she'd enjoy the company or whether she enjoys being the center of attention. 0.7717 Just working hard at something doesn't mean that you did a good job on it, you just did the best you could. 0.5267 Also "anything is a dildo if you're brave enough", IIRC. I question the validity of the algorithm.
+/u/bitcycle
+/u/opfeels /u/christian-mann
+/u/giant_crack is very positive! [view results](http://ruadick.com/user/giant_crack/) and is ranked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; of 46210
+/u/opfeels /u/Cenzorrll
+exactly!
+/u/opfeels /u/Acehawk74
+/u/UMich22 is very positive! [view results](http://ruadick.com/user/UMich22/) and is ranked #15527 of 46231
+/u/opfeels /u/andilyns
+/u/opfeels /u/hlmtre
+/u/hlmtre is slightly positive. [view results](http://ruadick.com/user/hlmtre/) - Ranked #18026 of 46254
+/u/hlmtre is slightly positive. [view results](http://ruadick.com/user/hlmtre/) - Ranked #18026 of 46255
+/u/lazyadmin is slightly positive. [view results](http://ruadick.com/user/lazyadmin/) - Ranked #20744 of 46258
+/u/opfeels /u/anned20
+/u/anned20 is slightly positive. [view results](http://ruadick.com/user/anned20/) - Ranked #26361 of 46264
+/u/opfeels /u/MangoTux
+/u/MangoTux is very positive! [view results](http://ruadick.com/user/MangoTux/) - Ranked #2645 of 46266
+No bias here!
+/u/a314s is slightly positive. [view results](http://ruadick.com/user/a314s/) - Ranked #38413 of 46269
+/u/opfeels /u/gare_it
+So what got me interested in this was watching one of the python core developers, and he was talking about the issue of beginners struggling with understanding errors/exceptions and how as core developers they have a different mindset and are bad at writing good errors/exceptions. I'm currently wondering if by analyzing a stackoverflow of all Python questions if you could come up with common ones. It'd be a python user interface issue then. Or maybe a docs issue. But if there's data to back up the need for a change, it'd be easier to push one. Just thinking out loud. I do agree with you that maybe its a bad idea. Totally agree.
+/u/opfeels /u/dantedog01
+/u/dantedog01 is slightly positive. [view results](http://ruadick.com/user/dantedog01/) - Ranked #20751 of 46275
+/u/opfeels /u/tarlin
+/u/tarlin is slightly positive. [view results](http://ruadick.com/user/tarlin/) - Ranked #38420 of 46278
+/u/opfeels /u/reedjessen
+/u/reedjessen is very positive! [view results](http://ruadick.com/user/reedjessen/) - Ranked #11097 of 46280
+This is so cool. Great Job.
+/u/opfeels /u/okmkz
+/u/opfeels /u/HOPSCROTCH
+/u/opfeels /u/SirSharpest
+/u/03891223 is very positive! [view results](http://ruadick.com/user/03891223/) - Ranked #6219 of 46304
+/u/opfeels /u/BlckJesus
+/u/Blckjesus is very positive! [view results](http://ruadick.com/user/Blckjesus/) - Ranked #4127 of 46310
+&gt;&gt; -0.5709Basically, people are fucking stupid. &gt;&gt;-0.5574I'm surprised you're able type this with your head stuck up your ass so far. I'm surprised those are my two lowest negative comments... 
+/u/opfeels /u/thelostcow
+/u/thelostcow is very positive! [view results](http://ruadick.com/user/thelostcow/) - Ranked #13243 of 46321
+/u/opfeels /u/incongruity 
+thanks!
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is more-so dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community can get disenchanted with seeing the 'same, repetitive newbie' questions repeated on the sub, so you may not get the best responses over here. However, on /r/LearnPython the community is actively expecting questions from new members, and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. Whatever your question happens to be getting help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+/u/uncleeggma is slightly positive. [view results](http://ruadick.com/user/uncleeggma/) - Ranked #34267 of 46340
+/u/informationcrawler is kind of a dick. [view results](http://ruadick.com/user/informationcrawler/) - Ranked #44932 of 46342
+If I'm using ujson, its' because I needed the most speed whilst maintaining JSON compatibility for some reason. Custom object hooks really need to be written with the same performance goal in mind, and thus in a previous project where we needed to go from JSON to a real object, we wrote the decoding step in Cython first, then as a C extension. 
+If you're checking for existence only, I think a set is better than a list. Set lookup is O(1) while list is O(n)
+/u/opfeels /u/cauebs
+/u/opfeels /u/ggrose33
+/u/opfeels /u/mindnomind
+/u/mindnomind is slightly positive. [view results](http://ruadick.com/user/mindnomind/) - Ranked #26417 of 46355
+/u/opfeels /u/muad_dib
+/u/muad_dib is slightly positive. [view results](http://ruadick.com/user/muad_dib/) - Ranked #31824 of 46356
+/u/opfeels /u/nickolaix
+/u/nickolaix is very positive! [view results](http://ruadick.com/user/nickolaix/) - Ranked #4130 of 46357
+PHP is only easy to deploy if the person needed to deploy its 100% non-technical. If you're already a programmer, and can setup Nginx or any other reverse proxy---then *all* languages become equally easy to deploy then, *except* PHP because PHP wants some wierd fastcgi reverse proxying, runs using server wide settings (php.ini), and doesn't have any virtual environment setup or a built in package manager (e.g. so you can't rely on it being there to use on every server).
+Well if you're hosting your project on anything other than a dedicated server.... you're doing it wrong. I mean. As a *company*, you should be running on dedicated hardware by default. If your *company* can't pay $100 a month for the bare minimum of dedicated hardware, I kind of question if you'd be able to pay $10,000 a month for engineers.
+Oh well, if the Core Devs want to solve this problem then your efforts might start the change! Maybe this is something worth doing! :)
+/u/opfeels /u/rnw159
+/u/opfeels /u/scottaino
+/u/scottaino is very positive! [view results](http://ruadick.com/user/scottaino/) - Ranked #7614 of 46367
+/u/opfeels /u/dmasik
+/u/dmasik is slightly positive. [view results](http://ruadick.com/user/dmasik/) - Ranked #20800 of 46374
+/u/babypeppermint is slightly positive. [view results](http://ruadick.com/user/babypeppermint/) - Ranked #26430 of 46376
+/u/opfeels /u/trispi
+/u/Trispi is slightly positive. [view results](http://ruadick.com/user/Trispi/) - Ranked #18072 of 46377
+/u/opfeels /u/blueghost464
+/u/blueghost464 is very positive! [view results](http://ruadick.com/user/blueghost464/) - Ranked #7616 of 46379
+/u/mugyou is slightly positive. [view results](http://ruadick.com/user/mugyou/) - Ranked #29171 of 46388
+/u/opfeels /u/shibboleeth
+What's your actual question, not being rude - but your post isn't particularly clear.
+/u/opfeels /u/shhh-sippytime
+Is there not also a risk if you're serialising data from users in your database then retrieving it? I'm not very familiar with pickling, but it sounds like an opportunity for injecting something. 
+/u/briknit is very positive! [view results](http://ruadick.com/user/briknit/) - Ranked #13272 of 46398
+/u/halbrd is very positive! [view results](http://ruadick.com/user/halbrd/) - Ranked #3337 of 46403
+/u/opfeels /u/Finiat
+/u/Finiat is very positive! [view results](http://ruadick.com/user/Finiat/) - Ranked #248 of 46406
+I'm so sorry about that. As my post had mentioned, I am a complete newbie to python. Once again, my apologies.
+/u/TRAIANVS is slightly positive. [view results](http://ruadick.com/user/TRAIANVS/) - Ranked #29188 of 46414
+/u/opfeels /u/dmitrypolo
+/u/9voltWolfXX /u/opfeels
+u/opfeels u/SiVeLk
+/u/SiVeLk is slightly positive. [view results](http://ruadick.com/user/SiVeLk/) - Ranked #26458 of 46421
+Here is a good tip that as a newbie you may not be aware of: from the Python console, you can type `help(thing)` where thing is the thing you are looking for help on, such as: &gt;&gt;&gt; help({}) or &gt;&gt;&gt; help(ord) or &gt;&gt;&gt; help(str.translate) or even &gt;&gt;&gt; help("**-.-.**".translate) Using help in this manner will allow you answer many questions for yourself, and avoid the ignominy of posting questions here that are perhaps easily answered for yourself using Python's help function. (To be fair, the docs that you get with `help` are not always clear, especially to the newbie. But then you can phrase your question as "What is this 'help(str.translate)' message trying to tell me?", which will get you more supportive responses, and will also show that you actually made an effort on your own before posting.) The reason that I had to change the mapping to use `'*'`-&gt;'2' was perhaps buried in the opening sentence of my answer. `str.translate` will only translate single characters to other single characters. So your problem statement of mapping '-.' to 1 wouldn't work. I chose '*' to map to '2', but it could just as easily been any single character other than '.' or '-' (since those were already used for the mappings to '0' and '1' respectively).
+/u/zapopa is kind of a dick. [view results](http://ruadick.com/user/zapopa/) - Ranked #45467 of 46430
+A minor nitpick: the `{}` expression is not quite a dictionary comprehension, just a dictionary literal. And as you say, in dictionary literals pre-3.6, order does not only not matter, but is not preserved and is not guaranteed. But otherwise, a very nice helpful post. (I had to change to use `*` characters since `str.translate` only does single-char-to-single-char mappings.)
+Have you tried r/gamedev they might be able to give some insight on the mechanics/architecture?
+/u/opfeels /u/bensrob
+/u/bensrob is slightly positive. [view results](http://ruadick.com/user/bensrob/) - Ranked #29204 of 46433
+/u/opfeels /u/DFoster271
+/u/Dfoster271 is slightly positive. [view results](http://ruadick.com/user/Dfoster271/) - Ranked #31890 of 46442
+/u/opfeels /u/dfndoe
+/u/opfeels /u/cryopyre
+/u/cryopyre is kind of a dick. [view results](http://ruadick.com/user/cryopyre/) - Ranked #46119 of 46468
+ /u/opfeels /u/ryanmonroe
+/u/ryanmonroe is slightly positive. [view results](http://ruadick.com/user/ryanmonroe/) - Ranked #38581 of 46470
+I'm only a novice programmer (C# Unity) and almost complete beginner with Python (I've dabbled before but never finished any learning material). Reading your story has inspired me to keep trying to expand my programming knowledge and work at it around a job; so thank you for sharing! 
+/u/opfeels /u/DeGaulleSucksCock
+Source?
+It's irrelevant what it stands for. They can google it if they want to know what it stands for. What matters is that when they experiment to see what happens when they leave out a closing `)` they learn that that causes an EOF error.
+Very cool. That logo might result in a cease and desist letter though. ;)
+/u/nutrion is very positive! [view results](http://ruadick.com/user/nutrion/) - Ranked #11162 of 46497
+/u/Trantius is very positive! [view results](http://ruadick.com/user/Trantius/) - Ranked #1643 of 46501
+/u/deviousness is very positive! [view results](http://ruadick.com/user/deviousness/) - Ranked #11165 of 46509
+/u/aphoenix is very positive! [view results](http://ruadick.com/user/aphoenix/) - Ranked #3345 of 46510
+/u/phoenixmike is slightly positive. [view results](http://ruadick.com/user/phoenixmike/) - Ranked #18125 of 46513
+/u/opfeels /u/kingofmesopotamia 
+/u/opfeels /u/FinnTheFickle 
+/u/FinnTheFickle is slightly positive. [view results](http://ruadick.com/user/FinnTheFickle/) - Ranked #18125 of 46517
+/u/opfeels /u/foxfyre2
+/u/opfeels /u/lady-linux 
+/u/foxfyre2 is slightly positive. [view results](http://ruadick.com/user/foxfyre2/) - Ranked #20868 of 46521
+/u/RAGING_VEGETARIAN is slightly positive. [view results](http://ruadick.com/user/RAGING_VEGETARIAN/) - Ranked #26510 of 46525
+Damn that's actually so cool I love it.
+/u/opfeels /u/ContraPositive 
+/u/ContraPositive is very positive! [view results](http://ruadick.com/user/ContraPositive/) - Ranked #15630 of 46530
+Nice! I've been trying not to be a dick lately. 
+/u/opfeels /u/uhstrology 
+/u/uhstrology is very positive! [view results](http://ruadick.com/user/uhstrology/) - Ranked #15633 of 46536
+I don't disagree. :) I'm not advocating. I'm trying to answer the above question. 
+/u/opfeels /u/0110010001100010 
+I wonder why isn't it working for us?
+/u/opfeels /u/caramba2654
+/u/caramba2654 is very positive! [view results](http://ruadick.com/user/caramba2654/) - Ranked #13317 of 46550
+I code as I want, I don't follow any standard. I can easily understand the other redditors' arguments, but only my boss can technically force me to follow such guidelines, and I have no boss.
+/u/opfeels /u/gwax
+/u/opfeels /u/guywithnoeyes
+/u/opfeels /u/verik
+/u/guywithnoeyes is slightly positive. [view results](http://ruadick.com/user/guywithnoeyes/) - Ranked #20890 of 46558
+/u/verik is very positive! [view results](http://ruadick.com/user/verik/) - Ranked #15644 of 46560
+/u/WiggleBooks is very positive! [view results](http://ruadick.com/user/WiggleBooks/) - Ranked #13324 of 46565
+It must have broke, crazy I typed my name wrong a few minutes ago and it worked...
+/u/opfeels /u/chidedneck
+/u/opfeels /u/OmisNomis
+Learn something new every day! Thanks.
+The Vader analyzation is far from perfect. The bot doesn't understand sarcasm, nuance, innuendo, and is oblivious to most context. The truth is... judging what is positive and negative is challenging for everyone not just bots. Despite all of the flaws, I think the analyzation works really well with large datasets. It gets more analyzations correct than incorrect, IMO. My bot analyzes the most recent 100 comments and averages the results. The whole 'are you a dick' thing is just for fun, and yes, I think people are generally curious to see where they fall. You are a 7 which is right in the middle of everyone who has submitted their username. 
+/u/javlin is slightly positive. [view results](http://ruadick.com/user/javlin/) - Ranked #34460 of 46591
+/u/smilbandit is slightly positive. [view results](http://ruadick.com/user/smilbandit/) - Ranked #20907 of 46592
+/u/opfeels /u/luisk27
+/u/opfeels /u/thomaschlee
+/u/renny7 is very positive! [view results](http://ruadick.com/user/renny7/) - Ranked #13333 of 46600
+/u/opfeels /u/wqking
+You should take into account whether or not it's a quote (as in the line begins with &gt;).
+/u/opfeels /u/kraakmaak 
+/u/kraakmaak is very positive! [view results](http://ruadick.com/user/kraakmaak/) - Ranked #5115 of 46607
+Nice, this is way outside my specialization so I was more curious of the concept in general than trying to be critical. This is really cool, it seems like you're doing some great work. I love the comment text of your site too btw.
+/u/opfeels /u/regeya 
+You are right... That is a serious flaw. I am so tired but I will try to update it tomorrow. Thanks for the feedback.
+/u/opfeels /u/ipod123432
+/u/ipod123432 is very positive! [view results](http://ruadick.com/user/ipod123432/) - Ranked #3356 of 46611
+/u/opfeels /u/deathtrips
+/u/deathtrips is very positive! [view results](http://ruadick.com/user/deathtrips/) - Ranked #9333 of 46613
+So sweet, thanks /u/opfeels :D
+fixed!
+No. If you have any correct/expected structure in memory, pickling it and unpickling it will only get you a copy of the same objects. If you have malicious user input in a string, pickling and unpickling it will just get you the same string; it won't somehow execute it. pickle only presents a risk if someone can cause you to unpickle untrusted pickles, ie. bytes that could represent an unsafe structure in memory. There could be privilege escalation risks if you created a situation where two differently privileged users on a system read/write to a shelve database, and there is a very slim chance there may be undiscovered exploitable bugs in pickle itself, but on the whole you're pretty safe with this. In some ways you could actually be safer with shelve than sqlite, because there's no risk of SQL Injection in shelve. 
+Namedtuple preserves order and has fixed fields, and to me this feels more natural to use for fields in a table.
+No, an explorer where I can see local and global variables that are created after I run my program
+Close enough for an Adam Sandler flashback "ahh don't tell"
+I work in a VFX studio - if it costs money, it's hard to get management to spend anything. This has been the case at all the places I've worked. And as far as stability goes, like in my other statements: The only issue I've encountered over the last 4 or 5 years has been threading. Otherwise, they're the same. 
+/u/opfeels /u/watchinggodbleed 
+/u/opfeels /u/TimBob12 
+http://camelcamelcamel.com
+/u/opfeels /u/thenoisymerc
+/u/valarmorhodor is very positive! [view results](http://ruadick.com/user/valarmorhodor/) - Ranked #7669 of 46648
+/u/resonantt is slightly positive. [view results](http://ruadick.com/user/resonantt/) - Ranked #23711 of 46649
+Aww thanks!
+/u/opfeels /u/dratnon
+/u/General_Pie is kind of a dick. [view results](http://ruadick.com/user/General_Pie/) - Ranked #43060 of 46659
+/u/opfeels /u/way_too_optimistic
+/u/way_too_optimistic is very positive! [view results](http://ruadick.com/user/way_too_optimistic/) - Ranked #11204 of 46660
+/u/endershadow98 is slightly positive. [view results](http://ruadick.com/user/endershadow98/) - Ranked #36748 of 46666
+/u/opfeels /u/Chief_Lazy_Bison
+/u/opfeels /u/enzolt 
+/u/Treeprima is very positive! [view results](http://ruadick.com/user/Treeprima/) - Ranked #13364 of 46689
+Activating a virtual environment is really just adjusting some environment variables, such as `PATH` and `PYTHONHOME`, and deactivating is just setting them back to what they were before. The environment is per-process. If you spawn a sub-process, it inherits a copy of the parent process' environment. Any changes made by the child affect that copy only, and evaporate when the process terminates, having no effect on the the parent process. Consequently, you can't edit environment variables of a process by spawning a sub-process. That's why the `activate` command has to be sourced, not executed, and it's why the `deactivate` command is actually a shell function, not a program/script that is executed, because it can't be. 
+/u/foggy_fogs is slightly positive. [view results](http://ruadick.com/user/foggy_fogs/) - Ranked #26621 of 46706
+You mean a debugger then. PyCharm has that too. Learn how to use it and quit bitching to us because **you** can't be bothered to learn how your IDE works: https://www.jetbrains.com/help/pycharm/2016.2/debugging.html
+/u/opfeels /u/bogahomestead
+/u/ukkoylijumala is very positive! [view results](http://ruadick.com/user/ukkoylijumala/) - Ranked #13370 of 46719
+/u/opfeels /u/booradleyboo
+/u/booradleyboo is slightly positive. [view results](http://ruadick.com/user/booradleyboo/) - Ranked #20960 of 46724
+Absolutely! I knew about camel and other sites before starting this project. It was just for fun :)
+/u/opfeels /u/superhappyrobots
+/u/hifiboombox is slightly positive. [view results](http://ruadick.com/user/hifiboombox/) - Ranked #20966 of 46732
+/u/discomeats is slightly positive. [view results](http://ruadick.com/user/discomeats/) - Ranked #32083 of 46732
+Thank you! I always try to put together helpful READMEs.
+The fuck? I'm a miserable git!
+/u/opfeels /u/deathxbyxtaxes 
+I think you misstyped your username
+/u/opfeels /u/gameofdomes
+/u/opfeels /u/frojoe27
+/u/frojoe27 is very positive! [view results](http://ruadick.com/user/frojoe27/) - Ranked #9361 of 46785
+/u/NotPornAccount is very positive! [view results](http://ruadick.com/user/NotPornAccount/) - Ranked #9361 of 46789
+/u/opfeels /u/GoldArchex
+/u/opfeels /u/brb-coffee 
+/u/wcb98 is very positive! [view results](http://ruadick.com/user/wcb98/) - Ranked #7687 of 46794
+/u/ecsa0014 is neutral. [view results](http://ruadick.com/user/ecsa0014/) - Ranked #40566 of 46814
+/u/opfeels /u/Paladin_Dank
+/u/Paladin_Dank is kind of a dick. [view results](http://ruadick.com/user/Paladin_Dank/) - Ranked #45387 of 46816
+Why? 
+/u/BostonBakedBrains is very positive! [view results](http://ruadick.com/user/BostonBakedBrains/) - Ranked #11233 of 46817
+/u/opfeels /u/therighteousonreddit
+/u/therighteousonreddit is very positive! [view results](http://ruadick.com/user/therighteousonreddit/) - Ranked #6295 of 46827
+/u/_vargas_ is slightly positive. [view results](http://ruadick.com/user/_vargas_/) - Ranked #26683 of 46830
+/u/opfeels /u/waterbubblez
+/u/LuckyPancake is slightly positive. [view results](http://ruadick.com/user/LuckyPancake/) - Ranked #21008 of 46840
+/u/opfeels /u/mjb1996
+/u/opfeels /u/thebestllama
+/u/opfeels /u/redditpentester
+/u/redditpentester is slightly positive. [view results](http://ruadick.com/user/redditpentester/) - Ranked #32186 of 46886
+If I'm in the 99th percentile of dickishness, you can just call me a dick.
+/u/opfeels /u/cephalopod1
+/u/cephalopod1 is slightly positive. [view results](http://ruadick.com/user/cephalopod1/) - Ranked #26717 of 46893
+Yay
+/u/flocko is very positive! [view results](http://ruadick.com/user/flocko/) - Ranked #11255 of 46899
+/u/curiousGambler is slightly positive. [view results](http://ruadick.com/user/curiousGambler/) - Ranked #29492 of 46915
+/u/opfeels /u/counterrevolutionary 
+/u/counterrevolutionary is slightly positive. [view results](http://ruadick.com/user/counterrevolutionary/) - Ranked #23841 of 46921
+/u/opfeels /u/doubleunplussed
+/u/doubleunplussed is neutral. [view results](http://ruadick.com/user/doubleunplussed/) - Ranked #40664 of 46922
+/u/opfeels /u/MobocraticEgoist
+/u/mobocraticegoist is slightly positive. [view results](http://ruadick.com/user/mobocraticegoist/) - Ranked #21050 of 46925
+/u/pianophage is slightly positive. [view results](http://ruadick.com/user/pianophage/) - Ranked #32213 of 46927
+/u/milesrout is slightly positive. [view results](http://ruadick.com/user/milesrout/) - Ranked #38965 of 46930
+/u/holomorphological is slightly positive. [view results](http://ruadick.com/user/holomorphological/) - Ranked #34702 of 46932
+https://www.youtube.com/watch?v=k8ws_APXilE
+&gt;[**Zapp Brannigan Neutrals [0:09]**](http://youtu.be/k8ws_APXilE) &gt;&gt; &gt; [*^McLeanBurger*](https://www.youtube.com/channel/UCozjglgy4TqLrYmyGzEiSAA) ^in ^Comedy &gt;*^127,816 ^views ^since ^Aug ^2012* [^bot ^info](/r/youtubefactsbot/wiki/index)
+/u/opfeels /u/RabbiZezima
+/u/opfeels /u/redhedinsanity
+/u/opfeels /u/bob_newhart
+/u/bob_newhart is slightly positive. [view results](http://ruadick.com/user/bob_newhart/) - Ranked #38980 of 46951
+u/opfeels u/cultfitnews
+/u/cultfitnews is very positive! [view results](http://ruadick.com/user/cultfitnews/) - Ranked #6314 of 46955
+/u/ivoah is very positive! [view results](http://ruadick.com/user/ivoah/) - Ranked #9398 of 46957
+What a shit algo It told me that the comment below was one of my positive comments "Great so first he kneecaps the Democratic nominee and when that nominee loses he can come in to rescue us?"
+And camelegg and camelbuy? :(
+/u/opfeels /u/rolandog
+/u/rolandog is slightly positive. [view results](http://ruadick.com/user/rolandog/) - Ranked #23868 of 46976
+/u/SamStringTheory is slightly positive. [view results](http://ruadick.com/user/SamStringTheory/) - Ranked #23868 of 46978
+/u/opfeels /u/bboe
+/u/bboe is very positive! [view results](http://ruadick.com/user/bboe/) - Ranked #11274 of 46979
+/u/ceph12 is very positive! [view results](http://ruadick.com/user/ceph12/) - Ranked #11274 of 46980
+/u/yankeedk is very positive! [view results](http://ruadick.com/user/yankeedk/) - Ranked #13442 of 46981
+/u/opfeels /u/silent_shade
+/u/silent_shade is very positive! [view results](http://ruadick.com/user/silent_shade/) - Ranked #9400 of 46983
+/u/opfeels /u/toastman85
+/u/opfeels /u/canadiandev25
+/u/opfeels /u/SalishSailor 
+/u/opfeels /u/noname1101 
+The ranking mechanism is weird. This was one of my most negative comments: "Gonna take a stab in the dark here and guess that's the inner bore diameter, and the bullets are a bit thicker to bite into the rifling and shoot accurately." Guess because of keywords "stab" and maybe "bullets"? 
+/u/opfeels /u/flyingfox12
+/u/opfeels /u/jansnolo
+/u/hellrazor862 is slightly positive. [view results](http://ruadick.com/user/hellrazor862/) - Ranked #23886 of 47005
+Trying my best to get started leaning this language! Did a tiny bit of Java in high school but didn't keep learning. Hopefully I'll get somewhere. 
+/u/opfeels /u/PlumberODeth 
+/u/opfeels /u/chidedneck
+/u/FireCrack is slightly positive. [view results](http://ruadick.com/user/FireCrack/) - Ranked #26787 of 47023
+/u/opfeels /u/tsirolnik
+/u/opfeels /u/scuzzlebutt007
+/u/opfeels /u/sprint_ska
+/u/sprint_ska is slightly positive. [view results](http://ruadick.com/user/sprint_ska/) - Ranked #21093 of 47031
+/u/opfeels /u/potapeno
+/u/potapeno is slightly positive. [view results](http://ruadick.com/user/potapeno/) - Ranked #37031 of 47038
+:(
+/u/PokeSalad is slightly positive. [view results](http://ruadick.com/user/PokeSalad/) - Ranked #23913 of 47077
+/u/opfeels /u/kevinwelch2001
+/u/opfeels /u/errant1
+/u/errant1 is slightly positive. [view results](http://ruadick.com/user/errant1/) - Ranked #32321 of 47097
+/u/opfeels /u/trygvba
+/u/trygvba is very positive! [view results](http://ruadick.com/user/trygvba/) - Ranked #2693 of 47101
+/u/mackinthehouse is very positive! [view results](http://ruadick.com/user/mackinthehouse/) - Ranked #11309 of 47113
+I'm not sure there's common agreement on best practices; the Python community seems pretty confused about packaging. I talked about it in this answer: http://stackoverflow.com/questions/14399534/how-can-i-reference-requirements-txt-for-the-install-requires-kwarg-in-setuptool/33685899#33685899 But really Donald Stufft says it pretty well in that article I linked earlier. 
+/u/novalsi is slightly positive. [view results](http://ruadick.com/user/novalsi/) - Ranked #26843 of 47121
+/u/kemotep is very positive! [view results](http://ruadick.com/user/kemotep/) - Ranked #11310 of 47125
+/u/opfeels /u/econoraptorman
+/u/opfeels /u/tury345
+/u/tury345 is slightly positive. [view results](http://ruadick.com/user/tury345/) - Ranked #23941 of 47129
+/u/HyperSpline is slightly positive. [view results](http://ruadick.com/user/HyperSpline/) - Ranked #26851 of 47132
+/u/opfeels /u/Repentant_revenant
+/u/opfeels /u/DiscoPanda
+/u/Discopanda is very positive! [view results](http://ruadick.com/user/Discopanda/) - Ranked #11314 of 47141
+/u/dvidsilva is very positive! [view results](http://ruadick.com/user/dvidsilva/) - Ranked #2697 of 47142
+I have no strong feelings about this one way or the other.
+/u/buffdude1100 is very positive! [view results](http://ruadick.com/user/buffdude1100/) - Ranked #15842 of 47143
+/u/playingpants is slightly positive. [view results](http://ruadick.com/user/playingpants/) - Ranked #39144 of 47146
+First of all, Drupal and Wordpress are CMSs, whereas Django is a framework, so the comparison isn't apples to apples there. A CMS is always going to be more popular than a framework as it can be used out of the box. Secondly, php projects are still more popular overall, because it still has that first mover advantage. All these criticisms that people are throwing at php (inspired by that fractals of bad design article) are being realized these past few years. In the early 90s when there was nothing else, php was the only feasible thing to code website backends. Now, add to it the fact that php started borrowing all the good practices from other languages in recent years! They brought composer packaging inspired by pip, maven, etc. They brought namespaces and classes and anonymous functions too. php 7 is in fact a totally different language than what it was in the yester-years.
+/u/opfeels /u/AutoModerator
+/u/opfeels /u/jlawler
+/u/jlawler is neutral. [view results](http://ruadick.com/user/jlawler/) - Ranked #40875 of 47161
+/u/opfeels /u/bcgroom 
+/u/Dark_Souls is slightly positive. [view results](http://ruadick.com/user/Dark_Souls/) - Ranked #34875 of 47169
+/u/opfeels /u/Rotsuki
+/u/wookiee42 is slightly positive. [view results](http://ruadick.com/user/wookiee42/) - Ranked #26871 of 47180
+Even if the hook is completely outside of C code, this way will still be much faster (I tested it even on almost empty dicts). I do understand that speed is the real reason for it to exist. 
+/u/BrothersInGame is very positive! [view results](http://ruadick.com/user/BrothersInGame/) - Ranked #15857 of 47198
+[/u/FlygonGaming](https://www.reddit.com/user/FlygonGaming) is kind of a dick! [view results](https://www.youtube.com/watch?v=dQw4w9WgXcQ&amp;ab_channel=RickAstleyVEVO)
+/u/opfeels /u/Tribal_Tech
+/u/fuckswithducks is very positive! [view results](http://ruadick.com/user/fuckswithducks/) - Ranked #9444 of 47221
+u/opfeels u/theseas86
+Putting aside whether this needs to exist at all, you are too inexperienced to name it "For humans"
+Links seems to be dead. Could you update it?
+http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.rolling.html
+/u/LuckyWhip is slightly positive. [view results](http://ruadick.com/user/LuckyWhip/) - Ranked #29695 of 47238
+AFAIK The current (19.0) pandas rolling feature is limited to one column only. In order to perform rolling calculations involving more than one column, you need to do something like [this](http://stackoverflow.com/questions/21040766/python-pandas-rolling-apply-two-column-input-into-function). The answer shows how to do rolling with 2 columns. If you can describe your problem clearly, perhaps I can help you more.
+/u/opfeels /u/badgersnuts2013
+/u/opfeels /u/oh_jonas
+/u/oh_jonas is slightly positive. [view results](http://ruadick.com/user/oh_jonas/) - Ranked #24000 of 47245
+/u/opfeels /u/oowop
+Your 3rd most positive comment is also rather intriguing sans-context.
+/u/opfeels /u/warringhermit
+/u/opfeels /u/bad_luck_charm
+/u/opfeels /u/pvkooten
+/u/pvkooten is very positive! [view results](http://ruadick.com/user/pvkooten/) - Ranked #5185 of 47261
+It looks like it includes quoted text, which seems likely to hurt the accuracy.
+Agreed. But it seems ambiguous to know what's meant by positive or negative here. I can understand where it interprets *crass* statements, loaded with cuss words and insults, as negative, whereas words suggesting praise, encouragement, and support are interpreted as positive. But any comment that references any type of fighting or weapons is automatically negative — that seems an illogical association to apply on a site with numerous gaming communities.
+/u/opfeels /u/yur3i__
+/u/opfeels /u/IlikeSalmiakki
+/u/opfeels /u/codingkid
+/u/Codingkid is neutral. [view results](http://ruadick.com/user/Codingkid/) - Ranked #40979 of 47280
+/u/opfeels /u/rlrgr 
+The internet is full of repurposed words and sarcasm.
+If it's just a matter of displaying some views, doing some computation and reading/writing to files, Flask is probably enough. If you also want to have some persistent data in the form of a database model, Django's ORM would probably be beneficial. However, either framework would probably work fine. With Flask you could add SQLAlchemy, Jinja, etc, to achieve the same things you have in Django. But Django is a more integrated and complete experience, i.e. "batteries included".
+/u/saracen9 /u/opfeels
+/u/AcousticDan is kind of a dick. [view results](http://ruadick.com/user/AcousticDan/) - Ranked #45273 of 47290
+/u/opfeels /u/dpereira14
+/u/dpereira14 is very positive! [view results](http://ruadick.com/user/dpereira14/) - Ranked #4219 of 47294
+/u/thelamestofall is slightly positive. [view results](http://ruadick.com/user/thelamestofall/) - Ranked #26947 of 47298
+/u/borgis_ is very positive! [view results](http://ruadick.com/user/borgis_/) - Ranked #217 of 47299
+/u/smallpaul is slightly positive. [view results](http://ruadick.com/user/smallpaul/) - Ranked #39278 of 47301
+/u/opfeels /u/JoeDuo
+I taught an Intro to Python 4 hour mini course for the local maker space a while back. I used IDLE, because everyone had it by default. My only goal was to work up towards a basic turtle script- which, by the way, is really entertaining with adults... they kept trying interesting and unexpected things with turtle - like simulating the roomba algorithm for covering an area of a room. But it hit all the points it needed to in four hours: installing python, using IDLE and 'desktop calculator' functionality, basic types, using functions (print, etc.), indexing and sequence types, dicts, user input, object labels, conditional statements, comparison operators, membership testing, for and while loops, external modules (intro to the docs), writing functions, and putting it all together (play time with turtle). Errors can be introduced as you cover each topic, by demonstration. For example, when introducing print(), leave out the closing bracket (or a quote) intentionally to demonstrate what a syntax error looks like. Get them to try to break things in new an exciting ways, and have them show you the errors. Then reproduce it on the big screen so that everyone sees and learns from it. It was very successful, and I'm planning on running courses on the topic at work as well.
+/u/opfeels /u/admin-mod
+/u/admin-mod is slightly positive. [view results](http://ruadick.com/user/admin-mod/) - Ranked #37261 of 47321
+&gt;-0.5106 I understand your pain. How is this a negative sentence?
+/u/opfeels /u/ethoslab
+Nice was it in Python? I've been wanting to make an app for some time now.
+I have a data frame say, 1000x100 in size. I want to pass a nxn window (suppose 11x11) centered around each point of the dataframe and calculate the weighted sum of every window. This should give me a weighted sum of every point of my dataframe. The problem is I want to avoid for loops to do this, How can I go ahead?
+/u/opfeels /u/that-other-username
+/u/that-other-username is slightly positive. [view results](http://ruadick.com/user/that-other-username/) - Ranked #39302 of 47332
+Think a bit further then where you are at right now.
+The quality and usage intention of the project is not mentioned on the Github page.
+&gt; But Django is a more integrated and complete experience, i.e. "batteries included". Yeah, but that also needs you have to lean more to get going. Flaks is basically just putting a method in a file.
+it sounds like you are treating the dataframe like a regular 2D array of numbers, and not a container of structured data. Conceptually what does rolling across rows *and* columns even mean? if you can't express that, it's likely your data model is FUBAR.
+/u/TheWalruss is slightly positive. [view results](http://ruadick.com/user/TheWalruss/) - Ranked #18467 of 47356
+/u/extraltodeus is slightly positive. [view results](http://ruadick.com/user/extraltodeus/) - Ranked #18468 of 47358
+Sorry, I would if I could, but its proprietary. Have you thought about using something like messagepack? If your use-case is basically communication between two backends you control yourself, or storing data at rest, then messagepack will beat ujson in speed and flexibility, and storage size. 
+/u/kozm is slightly positive. [view results](http://ruadick.com/user/kozm/) - Ranked #26981 of 47366
+/u/opfeels /u/EccentricalAce
+Great job, you are doing great work, this app sucks it has no use, actually I dont feel one way or the other about it, its neither good nor bad 
+/u/Joseppi_ is kind of a dick. [view results](http://ruadick.com/user/Joseppi_/) - Ranked #46391 of 47368
+/u/opfeels /u/binomine
+/u/binomine is slightly positive. [view results](http://ruadick.com/user/binomine/) - Ranked #35029 of 47370
+First step: unlearn java
+The problem you're trying to solve is serialization/deserialization for which there are already pretty good libraries. My favourite is [marshmallow](https://marshmallow.readthedocs.io). You won't have to modify your objects and there is already field support (and validation) for a lot of data types.
+/u/sklarjeb2 is very positive! [view results](http://ruadick.com/user/sklarjeb2/) - Ranked #2709 of 47381
+/r/learnpython
+/u/opfeels /u/Pwneed 
+/u/opfeels /u/chazmer87
+/u/opfeels /u/quantumtroll
+/u/quantumtroll is slightly positive. [view results](http://ruadick.com/user/quantumtroll/) - Ranked #26990 of 47390
+What? In that case that video is a copy of the scikit tutorial http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+/u/CarlH is very positive! [view results](http://ruadick.com/user/CarlH/) - Ranked #13571 of 47399
+Hey. Nice little tool u made there. But please add all your requirements in your requirements.txt
+/u/tomit12 is slightly positive. [view results](http://ruadick.com/user/tomit12/) - Ranked #18482 of 47404
+/u/opfeels /u/christian1020_94
+. 
+I'm managing the requirements file with a venv, I can't seem to find any missing requirements, besides the default libraries such as OS, sys and so on, which import seems to be the problem? 
+That's a really great point. I literally had never thought about it that way before.
+/u/Pwneed is very positive! [view results](http://ruadick.com/user/Pwneed/) - Ranked #489 of 47419
+In this kind of situation it's much easier to just execute python (or whatever binary you want) inside the virtualenv directly. Ex: Popen(["/path/to/venv/bin/python", "script.py"]) activate and deactivate are a more convenient way of achieving the same thing when working interactively in a terminal.
+/u/opfeels /u/tagadvance
+The major thing to stop doing is arbitrarily putting all of your code in classes when it doesn't need to be. We have modules for separation: classes are for things which need to be classes.
+/u/R0B0_Ninja is very positive! [view results](http://ruadick.com/user/R0B0_Ninja/) - Ranked #4231 of 47422
+/u/opfeels /u/TheKliff
+Def Pyramid :) the default sqlalchemy scaffold will feel like flask but provides sane defaults and structure.
+Thank you for making this!
+/u/opfeels /u/return_reza 
+This isn't something Pandas is conceptually suited to - use a Numpy ndarray instead, and consider scipy for fancy array functions like convolution. 
+Bookmark this and look back at it in 1 or 2 years.
+/u/FriendlyYak is slightly positive. [view results](http://ruadick.com/user/FriendlyYak/) - Ranked #18501 of 47445
+Thanks for the correction!
+/u/opfeels /u/Linkus000
+/u/Linkus000 is very positive! [view results](http://ruadick.com/user/Linkus000/) - Ranked #804 of 47452
+/u/opfeels /u/united_fruit_company
+/u/united_fruit_company is slightly positive. [view results](http://ruadick.com/user/united_fruit_company/) - Ranked #21282 of 47453
+/u/opfeels /u/Xadnem 
+/u/xadnem is kind of a dick. [view results](http://ruadick.com/user/xadnem/) - Ranked #44709 of 47454
+/u/opfeels /u/theorias_
+/u/opfeels /u/CATHOLIC_EXTREMIST
+/u/CATHOLIC_EXTREMIST is slightly positive. [view results](http://ruadick.com/user/CATHOLIC_EXTREMIST/) - Ranked #37381 of 47477
+/u/opfeels /u/mostly_kittens
+/u/mostly_kittens is slightly positive. [view results](http://ruadick.com/user/mostly_kittens/) - Ranked #37385 of 47481
+/u/opfeels /u/mellow_gecko
+Never mind, seems like the dist on pypi is outdated in comparison to the master branch which works with py3. Ended up pip installing from there.
+/u/Caomedes /u/ilgnome
+/u/Caomedes /u/ilgnome
+Depending on what exactly you want to do, adding offset numpy arrays might be easier and faster. Check out the Counting Neighbours section on [this](http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html) page. You should be able to modify this to 11x11, and divide the final array by 121 to get the weighted average.
+I feel a bit bad downvoting this as a lot of effort has gone into these videos, but there are lots of examples of bad Python here. These design patterns make sense in Java or C#, but aren't particularly valuable in Python. For example, the singleton pattern is entirely redundant if you just use class methods and variables: class Singleton: data = None Singleton.data = 'stuff' Strategy patterns are also redundant as you can pass functions as objects: def long_method(x, y): return x*y algorithms = { 'add': lambda x, y: x+y, 'subtract': lambda x, y: x-y, 'multiply': long_method } my_class_instance.algorithm = algorithms['add'] my_class_instance.algorithm(1, 2)
+That was absolutely incredible 
+You've got to mention my name not yours. Cheers.
+I agree. I've used both bokeh and plotly and found plotly to be much better. Plots are interactive out of the box with plotly and it is much more intuitive because everything is a dictionary. Plus it can do 3d plots.
+/u/opfeels /u/Niet_de_AIDV 
+/u/abcxyd is very positive! [view results](http://ruadick.com/user/abcxyd/) - Ranked #13596 of 47497
+/u/opfeels /u/sarcastic_elephant
+/u/sarcastic_elephant is very positive! [view results](http://ruadick.com/user/sarcastic_elephant/) - Ranked #3413 of 47501
+checkout hug api, then just rudimentary static HTML forms. 
+/u/lost_in_trepidation is slightly positive. [view results](http://ruadick.com/user/lost_in_trepidation/) - Ranked #29862 of 47507
+I just bought it, seems pretty decent
+Hi! Thank you for the answer. However, I do not really understand why. I did not ask help about python scripting, or the language in general, I asked the community to gather ideas. The learnpython and learnprogramming subreddit is for actual questions on HOW to implement stuff. I basically just wanted a little bit of a brainstorm session on WHAT to implement.
+/u/opfeels /u/xblaz3x
+Please port this to Firefox :)
+The usual suspects. What is beyond adding namedtuple, context-manager and decorators? How to review applications?
+Why not link directly to the [article](https://access.redhat.com/blogs/766093/posts/2802001) in question? Mind, it have already been linked from this subreddit within the last few weeks. As this post stands now, it looks like a bad attempt at spamvertising a website.
+/u/opfeels /u/noturavgitguy
+/u/draica is very positive! [view results](http://ruadick.com/user/draica/) - Ranked #13604 of 47528
+Sauce?
+/u/opfeels /u/mikeyb1
+I've been using an user script for this since quite some time ago. Certainly more than a few weeks…
+/u/enesimo is very positive! [view results](http://ruadick.com/user/enesimo/) - Ranked #15982 of 47534
+I wish. It was actually easier than you think, HTML5/CSS/JavaScript. It was a "website", wrapped in PhoneGap code and then that converted into Android code. I am missing details here because it was years ago, but I know there are more tutorials and better documentation available now. Python would be fun to try this in, although I don't know how to bring that in Android. 
+/u/opfeels /u/kirakun 
+/u/kirakun is slightly positive. [view results](http://ruadick.com/user/kirakun/) - Ranked #35150 of 47535
+/u/soorin1993 /u/opfeels
+/u/soorin1993 is very positive! [view results](http://ruadick.com/user/soorin1993/) - Ranked #2719 of 47538
+/u/opfeels /u/blofeldd
+No further changes should be needed, actually in all cases it has worked for me even without having to change the PATH. After searching around a bit it looks like you do need to change it though if the script you are starting also tries to Popen new python processes and these should run inside the virtualenv. If you are using Popen as in your example you should use subprocess.call instead since Popen will not wait for the process to finish, if this is just a result of the example being stripped down then ignore this. 
+/u/opfeels /u/extensionlead
+/u/extensionlead is very positive! [view results](http://ruadick.com/user/extensionlead/) - Ranked #5219 of 47540
+/u/opfeels /u/LockManipulator
+Yeah I also don't like the graphs very much with camel. But I'm kind of a graph snob so that may not bother others.
+/u/failedaspirant is very positive! [view results](http://ruadick.com/user/failedaspirant/) - Ranked #15985 of 47552
+Who says you have to give Camel^3 your login? Just type in an email address and they send you notifications. I gave them an email address alias, so if they ever sell my email address, I just disconnect that alias.
+I'd be interested in working on it with you! PM me. =)
+/u/Mr_Again is slightly positive. [view results](http://ruadick.com/user/Mr_Again/) - Ranked #39494 of 47558
+/u/opfeels /u/kn0thing 
+/u/WhyDidntYouDoMyJob is slightly positive. [view results](http://ruadick.com/user/WhyDidntYouDoMyJob/) - Ranked #24158 of 47567
+Better than expected really.
+Ahh, I've always wanted to be ranked nked #&lt;bound method Redditor.index of &lt;Redditor: Redditor object&gt;&gt; !!
+/u/opfeels /u/1roOt
+/u/1roOt is slightly positive. [view results](http://ruadick.com/user/1roOt/) - Ranked #21335 of 47578
+As others have already said, /r/learnpython is the right place to ask such questions. Thanks!
+Not sure if this may help but I have an ongoing pet project to try to add relevant suggestions to error messages. There is still a lot to do (among other things making it installable but I suck at this) but if it interests you : https://github.com/SylvainDe/DidYouMean-Python . Any suggestion is welcome. In any case, you'll find other projects/documents that might interest you at the end of the Readme. Sorry for the shameless self-promotion .
+Very interesting. I've been trying to get into the app game for a long time, but I don't have the time for the iOS learning curve. I'll have to check out some options in Android.
+/u/loneliestmonk is very positive! [view results](http://ruadick.com/user/loneliestmonk/) - Ranked #2723 of 47617
+Also: supervisor, which lets you control running processes from a web page
+/u/WhyIsYosarionNaked is slightly positive. [view results](http://ruadick.com/user/WhyIsYosarionNaked/) - Ranked #37501 of 47631
+/u/mouseinahaze is kind of a dick. [view results](http://ruadick.com/user/mouseinahaze/) - Ranked #41310 of 47658
+/u/opfeels /u/ekjp
+/u/pooogles is very positive! [view results](http://ruadick.com/user/pooogles/) - Ranked #13647 of 47674
+/u/opfeels /u/wizkid_
+/u/opfeels /u/flyengineer 
+/u/flyengineer is slightly positive. [view results](http://ruadick.com/user/flyengineer/) - Ranked #35267 of 47690
+/u/opfeels /u/54mi
+What game modding? If you're trying to mod a game supports Lua scripting and doesn't support Python, you're stuck with Lua.
+I kept seeing this thing called Blender but it looked old so I do not know if it is still maintained. Any info on that?
+It likely will just work with https://addons.mozilla.org/en-US/firefox/addon/chrome-store-foxified/
+/u/opfeels /u/downgoat
+It just scrapes the itunes website and passes the url to the podcast page in an encoded URL parameter. The search just uses the iTunes API and then forwards the encoded url from the result to the podcast page. Thanks for the compliment!
+I'd just like to say, I just started out coding, and your creation is a true inspiration that I hope to work up to someday
+Make a py2redirect switch, so it could do the opposite.
+But that isn't as necessary, as most google results still point to the python2 documentation.
+/u/opfeels /u/vimfan
+/u/vimfan is slightly positive. [view results](http://ruadick.com/user/vimfan/) - Ranked #27275 of 47896
+/u/opfeels /u/cimib
+/u/cimib is very positive! [view results](http://ruadick.com/user/cimib/) - Ranked #7891 of 48032
+Nice job. I've been wanting to do something like this but haven't gotten around to it. Thanks for sharing your experience.
+/u/tomcb is slightly positive. [view results](http://ruadick.com/user/tomcb/) - Ranked #27358 of 48061
+You'll want a sparse matrix if most entries will be zero. See scipy.sparse. 
+Chunky chunky
+For this you can simply slice the string. For example: print 'hello'[0:2] # 'he' print 'hello'[1:5] # 'ello' Also note, when selecting from the 0 index or to the last index you can leave it blank in the syntax. print 'hello'[:2] # 'he' print 'hello'[1:] # 'el'
+/u/ohjeah is slightly positive. [view results](http://ruadick.com/user/ohjeah/) - Ranked #39950 of 48099
+Initially they will be all zero, but once it starts running and data flows in, it will need to store the information. 
+That's a big array, and that's not how weather (satellite data) is served up; it's chunked out into much smaller segments, at most a few gigabytes each. What you want is an algorithm that's aware of these different chunks and can operate on things in an efficient way as you're constrained by memory. There are two very good tools for accomplishing this in the Python ecosystem when you have large, gridded data. The first, [xarray](http://xarray.pydata.org/en/stable/), as an n-dimensional extension of Pandas which basically implements the [Common Data Model](http://www.unidata.ucar.edu/software/thredds/current/netcdf-java/CDM/) which underpins most weather data out there. xarray basically gives you an interface which emulates numpy, so you can use any of your numpy code on it, but in an easier way. The second, [dask](http://dask.pydata.org/en/latest/), is another numpy/pandas-emulating interface which lazily and opportunistically evaluates the expressions you like, taking into account the full resources available on your machine (it has a [companion package for running on distributed clusters](https://distributed.readthedocs.io/en/latest/)). Xarray is dask-aware and with little overhead, you can take advantage of dask on normal xarray operations. [Here is an example which utilizes these two tools](https://www.continuum.io/content/xray-dask-out-core-labeled-arrays-python). Alternatively, depending on what exactly you're doing, you can write arbitrary computational graphs and execute them with dask. It's incredibly easy. This is by far the easiest way to analyze your data and taken full advantage of the computational resources you have available. You shouldn't be writing an MPI code for routine analysis.
+Would this cut off information from the text? The text from posts is usually about 1000+ characters all on a single print line. Thanks!
+How would you recommend formatting it? Text posts vary in length and substance. Thanks!
+What does that mean my path is C:\Python36\Scripts\geckodriver(file not .exe or application) and i still get this error
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is more-so dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community can get disenchanted with seeing the 'same, repetitive newbie' questions repeated on the sub, so you may not get the best responses over here. However, on /r/LearnPython the community is actively expecting questions from new members, and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. Whatever your question happens to be getting help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+This post is probably better suited for r/learnpython 
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is more-so dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community can get disenchanted with seeing the 'same, repetitive newbie' questions repeated on the sub, so you may not get the best responses over here. However, on /r/LearnPython the community is actively expecting questions from new members, and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. Whatever your question happens to be getting help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+What can it do that curl can't?
+If you use DuckDuckGo, `!py &lt;search term&gt;` has used Python 3 docs by default for a while now. And if you must, `!py2 &lt;search term&gt;` will search the Python 2.7 docs.
+So you get the up-to-date documentation even though the Google search result is still pointing to the EOL docs?
+What you describe is never the correct solution (even for a single 32-bit number it would require 2TB of ram). You need to find some way to chunk the data (for both storage and processing reasons) What is the end goal here and where is this data coming from (e.g. it's probably already stored in a format that supports sparse access like HDF5)
+This coding every day idea is incredibly stupid. It doesn't make you a better programmer it simply makes you a weirdo that has to get a commit in on Christmas Day. 
+I have to second /u/marsanyi, supervisor is the way to go if you can hard-code those command-line parameters at all. I use it professionally to manage the processes that shift workers may need to restart when I'm not in, which says a lot because I don't want to drive in if I don't have to. It has a built in web-server that is highly configurable, reverse proxy it behind nginx if you need some kind of authentication.
+if you are using MAC OS, you can try to look at 'Audio Unit' from the Apple API.
+yes, and if they don't it's a good time to learn it, which is your job
+I am doing this this year and put together a web site to help motivate me to keep going. http://codestreak.io I had a 250 day streak going in 2015 and it was a challenge but also proved a great way to get better. This year I'm going for another streak but building some projects rather than just practice coding.
+/u/hooklinenstinker is slightly positive. [view results](http://ruadick.com/user/hooklinenstinker/) - Ranked #36062 of 48796
+Maybe because he stole FB from his roommate? 
+/u/opfeels /u/Sykowmaniac 
+Wow, thanks. TIL I'm a weirdo.
+Any library I can use to mod that?
+Lol, if practicing everyday does not make you a good programmer, I wonder what does. Probably sitting on a beach, sipping a cocktail.
+wow man! thanks a lot! Can't wait til you post your first project in here!
+If you do find one, add it to [this bug report](https://github.com/bokeh/bokeh/issues/372).
+You're totally right! And I'm trying, haha. I'd like to use this given code, and the little bit I've learned so far, to help make it a little bit easier. 1 from world import me,you 2 from my.consciousness import I, your # we need these words 3 from feelings import * 4 5 always = True # are these statements 6 7 if you in (depressed, sadness, resignation) : 8 print ‘my Sweetheart’ 9 if feel(you) is lonely or feel(you) is neglected: 10 talk_me(this) 11 while always: 12 I. take_care_of(you) 13 if you. love() is not me: 14 # I will follow in the madness 15 # I will… 16 break # down 17 for emotion in my.heart: 18 try: 19 your.lover = me 20 except: 21 your.best_friend = me 22 if you.hate(me): 23 love(me) 24 elif I.annpying(): 25 love(me) 26 else: 27 love(me, how=’deeply’ , when=’now’ 
+There are a lot of mistakes and unpythonic things in there. For starters, indentation is very important in python. Here it is with only the indentation fixed ([and formatted for Reddit](https://www.reddit.com/r/learnpython/wiki/faq#wiki_how_do_i_format_code.3F)): from world import me,you from my.consciousness import I, your # we need these words from feelings import * always = True # are these statements if you in (depressed, sadness, resignation) : print ‘my Sweetheart’ if feel(you) is lonely or feel(you) is neglected: talk_me(this) while always: I.take_care_of(you) if you.love() is not me: # I will follow in the madness # I will… break # down for emotion in my.heart: try: your.lover = me except: your.best_friend = me if you.hate(me): love(me) elif I.annpying(): love(me) else: love(me, how=’deeply’ , when=’now’)
+oh, okay, thank you so much. So with the proper indentation, how much would i have to change so that he could put into Python? and is it possible to know the "outcome" of this code?
+don't think the code is supposed to 'work', it's more like a lil love poem written in 'python', but not really ;) just show or send it to him as a text file and he'll get it..
+lol shows you what I know! I was gonna change some words and personalize it, but I wouldn't know what has to stay and what can change haha okay, and thank you!
+well, 1 thing you could do is add a few comments, everything after a # (hashtag symbol) is a text comment and won't 'break' anything ;) wouldn't worry too much about it also, it's the thought that counts and i'm sure he'll love it.. 
+I'm sure he'd get the idea. It's valid code but no, it's not proper python. It makes no sense as code. Unless this is a tattoo, I'm guessing he won't care. The only point he might miss is that `break` stops the whole program, which I'm guessing is not what you want. I'd suggest something like this: import world me = world.Person('Your name') you = world.Person('His name') you.lover = me you.best_friend = me for day in time.days(): me.take_care_of(you) if you.feeling in ('depressed', 'sad', 'resigned'): me.cheer_up(you) elif you.feeling in ('lonely', 'neglected'): me.talk_to(you) elif me in you.annoyed_with(): me.love(you, how=’deeply’, when=’now’) LPT: Making threats like you will 'follow into madness' if you aren't his love is kinda creepy and not romantic at all. 
+The Python 3.5 version is going to maintained until 2020. https://en.wikipedia.org/wiki/CPython#Version_history 
+Open source, what?
+Look into the library: simplejson. It has methods like .loads() and .dumps() that will help with this problem. 
+Why not implement this functionality into pandas directly? 
+import simplejson as json json_string = "{'CustomerID':'1000','MemberStatus':'Active','Age':'18'}" Customer = json.loads(json_string) Would this be a correct way to implement .loads()? 
+Is the code publicly available?
+yep!
+Try printing it to find out. ;)
+This is for a 1D window. I need a 2D one.
+How this works is you try googling something before relying on others to solve it for you. You could have had your answer hours ago.
+HDF5. Via the library h5py. And whenever possible, don't store intermediate values. Take your input one value at a time, and write it out if its better. Then take the next element of input. Generators are ideal for this sort of thing.
+mmm, contest mode, what fun, today i wrote a combo command/module to get the ip address of the host it runs on, from 13 sources accessed in parallel. it's over [here](http://python-forum.io/Thread-getmyip-py?pid=7488#pid7488)
+Time critical high frequency code is not a good fit for python.
+What's wrong with the [json standard library](https://docs.python.org/3.6/library/json.html)? What does "to Python" mean here?
+I would love to try Python on a WeMo as I'm not a huge fan of Lua but know Python fairly well. Thanks!
+/u/opfeels /u/veganSchnitzel
+/u/veganSchnitzel is slightly positive. [view results](http://ruadick.com/user/veganSchnitzel/) - Ranked #36809 of 49817
+Open your terminal bruh...
+Does it execute the dowloaded JavaScript? That is the one thing that curl can't do, which is an issue for pages that download their content over AJAX. 
+/r/learnpython
+Nice one! It would be great if you can include an example of the impulse response applied to a other input signal.
+His tutorial was going to be my next stop. I was doing the official docs tutorial and his side-by-side, but when he started getting into bootstrap I stopped following along and focused on the docs tutorial to make sure I had logic down. Form follows function, right?
+I'd encourage you to use /r/learnpython for this sort of question, it's a more appropriate forum.
+Doing something of similar vein - Do you use a wrapper for uploading or just use the YouTube API directly. Having trouble with this portion.
+/u/forkerer is very positive! [view results](http://ruadick.com/user/forkerer/) - Ranked #1061 of 50010
+/r/learnpython
+That response and Username leads me to believe you are quite possibly the most boring/stale person on Reddit. And also a bit of a dick. 
+That's how long term support works for everything. 2.7.12 is a bugfix release, not a feature release. 2.7 will be supported until 2020 so people have time to make the transition to 3.x. Microsoft did the same with WinXP, in fact they even extended the end of support multiple times. It took years for them to finally man up and at least charge some money for extending the support. 
+Hrm you're right. They did extend XP support several times. I wasn't aware of that.
+Depends on the size, but for a one-off comparison of just a few thousand characters (i.e., a few kB), I wouldn't bother with hashing, instead just comparing directly (`a == b`). If it doesn't perform, rewriting it to use hashes instead is always an option still. Either way, you'll still be dealing with unicode shenanigans here (string equality is not, after all, a trivial subject, unfortunately), so you may want to normalize your strings before comparing.
+Comparing a few thousand words in memory? Eg: a few kilobytes? Meh.
+Just a heads-ups: using PhantomJS or any other webdriver to scrape data from the regular Facebook pages is a TOS violation. Seems like just any browser to you and me but their soulless workforce can be extremely anal about this and kill your shit.
+Well, that's a bummer. I just checkout out Facebook's robot.txt file. But technically what I'm really doing is checking out the html of my facebook newsfeed, since the alt tags are added by facebook themselves. 
+I thought Pandas is much bigger though :)
+it depends on what you're trying to do. do you have one target you're comparing many things to, or do you have a lot of things and want to find all duplicates within them. also, this doesn't belong in /r/python
+You are right. Here is nothing fancy. A beginner Opencv programmer (That i am) can do that. About the speed of code, fast enough to run on 720p 30 fps video or equivalent camera source. 
+then hashing will be much more efficient
+There is [pyCuda](https://documen.tician.de/pycuda/). Personally, I have always been attracted to the romance of doing gpgpu processing, but have either found it not really well suited for the type of problems I am trying to do or just too difficult/time consuming to learn. It's something on my radar, but I've not yet found a good way to use it in my everyday work, so I've not bothered.
+PM me details of your project, I would love to learn more and possibly contribute!
+It took a month of five accounts getting 70-90% of the daily maximum
+/u/opfeels /u/boxidea
+It depends entirely on what type of analysis you're doing. The issue isn't the processing power - it's the limited memory that you have on your GPU. The achilles heel of GPGPU is managing host/device communication, because it's a serious bottleneck. Some of the modern features of CUDA &gt;=7 help alleviate this (multiple channels for streaming and scheduling, unified memory, etc), but they require some micro-managing which I find much easier to do at the CUDA/C level than through a higher-level interface. Depending on your problem, it's likely you may see no speed-up whatsoever by developing a GPGPU code, and it'll probably take longer to debug and deploy than it would've if you adopted a more straightforward analysis approach but then re-factored it to work on a distributed cluster via Spark, Hadoop, or dask/distributed.
+https://pyexcel.readthedocs.io/en/latest/tutorial05.html Give that a read, it'll be exactly that using a for loop for all your files most likely. Or at least some variation
+I have written a decent amount in Python and have a rather large (400,000 element SNMP poller every 60-300 seconds) that I do device walks on to gather info. I would suggestion 2 things 1) check out easysnmp (http://easysnmp.com/) instead of PySNMP. It is much faster, although can require a little more effort to get installed. I also think it is easier to use. 2) You should be using bulk get operations if you are pulling a large amount of data, it is orders of magnitude faster than snmpwalk or snmpget. 
+Jupyter?
+Awesome! Have fun man :)
+I did some webcam tracking in python mixed with assembly. I still don't understand why people use OpenCV. It's a huge package and i feel like it overcomplicates things. I looked around on the web and feel like people who use it for their tracking are just lazy. vOv Like, you can do what you showed off with ffmpeg and a short assembler snippet that runs through the image. It's what I did to make motion vectors. Then I got bored and stopped. vOv
+Well, if you are using docker, portainer seems to do the trick for me, as it provides access to the container console through the UI. (http://portainer.io/overview.html#demo) but that might not be what you want.
+The code is [on github](https://github.com/gboeing/osmnx/blob/master/examples/09-example-figure-ground.ipynb).
+/u/skullington is slightly positive. [view results](http://ruadick.com/user/skullington/) - Ranked #28602 of 50456
+&gt; I believe Python currently doesn't have a way to convert to excel binary? Well, what's with [the answer that you received last time](https://www.reddit.com/r/Python/comments/5d08dm/noob_csv_to_xlsb/da0vkr1/)? 3 minutes of Googling resulted in some answers: * There is no **free** implementation of xlsb-support, [because you have to license it](https://bitbucket.org/openpyxl/openpyxl/issues/249/read-and-write-xlsb-files) * You can use M$ [PowerShell Excel interface](https://www.experts-exchange.com/questions/28313872/How-to-convert-xlsb-to-xlsx-or-xls-using-PowerShell.html) to read xlsb, it probably also works the other way round. → 1. Load xls files in Python 1. Join file contents &amp; separate fields into columns 1. save as single file 1. Use Excel via PowerShell to convert to xlsb (I don't know of Python PowerShell interfaces, but there certainly are)
+combining HUG API with celery to create a scalable infrastructure to take over the world, of course. Pinky.
+This post is better suited for r/learnpython
+This post is better suited for r/learnpython
+This post is better suited for r/learnpython or r/learnprogramming
+Thank you, was not aware of that...
+Hence the reason that wasn't my primary question. This is a separate issue. Also, I don't need to join the contents.
+I'm writing some scripts that take data from JSON messages, converts them to CSV files and then punts them to a to service where they are converted to dataframes and can be queried in SQL which is interpreted by pandas. The pandas / SQL translator bit was written by someone much smarter than me :p
+My experience on the matter: you could probably get away with it for a while. You'll likely run into issues down the road that will be solved by switching to a DB. So if you want something quick &amp; dirty to get it working, go for it. But at least keep your methods clear and separate from the rest of your app, so you can replace it easily later. 
+I opted to make a Nightingale's Rose chart using p.wedge() I'm not exactly sure what the requirements are to submit it though
+When i started learning on image, i found it easily on internet. So, i just carried on with opencv. If u have anything better, please suggest me. And what is '' vOv''.
+First of all... na. Drupal is commonly considered a hybrid application and framework. I know it's a matter of opinion but there are many Drupal devs who disagree with the suggestion that is it not a framework at all. Is it a good framework? Django is better. Wordpress, however, obviously is not a framework. https://thoughts.duoconsulting.com/blog/drupal-application-or-framework 
+I coded up a really simple gravity simulator to show planetary orbits using Turtle! I'm fairly new to the GUI/Object oriented side of Python because I mostly use it for data processing and making graphs, and was wondering what packages or toolkits people would recommend if I wanted to make the planets interactive? Like, adding a planet if a user clicks in a location, or having different on-screen buttons. 
+I opened this on mobile and got tons of pop-up nonsense about viruses on phishing sites. I dunno if it was the ad network or what.
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is more-so dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community can get disenchanted with seeing the 'same, repetitive newbie' questions repeated on the sub, so you may not get the best responses over here. However, on /r/LearnPython the community is actively expecting questions from new members, and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. Whatever your question happens to be getting help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is more-so dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community can get disenchanted with seeing the 'same, repetitive newbie' questions repeated on the sub, so you may not get the best responses over here. However, on /r/LearnPython the community is actively expecting questions from new members, and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. Whatever your question happens to be getting help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+You really need to x-post this to /r/citiesskylines, they'd go nuts.
+There are way more ads than I remember, that's probably what it is. Instructables as far as know is still a legit site
+That's a lovely piece of work. Well done! Is your dissertation available to read online?
+Writing a script to handle scheduling of our Pentaho jobs, mail and slack people when it falls over, and to pick itself up again. It was just a shell script before, but that didn't really cut it (read; my python is better than my shell scripting)
+Appreciate the reference. Are the transformation routes used calculated to minimise loss for the specific dataset or hard coded?
+Hi: are you Geoff, the creator? Or, are you just floating the link?
+In addition to the other reasons, python 3.5.1 is the default python3 version for several linux distros (e.g. Ubuntu xenial, yakkety, and zesty, Debian stretch and sid), and they usually carefully backport fixes from the newer python 3.5's
+Please feel free to x-post!
+Still working on a project to get a bunch of local government GIS data into a format that can be read by a new software. I've got the addresses parsing correctly, but the next part is tough. There's supposed to be a table listing business names and alias addresses - if 101 Main St is a McDonalds, and used to be known as 204 First Ave (and a lot of old-timers still refer to it by that) then the table will have both of those, with 101 Main St's unique address point. Just to make it fun, these are in a variety of spatial and tabular data sources with various links to the main address points. I'm using a table of data sources to generate a dictionary of address IDs and up to three aliases for each, and then I'll write the dictionary to the final alias table. And then I have to move this script to its final server home so I can do regular things on my desktop box. Not being able to run Python for 80-100 minutes at a time is really a pain.
+Converting a Create/Read API from a micro-service to a package for inserts into db directly and a lambda function with AWS API gateway for reads.
+OP is the author (at least the reddit and github username match). 
+Will all the challenges be random or will there be themes throughout the year? Will they progressively get more difficult?
+Love reddit. I'm discovering beautiful things every day. Thanks
+Starting a job as a Python developer for a large financial institution in London. Imposter syndrome is very strong with me.
+Nah! Just run `python main.py &lt;username&gt;` and it goes through. The client_id is the default id for anonymous users (as used by YouTube DL) so it assumes no types of privileges -- https://github.com/rg3/youtube-dl/commit/4c4765dba23c40136d575ab58b26e410ec42212a
+I can tell you my experience: I know Python well enough to do some small utility software that helps me in my daily job but I'm in a no way an expert. I was curious to explore the microcontroller world, which I knew next to nothing about so I started tinkering with Arduino and learning the basis of c. However, I couldn't help but thinking how life was easier with Python... then one friend gave me an esp8266 module as a gift. I googled it to understand what I had just received and I realized that a version of Python was being ported to this mcu! I concluded few days ago my first project with Micrpython and an esp8266 (a gift to my child that I hope i will be able to show here very soon) and I can tell you about some pros and cons:. Cons: The main weakness is certainly its young age and small user base. While some documentation and tutorial exist, it a far cry from the 10+ years of documentation you can find for Arduino. And while the small Micropython community is very helpful you will often have to spend more to solve a problem than you would with Arduino. Being an higher level language, a more powerful mcu is needed and as today, only few are compatible. Also, the language is in fast development and it is changing rapidly. Drivers are also much fewer than what is available with Arduino, where you can find a driver for virtually everything. Pros: You can prototype much faster. As with Python, you can use a repl where you can experiment snippet of code very quickly. Being a version Python, if you already know the language, you'll find yourself at home in no time. Keep in mind that in order to shrink Python to work inside an mcu, libraries that don't have much sense in the mcu world are removed, but what you got is more than enough to do a whole lot of projects. As for the drivers it is not as a big deal as it may seems (while a weakness nonetheless): you have just to be more careful while choosing what to buy... and you can write your own drivers :) Lastly, and more important... if you like Python, you will have a lot of fun building your project! I would summarise as follow: if you want the shortest road to get your project done, choose Arduino. If you wanna have a lot of fun experimenting and you already know Python better than you know c, Micropython is the way!
+Going to try and brute force a good set of parameters for my robot's custom-made teleoperation system. I've been stuck on it for months, and I want to finish it within the next couple of weeks so I have a chance at graduating. edit: Success! I think graduation is finally on the table.
+I'm working on an asynchronous library for the Facebook Messenger API, using [Sanic](https://github.com/channelcat/sanic) and the 3.5+ async/await syntax. So far the basic send and receive functionality is working well, just have lots of extra features to add!
+Been working on an application for 3D visualization/analysis and 3D printing of crystal structures. For you scientists or other people that work with solid-state matter you may be familiar with CrystalMaker. The goal is pretty similar to that but with a better interface and open source/free (CrystalMaker is rather expensive).
+Rodeo Server would be an instant hit around here...
+&gt; Does that mean Python 3.5.3 is not currently 'released', as it is in rc1? Correct, it is a candidate for release, if no one finds bugs during that time, Python 3.5.3rc1 will become Python 3.5.3. If bugs are found, they will be Python 3.5.3rc2 released (with very minimal changes) and process will be repeated. &gt; My memory is hazy -- before 3.6.0, what was the latest Python 3.5 stable release? From: https://www.python.org/dev/peps/pep-0478/ It looks like 3.5.2 final: Sunday, June 26, 2016 Stability-wise 3.5.3rc1 might be more stable because number of changes (and features) between 3.5.2 and 3.5.3rc1 is smaller than between 3.5 and 3.6. Also release schedule for 3.6: https://www.python.org/dev/peps/pep-0494/
+I'm working on a way to analyze the speech portion of streamed content in real time. 
+I just uploaded the ported version to the AMO (addons.mozilla.org). :) The review process usually takes a few weeks however, so it will take some time until it can be installed easily.
+Yes, mathematically speaking, the impulse response is the room "response" when we send a short sound impulse (called a "Dirac", i.e. infinitely short and very powerful). You can simulate this with a handclap, a starter pistol shot, a balloon pop, etc. but the drawback of these methods is that it's difficult to reproduce them exactly in the same condition (amplitude, etc.) Thus the frequency sweep + deconvolution solution which is more reproducible. 
+I did a POC that combined HUG and Click to create dockerized REST services that were automatically deployed to Kubernetes when you ran the service. I thought about doing a similar approach with Kubernetes Jobs to tasks. I think Celery would be a much better approach. Let us know if you make your work public. I'd take a look.
+yes, this is great! brings back memories from dsp courses. thanks
+If you're using a virtual environment (which any professional dev should be), you can make a requirements.txt like so: `pip freeze &gt; requirements.txt` Your friends are mistaken
++1 for numba. It's pretty young with warts still, but quite impressive and way less of a learning curve then tensorflow.
+If all you have in the toolbox is the double-claw PHP hammer, npm might look like a sane concept. Otherwise ... not so much. 
+Nice! Thank you! Is there an xpi on github or anything we could download in the meantime? :) 
+That was actually new to me. Thanks!
+[removed]
+Yes, this automatically signed xpi should work: https://github.com/m4tx/py3redirect/releases/download/v1.1.1/py3redirect-1.1.1-an.fx.xpi After the review, installing the add-on from https://addons.mozilla.org/addon/py3direct/ should work as well. :)
+I like node.js ... the "only problem" with node.js is the based language this is used (Javascript) that have books with 600+ pages with all the versions, quirks, kludges ... that exist now, and the book "JavaScript, the good parts" have less than 100 pages the last time I was reading this.... I prefer more CoffeScript and RapydScript in this scenario ... 
+I think both your comparisons are apples to oranges. As others have noted, requirements.txt files can be that simple because (in short) other stuff handles the rest. Makefiles look like source code because that's essentially what they are - a purpose-built scripting language for compiling and linking C or C++ programs. The last time I did real C++ dev (which was a while ago) we were using CMake, which generated very nice Makefiles for you based on requirements that you defined. 
+19 years of industry experience here and I still find /r/learnpython to be very useful. Sending people there isn't an insult and you shouldn't take it as such. 
+ print a+b, a-b, a*b Unless it's Python 3, in which case: print(a+b, a-b, a*b) Or if you want to control the formatting better (2 or 3) print("A+B: {}\nA-B: {}\nA*B: {}".format(a+b, a-b, a*b))
+It's seriously the weirdest thing that you're getting a dictionary. Just for a sanity check, you're using the same exact code I posted? All I end up with is {}. 
+Your code runs fine and outputs what you expected.
+Not 100 percent obvious what you are looking for, but I think you are asking about running RabbitMQ as a service. If so see the below article https://www.rabbitmq.com/man/rabbitmq-service.man.html 
+If you are using Pandas in your "main" function, i.e., the place where you initialize the spark context, set the app config, etc. then it will be executed on the driver. If you are using Pandas in a function that is used by a mapper, reducer, grouper, etc. then it will execute on the executor.
+You could use a Counter: from collections import Counter import urllib url = 'http://www.py4inf.com/code/romeo.txt' fhand=urllib.urlopen(url) romeo = fhand.read().split() counts = Counter(romeo) print counts 
+Trying to string together some libraries to scan a document, identify a 1D barcode in the image, and post info to a webserver. I'm more on the systems side rather than development... so I'm focusing on the 3 tasks separately to understand them fully, then work on merging. 
+/u/opfeels /u/aakashjog
+/u/nolifegam3r is very positive! [view results](http://ruadick.com/user/nolifegam3r/) - Ranked #14469 of 50998 - Dominate Emotion: **Anger**
+If this bot is anything like most basic NLP libraries it uses a dictionary of words weighted on a scale and then does the math after applying weights to the words. Since pain is a negative word and there are no other "emotional" words in the sentence it is weighted in the negatives.
+I just started learning Python and having a lot of success with these resources. I'm also going through codecademy (free version) so decided not to post it. I can't speak for Learning Python 3Ed sorry dude. https://www.tutorialspoint.com/python/ https://docs.python.org/3/library/functions.html https://automatetheboringstuff.com/
+I'm absolutely certian it's been done before, but I'm creating a little command line euchre game to learn about classes. (e.g. I have a Deck class that is filled with 52 Card classes. The EuchreDeck class, however only fills itself up with 24, but inherits deal(), shuffle() and so on.) Nothing earth-shattering, but it's a lot of fun!
+I don't recommend this book. The content is somehow great but very repetitive. Also, the author is giving his own opinions on some topics which I found quite awkward or too personal. The balance of knowledge in the book is also sometimes strange. It goes very deep on obscure topics while totally avoiding some basic concepts, although the book is starting from the basics of Python. It will take you forever to read it. There are better and cheaper resources than this book to learn python. 
+Sounds interesting. How large is the data set?
+I'm rewriting and (I hope!) improving a few scripts I hacked together some months ago to automate aspects of my job and provide analytics that our crappy CMS can't deliver. I'm also including tests this time around, but am having trouble with one in particular for which I think I need to mock some excel data. [Details here](https://www.reddit.com/r/learnpython/comments/5lm84e/ask_anything_monday_weekly_thread/dbwqrm1/) in r/learnpython if anyone can help.
+Is this Deck class representing a standard deck of playing cards? Is so, why does each card need its own class too? I like this [example of a deck of cards class](https://github.com/fluentpython/example-code/blob/master/01-data-model/frenchdeck.py) from the book Fluent Python.
+rrdtools is maybe a good solution for you. (https://oss.oetiker.ch/rrdtool/prog/rrdpython.en.html)
+Huh, I'd never thought about doing audio processing using Python. This is really cool! Thanks for sharing this.
+&gt; I also noticed in the contract how poor reviews would result in me receiving no pay Holy shit is that a real thing? What keeps an unscrupulous company from placing a few bad reviews and never have to pay you?
+Yea, I've seen this script here on reddit too but can't find it :(
+seriously. It's on the tip of my tongue!
+I want to use a specific set of voices though, so not a robotic tone.
+how about this: http://scikits.appspot.com/talkbox
+This is so cool. Can't wait check out more places!
+I once used python-docx to create a word doc that was full of tables for a report. It needed to have hyperlinks but python-docx didn't have this support. I ended up accessing the xml tree that is created by python-docx, specifically by adding OxmlElement()'s to paragraphs. If the comments are part of the xml tree maybe you can add them that way. You can find this out by looking at a word doc's xml. Finally check out python-docx's github, https://github.com/python-openxml/python-docx if this is possible.
+[removed]
+i am still beginner too, but here is what i know: Yes flask will be suitable, there is also falcon framework. falcon: https://falconframework.org/ what you need to think of is how these microservices are going to talk with each others, there are tools like rabbitmq and zeromq, and there is something called "RPC", but i don't have much information about it. there are other stuff you might consider "but maybe not in the beginning" like service discovery and failure handling , take a look on LinkerD. LinkerD: https://linkerd.io/ for deploying on production, You might use docker-compose at the beginning, later on you can go for Kubernetes. 
+/r/learnpython
+Im reading "Automate Boring Stuff with Python". I hope I can learn enough to, at the end of the year actually start working seriously as a (at least Junior) Python Developer. By the way, can someone tell me how difficult is to start working by distance as a PyDev? How much would I get for working as JrDeveloper by distance? 
+http://superuser.com/questions/249103/make-windows-task-scheduler-alert-me-on-fail
+&gt; If you are about to ask a question, please consider r/learnpython. From over there --&gt;
+Scalability does not matter when chosing a framework. Your scalability bottleneck will always be the database.
+Any would work, but I'd suggest seriously considering flask since it has the largest ecosystem / community of the options you mentioned.
+/u/sinjp is very positive! [view results](http://ruadick.com/user/sinjp/) - Ranked #5512 of 51101 - Dominate Emotion: **Joy**
+Trying to find a way to compute a cloud (the ones in the sky) forecast. Stuck on finding a way to make things work that don't involve a lot of enums and how to best map merged satellite grids of the entire world. 
+Since: * Their trainers have bad reviews online. * They haven't changed anything in their curriculum to resolve this situation. * They say that they'll possibly not pay you. Is it possible that they're essentially hiring free labor?
+/r/Python is for news or articles interesting to the Python community, whereas /r/learnpython is for learning and asking questions. It's explained in the sidebar. Thanks!
+Oh my, good riddance! Really enjoyed reading your post btw :)
+[Data flow diagram](http://i.imgur.com/W5hfGVo.png) `Viz` mines data from the [GitHub API](https://developer.github.com/v3/) and uses the following: * [`github3.py`](https://github.com/sigmavirus24/github3.py) to access the GitHub API through Python. * [`pandas`](https://github.com/pydata/pandas) in the following [IPython Notebook](https://github.com/donnemartin/viz/blob/master/githubstats/data_wrangling.ipynb) for data wrangling. * [Google Maps API](https://developers.google.com/maps/?hl=en) through [`geocoder`](https://github.com/DenisCarriere/geocoder) for location data. * [Tableau Public](https://public.tableau.com/s/) and [d3fc](https://github.com/d3fc/d3fc) for visualizations. In the future, [Google BigQuery](https://cloud.google.com/bigquery/) along with [GitHub Archive](https://www.githubarchive.org/) could also supplement the GitHub API.
+Thanks a lot for your kind words. I can definitely see your point - the workshops I've run have been for scientists who were super motivated and interested because they had so much data they needed to know Python/R to get by! I can definitely see a corporate training day have a much different vibe.
+Part of the benefit of microservices is that the language/framework of any given service isn't really relevant - so you could use anything that speeds up dev time (and after you measure, optimize the bottle necks). Flask would do fine for services, where you're likely going to have problems with Python is in an API Gateway (a centralized entry point to your system). That needs to be very high throughout and low latency. I've been working on one for Python specifically, but it's not fully ready to use.
+Coming back to Python after 3 or 4 years, because working with ctypes and dll interrupts in Java and JavaScript seem impossible.
+Why is this getting downvoted? It's true
+If that script can also roundtrip the stub files it could be very powerful to find errors and omissions in stub files. 
+You were close. The for loop isn't doing what you think it is doing. Try this: vowelList = ["a", "e", "i", "o", "u"] vowelCount = 0 userWord = raw_input("What is your word: ") wordLength = len(userWord) print "Word Length is " + str(wordLength) for letter in userWord: if letter in vowelList: vowelCount += 1 print "Vowel Count = " + str(vowelCount) Basically, the for loop is looping through userWord, then you need to test each letter from that word against the vowelList to see if it is a vowel, only then do you increase the count.
+Have fun, and good luck. Try not to destroy the world economy, please. :P (And I totally feel you on the imposter syndrome - starting my job for a local government in the US, I had imposter syndrome going hard for the first 5-6 weeks.)
+This is a little fun project I worked on using Tinder's APIs. It's able to show the location of Tinder users' (your matches, your Facebook friends using Tinder, or a particular user if you know their ID) on Google Earth, using trilateration. The accuracy is limited by Tinder distance limits, but it's sufficient to say in which neighborhood of a town a user was at the time it was last active on Tinder. Just to make people aware of how simple it is to break some privacy.
+I would say Flask. Very simple for a one page web app with a very scalable backend. 
+So is this like Python's answer to Spark? 
+Matplotlib or try Plotly for a more simple approach to making it look pretty
+&gt; Bangalore Whelp, you sure dodged a bullet there.. I'm sure they have reasons for wanting to hire instructors abroad. 
+Even before reading the article, I guessed you were in AUS based on `dodgy`. :3 And yes it is super dodgy. I can imagine withholding (part of) the bonus if you perform poorly but this is just ridiculous. If you can do so without getting in trouble, consider publicly naming and shaming them 
+Oh my, these visualisation, this is fantastic stuff! Good job and thanks &lt;3
+Writing a flask powered rest API connected to postgres, and a vue.js frontend. I figured it's time to start a blog, and I want to have complete control.
+If I could extend you metaphor: Programming isn't like farming until computers have their own 'intelligence' i.e. nondeterministic/organic 'state.' A plant is its own 'program.' It is interesting how we have the term *server farm* because this implies that each server is a *plant.* But why is a server similar to a plant where a program isn't? A server is more of an *application* than a *program* though, right?
+It definitely does not, it's just a learning exercise. It's my first exposure to dooming anything besides little bash one liners or TI-BASIC so I'm trying to utilize different parts of the language to get a feel for them, even if it's not "the best way"
+https://yearofprogramming.slack.com/shared_invite/MTIzMTk1ODIwMzM5LTE0ODM1NDM1MjktYjU3M2FiMWI4Mw
+I didn't mean to be ofd-putting. Go for it, if it does what you need. "vOv" is "*shrugs*"
+Is this without Word installed on the machine?
+How does this even run? The source code is mixing tabs and spaces. This looks like a pretty cool project, but after looking through the code a lot of things could be simplified by using a few external dependencies. The cli+colors detection is needlessly complicated for just printing out words. In the [`main method`](https://github.com/gautamkrishnar/socli/blob/master/socli/socli.py#L390-L461) you're using "global" variables in a single file script, and peeking in `locals()` explicitly? This is a great learning project but a terrible one to asking for money. It's not clean, it's not pythonic, and it complicates a very simple job. I'd consider a complete re-factor before forcing donations and sponsors.
+A few reasons. First and foremost, the client that we're developing for is notorious for using a dozen different frameworks for accomplishing similar tasks. They have Javascript apps, Flask apps, web apps written in R (?!), .NET apps, stuff written in PHP, and so on and so forth. The issue is that their developers (really they're data analysts) basically just write apps in whatever they're most comfortable with, and management has just let them up til now. They're trying to cut back on the number of technologies that they're using and trying to standardize wherever possible, to avoid the situation where an employee leaves and no one else understands how the app works. Because the vast majority of their analysts are familiar with Python, they wanted their API built in it so that they could make modifications/add routes in the future if we were ever not available to do so (or more likely if our support contract ran out). Rather than add ANOTHER new framework to their environment, we decided to go with Flask because they're familiar with it and are already using it. The question for me was "does Django offer anything significant enough over Flask to warrant adding yet *another* framework to their environment and rewriting their current Flask apps to be in Django?" For me, the answer is definitely not.
+neither of those repositories have any way of using pre-defined text?

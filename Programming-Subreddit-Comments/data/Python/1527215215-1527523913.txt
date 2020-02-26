@@ -1,0 +1,1000 @@
+import IPython; IPython.embed
+I literally found a pandas method (dropduplicates) that is a miracle!
+Check out https://www.pyinstaller.org
+You're learning. Once you've been doing it for a while (several years), you'll spend less and less time on stackoverflow.
+Absolutely in regards to contradiction. But reality doesn't matter in this world. Appearances do. Just went on the bug tracker, almost all bugs / prs/ "x is undocumented", maybe one or two feature requests on the front page. Not to mention the massive backlog of 6k open tickets. I can understand there being a lot, but I've seen some be alive for far longer than they should. Pretty sure I've seen more than a few that were already fixed / are won't fix but were never closed. The core devs really need to sit down one weekend, and all, collectively, go through the issues and close the ones that are already done / a won't fix, kindly asking the user to reopen if it isn't actually resolved. Please, if you have any sway, do indeed migrate / sync the bug tracker. It would simply make things extremely easier to contribute to and discuss. There have been multiple times where I've seen strange bugs / segfaults in production in the underlying C code, extremely hard to reproduce because it seems to be timing related, and I've been put off reporting it because it's just too much effort for not enough reward due to the rarity of the issues.
+You forgot "dicking around with cmake files to make ~~your build modular~~ the output look pretty"
+Thanks for maintaining AsyncIO, now that you are here, I apologize for needlessly ranting about the documentation, and being ungrateful for the work you do when I don't actually know how many people are behind the project, nor do I understand how much work it takes to maintain the library. I hope AsyncIO gets the love it deserves from the community.
+I think your idea of word vector is good. It sounds from your description of the problem that you have a finite possible types of files that can be customized. As an analogy, think of these customized files as purchases of an item. You are now looking to discover users that have made similar "purchases". And voila, a traditional recommender problem has appeared that e-commerce folks have worked on. Similar to your problem, people buying items on say Amazon are mostly just buying one item one time, but we still wish to quantify customer similarity based on overlapping behaviours. Traditional methods for recommenders have found that using cosine similarity or cosine distance on these word vectors or purchase vectors yield the better result, since you wish to reduce effects of total number of purchases, and rather focus on the partial overlap of type of purchases. There are a lot fancier recommenders out there nowadays. If they add anything to your problems is another question. So in short, reformat your data to a word vector against some reference container of file names. Then compute a distance matrix using cosine distance and do your clustering on that. That's my proposal.
+It definitely did feel that way haha. I need to work on being nicer with the open source community, especially since I contributed nothing to it and I don't understand how much work it takes to maintain anything open source. 
+I definitely understand this sentiment and those of others that find the implementation tedious or unintuitive. Asyncio requires taking a very different approach towards designing and thinking about application flow and communication, especially when using it within an existing project. Integrating this new async way of doing things alongside the previous sync\-only way of doing things isn’t trivial, and it becomes particularly difficult when approaching the lower level implementation details without relying on useful abstractions or patterns to help reconcile when and where to use async versus sync code. With that said, I really love asyncio. It is easily the aspect of Python 3 that I have found most exciting. I first started experimenting with it using aiohttp and Django Channels, and since then I’ve been fascinated with how much potential it has to offer. It took a lot trial and error and digging through the guts of other projects to really start wrapping my head around it, but once you cross a certain threshold it begins to make a lot more sense. I am not an expert, and I do not think a profoundly deep understanding of asyncio should be required to find it useful. I also do not think it should be used for anything and everything, it is a tool that makes sense in some places but not others. Right now it is still relatively new, so I’m hopeful its advantages will become more accessible as the ecosystem surrounding it continues to develop. A great example of the type of thing that will make developing with asyncio much easier is the ASGI \(Asynchronous Server Gateway Interface\) specification that is used in Django Channels and designed to be compatible with other frameworks as well, you can read about it here [https://asgi.readthedocs.io/](https://asgi.readthedocs.io/). I would also recommend reading the author’s blog post about asyncio: [https://www.aeracode.org/2018/02/19/python\-async\-simplified/](https://www.aeracode.org/2018/02/19/python-async-simplified/) And their recent DjangoCon talk \(also given at PyCon\): [https://www.youtube.com/watch?v=qSsM97u\-Cc8](https://www.youtube.com/watch?v=qSsM97u-Cc8). 
+No need for the apology! :) I only posted because I don't want Python community to think that core devs don't listen or don't care. Quite the opposite.
+&gt; Please, if you have any sway, do indeed migrate / sync the bug tracker. Yeah, as I said, it will likely happen. Somebody just needs to volunteer a lot of their time to resolve a few open issues with python-dev folks and do the actual migration properly.
+I can't remember the last time I looked at stack overflow. I find that looking at the source on GitHub is far more useful.
+And it can start making things super ugly if you extend it to cover your use case. Current project I’m working on includes the line: grabMethod = praw.models.reddit.subreddit.Subreddit.top 
+huh, is there a method more efficient than: newList = [appendedObject] newList.append(oldList) ?
+no surprise that the other ORM guy besides me likes gevent also :)
+You forgot the: Fix code: 5 min Code works: 30s Throw arms up in celebration: 20s Gloat about it to yourself and anyone in proximity: 2 min
+it's not really any different from traditional threaded programming as far as "what's happening where". It's merely the difference between context switching can occur anywhere, vs. can only occur at the point of IO. both are non-deterministic. The only wrinkle introduced by a gevent/eventlet style system is that with too much CPU work, your program runs out of sufficient opportunities to context switch which can lead to annoying problems (like MySQL servers bumping off new connections that wait longer than 10 seconds to respond to the authentication challenge).
+How about: `newList = [appendedObject] + oldList`
+You forgot struggling with devops and deployment bugs. Coding is easy. Managing the environments not working with the libraries... yea... I hate my life too.
+My codes are typically "simple" scripts to move shit around in Excel. I'm no wizard by any means, most mistakes are typos and wrong cell selection
+I’m not even there yet. Made a simple Django website I can’t even seem to deploy 
+No, I think it’s a lot more than that. Immutablility doesn’t make async easier to understand. It just makes it safer. It’s the first class support for processes, and inter-process messaging. The ease of implementing the message loops with tail call recursion. Inter-process dependencies with process linking. Not to mention the higher-level abstracts provided by Erlang, such as genserver, supervisor, and OTP. 
+I have had success with BeautifulSoup.
+Once you get familiar enough with the language, the breakdown looks like this: Coding: 2 minutes Reddit: 6 hours 
+Well I’m already on Reddit racking up time...but my coding time isn’t going down 
+For anyone wondering, I'm on os x 10.12.6
+Haha, last part is so true xD
+Learning Data Science stuff. 
+This is the method I prefer, though it would be cool if python had some newList.prepend(appendedObject) method. I have had to do this for two unrelated projects this week. I finally learned it by the third time. P.S. this is verbatim the top answer on stackexchange.
+ old_list.insert(0, new_thing) And get that camel cased garbage out of here before I swat you with a rolled up print out of pep8.
+Having studied paintaing for the past several months, I have come to realize the patter in amount of time spent painting: * painting: 30 minutes * pick the right type of paint and colour: 3 hours * study how to paint on youtube: 6.5 hours Total: 10 hours I initially was going to study pattern in cutting, but I was told that out of an hour, you really cut for one minute. The other 59 minutes are spent measuring.
+Except learning how to paint on YouTube just needs to be done once not everyday. So second time painting would be 0 hours learning on YouTube, 3 hours on picking paint and 30 mins painting 
+Please tell me you are a professor... do you know how many books have to be read to elicit that knowledge (you obviously do). I appreciate you good sir.
+Yeah but seeing your creations is the fuel that fires the passion. Plus learning by doing is the most effective way to retain and reinforce 
+That’s okay. We can cry together when you get there. Meanwhile, keep at it, my friend.
+Ha ha, not a professor, but I've spent a bit too much time at university... Maybe that counts. I had a recommender problem not too different from yours once, so been through this stuff some years ago. If you want to get a bit more details search for *collaborative filtering*, which is the academic name for the method. I think this article presents the basics pretty well: https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75 Just remember though, you are looking for similar users, not similar products, as in the Amazon use-case. So just tweak the distance matrix accordingly. Good luck.
+Same thing with programming. If you keep writing the exact same type of things (say some very basic CRUD web apps), then you don't need to think too much nor learn much.
+While I look at SO far less than I used to, I have come to the realization recently that I should try to use it more often instead of fumbling around and reinventing the wheel as often as I find myself doing (~3 years of daily python programming experience).
+Professional developer here. My breakdown is like: Debugging other people's terrible bullshit: 6 hrs Meetings: 45 mins Writing terrible bullshit for my sucessors to fix: 1.5 hrs 
+I don’t think you can compare learning painting which takes a day to learning CRUD which will take a while 
+You see, when you're doing programming, you often have to fetch data from external sources \(usually a database, might be something else\). Since fetching data from external sources is usually slow, a known techniques is to save results of a fetch to memory, and to look at this memory for previously fetched data when fetching \(in order to avoid a useless query\). This techniques is called caching, and the memory area is called a cache. When you find the data you need in cache, that's a cache hit. When you don't, it's a cache miss. Going back at you: when you start learning programming \(but pretty much everything also\) your brain is the cache and looking up something in the book, google or stack overflow is a cache miss. You will see that as you progress, the hit/miss rate grows as your cache gets "warm".
+Really? You think painting takes a long time to learn? 🤦‍♂️
+I hate the word cache and fetch now.. thanks 😂
+The built in linter in PyCharm constantly makes me feel like an idiot for doing weird stuff. Pep8 is a pretty great set of rules. I feel crazy """documenting""" everything though.
+Working on a new v66 release of CEF Python. CEF Python is a GUI framework that lets you embed a web browser control based on Chromium \(CEF\) in a desktop application. See [https://github.com/cztomczak/cefpython](https://github.com/cztomczak/cefpython)
+I dunno I spend at least 30 minutes coming up with what to make things. 
+I do that minus the cmake files to make it look pretty 😏
+I have decided to try and make a web version of the Arkham horror living card game. Using flask as the backend, not sure for front end. I just started on this and I will most likely be reaching out for help on it quite a bit. I was thinking of using MongoDB as the database. I just need to sit down and plan this out a bit more.
+Interesting. So I downloaded it, definitively in the vein of what I was looking for. Tried to install the python extension... and it was stuck in "installing" for over an hour. I googled around and found several people had this issue and not a single one had a solution. I tried to fix it for over an hour :( Gave up and tried Atom IDE instead.
+So you have to do 6 hours but your successor only need to do 1.5 hours? That’s a 4.5 hours of efficiency. That’s commendable, making it easier on your successor...if they have to go through more than 6 hours after you touch it, that’s another story 
+You can use Mayavi, which uses VTK, or you can use VTK directly, which is what I prefer. I built [this](http://pynastran-git.readthedocs.io/en/latest/quick_start/gui.html) with it.
+I gave Atom a try and I'm liking it so far... not sure why you got so many downvotes, is it crap compared to vscode? lol 
+I was planning to do that, but it was much more work than keep moving up until hitting a prime number.
+Define large projects. How many lines, how many team member ? Below 500k loc, 15 years old code base and/or 20 person team, a project is not big.
+'''python from collections import deque ''' I’m on mobile atm so please forgive me if I merely show you this and redirect you to the Python standard library :)
+That looks pretty cool. I wasn't aware of gmpy2, so I implemented my own miller-rabin.
+Oh, no... He's saying he spent 6 hours coming up with what he will spend 1.5 hours adding to the amalgamation of nonsense code. It just hit me that this work is a destructive recursion... I'm gonna go drink now.
+Probably the unsolicited cynicism *shrugs*
+Really, don’t you see that painting is a skill just like programming? Becoming a good painter will take years of practice and learning just like programming. Try yourself to paint a portrait! And every time you practice it will get better..
+I don't know how much time my successors will spend (for each of my hours) fixing my bullshit. I hope it's less than the time I put in though, otherwise I ought to be fired for being a negative producer. 
+Ok fair enough. I was thinking of painting as in I’m painting a wall or a house, not as an artist painter. This is what happens when you’re sitting and grinding trying to figure out Pandas and seaborn all day manipulating data frames with 3 cups of coffee ☹️
+It's like that in the beginning. The more peoficient you become you'll see your time on stack overflow and google drastically diminishes. When I was in college, stack overflow didnt exist.we went to PhD students or the professor to get out answers. 
+That's not that ugly. I've seen things way worse in my life (such as grabbing python code with regex from scripts and ``exec``ing it)
+It depends. But requests and bs4 is well suited for most of the cases. The only drawback is that if the website is dynamically rendered with javascript (React, Angular, Vue or smth similar) you'll have to reverse engineer the underlying http API.
+As you become better at programming you'll begin to notice that how you structure your search on google/SO changes. Programming is definitely a design process where you are fitting pieces together to work and scale if needed. You won't know every single combination of characters to generate an output, but as time goes on you know what you want algorithmically and that's huge. Syntax is an extremely small part of programming relative to the design process IMO.
+Author here, if you have any questions :)
+Looks very interesting, I will try it as soon as I have enough time
+Specifically to the author of this program? - No, we live too far away. But, in general? - Often times, yes. For example, I went to army jail for about half a year, for speaking my mind to my commanding officer. Or, was fired from a job, which I believed, and still believe to did an immoral thing, and that after reporting it to my boss. Going back to developers of Pipenv: I wrote to them multiple times on their GitHub bug-tracker, where they ignored anything I'd write because it is comfortable for them to ignore it: there's very little publicity involved. I've posted links to my GitHub account multiple times: it has my real name and email on it. I don't think therefore my identity is difficult to discover. But, I don't post on social network sites in order to increase my karma and to profit from it. Far too many bad things that happened in programming in the last 20-30 years had happened for exactly this reason: some sort of publicity stunt. He linked my comment on Twitter? So... why is this a big deal? The guy, by his own admission, thrives on public opinion. I seriously don't care what he does or does not on his Twitter account.
+If you're in windows and are beginner in Python, I suggest installing Anaconda (cons: its huge). It come with spyder and jupyter notebook and also a ton of libraries (some that are hard to install in windows). Spyder is a lightweight python IDE. And you've to try Jupyter Notebook, maybe it will fit your need
+It seems that it was only my notion that it is a standard practice. I didn't make this up, I remember I read about it in some blog post, liked the idea and adopted it. But I decided to give black a try anyway, since enforcing one style to all source code is a good thing.
+Jesus are you serious this exists? I really wish there was an effective way to discover pandas methods
+Starting with 3.7: https://docs.python.org/3.7/library/asyncio-task.html#asyncio.run
+well for me the successor is future me, i'll spend 6 hrs fixing the bug i will find right before calling it a day.
+Nice, exactly what I ordered :). Since I have you here... The next big item on my wishlist would be built in support for testing async functions in unittest (and py.test).
+I like using Atom for now but will definitely try other ones out 
+Googling and research are part of a developers job. Engineering is different; that's the problem solving bit.
+Saving for later.
+well you try to fetch i try to invent a great new thing. Can't count the times i told my colleagues that i found this great new way of speeding up fetching data by storing it in memory to avoid re-fetching it. Just for them to look at me like the idiot i am and ask me if i mean caching. Countless hours spend reinventing the wheel.
+afaik, requests\-html can also parse pages rendered with JS, [https://github.com/kennethreitz/requests\-html#javascript\-support](https://github.com/kennethreitz/requests-html#javascript-support)
+I agree that in the beginning it feels like that! But as you get more confident and build your own snippets of code you find yourself needing less and less help. Somebody told me, the first piece of code you make will take 3 days, then a day and then 3 hours and its true! But remember in that 3 days you learnt so many ways NOT to code and what does and doesn't work...
+As plain python code goes this doesn't get much simpler. You could make a generator that yields items and then run a filter() on it. There are probably some helpers like a tree walker or something, see a library like `funcy`. If you want to find items based on their unique name then put them in a map (JSON object with names as key).
+You should try spyder it's pretty good ;) and of course you have to join a side in the editor wars. EMACs or VIM you can't call yourself a coder unless you've done that.
+Also viable: new\_list = \[appended\_object, \*old\_list\]
+Yea, I also never ever heard this convention. Sounds like based on data it is "black 1 greyman 1" here....
+No, of course not. Reading the code is harder than writing, so he could struggle with 30 mins worth of code for 6hrs.
+My experience so far was along these lines: 1. An effort it takes to develop trivial things with `asyncio` is way too big, if compared to writing trivial code and achieving parallelism in other ways (eg. `multiprocessing`). 2. Performance of programs using `asyncio` is in the gutter, no matter how hard you try to optimize it. 3. Tools don't work with new syntax. I keep running into problems with `pylint` because it hates everything `async ...`. The positive thing that came from `asyncio` for me: 1. I tried to write Python modules in Rust and in Go, but had to give it up due to bad choices Python core devs made about compiler for MS Windows. (Yet, I learned CFFI in both Rust and Go, which I previously didn't need). 2. I learned more about the C side of CPython interpreter, first trying SWIG, then Cython, and later going back to writing plain C code, I became a slightly better C programmer. 3. Related to (2), I researched both user-level threads and more traditional thread implementations in C. In the latest project I'm working on, I use Apache Portable Runtime threads to do the actual task and a thin layer of Python bindings on top of it. I'm not saying it's the best choice, just giving you an approximate idea of where the struggle with `asyncio` might lead you. In the end, my conclusion is that for the lasting effect and reliable results Python in general and `asyncio` in particular are not good candidates. If you want those characteristics, while still using Python, you will be probably better off writing your code in C or C++ and then wrapping it in a tiny layer of Python API. YMMV.
+I've heard it said that `prepend()` is not included in the library by default because prepending is an expensive operation (linear in complexity); `insert()` is more obvious that it is expensive. If you want to append to the left often, it makes more sense to use a `deque`, i.e., a double-ended queue, so appending to either direction is equally cheap.
+I’ve just recently got exposed to vim and emac so no opinion yet. Tried a bit of spider but so far I like atom layout 
+Read other people's code. Do it on your own time if you have to. Expose yourself to other people's good ideas, and also their bad ideas.
+If your spending 6.5 hrs on StackOverflow and only 30 mins coding, there is still some optimization to do: https://github.com/drathier/stack-overflow-import Problem solved.
+Eventually you'll replace StackOverflow time with time spent in meetings at work, and Google time with time spent in traffic from work. :\)
+Well, one problem with `await asyncio.gather()` is that it's not a `select`. You don't have fine-grained control over which results to process first, which co-routine must start first, which result may terminate the execution of other co-routines. So, in order to impart some order to the co-routine execution, you often end up with `sleep()` calls in some of the co-routines, which, obviously, won't hold water in the long run. The way I see it: `asyncio` doesn't solve even all the async I/O problems (no way to do async I/O on files, only web-related stuff). By design, it doesn't solve parallelism problems in general, but interferes with other facilities that are intended for that use. The cases in which it offers increased performance over Python threads are scarce and far in between, while it incurs a ton of boilerplate, difficulties with testing (even the flagship CPython interpreter tests won't run in, say, Jenkins job because of `asyncio`), and difficulties with onboarding of low-tech personal for doing low-quality (from programming perspective) work, like accounting, statistics, automation testing, server administration.
+ import webbrowser try: # all of your code here pass except Exception as e: webbrowser.open('https://stackoverflow.com/search/?q=[python]+' + e.__class__.__name__) 
+You're being sarcastic right? Painting takes a long ass time to learn
+I think there is more to being a good house painter than you think....
+Read the thread 
+Easiest way selenium. You can login, wait for a few seconds for page to render, navigate to path, and start scraping. With selenium, you can do it as you would do it manually. Just wait for few seconds, and start targeting.
+I've been using Spyder3 and I've been finding it pretty neat for first timers.
+&gt; Reading the code is harder than writing Indeed, I code the fastest when my monitor is turned off.
+Seen C# packages? It seems like the general guidelines there are: * NIH syndrome is a feature! * Documentation is optional, if you feel gracious you might include an example project * The more codegolf and new structures you can cram in, the better! Shows how good you are at coding! Especially in examples! * The more complex the better! If you're spending less than half a page on setup on a trivial example you're not doing it right.
+I question the existence of the world itself.
+You also forgot: Adjust your colorscheme - 30min Pick a new font for your IDE/editor - 30 mins Install some funky plug-ins you are not going to use/need. - 4h
+You are still not even half way. 
+I hope this is exaggerated, but it is understandable if you're using several big new libs and combining them in a big project. Like numpy, sklearn, matplotlib, pandas.
+My breakdown is something like: Coordinating with other developers/teams/qa people: 3 hours Writing actual code: 1.5 hours Writing unit tests to verify I didn't screw up writing the code: 3 hours Unpicking git mistakes: 30 minutes
+Atom is great, i used it for everything nowadays. It runs on my linux system, it runs on my windows system, it works with c++, it works with python, it's great with git and has tons of great add ons - just hard to beat. 
+Depends on you. http://norvig.com/21-days.html
+IMO it's better to monkey patch a lob with a good code base but maybe some missing features then to embark on "this new foss lib" that is "totally stable". 
+&gt; which co-routine must start first asyncio shouldn't deal with this. It's application logic. Use synchronisation primitives, such as `asyncio.Lock()`, `asyncio.Event()`, `asyncio.Queue`, to accomplish whatever (very app-specific) logic you need. You even have `PriorityQueue`, what else do you need?... &gt; which result may terminate the execution of other co-routines Again, application logic. If you need such fine-grained control (I very rarely do), use the lower level `asyncio.wait()`, which gives you all the fine-grained control you need. &gt; no way to do async I/O on files True, asyncio could use some better I/O for files. But... asyncio could be extended, it doesn't need to be replaced. Again, my main point is that it's not good to fragment the community. I don't want to have asyncio-redis, curio-redis, trio-redis, plus asyncio-pg, curio-pg, trio-pg, plus asyncio-http, curio-http, trio-http.... You get the picture... Let's build on top of asyncio, instead of replacing it. 
+The Deal of the Day for today seems for **Odoo 11?!**
+about 2 minutes. print ('Hello, world !') There, you know python....
+[removed]
+What's the rush? There is so much depth to a programming language and the tools involved, it's really up to you and what your goals are.
+For me Notepad++ -&gt; VS Code I also evaluated PyCharm and WingIDE.
+Don't lie to the boy.
+Until an api you need isn't open source nor documented well ughhh 
+What are your goals? To build a few scripts to help you automate daily tasks? Become a full developer?
+I usually default to selenium unless speed is somehow a priority.
+[scrapy](https://docs.scrapy.org/en/latest/) might be a good fit for this, or it might be overkill.
+I think I'm getting nightmares just thinking about that... What in the seven hells possessed that person... 
+Out of interest, why did you stop using Pycharm? What about Atom is better?
+Then you go silent because you just noticed a major flaw in the logic. 
+Can you debug with atom?? Breakpoints and debugging are essential for software development, IMO. I've heard some senior guys say they don't "need to debug" anymore, but I find that difficult to believe. 
+No particular reason. I don’t think I fully utilized pycharm to really say I didn’t like it because of x,y,z. I had a free pro subscription thru being in school it but didn’t quite use it. Once I started on atom, I just liked she layout better and felt like it was easier to use. I may go back to pycharm to try it out more once I’m much better with python 
+Hi Youtube lovers :) _I made an an EDA(Exploratory Data Analysis) on Youtube Trending Videos_ You can view the full project on Kaggle : https://www.kaggle.com/sgonkaggle/exploring-youtube-trending-videos-insights-eda ___ ##Main findings: I found some interesting facts about Youtube trending videos; these are:- 84% or more trending videos are using one of its tag on the video title for at least once. Other than 604 trending videos,all trending videos are appeared in the trending list for more than 1 once. Maximum number of Youtube videos are listed on trending, within 0 to 14 days of the video publishing date. More users engaged in conversation when they were disliking a trending video rather than liking a trending video. If difference between first trending date &amp; publish date is less than 4 days,then there is a big chance,that video would not be re-trended for more than 3 times. There is a impact on Youtube trending videos views count over tag_appeared_in_title or not. Trending videos those have listed for more than 5 times got the highest number of views. Videos belongs to categories where number of subscriber is/are most ;those videos are using at least one of its tag on the trending video title. ##Surprise! findings: Many of Youube trending videos get listed on trending list for more than 1 time(or day), but they did not get higher number of traffics. Another point I already discussed,many of the trending videos have lower number of subscriber(some of them have 0) &amp; yet they managed to get greater number of viewers than top subscriber channels present in the Youtube. Also I saw there are many trending videos managed to get higher number of views counts,but they have very few likes(many of them have 0). ___ Don't forget to visit below Kaggle Kernel #URL: https://www.kaggle.com/sgonkaggle/exploring-youtube-trending-videos-insights-eda 
+Yup, plain VTK is what I've ended up using, and I'm very happy with it. I tried mayavi, but after a double punch of terrible documentation and actual bugs, I gave up and cut out the middle man.
+Wait is camel case not considered good practice in Python as in Java? I’m pretty new to Python. 
+Hmm, interesting. Is there a way to export the tree as JSON? That would be useful.
+15 years huh
+&gt;I can't just write *one* script, everything has to be a project with all these external libraries and packages and venv / include directories ugh. Create one project for all you scripts \(in general create project for you scripts root folder\) with single venv. You can edit you project structure and add more that one content root directory. &gt;Also, everything is a freaking error with this thing. "pswd variable ERROR!!!! pswd is a typo, not areal word!! YOUR CODE IS BROKEN!" like, chill bro you know? Disable spell inspection. But maybe there is reason to have inspection like this to write code with better quality. Don't know what your scripts do but using pycharm you can change venv if you scripts will require different version of deps. You can run your scripts in docker to test them in other environments. This can be very handy. And debugger is great too. And in my opinion, pycharm have the best autocomplete engine \- I used different tools for python before \(notepad\+\+, sublime, atom, vs code, vim etc.\) and none of them can compete with pycharm.
+https://www.youtube.com/watch?v=TStuXnGfwVw is a really interesting watch, impressive to see what a 14 yr old has come up with.
+This is not a Python related question in any way. But you might want to try a neutral density filter over the lens. If the image is blown out then the data you require is lost. Machine visions is like any other pipeline, garbage in, garbage out.
+Yes yes yes. I often take my original snippet (several lines) and put it in a string. This way of the optimized version is a little obtuse, I have a step by step guide on how I intend it to behave.
+&gt; such as grabbing python code with regex from scripts and execing it As far as I can tell, this is still the best way to minimise the number of places in your code that you have to manually define the version string.
+You don't do comments in your code? 
+Ugh devops! I had to build out a system once under constraint that my team was only allowed to have one open port total... Because that was more secure. 🙄
+I love how every question you could fathom has been asked with every combination of wording possible. As an experienced developer, python still only falls as high as 5th most used on my languages that I tend to employ, so I will perpetually be reminding myself how to do some basic syntax things when I need to revisit python each time.
+Or updating code that no longer works because a decision was made by the opensource team to do things differently - *looking at you Bokeh* 
+Brilliant, I've been stuck on it for a while now. This gives me a new perspective to look at data. Thank you!
+Reading code is still harder. When you write code you have a model in your head of what you're coding about. You also have a lot of problem domain knowledge which supports the code. When you read - you're building the model while you don't have the same domain knowledge even if it's your own code from several years ago. Thus reading of code is much harder.
+Sounds about right.
+ok # YOU CAN DO IT ^^pls ^^no ^^malicious ^^usage ^^tho
+I'm writing the code in python, that is what makes it a python question. It is built in webcams I am using, it works fine on some computers because the built in webcams allow for the exposure to be changed. What I am trying to figure out is if there is python code that I can write that can have the same effect as changing the exposure to make it so I can identify the colors of each balls instead of just seeing bright white lights.
+That assumes that the code is legible though. At least with Python that's a better by-default bet than most other languages
+Fuck you for the downvote. i tried to help you. 
+If praw follow PEP8 I think everything before Subreddit looks like module. If that is true, `from praw... import Subreddit` sounds good enough to me.
+The original poster probably meant to post a link to LWN's coverage at [https://lwn.net/Articles/754577/](https://lwn.net/Articles/754577/) .
+Sure, for a generic walker. Or make it custom in 3 lines: def iter_items(data): for level in data: yield from level['toplevel_dict']: It returns a generator that yields all items so you can do map/filter/reduce stuff.
+You're missing time spent off staring into space, just thinking (or mumbling to yourself or whatever it is you do :-) 
+VS code, free and awesome.
+Thanks for your reply! Do you have any idea form where I should start? Any resources? Courses, books or anything useful? Right now I'm checking the Selenium documentation
+I think there is no such thing as 'simple Django website'... At least for me atm.
+Now this is the kind of quality discussion I come to /r/python for!
+No problem sir, you can follow the tutorial at my blog https://www.deciphertechnic.com/install-tensorflow-on-raspberry-pi/ My pleasure.
+Camel case is typically reserved for class names, exception names, some built-in constants, and variable typing names. PEP8 is the largely accepted style guide, but it is far from rigid and not always treated as canonical. Camel case is 'fine' just discouraged in some situations. Relevant reading: https://www.python.org/dev/peps/pep-0008/#naming-conventions
+I prefer 3 lines of code and a one\-line comment
+That's true and so frustrating. I can't even trust documentation anymore \(or it's not complete enough\), always have to go look at the code to make sure it's doing what it says.
+Or spending enough time trying to learn those packages so that you can use them, lots of time there too.
+1\) Comparing the effort of co\-operative multitasking against fully managed one is just ridiculous. Asyncio is not that hard, the problem is that Python is so freaking simple that people can't wrap their heads over anything new. Yes, asyncio has some design flaws but guess what everything fucking else has too. 2\) Where are the data backing up this ? Async programming is what it is, a good way to handle IO based problems. Uvloop shows us all that it can be faster but guess what, you can use uvloop too. If this is not fast enough why the fuck are using Python ? Drop down to C\+\+ and build your rocket. 3\) Pycharm works wonderfully. Vscode works just fine. Your tools should be replaced.
+Look in Task Manager (Windows) or Activity Monitor (Mac). If there's a process named 'python' active, that's your keylogger, and you can stop it.
+How much time will it take? The more you practice the better you get. :)
+How difficult can CRUD be? I watched a youtube video, it looked easy, I think the second time writing CRUD would be 0 hours learning from youtube. How long does it take you to paint the walls in a room, compared to a professional? How do your results compare to a pro?
+But how can you tell the one from the other?
+I've been looking forward to this for a while. Good to see it's still in the works.
+What about tweaking your IDE? How can you be productive w/o that?
+http://selenium-python.readthedocs.io this is where I started with selenium on python. Just pick some useful project for yourself and start building, that is the best way to learn :) you can pretty much google any problem you have or anything you want to do with selenium.
+e=mc² it's not about how many characters you typed
+The compiler doesn't care whether the code is legible or not. What happens when you run a piece of code is the only behavior you can count on. 
+I left Python for these reasons.
+Really? You mean comparing something someone with no idea can watch some YouTube video, buy some paint and brush and paint their walls over the weekend vs doing CRUD? One takes analyzation skills and need to learn the syntax prior to even attempting versus a DIY skill anyone can learn?
+I learned the basics in 2 months with an online Coursera course. After that it’s all up to you, how much real life practice you get and how much time and concentration you can put in. I have a full time job, kids and several hobbies so for me I think I will need 2 years to get proficient on medior level. For me that’s: basic to not too complex programs and pretty proficient in troubleshooting or adapting existing code
+Could you please explain your purpose?
+Do I need a password to access the database?
+Cool, thanks for the response, I will give it a shot.
+TL;DR: The power of dynamic signatures is finally within grasp – **add**, **remove**, or **enhance parameters** at will! After a decade writing software, I noticed that I kept bumping into the problem of keeping my code DRY (don't repeat yourself) and also having function signatures that were meaningful. So I wrote [``forge``](https://github.com/dfee/forge) – a **Python 3.5+**, **100% tested**, **fully-documented** package available on PYPI as [``python-forge``](https://pypi.org/project/python-forge) for crafting function signatures. import forge @forge.sign( forge.pos('positional'), forge.arg('argument'), *forge.args, keyword=forge.kwarg(), **forge.kwargs, ) def myfunc(*args, **kwargs): # becomes myfunc(positional, /, argument, *args, keyword, **kwargs) return (args, kwargs) assert forge.stringify_callable(myfunc) == \ 'myfunc(positional, /, argument, *args, keyword, **kwargs)' args, kwargs = myfunc(1, 2, 3, 4, 5, keyword='abc', extra='xyz') assert args == (3, 4, 5) assert kwargs == { 'positional': 1, 'argument': 2, 'keyword': 'abc', 'extra': 'xyz', } 
+Thank you so much
+I was referring to asyncio specifically, not the entirety of asynchronous programming. There may be valid criticisms to be made of the implementation, but the statements you are making are quite vague and aren't offering much insight other than "shit sux".
+You can use lambda to change all the rows in the dataframe. Given the name of your column is 5 \(usually you can see the column of the dataframe by doing myCSVFile.head\(\)\) myCSVFile\[5\] = myCSVFile.apply\(lambda row: row\[5\].replace\('g', 'testingtesting123'\), axis=1\) A small explanation. When you apply lambda to the dataframe you iterate through the rows \(row\[5\] goes to each row at column with the name 5\) and you do an action \(for example row\[5\].replace\('g', 'testingtesting123'\)\) At the end you can save your altered dataframe to a csv file by doing myCSVFile.to\_csv\('filename\_of\_your\_choice.csv'\) I recommend to save to a different file, in case you want to revise your editing. 
+Comment - This function sorts objects by size and returns the largest. Reality - prints foo to the terminal. 
+\[Sphinx\]\([http://www.sphinx\-doc.org/en/master/](http://www.sphinx-doc.org/en/master/)\) was created to document Python. As u/bradshjg pointed out, Read the Docs has some fantastic documentation for getting started with Sphinx.
+Yeah they are both electron based, but atom still doesn't perform as well as vscode, especially when editing large files (or in my use case, editing 10-20 page latex sources with spellchecking on). Github however it working on a replacement called [xray](https://github.com/atom/xray) which has the web app as a desktop app model, but uses Rust for the backend instead of JavaScript. They probably should've done it more that way in the first place.
+What's your usecase? 
+I would say that while the exact numbers might change, those ratios are constant for any programming
+I posted something along the same lines a while ago: [Dynamic function creation in Python](https://www.reddit.com/r/Python/comments/84k1bn/dynamic_function_creation_in_python/). It allows you to wrap a function with a custom signature. My use\-case was serializing function signatures for use with RPC protocols. Your use\-case seems...different.
+&gt; Expose yourself to other people But that's how I got on that list :(
+I don't know that I have a different use-case per se (I think you could use ``forge`` to accomplish what you're trying to do), but I hadn't seen your gist (Py2 support via AST? that's pretty cool!). At a high level, there is a wrapper that maps the desired params to the underlying callable's params.
+You only need a one line comment, and thats the URL of the stackoverflow post
+It's a specific technical term. "Dogshit" is the opposite of ["dogfood"](https://en.wikipedia.org/wiki/Eating_your_own_dog_food).
+Came here to say this. Thank you. Most of the questions and replies on stack overflow are of very poor quality, and it is really troublesome that people seem to simply search for "something that just solves their immediate problem" and copy pasta that. XY problems are aplenty
+And everyone would have different priorities. I would actually be okay with a reduction in single core performance (everything is multi-core these days), but that C-extension compatibility is vital to what I do with Python (data science).
+If you just want to generate reports and analyze data, you might not need to access the database directly. Our IT guy is very paranoid about direct database access. So what I do is export queries to excel and analyze that data (using pandas/Python). It is a round-about way of doing it, but it works for me. 
+What I meant was machines are multi-core. I did a poor job of stating that though. When I started programming, single core machines were the expectation. But that does solidify the statement that folks have different priorities.
+Python is a general-purpose programming language. If you can think of an algorithm to do what you want, there’s a very good chance that you’ll be able to implement it in Python.
+I'll start the bid at $1000.
+And that someone will already have done each part of it and posted it online for you to find.
+Yes. But if you use if for spamming, you will burn in hell.
+I always try to figure my problem out by reading the documentation first. And if I make no progress after several hours I'll break down and Google it. But even then I read the documentation for why the solution I found works. You're right it pays huge dividends to actually read a lot of this stuff. 
+I counted 3 talks and 1 lightning talk about asyncio, hence don't get your point. Also, looking back at EU/US pycons I don't see many talks about Twisted, sockets. What does this fact tells us? 
+Installing 50 packages: 10 hours Writing reddit post about how to write skynet in just 5 lines of code: 10 minutes
+if you are keeping your functions to doing one thing, it's easy to just open the interpreter and test the function. if you need to debug with break points et al, you might be doing it wrong. 
+Jupyter... 
+Jupyter
+I'm a mechanical engineer and this sums up my job as well. Very little of it is spent actually designing anything. Most of my time is spent on fixing problems with my CAD software and digging through the company's ancient database of parts looking for what I need. 
+[this](http://jupyter.org/install)? I don't want to have to download anything, I just want to be able to log in, on any computer
+Yeah I was thinking of doing that. Although the stuff that you can export is very limited in what you can export all at once. 
+I am doing something similar with selenium \+ chrome web driver, just had enough of filling product creation forms manually for an online store. Out of interest how are you going about locating elements of the page to click on? Via image detection or coordinates? Do you find yourself repeating lots of code? Overtime I have been coming to the realisation that having to simulate clicks can be pretty slow. I have been exploring ways to use the requests module to send the data directly to the server but this has not been fruitful yet, although it seems like the way to go. Is it actually possible to send data directly to a server if it doesn't have a public API? 
+Having used python 2.x about 5 years ago and took a 4 year "vacation" using ruby at actual jobs for pay instead of by choice\(because they love ruby in Cincinnati\), learning python 3 was trivial and I did not feel any need to reach out to the community for help it was straightforward A NON\-ISSUE if you will. Having said that, it might take you about 15 minutes to get used to print\('something'\) vs print 'something' Depending on what you need to use from the std library, things might have moved and at this point google will tell you where. So if you know python 2, just create a virtualenv with the latest python 3 and start doing stuff. It's not an issue beyond slight performance degradations which I believe will be wiped out when 3.7 drops next month. 
+repl.it has served me pretty well so far 
+It would be nicer still if it enforced a minimum of 3 lines, so the only diff is adding/removing lines in the middle, or changing the type of the data structure on the top/bottom.
+looks good so far, thanks
+Hmm, it doesn't like me trying to move files/folders
+It also doesn't seem to reproduce graphs. Although it does save them which is better than nothing
+c9.io is pretty excellent
+The classic way is that you would save the file and the. Run the file from the command line you would do normally $ python myfile.py If you don’t know already most terminals use the up button short cut to put in the last command. So everytime you want to run the file you just push up then enter However if you develop in python then pycharm is the way to go. Then you will get lots of easy things to do such as selecting which venv to run your app. And have a start and stop buttons 
+Time to post on Medium.
+What, you don't have meetings?
+ pip install opencv-python
+Is this free? Seems to only be free for 12 months
+Microsoft now officially supports python and hired on the developer of the most popular python plugin. I apologize for not remembering his name off the top of my head
+You can start with [Python domain on havkerrank](https://www.hackerrank.com/domains/python/py-introduction). It will take nearly two weeks of your time if you're regular.
+closed as non constructive
+If you are using transactions, maybe a database resource is locked thus preventing concurrency.
+seems like it returns the following { "id": "3429974417", "username": "ank.it42", "full_name": "Ankit Solanki \u26a1", "biography": "Existentialist | INTP | IITDelhi-CS&amp;E", "following": { "count": 256 }, "followers": { "count": 1325 }, "is_private": false, "external_url": null, "profile_pic_url_hd": "https://instagram.fdel1-3.fna.fbcdn.net/vp/53362075b376150e63193b2e7e949410/5B8E9CAD/t51.2885-19/s320x320/30077638_416573142146336_6519968261809897472_n.jpg", "platform": "web" }
+They’ve changed a lot lately. If you haven’t used it for a few months I would recommend revisiting. 
+&gt;We tried YAPF before and could never roll it out for everybody. I even contributed the "facebook" style to the tool. There were a few reasons why YAPF didn't work out for us but the most important were: &gt; &gt;\- YAPF would at times not produce deterministic formatting \(formatting the same file the second time with no changes in between would create a different formatting\); Black treats this as a bug; &gt; &gt;\- YAPF would not format all files that use the latest Python 3.6 features \(we have a lot of f\-strings, there's cases of async generators, complex unpacking in collections and function calls, and so on\); Black solves that; &gt; &gt;\- YAPF is based on a sophisticated algorithm that unwinds the line and applies "penalty points" for things that the user configured they don't like to see. With a bit of dynamic programming magic it arrives at a formatting with the minimal penalty value. This works fine most of the time. When it doesn't, and surprised people ask you to explain, you don't really know why. You might be able to suggest changing the penalty point value of a particular decision from, say, 47 to 48. It might help with this particular situation... but break five others in different places of the codebase. [https://news.ycombinator.com/item?id=17155205](https://news.ycombinator.com/item?id=17155205)
+My man
+Thank you :) Anyway, i would say that this info is "crawled", but not " investigated". I was just wondering if i missed something here.
+Tried it earlier today. Could add folders/files into a python script, but couldn't find how to organise scripts into folders
+That depends on your problem domain. If you have a large amount of shared dynamic state, you either have to bash your head against odd platform specific SHM limits, or waste a bunch of time copying data between processes and trying to figure out who has the most stale version of it. There's a reason threads exist.
+none, just started writing code and when I ran into a problem I googled.
+While the `apply` method /u/TheLastDev89 mentioned is super useful, for something like this you could just do: myCSVFile[5] = myCSVFile[5].str.replace('g', 'testingtesting123') There are other handy `.str` methods you can use too, check out [the docs](https://pandas.pydata.org/pandas-docs/stable/api.html#string-handling). Also when you're saving it back to a file, you might want to try: myCSVFile.to_csv('my_csv_file_new.csv', index=False) Otherwise you'll get what looks like an extra column at the beginning (which is just the default index pandas creates if you don't specify any of the columns to be an index - not that you need to).
+Whats the difference between google and stack overflow... every google search I do tends to lead me there :)
+Not me. Google usually takes me to stack overflow or other people’s websites where they explain things with visual at times, breaks down properties, shows different ways, etc
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.replace.html no reason to cause a 10x perforamnce drop by using a lambda.
+Lege 're Jimmy 
+You are right :) 
+I'll try that out thanks.
+Bout a month ago I mentioned a dumb idea for a website where you could edit ASCII art with Vim-like controls. Well now I'm done with it. https://vimcanvas.christophermedlin.me . 
+Impossible to figure this out just based on your description alone. Attach a debugger and -or- instrument the script with logging/printing to figure out where exactly things are going wrong.
+You can set up jupyter on a VM an access it from everywhere, or you can just ssh a VM (this does not include browser tho) There is also a start up that has that functionality but it is a paid one (5$/month). https://www.sourcelair.com/ 
+There is a bash shell, so you can do nearly anything. Not sure what you want to do with graphs, but if you want you can run a web app and display any image you want.
+Distill the description to only two or three sentences and focus on what’s relevant for the job. When reading these descriptions I’m intetested in what you did and whether that’s a skill or experience that’s transferable to the work I need you to do.
+Sublime text and vscode have shortcuts to build python scripts and run it. For sublime text, you would just press ctrl+b, and than it would do python your_script.py in adittional window ajd you would see your script running. And with esc, you would close window and continue to work and so on. Atom has it, just google atom build python and install package, something Like this https://atom.io/packages/script
+Great post 
+Thank you!
+There are no bugs if I can't see them.
+https://docs.python.org/2/library/warnings.html#the-warnings-filter You can surpress it with python -W ignore::DeprecationWarning your_script.py
+I’ve seen both. Which you put down depends on what you personally want to emphasize.
+The editors at Manning do a fantastic job. It sometimes feels like O'Reilly is just rushing a book out to fill a perceived void \(like ML/DS these past few years\), and clarity suffers from that, they are usually better than Packt though...
+&gt;In my experience, you need to be comfortable with calculus, linear algebra and statistics to understand data science. Cant upvote this enough. 
+This has always been my thought but I only care about Mac and Linux. I *think* it’s harder on windows where all of the variables have to be copied as opposed to just the relevant ones. I wish I could actually get some clarity on this. 
+I'd call that IRC. #python on FreeNode is a good place to start. 
+How does this compare to pygsheets, in terms of features and goals? https://github.com/nithinmurali/pygsheets
+This needed a video?
+Dark Souls Dad? 
+If they would provide old C API and multi threading without GIL if no extensions are using the old C API, the existing extensions would migrate quite quickly. I think that's really the way to do it.
+He gained the name DSDad after appearing on an AGDQ stream with a hand held PC: [Here's a lightning talk he did about it called 'my life as a meme'](https://www.youtube.com/watch?v=PulzIT8KYLk&amp;t=3050)
+Live collab is in now I think, two of my colleagues used it a few weeks ago.
+that might be the most gdq thing I've ever heard, especially the conspiracy theories of him being kicked out
+Oh nuts, sorry it looks like Amazon took over. Used to be free for public projects at least (like GitHub). Maybe try codeanywhere.com as an alternate. There's also codeshare and codebunk but I've never tried them personally.
+Maybe it's the MySQL optimization engine? At the end of the day, if you have a big table, you're going to be IO bound, not processor bound. So your processes might just be waiting to hear back from the database. Maybe you could have MySQL run the queries at a certain interval and then spit the results to a table that you query with Python and then update the table with those information?
+WOW I CANT BELIEVE NO ONE THOUGHT OF THIS UNTIL NOW.
+not enough pornhub in your pattern, I think
+What I always like to see is something along the lines of "wrote a program for doing XYZ. I was responsible for requirement gathering/ coding / etc. Used the following technologies and frameworks: A, B, C" This tells me succinctly what the code you wrote does, what your involvement in it was and what you have experience with it was. If I want to know more than that, I will ask it during the interview. 
+You don’t compile Python. It takes longer but you really want to be able to see it in your head when looking at the code. If you can, use a good IDE like PyCharm. If you like web apps try Django. Good luck.
+[removed]
+In gtk-land there is something called glade that produces *XML* files representing the layout that you can then load. I wouldn't necessarily call what you are doing programming exactly". It's more using a graphical tool for drawing the UI. Which sort of makes sense since the UI is a graphical object. One comment: Just because something is graphical doesn't necessarily mean you need a graphical tool - often the thing that is really important is a short feedback loop so you can see the changes you make immediately. 
+Check out graphviz and pydot 
+https://www.reddit.com/r/Python/comments/7zxptg/pulling_stock_market_data_yahoo_and_google_dont/
+Recently did an update which almost entirely eliminates race conditions [https://github.com/pycampers/zproc#atomicity](https://github.com/pycampers/zproc#atomicity)
+&gt; 20Gb zipped per 5 min Blaze + dask.distributed + dask-ml - https://blaze.readthedocs.io/en/latest/ - https://dask.readthedocs.io/en/latest/ - https://distributed.readthedocs.io/en/latest/ - https://dask-ml.readthedocs.io/en/latest/ Pandas on Ray http://ray.readthedocs.io/en/latest/pandas_on_ray.html Apache Parquet format https://en.wikipedia.org/wiki/Apache_Parquet
+**Apache Parquet** Apache Parquet is a free and open-source column-oriented data store of the Apache Hadoop ecosystem. It is similar to the other columnar storage file formats available in Hadoop namely RCFile and Optimized RCFile. It is compatible with most of the data processing frameworks in the Hadoop environment. It provides efficient data compression and encoding schemes with enhanced performance to handle complex data in bulk. *** ^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&amp;message=Excludeme&amp;subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/Python/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot) ^] ^Downvote ^to ^remove ^| ^v0.28
+About policies, It almost exclusively uses PUSH and DEALER sockets, which follow the "simple round robin routing" strategy. And I don't think we can really benefit from any other strategy. There is no way you can let 2 Processes do work on state at same time, so it has to be a simple queue, nothing else. There's the added benefit of making the implementation simpler, ofc.
+Does someone have some documentation about what Instagram ha s to do about all this ? Did they implement a GIL less cpython interpreter on their own ?
+I run python on small machines, single core cloud VMs, etc - I would not be happy if single core performance was reduced
+Hi everyone, Long time lurker here but decided to finally make the leap and join. I created this little fun script after catching up on Season 5 of Silicon Valley and loved Gilfoyle's Bitcoin Warning System. Because I've been receiving tons of privacy update emails, I built this to run at my desk. It's been pretty fun! I'm planning to keep improving it little by little to explore Python. Please help me improve it, give feedback or do whatever you want to it. Here's what I'm struggling with: What are the best ways to package scripts to that they can run in the background? I had such a difficult time with accepting user input after having backgrounded the script in the terminal. For now, it just runs on the same shell session. 
+Python is turing complete. But what you are attempting to do is almost certainly against the TOS of the website you are about to scrape, may be illegal depending on your intended use, and if they are smart they likely have multiple technical measures in place to prevent you from simply grabbing all 21k pages in an automated fashion.
+That rule, of course, essentially kills any such efforts dead in the water. It is exceedingly difficult to get a correct multithread algorithm that is just as fast as the single thread version when limited to just one thread, otherwise why would you even bother with the single thread version? Of course there are other things like CPython's nebulous readability requirements that limit performance improvements that are non-obvious (a lot of them).
+Yes
+Until it is. Shared memory is a lot easier and more efficient than message paying for ipc.
+Just started a Django website for the wife’s bake shop. Have a ton of ideas but still fairly new to python. First getting a site built then deploying, gonna have to switch host to one that can support a Django site I’m guessing. Then a program that can calculate the total cost of a cake or what ever she is going to make then add in her time to calculate a total price. Hoping to tie into waveapp for accounting and automate reports/billing! Going to be fun and frustrating I can already sense it haha
+&gt; In general, these days, I don't trust O'Reilly books very much I have looked at several O'Reilly books over the past few weeks and I tend to agree, but I can't really describe why... 
+Progress demands it. Libraries break, language break, etc. The migration issue was partly incompatibility with prominent livraries. But also bc it's only recently py3 was as performt. Py3 was breaking but it was also worse than py2.
+Google has a [machine learning crash course](https://developers.google.com/machine-learning/crash-course/) for learning the basics so you can get started with Tensorflow.
+Crawling, though more appropriate, conveys the meaning of scraping; While investigating, means to carry out a process in a systematic or formal order. I thought I should use a word which carries more significance and dictates the whole process. You were damn correct when you said the information is crawled. Glad you liked it :) PS: I wanted a good name, and I arrived at Instagram + Investigator = Instagator.
+I did see those as options, although a preliminary Google didn't reveal how I could actually view them. Do I need the software too or can they export as an image or something?
+Do I have to know programming really well for this? I only know a little bit of python.
+Blockdiag (and actdiag) could help http://blockdiag.com/en/index.html
+Nope!
+First of all, great feedback on bringing the "benefit" more front and center. I'll think about how to do that, because it's important that I can capture a "gotcha" moment quickly. Next, re: PyCharm – is that true? I don't use PyCharm, but is your complaint that the parameters aren't reported by PyCharm, or that the parameter documentation is still lacking? If it's the latter, that's true. I can't really imagine solving that problem without figuring out the internals of docutils. If it's the former, then PyCharm isn't looking at the ``__signature__`` attribute on the callable, and I'd suggest that PyCharm is broken, and it will get an update to comply with PEP 362. However, I think you're right that the best case is that developers wrap their own code. Honestly, there were a few use cases for me: 1. I found myself dealing with SQLAlchemy models / graphql and passing a lot of attributes between the two. 2. I had no idea what the underlying implementation of `graphql.graphql` was and it always took me a while to figure out what parameters were *really* passable. 3. I think that whitelisting acceptable paramters by providng a ``var-keyword`` parameter (e.g. ``kwargs``) is an antipattern (largely for the same reason as #2). Any ideas on how to bring the "value-statement" more forward?
+Learn pygame by googling sentdex pygame tutorials. Its coding initially but if you get used to it, it's easy. 
+im still a python noob, whats so bad about doing that? (not that I do it lol) 
+Awesome! That looks like it might fit the bill. I'll play with it tomorrow. Thanks for the heads up!
+Windows is for Steam. You've wasted your time.
+Yes, Qt Designer and Qt Creator allow you to visually layout soaps and widgets. It's extremely helpful, since you can actually see what it will look like as you are designing it.
+I want to become a full developer
+Exactly what I was looking for! Thanks a lot 
+If OP is starting out new I'd recommend looking at arcade instead which seems a little more polished and actively maintained. The author gave an introductory talk at the last pycon https://www.youtube.com/watch?v=DAWHMHMPVHU 
+Learn Unreal Engine or Unity. Learn OpenGL/Vulcan. Pick up a systems programming language like C/++ or Rust.
+make a text adventure that uses the picker module and ini files, that was one of my recent projects 
+You can export as a bunch of formats including image
+You can export as a bunch of formats including image
+r/lostredditors
+With all due respect to those saying write down everything, please don't. It's painfully obvious when a candidate is fluffing their resume by going into so much detail their resume reads like a novel. What are we going to talk about and how are we going to fill 45-60 minutes if everything is in your resume? The resume should be tailored to the hiring managers and recruiters who are usually given a brief description of the position and a handful of technologies. As fellow software engineer actually interviewing you, it should really just act as a list of talking points. Keep things concise. Focus on: * The problem you were solving * Technologies used (you'll find that the majority of recruiters / hiring managers just scan for these and don't read your resume). * Impact / benefit of your solution over existing method (i.e. automated a tedious process that would normally take someone X hours / days to complete every week). As an interviewer, I'd rather see a few bullet points about a project than full paragraphs breaking down exactly what you did. Believe it or not, most software engineers that interview you probably don't want to be taking time out of their day to interview candidates when they have their own deadlines to hit and problems to solve, so please, no walls of text and definitely no multi-page resumes! Give me the 30,000ft view and I'll zoom in if I see something interesting. In my experience, the resumes that read like a book report are normally from weaker candidates that can't talk about what they did, design choices, performance trade offs, etc. I want to work with people that can communicate their rationale, not just regurgitate answers they found on StackOverflow.
+Has pygame gotten any better? Last time I tried to use it a couple years ago it was severely limited by a lack of support for hardware rendering. To avoid slowdowns with software rendering, the documentation recommended using dirty rects, which is a terrible solution in this day and age.
+Maybe Google Colab Notebook is something for you. https://colab.research.google.com
+Sweet, thanks for the help!
+I'm not sure, honestly. I'm not the spearhead of this project. I was told minor details and I know it involves tensorflow and the other things listed
+I made a script to download and set current Bing's Image of the day as the desktop wallpaper. [Daily Bing Image](https://github.com/ShubhamBelwal/Daily-Bing-Image)
+I think he is more likely refering to this talk: [Modifying the Python object mode](lhttps://lwn.net/Articles/754163/) where Carl Shapiro explain having dropping the reference counting mechanism in favor of a traced garbage collector, except for C extensions to maintain compatibility. As a result and thanks to other optimizations, he managed to make CPython twice as fast.
+Hey, Scorpathos, just a quick heads-up: **refering** is actually spelled **referring**. You can remember it by **two rs**. Have a nice day! ^^^^The ^^^^parent ^^^^commenter ^^^^can ^^^^reply ^^^^with ^^^^'delete' ^^^^to ^^^^delete ^^^^this ^^^^comment.
+This is awesome! Great work!
+Game dev here, I use python in tandem with rigging in Maya. Python is great for tool writing in 3D packages like 3ds Max or Maya. Animators and artists always need tools. Hope that helps!!!
+YOUSUFFERBUTWHY
+Blender is very python heavy. It's great for doing small things before moving into any real game development like with Unreal Engine or Unity
+I'm working on a code base that started with python 2.2 and is now in 2.7, with almost 1M Loc of mixed Python and C code. That's why 15 years poped in my head, it's not a hard number :)
+This post is better suited for r/learnpython
+Havent tried it myself yet, but kivy seems worth a look
+Check out [Invent Your Own Computer Games with Python](https://nostarch.com/inventwithpython), from No Starch Press.
+So the requests were doing nothing ? Gevent requires to build your app carefully. Try: gevent + uwsgi + nginx.
+What an amazingly eloquent presenter.
+It's not specific to Python. That's just a truly awful way to go about running some code. It's the kind of thing you'd write if you were entering a "worst code" challenge. Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems. — jwz And running code in `exec`/`eval` is far and away the easiest way to punch a great big security hole in a nominally safe language like Python or JS. 
+[This](https://m.youtube.com/watch?v=K5F-aGDIYaM&amp;list=PL6gx4Cwl9DGAjkwJocj7vlc_mFU-4wXJq) is truly amazing. 
+[Microsoft Azure Notebooks](https://notebooks.azure.com/) It's free online Jupyter server hosted by Microsoft (i.e., it's not a random startup that might die after losing funding). You create a "library" which you can think of as a "project." In each library you can organize files into folders, scripts, etc, separate from other libraries. You can log onto it in any browser, and even on e.g., iPad as all the code is executed on Microsoft's Azure servers. It also provides terminal access, so that you can ``pip install whatever``. Each library instance uses the ``conda`` distribution of Python, so you can also ``conda install mkl`` for example, if you're into that kind of stuff. You can also ``git clone whatever``, and if you've got private git repositories that's fine too: just make a read-only app password in github/bitbucket/whatever and use that password when you git clone. If you've never used Jupyter before, think of it like a cell-based Python interpreter online. It might take some time getting used to, but if you've ever used MATLAB's cells for example then it's basically the same idea. I use it all the time for making visualizations for example. My workflow might be to load my data in one cell, so that it doesn't need to be reloaded all the time. Then I work on making the plots in another cell. If I realize I need to process some data then I can add a cell above it, do the processing, then re-run the visualization cell to re-do that part by itself. It's useful for developing code into scripts/libraries as well. When you're done, you can export the entire notebook as a pdf, as an html, or convert it into a ``.py`` file to further edit in your IDE of choice. (from within a jupyter notebook, you can also type ``!pip install whatever`` (with the exclamation mark) which tells it that you want to run the command as a shell command). That website has some tutorial notebooks to get you started, if none of the above makes any sense.
+I don't think OP understood what you said.
+You should try https://codenvy.io/ It's free until 3Gb and is based on top af Eclipse Che an open source webbased IDE
+That's why r/learnpython exists. Although I doubt whether an installation video qualifies as a learning experience.
+Here's a sneak peek of /r/learnpython using the [top posts](https://np.reddit.com/r/learnpython/top/?sort=top&amp;t=year) of the year! \#1: [My new book, "Cracking Codes with Python" is now available and free to read online!](https://np.reddit.com/r/learnpython/comments/7sigre/my_new_book_cracking_codes_with_python_is_now/) \#2: [I'm releasing a free code for the "Automate the Boring Stuff with Python" Udemy course](https://np.reddit.com/r/learnpython/comments/7fxork/im_releasing_a_free_code_for_the_automate_the/) \#3: [I made a python cheat sheet](https://np.reddit.com/r/learnpython/comments/82t191/i_made_a_python_cheat_sheet/) ---- ^^I'm ^^a ^^bot, ^^beep ^^boop ^^| ^^Downvote ^^to ^^remove ^^| [^^Contact ^^me](https://www.reddit.com/message/compose/?to=sneakpeekbot) ^^| [^^Info](https://np.reddit.com/r/sneakpeekbot/) ^^| [^^Opt-out](https://np.reddit.com/r/sneakpeekbot/comments/7o7jnj/blacklist/)
+sounds like the hard part would be audio analysis, not python
+Ooh hello. I do love a good Google product
+Could you expand on how this is better than just using the correct signature in the function definition itself?
+There's a "PythonScript" (beta) plugin available in Godot's asset library.
+Yes, typing JSON so much made me change
+Wow cool, I didn't know that 😂. Thanks for sharing
+With that name I would have expected a few more things rated like is foodie bool, has promoted posts bool, "sexiness" 1-10, etc
+There is a truly magnificent thing called [Project Jupyter](https://jupyter.org). It allows you to upload python files, store them, and run online. It also has a lot of different integrations for other programming languages, but as far as you are concerned, yes, you can upload python code/files and store them in/at what's called IPython Notebooks which you can run online.
+It wasn't my intention to be rude but I'm kinda tired of the discussion around asyncio. You can't compare a multiprocessed solution to a asyncio one because you are using all the CPU cores in your multiprocessed version. Ideally these techniques should be combined and them compared. Performqnce in overral with uvloop is good enough, faster than NodeJS in a lot of cases which is a good achievement in my opinion. My team make use o Pycharm daily and it works flawlessly for us so I'm still curious about your use case. Asyncio enabled a lot of stuff for us that was almost impossible to implement earlier. About the syntax, there is no way to evolve a language without breaking old linters, maybe you want trio to replace asyncio and that is a good idea but that would break existent linters too. If you want Python to stop in time and forget about the async world that would be Python death sentence in my opinion.
+Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime. Tell a man “You should learn to fish” and you’ll just leave him hungry. 
+Nice! Is this project public? Any source you are referring to? I am currently working on something similar would love to know how you are going with it.
+Just curious, how did you do it "legally"?
+You took up photography?
+Thank you for noticing. :)
+Vandalizing laptops?
+Op need to quit while they’re behind if OPtook this pic. This was taken at the wrong angle by 45* to show us the oven OP is using to learn cooking.
+😹😹
+The simplest way (although not especially secure) is to use a configuration file to specify the username and password, and have the script pick that up. Do be sure not to add your own details to GitHub, though. If you want to keep the 'user friendliness' of entering the details via a CLI, you could whip up a very simple script to take that input and write a config file, which can then be read by the main program. As for running in the background, look in to services for your OS. Or just fork it to the background every time you want it running, since this is more of a small project, and not something you'd necessarily want running all the time. Alternatively, you could make a wrapper script that takes the inputs, and then forks a process which takes the username and password as arguments to the background. Again, this isn't particularly secure, but will work for your use case.
+Do check if the book is based on Python 3 syntax. Otherwise you will end up learning the wrong things and relearning stuff later on. Python 2 will be phased out in April 2020: [https://pythonclock.org/](https://pythonclock.org/)
+Good for you, it's very rewarding. I started off with Zeds book and now into data science/pandas. Keep learning!
+Automate the Boring Stuff has always been python 3.
+Just checked it is indeed Python 3, thx!
+thank you. I’ve always thought about trying to learn some code and figured now was a good time. The idea of simplifying some of the monotonous processes I deal with at work is what really motivated me. Plus.. if I stick with it maybe I can build some cool shit. 
+Be careful, collecting headphones can get expensive. It starts with mid-range V-Modas then before you know it you're dropping thousands on custom molded IEMs.
+Where I got my coding start as well. Currently sitting here watching Python do about six-ten hours of monotonous work for me. Enjoy the journey. 
+I can vouch for this 
+&gt; I can't create a numpy array of frequencies. This is your project. Any help we give would be purely voluntary work on our part. Don't make us also work to find out what you are even talking about. Post some code and an error message or a clear problem statement.
+It’s not like the syntax is wildly different.
+Jupyter QtConsole is quite good.
+I like wxformbulder, especially for working out all the spacer/sizer stuff. IMO wx isn't horrible, it's just not as pleasant as Qt.
+Can I ask what type of things you use Python to do?
+Great choice! I love Al's book for introductory python. Any ideas for a fun project yet? 
+&gt;users of your code have no idea what arguments your function supports Write a function with a function signature specifying the arguments? &gt;you're white-listing arguments rather than black-listing them That's why you specify the arguments in the function signature? &gt;you want an easy way to extend a function that already exists Wrap it in a new function? I'm still struggling to envisage a scenario where this is both useful and there isn't a better way.
+&gt; You can't compare a multiprocessed solution to a asyncio Watch me. I just did it. Of course I can, how are you going to stop me? By telling me that it is worse by design? Big news! :) &gt; Ideally these techniques should be combined and them compared. Ideally from whose perspective? What makes you think so? I don't see any need in combining different means of achieving parallelism. I want exactly one good way, not three dysfunctional ones. &gt; About the syntax, there is no way to evolve a language without breaking old linters Who told you so? That's complete nonsense. You need a good language to begin with (one that allows programming your language using your language, eg. Lisps, Prolog, even Rust or Nemerle), but even with Python you could do it. There was absolutely no need to replace decorators with `async` keyword. Zero. It just screwed up a lot of systems and tools. &gt; Asyncio enabled a lot of stuff for us that was almost impossible to implement earlier. Name one.
+At the moment it is not. But soon we are going to release it! I havr gone through some books, a really nice one is Music Information Retrieval by Meinard Muller. I also looked into some of the Oreily books. Last but not least gone through some of the well known audio matching algorithm to get ideas about feature extraction. This is the most important thing in my opinion. I would re commend librosa and pyAudio for handling music tracks in pytyon. Currently reasearching on classification bases on track's emotions.
+&gt;rather than: writing those parameters, Why *wouldn't* I do that?
+I think the documentation is a little terse but the module itself has a lot of good bits. I'd recommend this book on the subject: https://www.safaribooksonline.com/library/view/using-asyncio-in/9781491999691/
+It's a little strange to qualify 7 or 10 year old code bases with 250k lines on a 10 person team as "small".
+As an example, suppose I have this code: import forge @forge.sign( forge.arg('a'), forge.arg('b'), ) def a_function(**kwargs): print(kwargs) a_function(1) a_function(1, 2) a_function(1, 2, 3) Only `a_function(1, 2)` is a correct function call. Neither PyCharm nor mypy are able to warn me that anything there is wrong. pylint does even worse and says that all three are wrong because it thinks there aren't supposed to be any positional arguments. If I instead write `def a_function(*args, **kwargs):`, then those errors go away and instead it warns me that `*args` is unused (and so does PyCharm). If instead I write `def a_function(a, b)`, then all three tools can spot the incorrect function calls correctly. PyCharm can show me the parameters like [this](https://i.imgur.com/wasJVJS.png) instead of just [this](https://i.imgur.com/GASMsst.png). It can also give me autocomplete suggestions for names that are longer or more complicated. I imagine some other editors can do similar things. All of these tools are doing the best they possibly can. They can't practically run the actual code to apply the decorator and retrieve `__signature__`. They can only parse the code and make static inferences. I'd be very impressed if you can show me any linter or editor than can work with `forge.sign`. Your docs say "You can also supply type annotations for usage with linters like mypy" but mypy can't actually see anything wrong with `to_str({})` in that example, although it can if I remove the decorators and use `to_str(number: int)`. I can see how the decorator helps runtime analysis like `inspect` and `help` but that's only part of the picture. So if I'm using some library, I would much prefer that the functions in that library have full manual signatures than `forge.sign` so that PyCharm can give me assistance. That ultimately means I would rather people don't use forge unless there's just no way they're willing to copy signatures across functions. And I worry that some people might be willing to copy signatures but then they'll see forge and think they can use that instead when really they haven't understood the other consequences this will have, just like you didn't. I'm also still having trouble understanding how this is meant to be used in practice. Take the graphql example. How is one meant to write the functions `graphql` and `execute_graphql`? It seems that there's two options: 1. The function signature has to be defined twice in two different ways: once normally in the core function and once using `forge.sign` to be applied to wrappers like `graphql`. That's not good. 2. Define the signature only in `forge.sign` and use `def ...(*args, **kwargs)` everywhere. Now the body of whichever function uses `allow_subscriptions` has to do `allow_subscriptions = kwargs.get('allow_subscriptions', False)` or something. Not good. Take a look at [this discussion](https://github.com/python/typing/issues/270). They propose a decorator `@delegate_args(other_function)` which seems like a much better idea. It's simple to use and it's much easier for static analysis tools to implement making use of it. Guido himself is in the discussion and is interested in the idea. This could potentially go into the standard library and that would be good motivation for major static analysis tools to recognise it. Despite the interest, no one has commented in a while and no one has actually produced an implementation. You could be the one to revive the discussion and kick off the process of implementing this.
+The next step is to make a game. That sounds stupid, but it's the truth. The most popular library to make games is called pygame. It's a python wrapper around the very popular SDL C library. There is a port of pygame called pygame_sdl2 iirc that uses SDL2 at its core (it still lacks some features of pygame though) There is 2 things you need to do to make games (fundamentally) : render an image, and handle events. Rendering an image is basically creating an array of pixels in memory (the GPU's memory usually) by *blitting* surfaces on top of one another. Surfaces can be created using fonts (for texts), or by loading an actual image in memory. Blitting them is the equivalent of saying "put this image at this position on top of this image". Events on the other hand are fired every time something happens input-wise. So mouse movements, mouse clicks, scrollwheel movement, key presses and key releases all fire specific events. This is the "main layout" of a game with pygame: #!/usr/bin/python import pygame from pygame.locals import * def main(): # Initialise screen pygame.init() screen = pygame.display.set_mode((150, 50)) pygame.display.set_caption('Basic Pygame program') # Fill background background = pygame.Surface(screen.get_size()) background = background.convert() background.fill((250, 250, 250)) # Display some text font = pygame.font.Font(None, 36) text = font.render("Hello There", 1, (10, 10, 10)) textpos = text.get_rect() textpos.centerx = background.get_rect().centerx background.blit(text, textpos) # Blit everything to the screen screen.blit(background, (0, 0)) pygame.display.flip() # Event loop while 1: for event in pygame.event.get(): if event.type == QUIT: return screen.blit(background, (0, 0)) pygame.display.flip() if __name__ == '__main__': main() Keep in mind though that python is slow by nature, and making videogames with it is only suitable for certain types of videogames. Specifically, turn-based games or very small projects. If you want an engine in which you can code in python, look at renpy (for visual novels) and Godot Engine (for everything else)
+Don't start playing music. If you spent thousands on IEMs then I can't imagine how much you would spend on guitars, audio interfaces, microphones, preamps, and other gear. 
+Good for you! Check out /r/learnpython and if you're anywhere near Columbus, Ohio, USA, show up at PyOhio http://pyohio.org this July! Welcome to the team!
+I thought I deleted my Facebook. What is this trash. 
+I'd recommend just going with 3.6 or 3.7 unless you have problems with 3.4. Go ahead and start using type annotations, f\-strings, and all the other new goodies. 
+If you are interested in roguelikes, [this](http://www.roguebasin.com/index.php?title=Roguelike_Tutorial,_using_python3%2Btdl) is a great tutorial.
+RemindMe! 6 hours
+I will be messaging you on [**2018-05-26 18:53:19 UTC**](http://www.wolframalpha.com/input/?i=2018-05-26 18:53:19 UTC To Local Time) to remind you of [**this link.**](https://www.reddit.com/r/Python/comments/8m9ei8/and_so_it_begins_ive_decided_to_start_a_new_hobby/) [**CLICK THIS LINK**](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Reminder&amp;message=[https://www.reddit.com/r/Python/comments/8m9ei8/and_so_it_begins_ive_decided_to_start_a_new_hobby/]%0A%0ARemindMe! 6 hours) to send a PM to also be reminded and to reduce spam. ^(Parent commenter can ) [^(delete this message to hide from others.)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Delete Comment&amp;message=Delete! ____id____) _____ |[^(FAQs)](http://np.reddit.com/r/RemindMeBot/comments/24duzp/remindmebot_info/)|[^(Custom)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Reminder&amp;message=[LINK INSIDE SQUARE BRACKETS else default to FAQs]%0A%0ANOTE: Don't forget to add the time options after the command.%0A%0ARemindMe!)|[^(Your Reminders)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=List Of Reminders&amp;message=MyReminders!)|[^(Feedback)](http://np.reddit.com/message/compose/?to=RemindMeBotWrangler&amp;subject=Feedback)|[^(Code)](https://github.com/SIlver--/remindmebot-reddit)|[^(Browser Extensions)](https://np.reddit.com/r/RemindMeBot/comments/4kldad/remindmebot_extensions/) |-|-|-|-|-|-|
+There is no real line where is start or stops. It's just a mental picture so people get an order of magnitude. Most people don't work on projects of this size, and hence have a bad grasp of the constraint of a big code base.
+import cooker
+Your DB calls are going to slow you down so much there will be no point in optimizing gevent or whatever. You also probably won’t have high traffic unless you are wildly successful, in which case there will be time to work on scaling. 
+Oh boy, I envy you. What I would give to feel the things I felt in the beginning of my own journey. To feel the rush of diving headfirst into the abyss, ignorant of everything ahead of you other than the fact that you intend to come out the other end alive. To first understand the power at your fingertips when you realize that *this is what software is made of*. To blit your first surface to the screen and watch the buffers flip before your eyes. To send your first set of bytes across a socket to arrive as a legible sentence in your web browser. To be the first of your coworkers to automate that godawful spreadsheet operation that once took each of you hours to complete yet now takes mere seconds. I envy you. Relish these moments. I know I did. Godspeed.
+You probably already know but all of his books are available for free online at inventwithpython.com my local library has them too! 
+I hear ya, it's a real shitpost if I ever saw one. Mods should delete this stupid irrelevant post.
+Chapter 1: listen to Monty Python while doing that boring stuff.
+What Python lib do you recomend to work with Excel documents? 
+Decorating every single function to make it async is a joke. We have completely different opinions so before I start bashing my head against the wall is better to stop here. Thankfully you are not making the calls about Python future :)
+PANDAS has been my go to thing for Excel. OP’s book (assuming it matches the site of the same name) goes into openpyxl which is also good.
+stickers on laptops is lame. Find a new hobby.
+Currently the apo that I work gets an average of 5k RPM. I don't know if you consider this a high traffic as I do. I know that the database slow it down, but I want to get closer to my current stack, with is composed by python 3.6 and MySQL 5.7
+World.Open
+Don't work with Excel documents. CSV &gt; Excel. Excel is just CSV + Formatting data, which is often superfluous.
+The book pairs nicely with the $10 Udemy video course: https://www.udemy.com/automate
+Nice book. I use it for Python courses. 
+xlwings
+Countertop remodelling is gratifying work.
+Make sure you use /r/learpython a lot. It's been a god send for me.
+Statements are arranged using whitespace not { like Java. That can be good and at times it can be super frustrating. At best it makes it look clean and readable. You don't have to declare variable types Python "just knows" what some variables are by the way you use it. That can be great or that can be confusing for a new user. I'm a new user so take this advice with a grain of salt. I should also note in the last few years Python has rapidly become popular pushing out Java. Even my college switched to teaching Python over Java for beginner programming classes.
+while I agree that Pandas is superior masterrace, Pandas does not try to work with Excel. Yes it can parse and save to .xlsx documents, but it doesn't go as far as applying formatting, formulas, Excel charts, etc. To truly replace Excel with Python you would still need something like openpyxl. Just thought of clarifying that. 
+r/headphones
+Still having m-100 for 3 years so far so can't vouch yet
+I bought the Data Analysis for Python months ago ... if I read it thoroughly, I might have discovered dropduplicates earlier!
+Hey, I just grabbed this book from the store on Wednesday! Good luck man!
+mmmmm vmoda crossfade wireless Loved them so much I bought the wife a pair. I see you are using the stock padding. Live like a king, but the memory foam upgrade (they get kinda hot though, need a cooling agent or something
+Well sh*t. Just bought my first pair suspecting people might think that. Now it has been verified.
+I've seen it called snake_case and it is preferred for variable and function names in python.
+I was gonna tell OP to be careful for a different reason. Not sure how much he cares, but that piece of mail in the photo has a visible sort code. If someone wanted to, they could track down his exact location.
+That's not how Reddit works
+So for example, right now I'm working on a project for a large client. They have ID numbers stored in a custom GUI interface that I only have access to the front end. Repeated emails to various client contacts attempting to gain access to the back end where the information is stored has been fruitless. The best thing I've found within the GUI is a table that lists all the ID numbers, but only displays them 20 rows at a time. Fortunately there is a menu option that copies the visible rows of the table to the clipboard. So right now I have a Python script copying the table, advancing the table by 20 rows, pasting it in to an excel spreadsheet, cleaning up the format of the paste, and repeating. Every 20 pastes it also saves the excel file in the event of something crashing (which excel loves to do). 
+[Anytime I see reading material near a stovetop makes me think of this.](https://imgur.com/bvGPsQg) 
+Right off the bat, if you are using a brush to paint your walls, you are going to have a bad time. And everyone who comes into that room for years later will either know you used a brush and shake their head, or they will recognize that something went terribly wrong. Python is also a DIY skill, and sometimes I wonder what visitors see when they wander into my modules...
+Holy shit this exists? I'm going. 
+Dude thanks for saying something! Moving to Ohio soon, I'll be there!
+s/implemented/executed Or even better, the debugger in an actual IDE like pycharm.
+Don't forget to use the code visualizer to watch it be **executed** step by step: http://www.pythontutor.com/visualize.html#mode=edit ^^This ^^was ^^posted ^^by ^^a ^^bot. ^^[Source](https://github.com/anirbanmu/substitute-bot)
+I think ChilKat is great too. https://www.chilkatsoft.com/
+collections.namedtuple and typing.NamedTuple are just worse classes and shouldn't be used as bases for anything unless you have an actual record type. They're filled with gotchas and limitations. p.s. dataclass and attrs both offer immutable toggles for the generated classes. 
+homeassistant is the largest open source project using asyncio and aiohttp that I'm aware of. I can't speak to code quality as I've just only briefly looked at it. 
+3.7 is still beta isn't it? 
+Is there an online version of this book? Like a udemy or coursera class?
+In general I think Python is fast to write and slow(ish) to run. Compiled lower level languages are harder to write correctly but will run faster. If you want to write a script to replace a job you'd otherwise have to occasionally do manually, python is ideal. If something is going to be running continuously with high throughput/processing requirements, python may not be the best choice. The range between the two extremes makes python a better or worse choice depending on requirements. As a language to learn programming with, it's a good one. Java was my first language but python was the first I did any decent amount of coding with and the first I was employed to use.
+Stick with it and repeat exercises over and over to build memory of commands and their purpose and before you know it you will be a programmer. 
+Dang, congrats. Can I ask where you are located and what is your new salary? Ballpark if you don't want to share specifics. And you can PM if you prefer. I'm curious as I'm wondering if I should start looking..
+You put a combustible too close to your range
+import this
+This book is online (his others are as well, I believe): https://automatetheboringstuff.com
+Give it a look here https://automatetheboringstuff.com If you dig it and like having a hard copy to scribble in, order one up. I have learned a lot from it as a noob.
+Thanks! May I know what did you use it for?
+&gt; don't see anything wrong with it. MANDATORY type hints You can put 'any' in, but boiler plate. Why make people write hints then put 'any' when you can implicitly assume that if missing? I remember done core development have u-turned. First time I heard about data classes hettinger was saying he didn't like the mandatory hints and was trying to do something about it. Now he's completely happy with them at his pycon talk, and even showed the equivalent named tuple - with hints.
+Autohotkey would work perfect for this too ! 
+True, but Python Software Foundation recommends a beginner learn Python 3 and then understand the differences with 2.
+Love the headphones, have the same but in the red with scales
+Do you listen to a lot of EDM? I love the V-Moda sound signature for certain genres but not all.
+EDM was the reason why I bought them. Wasn't sure if I should buy lp2, cause these were cheaper and I never had "high end" headphones before but I'm so happy that I decided to buy m-100.
+&gt; I have no idea why it's recommended most when people always mention how muchch better other languages are or some languages are faster or scale better? What you need to know here is that there is no such thing as a "one size fits all" silver bullet programming language. Python has likely been recommended to you because it is a) beginner-friendly and b) is applicable to a wide range of problems. Note that "beginner-friendly" does not mean "toy language". Python is very much a real programming language used to solve real-world problems. You, as an individual, are unlikely to ever "outgrow" Python. Python has a low barrier to entry, but I'd argue that the skill ceiling is actually quite high. However, some of your *problems* down the road may outgrow Python. The flexible design of Python, which lets you solve a wide range of problems in a concise and elegant manner, has to make some trade-offs in terms of execution speed, ability to run concurrently, etc. If your code has to be able to make optimal use of CPU and memory or needs to process thousands of network requests per second in parallel, you'd likely need to move to some other language more suited in these areas. &gt; But if it is easy, would that make python less compared to competition? That depends on what you mean by "less". No, a programming language being hard to program in doesn't make it "better" by default. Otherwise we'd all be writing [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck). Don't view programming languages as "either/or". Chances are that if you're even a little bit interested in programming, you will learn a number of them over time. Learning Python now does not mean not learning Go, C, Java, Rust, or even assembly later on. If your goal is to just "get into programming" without any concrete short-term objective in mind, Python is a great place to start. Even if you have a concrete objective, it most likely is, unless that objective is writing code for microcontrollers, operating system kernels, critical web servers, or a high-performance 3D game engine.
+**Brainfuck** Brainfuck is an esoteric programming language created in 1993 by Urban Müller, and notable for its extreme minimalism. The language consists of only eight simple commands and an instruction pointer. While it is fully Turing complete, it is not intended for practical use, but to challenge and amuse programmers. Brainfuck simply requires one to break commands into microscopic steps. *** ^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&amp;message=Excludeme&amp;subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/Python/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot) ^] ^Downvote ^to ^remove ^| ^v0.28
+I mostly deal with huge chunks of Excel or CSV data that need to be merged together to create a database which gets read in by another application. We had a method to do it in Excel VBA before but it took over 2 hours to run sometimes and we held onto that approach for 3 years. The Python + PANDAS script does the same thing in just under 2 minutes. I have several really simple scripts to fetch some stats (like, how many things are in this thing today). I put those in task scheduler to run every day so I no longer have to go opening applications or database to see the growth of the database over a period of time.
+Ok thanks for explaining, I'd mostly use it at server level so not sure if this book explains at server level automation
+Steps to learn ML 1)Study Statistics,Linear Algebra,Calculus,Probablity Theory 2)Learn about linear regression, k- nearest,SVM,Neural Networks etc and then try to implement these on your own(If you can't you can take a look at how other people did) 3)There's tons of resource on the internet use it! ([Andrew Ng Coursera course ](https://www.coursera.org/learn/machine-learning),[Sentdex Machine Learning Playlist](https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v) I think you can't enjoy the ride if you don't know what's happening in the background 
+Just under 100k contracting for a big name tech company. For reference, I did one of those three month full time python programming boot camps about four years ago, and worked for three years in web development. My degree is in physics. 
+[Relevant XKCD](https://xkcd.com/353/)
+Slick pair of V modas. Those chrome plates are tite 
+Stickers for laptops are like tattoos. Devs can express their history and beliefs without risking job loss.
+I'm not arguing that starting with 2 is preferable, but I don't think it's a big deal.
+/r/validationwhoring
+I don’t use pycharm like you do. I have one workspace with everything under it. I do have a few VENVs that I use for switching between python2 and 3 but that’s it. 
+I need that boooooook
+Oh wow, looks great :)
+Same! I'm on chapter 3 right now!
+There is a udemy course for this book as well. Its really good. 
+Pythoncard was fun to use awhile ago.
+PowerShell master race
+The 1 sentence summary of the talk is if a class has only 2 methods and one of them is __init__, it should be a function, not a class. RandomDeath and Scene don't make any sense as classes and only confuse the reader. The EyeOfAgamotto class is maybe fine, but if I were reading your code, why are you making me look up what RandomDeath and Scene do when all they do is print whatever I told them to print? It's a waste of the reader's time and memoryspace (I can only keep so many concepts in my short-term memory at a time. And I'd really rather not turn RandomDeath and Scene into longterm memory concepts).
+That’s sort of medium scale traffic. Not small but not huge either. There are a lot of tricks to look at before which WSGI interfaces are faster. Have you already done all the normal reverse proxy caching stuff? Redis for blockcaching?
+The webscraping section is extremely fun. I scraped all comics from. Soggy cardboard.
+Yeah? I did a bit of Java years ago I don't recall that. It's an interesting concept but seems very dangerous for new users. Even with it in Python I'm casting variables like there's no tomorrow.
+Sounds like they want someone more senior than they saw in the applicant pool. Even if that means hiring from outside the small town and paying much more to increase reach. 
+&gt; why are you making me look up what RandomDeath and Scene do when all they do is print Because they're freaking placeholders, *duh*. Are you trying to critique the code without having seen the movie?
+Think hard before suppressing warnings, especially deprecation warnings. They are there for a reason. Ignoring them is setting yourself up for potentially painful future upgrades. 
+That’s sort of medium scale traffic. Not small but not huge either. There are a lot of tricks to look at before which WSGI interfaces are faster. Have you already done all the normal reverse proxy caching stuff? Redis for block caching? Identified memory hogs so you can run more workers?
+mhm yeah mhm i know some of these words!
+Nice! Programming is damn fun. Hope you have a great time learning. There will be much frustration, but when you will solve your problem, a rush of awesome. 
+it was just funny, relax
+Don't fret it! Let /u/EntityPrime twitch all they like! :) 
+Please move that aerosol can away from your gas oven top. Very bad things could happen. Source: I’m an Aerosol can scientists.
+I'll put in another recommendation for Godot. By default it uses a language called GDscript which is basically Python syntax + data structures with a few extra things to make game development easy. Unlike other recommendations here, Godot is actually a fully-fledged engine, meaning it comes built-in with a lot of useful things like an animation player and a physics engine. If you use a library like pygame, you'll have to learn how to build those systems yourself, which is a great learning experience but also time consuming.
+That looks like some default code on the envelope imo
+You got it
+Gotcha. Thanks for the reply! Does contracting mean it is a position with and end date?
+I will check it out !
+You should buy it!
+What exactly is a "default code"? The whole purpose of a code is to transmit information. What information do you think is stored in those markings? A message that says, "Hello. This is an envelope"? It's a postal sort code that assists in routing that piece of mail directly to OP's house in Anchorage, Alaska.
+Python is a good language if you want to fiddle with code without making web apps. There are lots of libraries for science and data processing. For example there's good machine learning stuff.
+If you mean 3 lines of "dumb", readable, understandable code (vs 1 line of "smart" code) I'm 110% behind you. I'm generally against comments for lines of code (excluding things like explaining magic constants, etc). I much prefer to document the algorithm, function, class, what have you. Explain **what** the code is suppose to accomplish. The code itself (should) explain **how** it accomplishes that.
+Lol. GET OUT.
+I love em 
+No. This is run-of-the-mill, Medium-wrapped SPAM. This is just a referral link vector.
+I’ve got a few pairs but these are my preferred DJing phones. I like the isolation they provide as well as the bass response. I’ve got a pair of AKG’s and another pair of Sennheisier that I’ve given to my wife. Shit is expensive but I love sound :)
+Already there haha
+That’s the plan. I also purchased the udemy bootcamp course and I think if I go through both of those it will really reinforce the concepts. Helps to be in two different formats for me. 
+Great book
+I am only saying this as a disinterested bystander... but I found a complete pdf of it online. Just sayin, google.
+Not really, and even if you’re doing an operation that might require a lot of RAM you can have your script do it in chunks using database transactions rather than doing it all at once. Learning programming is about learning the foundational concepts of data types, data structures, flow control, setting up your development environment, and debugging. You shouldn’t need too much RAM to learn that basic stuff because you’re probably not going to be working with high volumes of data if you’re just starting to learn. If you REALLY require a lot of RAM for something like a big machine learning model, you can rent a server for pennies. Youtube user sentdex has some good tutorials on this if you’re running into this problem. He uses the servers to train his model on a ton of data, and once he has the model he saves it to his computer.
+I’ve been using jupyter notebooks and downloaded Anaconda. I’ll have to check this out. 
+Just subscribed :)
+Instructions unclear, mowed the dishes and washed the lawn.
+Im sure they were just being facetious. 
+I love my vmodas for everything but sitting in front of my desktop. I've got HD600s for that...mmmmm so fucking wonderful. Lemme know if you need some python help, it's my go to.
+This is how I get too and exactly why I usually just lurk. Stay strong friend your not alone. Ps I didn’t think it was really bad. Didn’t even notice it
+I actually purchased the boot camp course I didn’t know they had the automate version too. Cool 
+I really like the hard copy. This is random but the paper is super nice Haha. Also sweet to jot down notes. I’ll probably get the digital version too for quick reference later on. 
+That was beautiful sentiment. Thank you. 
+So much internet angst. 
+The first idea I’ve had which may be too complicated for a beginner project is to create a program that can read the BPM of a song and then write the value to an iTunes attribute where it’s saved. This probably won’t be my first project but eventually I want to accomplish this (I know software for this already exists but that’s not the point). 
+Sometimes yes and sometimes no, in my case it doesn’t have an end date, it just means my actual employer isn’t the big name company but a small company that works with them. However, I still work on the big name company campus with their regular employees. If this project were to end, I would keep my job and just be shuffled over to another company. 
+Haha thanks. Good luck to you too! 
+Well what does your server need to access? This book covers the basics from start to somewhat intermediate level stuff. I looked it over, though haven't read it entirely, and it seems to have a pretty nice way of explaining things. Then once, you have a good understanding of the language, if you still don't know what you need to for what you want to do, you can research on Google or stack overflow to apply the knowledge you know to perform the functions you want to do. I do a lot of automation stuff with my work from generating reports, populating project tasks and dumping data into a database, all of which resides on a server. And there is so much more that can be automated, but there is only myself and one other developer, and we both have other projects. Let me know if you have any specific questions and I'll do my best to answer. 
+Have fun! I found Python to have been the easiest language to pickup, so many things to play with!
+Okay cool. Thanks for the info! I have been really hesitant to accept contract positions in my career so far. Most of the ones I've seen are short term (say, 6 months) and come with no benefits. And the salaries aren't enough higher than what I'm making to be worth the lack of benefits, let alone the unemployed-in-6-months part. 
+Working on a small online shop with Flask Restful with MongoDB. This is my first Python project (I'm a Node.js/PHP guy). The front end project is React/Redux and the backend project is an API built with Flask/MongoDB. I'm really impressed with Python so far. It feels more stable and mature than Node.
+Hey, kriskris0033, just a quick heads-up: **alot** is actually spelled **a lot**. You can remember it by **it is one lot, 'a lot'**. Have a nice day! ^^^^The ^^^^parent ^^^^commenter ^^^^can ^^^^reply ^^^^with ^^^^'delete' ^^^^to ^^^^delete ^^^^this ^^^^comment.
+Great book AND headphone choices!
+My only complaint with the Vmodas is they can hurt my ears after a long session. You’re making me want to start looking for a new pair of cans... it’s been awhile haha. 
+And thank you stranger, I may take you up on that!
+You are making some dangerous assumptions in your code here about sockets, headers and HTTP requests here. It might be better to show the examples using a networking library that can do the HTTP parts for you such as twisted, tornado, or one of the others. It'd make cleaner and safer code :\)
+Not my main task, but yes. I'm currently teaching a Python course for 9 people.
+I thought Excel was a zipped XML.
+Bad bot
+If price is over 100 weight never gets initialized.
+Let me know if I can help you with something. I write my own material, but mostly in Spanish.
+Exactly
+But when you insert a number equel or greater than 100, the program gives the right information but then gives traceback error
+[removed]
+Yep
+Ideally, you shouldn't use the "value" variable at all. Just assign the input directly to "weight" and use "if/elseif" statements.
+&gt; I'm saying multiprocessing done right does not involve the sharing of large amounts of mutable state, that would be the job of C/C++/Rust/D code you are calling from python. Sure. I think we are mostly in very vigorous agreement, and just coming at the subject from slightly different problem domains. :) I am imagining something like a 3D animation program. I'll run through an example loosely based on some real experiences. Say you've got 12 space ships that need to get simulated before rendering. So you start with a single threaded Python interpreter, and your script runs something like for i in range(12): make_spaceship(i) simulate_scene() dispatch_for_rendering() Great. That really slow simulation step can call a simulation engine implemented in C++ that fires up 12 threads to use your 12 core processor and the simulation can run largely in parallel with each spaceship deciding what it wants to do in each frame based on whatever AI. But what if the spaceships are not just fixed geometry, and they have some short python scripts attached that need to get triggered every frame of the simulation? For example, each space ship has some blaster turrets that have their transform matrix driven by a python script/expression that points the turret at the nearest enemy at every step. Now the simulate_scene() call into native code has twelve threads that all need to run Python and your parallel stuff will all get blocked on the GIL to trigger execution of the small callbacks and expression mini scripts. So your twelve threads are effectively serialized in the inner Python parts. That's not a scenario where you can split it all out into multiple processes. Loading the whole host app and all the assets can take minutes, and then you need to sync the state of the scene at every simulation step. (Which can actually be many steps per rendered frame of the final animation.) It's hard to narrow down the scope of what would need to get sent to different processes because sometimes there will just be a script attached to a model that basically queries a database to get the latest version of some pipeline logic that a different artist has been working on to ensure everybody is using the latest version, so the application can't reliably scope the needed data before executing the scripts. That's the kind of scenario I am imagining when I mention that you might be doing a bunch of 3D geometry processing, and using Python to do it. You aren't necessarily chewing through vertex data and doing a ton of the numerical heavy lifting in Python, but the Python being serialized with the GIL can still make the whole thing a bit of a mess because it pops up here and there in expressions attached to a handful of the parameters in a handful of the nodes of some big graph of operators that you would otherwise be happily evaluating in parallel. Does that sort of more fleshed out example do I a better job of explaining where I was coming from in my previous post? &gt; Actually, in general, loads of mutable shared state is a sign of bad design outside of very specific, very specific domains (for example, most operations in domains like image/video compression or effects are parallelized by splitting the workloads into individual chunks, and combining them at the end) Sometimes you can easily spit the processing into different processes. For example 3D rendering is often done is some intial sim step that bakes out the scene for each frame, an then you can load the data on completely different machines and let one machine work in rendering one frame while another works on rendering a different frame, completely out of order and independently, etc. Sometimes it's harder to break more granular operations into different processes. It depends on how granular you want to be, and how long the spun out operation takes. If rendering a final frame takes four or five hours, then the few minutes of overhead of copying data around and spawning process is pretty much trivial in comparison! When doing many smaller, more granular operations that might take microseconds, even milliseconds of overhead to spawn new processes will completely obliterate the benefits of parallel operation. It's just a question of what scale you are working at, how long your operations take, how much benefit you can get out of different strategies in different contexts, etc. A solution that's perfect for an offline render taking hours may not apply to an interactive session with a client hovering over the artists shoulder asking for some tweaks before the job gets sent off for final renders. 
+Thank you good sir
+Same. I like getting hard copies of textbooks and coding books. It just seems easier to look stuff up at times, IMHO. And quicker. And, if you read through the book, you'll know where everything is and be able to jump right to it. How do you like it so far? I'm thinking about picking up a copy myself, despite automating some stuff at work already. It would be nice to know the "proper" way to do things, lol. 
+Can you show me an example for the code?
+Thanks!
+Unfortunately I'm on my phone atm. If no one has pointed you in the right direction by tomorrow, I will.
+Making app for ricoh theta camera using Pythonista on iPad with backend for photos using flask
+Thanks
+There are a couple ways of fixing this. One way is to indent the bottom code block an extra step, so it's in the `else`. Another is to add a `return` before the `else`.
+Very cool Which IEMs did you buy, if I must ask? Are any IEMs under 500 considered significantly better than M50 over ear studio monitors?
+And both are removable. In theory only.
+Great advice 
+I wrote it on macOS High Sierra 10.13.4.
+Al's books are all Creative Commons licensed and available free online, yknow... [http://automatetheboringstuff.com/chapter0/](http://automatetheboringstuff.com/chapter0/) [https://inventwithpython.com/](https://inventwithpython.com/) Buy a physical or digital copy if you find it useful. That's what I did after going through the first few chapters online. Also, it's just a cool book to have in one's library.
+This is the book I recommend for people asking about python. I wish you have a great time reading and practicing it. Thankx to @Al Sweigart Some of the links you might find useful https://www.udemy.com/automate/ https://automatetheboringstuff.com/ https://twitter.com/AlSweigart https://www.youtube.com/user/Albert10110 https://github.com/asweigart/readal https://m.twitch.tv/alsweigart/profile
+This is what I was thinking. Currently I'm doing the google tensor flow crash course that another user linked in this thread. I haven't really got around to it yet, but if I feel like I'm missing out or not understanding anything I'll go back to the MIT press book about deep learning. Thanks 
+So an "enter" before the first else?
+Let me introduce you to [pulovers macro creator.](http://www.macrocreator.com/) AHK can do some things that python can't, like image recognition. 
+The first time I heard them play that, the vocalist said, "you missed it". So they played it again, which was good because I had missed it.
+No, the word `return`. It tells the function to stop at that point, which means that you never have to deal with the weight at all.
+I am a bit confused. You can just remove one of them with your text editor. You don’t have to know which one is the wrong one. 
+*are Not is.
+The slippery slope to vaporwave producer.
+/u/EntityPrime just thinks Twitch has a good GUI interface.
+Is there a REST API backend that it accesses remotely, or is it some locally stored format that it uses? If it's just a wrapper around an HTTP interface, you could reverse it pretty easily. If it's on windows, you can use Fiddler to see the requests everything is making on your system, even through HTTPS. Try doing stuff on the GUI, see what goes through, then you can write your own custom Python client to hit it with `requests` or something. If it's OSX or Linux, you can use Burp proxy (also on windows, but fiddler is way easier) but that might take a lot more work getting it to proxy through Burp. Also, if the GUI application has a pinned certificate, it will prevent this without manually patching that pinning out with a disassembler/debugger. At that point you're in over your head unless you're familiar with reversing. But pinning is rare, unfortunately for the applications that could use it. If it's not using HTTP but it's remote, you could just use wireshark and sniff the try to figure out what's going on. This starts getting a lot harder. And finally, if it's locally stored stuff, you can actually try to figure out what it accesses by running something like Process Explorer (check "handles") to see what files it has open, and Process Monitor to monitor all the events like what files it opens, then save it as CSV and use ProcDOT to visualize it. Once you know the files it's opening, you can try to manually modify them... make backups of everything of course. This is a bit more dangerous for other reasons too. You can either kill the data, or accidentally modify it in a way that causes corruption that you don't notice and then later everything stops working. But sometimes, it might be a really obvious format you can easily modify. Be careful, depending on who you're doing this for and their security requirements and all that, they might really not like doing this. Sometimes these things are meant to not be reversed even if it's easy. Sometimes there's a reason they don't allow automated stuff, and they might view this as at best dangerous, at worst you "hacking" their data in a way they thought they protected against.
+Don't have CS degrees in particular, or a post-secondary degree at all?
+I need to do it programmatically because these htmls come from website that are being scraped
+Well, that's not what [monkeypatch](https://en.wikipedia.org/wiki/Monkey_patch) means, right? Only code that is passed to the wrapped interface can expect to see extended parameters. That's good because other, first- or third- party libraries, won't encounter something they don't expect. I.e. `forge` isn't changing any underlying code, and it's not providing an unexpected interface. It's providing an interface into a function, that can optionally be the only interface, if that's what a framework author uses to wrap his/her functions. (my point with the `logging.log` example in the `philosphy` docs, the example with `requests.request` in `advanced usage` and `graphql.graphql` here, was to show how much better things could be, provided the developers used that as the standard interface – which they might but probably won't do). While I appreciate the solution being "don't use code that has `*args`, and `**kwargs`, the reality is that we work with software that is open-source, and unless we want to re-implement the full-stack ourselves, then it's on us to either a) contribute to the underlying codebase, or b) improve the tooling that enables better code to be written. `forge` is tackling the `b` point.
+**Monkey patch** A monkey patch is a way for a program to extend or modify supporting system software locally (affecting only the running instance of the program). *** ^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&amp;message=Excludeme&amp;subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/Python/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot) ^] ^Downvote ^to ^remove ^| ^v0.28
+Thank you
+&gt; if I'm using some library, I would much prefer that the functions in that library have full manual signatures than forge.sign so that PyCharm can give me assistance. Unfortunately, they don't. It seems that pylint is able to work (somehow) with `attrs`, but I'm not clear on how that's happening. The benefit of open-source is that others can contribute, and I hope if they see a way to improve upon `forge`, they will! When you suggest "copying signature" what do you mean? The problem is that manually copying a "real" signature (one that is defined as the actual signature for the function) implies a need for additional testing and maintenance. I don't understand your example of `graphql` and `execute_graphql`. I think the current implementation is underwhelming. I can't tell if you agree or disagree, but it appears that you're taking issue with `*args`, and `**kwargs` being used. `@delegate_args` doesn't seem bad at all. With `typing` and `mypy`, everything still seems sort of half-baked (unfortunately).
+If you use a parser like beautifulsoup, many of their parsers will automatically “clean” the html for you. 
+Using the correct function signature is always best – unless it isn't. Consider a function `requests.request` that has 10 parameters. It has 10 neighborly functions that all also require 9 of the 10 same parameters (`requests.get`, `requests.post`, etc. share `url`, `cookies`, `headers`, etc.). Assuming you don't go the `**kwargs` route, you end up with a matrix of `parameters` x `functions`. This creates a "testing hell" situation to make sure that you're actually capturing and passing parameters properly, and it takes your code maintenance as you're then updating 10 functions. ... but of course, we're still talking about wrapping code that's defined pre-runtime. And really, half the value of `forge` is being able to define parameters at runtime (say in a decorator function that injects other parameters).
+Image recognition with Python and Tensor flow: https://www.tensorflow.org/tutorials/image_recognition Although I'll Grant you that you would have to build the whole application linking the image recognition module to the hot keying, which is more difficult than using a tool like AHK. But, to say that python cannot do image recognition is objectively false.
+Ugh... I using Python for 2 years and I'm still learning because of bugs.
+I had been told before that it was based on xml but never tried to open it with an unzip utility. Just tried (xlsx). It is indeed a folder structure with several xml files in it. Thanks!
+This book changed my life, it’s where I started too. Godspeed OP!
+I would highly recommend creating an environment for your project using Conda. This will help you manage package conflicts without having to smash your keyboard.
+Good bot
+Fantastic book and never more than an arms reach from my desk. 
+Thanks.. that helps a lot.. I am always kindof uncertain whether I am just wasting my time when I customize my setup.. For sure.. these..project management, version control policies, continuous integration, documentation, code reviews, will be company specific and I will adopt those..
+Why's it dangerous? It's still strongly typed.
+I see your point.. but I was referring to the `developer` as the user. As developers we use our laptops heavily, much more than a normal user would. Most normal users (non-programmers) dont run atom, discord, gitkraken at the same time. Maybe they have a bunch of chrome tabs open.. They dont need to by that much ram. But I think if you spend a lot of time on your computer, its worth getting the best specs you can get, especially if you are using heavy applications.
+i enrolled in a course but feel too lazy to start, tips?
+they probably have a page someplace related to API/Developers. Maybe start [here](https://earthquake.usgs.gov/fdsnws/event/1/)
+have you checked out the google genomics beta?
+I finished the full integration test a few days back. Now I am struggling with this issue, in that I have to run both import a module in a test function as well be able to run it as a script: https://www.reddit.com/r/learnpython/comments/8mf72b/how_do_i_run_the_tests_for_modulea_as_well_run/?st=jho9kfkj&amp;sh=a80c5647 After this, I will have to switch projects and start working on a excel database template. I will be using `Python` ofcourse using `xlwings`. Some people at my company are kindof hesitant, but `xlwings` is my secret weapon haha. I have done some VBAcoding which is kindof horribly, but using `Python` to create these UDF's makes it very much tolerable. 
+That's a big jump.. If you know a lot of medicine.. you can use your knowledge and combine that with knowledge in machine learning/python to get into predictive analytics. There is a lot of talk about integrating genomics, proteomics and other sensor based data for 3P type health care these days...That's a fascinating field but hasn't yet taken off.. What's your opinion on 3P? Do you think it will actually take off soonish?
+From where?
+Hate to be that guy, but have you tried googling "python ascii art"?
+Not in QA but more on the data side.. we have been clicking buttons for ever... so I did a very complicated app using pytautogui.. Pyautogui was a small but the most important part of the equation. If you use OpenCV it can do a lot more, and improves its capability to recognize images even when the screen size changes..
+What are you using these for? And why is it hell? I actually used ssh to run some GUI apps on Windows 10. Is it possible to replace ssh with `pyzmq`? Have been wondering if ssh is indeed the best tool for the job..
+I hadn't heard of it before! I just downloaded the white paper, I'll have to see how it compares to the toolset on AWS. 
+How so? 
+As a stats and computer science major that naturally gravitated towards machine learning, I find tensorflow rather unintuitive. I think your time would be better spent learning stats and machine learning as well as using the common ml stuff found in sklearn to solve some kind of problem. They provide foundations of machine learning, tensorflow is just one tool. It's like asking should I learn to be a carpenter or how to use a drill. And always ask yourself the question, is this approach necessary. Like is it a good idea to use deep learning when a logistic regression would work too. In many cases, deep learning and neural nets are completely unnecessary and come with a lot of technical debt that isn't felt until much later in the cycle. Then again, I'm the guy who tends to shoot down deep learning unless it's image stuff or we have literally no idea how to feature engineer the problem. I prefer simplicity, and deep learning really isn't that simple, it's just all the front ends that make it seem super accessible.
+Udemy José Portilla 
+o m g... i just decided to throw my V-modas out a few hours ago because the pads broke down pretty badly after a few years of usage and brushing them with my beard while they are hanging around me neck Randomly stumbled across this comment and realized i could buy new pads :O and thankfully they are still in the garbage bag with nothing bad touching them So, thank you! Any solution for the headband “paint” falling off? I don’t mind the aesthetics of it but tiny black spots stick to my skin immediately as i put them around my neck :/
+Oh dang! Glad you got them back out. Yeah the pads are replaceable!! https://www.amazon.com/dp/B00K3K8TKA/ref=cm_sw_r_cp_apa_i_S7JcBbR9AZG52 Can't help with the paint though, sorry. Mine are looking preeeeeeetty rough, everything plastic on it is broken and the headband faux leather is falling apart. But, they still sound great, and with new pads, they are super comfy.
+Smile links: Link 1: https://smile.amazon.com/dp/B00K3K8TKA/ref=cm_sw_r_cp_apa_i_S7JcBbR9AZG52 Amazon Smile is a program that donates 0.5% of your Amazon purchase to a charity at no additional cost. I am NOT affiliated with Amazon. **Parent commenter can reply with 'delete' to delete this.** ^[Github](https://github.com/hkyq/Amazon_Smile) ^| ^[Blacklist](https://www.reddit.com/message/compose/?to=Amazon_Smile&amp;subject=blacklist&amp;message=Do%20not%20change%20subject) ^| ^[Extensions](https://www.reddit.com/r/hkyq/wiki/extensions) ^| ^[About](https://www.reddit.com/r/hkyq/wiki/index) ^| ^[Problems/Suggestions](https://www.reddit.com/message/compose/?to=Amazon_Smile)
+This post is better suited for r/learnpython
+This post is better suited for r/learnpython
+my bad just posted
+This post is better suited for r/learnpython
+Too bad i’m in Europe and the shipping costs are bigger than the actual product :/ Oh well, i guess still better than a new pair of headphones And I’ll probably just take all that leather off myself then
+ Just in case this guy ever posts again and some sees his history...I did the work for him and he stiffed me. Be wary. 
+Good Luck Mate. Python is awesome.
+I read a story about a guy some time back who replaced an entire department of people with one VBS script. Oops.
+Good luck bud
+I'd use VTK. It's used by Paraview, Mayavi, and ITK and is incredible. It's a kitchen sink, which is good and bad. Need to create a custom shape like a T, super easy. Want transparency? It looks beautiful. Want element edges? Also easy. What about a legend and high resolution screenshots and the closest path between two points on a mesh of triangled geometry or a 3d stretchable box (great for positioning things)? It has that and so much more.
+I tried /u/cymrow 's suggestion and found one module that only used a limited character set and seemed to rank on darkness rather than trying to match a shape. Kind of disappointing tbh. However, there are a fair number of hits for 'python ocr' which is probably where I'd start. 
+I know this is old but I'm doing the same problem and could use some guidance if you can help, my code: wv_tax_rate = 0.01 wv_17_app = 4700000000 wv_17_budget = 4200000000 years_close = 0 new_budget = 0 new_budget = wv_17_budget while new_budget &lt; wv_17_app: new_buget = new_budget * ( 1 + wv_tax_rate ) years_close += 1 if new_budget &gt;= wv_17_app: print(years_close) break
+Another new guy here, installed py on windows and running noob code on atom. But how do I move to more intermediate level?
+Please explain to me how you would rewrite this code using forge: def foo(*args, **kwargs): print('hi') bar(*args, **kwargs) def bar(a, b, c=0): print(a + b + c) 
+Mostly scripting - automation for DevOps related tasks. 
+It's my go-to language for everything since Python's what I started with
+I use it for web development, automation and most importantly for writing tools. I mostly do game development and Python is crucial in my workflow when it comes to automating builds and tasks. I find it particularly useful for writing GUI tools as development is fast, easy and testable.
+I am just getting into Python but I recently started on what I plan to be a massive project. Basically it will analyze the current sales on steam and using several factors it will determine the best deals for you. I plan to finalize this project on a website. Because of Python's popularity, it has started to be used literally everywhere. It can be used on websites, simple scripts and large scale apps. Instagram and Reddit have many parts which rely on Python. Spotify also had lots of sections that run on Python. Spotify themselves said that "the main two places we use Python are backed services and data analysis." A better question would be "What do you not use Python for?"
+As a calculator. It's very fast to bring up and is way better than the Windows-shipped calculator. Use it for other stuff as well, of course.
+* Analysing scientific data with numpy, pandas, scipy, scikit-*. This means I don't have to read/write much R code anymore (hurray!). * Automating the routine work, so detecting when experiments have finished, writing bash scripts and sending the jobs off to the compute cluster.
+I'm doing this all using raw lxml because of the huge speed boosts it gives. Is there any documentation on how beautiful soup handles broken html? 
+I am using raw lxml mainly for speed reasons. But I will look into how beautiful soup handles the broken html 
+As an advanced calculator, simulation tool and for plotting. Basically as a free alternative to Matlab. Usually numpy, scipy and matplotlib are sufficient. 
+Super interesting! I am working in a similar project and am pretty new to it. Are you just making a restful API that will feed the React JS or are you passing variables into the templates?
+Yeah, the flask-restful app is essentially a web service or resource API that is simply feeding data into the React app on another domain. This Python app is doing all of the authentication (via Firebase) too. I'm not using any templates or anything from Flask. The "templates" in my app are the React components in the front end project.
+Anything that has a CPU (or gpu) attached to it
+At the moment, mostly personal projects. I worked enterprise HR software implementations for two years, did three years of solutions consulting for a college, and currently am doing presales consulting at a different enterprise HR software company. This presales consulting job does not require much programming, which is a shame because I have some great experience with data manipulation that's not getting put fully to use, but it pays well. 
+I work in BI/Data engineering and most juniors we hire are proficient at Excel at least one of R/Python/SQL. Just apply for senior positions, technical acumen has very little to do with hiring unless someone is a stand out expert in their discipline. If you get an interview, build a data driven application with l django and show them it during the interview. Every single person who has done this (3 / 50+) has had an offer. 
+Discord bots. I’ve done 4 Discord bots in Python and I’m about sick of it XD. I also made a game but it kinda sucked and I never really finished but it had working inventory and a little buggy survival system so it wasn’t a complete failure I suppose. It was pretty crap code tho. Did it back in December when I’d only been programming for about 4 months. I could definitely improve on the game now and I’ve thought about doing another one but I keep procrastinating plus I wanna do a game in Unity but I gotta learn C# for that and I just started coding in JS so I don’t really wanna do that yet 
+`subprocess.Popen` is often good enough. It lets you execute any shell command, including running a program.
+Yeah, I like keeping my front end separate from the backend. It allows me to swap out different backends more easily. The high level gist is: -Create a React app in a separate project -Install Axios or use the native Fetch API (to call the Python project) -Create a Python API using flask-restful and connect a database of your choice (I'm using MongoDB). Also want to enable CORS. -Test your api routes by using Postman Hahaha I personally don't like templates and prefer React/Redux since I've been coding React professionally for 2.5 years lol. If you need help, let me know.
+It's great for build automation with Jenkins. I also like to use it to impress the ladies.
+I do a lot of machine learning work, and have to deploy my models often. I’ve made several ML APIs using mostly Python. Flask, NumPy, Pandas, the works. I am not a formally-trained programmer, but have been doing it for four years and getting better each day. I think I could get a ful-time job as a programmer, not doing ML work, but I like the mixture of programming and stats in my gig. 
+Do you have any favourite things you have made that you can mention? 
+Published a beginner guide about using [read\_excel to Import an Excel File into Python. ](https://datatofish.com/read_excel/)
+I mostly use it for data cleansing and manipulation using Pandas. My goal is to use it to automate some processes and learn more about how to leverage machine learning. 
+3 essential resources for intermediate python programmers Python Pip Google End
+Sounds cool! You'll definitely learn a lot: how music files work, how to detect BPM from the audio data, how to interface w/ iTunes data... it sounds like a good project. Building something you're actually interested in makes it easier to stay with it as well.
+No, I have only read about it. People at my uni and work usually use Matlab or Python, and I like the Python syntax quite a lot. I miss the Simulink package a bit.
+I had started with [online .py tutorials](https://wiki.python.org/moin/BeginnersGuide) about a week ago and stumbled across this thread. I just got both of those courses as well. Made it through the first couple of lessons and I'm really enjoying the format so far.
+This sounds really interesting! Is there any way I can follow your project?
+System tools and other automation tools. I don't use python for any big applications, but all the smaller stuff I'm pretty exclusive with python.
+Everything. I haven't used any other language since I first picked up python. Nowadays I'd much rather run ipython than try to write a line of bash. More specifically, I use it for automation, file system cleanup, a chat bot, web scrapers, custom website apis, generating pretty plots of various stats, GUI development, reading/writing excel spreadsheets, and for writing pypi libraries, at which python especially excels.
+What GUI toolkit are you using? If you're looking to go quite far with GUIs then I recommend either learning PyQt5 (soon to be PySide2) or PyGTK (AKA PyGObject). If it's just something simple then TkInter will be good enough. After that it's basically the first tutorial on any of those languages (maybe second if first is setup). I recommend Sentdex and PythonProgramming.net for Tkinter and PyQt (you'll have to translate to PyQt5 but there's a link to a GitHub repo that has it in the comments of the first video)
+Seizure Race.
+Vec (short for vector) 
+Grand Theft Epilepsy 
+I mostly use it for bootstrap programs. Raspberry pi is fun to use it on. I made a program for my blind neighbor. He plays guitar and loves music. So I made a program he can listen to all kinds of differ Internet radio channels. Do Internet speed test. It makes sure his router is up as and connected and if Internet is up or down by testing and talking to him telling him if up or down and what his speed is when he wants to know. He can shutdown, restat, and play his bible study dvds too. So I use it for about anything or I will find a way
+I love printed books. Those books in particular also have those nice creamy feeling pages and the cover is slightly rubberized. Weird how such a small detail adds to the excitement.
+LSD: The Race
+Stair racer?
+Do you write the analysis script in Python and just write a bash script to run the Python script on the cluster (like 1 line)? Someone mentioned this to me the other day and I'm wondering if it's applicable to any situation.
+I Have No Mouth and I Must Meme
+I use it for research in mathematics and (theoretical) computer science. I have worked on a few graph labelling problems that are "periodic" in some sense. What I mean by that is, you can put a gadget (more often than not, just a path, but sometimes a string of diamonds) between two vertices and guarantee that the vertices have the same label (due to the "period" of the labelling). Python comes in when I am inventing these gadgets, and ways to put them together to prove that the labelling is hard, or has some other interesting property. I might make a family of gadgets that works when there are a small number of colours, but then use python to check whether it works (and exactly where it fails) for much larger numbers than I could do by hand. I know that some researchers, who are better programmers than I am, do something similar to generate "gadgets" for various problems using sat solvers, though they don't necessarily use Python. I use python simply because that's my strongest language. But also it's nice to use sage and numpy for some things.
+Looks like cube field
+How would you suggest using relax without this kind of behaviour? I'm working on something to do with unit tests (i.e seeing whether they now pass after a code change). Short of restarting the interpreter each time is there any way to guarantee safety?
+This is both a question, and an answer to your question.
+Car™
+OuTkrun
+Flashing Staircase
+I would give it a try if I were you. Made my studies a lot easier. But yea no simulink sucks. Sci cosim is octave alternative for simulink, but I have never used it tho. 
+LSD Car
+Epileptyk
+Yunosdl
+[Get Ready for Rush Hour](https://www.imdb.com/title/tt0111257/mediaviewer/rm4192537344)
+Gamey McGameface
+No. Restart the interpreter.
+lol,
+Flashy boy
+Fast Flashy boy
+🅱️ad 🅱️acer
+The Trip
+Engineering data solutions. Essentially creating advanced reporting files and automating white collar jobs. It's pretty fun and I hate seeing people do terrible mundane reports. 
+Dangerous in it may become a habit so when I do need to break out of the habit it may be second nature. I'm only talking new users like myself I can see forgetting this and chasing down errors not knowing what I did wrong.
+100% Resource Usage. Seriously tho, good job on this 👍
+I'm working on learning Python as I've just landed an internship and I think Python is the right way to go for what I am tasked to do. I need to create a pricing tool that will output a quote, or at least calculate it for the engineer to copy it down, and have the ability to save the configuration of the product for pulling it up later. They have a working version of this, sorta, but they need it for a different line of their inventory. I don't like Javascript and I suspect that's what the original program they have is written in. I feel like I'm in over my head, but I'm gobbling up everything I can. (most of my experience is in C++, which isn't a lot)
+Xylophone Run
+Microsoft 3D maze screensaver
+PolyRace
+LCSD Light car stair driver
+Because it s a project we made for highschool 😥
+TkGame
+Fair enough. Go you! Don't let assholes like me stop you from having fun.
+Drunk driving.
+How so? Python has worked well until now. When professors include Matlab scripts I find that rewriting it to Python also helps learning the methods albeit it takes more time. But thanks, will check it out! 
+Electric Ecstasy. Just try something catchy 
+Road Block!
+A trip to remember!
+Kickass Derby
+I use it for machine learning specifically deep learning. There are so many great deep learning libraries made for python. 
+Yeah the analysis is normally just a python script that takes command line arguments, the bash script specifies the resources the job needs on the compute cluster and check exit statuses, writes to a log file etc.
+Blocko 
+Epileptic Overdrive
+I have used it at basically every job I have had. It's a great general purpose scripting language. At home, I have used it for all sorts of stuff, a notable one is supervising cryptocurrency miners to make sure they continue to work with little manual intervention.
+Hey, this looks great! Forget the fact that it’s a high school project, a lot of seasoned programmers would struggle recreating this. Pat yourselves on the back! Be proud of this. Your next project will build on the mistakes and experiences that surfaced in this one. I can’t think of a good analogy, except for “standing on the shoulders of giants”. Only in this case, you eventually become that giant that you’re standing on! Great job.
+Stair Master
+Strobelox
+We use it on my team to produce the fastest bare metal Linux provisioner, [https://github.com/Teradata/stacki](Stacki).
+I use it at the moment to read through an excel sheet, build queries based on the data and it then runs the queries based on sheet selection which injects the data. It's a work in progress but it's working great so far for my needs. 
+Tkinter game :^)
+SideSwipe 
+"Speed 3: We're Just on Speed"
+Epileptic Turismo
+pushy
+Pallet Racer
+I haven't had a chance to watch this - I only opened it and skipped around to see what the video covered. That said, I've only ever seen tkinter imported as tk. Is there a reason to import as tkr?
+Rad Racer
+I’m looking for a download so that I can access it without internet
+RunOut
+Driving to Dodge
+You should remove the indentations in the if and elif statements: [https://pastebin.com/uSdC7d4h](https://pastebin.com/uSdC7d4h) Also semi colons are not mandatory in python, so you might want to get used to not using them to terminate statements.
+You're Gonna Get Hop-Ons: The Race
+Stair driver
+Is there a way you can format your post to be code vs a jumble of unformatted txt?
+Car: The game
+I have learn python the hard way that has computer game stuff in chapter two through whatever. The first chapter was the only one of use as it talked about text mining of CMX files. Go down load it, google the book title then add a .PDF for direct links.
+Circolous
+Seizure palace
+Caterpillar.
+seizure slalom
+Block n' Scroll Racing
+Turn that poop into wine 
+Came here to say this too. Congrats, OP and company! 
+The Flash and the Furious.
+Would you mind posting the source code? I've been interested in doing psudo3d on a tkinter canvas.
+Lmao a land mine maybe? Not many things these days have the force to cause such granular explosions like that with standard car safety ratings. Or are you looking for a purely fantasmal instance?
+Because It's There
+Epileptruck
+F-Zeromania
+Roadblock
+That's quite a mouthful for a title. 
+Air stair affair.
+Tkinter McTikinterFace
+Leptik Highway
+Want for speed
+Road "trip"
+UPDATE: after hit and trial i found a way to close those popups: from selenium import webdriver from selenium.webdriver.chrome.options import Options from selenium.webdriver.support.ui import WebDriverWait from selenium.webdriver.common.keys import Keys opt = Options() opt.add_argument("--disable-infobars") opt.add_argument("start-maximized") opt.add_argument("--disable-extensions") # Pass the argument 1 to allow and 2 to block opt.add_experimental_option("prefs", { \ "profile.default_content_setting_values.media_stream_mic": 1, "profile.default_content_setting_values.media_stream_camera": 1, "profile.default_content_setting_values.geolocation": 1, "profile.default_content_setting_values.notifications": 1 }) driver = webdriver.Chrome(chrome_options=opt, executable_path=r'C:/Users/Machine Baby/Desktop/chromedriver_win32/chromedriver.exe') driver.get('https://www.healthkart.com/sports-nutrition/proteins?navKey=CL-270') But while applying the code to scroll down till the last page no idea why it not working. lastHeight = driver.execute_script("return document.body.scrollHeight") while True: driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") newHeight = driver.execute_script("return document.body.scrollHeight") if newHeight == lastHeight: break lastHeight = newHeight
+American McGee’s Outrun
+Ambivalence for Speed
+Stairy McRainbow Stairs
+That One Battletoads Level No One Liked: The Game
+The nth comment get removed and the nth username is checked in other comments, and if the nth username is not in all comments(nth comment is already removed) it will be passed/appended in warn_usernames and afterward, the nth comment gets again added in the comments. Cycle continues usernames = ["a", "b", "c"] warn_usernames = [] comments = [["b"], ["a", "c"], ["a", "b"] n = 0 while n &lt; len(usernames): commente = comments[n] print(commente) usernamee = usernames[n] print(usernamee) comments.pop(n) if str(usernamee) not in str(comments): warn_usernames.append(usernamee) comments.insert(n, commente) n = n + 1 print(warn_usernames) result I get [] result I expect to get [c] Thanks in advance, and I hope you got my question.
+IWantAnA+ForThis
+Speed run. Make it like one of those 90’s driving games
+Coursera. Fantastic lessons. Free if you don't want a certificate. 
+Hah, I guffawed out loud at this. But agreed, well done :) 
+Wow that's pretty good!
+Psycadelic speedy!
+TronC
+Puff the magic car
+Tkinterictal
+BleacherRunTk
+LSD: Lake Shore Drive
+Fool's errand
+Caaaarn
+I'm about to faint
+"Ohh shit here comes more square boxes"
+"You won't believe what you are controlling"
+Vmodas! 
+I like it so far. It’s not super dry as I had anticipated so that helps with capturing interest as I follow along. 
+I seriously love the texture this book has. You explained it perfectly. 
+Just get after it. I work full time at a tech job and have a wife and kids at home so whenever I have an ounce of free time I feel ultra pressured to get something done for myself. I’ve set aside some time every evening to either go through a few modules on udemy or this book. Maybe try dedicating a chunk of time per day to code!
+That was my thoughts as well. A lot of the projects I’ve seen have no interest to me and if I can’t apply it anywhere to my life I’ll definitely not see it through. 
+That's actually not bad if it's a high school project and has no commercial purpose
+Xylophone car. (Seriously I thought it was a xylophone until it stopped moving.) 
+Formula errUHGhuerg: Grand Mal Tonic clonic: pole position Sped Racer
+in the same boat, telegram bots are great!
+T-Kart Turns, RoadBlockT , GoAround , TKit Turners. I'm usually good for coming up with a list of titles in a few minutes, it's sunday and this is all my brain will come up with today. 
+Hearing bad stuff about TK what’s the problem with it?
+TKinter? You masachist.
+Are you in America? Is this for private school? Which part of the class is this? This seems VERY advanced to my schools' standard.
+I wrote a password generator based on my employers industry terminology and division/region numbers and some other variables. People in the more scientific areas would have terms familiar to the and the departments they work in and so on... This idea came from the xkcd comic strip [Password Strength](https://xkcd.com/936/) 
+Thought it looked like stacked suitcases :D
+Road tripping
+Acid Trip
+Shit-storm
+You made an entire game dedicated to the hardest part of Battletoads.
+Flashy Trails! 
+Flails. *** ^(Bleep-bloop, I'm a bot. This )^[portmanteau](https://en.wikipedia.org/wiki/Portmanteau) ^( was created from the phrase 'Flashy Trails!'. To learn more about me, check out this )^[FAQ](https://www.reddit.com/78ilq0).
+Need for Speed: Epilepsy
+Xylorun.
+Add flashing police lights to the car and call it Lurch &amp; Seizure
+Marauder
+Just finished finger painting semester. Were are you at?
+Tripper
+Retro Racer
+Boxcar
+epile.py
+The need for weed.
+sorry 
+Jet slalom
+I spent a bad amount of money: the squeakal 
+If slack has that feature why can't we get Reddit to add it as well.
+It reminded me of Rad Racer as well!
+Epy.lectic
+Screamin' Staircase
+Loved it on the NES back in the days :)
+Outrun 2?
+Leftsy Rightsy
+This isn't really overloading anything. What you have is closer to the [class factory pattern](https://en.wikipedia.org/wiki/Factory_method_pattern).
+No problem. Yeah, syntax errors are the worst :'\)
+I know, it is written in the post.
+web development\(hipaa compliant patient navigation software formerly written in ruby\) and devops ish stuff\(ansible/jinja2\) I'm exploring the idea right not of a continuous integration/continuous deployment server framework right now that uses the multiprocessing module because our source code repos at work do not match up 1:1 to deployable units. What i'm realizing is that there are various patterns to how processes should work/be managed. It might end up being something similar ideas in OTP\(erlang/elixir\) though it would be a while before it was as battle hardened as OTP. For example, you may want a process that executes at some interval \(git log remote\) and keep track of the last result, detect changes. Other processes may be long running and need to report their success/failure. Still others might distribute work to a pool of workers and control their lifetimes restart if dead etc... I \&lt;3 the multiprocessing module. 
+F0: LSDeezNuts
+You could try [plotly](https://plot.ly/python/maps/), but I'm not sure how it well it will do with 250k markers. Alternatively there is also [basemap](https://matplotlib.org/basemap/).
+Used Folium to map flights in my area. Worked well. 
+Dodge Wall
+Cube driver
+Indeed! When I was in highschool I decided I wanted to learn a programing language and I started with Java. I used codecademy, and was got pretty far into the course, when I decided to send a program I made that I was proud of to my whole family. My aunt responded that I should learn python instead as it is more useful. So I immediately took her advice, got bored and discouraged for wasting all my time on Java and stopped learning programming altogether.
+Blinky Staircase Run
+Please don't. 
+Noice, I'm a sucker for tasteful chrome/50s ish looking items and those are just magnificent.
+Hippie Outrun. But seriously, looks pretty cool :) 
+It's my first personal project. Hurray!!! I get all the files under a directory. Create a list of objects with each object carrying the name, the path and the size of each and every file. I sort then based on their size and then I can save/load this list in a pickle file and view as many objects I want from the list. I don't know what I'll do from here, I have a few bugs to fix, some exceptions to handle etc. Ill also try to get it on GitHub. I'm very hyped :D Have a nice week r/Python
+Due to your comment, I made Timerit its own standalone package: https://github.com/Erotemic/timerit 
+How bout Ralphthon
+Outrun: Epilepsy 
+Car Tripping 
+In a public school in france 
+Tkintergarten Cop
+Eye fucker
+tkinter is a gui interface module that comes bundled with the base python installation, it's not meant for game creation. Not saying it can't be done as OP has shown, but it's not it's intended use.
+Looks a bit like audiosurf if u know it. Maybe its StairSurf
+Not really. From the lxml page: &gt; The support for parsing broken HTML depends entirely on libxml2's recovery algorithm. It is not the fault of lxml if you find documents that are so heavily broken that the parser cannot handle them. There is also no guarantee that the resulting tree will contain all data from the original document. The parser may have to drop seriously broken parts when struggling to keep parsing. Especially misplaced meta tags can suffer from this, which may lead to encoding problems. You've probably heard the phrase "garbage in, garbage out." This is a case in point. 
+Telegram Bots got me into python and programming! If you look at my post history you'll see what bots I've made. I'm on mobile right now, or would love to link it Do check them out and give some feed back hehe
+Need for Seizure : Underground 
+Strobe City
+I'm at adding and subtracting two digit numbers.
+My understanding is that there are just more powerful tools for game development. One of them being different libraries in Python. The industry (for offline gaming) tends to use C++ for reasons I am not experienced enough to understand. On top of that, you could just download Unreal Engine for free and start learning that instead of learning how to code. That said, I actually enjoy using Python way more than C++ or Unreal Engine. To any person who is learning to code. I would just say learn the tools available and focus on the things you enjoy. Starting out, learning the optimal tools for a specific idea are less important than exploring the potential of a new idea. You're just not going to spend a lot of time doing something that isn't fun. 
+Boxy McBoxface Simulator
+Last week I posted my `ubelt` module to some success. This week I'd like to show off my `xdoctest` module. I love doctests. I think they're great for several reasons: * they encourage test driven design, * they provide examples of how to run your code, * when developing they don't cause you to break your train of though by context-switching to a different file, * they make working with IPython super easy because you always have an entry-point into the code. I could go on about why doctests are great. I love the idea of them, but unfortunately I don't like how Python's builtin `doctest` module implements them. My main gripes are: * The regex-based "parser" in `doctest` requires the programmer to start all lines with `&gt;&gt;&gt; `, UNLESS its a line continuation, in which case the continuing lines must be prefixed with `... `. I get this from a REPL perspective, but it makes writing doctests more unpleasent than it needs to be when the Programmer can't just blindly indent all lines `&gt;&gt;&gt; `. * The `doctest` directives must be applied in-line and to one line only. * The `doctest` module insists that all stdout must be matched to expected text. Most of these issues have to do with the fact that `doctest` is based on parsing regular expressions, which just don't cut it for parsing a programming language. These issues annoyed me to the point where I decided to rewrite `doctest` using AST-based parsing instead of regular expressions. After more than a year of work, the result was `xdoctest` - a module that is almost entirely backwards compatible with doctest, but contains key extra features: * all lines can be prefixed with `&gt;&gt;&gt; `, and the AST parser will figure out where the line-continuations are. Actually, its a bit more flexible than that, but you can read the docs if you want to understand more. * Support for both inline and multiline directives. (Multiline directives are applied to all subsequent lines) * The stdout checker will only fail if you specify a "doctest want" statement. Additionally, `xdoctest` intergrates with pytest. Just `pip install xdoctest` and run `pytest --xdoc` (the `--xdoc` is required to suppress the builtin doctest plugin). However, it also contains its own internal test runner based on static analysis. Lastly, there is builtin support for Google style docstrings, which can be useful in defining which blocks of code are actually tests. That's my spiel. If you like doctests or want to start using them, give `xdoctest` a try. It is my hope that some of you will find this work useful. 
+The Briefest Case, Brief Chase, Horses for Courses: Briefcases for Horses, Joseph and the Amazing Technicolor Pile of Briefcases
+Exactly this? Mind blown.
+Poly Fuzzer
+Because life is short. Use python.
+ I'm bought Complete python bootcamp;Go from zero to hero. I stongly recommend it. The instructor set me up right. I downloaded anaconda navigator, opened up jupyter notebook, and I mimick the codes into jupyter As the instructuon video lesson plays. After I input my line of code into jupyter, I run it, and I get immediate feedback/output. The lessons are good. The course only cost me $9.99 . To move to intermediate, I know I will have to know all the basics. The Complete python bootcamp: go from zero to hero is moving me quickly into the intermediate zone. I recommend you check it out. 
+Was this with the FastMarkerCluster? Or was it just a small data set? 
+Oh ok, sorry for the misunderstanding. So I just Control + S page by page? Or is there a way to save the whole book at once?
+Oh buddy. TKinter. OOOOOF! Try Kivy next time.
+Enduro Seizure
+Evasion 
+Ohhhhh, that makes sense. So are dmg and heal variables even needed? 
+Fixed it, thanks I appreciate the help!
+Sunday Drivers
+Ploop Nips
+Call it "Give our game a name!" 
+Stairway to Heaven
+I'm sure there's a way to iterate through the site programmatically, but by hand you'd control + S page by page.
+Seizure master 9000X
+RainbowRoadForever
+Using python + kivy + postgresql for a desktop application for our family owned business. The app helps design mechanical springs and then calculates the pricing and creates PDF quotes and manufacturing instructions. The database stores spring designs and quotes and orders. I’ve been working on it part time for a few years. So far the workflow works great.
+This is really cool for a Tk project.
+Hehehe, psychedelic race
+What do you use for GUI?
+Spectral Speedway Spectral Racer Spectral Roadster Spectral Speedster Spectrum Runner Spectrun Prism Riders Prism Runner Hyper Highways May not be great titles but hope it generates some ideas. Cool looking game. Visuals are interesting, imo.
+Please use hastebin.
+My god one of my shitty libraries I made for learning has 50k plus. I now feel compelled to rewrite and send help to the poor souls who use it
+Total Shit
+coputer programing
+Road Runner 3D
+Block Dodge Whoosh Fun Dynasty.
+Seizure Party 6
+vapor snake
+Collider? I hardly know her! (Sorry. Couldn’t help myself.)
+Context is really important here, doing this in highschool is pretty neat, keep going ! 
+Flash Driver. Because of the colorful flashes while you're driving a car. To add more to this suggestion: It looks pretty neat. Reminds me of Mach Rider or some other racing games from long ago.
+Boxcar Racer
+This would require knowledge of Javascript. The xmlhttprequest function is mostly used for something called an AJAX request. This is when a page can request data from an API without refreshing the page. So, you could try and figure out in their JavaScript where they get information from the button and how it relates to the url used for the request. Then, you could parse the information from there you want. If that is beyond you, selenium seems like the option for you.
+Box runner 
+Thanks this will most likely work I’ll try when I get home
+No I don’t think this is beyond me...I can figure these steps... what ur saying makes a lot of sense. Thanks! 
+&gt; Legally scraping Just curious, how would one illegally scrape a website? (assuming the ToS has nothing to say about it) 
+You don't need to know all the detailed theory to put it use. Just enough to know what's good and bad coming out of the model. I couldn't explain anything about the actual workings of Gradient Boosting Trees but I know enough to look at overfitting and ROC AUC. Let other people figure out the math and best practices.
+Phase Unracer. 
+Good luck!
+Good luck!
+tkinterface...god damnit, thats great.
+Go Far Star Car
+COXARB = colourful xylophone avoids red blocks
+Stairmaster
+"epile.py but happy" ? 
+Hey I have a Mac, no fiddler can the free version of burp get this done? Do you have any recommendations?
+You should call it "We Should Have Used Unity!" No offense and I love Python but tKinter for a game? WHY? 🤔
+fucking shit
+hehe reddit
+Will burp do the job?
+I have Kali system a couple miles away
+Just get burpsuite pro, it quickly pays for itself if you are doing security research. For instance, you can export the proxy history entries in python request format. Also are you sure CSRF isn't going to be an issue if you are just replaying requests? I've automated several of my test cases for apps using selenium + headless chrome and the burp rest API extension, which sounds like what you are doing.
+Staircase in the 90's
+Initial Staircase
+It's also a pretty terrible GUI interface with a lot of problems that shouldn't exist.
+You may need to execute the page's JS first before doing anything. It uses ReactJS, so it's mostly guaranteed you'd be missing some elements. And also remember that Inspect Element is not the same as View Source. Here's a [SO link](https://stackoverflow.com/questions/11047348/is-this-possible-to-load-the-page-after-the-javascript-execute-using-python/11238391#11238391) on how to use Selenium with BeautifulSoup.
+Poly Dodger
+Stair Olympics
+I noticed some fools talking about how tkinter is a bad choice, I wanted to point out that using a tool in an unintended manner is the definition of hacking (the good kind), and the very reason we have such cool stuff now. Nobody ever built anything really interesting in a tool designed especially for it. You have pushed the boundaries and for that you should be proud. Pioneers I'd go so far to say. I'm a CS student who favours Python and tk, and as soon as I saw your video my mouth dropped and I whispered 'no way'. I read a lot of tk stuff and this is easily the most novel use I've encountered. I'd love to know how you did it.
+night mode
+On the same boat, except I’m still IP w/ the codecademy course. Would like tips too [:
+He should literally call it this.
+Check out Django!
+Paul Walker Simulator
+Find an existing crypto API and learn to set up your own code that can authorize and pull data from the API. 
+"Hitler died for this"
+Doing that now, thanks!
+Actually I’m learning but I not making any money yet...right now I’m just building a bot 
+And csrf might become a problem...I’m not sure I’m building an Instagram bot and I want it to follow and unfollow..
+Doesn't sound like the kind of thing that you need to do on the fly. Unless you're gonna convert user-supplied images, you can just preprocess the assets using any of a billion online image-to-ascii converters, store them as txt files, and import into the game as needed. If so, why would you care if those converters are in Python, C, JS or whatever else?
+Roadblock
+read the sidebar. it's over there -----&gt; then check out /r/learnpython 
+LSD Experience 
+Tarik
+Set small goals, break up your goal of making a cypto trading bot into smaller parts. Otherwise you will find yourself getting further along and possibly losing motivation due to design decisions you made early on and doing things in a unplanned way. Plus you're not going to get it right the first time, so the easier it is for you to start fresh the better! It will be difficult to make a trading bot that isn't painful to extend and maintain the first time around. Maybe start with reading cypto prices from a live source/api. Then maybe saving and loading those prices into a simple flat file. Maybe implement some simple analytics. At this point you've gotten some experience in the basic operations you must have to make a bot and start paper trading. Start fresh with your new insight to improve on what you did and maybe try and do some high level redesign. Second time around, improve your api usage, maybe use a database, charting data, more complex analytics.
+Flash Delirium
+stroke simulator 2018
+You could try Leaflet. 
+/r/outrun for context
+Here's a sneak peek of /r/outrun using the [top posts](https://np.reddit.com/r/outrun/top/?sort=top&amp;t=year) of the year! \#1: [I call it RetroRoad](https://i.redd.it/xmep2m1cv9501.gif) | [544 comments](https://np.reddit.com/r/outrun/comments/7l99c5/i_call_it_retroroad/) \#2: [Dash on my 1986 Corvette](https://i.redd.it/2bw2k91crgy01.jpg) | [615 comments](https://np.reddit.com/r/outrun/comments/8k6se9/dash_on_my_1986_corvette/) \#3: [Together forever](https://i.redd.it/fle2mqo9jqw01.jpg) | [360 comments](https://np.reddit.com/r/outrun/comments/8i28ym/together_forever/) ---- ^^I'm ^^a ^^bot, ^^beep ^^boop ^^| ^^Downvote ^^to ^^remove ^^| [^^Contact ^^me](https://www.reddit.com/message/compose/?to=sneakpeekbot) ^^| [^^Info](https://np.reddit.com/r/sneakpeekbot/) ^^| [^^Opt-out](https://np.reddit.com/r/sneakpeekbot/comments/7o7jnj/blacklist/)
+I use python for anything and everything I possibly can. 😁
+Steam Will Allow Anything. See. 
+You have my vote, sir
+How do you program a game in tkinter ? , I thought you should use pygame or something. Please enlighten me 😂😂😂
+Probably something along the lines: &gt; if __name__ == "__main__": Maybe start by deciding with which API you want to make your crypto bot. If you don't know what an API is, start learning about that there will probably be examples play around with them and see what's possible. Then you can think about what exactly your bot should do and start writing small functions for specific tasks and slowly get everything together.
+Stairplechase
+I know nothing of the pros and cons of geoplot but you should post on /r/LearnPython for anaconda help. It really shouldn’t be hard
+Jesus and the technicolor staircase 
+I used to play a very similar f1 game back in 1988.
+Epilepsy tester 
+Hi there, from the /r/Python mods. We have removed this post as it is not suited to the /r/Python subreddit proper, however it should be very appropriate for our sister subreddit /r/LearnPython. We **highly encourage** you to re-submit your post over on there. The reason for the removal is that /r/Python is dedicated to discussion of Python news, projects, uses and debates. It is not designed to act as Q&amp;A or FAQ board. The regular community is not a fan of "how do I..." questions, so you will not get the best responses over here. On /r/LearnPython the community is actively expecting questions and are looking to help. You can expect far more understanding, encouraging and insightful responses over there. No matter what level of question you have, if you are looking for help with Python, you should get good answers. If you have a question to do with homework or an assignment of any kind, please make sure to read their sidebar rules **before** submitting your post. If you have any questions or doubts, feel free to reply or send a modmail to us with your concerns. Warm regards, and best of luck with your Pythoneering!
+I wanted to make a GUI application in Python once and I chose tkinter because it's already available with Python. I was then immediately enraged when I discovered that ttk widgets still look like garbage on Linux and decided on wxWidgets instead.
+First of all, don't use Tinker or python to make a game. 
+Rainbow dash..? 
+EpileSpeed 3
+Aggressive Driving Simulator. 
+Before you start your project, make a flowchart and plan some stuff in advance. Will save you days of stress 
+Seizure Procedure 
+Dodge Blocks
+Hey will burp or Wireshark do the job? I have a Kali setup a couple miles away I can access tomorow 
+Tkinter Toyz
+What did you switch from?
+What about 'Untitled'
+LA Commute
+Just read `/sys/class/power_supply/battery/capacity` - it'll give you a charge percentage 
+Xylophone cube dodger.
+Python, game, tkinter in one sentence. I guess... Why not. I would call it "A python game, powered by tkinter"
+ZOOM 'cause it's like Doom, but not
+School project...
+Forza Epilepsy
+Retro Rider
+I'll take "confusing parallax" for $400, Alex.
+I write scripts that help us test our product better/faster or help me in QA personally. I also used it for some simple data analysis in the past.
+Ĉu vi parolas Esperanton?
+Twisted, Tornado or Asyncio are ways to run code in a multi-threaded way so that you for example could run 4 scrapers at once in parallel. Personally I would prefer asyncio but for a web scraper I think I'd go with neither of those. I'd rather write a stateless scrapy module you can execute standalone if you want. Then I'd run it with rq which is a job manager. rq worker can be set to run 4 jobs at once for example. So one python script could go through your known URLs database and launch jobs by adding them to a "queue", which can be as simple as a redis server. And then the rq worker will execute these scraping jobs in parallel by executing your scraping module/program. Then the job launching program I mentioned earlier can go through finished jobs and save their result in the DB. The job launcher could be a daemon written with asyncio. I hope that make sense, english is not my first language and I'm self-taught with Python but I have written setups like this before using all the aforementioned frameworks at different times.
+&gt; Ĉu vi parolas Esperanton? There is no such thing as a universal language.
+Tracerrrr
+I did the same search about 6 months ago and ended up with pelican. It’s running on gcp free and I’ve extended the make file to allow me to create and update directly to there.
+No language could be universal in the same way math is, however its definitely possible for a language to be universal for us humans. So I take it that you dont speak esperanto?
+Tunnel McPythonface
+For a single language to be universal, 100% of humans have to speak it. So yes, it is definitely possible, but no it is not very probable. I don't speak esperanto, though the project itself was pretty interesting. I also find the idea that the language you speak alters the way you think to be a pretty interesting idea.
+Didn't know about hastebin until now. Thanks, that's one more useful utility to have!
+PowerBi shit because management can't be arsed to learn Fischer Price the software. fml
+&gt; Twisted, Tornado or Asyncio are ways to run code in a multi-threaded way so that you for example could run 4 scrapers at once in parallel. None of those three is multi-threaded. They are event-driven asynchronous networking libraries, using a single thread.
+This question gets asked all the time. A quick and simple search will yield you many results. Also read this subreddit's sidebar as well as r/learnpython's sidebar and wiki.
+I understood. I was learning from Bootcamp but can't make any real project.
+Lektor er undoubtful the best. Having a CMS despite being a static site generator is a killer feature IMO.
+I guess the point is that they're non-blocking in the main thread so you defer blocking actions. I probably used the wrong terminology calling them multi-threaded. I use twisted.internet reactor for a few RPC API microservices that handle a lot of connections this way. And I've used tornado.web and tornado.ioloop with asyncio to write a web service API that could also handle many connections. But all of this was in one main thread by deferring blocking tasks with coroutines or twisted.internet.defer.
+Tkinterrace
+There's no meaningful answer to this question, because it all depends on what you see as your specific priorities. For instance **hugo** is *ridiculously* fast compared to every Python, Ruby, etc generator out there, but is a fast build your highest priority? Alternatively, **jekyll** has a very large community, but compared to **hugo** is agonizingly slow, and if you don't know ruby isn't all that hackable. Speaking of hacking, well since you're asking in a Python forum, yeah **pelican** is a good choice... but it's also slow, doesn't have as wide or deep a community, and how often is hacking the builder itself really a need? And then there's **hakyll**, for those with a deep bent towards functional programming.
+DiscoDrive
+&gt; I guess the point is that they're non-blocking in the main thread so you defer blocking actions. I probably used the wrong terminology calling them multi-threaded. I pointed it out because I think it's an important distinction. Python has a bit of a reputation (and from what I can tell, mostly deservedly so) of being bad at multi-threading. Things like the GIL make it not as performant. Also in multi-threaded applications you end up with problems like race conditions and you often need to wrap a lot of things in locks. In a non-blocking/asynchronous application where you have an event loop scheduling execution of tasks and handling network IO non-blocking you only have a single thread, so the GIL doesn't come into play and because only one coroutine/task will run at any given moment, race conditions and locking are not a problem (generally). That's why async/await in Python 3 is such a big deal, writing async code is (in my opinion) a lot easier and safer than threaded code.
+With a project like this, like GUIs, it's important to assess the look and us. Pelican doesn't appear to have any screenshots or example implementations on their website and the themes I could find looked basic. If it's static generation, you aren't writing code, and don't need to limit yourself to python therefore. Why not use Jekyll or Hugo?
+CubeRacr
+Autism Auto.
+If you have no idea how to make what you're calling the real project - you probably need to scale waaay down. Like for the video games one should not start with arkanoid, but with a tiny text dungeon, and if it is still hard, then go for a guess number game.
+You oughtta see the sequel.
+didnt think of it this way..will have a look at jekyll and hugo 
+that is a great feature.. thank you.
+Blocky Racer
+That's understandable, but remember that the actual work of static site generation is really just pulling together a dictionary (via config and front matter), rendering some templates, maybe doing some markdown conversion, and then putting the results in a folder tree. In other words how often do you need (or want) to be changing the generator itself, vs the templates? The templates are their own DSL, after all, though they tend to be pretty similar. That said if part of your goal is to contribute to the generator itself, that's great. Personally I just want it to work, and ideally to work fast.
+&gt; use it with scrapy Scrapy is built on top of Twisted, so when you are using Scrapy you are already using Twisted.
+I'm applauding you for jumping head\-first into crypto trading right after getting your feet wet on Codecademy ! Like others pointed out *the most important* thing is* start smal*l and gradually build on top of what you've got as you learn. Many of us making the mistake of having the fundamentals down and wanted to build kickass applications right off the spot. It doesn't work that way. At least not always. Don't get discouraged by initial failures because dealing with programming problems is an art in itself. Something you'll develop overtime. One more thing that has helped me a ton is to be thankful what you've learned so far. Acknowledge that there were times that you didn't even know what Python is. You didn't know what is generator, object types or procedural programming. Give yourself credit for learning a cool skill !
+Jambo
+You should ask 4chan to name it for you, what could go wrong?
+yeah, then its not scraping. Just API requests which usually has throttling
+Rektagon
+need for speeed
+What will main differences be from standard Qt cpp development ?
+Asked myself the exact same question... 
+I wrote [athena](http://github.com/apas/athena). It's elegant, minimalist, and simple.
+is it just me dubious of QT for python not having *any* screenshots of the results?
+I think you need to donwload ffmpeg. That's a dependency of the youtube-dl. just: sudo apt-get install ffmpeg. That might work 
+If anyone is interested, PM me. We have limited spots open b/c of shortage of hardware. PM via reddit or FB: https://www.facebook.com/OneSmartLab/posts/2105647302987426 
+Download per month or week will be more interesting. Anyway, thanks!
+it still says invalid syntax
+Down To The Wire
+This is quite interesting since Shiboken can be used on other C++ projects too. And Qt for Python is needed. We need something better than TkInter. I tried Kivy for over a year ago which suffered to much from a wannabe solution, while not being ready. The other Qt lib is just a monster when it comes to licensing. 
+What why is the second half of rheine beginning with 'b1' breaking after " 'open " ?
+It looks exactly the same as the C++ version.
+Yes. Qt applications written in Python look the same as Qt applications written in C++. That's kind of the point of a GUI library ;) Qt for Python is not exactly a *new* thing either — the earliest versions of PyQt (as PyKDE) was around in 1999.
+Yes. Qt applications written in Python look the same as Qt applications written in C++. That's kind of the point of a GUI library ;) Qt for Python isn't exactly *new* either — the earliest versions of PyQt (as PyKDE) were around in 1999. The difference here is just official support for Python from the Qt project itself.
+Odd if they expect someone to view a different language to see what the library for another language has to offer. 
+'Block Evade'
+5he9e is thypon porgramm1ng in and0rid
+Nothing much, the API is virtually the same.
+Interesting survey. Tbh for me it depends mostly on the used frameworks and tutorial. For instance if I'm setting up a Flask project and the howto uses environment variables, I use those. 
+There's a *lot* of context missing from these questions. Let's start with what you even mean by "project configuration"? You mean how the end-user configs the software? How I config the build environment? How I config python itself? Then what's all that web-specific stuff in the other questions?
+He uses the keyboard. Like J and F have the rase for the start for your hands for home row keys. Then you have the up and down, left and right keys. Just make them what he likes or can use and can go back to. For the output on speech. I use Linux so I got Linux on his computer and use espeak. It will work for any platform I think.
+The Brain Pain Train
+What I meant by "project configuration": Many applications behave differently depending on some parameters (such as database connection string; logging level; path to template folders etc). Some of us configure such parameters from plain text config files. Some - from environment variables (see `https://12factor.net/config`). In scope of this topic I am not so interested in end-user point of view or python configurations (do you mean virtualens and such?). And could you please clarify what you mean by web-specific stuff? (django settings was mentioned just as an example of configuration file)
+Writing a Python bot for algorithmic trading cryptocurrencies. My bot is such a stupid trader! ;)
+There's been a bit of up/down voting for the article, and I was hoping I could open up a discussion on what's good or bad about the article. I plan to do more like it, and want to make sure I produce good quality articles.
+70percent
+wxPython is definitely better than Tkinter. At least in my mind. I am excited about this new project though
+PyQt5 is developed by another company, Riverbank computing, not Qt Corp. Riverbank's licensing is more restrictive, as they have to license Qt from Qt Corp and then they make money selling commercial licenses for PyQt5. A license for PyQt5 doesn't license Qt itself. Qt Corp making a real effort to support Python is pretty big news because Python really needs first class GUI support and for an interpreted language, the LGPL is a lot easier to work with, and if you do need a commercial license, you're only dealing with one entity, Qt Corp, and not two.
+How good is the udemy course? Also did you know much about python before? I'm really wanting to start learning to code in python 
+PyQT5 is a separate project managed by a different company. They offer GPL and commercial license versions of the Python bindings. The QT Company offers an LGPL (more permissive) license, but they have only recently started to support PySide2. PySide/PySide2 development had kind of stalled before QT decided to pick it up in the past couple of years.
+Unless you need something really fancy, I prefer wxPython to PyQT as well. The API is much simpler to work with, and it uses call to the native underlying API, not a skin like QT.
+Curious about this as well.
+It's really good and on sale for $10 on Udemy. It's taught by a Python expert and is especially for beginners but can also be for people who have coded. Goes into GUIs and Advanced Python Modules. 
+I hire python developers, and here's my take: I don't care where you get your knowledge. I care less about certifications and much more about demonstrable experience. If you don't have a way of showing work experience, then I want a nice github profile. I'm still going to test you on your knowledge during the interview process, and I can often weed you out within 5 minutes. So my general advice here, if you want it, is practice, practice, practice.
+The general advice is that certifications can be useful for traditional sysadmin roles but are ignored or occasionally seen as a downside for development jobs. (Why that is is an entirely separate discussion.) If the money isn't an issue for you, I might recommend pursuing the cert purely as a roadmap for you to evaluate where you are with your knowledge. What is your educational and work background?
+Exactly. And adding custom widgets isn't hard. Plus the community is super nice. 
+&gt; Seam carving is a novel way to crop images without losing important content in the image. This is often called “content-aware” cropping or image retargeting.
+I couldn't care less about certificates. I've also noticed (and this is anecdotal of course) that certificates are being made by less skilled developers. Usually if you are skilled then you can prove it in few minutes, and doing certificates looks to me like a waste of time and money. 
+Nice work! Python is awesome for automating stuff like that. I tried creating a music categorizer for Spotify, where it would take a playlist and split it out into Rock, Rap, EDM, etc. Problem is that Spotify stores the genre info at the artist level, not the song level. So I was getting “Luck Be a Lady” in a”Christmas” playlist. Scrapped the project.
+Just finished my sophomore year in college majoring in Computer Enginneering (Basically half electrical engineering and half computer science) but I mainly want to show I'm well rounded in both which is why I want to specialize in Python incase if I can't get a job in computer networking. Also work as a part time bank teller. 
+Professional software developer of 20+ years and here's my take: This kind of thing might be a good way to get a job but are a terrible way to get a career. In a job, you'll use Python (or whatever). In a career, you'd be switching languages and technologies every few years (either because of fashion or because of new jobs or environmental changes). If all you know is the tool, you'll be obsolete when the tool changes. If you understand the underlying concepts you'll be comfortable in any instantiation of them. That doesn't make this class a bad idea, but it means the question as posed is impossible to answer. Scenario 1: You are a non-software person now and want to get into "the STEM field". You fall into the "job, not career" path here. Which might be fine, if all you want is a job. Just be aware that it might be a long-term dead end. Scenario 2: You've got a bunch of experience under your belt already and are looking for something fresh. $300 isn't a lot to spend on a guided introduction to a new technology, if that's how you learn best. You already have a career, this is just a tweak.
+There is wxPython
+Very cool, but I just tried playing with this and for me at least it is insanely slow to the point that it isn't runnable on standard image sizes. However by wrapping the `carve_column` and `@numba.jit` decorators (i.e. by adding two lines) I managed to get a 20x speedup and there's probably a whole lot more that can be done.
+As a followup, I managed to improve on the 20x speedup up to a 38x speedup by making the following changes: def carve_column(img): r, c, _ = img.shape energy_map = calc_energy(img) M = energy_map.copy() backtrack = np.zeros_like(M, dtype=np.int) minimum_seam(img, M, backtrack) mask = np.ones((r, c), dtype=np.bool) j = np.argmin(M[-1]) for i in reversed(range(r)): mask[i, j] = False j = backtrack[i, j] mask = np.stack([mask] * 3, axis=2) img = img[mask].reshape((r, c - 1, 3)) return img @numba.jit def minimum_seam(img, M, backtrack): r, c, _ = img.shape for i in range(1, r): for j in range(0, c): # Handle the left edge of the image, to ensure we don't index a -1 if j == 0: idx = np.argmin(M[i-1, j:j + 2]) backtrack[i, j] = idx + j min_energy = M[i-1, idx + j] else: idx = np.argmin(M[i - 1, j - 1:j + 2]) backtrack[i, j] = idx + j - 1 min_energy = M[i - 1, idx + j - 1] M[i, j] += min_energy
